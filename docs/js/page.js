@@ -23,7 +23,7 @@
       },
       {
         "#bare-iframe-link": {
-          id: 'f-images/JqueryVideoLightningIconPurple144.png',
+          id: 'demo.html',
           frameColor: '#555',
           frameBorder: '3px solid #3A0372',
           bdOpacity: 0.9,

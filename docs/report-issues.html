@@ -7,32 +7,36 @@
   <style>iframe{margin:0!important;}</style>
   <script src="https://raw.githubusercontent.com/davidjbradshaw/iframe-resizer/master/js/iframeResizer.min.js"></script>
 
-<script type="text/javascript">
-  function resize(){
-    if ('parentIFrame' in window) {
-        // Fix race condition in FireFox with setTimeout
-        setTimeout(parentIFrame.size.bind(parentIFrame),0);
-    }
+<style>
+    .intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
 }
-
-$(*Element with hover style*).hover(resize);
-  function store(){
-    this.x = this.offsetWidth;
-    this.y = this.offsetHeight;
+ 
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
 }
-
-$('textarea').each(store).on('mouseover mouseout',function(){
-    if (this.offsetWidth !== this.x || this.offsetHeight !== this.y){
-        store.call(this);
-        if ('parentIFrame' in window){
-            parentIFrame.size();
-        }
-    }
-});
-</script>
+ 
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+ 
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+    </style>
   </meta>
 <body>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdVaznob1VPOqYd65aazuOYmPUuuAlX5_Zt-OX95HFT3YI56A/viewform?embedded=true" style="width:100%; height: 100%; border:0px; display: block; margin:0px;" scrolling="no" border="0" ></iframe>
-<script>iFrameResize({log:true})</script>
+    <div class="intrinsic-container intrinsic-container-16x9">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdVaznob1VPOqYd65aazuOYmPUuuAlX5_Zt-OX95HFT3YI56A/viewform?embedded=true"  scrolling="no" border="0" allowfullscreen></iframe>
+</div>
+  <script>iFrameResize({log:true})</script>
 </body>
 </html>

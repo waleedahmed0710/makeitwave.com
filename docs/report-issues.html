@@ -68,10 +68,24 @@ $( window ).resize( function () {
 // Resize to fix all iframes on page load.
 }).resize();
 </script>
+<script>
+    var scrolling = false;
+
+$( window ).scroll( function() {
+  scrolling = true;
+});
+
+setInterval( function() {
+  if ( scrolling ) {
+    scrolling = false;
+    // Do your thang!
+  }
+}, 250 );
+</script>
   </meta>
 <body>
     <div class="intrinsic-container intrinsic-container-16x9">
-<iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSdVaznob1VPOqYd65aazuOYmPUuuAlX5_Zt-OX95HFT3YI56A/viewform?embedded=true"  scrolling="no" border="0" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" scrolling-x="enabled" style="overflow: display;" src="https://docs.google.com/forms/d/e/1FAIpQLSdVaznob1VPOqYd65aazuOYmPUuuAlX5_Zt-OX95HFT3YI56A/viewform?embedded=true"  scrolling="no" border="0" allowfullscreen></iframe>
 </div>
   <script>iFrameResize({log:true})</script>
 </body>

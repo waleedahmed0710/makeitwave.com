@@ -1,5 +1,5 @@
 
-/*--- Last Modified: June 14, 2018 - 6:13 GMT ---*/ 
+/*--- Last Modified: June 14, 2018 - 5:13 GMT ---*/ 
 
 /* ----- ----- 1080i : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION 1440 x 1080 ) ------ ----*/ 
@@ -112,7 +112,7 @@ width: 1440px;
 } 
 
 .demo-iframe {
-height: 893.5px;
+height: 443.5px;
 width: 1439px;
 background-image: url(../img/media-queries/AlienwareCurvedDisplay_L.png);
 } 
@@ -564,27 +564,27 @@ background-image: url(../img/demo-content/emby/Iphone4_L-content.png);
 /* ----- ----- LOGICAL RESOLUTION 568 x 320 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 567.5px)
-and (max-device-width: 568.5px)
-and (min-device-height: 319.5px)
-and (max-device-height: 320.5px)
+and (min-device-width: 1135.5px)
+and (max-device-width: 1136.5px)
+and (min-device-height: 639.5px)
+and (max-device-height: 640.5px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 314.5px;
-width: 568px;
+height: 634.5px;
+width: 1136px;
 } 
 
 .demo-iframe {
 height: 313.5px;
-width: 567px;
+width: 1135px;
 background-image: url(../img/media-queries/Iphone5_L.png);
 } 
 
 .demo-emby-div { 
-height: 314.5px;
-width: 568px;
+height: 634.5px;
+width: 1136px;
 background-image: url(../img/demo-content/emby/Iphone5_L-content.png);
 } 
 } 
@@ -1268,6 +1268,39 @@ background-image: url(../img/media-queries/XiaomiMiMIX2_L.png);
 height: 354.5px;
 width: 720px;
 background-image: url(../img/demo-content/emby/XiaomiMiMIX2_L-content.png);
+} 
+} 
+
+
+/* ----- ----- MyHPLaptop : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1366 x 768 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 1366 x 768 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1365.5px)
+and (max-device-width: 1366.5px)
+and (min-device-height: 767.5px)
+and (max-device-height: 768.5px)
+only screen and (-o-min-device-pixel-ratio: 13/10),
+only screen and (min-resolution: 120dpi),
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 762.5px;
+width: 1366px;
+} 
+
+.demo-iframe {
+height: 761.5px;
+width: 1365px;
+background-image: url(../img/media-queries/MyHPLaptop_L.png);
+} 
+
+.demo-emby-div { 
+height: 762.5px;
+width: 1366px;
+background-image: url(../img/demo-content/emby/MyHPLaptop_L-content.png);
 } 
 } 
 

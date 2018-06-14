@@ -1,5 +1,5 @@
 
-/*--- Last Modified: June 14, 2018 - 6:16 GMT ---*/ 
+/*--- Last Modified: June 14, 2018 - 5:13 GMT ---*/ 
 
 /* ----- ----- 1080i : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 1440 x 1080 ) ------ ----*/ 
@@ -564,27 +564,27 @@ background-image: url(../img/demo-content/emby/Iphone4_P-content.png);
 /* ----- ----- LOGICAL RESOLUTION: ( 568 x 320 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 319.5px)
-and (max-device-width: 320.5px)
-and (min-device-height: 567.5px)
-and (max-device-height: 568.5px)
+and (min-device-width: 639.5px)
+and (max-device-width: 640.5px)
+and (min-device-height: 1135.5px)
+and (max-device-height: 1136.5px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 562.5px;
-width: 320px;
+height: 1130.5px;
+width: 640px;
 } 
 
 .demo-iframe {
-height: 561.5px;
-width: 319px;
+height: 1129.5px;
+width: 639px;
 background-image: url(../img/media-queries/Iphone5_P.png);
 } 
 
 .demo-emby-div { 
-height: 562.5px;
-width: 320px;
+height: 1130.5px;
+width: 640px;
 
 background-image: url(../img/demo-content/emby/Iphone5_P-content.png);
 } 
@@ -1269,5 +1269,38 @@ height: 714.5px;
 width: 360px;
 
 background-image: url(../img/demo-content/emby/XiaomiMiMIX2_P-content.png);
+} 
+} 
+
+/* ----- ----- MyHPLaptop : ( portrait ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION: ( 1366 x 768 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 1366 x 768 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 767.5px)
+and (max-device-width: 768.5px)
+and (min-device-height: 1365.5px)
+and (max-device-height: 1366.5px)
+only screen and (-o-min-device-pixel-ratio: 13/10),
+only screen and (min-resolution: 120dpi),
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: portrait) { 
+
+.demo-iframe-container { 
+height: 1360.5px;
+width: 768px;
+} 
+
+.demo-iframe {
+height: 1359.5px;
+width: 767px;
+background-image: url(../img/media-queries/MyHPLaptop_P.png);
+} 
+
+.demo-emby-div { 
+height: 1360.5px;
+width: 768px;
+
+background-image: url(../img/demo-content/emby/MyHPLaptop_P-content.png);
 } 
 } 

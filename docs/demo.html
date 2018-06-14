@@ -7,9 +7,11 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="dashboard-demo/css/mediaqueries-frames-P.css">
 <link rel="stylesheet" href="dashboard-demo/css/mediaqueries-frames-L.css"> 
+	 
 	<link rel="stylesheet" href="dashboard-demo/css/reset.css"><!-- CSS reset -->
 	<link rel="stylesheet" href="dashboard-demo/css/style.css"> <!-- Resource style -->
 	<link rel="stylesheet" href="dashboard-demo/css/frames.css">
+
 	<script src="dashboard-demo/js/modernizr.js"></script> <!-- Modernizr -->
 
 <!---ob_start(); and end/_clean are to hide the header ---> 
@@ -19,40 +21,63 @@
 
 <style>
 
-img { -ms-interpolation-mode: bicubic; }
+
+img { -ms-interpolation-mode: bicubic; 
+}
  
 
 html {
 	min-height: 99.99%;
 	overflow-y: display;
 	margin: 0px;
-	
+			animation: c 5s ease infinite;
+	/* ----- ----- Sharpens Text when Scaling ------ ----*/ 
+	 -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	text-rendering: optimizeLegibility	
 }
+
 body {
 	min-height: 99.99%;
-
 	margin: 0px;
+	 -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+		-webkit-animation: c 5s ease infinite;
+
+		text-rendering: optimizeLegibility	
 	
 }
 
  iframe {
 	min-height: 99.99%;
 	margin: 0px;
+	 -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 #head, #ifra, iframe {
 	position: absolute;
     margin: 0px;
+	 -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 	
 }
 #footer {
 	height: -1px;	
 	background-color: blue;
+	 -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 #ifra {
 	margin-bottom: -3px;
 	float: left;
+	 -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
 }
 
   </style>
@@ -94,7 +119,7 @@ html {
 
 	<title>Wave - UI Demo</title>
 </head>
-<body style="overflow-x: hidden;">
+<body style="overflow-x: hidden; background-color:#485274!important;">
 	<header class="cd-header">
 		<a href="dashboard-demo/frame_netstats.html" onclick="setIframeSrc('framez', this.href); return false" target="framez" class="logo"><img src="img/wave_app_text.png" class="logo" style="margin-top:30px;width:220px;height:auto;" alt="Logo"></a>
 		<a href="#0" class="cd-3d-nav-trigger">

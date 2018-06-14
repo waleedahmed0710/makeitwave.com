@@ -1,363 +1,232 @@
 
-/* Last Modified: June 13, 2018 - 800 hours...ish */ 
+/*--- Last Modified: June 14, 2018 - 6:13 GMT ---*/ 
 
-/* ----- ----- Iphone4_L ------ ----*/ 
+/* ----- ----- 1080i : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1440 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 480 x 360 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 475px)
-and (max-device-width: 485px)
-and (min-device-height: 315px)
-and (max-device-height: 325px)
-and (-webkit-device-pixel-ratio: 2)
+and (min-device-width: 479.5px)
+and (max-device-width: 480.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
+and (-webkit-device-pixel-ratio: 3)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 314.5px;
+height: 354.5px;
 width: 480px;
 } 
 
 .demo-iframe {
-height: 313.5px;
+height: 353.5px;
 width: 479px;
-background-image: url(../img/media-queries/Iphone4_L.png);
+background-image: url(../img/media-queries/1080i_L.png);
 } 
 
 .demo-emby-div { 
-height: 314.5px;
+height: 354.5px;
 width: 480px;
-background-image: url(../img/demo-content/emby/Iphone4_L-content.png);
+background-image: url(../img/demo-content/emby/1080i_L-content.png);
 } 
 } 
 
 
-/* ----- ----- Iphone5_L ------ ----*/ 
+/* ----- ----- 4320p : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 7680 x 4320 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 7680 x 4320 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 1129.87px)
-and (max-device-width: 1139.87px)
-and (min-device-height: 634.37px)
-and (max-device-height: 644.37px)
-and (-webkit-device-pixel-ratio: 1.1)
+and (min-device-width: 7679.5px)
+and (max-device-width: 7680.5px)
+and (min-device-height: 4319.5px)
+and (max-device-height: 4320.5px)
+and (-webkit-device-pixel-ratio: 1)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 633.9px;
-width: 1134.9px;
+height: 4314.5px;
+width: 7680px;
 } 
 
 .demo-iframe {
-height: 632.9px;
-width: 1133.9px;
-background-image: url(../img/media-queries/Iphone5_L.png);
+height: 4313.5px;
+width: 7679px;
+background-image: url(../img/media-queries/4320p_L.png);
 } 
 
 .demo-emby-div { 
-height: 633.9px;
-width: 1134.9px;
-background-image: url(../img/demo-content/emby/Iphone5_L-content.png);
+height: 4314.5px;
+width: 7680px;
+background-image: url(../img/demo-content/emby/4320p_L-content.png);
 } 
 } 
 
 
-/* ----- ----- GalaxyS3andHTC8X_L ------ ----*/ 
+/* ----- ----- 8KFullDome : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 8192 x 8192 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 8192 x 8192 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 635px)
-and (max-device-width: 645px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
+and (min-device-width: 8191.5px)
+and (max-device-width: 8192.5px)
+and (min-device-height: 8191.5px)
+and (max-device-height: 8192.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 8186.5px;
+width: 8192px;
+} 
+
+.demo-iframe {
+height: 8185.5px;
+width: 8191px;
+background-image: url(../img/media-queries/8KFullDome_L.png);
+} 
+
+.demo-emby-div { 
+height: 8186.5px;
+width: 8192px;
+background-image: url(../img/demo-content/emby/8KFullDome_L-content.png);
+} 
+} 
+
+
+/* ----- ----- AlienwareCurvedDisplay : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 2880 x 900 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 1440 x 450 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1439.5px)
+and (max-device-width: 1440.5px)
+and (min-device-height: 449.5px)
+and (max-device-height: 450.5px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 354.5px;
-width: 640px;
+height: 444.5px;
+width: 1440px;
 } 
 
 .demo-iframe {
-height: 353.5px;
-width: 639px;
-background-image: url(../img/media-queries/GalaxyS3andHTC8X_L.png);
+height: 893.5px;
+width: 1439px;
+background-image: url(../img/media-queries/AlienwareCurvedDisplay_L.png);
 } 
 
 .demo-emby-div { 
-height: 354.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/GalaxyS3andHTC8X_L-content.png);
+height: 444.5px;
+width: 1440px;
+background-image: url(../img/demo-content/emby/AlienwareCurvedDisplay_L-content.png);
 } 
 } 
 
-#REF!
 
-/* ----- ----- Iphone66s7and8_L ------ ----*/ 
+/* ----- ----- ChromebookPixel : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 2560 x 1700 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 1280 x 850 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 1330.34px)
-and (max-device-width: 1340.34px)
-and (min-device-height: 745.76px)
-and (max-device-height: 755.76px)
+and (min-device-width: 1279.5px)
+and (max-device-width: 1280.5px)
+and (min-device-height: 849.5px)
+and (max-device-height: 850.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 844.5px;
+width: 1280px;
+} 
+
+.demo-iframe {
+height: 843.5px;
+width: 1279px;
+background-image: url(../img/media-queries/ChromebookPixel_L.png);
+} 
+
+.demo-emby-div { 
+height: 844.5px;
+width: 1280px;
+background-image: url(../img/demo-content/emby/ChromebookPixel_L-content.png);
+} 
+} 
+
+
+/* ----- ----- DCI2K : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 2048 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 2044 x 1078 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 2043.5px)
+and (max-device-width: 2044.5px)
+and (min-device-height: 1077.5px)
+and (max-device-height: 1078.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1072.5px;
+width: 2044px;
+} 
+
+.demo-iframe {
+height: 1071.5px;
+width: 2043px;
+background-image: url(../img/media-queries/DCI2K_L.png);
+} 
+
+.demo-emby-div { 
+height: 1072.5px;
+width: 2044px;
+background-image: url(../img/demo-content/emby/DCI2K_L-content.png);
+} 
+} 
+
+
+/* ----- ----- DellMonitorIN1920 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1366 x 768 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 1366 x 768 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1365.5px)
+and (max-device-width: 1366.5px)
+and (min-device-height: 767.5px)
+and (max-device-height: 768.5px)
 and (-webkit-device-pixel-ratio: 1)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 745.3px;
-width: 1335.4px;
+height: 762.5px;
+width: 1366px;
 } 
 
 .demo-iframe {
-height: 744.3px;
-width: 1334.4px;
-background-image: url(../img/media-queries/Iphone66s7and8_L.png);
+height: 761.5px;
+width: 1365px;
+background-image: url(../img/media-queries/DellMonitorIN1920_L.png);
 } 
 
 .demo-emby-div { 
-height: 745.3px;
-width: 1335.4px;
-background-image: url(../img/demo-content/emby/Iphone66s7and8_L-content.png);
+height: 762.5px;
+width: 1366px;
+background-image: url(../img/demo-content/emby/DellMonitorIN1920_L-content.png);
 } 
 } 
 
 
-/* ----- ----- Iphone678+andHTC1_L ------ ----*/ 
+/* ----- ----- GalaxyS2 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 800 x 480 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 800 x 480 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 635px)
-and (max-device-width: 645px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 640px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 639px;
-background-image: url(../img/media-queries/Iphone678+andHTC1_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/Iphone678+andHTC1_L-content.png);
-} 
-} 
-
-
-/* ----- ----- GalaxyS45andNote3_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 763px)
-and (max-device-width: 773px)
-and (min-device-height: 427px)
-and (max-device-height: 437px)
-and (-webkit-device-pixel-ratio: 2.5)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 426.5px;
-width: 768px;
-} 
-
-.demo-iframe {
-height: 425.5px;
-width: 767px;
-background-image: url(../img/media-queries/GalaxyS45andNote3_L.png);
-} 
-
-.demo-emby-div { 
-height: 426.5px;
-width: 768px;
-background-image: url(../img/demo-content/emby/GalaxyS45andNote3_L-content.png);
-} 
-} 
-
-
-/* ----- ----- Pixel_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 733.47px)
-and (max-device-width: 743.47px)
-and (min-device-height: 410.39px)
-and (max-device-height: 420.39px)
-and (-webkit-device-pixel-ratio: 2.6)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 409.9px;
-width: 738.5px;
-} 
-
-.demo-iframe {
-height: 408.9px;
-width: 737.5px;
-background-image: url(../img/media-queries/Pixel_L.png);
-} 
-
-.demo-emby-div { 
-height: 409.9px;
-width: 738.5px;
-background-image: url(../img/demo-content/emby/Pixel_L-content.png);
-} 
-} 
-
-#REF!
-
-/* ----- ----- IphoneX_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 807px)
-and (max-device-width: 817px)
-and (min-device-height: 370px)
-and (max-device-height: 380px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 369.5px;
-width: 812px;
-} 
-
-.demo-iframe {
-height: 368.5px;
-width: 811px;
-background-image: url(../img/media-queries/IphoneX_L.png);
-} 
-
-.demo-emby-div { 
-height: 369.5px;
-width: 812px;
-background-image: url(../img/demo-content/emby/IphoneX_L-content.png);
-} 
-} 
-
-
-/* ----- ----- GalaxyS6_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 635px)
-and (max-device-width: 645px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
-and (-webkit-device-pixel-ratio: 4)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 640px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 639px;
-background-image: url(../img/media-queries/GalaxyS6_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/GalaxyS6_L-content.png);
-} 
-} 
-
-
-/* ----- ----- PixelXL_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 726.43px)
-and (max-device-width: 736.43px)
-and (min-device-height: 406.43px)
-and (max-device-height: 416.43px)
-and (-webkit-device-pixel-ratio: 3.5)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 406px;
-width: 731.5px;
-} 
-
-.demo-iframe {
-height: 405px;
-width: 730.5px;
-background-image: url(../img/media-queries/PixelXL_L.png);
-} 
-
-.demo-emby-div { 
-height: 406px;
-width: 731.5px;
-background-image: url(../img/demo-content/emby/PixelXL_L-content.png);
-} 
-} 
-
-
-/* ----- ----- GalaxyS7_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 635px)
-and (max-device-width: 645px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
-and (-webkit-device-pixel-ratio: 4)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 640px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 639px;
-background-image: url(../img/media-queries/GalaxyS7_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/GalaxyS7_L-content.png);
-} 
-} 
-
-
-/* ----- ----- Nokia5230_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 635px)
-and (max-device-width: 645px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
-and (-webkit-device-pixel-ratio: 1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 640px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 639px;
-background-image: url(../img/media-queries/Nokia5230_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/Nokia5230_L-content.png);
-} 
-} 
-
-
-/* ----- ----- GalaxyS2_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 795px)
-and (max-device-width: 805px)
-and (min-device-height: 475px)
-and (max-device-height: 485px)
+and (min-device-width: 799.5px)
+and (max-device-width: 800.5px)
+and (min-device-height: 479.5px)
+and (max-device-height: 480.5px)
 and (-webkit-device-pixel-ratio: 1)
 and (orientation: landscape) { 
 
@@ -380,101 +249,15 @@ background-image: url(../img/demo-content/emby/GalaxyS2_L-content.png);
 } 
 
 
-/* ----- ----- DellMonitorIN1920_L ------ ----*/ 
+/* ----- ----- GalaxyS3andNote2andHTC8XandWXGA-H : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1280 x 720 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 640 x 360 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 678px)
-and (max-device-width: 688px)
-and (min-device-height: 379px)
-and (max-device-height: 389px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 378.5px;
-width: 683px;
-} 
-
-.demo-iframe {
-height: 377.5px;
-width: 682px;
-background-image: url(../img/media-queries/DellMonitorIN1920_L.png);
-} 
-
-.demo-emby-div { 
-height: 378.5px;
-width: 683px;
-background-image: url(../img/demo-content/emby/DellMonitorIN1920_L-content.png);
-} 
-} 
-
-#REF!
-
-/* ----- ----- IpadandTFT_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 507px)
-and (max-device-width: 517px)
-and (min-device-height: 379px)
-and (max-device-height: 389px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 378.5px;
-width: 512px;
-} 
-
-.demo-iframe {
-height: 377.5px;
-width: 511px;
-background-image: url(../img/media-queries/IpadandTFT_L.png);
-} 
-
-.demo-emby-div { 
-height: 378.5px;
-width: 512px;
-background-image: url(../img/demo-content/emby/IpadandTFT_L-content.png);
-} 
-} 
-
-
-/* ----- ----- PowerBookG4_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1273.73px)
-and (max-device-width: 1283.73px)
-and (min-device-height: 848.15px)
-and (max-device-height: 858.15px)
-and (-webkit-device-pixel-ratio: 1.1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 847.7px;
-width: 1278.8px;
-} 
-
-.demo-iframe {
-height: 846.7px;
-width: 1277.8px;
-background-image: url(../img/media-queries/PowerBookG4_L.png);
-} 
-
-.demo-emby-div { 
-height: 847.7px;
-width: 1278.8px;
-background-image: url(../img/demo-content/emby/PowerBookG4_L-content.png);
-} 
-} 
-
-
-/* ----- ----- WXGA-H_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 635px)
-and (max-device-width: 645px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
+and (min-device-width: 639.5px)
+and (max-device-width: 640.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape) { 
 
@@ -486,24 +269,832 @@ width: 640px;
 .demo-iframe {
 height: 353.5px;
 width: 639px;
-background-image: url(../img/media-queries/WXGA-H_L.png);
+background-image: url(../img/media-queries/GalaxyS3andNote2andHTC8XandWXGA-H_L.png);
 } 
 
 .demo-emby-div { 
 height: 354.5px;
 width: 640px;
-background-image: url(../img/demo-content/emby/WXGA-H_L-content.png);
+background-image: url(../img/demo-content/emby/GalaxyS3andNote2andHTC8XandWXGA-H_L-content.png);
 } 
 } 
 
 
-/* ----- ----- SunWorkstation_L ------ ----*/ 
+/* ----- ----- GalaxyS45andNote3 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 640 x 360 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 571px)
-and (max-device-width: 581px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
+and (min-device-width: 639.5px)
+and (max-device-width: 640.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 354.5px;
+width: 640px;
+} 
+
+.demo-iframe {
+height: 353.5px;
+width: 639px;
+background-image: url(../img/media-queries/GalaxyS45andNote3_L.png);
+} 
+
+.demo-emby-div { 
+height: 354.5px;
+width: 640px;
+background-image: url(../img/demo-content/emby/GalaxyS45andNote3_L-content.png);
+} 
+} 
+
+
+/* ----- ----- GalaxyS6and7andEdge : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 2560 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 640 x 360 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 639.5px)
+and (max-device-width: 640.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
+and (-webkit-device-pixel-ratio: 4)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 354.5px;
+width: 640px;
+} 
+
+.demo-iframe {
+height: 353.5px;
+width: 639px;
+background-image: url(../img/media-queries/GalaxyS6and7andEdge_L.png);
+} 
+
+.demo-emby-div { 
+height: 354.5px;
+width: 640px;
+background-image: url(../img/demo-content/emby/GalaxyS6and7andEdge_L-content.png);
+} 
+} 
+
+
+/* ----- ----- GalaxyS8-9+ : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 2960 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 987 x 480 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 2959.5px)
+and (max-device-width: 2960.5px)
+and (min-device-height: 1439.5px)
+and (max-device-height: 1440.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1434.5px;
+width: 2960px;
+} 
+
+.demo-iframe {
+height: 473.5px;
+width: 2959px;
+background-image: url(../img/media-queries/GalaxyS8-9+_L.png);
+} 
+
+.demo-emby-div { 
+height: 1434.5px;
+width: 2960px;
+background-image: url(../img/demo-content/emby/GalaxyS8-9+_L-content.png);
+} 
+} 
+
+
+/* ----- ----- GalaxyTab10 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1280 x 800 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 1280 x 800 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1279.5px)
+and (max-device-width: 1280.5px)
+and (min-device-height: 799.5px)
+and (max-device-height: 800.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 794.5px;
+width: 1280px;
+} 
+
+.demo-iframe {
+height: 793.5px;
+width: 1279px;
+background-image: url(../img/media-queries/GalaxyTab10_L.png);
+} 
+
+.demo-emby-div { 
+height: 794.5px;
+width: 1280px;
+background-image: url(../img/demo-content/emby/GalaxyTab10_L-content.png);
+} 
+} 
+
+
+/* ----- ----- HitachiCM821F : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1856 x 1392 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 807 x 606 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 806.5px)
+and (max-device-width: 807.5px)
+and (min-device-height: 605.5px)
+and (max-device-height: 606.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 600.5px;
+width: 807px;
+} 
+
+.demo-iframe {
+height: 599.5px;
+width: 806px;
+background-image: url(../img/media-queries/HitachiCM821F_L.png);
+} 
+
+.demo-emby-div { 
+height: 600.5px;
+width: 807px;
+background-image: url(../img/demo-content/emby/HitachiCM821F_L-content.png);
+} 
+} 
+
+
+/* ----- ----- HTCVive : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1200 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 400 x 360 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 399.5px)
+and (max-device-width: 400.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 354.5px;
+width: 400px;
+} 
+
+.demo-iframe {
+height: 353.5px;
+width: 399px;
+background-image: url(../img/media-queries/HTCVive_L.png);
+} 
+
+.demo-emby-div { 
+height: 354.5px;
+width: 400px;
+background-image: url(../img/demo-content/emby/HTCVive_L-content.png);
+} 
+} 
+
+
+/* ----- ----- IpadandTFT : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1024 x 768 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 512 x 384 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1023.5px)
+and (max-device-width: 1024.5px)
+and (min-device-height: 767.5px)
+and (max-device-height: 768.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 762.5px;
+width: 1024px;
+} 
+
+.demo-iframe {
+height: 377.5px;
+width: 1023px;
+background-image: url(../img/media-queries/IpadandTFT_L.png);
+} 
+
+.demo-emby-div { 
+height: 762.5px;
+width: 1024px;
+background-image: url(../img/demo-content/emby/IpadandTFT_L-content.png);
+} 
+} 
+
+
+/* ----- ----- IpadPro : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1366 x 1024 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 683 x 512 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1365.5px)
+and (max-device-width: 1366.5px)
+and (min-device-height: 1023.5px)
+and (max-device-height: 1024.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1018.5px;
+width: 1366px;
+} 
+
+.demo-iframe {
+height: 505.5px;
+width: 1365px;
+background-image: url(../img/media-queries/IpadPro_L.png);
+} 
+
+.demo-emby-div { 
+height: 1018.5px;
+width: 1366px;
+background-image: url(../img/demo-content/emby/IpadPro_L-content.png);
+} 
+} 
+
+
+/* ----- ----- Iphone4 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 960 x 640 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 480 x 320 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 479.5px)
+and (max-device-width: 480.5px)
+and (min-device-height: 319.5px)
+and (max-device-height: 320.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 314.5px;
+width: 480px;
+} 
+
+.demo-iframe {
+height: 313.5px;
+width: 479px;
+background-image: url(../img/media-queries/Iphone4_L.png);
+} 
+
+.demo-emby-div { 
+height: 314.5px;
+width: 480px;
+background-image: url(../img/demo-content/emby/Iphone4_L-content.png);
+} 
+} 
+
+
+/* ----- ----- Iphone5 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1136 x 640 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 568 x 320 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 567.5px)
+and (max-device-width: 568.5px)
+and (min-device-height: 319.5px)
+and (max-device-height: 320.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 314.5px;
+width: 568px;
+} 
+
+.demo-iframe {
+height: 313.5px;
+width: 567px;
+background-image: url(../img/media-queries/Iphone5_L.png);
+} 
+
+.demo-emby-div { 
+height: 314.5px;
+width: 568px;
+background-image: url(../img/demo-content/emby/Iphone5_L-content.png);
+} 
+} 
+
+
+/* ----- ----- Iphone6-8+andHTC1andFullHD : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 736 x 414 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 735.5px)
+and (max-device-width: 736.5px)
+and (min-device-height: 413.5px)
+and (max-device-height: 414.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 408.5px;
+width: 736px;
+} 
+
+.demo-iframe {
+height: 407.5px;
+width: 735px;
+background-image: url(../img/media-queries/Iphone6-8+andHTC1andFullHD_L.png);
+} 
+
+.demo-emby-div { 
+height: 408.5px;
+width: 736px;
+background-image: url(../img/demo-content/emby/Iphone6-8+andHTC1andFullHD_L-content.png);
+} 
+} 
+
+
+/* ----- ----- Iphone6and6Sand7and8 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1334 x 750 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 1336 x 751 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1335.5px)
+and (max-device-width: 1336.5px)
+and (min-device-height: 750.5px)
+and (max-device-height: 751.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 745.5px;
+width: 1336px;
+} 
+
+.demo-iframe {
+height: 744.5px;
+width: 1335px;
+background-image: url(../img/media-queries/Iphone6and6Sand7and8_L.png);
+} 
+
+.demo-emby-div { 
+height: 745.5px;
+width: 1336px;
+background-image: url(../img/demo-content/emby/Iphone6and6Sand7and8_L-content.png);
+} 
+} 
+
+
+/* ----- ----- IphoneX : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 2436 x 1125 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 812 x 375 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 811.5px)
+and (max-device-width: 812.5px)
+and (min-device-height: 374.5px)
+and (max-device-height: 375.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 369.5px;
+width: 812px;
+} 
+
+.demo-iframe {
+height: 368.5px;
+width: 811px;
+background-image: url(../img/media-queries/IphoneX_L.png);
+} 
+
+.demo-emby-div { 
+height: 369.5px;
+width: 812px;
+background-image: url(../img/demo-content/emby/IphoneX_L-content.png);
+} 
+} 
+
+
+/* ----- ----- LenovoThinkpadT60 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1600 x 1200 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 534 x 400 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 533.5px)
+and (max-device-width: 534.5px)
+and (min-device-height: 399.5px)
+and (max-device-height: 400.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 394.5px;
+width: 534px;
+} 
+
+.demo-iframe {
+height: 393.5px;
+width: 533px;
+background-image: url(../img/media-queries/LenovoThinkpadT60_L.png);
+} 
+
+.demo-emby-div { 
+height: 394.5px;
+width: 534px;
+background-image: url(../img/demo-content/emby/LenovoThinkpadT60_L-content.png);
+} 
+} 
+
+
+/* ----- ----- LenovoThinkpadX61 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1400 x 1050 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 467 x 350 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 466.5px)
+and (max-device-width: 467.5px)
+and (min-device-height: 349.5px)
+and (max-device-height: 350.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 344.5px;
+width: 467px;
+} 
+
+.demo-iframe {
+height: 343.5px;
+width: 466px;
+background-image: url(../img/media-queries/LenovoThinkpadX61_L.png);
+} 
+
+.demo-emby-div { 
+height: 344.5px;
+width: 467px;
+background-image: url(../img/demo-content/emby/LenovoThinkpadX61_L-content.png);
+} 
+} 
+
+
+/* ----- ----- LG-G5 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 2560 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 859 x 483 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 2559.5px)
+and (max-device-width: 2560.5px)
+and (min-device-height: 1439.5px)
+and (max-device-height: 1440.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1434.5px;
+width: 2560px;
+} 
+
+.demo-iframe {
+height: 1433.5px;
+width: 2559px;
+background-image: url(../img/media-queries/LG-G5_L.png);
+} 
+
+.demo-emby-div { 
+height: 1434.5px;
+width: 2560px;
+background-image: url(../img/demo-content/emby/LG-G5_L-content.png);
+} 
+} 
+
+
+/* ----- ----- Nexus7 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1920 x 1200 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 960 x 600 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 959.5px)
+and (max-device-width: 960.5px)
+and (min-device-height: 599.5px)
+and (max-device-height: 600.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 594.5px;
+width: 960px;
+} 
+
+.demo-iframe {
+height: 1193.5px;
+width: 959px;
+background-image: url(../img/media-queries/Nexus7_L.png);
+} 
+
+.demo-emby-div { 
+height: 594.5px;
+width: 960px;
+background-image: url(../img/demo-content/emby/Nexus7_L-content.png);
+} 
+} 
+
+
+/* ----- ----- Nexus9 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1536 x 2048 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 768 x 1024 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 767.5px)
+and (max-device-width: 768.5px)
+and (min-device-height: 1023.5px)
+and (max-device-height: 1024.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1018.5px;
+width: 768px;
+} 
+
+.demo-iframe {
+height: 2041.5px;
+width: 767px;
+background-image: url(../img/media-queries/Nexus9_L.png);
+} 
+
+.demo-emby-div { 
+height: 1018.5px;
+width: 768px;
+background-image: url(../img/demo-content/emby/Nexus9_L-content.png);
+} 
+} 
+
+
+/* ----- ----- Nokia5230 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 640 x 360 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 640 x 360 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 639.5px)
+and (max-device-width: 640.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 354.5px;
+width: 640px;
+} 
+
+.demo-iframe {
+height: 353.5px;
+width: 639px;
+background-image: url(../img/media-queries/Nokia5230_L.png);
+} 
+
+.demo-emby-div { 
+height: 354.5px;
+width: 640px;
+background-image: url(../img/demo-content/emby/Nokia5230_L-content.png);
+} 
+} 
+
+
+/* ----- ----- OnePlus3 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 854 x 480 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 853.5px)
+and (max-device-width: 854.5px)
+and (min-device-height: 479.5px)
+and (max-device-height: 480.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 474.5px;
+width: 854px;
+} 
+
+.demo-iframe {
+height: 1073.5px;
+width: 853px;
+background-image: url(../img/media-queries/OnePlus3_L.png);
+} 
+
+.demo-emby-div { 
+height: 474.5px;
+width: 854px;
+background-image: url(../img/demo-content/emby/OnePlus3_L-content.png);
+} 
+} 
+
+
+/* ----- ----- Pixel : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 739 x 416 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 738.5px)
+and (max-device-width: 739.5px)
+and (min-device-height: 415.5px)
+and (max-device-height: 416.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 410.5px;
+width: 739px;
+} 
+
+.demo-iframe {
+height: 1073.5px;
+width: 738px;
+background-image: url(../img/media-queries/Pixel_L.png);
+} 
+
+.demo-emby-div { 
+height: 410.5px;
+width: 739px;
+background-image: url(../img/demo-content/emby/Pixel_L-content.png);
+} 
+} 
+
+
+/* ----- ----- PixelXL : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 2560 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 732 x 412 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 731.5px)
+and (max-device-width: 732.5px)
+and (min-device-height: 411.5px)
+and (max-device-height: 412.5px)
+and (-webkit-device-pixel-ratio: 4)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 406.5px;
+width: 732px;
+} 
+
+.demo-iframe {
+height: 405.5px;
+width: 731px;
+background-image: url(../img/media-queries/PixelXL_L.png);
+} 
+
+.demo-emby-div { 
+height: 406.5px;
+width: 732px;
+background-image: url(../img/demo-content/emby/PixelXL_L-content.png);
+} 
+} 
+
+
+/* ----- ----- PopularDevices1 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1800 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 1440 x 1152 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1439.5px)
+and (max-device-width: 1440.5px)
+and (min-device-height: 1151.5px)
+and (max-device-height: 1152.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1146.5px;
+width: 1440px;
+} 
+
+.demo-iframe {
+height: 1145.5px;
+width: 1439px;
+background-image: url(../img/media-queries/PopularDevices1_L.png);
+} 
+
+.demo-emby-div { 
+height: 1146.5px;
+width: 1440px;
+background-image: url(../img/demo-content/emby/PopularDevices1_L-content.png);
+} 
+} 
+
+
+/* ----- ----- PopularDevices2 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 2048 x 1280 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 512 x 320 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 511.5px)
+and (max-device-width: 512.5px)
+and (min-device-height: 319.5px)
+and (max-device-height: 320.5px)
+and (-webkit-device-pixel-ratio: 4)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 314.5px;
+width: 512px;
+} 
+
+.demo-iframe {
+height: 313.5px;
+width: 511px;
+background-image: url(../img/media-queries/PopularDevices2_L.png);
+} 
+
+.demo-emby-div { 
+height: 314.5px;
+width: 512px;
+background-image: url(../img/demo-content/emby/PopularDevices2_L-content.png);
+} 
+} 
+
+
+/* ----- ----- PowerBookG4 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1280 x 854 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 1279 x 854 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1278.5px)
+and (max-device-width: 1279.5px)
+and (min-device-height: 853.5px)
+and (max-device-height: 854.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 848.5px;
+width: 1279px;
+} 
+
+.demo-iframe {
+height: 847.5px;
+width: 1278px;
+background-image: url(../img/media-queries/PowerBookG4_L.png);
+} 
+
+.demo-emby-div { 
+height: 848.5px;
+width: 1279px;
+background-image: url(../img/demo-content/emby/PowerBookG4_L-content.png);
+} 
+} 
+
+
+/* ----- ----- SonyVAIO-P : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1600 x 768 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 800 x 384 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 799.5px)
+and (max-device-width: 800.5px)
+and (min-device-height: 383.5px)
+and (max-device-height: 384.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 378.5px;
+width: 800px;
+} 
+
+.demo-iframe {
+height: 377.5px;
+width: 799px;
+background-image: url(../img/media-queries/SonyVAIO-P_L.png);
+} 
+
+.demo-emby-div { 
+height: 378.5px;
+width: 800px;
+background-image: url(../img/demo-content/emby/SonyVAIO-P_L-content.png);
+} 
+} 
+
+
+/* ----- ----- SunWorkstation : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1152 x 720 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 576 x 360 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 575.5px)
+and (max-device-width: 576.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape) { 
 
@@ -526,203 +1117,108 @@ background-image: url(../img/demo-content/emby/SunWorkstation_L-content.png);
 } 
 
 
-/* ----- ----- SonyVAIO-P_L ------ ----*/ 
+/* ----- ----- Surface3 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 1280 x 720 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 795px)
-and (max-device-width: 805px)
-and (min-device-height: 379px)
-and (max-device-height: 389px)
+and (min-device-width: 1279.5px)
+and (max-device-width: 1280.5px)
+and (min-device-height: 719.5px)
+and (max-device-height: 720.5px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 378.5px;
-width: 800px;
+height: 714.5px;
+width: 1280px;
 } 
 
 .demo-iframe {
-height: 377.5px;
-width: 799px;
-background-image: url(../img/media-queries/SonyVAIO-P_L.png);
+height: 713.5px;
+width: 1279px;
+background-image: url(../img/media-queries/Surface3_L.png);
 } 
 
 .demo-emby-div { 
-height: 378.5px;
-width: 800px;
-background-image: url(../img/demo-content/emby/SonyVAIO-P_L-content.png);
+height: 714.5px;
+width: 1280px;
+background-image: url(../img/demo-content/emby/Surface3_L-content.png);
 } 
 } 
 
-/* ----- ----- HTCVive_L ------ ----*/ 
+
+/* ----- ----- TesselarXGA : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1920 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 1881 x 1411 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 395px)
-and (max-device-width: 405px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
-and (-webkit-device-pixel-ratio: 3)
+and (min-device-width: 1880.5px)
+and (max-device-width: 1881.5px)
+and (min-device-height: 1410.5px)
+and (max-device-height: 1411.5px)
+and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 354.5px;
-width: 400px;
+height: 1405.5px;
+width: 1881px;
 } 
 
 .demo-iframe {
-height: 353.5px;
-width: 399px;
-background-image: url(../img/media-queries/HTCVive_L.png);
+height: 1404.5px;
+width: 1880px;
+background-image: url(../img/media-queries/TesselarXGA _L.png);
 } 
 
 .demo-emby-div { 
-height: 354.5px;
-width: 400px;
-background-image: url(../img/demo-content/emby/HTCVive_L-content.png);
+height: 1405.5px;
+width: 1881px;
+background-image: url(../img/demo-content/emby/TesselarXGA _L-content.png);
 } 
 } 
-/* ----- ----- LenovoThinkpadX61_L ------ ----*/ 
+
+
+/* ----- ----- WideSVGA : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1024 x 600 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 984 x 577 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 461.67px)
-and (max-device-width: 471.67px)
-and (min-device-height: 345px)
-and (max-device-height: 355px)
-and (-webkit-device-pixel-ratio: 3)
+and (min-device-width: 983.5px)
+and (max-device-width: 984.5px)
+and (min-device-height: 576.5px)
+and (max-device-height: 577.5px)
+and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 344.5px;
-width: 466.7px;
+height: 571.5px;
+width: 984px;
 } 
 
 .demo-iframe {
-height: 343.5px;
-width: 465.7px;
-background-image: url(../img/media-queries/LenovoThinkpadX61_L.png);
+height: 570.5px;
+width: 983px;
+background-image: url(../img/media-queries/WideSVGA _L.png);
 } 
 
 .demo-emby-div { 
-height: 344.5px;
-width: 466.7px;
-background-image: url(../img/demo-content/emby/LenovoThinkpadX61_L-content.png);
+height: 571.5px;
+width: 984px;
+background-image: url(../img/demo-content/emby/WideSVGA _L-content.png);
 } 
 } 
-/* ----- ----- 1080i_L ------ ----*/ 
+
+
+/* ----- ----- WUXGA : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 1920 x 1200 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 640 x 400 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 475px)
-and (max-device-width: 485px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 480px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 479px;
-background-image: url(../img/media-queries/1080i_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 480px;
-background-image: url(../img/demo-content/emby/1080i_L-content.png);
-} 
-} 
-/* ----- ----- LenovoThinkpadT60_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 528.34px)
-and (max-device-width: 538.34px)
-and (min-device-height: 395px)
-and (max-device-height: 405px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 394.5px;
-width: 533.4px;
-} 
-
-.demo-iframe {
-height: 393.5px;
-width: 532.4px;
-background-image: url(../img/media-queries/LenovoThinkpadT60_L.png);
-} 
-
-.demo-emby-div { 
-height: 394.5px;
-width: 533.4px;
-background-image: url(../img/demo-content/emby/LenovoThinkpadT60_L-content.png);
-} 
-} 
-/* ----- ----- FullHD_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 635px)
-and (max-device-width: 645px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 640px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 639px;
-background-image: url(../img/media-queries/FullHD_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/FullHD_L-content.png);
-} 
-} 
-/* ----- ----- DCI2K_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 2038.92px)
-and (max-device-width: 2048.92px)
-and (min-device-height: 1072.85px)
-and (max-device-height: 1082.85px)
-and (-webkit-device-pixel-ratio: 1.1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 1072.4px;
-width: 2044px;
-} 
-
-.demo-iframe {
-height: 1071.4px;
-width: 2043px;
-background-image: url(../img/media-queries/DCI2K_L.png);
-} 
-
-.demo-emby-div { 
-height: 1072.4px;
-width: 2044px;
-background-image: url(../img/demo-content/emby/DCI2K_L-content.png);
-} 
-} 
-/* ----- ----- WUXGA_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 635px)
-and (max-device-width: 645px)
-and (min-device-height: 395px)
-and (max-device-height: 405px)
+and (min-device-width: 639.5px)
+and (max-device-width: 640.5px)
+and (min-device-height: 399.5px)
+and (max-device-height: 400.5px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: landscape) { 
 
@@ -743,13 +1239,17 @@ width: 640px;
 background-image: url(../img/demo-content/emby/WUXGA_L-content.png);
 } 
 } 
-/* ----- ----- XiaomiMiMIX2_L ------ ----*/ 
+
+
+/* ----- ----- XiaomiMiMIX2 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION 2160 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 720 x 360 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 715px)
-and (max-device-width: 725px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
+and (min-device-width: 719.5px)
+and (max-device-width: 720.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: landscape) { 
 
@@ -770,381 +1270,4 @@ width: 720px;
 background-image: url(../img/demo-content/emby/XiaomiMiMIX2_L-content.png);
 } 
 } 
-/* ----- ----- Surface3_L ------ ----*/ 
 
-@media only screen
-and (min-device-width: 1275px)
-and (max-device-width: 1285px)
-and (min-device-height: 715px)
-and (max-device-height: 725px)
-and (-webkit-device-pixel-ratio: 1.5)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 714.5px;
-width: 1280px;
-} 
-
-.demo-iframe {
-height: 713.5px;
-width: 1279px;
-background-image: url(../img/media-queries/Surface3_L.png);
-} 
-
-.demo-emby-div { 
-height: 714.5px;
-width: 1280px;
-background-image: url(../img/demo-content/emby/Surface3_L-content.png);
-} 
-} 
-/* ----- ----- HitachiCM821F_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 801.96px)
-and (max-device-width: 811.96px)
-and (min-device-height: 600.22px)
-and (max-device-height: 610.22px)
-and (-webkit-device-pixel-ratio: 2.3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 599.8px;
-width: 807px;
-} 
-
-.demo-iframe {
-height: 598.8px;
-width: 806px;
-background-image: url(../img/media-queries/HitachiCM821F_L.png);
-} 
-
-.demo-emby-div { 
-height: 599.8px;
-width: 807px;
-background-image: url(../img/demo-content/emby/HitachiCM821F_L-content.png);
-} 
-} 
-/* ----- ----- PopularDevices1_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1435px)
-and (max-device-width: 1445px)
-and (min-device-height: 1147px)
-and (max-device-height: 1157px)
-and (-webkit-device-pixel-ratio: 1.3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 1146.5px;
-width: 1440px;
-} 
-
-.demo-iframe {
-height: 1145.5px;
-width: 1439px;
-background-image: url(../img/media-queries/PopularDevices1_L.png);
-} 
-
-.demo-emby-div { 
-height: 1146.5px;
-width: 1440px;
-background-image: url(../img/demo-content/emby/PopularDevices1_L-content.png);
-} 
-} 
-/* ----- ----- AlienwareCurvedDisplay_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1435px)
-and (max-device-width: 1445px)
-and (min-device-height: 445px)
-and (max-device-height: 455px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 444.5px;
-width: 1440px;
-} 
-
-.demo-iframe {
-height: 443.5px;
-width: 1439px;
-background-image: url(../img/media-queries/AlienwareCurvedDisplay_L.png);
-} 
-
-.demo-emby-div { 
-height: 444.5px;
-width: 1440px;
-background-image: url(../img/demo-content/emby/AlienwareCurvedDisplay_L-content.png);
-} 
-} 
-/* ----- ----- PopularDevices2_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 507px)
-and (max-device-width: 517px)
-and (min-device-height: 315px)
-and (max-device-height: 325px)
-and (-webkit-device-pixel-ratio: 4)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 314.5px;
-width: 512px;
-} 
-
-.demo-iframe {
-height: 313.5px;
-width: 511px;
-background-image: url(../img/media-queries/PopularDevices2_L.png);
-} 
-
-.demo-emby-div { 
-height: 314.5px;
-width: 512px;
-background-image: url(../img/demo-content/emby/PopularDevices2_L-content.png);
-} 
-} 
-/* ----- ----- ChromebookPixel_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1275px)
-and (max-device-width: 1285px)
-and (min-device-height: 845px)
-and (max-device-height: 855px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 844.5px;
-width: 1280px;
-} 
-
-.demo-iframe {
-height: 843.5px;
-width: 1279px;
-background-image: url(../img/media-queries/ChromebookPixel_L.png);
-} 
-
-.demo-emby-div { 
-height: 844.5px;
-width: 1280px;
-background-image: url(../img/demo-content/emby/ChromebookPixel_L-content.png);
-} 
-} 
-/* ----- ----- GalaxyTab10_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1275px)
-and (max-device-width: 1285px)
-and (min-device-height: 795px)
-and (max-device-height: 805px)
-and (-webkit-device-pixel-ratio: 1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 794.5px;
-width: 1280px;
-} 
-
-.demo-iframe {
-height: 793.5px;
-width: 1279px;
-background-image: url(../img/media-queries/GalaxyTab10_L.png);
-} 
-
-.demo-emby-div { 
-height: 794.5px;
-width: 1280px;
-background-image: url(../img/demo-content/emby/GalaxyTab10_L-content.png);
-} 
-} 
-/* ----- ----- Nexus9_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 763px)
-and (max-device-width: 773px)
-and (min-device-height: 1019px)
-and (max-device-height: 1029px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 1018.5px;
-width: 768px;
-} 
-
-.demo-iframe {
-height: 1017.5px;
-width: 767px;
-background-image: url(../img/media-queries/Nexus9_L.png);
-} 
-
-.demo-emby-div { 
-height: 1018.5px;
-width: 768px;
-background-image: url(../img/demo-content/emby/Nexus9_L-content.png);
-} 
-} 
-/* ----- ----- Nexus7_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 955px)
-and (max-device-width: 965px)
-and (min-device-height: 595px)
-and (max-device-height: 605px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 594.5px;
-width: 960px;
-} 
-
-.demo-iframe {
-height: 593.5px;
-width: 959px;
-background-image: url(../img/media-queries/Nexus7_L.png);
-} 
-
-.demo-emby-div { 
-height: 594.5px;
-width: 960px;
-background-image: url(../img/demo-content/emby/Nexus7_L-content.png);
-} 
-} 
-/* ----- ----- GalaxyS7Edge_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 635px)
-and (max-device-width: 645px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
-and (-webkit-device-pixel-ratio: 4)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 640px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 639px;
-background-image: url(../img/media-queries/GalaxyS7Edge_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/GalaxyS7Edge_L-content.png);
-} 
-} 
-/* ----- ----- GalaxyS8-9+_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 735px)
-and (max-device-width: 745px)
-and (min-device-height: 355px)
-and (max-device-height: 365px)
-and (-webkit-device-pixel-ratio: 4)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 740px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 739px;
-background-image: url(../img/media-queries/GalaxyS8-9+_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 740px;
-background-image: url(../img/demo-content/emby/GalaxyS8-9+_L-content.png);
-} 
-} 
-/* ----- ----- OnePlus3_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 848.13px)
-and (max-device-width: 858.13px)
-and (min-device-height: 474.89px)
-and (max-device-height: 484.89px)
-and (-webkit-device-pixel-ratio: 2.3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 474.4px;
-width: 853.2px;
-} 
-
-.demo-iframe {
-height: 473.4px;
-width: 852.2px;
-background-image: url(../img/media-queries/OnePlus3_L.png);
-} 
-
-.demo-emby-div { 
-height: 474.4px;
-width: 853.2px;
-background-image: url(../img/demo-content/emby/OnePlus3_L-content.png);
-} 
-} 
-/* ----- ----- TesselarXGA _L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1875.51px)
-and (max-device-width: 1885.51px)
-and (min-device-height: 1405.39px)
-and (max-device-height: 1415.39px)
-and (-webkit-device-pixel-ratio: 1.1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 1404.9px;
-width: 1880.6px;
-} 
-
-.demo-iframe {
-height: 1403.9px;
-width: 1879.6px;
-background-image: url(../img/media-queries/TesselarXGA _L.png);
-} 
-
-.demo-emby-div { 
-height: 1404.9px;
-width: 1880.6px;
-background-image: url(../img/demo-content/emby/TesselarXGA _L-content.png);
-} 
-} 
-/* ----- ----- LG G5_L ------ ----*/ 
-
-@media only screen
-and (min-device-width: 853.24px)
-and (max-device-width: 863.24px)
-and (min-device-height: 477.76px)
-and (max-device-height: 487.76px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 477.3px;
-width: 858.3px;
-} 
-
-.demo-iframe {
-height: 476.3px;
-width: 857.3px;
-background-image: url(../img/media-queries/LG G5_L.png);
-} 
-
-.demo-emby-div { 
-height: 477.3px;
-width: 858.3px;
-background-image: url(../img/demo-content/emby/LG G5_L-content.png);
-} 
-} 

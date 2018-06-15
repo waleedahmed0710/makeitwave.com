@@ -1,24 +1,59 @@
 <!DOCTYPE html>
-<meta>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--<![endif]-->
+<link rel="stylesheet" href="dashboard-demo/css/mediaqueries-frames-P.css">
+<link rel="stylesheet" href="dashboard-demo/css/mediaqueries-frames-L.css"> 
+
 <style>
 
-iframe {
- display: block;
+reportbugs-iframe {
+  position: fixed;
+  display: block;
   width: 100vw;
   height: 100vh;
-  max-width: 100%;
+  max-width: 99.9%;
   margin: 0;
   padding: 0;
   border: 0 none;
   box-sizing: border-box;
   }
   * { margin:0 padding:0 }
-body { margin:0; padding:0; text-align:center }  
-#hold_my_iframe { padding:0px; margin:0 auto; width:100%; height:100% }
+  
+body { 
+  margin:0; 
+  padding:0; 
+  text-align:center;
+  overflow-y:hidden;
+} 
+
+html {
+
+  margin:0; 
+  padding:0; 
+  text-align:center;
+  overflow-y:hidden;
+  
+ }
+
+   
+
 </style>
+<script type="text/javascript"> // RELOADS WEBPAGE WHEN MOBILE ORIENTATION CHANGES  
+    window.onorientationchange = function() { 
+        var orientation = window.orientation; 
+            switch(orientation) { 
+                case 0:
+                case 90:
+                case -90: window.location.reload(); 
+                break; } 
+    };
+	</script>
+	
+<!--[if !mso]><!-- -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-
 <script>
 setInterval(function() {
 
@@ -35,7 +70,7 @@ setInterval(function() {
   </meta>
 <body>
     <table border=0 cellspacing=0 cellpadding=0 id="hold_my_iframe">
-<iframe class="iframe" class="embed-responsive-item" scrolling-x="enabled" style="overflow-x:hidden;" src="https://docs.google.com/forms/d/e/1FAIpQLSdVaznob1VPOqYd65aazuOYmPUuuAlX5_Zt-OX95HFT3YI56A/viewform?embedded=true" scrolling="yes" allowfullscreen></iframe>
+<iframe class="reportbugs-iframe" scrolling-x="enabled" style="overflow-y:hidden; max-width: 99.9%;" src="https://docs.google.com/forms/d/e/1FAIpQLSdVaznob1VPOqYd65aazuOYmPUuuAlX5_Zt-OX95HFT3YI56A/viewform?embedded=true" scrolling="yes" allowfullscreen></iframe>
 </table>
 
 </body>

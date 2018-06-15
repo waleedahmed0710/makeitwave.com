@@ -564,27 +564,27 @@ background-image: url(../img/demo-content/emby/Iphone4_P-content.png);
 /* ----- ----- LOGICAL RESOLUTION: ( 568 x 320 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 639.5px)
-and (max-device-width: 640.5px)
-and (min-device-height: 1135.5px)
-and (max-device-height: 1136.5px)
+and (min-device-width: 319.5px)
+and (max-device-width: 320.5px)
+and (min-device-height: 567.5px)
+and (max-device-height: 568.5px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 1130.5px;
-width: 640px;
+height: 562.5px;
+width: 320px;
 } 
 
 .demo-iframe {
-height: 1129.5px;
-width: 639px;
+height: 561.5px;
+width: 319px;
 background-image: url(../img/media-queries/Iphone5_P.png);
 } 
 
 .demo-emby-div { 
-height: 1130.5px;
-width: 640px;
+height: 562.5px;
+width: 320px;
 
 background-image: url(../img/demo-content/emby/Iphone5_P-content.png);
 } 
@@ -623,30 +623,30 @@ background-image: url(../img/demo-content/emby/Iphone6-8+andHTC1andFullHD_P-cont
 
 /* ----- ----- Iphone6and6Sand7and8 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 1334 x 750 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 1336 x 751 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 667 x 375 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 750.5px)
-and (max-device-width: 751.5px)
-and (min-device-height: 1335.5px)
-and (max-device-height: 1336.5px)
-and (-webkit-device-pixel-ratio: 1)
+and (min-device-width: 374.5px)
+and (max-device-width: 375.5px)
+and (min-device-height: 666.5px)
+and (max-device-height: 667.5px)
+and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 1330.5px;
-width: 751px;
+height: 661.5px;
+width: 375px;
 } 
 
 .demo-iframe {
-height: 1329.5px;
-width: 750px;
+height: 660.5px;
+width: 374px;
 background-image: url(../img/media-queries/Iphone6and6Sand7and8_P.png);
 } 
 
 .demo-emby-div { 
-height: 1330.5px;
-width: 751px;
+height: 661.5px;
+width: 375px;
 
 background-image: url(../img/demo-content/emby/Iphone6and6Sand7and8_P-content.png);
 } 
@@ -1281,8 +1281,8 @@ and (min-device-width: 767.5px)
 and (max-device-width: 768.5px)
 and (min-device-height: 1365.5px)
 and (max-device-height: 1366.5px)
-only screen and (-o-min-device-pixel-ratio: 13/10),
-only screen and (min-resolution: 120dpi),
+only screen and (-o-min-device-pixel-ratio: 13/10)
+only screen and (min-resolution: 120dpi)
 and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 

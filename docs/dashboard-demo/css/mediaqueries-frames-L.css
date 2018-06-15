@@ -564,27 +564,27 @@ background-image: url(../img/demo-content/emby/Iphone4_L-content.png);
 /* ----- ----- LOGICAL RESOLUTION 568 x 320 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 1135.5px)
-and (max-device-width: 1136.5px)
-and (min-device-height: 639.5px)
-and (max-device-height: 640.5px)
+and (min-device-width: 567.5px)
+and (max-device-width: 568.5px)
+and (min-device-height: 319.5px)
+and (max-device-height: 320.5px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 634.5px;
-width: 1136px;
+height: 314.5px;
+width: 568px;
 } 
 
 .demo-iframe {
 height: 313.5px;
-width: 1135px;
+width: 567px;
 background-image: url(../img/media-queries/Iphone5_L.png);
 } 
 
 .demo-emby-div { 
-height: 634.5px;
-width: 1136px;
+height: 314.5px;
+width: 568px;
 background-image: url(../img/demo-content/emby/Iphone5_L-content.png);
 } 
 } 
@@ -623,30 +623,30 @@ background-image: url(../img/demo-content/emby/Iphone6-8+andHTC1andFullHD_L-cont
 
 /* ----- ----- Iphone6and6Sand7and8 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION 1334 x 750 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 1336 x 751 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION 667 x 375 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 1335.5px)
-and (max-device-width: 1336.5px)
-and (min-device-height: 750.5px)
-and (max-device-height: 751.5px)
-and (-webkit-device-pixel-ratio: 1)
+and (min-device-width: 666.5px)
+and (max-device-width: 667.5px)
+and (min-device-height: 374.5px)
+and (max-device-height: 375.5px)
+and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 745.5px;
-width: 1336px;
+height: 369.5px;
+width: 667px;
 } 
 
 .demo-iframe {
-height: 744.5px;
-width: 1335px;
+height: 368.5px;
+width: 666px;
 background-image: url(../img/media-queries/Iphone6and6Sand7and8_L.png);
 } 
 
 .demo-emby-div { 
-height: 745.5px;
-width: 1336px;
+height: 369.5px;
+width: 667px;
 background-image: url(../img/demo-content/emby/Iphone6and6Sand7and8_L-content.png);
 } 
 } 
@@ -1281,8 +1281,8 @@ and (min-device-width: 1365.5px)
 and (max-device-width: 1366.5px)
 and (min-device-height: 767.5px)
 and (max-device-height: 768.5px)
-only screen and (-o-min-device-pixel-ratio: 13/10),
-only screen and (min-resolution: 120dpi),
+only screen and (-o-min-device-pixel-ratio: 13/10)
+only screen and (min-resolution: 120dpi)
 and (-webkit-device-pixel-ratio: 1)
 and (orientation: landscape) { 
 

@@ -1,0 +1,145 @@
+<html>
+<meta>
+<style>
+.wordwrapWITHWidth
+{   
+    width:400px;
+    word-wrap: break-word;
+}
+</style>
+<script src="/js/codemirror/mode/javascript/javascript.js"></script>
+
+</meta>
+<body>
+
+<input id="inputFileToLoad" type="file" onchange="encodeImageFileAsURL();" />
+<fieldset>
+<legend>Image Preview</legend>
+<div id="imgTest"></div>
+</fieldset>
+<fieldset>
+<legend>Image Data</legend>
+<div id="divDynamic" class="wordwrapWITHWidth"></div>
+</fieldset>
+<script>
+<input id="inputFileToLoad" type="file" onchange="encodeImageFileAsURL();" />
+<fieldset>
+<legend>Image Preview</legend>
+<div id="imgTest"></div>
+</fieldset>
+<fieldset>
+<legend>Image Data</legend>
+<div id="divDynamic" class="wordwrapWITHWidth"></div>
+</fieldset>
+</script>
+<script>
+      window.addEventListener("DOMContentLoaded", function(){
+        var loadEditor = function(){
+          var csrfToken = Cookie.read("csrftoken")
+
+          Layout.skin = "light"
+
+          $extend(Layout, new Events())
+
+          Actions = new EditorActions({
+            example_id:          EditorConfig.fiddle.id,
+            exampleURL:          "//jsfiddle.net/vibs2006/ed9j7epr/",
+            exampleSaveUrl:      "/_save/",
+            loadDependenciesURL: "/_get_dependencies/{lib_id}/",
+          })
+
+          Layout.render()
+
+
+          // all fully loaded
+          document.body.classList.add("fullyLoaded")
+        }
+
+        var themeHref = "/css/dist-editor-dark.css?update_14_06_2017_1"
+
+        var script = document.createElement("script")
+        script.src = "/js/_dist-editor.js?update_14_06_2017_1"
+        script.onload = loadEditor
+
+        var styleEditor    = document.createElement("link")
+        styleEditor.rel    = "stylesheet"
+        styleEditor.type   = "text/css"
+        styleEditor.id     = "editor-theme"
+        styleEditor.href   = themeHref
+        styleEditor.onload = function(){
+          document.body.appendChild(script)
+        }
+        document.body.appendChild(styleEditor)
+      })
+    </script>
+	<script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Code",
+      "name": "CONVERT Image url to Base64 in Javascript",
+      "description": "CONVERT Image url to Base64 in native Javascript. Image to Base 64 String Text ",
+      "url": "//#{JSFIDDLE.force_server}/#{edit_fiddle_path(@shell)}",
+      "dateCreated": "",
+        "author": {
+          "@type": "Person",
+          "name": "Vibs",
+            "homeLocation": "India",
+          "image": "https://www.gravatar.com/avatar/13e103998339005f47fc0ee0e46acc3b?s=80"
+        },
+      "codeSampleType": [
+        {
+          "@type": "SoftwareSourceCode",
+          "programmingLanguage": "javascript",
+          "text": "
+  function encodeImageFileAsURL() {
+
+    var filesSelected = document.getElementById(&quot;inputFileToLoad&quot;).files;
+    
+    if (filesSelected.length &gt; 0) {
+      var fileToLoad = filesSelected[0];
+      var fileReader = new FileReader();
+
+      fileReader.onload = function(fileLoadedEvent) {
+        var srcData = fileLoadedEvent.target.result; // &lt;--- data: base64
+        var newImage = document.createElement(&#39;img&#39;);
+        newImage.src = srcData;
+        document.getElementById(&quot;imgTest&quot;).innerHTML = newImage.outerHTML;
+        //alert(&quot;Converted Base64 version is &quot; + document.getElementById(&quot;imgTest&quot;).innerHTML);
+        document.getElementById(&quot;divDynamic&quot;).innerHTML = newImage.src;
+        
+        console.log(&quot;Converted Base64 version is &quot; + document.getElementById(&quot;imgTest&quot;).innerHTML);
+      } //End of fileReader.onload      
+      fileReader.readAsDataURL(fileToLoad);
+    } //End of If Loop if (filesSelected....)
+  }//End of Function encodeImageFileAsUrl
+"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "programmingLanguage": "html",
+          "text": "&lt;input id=&quot;inputFileToLoad&quot; type=&quot;file&quot; onchange=&quot;encodeImageFileAsURL();&quot; /&gt;
+&lt;fieldset&gt;
+&lt;legend&gt;Image Preview&lt;/legend&gt;
+&lt;div id=&quot;imgTest&quot;&gt;&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;fieldset&gt;
+&lt;legend&gt;Image Data&lt;/legend&gt;
+&lt;div id=&quot;divDynamic&quot; class=&quot;wordwrapWITHWidth&quot;&gt;&lt;/div&gt;
+&lt;/fieldset&gt;
+
+"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "programmingLanguage": "css",
+          "text": ".wordwrapWITHWidth
+{   
+    width:400px;
+    word-wrap: break-word;
+}"
+        }
+      ]
+    }
+  </script>
+</body>
+</html>

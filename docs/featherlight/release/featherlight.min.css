@@ -79,15 +79,16 @@ html.with-featherlight {
 .featherlight-iframe .featherlight-content {
 	border-bottom: 0;
 	padding: 0;
-	width:810px;
-	height: 810px;
+	    overflow:hidden!important;
+		    overflow-y:hidden!important;
+			 overflow-x:hidden!important;
 	-webkit-overflow-scrolling: touch
 }
 .featherlight iframe {
-	width:808px;
-	height: 800px;
 	border: 0;
-	    overflow:hidden;
+	      overflow:hidden!important;
+		    overflow-y:hidden!important;
+			 overflow-x:hidden!important;
 	-webkit-overflow-scrolling: touch
 }
 .featherlight * {
@@ -95,14 +96,74 @@ html.with-featherlight {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box
 }
-@media only screen and (max-width:1024px) {
+	
+
+@media all and (min-width:1024px){ 
 	.featherlight .featherlight-content {
 		margin-left: 0;
 		margin-right: 0;
-		max-height: 98%;
-		padding: 10px 10px 0;
-		border-bottom: 10px solid transparent
-	}
+
+}
+	.featherlight-iframe .featherlight-content {
+		height: 240px; 
+		
+}
+	.featherlight iframe {
+		height: 984px; 
+		width: 307px;
+} 
+}
+@media all and (min-width: 960px) and (max-width: 1199px) { 
+	.featherlight-iframe .featherlight-content {
+		height: 240px; 
+		
+}
+	.featherlight iframe {
+		height: 984px; 
+		width: 307px;
+} 
+}
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+	.featherlight-iframe .featherlight-content {
+		height: 240px; 
+		
+}
+	.featherlight iframe {
+		height: 984px; 
+		width: 307px;
+} 
+}
+
+@media all and (min-width: 480px) and (max-width: 767px){ 	
+	.featherlight-iframe .featherlight-content {
+		height: 240px; 
+		
+}
+	.featherlight iframe {
+		height: 984px; 
+		width: 307px;
+} 
+}
+
+@media all and (max-width: 599px) { 	
+	.featherlight-iframe .featherlight-content {
+		height: 240px; 
+		
+}
+	.featherlight iframe {
+		height: 984px; 
+		width: 307px;
+} 
+}
+@media all and (max-width: 479px) { 
+	.featherlight-iframe .featherlight-content {
+		height: 240px; 
+}
+	.featherlight iframe {
+		height: 984px; 
+		width: 307px;
+} 
 }
 @media print {
 	html.with-featherlight>*>:not(.featherlight) {

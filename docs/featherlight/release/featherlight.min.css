@@ -71,24 +71,26 @@ html.with-featherlight {
 }
 .featherlight .featherlight-close-icon::-moz-focus-inner {
 	border: 0;
-	padding: 0
+	padding: 0;
 }
 .featherlight .featherlight-image {
-	width: 100%
+	width: 100%;
 }
 .featherlight-iframe .featherlight-content {
+
 	border-bottom: 0;
 	padding: 0;
-	    overflow:hidden!important;
-		    overflow-y:hidden!important;
-			 overflow-x:hidden!important;
+	overflow:hidden!important;
+	overflow-y:hidden!important;
+    overflow-x:hidden!important;
 	-webkit-overflow-scrolling: touch
 }
 .featherlight iframe {
+
 	border: 0;
-	      overflow:hidden!important;
-		    overflow-y:hidden!important;
-			 overflow-x:hidden!important;
+	overflow:hidden!important;
+	overflow-y:hidden!important;
+	overflow-x:hidden!important;
 	-webkit-overflow-scrolling: touch
 }
 .featherlight * {
@@ -106,6 +108,7 @@ html.with-featherlight {
 }
 	.featherlight-iframe .featherlight-content {
 		height: 240px; 
+		width: 307px;
 		
 }
 	.featherlight iframe {
@@ -127,6 +130,7 @@ html.with-featherlight {
 @media all and (min-width: 768px) and (max-width: 959px) {
 	.featherlight-iframe .featherlight-content {
 		height: 240px; 
+		width: 307px;
 		
 }
 	.featherlight iframe {
@@ -137,18 +141,23 @@ html.with-featherlight {
 
 @media all and (min-width: 480px) and (max-width: 767px){ 	
 	.featherlight-iframe .featherlight-content {
-		height: 240px; 
+		height: 2000px; 
+		width: 580px;
 		
 }
 	.featherlight iframe {
-		height: 984px; 
-		width: 307px;
-} 
+		height: 2066px; 
+		width: 580px;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	
+}  
 }
 
 @media all and (max-width: 599px) { 	
 	.featherlight-iframe .featherlight-content {
 		height: 240px; 
+			width: 307px;
 		
 }
 	.featherlight iframe {
@@ -157,12 +166,35 @@ html.with-featherlight {
 } 
 }
 @media all and (max-width: 479px) { 
+
+	.featherlight .featherlight-content {
+		margin-left: -2px;
+		margin-right: 0;
+		width: 307px;
+
+}
 	.featherlight-iframe .featherlight-content {
-		height: 240px; 
+		height: 340px; 
+		width: 308px;
+		
 }
 	.featherlight iframe {
-		height: 984px; 
-		width: 307px;
+		height: 1024px; 
+		width: 460px;
+			 -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+		    -ms-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -o-transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    transform: scale(0.85);
+    
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+	
 } 
 }
 @media print {

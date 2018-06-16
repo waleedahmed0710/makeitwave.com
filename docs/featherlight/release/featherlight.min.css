@@ -79,15 +79,15 @@ html.with-featherlight {
 .featherlight-iframe .featherlight-content {
 	border-bottom: 0;
 	padding: 0;
-	width:100%;
-	height: 800px;
-    overflow-y:hidden;
+	width:810px;
+	height: 810px;
 	-webkit-overflow-scrolling: touch
 }
 .featherlight iframe {
-	width:100%;
+	width:808px;
 	height: 800px;
 	border: 0;
+	    overflow:hidden;
 	-webkit-overflow-scrolling: touch
 }
 .featherlight * {

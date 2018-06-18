@@ -1,5 +1,5 @@
 
-/*--- Last Modified: June 18, 2018 - 3:59 GMT ---*/ 
+/*--- Last Modified: June 18, 2018 - 17:08 GMT ---*/ 
 
 /* ----- ----- Iphone4 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 960 x 640 ) ------ ----*/ 
@@ -1349,7 +1349,7 @@ background-image: url(../img/demo-content/emby/Portrait-8192x8192-PR=1-content.p
 
 /* ----- ----- breakpoint filler-----00050 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 7679 x 4319 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 7679.5 x 4319 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 1439.5px)
@@ -1360,28 +1360,28 @@ and (-webkit-device-pixel-ratio: 4)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 7673.5px;
-width: 4319px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 7672.5px;
-width: 4318px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 7673.5px;
-width: 4319px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-7679x4319-PR=4-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00049 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 2959 x 1439 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 740 x 360 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 2959 x 1439 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 1410.5px)
@@ -1392,28 +1392,28 @@ and (-webkit-device-pixel-ratio: 4)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 2953.5px;
-width: 1439px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 2952.5px;
-width: 1438px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 2953.5px;
-width: 1439px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-2959x1439-PR=4-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00048 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 2559 x 1410 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 640 x 353 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 2559 x 1410 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 1151.5px)
@@ -1424,28 +1424,28 @@ and (-webkit-device-pixel-ratio: 4)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 2553.5px;
-width: 1410px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 2552.5px;
-width: 1409px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 2553.5px;
-width: 1410px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-2559x1410-PR=4-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00047 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 2043 x 1151 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 681 x 384 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 2043 x 1151 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 1077.5px)
@@ -1456,28 +1456,28 @@ and (-webkit-device-pixel-ratio: 3)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 2037.5px;
-width: 1151px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 2036.5px;
-width: 1150px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 2037.5px;
-width: 1151px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-2043x1151-PR=3-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00046 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 1880 x 1077 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 627 x 359 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 1880 x 1077 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 1023.5px)
@@ -1488,28 +1488,28 @@ and (-webkit-device-pixel-ratio: 3)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 1874.5px;
-width: 1077px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 1873.5px;
-width: 1076px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 1874.5px;
-width: 1077px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1880x1077-PR=3-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00045 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 1439 x 1023 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 480 x 341 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 1439 x 1023 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 853.5px)
@@ -1520,28 +1520,28 @@ and (-webkit-device-pixel-ratio: 3)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 1433.5px;
-width: 1023px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 1432.5px;
-width: 1022px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 1433.5px;
-width: 1023px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1439x1023-PR=3-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00044 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 1365 x 853 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 683 x 427 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 1365 x 853 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 849.5px)
@@ -1552,28 +1552,28 @@ and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 1359.5px;
-width: 853px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 1358.5px;
-width: 852px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 1359.5px;
-width: 853px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1365x853-PR=2-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00043 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 1279 x 849 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 640 x 425 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 1279 x 849 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 799.5px)
@@ -1584,28 +1584,28 @@ and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 1273.5px;
-width: 849px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 1272.5px;
-width: 848px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 1273.5px;
-width: 849px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1279x849-PR=2-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00042 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 1278 x 799 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 639 x 400 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 1278 x 799 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 767.5px)
@@ -1616,28 +1616,28 @@ and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 1272.5px;
-width: 799px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 1271.5px;
-width: 798px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 1272.5px;
-width: 799px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1278x799-PR=2-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00041 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 1023 x 767 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 512 x 384 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 1023 x 767 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 719.5px)
@@ -1648,28 +1648,28 @@ and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 1017.5px;
-width: 767px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 1016.5px;
-width: 766px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 1017.5px;
-width: 767px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1023x767-PR=2-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00040 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 983 x 719 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 492 x 360 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 983 x 719 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 605.5px)
@@ -1680,21 +1680,21 @@ and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 977.5px;
-width: 719px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 976.5px;
-width: 718px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 977.5px;
-width: 719px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-983x719-PR=2-content.png);
 } 
 } 
@@ -1712,21 +1712,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 953.5px;
-width: 605px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 952.5px;
-width: 604px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 953.5px;
-width: 605px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-959x605-PR=1-content.png);
 } 
 } 
@@ -1744,21 +1744,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 847.5px;
-width: 599px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 846.5px;
-width: 598px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 847.5px;
-width: 599px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-853x599-PR=1-content.png);
 } 
 } 
@@ -1776,21 +1776,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 805.5px;
-width: 576px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 804.5px;
-width: 575px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 805.5px;
-width: 576px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-811x576-PR=1-content.png);
 } 
 } 
@@ -1808,21 +1808,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 800.5px;
-width: 479px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 799.5px;
-width: 478px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 800.5px;
-width: 479px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-806x479-PR=1-content.png);
 } 
 } 
@@ -1840,21 +1840,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 793.5px;
-width: 449px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 792.5px;
-width: 448px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 793.5px;
-width: 449px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-799x449-PR=1-content.png);
 } 
 } 
@@ -1872,21 +1872,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 732.5px;
-width: 415px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 731.5px;
-width: 414px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 732.5px;
-width: 415px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-738x415-PR=1-content.png);
 } 
 } 
@@ -1904,21 +1904,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 729.5px;
-width: 413px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 728.5px;
-width: 412px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 729.5px;
-width: 413px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-735x413-PR=1-content.png);
 } 
 } 
@@ -1936,21 +1936,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 725.5px;
-width: 411px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 724.5px;
-width: 410px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 725.5px;
-width: 411px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-731x411-PR=1-content.png);
 } 
 } 
@@ -1968,21 +1968,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 713.5px;
-width: 399px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 712.5px;
-width: 398px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 713.5px;
-width: 399px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-719x399-PR=1-content.png);
 } 
 } 
@@ -2000,21 +2000,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 660.5px;
-width: 383px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 659.5px;
-width: 382px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 660.5px;
-width: 383px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-666x383-PR=1-content.png);
 } 
 } 
@@ -2032,21 +2032,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 633.5px;
-width: 374px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 632.5px;
-width: 373px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 633.5px;
-width: 374px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-639x374-PR=1-content.png);
 } 
 } 
@@ -2064,21 +2064,21 @@ and (-webkit-device-pixel-ratio: 1)
 and (orientation: portrait) { 
 
 .demo-iframe-container { 
-height: 569.5px;
-width: 359px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 } 
 
 .demo-iframe {
-height: 568.5px;
-width: 358px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 569.5px;
-width: 359px;
+height: calc(99.99vh);
+width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-575x359-PR=1-content.png);
 } 
 } 

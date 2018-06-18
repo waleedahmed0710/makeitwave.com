@@ -1,536 +1,9 @@
 
-/*--- Last Modified: June 14, 2018 - 5:13 GMT ---*/ 
-
-/* ----- ----- 1080i : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1440 x 1080 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 480 x 360 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 479.5px)
-and (max-device-width: 480.5px)
-and (min-device-height: 359.5px)
-and (max-device-height: 360.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 480px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 479px;
-background-image: url(../img/media-queries/1080i_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 480px;
-background-image: url(../img/demo-content/emby/1080i_L-content.png);
-} 
-} 
-
-
-/* ----- ----- 4320p : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 7680 x 4320 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 7680 x 4320 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 7679.5px)
-and (max-device-width: 7680.5px)
-and (min-device-height: 4319.5px)
-and (max-device-height: 4320.5px)
-and (-webkit-device-pixel-ratio: 1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 4314.5px;
-width: 7680px;
-} 
-
-.demo-iframe {
-height: 4313.5px;
-width: 7679px;
-background-image: url(../img/media-queries/4320p_L.png);
-} 
-
-.demo-emby-div { 
-height: 4314.5px;
-width: 7680px;
-background-image: url(../img/demo-content/emby/4320p_L-content.png);
-} 
-} 
-
-
-/* ----- ----- 8KFullDome : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 8192 x 8192 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 8192 x 8192 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 8191.5px)
-and (max-device-width: 8192.5px)
-and (min-device-height: 8191.5px)
-and (max-device-height: 8192.5px)
-and (-webkit-device-pixel-ratio: 1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 8186.5px;
-width: 8192px;
-} 
-
-.demo-iframe {
-height: 8185.5px;
-width: 8191px;
-background-image: url(../img/media-queries/8KFullDome_L.png);
-} 
-
-.demo-emby-div { 
-height: 8186.5px;
-width: 8192px;
-background-image: url(../img/demo-content/emby/8KFullDome_L-content.png);
-} 
-} 
-
-
-/* ----- ----- AlienwareCurvedDisplay : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 2880 x 900 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 1440 x 450 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1439.5px)
-and (max-device-width: 1440.5px)
-and (min-device-height: 449.5px)
-and (max-device-height: 450.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 444.5px;
-width: 1440px;
-} 
-
-.demo-iframe {
-height: 443.5px;
-width: 1439px;
-background-image: url(../img/media-queries/AlienwareCurvedDisplay_L.png);
-} 
-
-.demo-emby-div { 
-height: 444.5px;
-width: 1440px;
-background-image: url(../img/demo-content/emby/AlienwareCurvedDisplay_L-content.png);
-} 
-} 
-
-
-/* ----- ----- ChromebookPixel : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 2560 x 1700 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 1280 x 850 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1279.5px)
-and (max-device-width: 1280.5px)
-and (min-device-height: 849.5px)
-and (max-device-height: 850.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 844.5px;
-width: 1280px;
-} 
-
-.demo-iframe {
-height: 843.5px;
-width: 1279px;
-background-image: url(../img/media-queries/ChromebookPixel_L.png);
-} 
-
-.demo-emby-div { 
-height: 844.5px;
-width: 1280px;
-background-image: url(../img/demo-content/emby/ChromebookPixel_L-content.png);
-} 
-} 
-
-
-/* ----- ----- DCI2K : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 2048 x 1080 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 2044 x 1078 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 2043.5px)
-and (max-device-width: 2044.5px)
-and (min-device-height: 1077.5px)
-and (max-device-height: 1078.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 1072.5px;
-width: 2044px;
-} 
-
-.demo-iframe {
-height: 1071.5px;
-width: 2043px;
-background-image: url(../img/media-queries/DCI2K_L.png);
-} 
-
-.demo-emby-div { 
-height: 1072.5px;
-width: 2044px;
-background-image: url(../img/demo-content/emby/DCI2K_L-content.png);
-} 
-} 
-
-
-/* ----- ----- DellMonitorIN1920 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1366 x 768 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 1366 x 768 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1365.5px)
-and (max-device-width: 1366.5px)
-and (min-device-height: 767.5px)
-and (max-device-height: 768.5px)
-and (-webkit-device-pixel-ratio: 1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 762.5px;
-width: 1366px;
-} 
-
-.demo-iframe {
-height: 761.5px;
-width: 1365px;
-background-image: url(../img/media-queries/DellMonitorIN1920_L.png);
-} 
-
-.demo-emby-div { 
-height: 762.5px;
-width: 1366px;
-background-image: url(../img/demo-content/emby/DellMonitorIN1920_L-content.png);
-} 
-} 
-
-
-/* ----- ----- GalaxyS2 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 800 x 480 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 800 x 480 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 799.5px)
-and (max-device-width: 800.5px)
-and (min-device-height: 479.5px)
-and (max-device-height: 480.5px)
-and (-webkit-device-pixel-ratio: 1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 474.5px;
-width: 800px;
-} 
-
-.demo-iframe {
-height: 473.5px;
-width: 799px;
-background-image: url(../img/media-queries/GalaxyS2_L.png);
-} 
-
-.demo-emby-div { 
-height: 474.5px;
-width: 800px;
-background-image: url(../img/demo-content/emby/GalaxyS2_L-content.png);
-} 
-} 
-
-
-/* ----- ----- GalaxyS3andNote2andHTC8XandWXGA-H : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1280 x 720 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 640 x 360 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 639.5px)
-and (max-device-width: 640.5px)
-and (min-device-height: 359.5px)
-and (max-device-height: 360.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 640px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 639px;
-background-image: url(../img/media-queries/GalaxyS3andNote2andHTC8XandWXGA-H_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/GalaxyS3andNote2andHTC8XandWXGA-H_L-content.png);
-} 
-} 
-
-
-/* ----- ----- GalaxyS45andNote3 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1920 x 1080 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 640 x 360 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 639.5px)
-and (max-device-width: 640.5px)
-and (min-device-height: 359.5px)
-and (max-device-height: 360.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 640px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 639px;
-background-image: url(../img/media-queries/GalaxyS45andNote3_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/GalaxyS45andNote3_L-content.png);
-} 
-} 
-
-
-/* ----- ----- GalaxyS6and7andEdge : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 2560 x 1440 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 640 x 360 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 639.5px)
-and (max-device-width: 640.5px)
-and (min-device-height: 359.5px)
-and (max-device-height: 360.5px)
-and (-webkit-device-pixel-ratio: 4)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 640px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 639px;
-background-image: url(../img/media-queries/GalaxyS6and7andEdge_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/GalaxyS6and7andEdge_L-content.png);
-} 
-} 
-
-
-/* ----- ----- GalaxyS8-9+ : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 2960 x 1440 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 987 x 480 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 2959.5px)
-and (max-device-width: 2960.5px)
-and (min-device-height: 1439.5px)
-and (max-device-height: 1440.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 1434.5px;
-width: 2960px;
-} 
-
-.demo-iframe {
-height: 473.5px;
-width: 2959px;
-background-image: url(../img/media-queries/GalaxyS8-9+_L.png);
-} 
-
-.demo-emby-div { 
-height: 1434.5px;
-width: 2960px;
-background-image: url(../img/demo-content/emby/GalaxyS8-9+_L-content.png);
-} 
-} 
-
-
-/* ----- ----- GalaxyTab10 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1280 x 800 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 1280 x 800 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1279.5px)
-and (max-device-width: 1280.5px)
-and (min-device-height: 799.5px)
-and (max-device-height: 800.5px)
-and (-webkit-device-pixel-ratio: 1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 794.5px;
-width: 1280px;
-} 
-
-.demo-iframe {
-height: 793.5px;
-width: 1279px;
-background-image: url(../img/media-queries/GalaxyTab10_L.png);
-} 
-
-.demo-emby-div { 
-height: 794.5px;
-width: 1280px;
-background-image: url(../img/demo-content/emby/GalaxyTab10_L-content.png);
-} 
-} 
-
-
-/* ----- ----- HitachiCM821F : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1856 x 1392 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 807 x 606 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 806.5px)
-and (max-device-width: 807.5px)
-and (min-device-height: 605.5px)
-and (max-device-height: 606.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 600.5px;
-width: 807px;
-} 
-
-.demo-iframe {
-height: 599.5px;
-width: 806px;
-background-image: url(../img/media-queries/HitachiCM821F_L.png);
-} 
-
-.demo-emby-div { 
-height: 600.5px;
-width: 807px;
-background-image: url(../img/demo-content/emby/HitachiCM821F_L-content.png);
-} 
-} 
-
-
-/* ----- ----- HTCVive : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1200 x 1080 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 400 x 360 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 399.5px)
-and (max-device-width: 400.5px)
-and (min-device-height: 359.5px)
-and (max-device-height: 360.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 400px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 399px;
-background-image: url(../img/media-queries/HTCVive_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 400px;
-background-image: url(../img/demo-content/emby/HTCVive_L-content.png);
-} 
-} 
-
-
-/* ----- ----- IpadandTFT : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1024 x 768 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 512 x 384 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1023.5px)
-and (max-device-width: 1024.5px)
-and (min-device-height: 767.5px)
-and (max-device-height: 768.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 762.5px;
-width: 1024px;
-} 
-
-.demo-iframe {
-height: 377.5px;
-width: 1023px;
-background-image: url(../img/media-queries/IpadandTFT_L.png);
-} 
-
-.demo-emby-div { 
-height: 762.5px;
-width: 1024px;
-background-image: url(../img/demo-content/emby/IpadandTFT_L-content.png);
-} 
-} 
-
-
-/* ----- ----- IpadPro : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1366 x 1024 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 683 x 512 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1365.5px)
-and (max-device-width: 1366.5px)
-and (min-device-height: 1023.5px)
-and (max-device-height: 1024.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 1018.5px;
-width: 1366px;
-} 
-
-.demo-iframe {
-height: 505.5px;
-width: 1365px;
-background-image: url(../img/media-queries/IpadPro_L.png);
-} 
-
-.demo-emby-div { 
-height: 1018.5px;
-width: 1366px;
-background-image: url(../img/demo-content/emby/IpadPro_L-content.png);
-} 
-} 
-
+/*--- Last Modified: June 18, 2018 - 3:59 GMT ---*/ 
 
 /* ----- ----- Iphone4 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 960 x 640 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 480 x 320 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 960 x 640 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 480 x 320 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 479.5px)
@@ -548,20 +21,22 @@ width: 480px;
 .demo-iframe {
 height: 313.5px;
 width: 479px;
-background-image: url(../img/media-queries/Iphone4_L.png);
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=798668426&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
 height: 314.5px;
 width: 480px;
-background-image: url(../img/demo-content/emby/Iphone4_L-content.png);
+background-image: url(../img/demo-content/emby/Landscape-480x320-PR=2-content.png);
 } 
 } 
 
 
 /* ----- ----- Iphone5 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1136 x 640 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 568 x 320 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1136 x 640 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 568 x 320 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 567.5px)
@@ -579,423 +54,22 @@ width: 568px;
 .demo-iframe {
 height: 313.5px;
 width: 567px;
-background-image: url(../img/media-queries/Iphone5_L.png);
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=414295832&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
 height: 314.5px;
 width: 568px;
-background-image: url(../img/demo-content/emby/Iphone5_L-content.png);
-} 
-} 
-
-
-/* ----- ----- Iphone6-8+andHTC1andFullHD : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1920 x 1080 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 736 x 414 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 735.5px)
-and (max-device-width: 736.5px)
-and (min-device-height: 413.5px)
-and (max-device-height: 414.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 408.5px;
-width: 736px;
-} 
-
-.demo-iframe {
-height: 407.5px;
-width: 735px;
-background-image: url(../img/media-queries/Iphone6-8+andHTC1andFullHD_L.png);
-} 
-
-.demo-emby-div { 
-height: 408.5px;
-width: 736px;
-background-image: url(../img/demo-content/emby/Iphone6-8+andHTC1andFullHD_L-content.png);
-} 
-} 
-
-
-/* ----- ----- Iphone6and6Sand7and8 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1334 x 750 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 667 x 375 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 666.5px)
-and (max-device-width: 667.5px)
-and (min-device-height: 374.5px)
-and (max-device-height: 375.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 369.5px;
-width: 667px;
-} 
-
-.demo-iframe {
-height: 368.5px;
-width: 666px;
-background-image: url(../img/media-queries/Iphone6and6Sand7and8_L.png);
-} 
-
-.demo-emby-div { 
-height: 369.5px;
-width: 667px;
-background-image: url(../img/demo-content/emby/Iphone6and6Sand7and8_L-content.png);
-} 
-} 
-
-
-/* ----- ----- IphoneX : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 2436 x 1125 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 812 x 375 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 811.5px)
-and (max-device-width: 812.5px)
-and (min-device-height: 374.5px)
-and (max-device-height: 375.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 369.5px;
-width: 812px;
-} 
-
-.demo-iframe {
-height: 368.5px;
-width: 811px;
-background-image: url(../img/media-queries/IphoneX_L.png);
-} 
-
-.demo-emby-div { 
-height: 369.5px;
-width: 812px;
-background-image: url(../img/demo-content/emby/IphoneX_L-content.png);
-} 
-} 
-
-
-/* ----- ----- LenovoThinkpadT60 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1600 x 1200 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 534 x 400 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 533.5px)
-and (max-device-width: 534.5px)
-and (min-device-height: 399.5px)
-and (max-device-height: 400.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 394.5px;
-width: 534px;
-} 
-
-.demo-iframe {
-height: 393.5px;
-width: 533px;
-background-image: url(../img/media-queries/LenovoThinkpadT60_L.png);
-} 
-
-.demo-emby-div { 
-height: 394.5px;
-width: 534px;
-background-image: url(../img/demo-content/emby/LenovoThinkpadT60_L-content.png);
-} 
-} 
-
-
-/* ----- ----- LenovoThinkpadX61 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1400 x 1050 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 467 x 350 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 466.5px)
-and (max-device-width: 467.5px)
-and (min-device-height: 349.5px)
-and (max-device-height: 350.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 344.5px;
-width: 467px;
-} 
-
-.demo-iframe {
-height: 343.5px;
-width: 466px;
-background-image: url(../img/media-queries/LenovoThinkpadX61_L.png);
-} 
-
-.demo-emby-div { 
-height: 344.5px;
-width: 467px;
-background-image: url(../img/demo-content/emby/LenovoThinkpadX61_L-content.png);
-} 
-} 
-
-
-/* ----- ----- LG-G5 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 2560 x 1440 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 859 x 483 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 2559.5px)
-and (max-device-width: 2560.5px)
-and (min-device-height: 1439.5px)
-and (max-device-height: 1440.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 1434.5px;
-width: 2560px;
-} 
-
-.demo-iframe {
-height: 1433.5px;
-width: 2559px;
-background-image: url(../img/media-queries/LG-G5_L.png);
-} 
-
-.demo-emby-div { 
-height: 1434.5px;
-width: 2560px;
-background-image: url(../img/demo-content/emby/LG-G5_L-content.png);
-} 
-} 
-
-
-/* ----- ----- Nexus7 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1920 x 1200 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 960 x 600 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 959.5px)
-and (max-device-width: 960.5px)
-and (min-device-height: 599.5px)
-and (max-device-height: 600.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 594.5px;
-width: 960px;
-} 
-
-.demo-iframe {
-height: 1193.5px;
-width: 959px;
-background-image: url(../img/media-queries/Nexus7_L.png);
-} 
-
-.demo-emby-div { 
-height: 594.5px;
-width: 960px;
-background-image: url(../img/demo-content/emby/Nexus7_L-content.png);
-} 
-} 
-
-
-/* ----- ----- Nexus9 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1536 x 2048 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 768 x 1024 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 767.5px)
-and (max-device-width: 768.5px)
-and (min-device-height: 1023.5px)
-and (max-device-height: 1024.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 1018.5px;
-width: 768px;
-} 
-
-.demo-iframe {
-height: 2041.5px;
-width: 767px;
-background-image: url(../img/media-queries/Nexus9_L.png);
-} 
-
-.demo-emby-div { 
-height: 1018.5px;
-width: 768px;
-background-image: url(../img/demo-content/emby/Nexus9_L-content.png);
-} 
-} 
-
-
-/* ----- ----- Nokia5230 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 640 x 360 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 640 x 360 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 639.5px)
-and (max-device-width: 640.5px)
-and (min-device-height: 359.5px)
-and (max-device-height: 360.5px)
-and (-webkit-device-pixel-ratio: 1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 354.5px;
-width: 640px;
-} 
-
-.demo-iframe {
-height: 353.5px;
-width: 639px;
-background-image: url(../img/media-queries/Nokia5230_L.png);
-} 
-
-.demo-emby-div { 
-height: 354.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/Nokia5230_L-content.png);
-} 
-} 
-
-
-/* ----- ----- OnePlus3 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1920 x 1080 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 854 x 480 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 853.5px)
-and (max-device-width: 854.5px)
-and (min-device-height: 479.5px)
-and (max-device-height: 480.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 474.5px;
-width: 854px;
-} 
-
-.demo-iframe {
-height: 1073.5px;
-width: 853px;
-background-image: url(../img/media-queries/OnePlus3_L.png);
-} 
-
-.demo-emby-div { 
-height: 474.5px;
-width: 854px;
-background-image: url(../img/demo-content/emby/OnePlus3_L-content.png);
-} 
-} 
-
-
-/* ----- ----- Pixel : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1920 x 1080 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 739 x 416 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 738.5px)
-and (max-device-width: 739.5px)
-and (min-device-height: 415.5px)
-and (max-device-height: 416.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 410.5px;
-width: 739px;
-} 
-
-.demo-iframe {
-height: 1073.5px;
-width: 738px;
-background-image: url(../img/media-queries/Pixel_L.png);
-} 
-
-.demo-emby-div { 
-height: 410.5px;
-width: 739px;
-background-image: url(../img/demo-content/emby/Pixel_L-content.png);
-} 
-} 
-
-
-/* ----- ----- PixelXL : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 2560 x 1440 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 732 x 412 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 731.5px)
-and (max-device-width: 732.5px)
-and (min-device-height: 411.5px)
-and (max-device-height: 412.5px)
-and (-webkit-device-pixel-ratio: 4)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 406.5px;
-width: 732px;
-} 
-
-.demo-iframe {
-height: 405.5px;
-width: 731px;
-background-image: url(../img/media-queries/PixelXL_L.png);
-} 
-
-.demo-emby-div { 
-height: 406.5px;
-width: 732px;
-background-image: url(../img/demo-content/emby/PixelXL_L-content.png);
-} 
-} 
-
-
-/* ----- ----- PopularDevices1 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1800 x 1440 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 1440 x 1152 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1439.5px)
-and (max-device-width: 1440.5px)
-and (min-device-height: 1151.5px)
-and (max-device-height: 1152.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 1146.5px;
-width: 1440px;
-} 
-
-.demo-iframe {
-height: 1145.5px;
-width: 1439px;
-background-image: url(../img/media-queries/PopularDevices1_L.png);
-} 
-
-.demo-emby-div { 
-height: 1146.5px;
-width: 1440px;
-background-image: url(../img/demo-content/emby/PopularDevices1_L-content.png);
+background-image: url(../img/demo-content/emby/Landscape-568x320-PR=2-content.png);
 } 
 } 
 
 
 /* ----- ----- PopularDevices2 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 2048 x 1280 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 512 x 320 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2048 x 1280 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 512 x 320 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 511.5px)
@@ -1013,82 +87,253 @@ width: 512px;
 .demo-iframe {
 height: 313.5px;
 width: 511px;
-background-image: url(../img/media-queries/PopularDevices2_L.png);
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1254557092&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
 height: 314.5px;
 width: 512px;
-background-image: url(../img/demo-content/emby/PopularDevices2_L-content.png);
+background-image: url(../img/demo-content/emby/Landscape-512x320-PR=4-content.png);
 } 
 } 
 
 
-/* ----- ----- PowerBookG4 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1280 x 854 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 1279 x 854 ) ------ ----*/ 
+/* ----- ----- LenovoThinkpadX61 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1400 x 1050 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 467 x 350 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 1278.5px)
-and (max-device-width: 1279.5px)
-and (min-device-height: 853.5px)
-and (max-device-height: 854.5px)
+and (min-device-width: 466.5px)
+and (max-device-width: 467.5px)
+and (min-device-height: 349.5px)
+and (max-device-height: 350.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 344.5px;
+width: 467px;
+} 
+
+.demo-iframe {
+height: 343.5px;
+width: 466px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1706851829&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 344.5px;
+width: 467px;
+background-image: url(../img/demo-content/emby/Landscape-467x350-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- 1080i : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1440 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 480 x 360 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 479.5px)
+and (max-device-width: 480.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 354.5px;
+width: 480px;
+} 
+
+.demo-iframe {
+height: 353.5px;
+width: 479px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=322242121&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 354.5px;
+width: 480px;
+background-image: url(../img/demo-content/emby/Landscape-480x360-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- GalaxyS3andNote2andHTC8XandWXGA-H : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1280 x 720 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 640 x 360 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 639.5px)
+and (max-device-width: 640.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 848.5px;
-width: 1279px;
+height: 354.5px;
+width: 640px;
 } 
 
 .demo-iframe {
-height: 847.5px;
-width: 1278px;
-background-image: url(../img/media-queries/PowerBookG4_L.png);
+height: 353.5px;
+width: 639px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1284096244&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 848.5px;
-width: 1279px;
-background-image: url(../img/demo-content/emby/PowerBookG4_L-content.png);
+height: 354.5px;
+width: 640px;
+background-image: url(../img/demo-content/emby/Landscape-640x360-PR=2-content.png);
 } 
 } 
 
 
-/* ----- ----- SonyVAIO-P : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1600 x 768 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 800 x 384 ) ------ ----*/ 
+/* ----- ----- GalaxyS45andNote3andZTEBladeV580 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 640 x 360 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 799.5px)
-and (max-device-width: 800.5px)
-and (min-device-height: 383.5px)
-and (max-device-height: 384.5px)
-and (-webkit-device-pixel-ratio: 2)
+and (min-device-width: 639.5px)
+and (max-device-width: 640.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
+and (-webkit-device-pixel-ratio: 3)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-height: 378.5px;
-width: 800px;
+height: 354.5px;
+width: 640px;
 } 
 
 .demo-iframe {
-height: 377.5px;
-width: 799px;
-background-image: url(../img/media-queries/SonyVAIO-P_L.png);
+height: 353.5px;
+width: 639px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1589418195&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 378.5px;
-width: 800px;
-background-image: url(../img/demo-content/emby/SonyVAIO-P_L-content.png);
+height: 354.5px;
+width: 640px;
+background-image: url(../img/demo-content/emby/Landscape-640x360-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- GalaxyS6and7andEdge : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2560 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 640 x 360 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 639.5px)
+and (max-device-width: 640.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
+and (-webkit-device-pixel-ratio: 4)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 354.5px;
+width: 640px;
+} 
+
+.demo-iframe {
+height: 353.5px;
+width: 639px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1657580286&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 354.5px;
+width: 640px;
+background-image: url(../img/demo-content/emby/Landscape-640x360-PR=4-content.png);
+} 
+} 
+
+
+/* ----- ----- HTCVive : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1200 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 400 x 360 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 399.5px)
+and (max-device-width: 400.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 354.5px;
+width: 400px;
+} 
+
+.demo-iframe {
+height: 353.5px;
+width: 399px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1799500021&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 354.5px;
+width: 400px;
+background-image: url(../img/demo-content/emby/Landscape-400x360-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- Nokia5230 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 640 x 360 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 640 x 360 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 639.5px)
+and (max-device-width: 640.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 360.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 354.5px;
+width: 640px;
+} 
+
+.demo-iframe {
+height: 353.5px;
+width: 639px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=897807454&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 354.5px;
+width: 640px;
+background-image: url(../img/demo-content/emby/Landscape-640x360-PR=1-content.png);
 } 
 } 
 
 
 /* ----- ----- SunWorkstation : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1152 x 720 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 576 x 360 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1152 x 720 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 576 x 360 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 575.5px)
@@ -1106,144 +351,22 @@ width: 576px;
 .demo-iframe {
 height: 353.5px;
 width: 575px;
-background-image: url(../img/media-queries/SunWorkstation_L.png);
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1814278078&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
 height: 354.5px;
 width: 576px;
-background-image: url(../img/demo-content/emby/SunWorkstation_L-content.png);
-} 
-} 
-
-
-/* ----- ----- Surface3 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1920 x 1080 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 1280 x 720 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1279.5px)
-and (max-device-width: 1280.5px)
-and (min-device-height: 719.5px)
-and (max-device-height: 720.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 714.5px;
-width: 1280px;
-} 
-
-.demo-iframe {
-height: 713.5px;
-width: 1279px;
-background-image: url(../img/media-queries/Surface3_L.png);
-} 
-
-.demo-emby-div { 
-height: 714.5px;
-width: 1280px;
-background-image: url(../img/demo-content/emby/Surface3_L-content.png);
-} 
-} 
-
-
-/* ----- ----- TesselarXGA : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1920 x 1440 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 1881 x 1411 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 1880.5px)
-and (max-device-width: 1881.5px)
-and (min-device-height: 1410.5px)
-and (max-device-height: 1411.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 1405.5px;
-width: 1881px;
-} 
-
-.demo-iframe {
-height: 1404.5px;
-width: 1880px;
-background-image: url(../img/media-queries/TesselarXGA _L.png);
-} 
-
-.demo-emby-div { 
-height: 1405.5px;
-width: 1881px;
-background-image: url(../img/demo-content/emby/TesselarXGA _L-content.png);
-} 
-} 
-
-
-/* ----- ----- WideSVGA : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1024 x 600 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 984 x 577 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 983.5px)
-and (max-device-width: 984.5px)
-and (min-device-height: 576.5px)
-and (max-device-height: 577.5px)
-and (-webkit-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 571.5px;
-width: 984px;
-} 
-
-.demo-iframe {
-height: 570.5px;
-width: 983px;
-background-image: url(../img/media-queries/WideSVGA _L.png);
-} 
-
-.demo-emby-div { 
-height: 571.5px;
-width: 984px;
-background-image: url(../img/demo-content/emby/WideSVGA _L-content.png);
-} 
-} 
-
-
-/* ----- ----- WUXGA : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1920 x 1200 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 640 x 400 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 639.5px)
-and (max-device-width: 640.5px)
-and (min-device-height: 399.5px)
-and (max-device-height: 400.5px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: 394.5px;
-width: 640px;
-} 
-
-.demo-iframe {
-height: 393.5px;
-width: 639px;
-background-image: url(../img/media-queries/WUXGA_L.png);
-} 
-
-.demo-emby-div { 
-height: 394.5px;
-width: 640px;
-background-image: url(../img/demo-content/emby/WUXGA_L-content.png);
+background-image: url(../img/demo-content/emby/Landscape-576x360-PR=2-content.png);
 } 
 } 
 
 
 /* ----- ----- XiaomiMiMIX2 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 2160 x 1080 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 720 x 360 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2160 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 720 x 360 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 719.5px)
@@ -1261,28 +384,655 @@ width: 720px;
 .demo-iframe {
 height: 353.5px;
 width: 719px;
-background-image: url(../img/media-queries/XiaomiMiMIX2_L.png);
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=329507226&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
 height: 354.5px;
 width: 720px;
-background-image: url(../img/demo-content/emby/XiaomiMiMIX2_L-content.png);
+background-image: url(../img/demo-content/emby/Landscape-720x360-PR=3-content.png);
 } 
 } 
 
 
-/* ----- ----- MyHPLaptop : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION 1366 x 768 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION 1366 x 768 ) ------ ----*/ 
+/* ----- ----- Iphone6and6Sand7and8 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1334 x 750 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 667 x 375 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 666.5px)
+and (max-device-width: 667.5px)
+and (min-device-height: 374.5px)
+and (max-device-height: 375.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 369.5px;
+width: 667px;
+} 
+
+.demo-iframe {
+height: 368.5px;
+width: 666px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=2107687406&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 369.5px;
+width: 667px;
+background-image: url(../img/demo-content/emby/Landscape-667x375-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- IphoneX : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2436 x 1125 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 812 x 375 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 811.5px)
+and (max-device-width: 812.5px)
+and (min-device-height: 374.5px)
+and (max-device-height: 375.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 369.5px;
+width: 812px;
+} 
+
+.demo-iframe {
+height: 368.5px;
+width: 811px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1599514306&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 369.5px;
+width: 812px;
+background-image: url(../img/demo-content/emby/Landscape-812x375-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- IpadandTFT : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1024 x 768 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 512 x 384 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1023.5px)
+and (max-device-width: 1024.5px)
+and (min-device-height: 767.5px)
+and (max-device-height: 768.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 762.5px;
+width: 1024px;
+} 
+
+.demo-iframe {
+height: 377.5px;
+width: 1023px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1351124604&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 762.5px;
+width: 1024px;
+background-image: url(../img/demo-content/emby/Landscape-512x384-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- SonyVAIO-P : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1600 x 768 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 800 x 384 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 799.5px)
+and (max-device-width: 800.5px)
+and (min-device-height: 383.5px)
+and (max-device-height: 384.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 378.5px;
+width: 800px;
+} 
+
+.demo-iframe {
+height: 377.5px;
+width: 799px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=498391350&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 378.5px;
+width: 800px;
+background-image: url(../img/demo-content/emby/Landscape-800x384-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- LenovoThinkpadT60 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1600 x 1200 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 534 x 400 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 533.5px)
+and (max-device-width: 534.5px)
+and (min-device-height: 399.5px)
+and (max-device-height: 400.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 394.5px;
+width: 534px;
+} 
+
+.demo-iframe {
+height: 393.5px;
+width: 533px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=497488756&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 394.5px;
+width: 534px;
+background-image: url(../img/demo-content/emby/Landscape-534x400-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- WUXGA : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1920 x 1200 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 640 x 400 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 639.5px)
+and (max-device-width: 640.5px)
+and (min-device-height: 399.5px)
+and (max-device-height: 400.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 394.5px;
+width: 640px;
+} 
+
+.demo-iframe {
+height: 393.5px;
+width: 639px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1108797684&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 394.5px;
+width: 640px;
+background-image: url(../img/demo-content/emby/Landscape-640x400-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- PixelXL : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2560 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 732 x 412 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 731.5px)
+and (max-device-width: 732.5px)
+and (min-device-height: 411.5px)
+and (max-device-height: 412.5px)
+and (-webkit-device-pixel-ratio: 4)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 406.5px;
+width: 732px;
+} 
+
+.demo-iframe {
+height: 405.5px;
+width: 731px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1402828582&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 406.5px;
+width: 732px;
+background-image: url(../img/demo-content/emby/Landscape-732x412-PR=3.5-content.png);
+} 
+} 
+
+
+/* ----- ----- Iphone6-8+andHTC1andFullHD : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 736 x 414 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 735.5px)
+and (max-device-width: 736.5px)
+and (min-device-height: 413.5px)
+and (max-device-height: 414.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 408.5px;
+width: 736px;
+} 
+
+.demo-iframe {
+height: 407.5px;
+width: 735px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1037413988&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 408.5px;
+width: 736px;
+background-image: url(../img/demo-content/emby/Landscape-736x414-PR=2.7-content.png);
+} 
+} 
+
+
+/* ----- ----- Pixel : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 739 x 416 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 738.5px)
+and (max-device-width: 739.5px)
+and (min-device-height: 415.5px)
+and (max-device-height: 416.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 410.5px;
+width: 739px;
+} 
+
+.demo-iframe {
+height: 409.5px;
+width: 738px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1115357496&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 410.5px;
+width: 739px;
+background-image: url(../img/demo-content/emby/Landscape-739x416-PR=2.6-content.png);
+} 
+} 
+
+
+/* ----- ----- AlienwareCurvedDisplay : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2880 x 900 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 1440 x 450 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1439.5px)
+and (max-device-width: 1440.5px)
+and (min-device-height: 449.5px)
+and (max-device-height: 450.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 444.5px;
+width: 1440px;
+} 
+
+.demo-iframe {
+height: 443.5px;
+width: 1439px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1078278257&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 444.5px;
+width: 1440px;
+background-image: url(../img/demo-content/emby/Landscape-1440x450-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- GalaxyS2 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 800 x 480 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 800 x 480 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 799.5px)
+and (max-device-width: 800.5px)
+and (min-device-height: 479.5px)
+and (max-device-height: 480.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 474.5px;
+width: 800px;
+} 
+
+.demo-iframe {
+height: 473.5px;
+width: 799px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1606334166&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 474.5px;
+width: 800px;
+background-image: url(../img/demo-content/emby/Landscape-800x480-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- GalaxyS8-9+ : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2960 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 987 x 480 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 2959.5px)
+and (max-device-width: 2960.5px)
+and (min-device-height: 1439.5px)
+and (max-device-height: 1440.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1434.5px;
+width: 2960px;
+} 
+
+.demo-iframe {
+height: 473.5px;
+width: 2959px;
+background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=1271733716&format=image);
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1434.5px;
+width: 2960px;
+background-image: url(../img/demo-content/emby/Landscape-987x480-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- OnePlus3 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 854 x 480 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 853.5px)
+and (max-device-width: 854.5px)
+and (min-device-height: 479.5px)
+and (max-device-height: 480.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 474.5px;
+width: 854px;
+} 
+
+.demo-iframe {
+height: 1073.5px;
+width: 853px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 474.5px;
+width: 854px;
+background-image: url(../img/demo-content/emby/Landscape-854x480-PR=2.3-content.png);
+} 
+} 
+
+
+/* ----- ----- LG-G5 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2560 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 859 x 483 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 2559.5px)
+and (max-device-width: 2560.5px)
+and (min-device-height: 1439.5px)
+and (max-device-height: 1440.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1434.5px;
+width: 2560px;
+} 
+
+.demo-iframe {
+height: 1433.5px;
+width: 2559px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1434.5px;
+width: 2560px;
+background-image: url(../img/demo-content/emby/Landscape-859x483-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- IpadPro : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1366 x 1024 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 683 x 512 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1365.5px)
+and (max-device-width: 1366.5px)
+and (min-device-height: 1023.5px)
+and (max-device-height: 1024.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1018.5px;
+width: 1366px;
+} 
+
+.demo-iframe {
+height: 1017.5px;
+width: 1365px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1018.5px;
+width: 1366px;
+background-image: url(../img/demo-content/emby/Landscape-683x512-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- WideSVGA : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1024 x 600 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 984 x 577 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 983.5px)
+and (max-device-width: 984.5px)
+and (min-device-height: 576.5px)
+and (max-device-height: 577.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 571.5px;
+width: 984px;
+} 
+
+.demo-iframe {
+height: 593.5px;
+width: 983px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 571.5px;
+width: 984px;
+background-image: url(../img/demo-content/emby/Landscape-984x577-PR=1.1-content.png);
+} 
+} 
+
+
+/* ----- ----- Nexus7 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1920 x 1200 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 960 x 600 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 959.5px)
+and (max-device-width: 960.5px)
+and (min-device-height: 599.5px)
+and (max-device-height: 600.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 594.5px;
+width: 960px;
+} 
+
+.demo-iframe {
+height: 1193.5px;
+width: 959px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 594.5px;
+width: 960px;
+background-image: url(../img/demo-content/emby/Landscape-960x600-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- HitachiCM821F : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1856 x 1392 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 807 x 606 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 806.5px)
+and (max-device-width: 807.5px)
+and (min-device-height: 605.5px)
+and (max-device-height: 606.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 600.5px;
+width: 807px;
+} 
+
+.demo-iframe {
+height: 1385.5px;
+width: 806px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 600.5px;
+width: 807px;
+background-image: url(../img/demo-content/emby/Landscape-807x606-PR=2.3-content.png);
+} 
+} 
+
+
+/* ----- ----- Surface3 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 1280 x 720 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1279.5px)
+and (max-device-width: 1280.5px)
+and (min-device-height: 719.5px)
+and (max-device-height: 720.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 714.5px;
+width: 1280px;
+} 
+
+.demo-iframe {
+height: 713.5px;
+width: 1279px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 714.5px;
+width: 1280px;
+background-image: url(../img/demo-content/emby/Landscape-1280x720-PR=1.5-content.png);
+} 
+} 
+
+
+/* ----- ----- DellMonitorIN1920 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1366 x 768 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 1366 x 768 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 1365.5px)
 and (max-device-width: 1366.5px)
 and (min-device-height: 767.5px)
 and (max-device-height: 768.5px)
-only screen and (-o-min-device-pixel-ratio: 13/10)
-only screen and (min-resolution: 120dpi)
 and (-webkit-device-pixel-ratio: 1)
 and (orientation: landscape) { 
 
@@ -1294,13 +1044,1104 @@ width: 1366px;
 .demo-iframe {
 height: 761.5px;
 width: 1365px;
-background-image: url(../img/media-queries/MyHPLaptop_L.png);
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
 height: 762.5px;
 width: 1366px;
-background-image: url(../img/demo-content/emby/MyHPLaptop_L-content.png);
+background-image: url(../img/demo-content/emby/Landscape-1366x768-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- Nexus9 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2048 x 1536 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 1024 x 768 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1023.5px)
+and (max-device-width: 1024.5px)
+and (min-device-height: 767.5px)
+and (max-device-height: 768.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 762.5px;
+width: 1024px;
+} 
+
+.demo-iframe {
+height: 761.5px;
+width: 1023px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 762.5px;
+width: 1024px;
+background-image: url(../img/demo-content/emby/Landscape-1024x768-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- MyHPLaptop : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1366 x 768 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 1366 x 768 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1365.5px)
+and (max-device-width: 1366.5px)
+and (min-device-height: 767.5px)
+and (max-device-height: 768.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 762.5px;
+width: 1366px;
+} 
+
+.demo-iframe {
+height: 761.5px;
+width: 1365px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 762.5px;
+width: 1366px;
+background-image: url(../img/demo-content/emby/Landscape-1366x768-PR=1+scale-content.png);
+} 
+} 
+
+
+/* ----- ----- GalaxyTab10 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1280 x 800 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 1280 x 800 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1279.5px)
+and (max-device-width: 1280.5px)
+and (min-device-height: 799.5px)
+and (max-device-height: 800.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 794.5px;
+width: 1280px;
+} 
+
+.demo-iframe {
+height: 793.5px;
+width: 1279px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 794.5px;
+width: 1280px;
+background-image: url(../img/demo-content/emby/Landscape-1280x800-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- ChromebookPixel : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2560 x 1700 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 1280 x 850 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1279.5px)
+and (max-device-width: 1280.5px)
+and (min-device-height: 849.5px)
+and (max-device-height: 850.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 844.5px;
+width: 1280px;
+} 
+
+.demo-iframe {
+height: 843.5px;
+width: 1279px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 844.5px;
+width: 1280px;
+background-image: url(../img/demo-content/emby/Landscape-1280x850-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- PowerBookG4 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1280 x 854 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 1279 x 854 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1278.5px)
+and (max-device-width: 1279.5px)
+and (min-device-height: 853.5px)
+and (max-device-height: 854.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 848.5px;
+width: 1279px;
+} 
+
+.demo-iframe {
+height: 847.5px;
+width: 1278px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 848.5px;
+width: 1279px;
+background-image: url(../img/demo-content/emby/Landscape-1279x854-PR=1.1-content.png);
+} 
+} 
+
+
+/* ----- ----- DCI2K : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2048 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 2044 x 1078 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 2043.5px)
+and (max-device-width: 2044.5px)
+and (min-device-height: 1077.5px)
+and (max-device-height: 1078.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1072.5px;
+width: 2044px;
+} 
+
+.demo-iframe {
+height: 1071.5px;
+width: 2043px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1072.5px;
+width: 2044px;
+background-image: url(../img/demo-content/emby/Landscape-2044x1078-PR=1.1-content.png);
+} 
+} 
+
+
+/* ----- ----- PopularDevices1 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1800 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 1440 x 1152 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1439.5px)
+and (max-device-width: 1440.5px)
+and (min-device-height: 1151.5px)
+and (max-device-height: 1152.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1146.5px;
+width: 1440px;
+} 
+
+.demo-iframe {
+height: 1145.5px;
+width: 1439px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1146.5px;
+width: 1440px;
+background-image: url(../img/demo-content/emby/Landscape-1440x1152-PR=1.3-content.png);
+} 
+} 
+
+
+/* ----- ----- TesselarXGA : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1920 x 1440 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 1881 x 1411 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1880.5px)
+and (max-device-width: 1881.5px)
+and (min-device-height: 1410.5px)
+and (max-device-height: 1411.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1405.5px;
+width: 1881px;
+} 
+
+.demo-iframe {
+height: 1404.5px;
+width: 1880px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1405.5px;
+width: 1881px;
+background-image: url(../img/demo-content/emby/Landscape-1881x1411-PR=1.1-content.png);
+} 
+} 
+
+
+/* ----- ----- 4320p : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 7680 x 4320 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 7680 x 4320 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 7679.5px)
+and (max-device-width: 7680.5px)
+and (min-device-height: 4319.5px)
+and (max-device-height: 4320.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 4314.5px;
+width: 7680px;
+} 
+
+.demo-iframe {
+height: 4313.5px;
+width: 7679px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 4314.5px;
+width: 7680px;
+background-image: url(../img/demo-content/emby/Landscape-7680x4320-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- 8KFullDome : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 8192 x 8192 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 8192 x 8192 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 8191.5px)
+and (max-device-width: 8192.5px)
+and (min-device-height: 8191.5px)
+and (max-device-height: 8192.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 8186.5px;
+width: 8192px;
+} 
+
+.demo-iframe {
+height: 8185.5px;
+width: 8191px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 8186.5px;
+width: 8192px;
+background-image: url(../img/demo-content/emby/Landscape-8192x8192-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00050 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 7679 x 4319 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 1920 x 1080 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 7678.5px)
+and (max-device-width: 7679.5px)
+and (min-device-height: 4318.5px)
+and (max-device-height: 4319.5px)
+and (-webkit-device-pixel-ratio: 4)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 4313.5px;
+width: 7679px;
+} 
+
+.demo-iframe {
+height: 1073.5px;
+width: 7678px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 4313.5px;
+width: 7679px;
+background-image: url(../img/demo-content/emby/Landscape-1920x1080-PR=4-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00049 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2959 x 1439 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 740 x 360 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 2958.5px)
+and (max-device-width: 2959.5px)
+and (min-device-height: 1438.5px)
+and (max-device-height: 1439.5px)
+and (-webkit-device-pixel-ratio: 4)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1433.5px;
+width: 2959px;
+} 
+
+.demo-iframe {
+height: 353.5px;
+width: 2958px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1433.5px;
+width: 2959px;
+background-image: url(../img/demo-content/emby/Landscape-740x360-PR=4-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00048 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2559 x 1410 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 640 x 353 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 2558.5px)
+and (max-device-width: 2559.5px)
+and (min-device-height: 1409.5px)
+and (max-device-height: 1410.5px)
+and (-webkit-device-pixel-ratio: 4)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1404.5px;
+width: 2559px;
+} 
+
+.demo-iframe {
+height: 346.5px;
+width: 2558px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1404.5px;
+width: 2559px;
+background-image: url(../img/demo-content/emby/Landscape-640x353-PR=4-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00047 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2043 x 1151 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 681 x 384 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 2042.5px)
+and (max-device-width: 2043.5px)
+and (min-device-height: 1150.5px)
+and (max-device-height: 1151.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1145.5px;
+width: 2043px;
+} 
+
+.demo-iframe {
+height: 377.5px;
+width: 2042px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1145.5px;
+width: 2043px;
+background-image: url(../img/demo-content/emby/Landscape-681x384-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00046 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1880 x 1077 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 627 x 359 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1879.5px)
+and (max-device-width: 1880.5px)
+and (min-device-height: 1076.5px)
+and (max-device-height: 1077.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1071.5px;
+width: 1880px;
+} 
+
+.demo-iframe {
+height: 352.5px;
+width: 1879px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1071.5px;
+width: 1880px;
+background-image: url(../img/demo-content/emby/Landscape-627x359-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00045 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1439 x 1023 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 480 x 341 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1438.5px)
+and (max-device-width: 1439.5px)
+and (min-device-height: 1022.5px)
+and (max-device-height: 1023.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1017.5px;
+width: 1439px;
+} 
+
+.demo-iframe {
+height: 334.5px;
+width: 1438px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1017.5px;
+width: 1439px;
+background-image: url(../img/demo-content/emby/Landscape-480x341-PR=3-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00044 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1365 x 853 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 683 x 427 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1364.5px)
+and (max-device-width: 1365.5px)
+and (min-device-height: 852.5px)
+and (max-device-height: 853.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 847.5px;
+width: 1365px;
+} 
+
+.demo-iframe {
+height: 420.5px;
+width: 1364px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 847.5px;
+width: 1365px;
+background-image: url(../img/demo-content/emby/Landscape-683x427-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00043 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1279 x 849 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 640 x 425 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1278.5px)
+and (max-device-width: 1279.5px)
+and (min-device-height: 848.5px)
+and (max-device-height: 849.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 843.5px;
+width: 1279px;
+} 
+
+.demo-iframe {
+height: 418.5px;
+width: 1278px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 843.5px;
+width: 1279px;
+background-image: url(../img/demo-content/emby/Landscape-640x425-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00042 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1278 x 799 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 639 x 400 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1277.5px)
+and (max-device-width: 1278.5px)
+and (min-device-height: 798.5px)
+and (max-device-height: 799.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 793.5px;
+width: 1278px;
+} 
+
+.demo-iframe {
+height: 393.5px;
+width: 1277px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 793.5px;
+width: 1278px;
+background-image: url(../img/demo-content/emby/Landscape-639x400-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00041 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1023 x 767 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 512 x 384 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1022.5px)
+and (max-device-width: 1023.5px)
+and (min-device-height: 766.5px)
+and (max-device-height: 767.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 761.5px;
+width: 1023px;
+} 
+
+.demo-iframe {
+height: 377.5px;
+width: 1022px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 761.5px;
+width: 1023px;
+background-image: url(../img/demo-content/emby/Landscape-512x384-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00040 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 983 x 719 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 492 x 360 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 982.5px)
+and (max-device-width: 983.5px)
+and (min-device-height: 718.5px)
+and (max-device-height: 719.5px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 713.5px;
+width: 983px;
+} 
+
+.demo-iframe {
+height: 353.5px;
+width: 982px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 713.5px;
+width: 983px;
+background-image: url(../img/demo-content/emby/Landscape-492x360-PR=2-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00039 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 959 x 605 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 959 x 605 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 958.5px)
+and (max-device-width: 959.5px)
+and (min-device-height: 604.5px)
+and (max-device-height: 605.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 599.5px;
+width: 959px;
+} 
+
+.demo-iframe {
+height: 598.5px;
+width: 958px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 599.5px;
+width: 959px;
+background-image: url(../img/demo-content/emby/Landscape-959x605-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00038 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 853 x 599 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 853 x 599 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 852.5px)
+and (max-device-width: 853.5px)
+and (min-device-height: 598.5px)
+and (max-device-height: 599.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 593.5px;
+width: 853px;
+} 
+
+.demo-iframe {
+height: 592.5px;
+width: 852px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 593.5px;
+width: 853px;
+background-image: url(../img/demo-content/emby/Landscape-853x599-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00037 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 811 x 576 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 811 x 576 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 810.5px)
+and (max-device-width: 811.5px)
+and (min-device-height: 575.5px)
+and (max-device-height: 576.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 570.5px;
+width: 811px;
+} 
+
+.demo-iframe {
+height: 569.5px;
+width: 810px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 570.5px;
+width: 811px;
+background-image: url(../img/demo-content/emby/Landscape-811x576-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00036 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 806 x 479 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 806 x 479 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 805.5px)
+and (max-device-width: 806.5px)
+and (min-device-height: 478.5px)
+and (max-device-height: 479.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 473.5px;
+width: 806px;
+} 
+
+.demo-iframe {
+height: 472.5px;
+width: 805px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 473.5px;
+width: 806px;
+background-image: url(../img/demo-content/emby/Landscape-806x479-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00035 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 799 x 449 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 799 x 449 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 798.5px)
+and (max-device-width: 799.5px)
+and (min-device-height: 448.5px)
+and (max-device-height: 449.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 443.5px;
+width: 799px;
+} 
+
+.demo-iframe {
+height: 442.5px;
+width: 798px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 443.5px;
+width: 799px;
+background-image: url(../img/demo-content/emby/Landscape-799x449-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00034 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 738 x 415 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 738 x 415 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 737.5px)
+and (max-device-width: 738.5px)
+and (min-device-height: 414.5px)
+and (max-device-height: 415.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 409.5px;
+width: 738px;
+} 
+
+.demo-iframe {
+height: 408.5px;
+width: 737px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 409.5px;
+width: 738px;
+background-image: url(../img/demo-content/emby/Landscape-738x415-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00033 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 735 x 413 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 735 x 413 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 734.5px)
+and (max-device-width: 735.5px)
+and (min-device-height: 412.5px)
+and (max-device-height: 413.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 407.5px;
+width: 735px;
+} 
+
+.demo-iframe {
+height: 406.5px;
+width: 734px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 407.5px;
+width: 735px;
+background-image: url(../img/demo-content/emby/Landscape-735x413-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00032 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 731 x 411 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 731 x 411 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 730.5px)
+and (max-device-width: 731.5px)
+and (min-device-height: 410.5px)
+and (max-device-height: 411.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 405.5px;
+width: 731px;
+} 
+
+.demo-iframe {
+height: 404.5px;
+width: 730px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 405.5px;
+width: 731px;
+background-image: url(../img/demo-content/emby/Landscape-731x411-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00031 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 719 x 399 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 719 x 399 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 718.5px)
+and (max-device-width: 719.5px)
+and (min-device-height: 398.5px)
+and (max-device-height: 399.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 393.5px;
+width: 719px;
+} 
+
+.demo-iframe {
+height: 392.5px;
+width: 718px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 393.5px;
+width: 719px;
+background-image: url(../img/demo-content/emby/Landscape-719x399-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00030 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 666 x 383 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 666 x 383 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 665.5px)
+and (max-device-width: 666.5px)
+and (min-device-height: 382.5px)
+and (max-device-height: 383.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 377.5px;
+width: 666px;
+} 
+
+.demo-iframe {
+height: 376.5px;
+width: 665px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 377.5px;
+width: 666px;
+background-image: url(../img/demo-content/emby/Landscape-666x383-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00029 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 639 x 374 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 639 x 374 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 638.5px)
+and (max-device-width: 639.5px)
+and (min-device-height: 373.5px)
+and (max-device-height: 374.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 368.5px;
+width: 639px;
+} 
+
+.demo-iframe {
+height: 367.5px;
+width: 638px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 368.5px;
+width: 639px;
+background-image: url(../img/demo-content/emby/Landscape-639x374-PR=1-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00030 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 575 x 359 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 575 x 359 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 574.5px)
+and (max-device-width: 575.5px)
+and (min-device-height: 358.5px)
+and (max-device-height: 359.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 353.5px;
+width: 575px;
+} 
+
+.demo-iframe {
+height: 352.5px;
+width: 574px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 353.5px;
+width: 575px;
+background-image: url(../img/demo-content/emby/Landscape-575x359-PR=1-content.png);
 } 
 } 
 

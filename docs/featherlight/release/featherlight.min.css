@@ -179,22 +179,21 @@ html.with-featherlight {
 		
 }
 	.featherlight iframe {
-		height: 1024px; 
-		width: 460px;
-			 -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-		    -ms-transform: scale(0.85);
-    -moz-transform: scale(0.85);
-    -o-transform: scale(0.85);
-    -webkit-transform: scale(0.85);
-    transform: scale(0.85);
-    
-    -ms-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-	
+		height: 600px; 
+		width: 800px;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		-ms-transform: scale(0.55);
+		-moz-transform: scale(0.55);
+		-o-transform: scale(0.55);
+		-webkit-transform: scale(0.55);
+		transform: scale(0.55); 
+		-ms-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		transform-origin: 0 0;
+
 } 
 }
 @media print {

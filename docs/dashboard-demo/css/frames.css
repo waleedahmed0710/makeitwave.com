@@ -24,13 +24,18 @@
 }
 
 .demo-all-divs {
-
+	
 	border: 0.5px solid grey;
-		background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-size:96%;
     background-position:center top;
 	position:fixed;
 	top:0px;
 	left:0px;
-	opacity: 1;
+	opacity: 0.9; /* 0.8 - 0.9 when testing, 1 for production */
+	filter: invert(100%); 
+	-webkit-filter: invert(100%); 
+ /* ----- inverting the background image of the iframe isn't solved, so the whole thing is invterted ----*/ 
+  /* ----- we then have to invert this div so it inverts back to what it should be ----*/ 
+	
 }

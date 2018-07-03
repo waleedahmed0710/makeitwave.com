@@ -4,6 +4,76 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 40px;
+  overflow-x:hidden!important;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+/* NAV-BAR/MENU
+-------------------------------------------------- */
+
+
+.navbar-brand {
+  max-width:175px!important;
+  max-height:52px;
+}
+
+.nav-link {
+  text-decoration:none!important;
+}
+
+
+/* CAROUSEL - Layout
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #34485D;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 32rem;
+}
+
+/* CAROUSEL - text
+-------------------------------------------------- */
+
+.carousel-title {
+  text-indent: 15px;
+}
+
+.carousel-subtitle {
+  font-size:16px; 
+  color:grey;
+}
+
+
+/* Animated Words 
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
 }
 
 .text {
@@ -66,8 +136,23 @@ body {
   color: #54CCF3;
 }
 
+
 .white {
   color: white;
+}
+
+/* COLUMNS BELOW THE CAROUSEL
+-------------------------------------------------- */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
 }
 
 

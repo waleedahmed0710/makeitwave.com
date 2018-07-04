@@ -107,13 +107,13 @@ html.with-featherlight {
 
 }
 	.featherlight-iframe .featherlight-content {
-		height: 240px; 
-		width: 307px;
+		height: calc(100vh - 20%); 
+		width:  calc(100vw - 20%);
 		
 }
 	.featherlight iframe {
-		height: 984px; 
-		width: 307px;
+		height: calc(100vh - 20%); 
+		width:  calc(100vw - 20%);
 } 
 }
 @media all and (min-width: 960px) and (max-width: 1199px) { 
@@ -122,32 +122,32 @@ html.with-featherlight {
 		
 }
 	.featherlight iframe {
-		height: 984px; 
-		width: 307px;
+		height: calc(100vh - 20%); 
+		width:  calc(100vw - 20%);
 } 
 }
 
 @media all and (min-width: 768px) and (max-width: 959px) {
 	.featherlight-iframe .featherlight-content {
-		height: 240px; 
-		width: 307px;
+		height: calc(100vh - 30%); 
+		width:  calc(100vw - 30%);
 		
 }
 	.featherlight iframe {
-		height: 984px; 
-		width: 307px;
+		height: calc(100vh - 20%); 
+		width:  calc(100vw - 20%);
 } 
 }
 
 @media all and (min-width: 480px) and (max-width: 767px){ 	
 	.featherlight-iframe .featherlight-content {
-		height: 2000px; 
-		width: 580px;
+		height: calc(100vh - 20%); 
+		width:  calc(100vw - 20%);
 		
 }
 	.featherlight iframe {
-		height: 2066px; 
-		width: 580px;
+		height: calc(100vh - 20%); 
+		width:  calc(100vw - 20%);
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 	
@@ -156,13 +156,13 @@ html.with-featherlight {
 
 @media all and (max-width: 599px) { 	
 	.featherlight-iframe .featherlight-content {
-		height: 240px; 
-			width: 307px;
+		height: calc(100vh - 20%); 
+		width:  calc(100vw - 20%);
 		
 }
 	.featherlight iframe {
-		height: 984px; 
-		width: 307px;
+		height: calc(100vh - 20%); 
+		width:  calc(100vw - 20%);
 } 
 }
 @media all and (max-width: 479px) { 
@@ -170,17 +170,18 @@ html.with-featherlight {
 	.featherlight .featherlight-content {
 		margin-left: -2px;
 		margin-right: 0;
-		width: 307px;
+		
+		width:  calc(100vw - 20%);
 
 }
 	.featherlight-iframe .featherlight-content {
-		height: 340px; 
-		width: 308px;
+		height: calc(100vh - 20%); 
+		width:  calc(100vw - 20%);
 		
 }
 	.featherlight iframe {
-		height: 600px; 
-		width: 800px;
+		height: calc(100vh - 20%); 
+		width:  calc(100vw - 20%);
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 		-ms-transform: scale(0.55);

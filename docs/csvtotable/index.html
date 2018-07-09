@@ -12,7 +12,7 @@
 	
 	<script>
 	$(function() {
-		$.get('test.csv', function(data) {
+		$.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-wrTWJkYlP-gjKl5j6qQfmKn24F8nsyku8FW06qWEgW4MnPOkXrxpWFNzyuNJc9f8FaWYEgm7lQPE/pub?gid=301207742&single=true&output=csv', function(data) {
 			$('#CSVSource').html('<pre>' + data + '</pre>');
 		});
 		$('#CSVTable').CSVToTable('test.csv', { loadingImage: 'images/loading.gif', startLine: 0 });

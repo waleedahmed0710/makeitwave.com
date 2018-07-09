@@ -55,7 +55,7 @@
 	<script type="text/javascript" src="csvtotable/js/jquery.tablesorter.dev.js"></script>
 	<script>
 	$(function() {
-		$.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-wrTWJkYlP-gjKl5j6qQfmKn24F8nsyku8FW06qWEgW4MnPOkXrxpWFNzyuNJc9f8FaWYEgm7lQPE/pub?gid=301207742&single=true&output=csv', function(data) {
+		$.get('test.csv', function(data) {
 			$('#CSVSource').html('<pre>' + data + '</pre>');
 		});
 		$('#CSVTable').CSVToTable('test.csv', { loadingImage: 'images/loading.gif', startLine: 0 });
@@ -84,13 +84,6 @@
 						<a class="nav-link" href="index.html">info</a>
 					</li>
 
-					<li class="nav-item">
-					</li>
-					
-						<li class="nav-item">
-						<a class="nav-link" href="https://github.com/unclehowell/WaveOS/blob/master/README.md">source code</a>
-					</li>
-					
 					<li class="nav-item">
 					</li>
 
@@ -137,9 +130,7 @@ Certified Wave Installers:<br><br>
 		<footer class="container">
 			<p class="float-right"><a href="#">Back to top</a>
 			</p>
-
-
-			<p>&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+			<p>&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="https://github.com/unclehowell/WaveOS/blob/master/README.md">GitHub</a></p>
 		</footer>
 	</main>
 	<!-- Bootstrap core JavaScript

@@ -29,8 +29,7 @@ html.with-featherlight {
 .featherlight:before {
 	content: '';
 	display: inline-block;
-height: calc(100vh - 0%); 
-		
+	height: 100%;
 	vertical-align: middle
 }
 .featherlight .featherlight-content {
@@ -89,7 +88,7 @@ height: calc(100vh - 0%);
 }
 .featherlight iframe {
 		height: calc(100vh - 0%); 
-		width: calc(100vw + 80%);
+		width:  calc(100vw - 0%);
 	border: 0;
 	overflow:hidden!important;
 	overflow-y:hidden!important;
@@ -116,7 +115,7 @@ height: calc(100vh - 0%);
 }
 	.featherlight iframe {
 		height: calc(100vh - 0%); 
-		width: calc(100vw + 0%);
+		width:  calc(100vw - 0%);
 } 
 }
 @media all and (min-width: 960px) and (max-width: 1199px) { 
@@ -127,7 +126,7 @@ height: calc(100vh - 0%);
 }
 	.featherlight iframe {
 		height: calc(100vh - 0%); 
-	    width: calc(100vw + 0%);
+		width:  calc(100vw - 0%);
 } 
 }
 
@@ -139,7 +138,7 @@ height: calc(100vh - 0%);
 }
 	.featherlight iframe {
 		height: calc(100vh - 0%); 
-		width: calc(100vw + 0%);
+		width:  calc(100vw - 0%);
 } 
 }
 
@@ -151,7 +150,7 @@ height: calc(100vh - 0%);
 }
 	.featherlight iframe {
 		height: calc(100vh - 0%); 
-	    width: calc(100vw + 0%);
+		width:  calc(100vw - 0%);
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 }  
@@ -160,12 +159,12 @@ height: calc(100vh - 0%);
 @media all and (max-width: 599px) { 	
 	.featherlight-iframe .featherlight-content {
 		height: calc(100vh - 0%); 
-		width: calc(100vw + 80%);
+		width:  calc(100vw - 0%);
 		
 }
 	.featherlight iframe {
 		height: calc(100vh - 0%); 
-		width: calc(100vw + 0%);
+		width:  calc(100vw - 0%);
 } 
 }
 @media all and (max-width: 479px) { 
@@ -183,8 +182,8 @@ height: calc(100vh - 0%);
 		
 }
 	.featherlight iframe {
-		height: calc(100vh + 100%); 
-		width: calc(100vw + 80%);
+		height: calc(100vh - 0%); 
+		width:  calc(100vw - 0%);
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 		-ms-transform: scale(0.55);

@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
+   <!-- HTML meta refresh URL redirection -->
+   <meta http-equiv="refresh" content="10; url=demo.html">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover" />
 	<meta name="HandheldFriendly" content="true" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="dashboard-demo/css/mediaqueries-frames-P.css">
-	<link rel="stylesheet" href="dashboard-demo/css/mediaqueries-frames-L.css"> 
+<link rel="stylesheet" href="dashboard-demo/css/mediaqueries-frames-P.css">
+<link rel="stylesheet" href="dashboard-demo/css/mediaqueries-frames-L.css"> 
 	 
 	<link rel="stylesheet" href="dashboard-demo/css/reset.css"><!-- CSS reset -->
 	<link rel="stylesheet" href="dashboard-demo/css/style.css"> <!-- Resource style -->
@@ -130,7 +132,7 @@ html {
 	
 	<main>
 	<div class="demo-iframe-container container-mq">
- <iframe class="demo-iframe iframe-mq" id="framez" name="framez" src="dashboard-demo/frame_emby.html" webkitallowfullscreen mozallowfullscreen  allowfullscreen></iframe>
+ <iframe class="demo-iframe iframe-mq" id="framez" name="framez" src="dashboard-demo/frame_loading_emby.html" webkitallowfullscreen mozallowfullscreen  allowfullscreen></iframe>
 	<p style="color: white; float: left; position: fixed; font-size: 0.8em; bottom: 10%; display: block; background-color: black; text-align: center;"> This is a demo - Please <a style="color: pink;" href="report-issues.html">Report Bugs </a> </p></div>
 
 		<!-- all your content here -->
@@ -140,24 +142,24 @@ html {
 	<nav class="cd-3d-nav-container">
 		<ul class="cd-3d-nav">
 			<li class="cd-selected">
-				<a href="dashboard-demo/frame_emby.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">TV & Media</a>
+				<a href="dashboard-demo/frame_loading.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">TV & Media</a>
 			</li>
 
 			<li>
-				<a href="dashboard-demo/frame_openhab.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">Controls</a>
+				<a href="dashboard-demo/frame_loading_openhab.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">Controls</a>
 			</li>
 
 			<li>
-				<a href="dashboard-demo/frame_cameras.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">Cameras</a>
+				<a href="dashboard-demo/frame_loading_cameras.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">Cameras</a>
 			</li>
 
 			<li>
-				<a href="dashboard-demo/frame_solar.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">Energy</a>
+				<a href="dashboard-demo/frame_loading_solar.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">Energy</a>
 				
 			</li>
 			
 			<li>
-				<a href="dashboard-demo/frame_netstats.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">Stats</a>
+				<a href="dashboard-demo/frame_loading_netstats.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">Stats</a>
 				
 			</li>
 		</ul> <!-- .cd-3d-nav -->

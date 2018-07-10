@@ -23,9 +23,14 @@ var increment = 0; //set a value of zero for the progress bar
      </script>
 	 
 	<style>
+	
+	html {
+
+	}
 	body {
 	
-background-color:black;
+background-color:white;
+
 }
 	/*slideshow styles*/
 
@@ -34,6 +39,7 @@ background-color:black;
   margin: 0 auto;
   overflow: hidden;
   border: solid 1px grey;
+  filter: invert(100%); -webkit-filter: invert(100%);
 }
 
 .slideshow-container {
@@ -53,11 +59,13 @@ img, .text-container {
   display: inline-block;
   font-size: 16px;
   text-align: center;
+  
 }
 
 .text-container {
   height: 225px;
   position: relative;
+  filter: invert(100%); -webkit-filter: invert(100%);
 }
 
 
@@ -72,6 +80,7 @@ p {
 }
 
 @keyframes slide {
+filter: invert(100%); -webkit-filter: invert(100%);
   0% {
     transform: translateX(0%);
   }
@@ -122,8 +131,8 @@ p {
 </head>
 <body>
         <div class="card">
-                   <h2 style="color:grey; opacity:0.6;text-align:center;line-height:20px; margin-top:100px;color:white;"> Application Installing <progress id="determinate" max="100" value="0" style="margin-left:20px;"></progress></h2> 
-				   <p style="text-align: center; color: grey;opacity:0.7;margin-top:15px; margin-bottom:-10px;"> <strong style="color:yellow; opacity:0.5;">Tip:</strong>  Check The Status By Refreshing This Screen </p>
+                   <h2 style="color:grey; opacity:0.6;text-align:center;line-height:20px; margin-top:100px;color:black;">The Wave Dashboard is Installed! (Hope you like it) </br></br>Emby Application Installing <progress id="determinate" max="100" value="0" style="margin-left:20px;"></progress></h2> 
+				   <p style="text-align: center; color: grey;opacity:0.7;margin-top:15px; margin-bottom:-10px;"> <strong style="color:yellow; opacity:0.5;"></strong>  Come back in a few moments ... </p>
 				   </br></br><div style="text-align:center;">		  
         </div>
 		<section class="slideshow">

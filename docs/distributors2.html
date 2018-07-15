@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- SEO -->
+	<meta content="Home Operating System" name="description">
+	<meta content="Make it Wave Ltd" name="author">
+	<title>WaveOS</title>
+	
+	<!-- Icons -->
+	
+	<link href="img/favicons/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+	<link href="img/favicons/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+	<link href="img/favicons/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+	<link href="img/favicons/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+	<link href="img/favicons/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+	<link href="img/favicons/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+	<link href="img/favicons/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+	<link href="img/favicons/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+	<link href="img/favicons/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="img/favicons/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
+	<link href="img/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="img/favicons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+	<link href="img/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<link href="/manifest.json" rel="manifest">
+	<meta content="#ffffff" name="msapplication-TileColor">
+	<meta content="img/favicons/ms-icon-144x144.png" name="msapplication-TileImage">
+	<meta content="#ffffff" name="theme-color">
+
+
+	<!-- CSS -->
+	
+	<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="featherlight/release/featherlight.min.css" />
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/breakpoints.css" rel="stylesheet">
+	
+	<style>
+	
+	@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+#mc_embed_signup {
+	   background:#fff; 
+	   clear:left; 
+	   font:14px Helvetica,Arial,sans-serif; 
+}
+
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 0px dotted black;
+	
+}
+
+.tooltip2 .tooltip2 text2 {
+    visibility: hidden;
+    width: auto;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px 5px 5px;
+	font-size: 0.9em;
+
+    /* Position the tooltip2 */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip2:hover .tooltip2 text2 {
+    visibility: visible;
+}
+
+body {
+  font-family: 'Cinzel Decorative', cursive;
+  background-color: #34485D;
+  background-size: cover;
+  color: white;
+}
+
+p {
+
+font-size: 0.5em;
+  font-family:  'Open Sans', sans-serif;
+}
+
+a {
+
+color: white;
+}
+
+h1 {
+  font-size: 1em;
+  text-align: center;
+
+}
+h2 {
+  margin-top:30px;
+  padding-bottom:10px;
+  font-size: 0.5em;
+  text-indent:20px;
+  
+}
+.embiggen {
+  font-size: 4em;
+  text-shadow: 0 0 40px #ffbab3;
+}
+article {
+  max-width: 600px;
+  overflow: hidden;
+  margin: 0 auto 50px;
+}
+
+.subtitle {
+  margin: 0 0 2em 0;
+  font-weight:bold;
+  opacity: 0.3;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.fancy2 {
+  line-height: 0.2;
+  text-align: center;
+}
+.fancy2 span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy2 span:before,
+.fancy2 span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 600px;
+}
+.fancy2 span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy2 span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.amp {
+  margin: 0 0 0.25em 0;
+}
+.amp span {
+  font-size: 0.7em;
+}
+
+.copy {
+  font: 1em Georgia, Serif;
+  text-align: justify;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+}
+.copy p {
+  margin: 0 0 1em 0;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+	display: inline;
+
+}
+
+img {
+	border:1px solid grey;
+	margin-top: 10px;
+	}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 66%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+  
+}
+
+.container:hover .middle2 {
+  opacity: 1;
+    top:30px;
+	margin-left: -14px;
+}
+
+.text3 {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  letter-spacing:2px;
+
+}
+</style>
+
+
+
+<script>jQuery("h1").fitText(1); </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
+</head>
+
+<body>
+</br></br>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<a href="#"><img  style="border:0px;" class="navbar-brand" src="img/wave_logo.png"></a><button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="index.html" style="font-family: 'Open Sans', sans-serif;">info</a>
+					</li>
+
+					<li class="nav-item">
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="distributors.html" style="font-family: 'Open Sans', sans-serif;">Distributors</a>
+					</li>
+	
+				</ul>
+			</div>
+		</nav>
+	</header>
+<h1 style="color:white; text-align: center;margin-top:-40px;font-family: 'Open Sans', sans-serif;">Licenced Distributors (by Territory)</h1>
+<p style="text-align:center; opacity: 0.6;"><a href="" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="color:yellow;text-decoration:underline; overflow:hidden!important;">Apply</a> to be an accredited distributor in your region </p>
+<h1 class="subtitle fancy2" style=""><span>British Isles</span></h1>
+<div style="text-align: center;" class="container">
+
+<img src="img/flags/southernireland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">  <div class="text3 tooltip2">Ireland</div>
+  </div>
+</div> 
+<h2 style="color: white;">United Kingdom </h2>
+<div style="display: inline">
+<div style="text-align: center;" class="container">
+<img src="img/flags/wales.png" style="opacity:0.3;" width="200px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Wales</div>
+  </div>
+</div>
+<div style="text-align: center;" class="container">
+<img src="img/flags/scotland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Scotland </div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/england.png" style="opacity:1;" width="203px" height="auto">&nbsp; &nbsp; 
+<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-wrTWJkYlP-gjKl5j6qQfmKn24F8nsyku8FW06qWEgW4MnPOkXrxpWFNzyuNJc9f8FaWYEgm7lQPE/pubhtml?gid=291480663&chrome=false&single=true" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;">
+<div class="middle2">
+   <div class="text3 tooltip2" >England  </div></a>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/northernireland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Northern Ireland</div>
+  </div>
+</div> 
+<h2 style="color: white;">Crown Dependancies </h2>
+
+<div style="text-align: center;" class="container">
+<img src="img/flags/gurnsey.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Gurnsey</div>
+  </div>
+</div> 
+
+<div style="text-align: center;" class="container">
+<img src="img/flags/jersey.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Jersey</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/isleofman.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Isle of Man</div>
+  </div>
+</div> 
+<h1 class="subtitle fancy2" style=""><span> British Overseas Territories</span></h1>
+<div>
+<div style="text-align: center;" class="container">
+<img src="img/flags/ascensionisland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Ascension Island</div>
+  </div>
+</div>
+<div style="text-align: center;" class="container">
+<img src="img/flags/anguilla.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Anguilla</div>
+  </div>
+</div>
+<div style="text-align: center;" class="container">
+<img src="img/flags/antarctic.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Antarctic</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/bermuda.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Bermuda</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/caymanislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Cayman Islands</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/akrotirianddhekelia.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Cyprus (Akrotiri/Dhekelia)</div>
+  </div>
+</div>
+<div style="text-align: center;" class="container">
+<img src="img/flags/falklandislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Falkland Islands</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/gibraltar.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Gibraltar</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/indianocean.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Indian Ocean</div>
+  </div>
+</div>
+<div style="text-align: center;" class="container">
+<img src="img/flags/montserrat.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Montserrat</div>
+  </div>
+</div>
+<div style="text-align: center;" class="container">
+<img src="img/flags/pitcairnislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Pitcairn Islands</div>
+  </div>
+</div>
+<div style="text-align: center;" class="container">
+<img src="img/flags/virginislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Virgin Islands</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/southgeorgiaandthesouthsandwidthislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">South_Georgia_& South_Sandwich Islands</div>
+  </div>
+</div>
+<div style="text-align: center;" class="container">
+<img src="img/flags/sainthelena.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">St Helena</div>
+  </div>
+</div>
+<div style="text-align: center;" class="container">
+<img src="img/flags/tristandacunha.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Trist & Acunha</div>
+  </div>
+</div>
+<div style="text-align: center;" class="container">
+<img src="img/flags/turksandcaicos.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Turks & Caicos_Islands</div>
+  </div>
+</div> 
+</div> 
+
+<h1 class="subtitle fancy2" style=""><span> Commonwealth Realm</span></h1>
+
+<div style="text-align: center;" class="container">
+<img src="img/flags/canada.png" style="opacity:1;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Canada</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/australia.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Australia</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/papua.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Papua New_Guinea</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/newzeland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">New Zeland</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/jamaica.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Jamaica</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/solomonislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Solomon Islands</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/belize.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Belize</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/bahamas.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Bahamas</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/barbados.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Barbados</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/saintlucia.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Saint Lucia</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/saintvincentgrenadines.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Saint_Vincent and the Grenadines </div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/grenada.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Grenada </div>
+  </div>
+</div> 
+
+<div style="text-align: center;" class="container">
+<img src="img/flags/antiguaandbarbuda.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Antigua and_Barbuda </div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/saintkittsnevis.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Saint_Kitts and_Nevis </div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container">
+<img src="img/flags/tuvalu.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Tuvalu</div>
+  </div>
+</div> 
+
+<h1 class="subtitle fancy2" style="padding-top: 40px; margin-bottom:30px;"><span> British Protectorates </span></h1>
+
+<div style="text-align: center;" class="container">
+<img src="img/flags/scottishbay.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+    <div class="text3 tooltip2">Scottish Bay</div>
+  </div>
+</div>
+</div> 
+
+<p style="color:white; text-align: center;margin-top:100px;padding-bottom:50px; font-weight:lighter; opacity:0.5; "> Suggestions? Please Email <a href="mail:info@makeitwave.com" style="color:yellow;">info@makeitwave.com </a></p>
+
+			
+
+		<footer class="container" style="padding-left: 15px;padding-right: 15px;padding-top: 15px; border-top:1px solid grey;">
+			<p class="float-right"><a href="#">Back to top</a>
+			</p>
+			<p>&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="https://github.com/unclehowell/WaveOS/blob/master/README.md">GitHub</a> &middot; <a href="mailto:info@makeitwave.com" style="color: white; opacity:0.5;">  Email Us</a></p>
+		</footer>
+	</main>
+	 <script src="featherlight/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+	 	<script src="js/jquery.min.js"></script> 
+	<script src="js/videoLightning.js"></script> 
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+	<script>
+	window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/jquery-slim.min.js"><\/script>')
+	</script> 
+	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script> 
+	<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script> <!-- Just to make our placeholder images work. Don't actually copy the next line! --> 
+	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js"></script> <!-- The other .js fils -->
+
+</body>
+</html>

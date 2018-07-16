@@ -12,6 +12,11 @@
   .featurette-heading {
     font-size: 50px;
   }
+  
+  h1 {
+  font-size: 0.5em;
+
+}
    
 }
 
@@ -26,6 +31,15 @@
 	 height: 300px;
     	 
 	}  
+	
+.fancy2 span:before,
+.fancy2 span:after {
+  width: 0em;
+}
+  h1 {
+  font-size: 0.5em;
+
+}
 }
 
 @media (min-width: 62em) {
@@ -36,6 +50,15 @@
   .carousel-item > img {
 	 margin-left: 40rem; 
 	}  
+	
+	.fancy2 span:before,
+.fancy2 span:after {
+  width: 0em;
+}
+  h1 {
+  font-size: 0.5em;
+
+}
 }
 
   /* Standard Breakpoints. Working with fluid images  */

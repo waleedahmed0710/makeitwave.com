@@ -1,3 +1,4 @@
 url: https://makeitwave.com
 enforce_ssl: makeitwave.com
 theme: jekyll-theme-cayman
+permalink: /make-it-wave

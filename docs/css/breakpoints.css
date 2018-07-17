@@ -15,8 +15,17 @@
   
   h1 {
   font-size: 0.5em;
-
 }
+
+.carousel-item > img {
+   position: fixed;
+   top: -3em;
+   width: calc(100vw - 60vw);
+   height: auto;
+   max-width: calc(50vw);
+   margin-top: calc(100vh - 90vh); /* Half the height */
+   left: 50%; /* Half the width */ 
+	}
    
 }
 
@@ -25,10 +34,13 @@
   
      
   .carousel-item > img {
-	 top: -2rem;
-	 left: 1rem;
-	 width: 300px;
-	 height: 300px;
+   position: absolute;
+   top: -50px;
+   left: 2.5%;
+   width: calc(100vw - 25vw);
+   height: auto;
+   margin-top: calc(100vh - 90vh); /* Half the height */
+   margin-left: calc(100vw - 90vw); /* Half the width */
     	 
 	}  
 	
@@ -38,8 +50,10 @@
 }
   h1 {
   font-size: 0.5em;
-
 }
+
+.mobilefloatytext {
+font-size: 0.6em;
 }
 
 @media (min-width: 62em) {
@@ -51,13 +65,20 @@
 	 margin-left: 40rem; 
 	}  
 	
-	.fancy2 span:before,
+.fancy2 span:before,
 .fancy2 span:after {
   width: 0em;
 }
-  h1 {
+
+h1 {
   font-size: 0.5em;
 
+}
+
+.mobilefloatytext {
+	
+font-size: 0.6em;
+	
 }
 }
 
@@ -85,14 +106,21 @@
 
 @media all and (min-width:1200px){
 	
+	
+	
 }
 @media all and (min-width: 960px) and (max-width: 1199px) {
+	
+
 	
 }
 @media all and (min-width: 768px) and (max-width: 959px) {
 	
+	
 }
 @media all and (min-width: 480px) and (max-width: 767px){
+	
+	
 	
 }
 @media all and (max-width: 599px) {
@@ -145,6 +173,15 @@
   /* Retina Breakpoints(@2x)  */
 
 @media(-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:3/2),(min-resolution:1.5dppx){ 
+
+
+.carouselone {
+	
+zoom:0.8;
+	
+}
+
+
 
 }
 

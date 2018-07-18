@@ -42,14 +42,14 @@ height: calc(100vh - 0%);
 	overflow: auto;
 	padding: 25px 25px 0;
 	border-bottom: 25px solid transparent;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: :calc(1vw);
+	margin-right: :calc(1vw);
 	max-height: 95%;
 	background: #fff;
 	cursor: auto;
 	white-space: normal;
 	left: calc(0.1vw);
-	max-width:calc(90vw);
+	max-width:calc(98vw);
 }
 .featherlight .featherlight-inner {
 	display: block
@@ -69,8 +69,8 @@ height: calc(100vh - 0%);
 	color: #000;
 	border: 0;
 	padding: 0;
-  right: 28px;
-  top: 28px;
+  right: 8px;
+  top: 8px;
   width: 32px;
   height: 32px;
   opacity: 0.3;
@@ -88,10 +88,10 @@ height: calc(100vh - 0%);
 		width:  calc(100vw - 0%);
 	border-bottom: 0;
 	padding: 0;
-	overflow:hidden!important;
-	overflow-y:hidden!important;
-    overflow-x:hidden!important;
-	-webkit-overflow-scrolling: touch
+
+	overflow-x:hidden!important;
+
+	-webkit-overflow-scrolling: touch;
 }
 .featherlight iframe {
 		height: calc(100vh - 0%); 

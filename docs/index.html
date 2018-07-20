@@ -38,13 +38,15 @@ if {{ host == window.location.host} && {window.location.protocol != "https:""}}
 
 
 	<!-- CSS -->
-	
+
+	<link href="css/deconflict.css" rel="stylesheet">
+	<link href="css/pygment_trac.css" rel="stylesheet">
+	<link href="css/jqvl-page.css" rel="stylesheet">
 	<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/breakpoints.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="featherlight/release/featherlight.min.css" />
 	<link href="css/style.css" rel="stylesheet">	
 	<link href="css/breakpoints.css" rel="stylesheet">
-	
 	<style type="text/css">
 	   #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 	   /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
@@ -59,8 +61,11 @@ font-size: 2em;
 	</style>
 	
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
+    <script>function onYouTubeIframeAPIReady() {vlData.ytReady()};</script>
+	<script id="ytScript" async="" src="https://www.youtube.com/iframe_api"></script>
+	<script src="js/jquery.min.js.descarga">	</script>
 </head>
 
 <body>
@@ -195,20 +200,21 @@ font-size: 2em;
 			<p>&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="mailto:info@makeitwave.com" style="color: grey; opacity:0.5;">  Email Us</a></p>
 		</footer>
 	</main>
-	<!-- Bootstrap core JavaScript
+		<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
 	<script>
-	window.jQuery || document.write('<script src="//getbootstrap.com/docs/4.1/assets/js/vendor/jquery-slim.min.js"><\/script>')
+	window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/jquery-slim.min.js"><\/script>')
 	</script> 
 	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script> 
 	<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script> <!-- Just to make our placeholder images work. Don't actually copy the next line! --> 
+	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js"></script> <!-- The other .js fils -->
 	<script src="js/scale.fix.js"></script> 
 	<script src="js/jquery.min.js"></script> 
 	<script src="js/videoLightning.js"></script> 
 	<script src="js/jqvl-page.js"></script> 
-	
-    <script src="featherlight/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/page.js"></script>
+	 <script src="featherlight/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>

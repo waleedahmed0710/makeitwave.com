@@ -1,6 +1,12 @@
 <!DOCTYPE>
 <html>
   <head>
+  <style>
+body {
+padding: 0;
+margin: 0;
+}
+  </style>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <title>WaveOS Auction Countdown</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -11,7 +17,7 @@
         $(".digits").countdown({
           image: "img/digits.png",
           format: "dd:hh:mm:ss",
-          endTime: new Date(2018, 10, 31)
+          endTime: new Date('10/20/18 05:00:00')
         });
       });
     </script>

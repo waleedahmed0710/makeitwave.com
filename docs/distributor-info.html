@@ -52,6 +52,17 @@
 	<!-- Java -->
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
+     <script src="jquery-countdown/js/jquery.countdown.js"></script>
+    <link href="jquery-countdown/css/media.css" rel="stylesheet" type="text/css" />
+    <script>
+      $(function(){
+        $(".digits").countdown({
+          image: "jquery-countdown/img/digits.png",
+          format: "dd:hh:mm:ss",
+          endTime: new Date(2018, 10, 31)
+        });
+      });
+    </script>
 
 </head>
 
@@ -92,10 +103,18 @@
 			<!-- Three columns of text below the carousel -->
 			
 			</br>
+  <div class="wrapper">
+      <div class="cell">
+        <div id="holder">
+          <div class="digits"></div>
+        </div>
+      </div>
+    </div>
 	<div class="container" >
 	<p style="padding-top: 0px; padding-left: 15px;padding-right: 15px;  text-align: center;margin-top:10px;padding-bottom:0px;">Register to Become an Accredited Wave Distributor in your Region . . . </p></div>	
 		<br>
-		<div style="text-align:center;"><img src="img/britishcrown.png" style="text-align: center; width:calc(100vw - 55vw); height: auto;">
+		
+<img src="img/britishcrown.png" style="text-align: center; width:calc(100vw - 55vw); height: auto;">
 		</br>
 	
 	<div  style=" border-top: 1px solid grey; margin-top: 50px; display: block; height: 50px;"></div>
@@ -106,7 +125,7 @@
 					<h2>Aug/Sep 2018</h2>
 
 
-					<p style="text-align:justify;">Companies in British Territories Worldwide are invited to participate in the October Auction to become a Licenced & Accredited Wave Distributor. </br> Processing Fee of £200 GBP</p>
+					<p style="text-align:justify;">Companies in British Territories Worldwide are invited to participate in the October Auction to become a Licenced & Accredited Wave Distributor. </br> £200 GBP Entry Fee, <a href="https://docs.google.com/document/d/e/2PACX-1vRBmSJJ2stz6tGJFe9fDZfgAuJHK3FbYmmDBKVdEZGSWBbooTPaVeQjtXj9FmNGOp_GoMZqKyzRM8VC/pub?embedded=true"  data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" v-scrolling="yes"  >Terms Apply </a></p>
 
 
 					<p><a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSfr0_6OB4qO7Wqhjw_NN6BhQijBYRVdG5uK5v0W4dDJWQRChA/viewform?usp=sf_link" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no"  role="button">Register Now &raquo;</a>
@@ -121,8 +140,8 @@
 					<h2>October 2018</h2>
 
 
-					<p style="text-align:justify;">Applicants bid for an exclusive 3 Year Regional Licence to supply, Install and Support Wave users in their territory. (Auction will include District & 4 Nationwide Licences). Min bid: £500 GBP</p>
-<a class="btn btn-secondary" href="countryselect.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;" role="button">Place Bid</a>&nbsp;<a class="btn btn-secondary" href="partnerselectcountry.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;" role="button">Results</a>
+					<p style="text-align:justify;">Applicants bid for an exclusive 3 Year <a  data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" v-scrolling="yes"  href="https://docs.google.com/document/d/e/2PACX-1vSkWj1t3DMD_4SGY2KdJO2RQVKiv6QEm9Z1Rf_5JDBus6Btu_P_kVYBFIFAcK0uEZo1-iONrxBkeWz5/pub?embedded=true" padding="0" margin= "0" > Regional Licence</a> to supply, Install and Support Wave users in their territory. (Auction will include District & 2 Nationwide Licences). Min bid: £500 GBP</p>
+<a class="btn btn-secondary" href="countryselect.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" v-scrolling="" style="overflow:hidden!important;" role="button">Place Bid</a>&nbsp;<a class="btn btn-secondary" href="partnerselectcountry.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" v-scrolling="yes"  role="button">Results</a>
 
 					
 					</p>
@@ -171,7 +190,7 @@
 	<script src="js/jquery.min.js"></script> 
 	<script src="js/videoLightning.js"></script> 
 	<script src="js/jqvl-page.js"></script> 
-	<script src="js/page.js"></script>
+
 	 <script src="featherlight/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>

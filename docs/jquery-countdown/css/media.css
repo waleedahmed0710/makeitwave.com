@@ -16,7 +16,7 @@ html, body, .wrapper {
 
 #holder {
   left:0px;
-  width: calc(99vw);
+  width: calc(102vw);
   height:  1px;
   margin: auto;
 
@@ -34,7 +34,7 @@ html, body, .wrapper {
 	height: 30px;
 	width: calc(43vw); 
 	text-align:left; 
-	margin-left: calc(100vw - 71%);
+	margin-left: calc(100vw - 73%);
 	vertical-align: middle;
 	white-space: nowrap;
 	margin-top; -10px;
@@ -196,3 +196,18 @@ padding-left: 20px;
 
 }
  
+ 
+@media all and (min-width: 775px) and (max-width: 804px) {
+	
+	
+#holder {
+	width: calc(100vw);
+}
+
+.cntDigit#cnt_0 {
+	
+	margin-left: calc(100vw - 83%);
+
+}
+
+}

@@ -22,31 +22,22 @@ a {
 	margin-top:5px;
 	text-decoration:none;
 	margin-bottom:5px;
-color: white;
-display: block;
-border-radius: 20px 20px 20px 20px; 
-border: 1px white solid;
-padding-top: 15px;
-text-align:center;
-background-color: grey;
-height: 20px;
-width: 140px;
-}
-.iframediv  {
-	max-width: calc(95vw);
-	width: 90%;
-	height: calc(70vh);
+	color: white;
+	display: block;
+	border-radius: 20px 20px 20px 20px; 
+	border: 1px white solid;
+	padding-top: 15px;
 	text-align:center;
-	border-radius: 25px 25px 25px 25px;
-	border:1px solid white;
-	background-color: white;
-	opacity: 0.8;
+	background-color: grey;
+	height: 20px;
+	width: 140px;
 }
+
 iframe {
 	margin-top: 20px;
-	width: calc(100vw - 20vw);
+	width: 100%;
 	text-align: center;
-	height: calc(60vh);
+	height: calc(70vh);
 	border: 1px solid white;
 	opacity: 0.8;
 }

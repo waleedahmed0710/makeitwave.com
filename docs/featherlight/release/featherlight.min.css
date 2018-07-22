@@ -52,6 +52,15 @@ html.with-featherlight {
 	white-space: normal;
 	left: calc(0.1vw);
 	max-width: calc(98vw);
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	image-rendering: auto;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;	
 }
 .featherlight .featherlight-inner {
 	display: block
@@ -90,6 +99,15 @@ html.with-featherlight {
 	width: calc(100vw - 0%);
 	border-bottom: 0;
 	padding: 0;
+			-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: auto;
+		text-rendering: optimizeSpeed;
+		text-rendering: optimizeLegibility;
+		text-rendering: geometricPrecision;
+		image-rendering: auto;
+		image-rendering: crisp-edges;
+		image-rendering: pixelated;	
 }
 .featherlight iframe {
 	height: calc(100vh - 0%);

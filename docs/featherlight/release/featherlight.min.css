@@ -10,32 +10,9 @@ html.with-featherlight {
 	overflow: hidden;
 }
 
-.countdown-iframe  {
-padding-left: calc(12vw);
-width:calc(90vw); 
-height: calc(40vh);
-margin:0;
-overflow: hidden!important;
--moz-osx-font-smoothing: grayscale;
--webkit-font-smoothing: antialiased;
--ms-transform: scale(100vw);
--moz-transform: scale(100vw);
--o-transform: scale(100vw);
--webkit-transform: scale(100vw);
-transform: scale(100vw);
--ms-transform-origin: 0 0;
--moz-transform-origin: 0 0;
--o-transform-origin: 0 0;
--webkit-transform-origin: 0 0;
-transform-origin: 0 0
-text-rendering: auto;
-text-rendering: optimizeSpeed;
-text-rendering: optimizeLegibility;
-text-rendering: geometricPrecision;
-  image-rendering: auto;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
-}
+
+
+
 .featherlight {
 	display: none;
 	position: fixed;

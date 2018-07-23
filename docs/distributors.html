@@ -44,15 +44,48 @@ if {{ host == window.location.host} && {window.location.protocol != "https:""}}
 	<link type="text/css" rel="stylesheet" href="featherlight/release/featherlight.min.css" />
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/breakpoints.css" rel="stylesheet">
-		<link href="css/distributors2.css" rel="stylesheet">
+	<link href="css/distributors2.css" rel="stylesheet">
 	
 	<style>
-	
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+
+.css_only{
+    -moz-animation-name: showEffect;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 2.3s;
+
+	-webkit-animation-name: showEffect;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 2.3s;
+
+	animation-name: showEffect;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2.3s;
+}
+
+
+@-moz-keyframes showEffect {
+	0% { display: none; visibility: hidden; }
+	100% { display: block; visibility: visible;  }
+
+}
+@-webkit-keyframes showEffect {
+	0% { display: none; visibility: hidden; }
+	100% { display: block; visibility: visible;  }
+
+}
+@keyframes showEffect {
+	0% { display: none; visibility: hidden; }
+	100% { display: block; visibility: visible;  }
+}
+
 </style>
 
 <script>jQuery("h1").fitText(1); </script>
@@ -85,8 +118,8 @@ html, body {
 			</div>
 		</nav>
 	</header>
-<h1 style="font-weight: bold; letter-spacing: 0.1em; white-space:nowrap; color:white; margin-left:padding:10px; margin-top:-40px;font-family: 'Cinzel Decorative', cursive; font-size: calc(60.5% + 0.5vw);">Licenced Distributors <wbr> (by Territory)</h1>
-<p style="text-align:center; opacity: 0.6;  letter-spacing: 0.1em; font-size: calc(40.5% + 0.3vw); font-weight: lighter; white-space:nowrap;font-family: 'Cinzel Decorative', cursive; "> Become a Licenced Wave Distributor  <wbr>  <a href="distributor-info.html" h-scrolling="no" style="color:yellow;text-decoration:underline; overflow:hidden!important;">Learn More</a>  </p>
+<h1 style="font-weight: bold; letter-spacing: 0.1em; white-space:nowrap; color:grey; margin-left:padding:10px;margin-bottom:40px; margin-top:-40px;font-family: 'Cinzel Decorative', sans-serif; font-size: calc(60.5% + 0.5vw); text-decoration:underline;">Licenced Distributors <wbr> (by Territory)</h1>
+<p style="text-align:center; opacity: 0.8;  letter-spacing: 0.1em; font-size: calc(40.5% + 0.3vw); font-weight:lighter; white-space:nowrap; "> WaveOS Licence Auction is in progress  <wbr>  <a href="distributor-info.html" h-scrolling="no" style="text-decoration:underline; overflow:hidden!important;">Learn More</a>  </p>
 <h1 class="subtitle fancy2" style=""><span>British Isles</span></h1>
 <div style="text-align: center;" class="container2">
 
@@ -94,7 +127,7 @@ html, body {
  <div class="middle2">  <div class="text3 tooltip2">Ireland</div>
   </div>
 </div> 
-<h2 style="color: white;">United Kingdom </h2>
+<h2 style="color: grey;">United Kingdom </h2>
 <div style="display: inline">
 <div style="text-align: center;" class="container2">
 <img src="img/flags/wales.png" style="opacity:0.3;" width="200px" height="auto">&nbsp; &nbsp; 
@@ -122,7 +155,7 @@ html, body {
   </div>
 </div>
  
-<h2 style="color: white;">Crown Dependancies </h2>
+<h2 style="color: grey;">Crown Dependancies </h2>
 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/gurnsey.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
@@ -336,7 +369,7 @@ html, body {
     <div class="text3 tooltip2">Turks & Caicos_Islands</div>
   </div>
 </div> 
-<h1 class="subtitle fancy2" style="padding-top: 40px; margin-bottom:30px;"><span> Other </span></h1>
+<h1 class="subtitle fancy2" style=""><span> Other </span></h1>
 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/scottishbay.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
@@ -347,7 +380,7 @@ html, body {
 
 </div> 
 
-<p style="color:white; text-align: center;margin-top:100px;padding-bottom:50px; font-weight:lighter; opacity:0.5; "> Suggestions? Please Email <a href="mail:info@makeitwave.com" style="color:yellow;">info@makeitwave.com </a></p>
+<p></p></br><p></p>
 
 			
 
@@ -357,12 +390,24 @@ html, body {
 			<p>&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="https://github.com/unclehowell/WaveOS/blob/master/README.md">GitHub</a> &middot; <a href="mailto:info@makeitwave.com" style="color: white; opacity:0.5;">  Email Us</a></p>
 		</footer>
 	</main>
-	 <script src="featherlight/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script><script src="js/jquery.min.js"></script> <script src="js/videoLightning.js"></script> 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> <script>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> <script>
 	window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/jquery-slim.min.js"><\/script>')
 	</script> 
 	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script> 
 	<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script> <!-- Just to make our placeholder images work. Don't actually copy the next line! --> 
 	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js"></script> <!-- The other .js fils -->
-</body>
+	<script src="js/scale.fix.js"></script> 
+	<script src="js/jquery.min.js"></script> 
+	<script src="js/videoLightning.js"></script> 
+	<script src="featherlight/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+$(document).ready(function(){
+    $(".js_only").hide();
+    setTimeout(function () {
+        $(".js_only").show();
+    }, 1000);
+});
+</script>
+	</body>
 </html>

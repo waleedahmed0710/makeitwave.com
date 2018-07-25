@@ -32,14 +32,13 @@ body {
   padding-bottom:2px;
   text-align: middle;
   display:block;
-  background-color: rgba(120,100,190,0.3);
+  background-color: #6c757d;
   opacity:0.3;
   width: 80px;
   height: 20px;	
-  border: 1px solid grey;
-  
+  border: 1px solid white;
   border-radius: 5px 5px 5px 5px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -87,7 +86,6 @@ h1 {
 #wrapper {
   display: block;
   width: calc(100vw);
-
   margin: 0 auto;
   -webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35);
   left:0;
@@ -98,13 +96,15 @@ h1 {
   margin: 0 auto;
   font-size: 1.2em;
   margin-bottom: 15px;
+      min-width: calc(100vw);
+    max-width: calc(100vw);
 
 }
 
 
 #keywords thead {
   cursor: pointer;
-  background: #c9dff0;
+  background: #585858;
   
 }
 #keywords thead tr th { 
@@ -117,6 +117,9 @@ h1 {
   padding-right: 20px;
   background-repeat: no-repeat;
   background-position: 100% 100%;
+  color: white;
+  font-weight: lighter;
+  letter-spacing:0.1em;
   
 }
 
@@ -135,6 +138,7 @@ h1 {
 
 #keywords tbody tr { 
   color: #555;
+  border: 0.1em dotted grey;
 }
 #keywords tbody tr td {
   text-align: center;
@@ -142,4 +146,31 @@ h1 {
 }
 #keywords tbody tr td.lalign {
   text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#keywords tbody tr td.ralign {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.region-subtitles {
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(rgba(202, 157, 209,.3)), to(#fff)); 
+}
+
+.sexy_line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+
+@media all and (max-width: 479px)  {
+.sexy_line{  
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(#000), to(#fff));
 }

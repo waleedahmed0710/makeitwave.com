@@ -90,16 +90,17 @@ html, body {
 .auctiontextsubtitle {
 
 color: #5a5a5a;
-margin-top:-1.5em;
-text-decoration: underline;
+margin-top:-1.8em;
 text-align:center;
-font-size: 0.7em;
+font-size: calc(1vw + 43%);
 line-height:0.5;
 font-weight:bold; 
 line-height:1.2em;
 font-family: 'Cinzel Decorative', cursive;
 letter-spacing:0.1em;
 padding-bottom:1em;
+padding-left:2vw;
+padding-right:2vw;
 }
 
 .auctiontextsubsubtitle {
@@ -108,8 +109,7 @@ font-family: 'Cinzel Decorative', cursive;
 letter-spacing:0.2em;
 font-style: italic;
 text-align:center;
-font-size: 0.8em;
-line-height:0.5;
+font-size: calc(1vw + 33%);
 font-weight:lighter; 
 line-height:1.2em;
 
@@ -125,6 +125,33 @@ line-height:1.2em;
     background:black;
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
 }
+
+.auctionroom-box {
+
+display: block;
+width: 60%;
+margin-left:20%;
+margin-right:20%;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(rgba(202, 157, 209,.3)), to(#fff)); 
+height: auto;
+border-radius:1em 1em 1em 1em;
+margin-top:0.1em;
+vertical-align: middle;
+}
+
+.auctionroom-notice {
+color: grey;
+text-align:center;
+font-size: 0.8em;
+vertical-align: middle;
+padding-bottom:0.1em;
+}
+
+@media all and (max-width: 479px)  {
+.sexy_line{  
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(#000), to(#fff));
+}
+
 
 </style>
 <script>jQuery("h1").fitText(1); </script>
@@ -156,158 +183,270 @@ line-height:1.2em;
 			</div>
 		</nav>
 	</header>
+	
 <p class="auctiontextsubtitle">Licenced WaveOS Distributors </p>
-<p class="auctiontextsubsubtitle"> <a class="auctiontextsubsubtitle" href="distributor-info.html" h-scrolling="no" style="text-decoration: none;">Become a Distributor</a>  </p>
+<div class="auctionroom-box">
+<p class="auctionroom-notice"><a class="auctiontextsubsubtitle" href="distributor-info.html" h-scrolling="no" >Registration &raquo;</a>  </b></p>
+</div>
+<p class="auctiontextsubsubtitle">  </p>
 <span class="sexy_line"></span>
- <h1 class="subtitle fancy2" style=""><span>British Isles</span></h1>
+<h1 class="subtitle fancy2" style=""><span>British Isles</span></h1>
+<h2 style="color: grey;margin-left:1rem;">United Kingdom </h2>
 <div style="text-align: center;" class="container2">
-
-<img src="img/flags/southernireland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
- <div class="middle2">  <div class="text3 tooltip2">Ireland</div>
+<img src="img/flags/england.png" style="opacity:1;" width="203px" height="auto">&nbsp; &nbsp; 
+<a href="territory_pages/england.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;">
+<div class="middle2">
+     <div class="text3 tooltip2" style="opacity:1;"  >England </div></a>
   </div>
 </div> 
-<h2 style="color: grey;">United Kingdom </h2>
 <div style="display: inline">
 <div style="text-align: center;" class="container2">
 <img src="img/flags/wales.png" style="opacity:0.3;" width="200px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Wales</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Wales</div>
   </div>
 </div>
 <div style="text-align: center;" class="container2">
 <img src="img/flags/scotland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Scotland </div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Scotland </div>
   </div>
 </div> 
-<div style="text-align: center;" class="container2">
-<img src="img/flags/england.png" style="opacity:1;" width="203px" height="auto">&nbsp; &nbsp; 
-<a href="territory_pages/england.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;">
-<div class="middle2">
-   <div class="text3 tooltip2" >England </div></a>
-  </div>
-</div> 
+
 <div style="text-align: center;" class="container2">
 <img src="img/flags/northernireland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Northern Ireland</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Northern Ireland</div>
   </div>
 </div>
  
-<h2 style="color: grey;">Crown Dependancies </h2>
+<h2 style="color: grey;margin-left:1rem;">Crown Dependancies </h2>
 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/gurnsey.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Gurnsey</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Gurnsey</div>
   </div>
 </div> 
 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/jersey.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Jersey</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Jersey</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/isleofman.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Isle of Man</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Isle of Man</div>
+  </div>
+</div> 
+
+<h2 style="color: grey;margin-left:1rem;">Ireland</h2>
+
+<div style="text-align: center;" class="container2">
+<img src="img/flags/southernireland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">    <div class="text3 tooltip2" style="opacity:0.8;" >Ireland</div>
+  </div>
+</div> 
+
+<h1 class="subtitle fancy2" style=""><span>Crown Protectorates </span></h1>
+
+<div style="text-align: center;" class="container2">
+<img src="img/flags/scottishbay.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Scottish Bay</div>
+  </div>
+</div>
+
+<h1 class="subtitle fancy2" style=""><span> Commonwealth Realm</span></h1>
+
+<h2 style="color: grey;margin-left:1rem;"><img src="img/flags/canada.png" style="opacity:0.3;margin-top:-2px; margin-left:7px;" width="50px" height="auto">&nbsp; Canada </h2>
+
+<div style="text-align: center;" class="container2">
+<img src="img/flags/canada.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 1</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container2">
+<img src="img/flags/canada.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 2</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container2">
+<img src="img/flags/canada.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 3</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container2">
+<img src="img/flags/canada.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 4</div>
   </div>
 </div> 
 
 
-<h1 class="subtitle fancy2" style=""><span> Commonwealth Realm</span></h1>
+<h2 style="color: grey;margin-left:1rem;">Australia </h2>
 
 <div style="text-align: center;" class="container2">
-<img src="img/flags/canada.png" style="opacity:1;" width="203px" height="auto">&nbsp; &nbsp; 
+<img src="img/flags/australia.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Canada</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 1</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/australia.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Australia</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 2</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
-<img src="img/flags/papua.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+<img src="img/flags/australia.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Papua New_Guinea</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 3</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container2">
+<img src="img/flags/australia.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 4</div>
+  </div>
+</div> 
+
+
+<h2 style="color: grey;margin-left:1rem;">New Zeland</h2>
+
+<div style="text-align: center;" class="container2">
+<img src="img/flags/newzeland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 1</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/newzeland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">New Zeland</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 2</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container2">
+<img src="img/flags/newzeland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 3</div>
+  </div>
+</div> 
+<div style="text-align: center;" class="container2">
+<img src="img/flags/newzeland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 4</div>
+  </div>
+</div> 
+
+<h2 style="color: grey;margin-left:1rem;">Bahamas </h2>
+
+<div style="text-align: center;" class="container2">
+<img src="img/flags/bahamas.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 1</div>
+  </div>
+</div> 
+
+<div style="text-align: center;" class="container2">
+<img src="img/flags/bahamas.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 2</div>
+  </div>
+</div> 
+
+<h2 style="color: grey;margin-left:1rem;">Jamaica</h2>
+
+<div style="text-align: center;" class="container2">
+<img src="img/flags/jamaica.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 1</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/jamaica.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Jamaica</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 2</div>
+  </div>
+</div> 
+
+
+<h2 style="color: grey;margin-left:1rem;">Papua New Guinea </h2>
+
+<div style="text-align: center;" class="container2">
+<img src="img/flags/papua.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 1</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
+<img src="img/flags/papua.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
+ <div class="middle2">
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 2</div>
+  </div>
+</div> 
+
+
+<h2 style="color: grey;margin-left:1rem;">Solomon Islands</h2>
+
+<div style="text-align: center;" class="container2">
 <img src="img/flags/solomonislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Solomon Islands</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Area 1</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/belize.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Belize</div>
-  </div>
-</div> 
-<div style="text-align: center;" class="container2">
-<img src="img/flags/bahamas.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
- <div class="middle2">
-    <div class="text3 tooltip2">Bahamas</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Belize</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/barbados.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Barbados</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Barbados</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/saintlucia.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Saint Lucia</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Saint Lucia</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/saintvincentgrenadines.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Saint_Vincent and the Grenadines </div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Saint_Vincent and the Grenadines </div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/grenada.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Grenada </div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Grenada </div>
   </div>
 </div> 
 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/antiguaandbarbuda.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Antigua and_Barbuda </div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Antigua and_Barbuda </div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/saintkittsnevis.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Saint_Kitts and_Nevis </div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Saint_Kitts and_Nevis </div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/tuvalu.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Tuvalu</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Tuvalu</div>
   </div>
 </div> 
 <h1 class="subtitle fancy2" style=""><span> British Overseas Territories</span></h1>
@@ -315,107 +454,99 @@ line-height:1.2em;
 <div style="text-align: center;" class="container2">
 <img src="img/flags/ascensionisland.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Ascension Island</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Ascension Island</div>
   </div>
 </div>
 <div style="text-align: center;" class="container2">
 <img src="img/flags/anguilla.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Anguilla</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Anguilla</div>
   </div>
 </div>
 <div style="text-align: center;" class="container2">
 <img src="img/flags/antarctic.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Antarctic</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Antarctic</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/bermuda.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Bermuda</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Bermuda</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/caymanislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Cayman Islands</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Cayman Islands</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/akrotirianddhekelia.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Cyprus (Akrotiri/Dhekelia)</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Cyprus (Akrotiri/Dhekelia)</div>
   </div>
 </div>
 <div style="text-align: center;" class="container2">
 <img src="img/flags/falklandislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Falkland Islands</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Falkland Islands</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/gibraltar.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Gibraltar</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Gibraltar</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/indianocean.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Indian Ocean</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Indian Ocean</div>
   </div>
 </div>
 <div style="text-align: center;" class="container2">
 <img src="img/flags/montserrat.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Montserrat</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Montserrat</div>
   </div>
 </div>
 <div style="text-align: center;" class="container2">
 <img src="img/flags/pitcairnislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Pitcairn Islands</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Pitcairn Islands</div>
   </div>
 </div>
 <div style="text-align: center;" class="container2">
 <img src="img/flags/virginislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Virgin Islands</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Virgin Islands</div>
   </div>
 </div> 
 <div style="text-align: center;" class="container2">
 <img src="img/flags/southgeorgiaandthesouthsandwidthislands.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">South_Georgia_& South_Sandwich Islands</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >South_Georgia_& South_Sandwich Islands</div>
   </div>
 </div>
 <div style="text-align: center;" class="container2">
 <img src="img/flags/sainthelena.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">St Helena</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >St Helena</div>
   </div>
 </div>
 <div style="text-align: center;" class="container2">
 <img src="img/flags/tristandacunha.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Trist & Acunha</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Trist & Acunha</div>
   </div>
 </div>
 <div style="text-align: center;" class="container2">
 <img src="img/flags/turksandcaicos.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
  <div class="middle2">
-    <div class="text3 tooltip2">Turks & Caicos_Islands</div>
+      <div class="text3 tooltip2" style="opacity:0.8;" >Turks & Caicos_Islands</div>
   </div>
 </div> 
-<h1 class="subtitle fancy2" style=""><span> Other </span></h1>
-
-<div style="text-align: center;" class="container2">
-<img src="img/flags/scottishbay.png" style="opacity:0.3;" width="203px" height="auto">&nbsp; &nbsp; 
- <div class="middle2">
-    <div class="text3 tooltip2">Scottish Bay</div>
-  </div>
-</div>
 
 </div> 
 

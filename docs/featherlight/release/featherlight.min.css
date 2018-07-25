@@ -11,8 +11,6 @@ html.with-featherlight {
 }
 
 
-
-
 .featherlight {
 	display: none;
 	position: fixed;
@@ -63,7 +61,7 @@ html.with-featherlight {
 	image-rendering: pixelated;	
 }
 .featherlight .featherlight-inner {
-	display: block
+	display: block;
 }
 .featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
 	display: none
@@ -99,15 +97,15 @@ html.with-featherlight {
 	width: calc(100vw - 0%);
 	border-bottom: 0;
 	padding: 0;
-			-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		text-rendering: auto;
-		text-rendering: optimizeSpeed;
-		text-rendering: optimizeLegibility;
-		text-rendering: geometricPrecision;
-		image-rendering: auto;
-		image-rendering: crisp-edges;
-		image-rendering: pixelated;	
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	image-rendering: auto;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;	
 }
 .featherlight iframe {
 	height: calc(100vh - 0%);
@@ -163,7 +161,7 @@ html.with-featherlight {
 		width: calc(100vw + 0%);
 	}
 }
-@media all and (min-width: 768px) and (max-width: 959px) {
+@media all and (max-width: 959px) and (min-width: 768px) {
 	.featherlight-iframe .featherlight-content {
 		height: calc(100vh - 0%);
 		width: calc(100vw - 0%);
@@ -173,43 +171,7 @@ html.with-featherlight {
 		width: calc(100vw + 0%);
 	}
 }
-@media all and (min-width: 480px) and (max-width: 767px) {
-	.featherlight .featherlight-content {
-		
-		margin-right: 0;
-		width: calc(100vw);
-	}
-	.featherlight-iframe .featherlight-content {
-		height: calc(100vh - 0%);
-		width: calc(100vw - 0%);
-		overflow: hidden!Important;
-		background-color: black;
-				-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-			-ms-transform: scale(0.98);
-		-moz-transform: scale(0.98);
-		-o-transform: scale(0.98);
-		-webkit-transform: scale(0.98);
-		transform: scale(0.98);
-		-ms-transform-origin: 0 0;
-		-moz-transform-origin: 0 0;
-		-o-transform-origin: 0 0;
-		-webkit-transform-origin: 0 0;
-		transform-origin: 0 0;
-	}
-	.featherlight iframe {
-	
-		position: absolute;
-		overflow: hidden!important;
-		margin:0;
-		margin-top: 7vh;
-		height: calc(100vh + 79vh);
-		width: calc(100vw);
-		
-	}
-}
-
-@media all and (max-width: 599px) {
+@media all and (max-width: 767px) and  (min-width: 480px) {
 	.featherlight .featherlight-content {
 		
 		margin-right: 0;
@@ -234,16 +196,35 @@ html.with-featherlight {
 		transform-origin: 0 0;
 	}
 	.featherlight iframe {
-	
+		top: calc(6vh);
 		position: absolute;
 		overflow: hidden!important;
 		margin:0;
-		margin-top: 7vh;
 		height: calc(100vh + 79vh);
-		width: calc(100vw);
+		width: calc(89vw);
 		
 	}
+
+	.featherlight .featherlight-inner {
+	
+	border: 1px solid white;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-ms-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-ms-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	overflow: hidden;
+	
 }
+}
+
 @media all and (max-width: 479px) {
 	.featherlight .featherlight-content {
 		
@@ -274,10 +255,25 @@ html.with-featherlight {
 		overflow: hidden!important;
 		margin:0;
 		margin-top: 7vh;
-		height: calc(100vh + 79vh);
-		width: calc(100vw + 75vw);
+		height: calc(124vh);
+		width: calc(144vw);
 		
 	}
+
+.featherlight .featherlight-inner {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-ms-transform: scale(0.68);
+	-moz-transform: scale(0.68);
+	-o-transform: scale(0.68);
+	-webkit-transform: scale(0.68);
+	transform: scale(0.68);
+	-ms-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
 }
 @media print {
 	html.with-featherlight>*>:not(.featherlight) {

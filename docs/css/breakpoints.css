@@ -6,7 +6,7 @@
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
-    line-height: 1.4;
+    line-height: 0.4rem;
   }
 
   .featurette-heading {
@@ -14,7 +14,7 @@
   }
   
   h1 {
-  font-size: 0.5em;
+  font-size: 1.5rem;
 }
 
 .carousel-item > img {

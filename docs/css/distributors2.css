@@ -91,6 +91,8 @@ article {
   border:1px solid white;
   padding-left: 1em;
   padding-right: 1em;
+  line-height:1.3em;
+  font-size:1.5rem;
 }
 .fancy2 span:before,
 .fancy2 span:after {

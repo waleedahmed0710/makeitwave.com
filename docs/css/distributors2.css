@@ -182,3 +182,15 @@ img {
   letter-spacing:2px;
 
 }
+
+@media all and (max-width: 479px) {
+.fancy2 span {
+	float: center;
+	display: inline-block;
+	background-color: white;
+	padding-top: 1rem;
+	padding-bottom:1rem;
+	line-height: 1.2rem;
+	font-size: 1rem;
+}
+}

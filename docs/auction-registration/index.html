@@ -32,10 +32,10 @@
 
 
 
-                var info = ["UNIQUE ID","PROCESSING FEE","PLACE FIRST BID"];
+                var info = ["UNIQUE ID","PROCESSING FEE","ENTER AUCTION"];
                 var images = ["personal-details-icon.png","account-details.png","contact-details.png"];
                 $('.rhino-bullet').each(function(index){
-                    $(this).html('<p style="margin: 0pt; font-size: 13px; font-weight: bold;"><img src="./img/'+
+                    $(this).html('<p style="margin: 0pt; font-size: 13px; font-weight: bold;"><img class="img img-fade" src="./img/'+
                         images[index]+'"></p><p class="bullet-desc">'+info[index]+'</p></a>');
                 });
 
@@ -94,17 +94,9 @@
 
             var step2_validation = function(){
                 var err = 0;
-
-                if($('#username').val() == ''){
-                    $('#username').parent().parent().find('.form-error').html("Username is Required");
-                    err++;
-                }
-                if($('#pass').val() == ''){
-                    $('#pass').parent().parent().find('.form-error').html("Password is Required");
-                    err++;
-                }
-                if($('#cpass').val() == ''){
-                    $('#cpass').parent().parent().find('.form-error').html("confirm Password is Required");
+				
+				if($('#paidyesno').val() == '0'){
+                    $('#paidyesno').parent().parent().find('.form-error').html("Please Pay then Proceed");
                     err++;
                 }
                 
@@ -115,6 +107,7 @@
                     $('.rhino-next').trigger('click');
                 }else{
                     $(".rhino-active-bullet").removeClass("step-success").addClass("step-error");
+						$(".img-fade").removeClass(".img-fade").addClass("step-error");
                 }
 
             };
@@ -131,12 +124,10 @@
                     $(".rhino-next").show();
                     $('.form-submit').hide();
                     $('.rhino-next').trigger('click');
-                }else{
-                    $(".rhino-active-bullet").removeClass("step-success").addClass("step-error");
                 }
-
             };
         </script>
+		
         <style type="text/css">
             body { background-color:#fff; }
             #wrapper{
@@ -194,6 +185,7 @@
             }
 
             .form-submit{
+			
                 cursor: pointer;
                 display: block;
                 position: absolute;
@@ -285,7 +277,7 @@
                     box-shadow:1px 1px 4px #C6C4C4
             }
             .step-success{
-                background:#72e487 !important;
+                background: rgba(0,0,0,0.1)!important;
                 color:#FFF !important;
                 -moz-box-shadow:1px 1px 1px 4px #C6C4C4
                     -webkit-box-shadow:1px 1px 1px 4px #C6C4C4
@@ -308,12 +300,17 @@
 				
 				
 	}
+	
+.img-fade {
+	opacity: 0.5;
+	}
+	
         </style>
     </head>
     <body>
         <div id="page">
             <div id="wrapper">
-                <h3>Account Registration</h3>
+                <h3>Auction Registration</h3>
                 <form action="" >
 
                     <div id="slider">
@@ -327,11 +324,11 @@
                             <div class="row">
                                                </div>
                             <div class="row">
-                                <div class="form-left">Copied Somewhere Safe? *</div>
+                                <div class="form-left">Copied somewhere safe? *</div>
                                 <div class="form-right">
                                     <select id="gender" name="gender">
                                         <option value="0">Select</option>
-                                        <option value="M">OK. I have</option>
+                                        <option value="M">Yes</option>
                                     
                                     </select>
                                 </div>
@@ -342,34 +339,45 @@
                             </div>
 
                         </div>
+						
                         <div class="form-step" >
-                            <div class="row">
-                                <div class="form-left">Username *</div>
-                                <div class="form-right"><input type="text" id="username" name="username" class="form-input" /></div>
+						 <div class="row">
+                                <div class="form-left" >Registration Fee*</div>
+                                <div class="form-right"><p style="width:190px; border-radius: 5px 5px 5px 5px; display: inline-block; background-color: white; border: 1px solid #CFCFCF; padding-left: 15px; padding-top: 5px; padding-bottom: 5px; margin: 0px; height: 20px;">£200 GBP</p></div>
                                 <div class="form-error"></div>
                             </div>
                             <div class="row">
-                                <div class="form-left">Password *</div>
-                                <div class="form-right"><input type="text" id="pass" name="pass" class="form-input" /></div>
+                                <div class="form-left" >Paypal*</div>
+                                <div class="form-right"><a target="_popup" href="https://paypal.me/makeitwave/200" style="cursor: pointer;display:block;-moz-user-select: none; letter-spacing: 0.15em; font-size: 15px; background: none repeat scroll 0 0 #6F95DC;border-radius: 5px 5px 5px 5px; color: #FFFFFF; display: block; margin: 0; padding: 10px; text-align: center;    width: 187px;  z-index: 10;  font-weight: bold; text-decoration: none; background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#94b9e9), to(#4870d2)); background-image: -moz-linear-gradient(#94b9e9, #4870d2); background-image: -webkit-linear-gradient(#94b9e9, #4870d2);
+    background-image: -o-linear-gradient(#94b9e9, #4870d2); filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#94b9e9, endColorstr=#4870d2)"; -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#94b9e9, endColorstr=#4870d2)";
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;">Pay Now</a></div>
                                 <div class="form-error"></div>
                             </div>
                             <div class="row">
-                                <div class="form-left">Confirm Password *</div>
-                                <div class="form-right"><input type="text" id="cpass" name="cpass" class="form-input" /></div>
+                                <div class="form-left">Wire Transfer*</div>
+                                <div class="form-right"> <p style="width:400px">Bank:Lloyds, Name:Make it Wave Ltd, </p> <p>Sort:30-96-52, Account:23544668</p></div>
+                                <div class="form-error"></div>
+                            </div>
+                            <div class="row">
+                                <div class="form-left">Decleration*</div>
+                                <div class="form-right">
+								 <select id="paidyesno" name="paidyesno">
+                                        <option value="0">Select</option>
+                                        <option value="M">I have paid this fee</option>
+              
+                                    </select>
+								</div>
                                 <div class="form-error"></div>
                             </div>
                         </div>
                         <div class="form-step">
                             <div class="row">
-                                <div class="form-left">Email *</div>
-                                <div class="form-right"><input type="text" id="email" name="email" class="form-input" /></div>
-                                <div class="form-error"></div>
-                            </div>
-                            <div class="row">
-                                <div class="form-left">Mobile No</div>
-                                <div class="form-right"><input type="text" id="mobile" name="mobile" class="form-input" /></div>
-                                <div class="form-error"></div>
-                            </div>
+                                <div style="text-align: center;margin-top:50px;">visit the Auction Page</div>
+                                <div class="form-right" style="width: 650px; "></br><a target="_self" href="../distributor-info.html" style="cursor: pointer;display:block;-moz-user-select: none; letter-spacing: 0.15em; font-size: 15px; background: none repeat scroll 0 0 #6F95DC;border-radius: 5px 5px 5px 5px; color: #FFFFFF; display: block; margin-bottom: 12px; text-align: center; margin-left: 250px; padding: 10px; width: 187px;  z-index: 10;  font-weight: bold; text-decoration: none; background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#94b9e9), to(#4870d2)); background-image: -moz-linear-gradient(#94b9e9, #4870d2); background-image: -webkit-linear-gradient(#94b9e9, #4870d2);
+    background-image: -o-linear-gradient(#94b9e9, #4870d2); filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#94b9e9, endColorstr=#4870d2)"; -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#94b9e9, endColorstr=#4870d2)";
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;">Proceed</a></div>
+								<div class="form-error"></div>
+                            </div><div style="text-align: center;">And Select 'Auction Room'</div>
                         </div>
                     </div>
                 </form>

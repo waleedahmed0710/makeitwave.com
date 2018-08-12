@@ -135,6 +135,8 @@ article {
     width: 50%;
 	display: inline;
 	left:calc(3vw);
+	zoom:0.8;
+	line-height: 7rem;
 
 }
 
@@ -180,6 +182,7 @@ img {
   font-size: 16px;
   padding: 16px 32px;
   letter-spacing:2px;
+  line-height: 1.2rem;
 
 }
 

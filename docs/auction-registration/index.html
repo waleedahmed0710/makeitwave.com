@@ -128,6 +128,11 @@
             };
         </script>
 		
+		
+		
+			<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="../css/style.css" rel="stylesheet">
         <style type="text/css">
             body { background-color:#fff; }
             #wrapper{
@@ -138,13 +143,21 @@
                 width:700px;
                 height:480px;
                 background:#f4f4f4;
-
-
+				font-size: 2rem;
             }
+			
+			.form-submit {
+			font-size: 1rem;
+			}
+			
+			.rhino-prev {
+			
+			font-size: 1rem;
+			}
             #wrapper h3{
                 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
                 font-size:16px;
-                height:60px;
+                height:85px;
                 background:url(img/title.png) no-repeat left top;
                 margin:0;
                 padding:16px 0 0 20px;
@@ -167,7 +180,7 @@
 
             #page {
                 width:600px;
-                margin:50px auto;
+                margin:-40px auto;
             }
 
             #slider{
@@ -308,9 +321,36 @@
         </style>
     </head>
     <body>
+	
+</br></br>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<a href="#"><img  style="border:0px;" class="navbar-brand" src="../img/wave_logo.png"></a><button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="index.html" style="font-family: 'Open Sans', sans-serif;">info</a>
+					</li>
+
+					<li class="nav-item">
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#" style="font-family: 'Open Sans', sans-serif;">Distributors</a>
+					</li>
+	
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
         <div id="page">
             <div id="wrapper">
-                <h3>Auction Registration</h3>
+                <h3>Complete Registration</h3>
                 <form action="" >
 
                     <div id="slider">
@@ -343,7 +383,7 @@
                         <div class="form-step" >
 						 <div class="row">
                                 <div class="form-left" >Registration Fee*</div>
-                                <div class="form-right"><p style="width:190px; border-radius: 5px 5px 5px 5px; display: inline-block; background-color: white; border: 1px solid #CFCFCF; padding-left: 15px; padding-top: 5px; padding-bottom: 5px; margin: 0px; height: 20px;">£200 GBP</p></div>
+                                <div class="form-right"><p style="width:190px; border-radius: 5px 5px 5px 5px; display: inline-block; background-color: white; border: 1px solid #CFCFCF; padding-left: 15px; padding-top: 5px; padding-bottom: 5px; margin: 0px;">£200 GBP</p></div>
                                 <div class="form-error"></div>
                             </div>
                             <div class="row">
@@ -372,16 +412,28 @@
                         </div>
                         <div class="form-step">
                             <div class="row">
-                                <div style="text-align: center;margin-top:50px;">visit the Auction Page</div>
-                                <div class="form-right" style="width: 650px; "></br><a target="_self" href="../distributor-info.html" style="cursor: pointer;display:block;-moz-user-select: none; letter-spacing: 0.15em; font-size: 15px; background: none repeat scroll 0 0 #6F95DC;border-radius: 5px 5px 5px 5px; color: #FFFFFF; display: block; margin-bottom: 12px; text-align: center; margin-left: 250px; padding: 10px; width: 187px;  z-index: 10;  font-weight: bold; text-decoration: none; background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#94b9e9), to(#4870d2)); background-image: -moz-linear-gradient(#94b9e9, #4870d2); background-image: -webkit-linear-gradient(#94b9e9, #4870d2);
+                            
+                                <div class="form-right" style="width: 650px; "><p style="text-align: center;">visit the Auction Page</p></br><a target="_self" href="../distributor-info.html" style="cursor: pointer;display:block;-moz-user-select: none; letter-spacing: 0.15em; font-size: 15px; background: none repeat scroll 0 0 #6F95DC;border-radius: 5px 5px 5px 5px; color: #FFFFFF; display: block; margin-bottom: 12px; text-align: center; margin-left: 250px; padding: 10px; width: 187px;  z-index: 10;  font-weight: bold; text-decoration: none; background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#94b9e9), to(#4870d2)); background-image: -moz-linear-gradient(#94b9e9, #4870d2); background-image: -webkit-linear-gradient(#94b9e9, #4870d2);
     background-image: -o-linear-gradient(#94b9e9, #4870d2); filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#94b9e9, endColorstr=#4870d2)"; -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#94b9e9, endColorstr=#4870d2)";
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;">Proceed</a></div>
 								<div class="form-error"></div>
-                            </div><div style="text-align: center;">And Select 'Auction Room'</div>
+                            </div><div style="text-align: center;">Select 'Auction Room'</div>
+							<div style="text-align: center;">Select 'Bid'</div>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
-    </body>
+			<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js"></script> <!-- The other .js fils -->
+ 
+<p></p></br><p></p>
+
+			
+
+		<footer class="container" style="font-size: 1rem; text-align: left; left:calc(10vw); padding-right:calc(10vw); padding-left: 15px;padding-right: 15px;padding-top: 15px; bottom:-50px; border-top:1px solid grey;">
+			
+			</p></br>
+			<p style="display:inline-block;">&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="https://github.com/unclehowell/WaveOS/blob/master/README.md">GitHub</a> &middot; <a href="mailto:info@makeitwave.com" style="color: grey; opacity:0.5;">  Email Us</a></p>
+		</footer>
+ </body>
 </html>

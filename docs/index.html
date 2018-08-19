@@ -170,17 +170,19 @@ if {{ host == window.location.host} && {window.location.protocol != "https:""}}
 
 							<p style="text-indent: 0px;">£199.99 + Free Worldwide Delivery</p>
 							<br>
-							<p><form action="/charge" method="POST">
+							<div class="btn btn-lg btn-primary" href="download.html" role="button">
+<form action="/charge" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js"
-    class="s  tripe-button"
+    class="stripe-button"
     data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN"
     data-image="/square-image.png"
     data-name="Wave Store"
-    data-description="1 Wave Starter Kit ($149.99)"
-    data-amount="14999">
+	data-currency="GBP"
+    data-description="1 Wave Starter Kit (£199.99)"
+    data-amount="19999">
   </script>
-</form> </br><b style="margin-top: 1em;"></b></p>
+</form></div><div class="btn btn-lg btn-primary" href="https://paypal.me/makeitwave/200" role="button" style="margin-left:10px;"><a target="_popup" href="https://paypal.me/makeitwave/200"><img style="max-width:150px;" src="img/paypal_button.png"></a></div>
 						</div>
 					</div>
 				</div>

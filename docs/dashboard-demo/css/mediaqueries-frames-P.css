@@ -1,5 +1,5 @@
 
-/*--- Last Modified: June 18, 2018 - 17:08 GMT ---*/ 
+/*--- Last Modified: June 14, 2018 - 20:36 GMT ---*/ 
 
 /* ----- ----- Iphone4 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 960 x 640 ) ------ ----*/ 
@@ -30,6 +30,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 474.5px;
 width: 320px;
 background-image: url(../img/demo-content/emby/Portrait-480x320-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: 474.5px;
+width: 320px;
+background-image: url(../img/demo-content/emoncms/Portrait-480x320-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 474.5px;
+width: 320px;
+background-image: url(../img/demo-content/motioneye/Portrait-480x320-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 474.5px;
+width: 320px;
+background-image: url(../img/demo-content/netstats/Portrait-480x320-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 474.5px;
+width: 320px;
+background-image: url(../img/demo-content/openhab/Portrait-480x320-PR=2-content.png);
 } 
 } 
 
@@ -63,6 +87,30 @@ height: 562.5px;
 width: 320px;
 background-image: url(../img/demo-content/emby/Portrait-568x320-PR=2-content.png);
 } 
+
+.demo-solar-div { 
+height: 562.5px;
+width: 320px;
+background-image: url(../img/demo-content/emoncms/Portrait-568x320-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 562.5px;
+width: 320px;
+background-image: url(../img/demo-content/motioneye/Portrait-568x320-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 562.5px;
+width: 320px;
+background-image: url(../img/demo-content/netstats/Portrait-568x320-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 562.5px;
+width: 320px;
+background-image: url(../img/demo-content/openhab/Portrait-568x320-PR=2-content.png);
+} 
 } 
 
 /* ----- ----- PopularDevices2 : ( portrait ) ------ ----*/ 
@@ -94,6 +142,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 506.5px;
 width: 320px;
 background-image: url(../img/demo-content/emby/Portrait-512x320-PR=4-content.png);
+} 
+
+.demo-solar-div { 
+height: 506.5px;
+width: 320px;
+background-image: url(../img/demo-content/emoncms/Portrait-512x320-PR=4-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 506.5px;
+width: 320px;
+background-image: url(../img/demo-content/motioneye/Portrait-512x320-PR=4-content.png);
+} 
+
+.demo-netstats-div { 
+height: 506.5px;
+width: 320px;
+background-image: url(../img/demo-content/netstats/Portrait-512x320-PR=4-content.png);
+} 
+
+.demo-openhab-div { 
+height: 506.5px;
+width: 320px;
+background-image: url(../img/demo-content/openhab/Portrait-512x320-PR=4-content.png);
 } 
 } 
 
@@ -127,6 +199,30 @@ height: 461.5px;
 width: 350px;
 background-image: url(../img/demo-content/emby/Portrait-467x350-PR=3-content.png);
 } 
+
+.demo-solar-div { 
+height: 461.5px;
+width: 350px;
+background-image: url(../img/demo-content/emoncms/Portrait-467x350-PR=3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 461.5px;
+width: 350px;
+background-image: url(../img/demo-content/motioneye/Portrait-467x350-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 461.5px;
+width: 350px;
+background-image: url(../img/demo-content/netstats/Portrait-467x350-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 461.5px;
+width: 350px;
+background-image: url(../img/demo-content/openhab/Portrait-467x350-PR=3-content.png);
+} 
 } 
 
 /* ----- ----- 1080i : ( portrait ) ------ ----*/ 
@@ -158,6 +254,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 474.5px;
 width: 360px;
 background-image: url(../img/demo-content/emby/Portrait-480x360-PR=3-content.png);
+} 
+
+.demo-solar-div { 
+height: 474.5px;
+width: 360px;
+background-image: url(../img/demo-content/emoncms/Portrait-480x360-PR=3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 474.5px;
+width: 360px;
+background-image: url(../img/demo-content/motioneye/Portrait-480x360-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 474.5px;
+width: 360px;
+background-image: url(../img/demo-content/netstats/Portrait-480x360-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 474.5px;
+width: 360px;
+background-image: url(../img/demo-content/openhab/Portrait-480x360-PR=3-content.png);
 } 
 } 
 
@@ -191,6 +311,30 @@ height: 634.5px;
 width: 360px;
 background-image: url(../img/demo-content/emby/Portrait-640x360-PR=2-content.png);
 } 
+
+.demo-solar-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/emoncms/Portrait-640x360-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/motioneye/Portrait-640x360-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/netstats/Portrait-640x360-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/openhab/Portrait-640x360-PR=2-content.png);
+} 
 } 
 
 /* ----- ----- GalaxyS45andNote3andZTEBladeV580 : ( portrait ) ------ ----*/ 
@@ -222,6 +366,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 634.5px;
 width: 360px;
 background-image: url(../img/demo-content/emby/Portrait-640x360-PR=3-content.png);
+} 
+
+.demo-solar-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/emoncms/Portrait-640x360-PR=3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/motioneye/Portrait-640x360-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/netstats/Portrait-640x360-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/openhab/Portrait-640x360-PR=3-content.png);
 } 
 } 
 
@@ -255,6 +423,30 @@ height: 634.5px;
 width: 360px;
 background-image: url(../img/demo-content/emby/Portrait-640x360-PR=4-content.png);
 } 
+
+.demo-solar-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/emoncms/Portrait-640x360-PR=4-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/motioneye/Portrait-640x360-PR=4-content.png);
+} 
+
+.demo-netstats-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/netstats/Portrait-640x360-PR=4-content.png);
+} 
+
+.demo-openhab-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/openhab/Portrait-640x360-PR=4-content.png);
+} 
 } 
 
 /* ----- ----- HTCVive : ( portrait ) ------ ----*/ 
@@ -286,6 +478,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 394.5px;
 width: 360px;
 background-image: url(../img/demo-content/emby/Portrait-400x360-PR=3-content.png);
+} 
+
+.demo-solar-div { 
+height: 394.5px;
+width: 360px;
+background-image: url(../img/demo-content/emoncms/Portrait-400x360-PR=3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 394.5px;
+width: 360px;
+background-image: url(../img/demo-content/motioneye/Portrait-400x360-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 394.5px;
+width: 360px;
+background-image: url(../img/demo-content/netstats/Portrait-400x360-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 394.5px;
+width: 360px;
+background-image: url(../img/demo-content/openhab/Portrait-400x360-PR=3-content.png);
 } 
 } 
 
@@ -319,6 +535,30 @@ height: 634.5px;
 width: 360px;
 background-image: url(../img/demo-content/emby/Portrait-640x360-PR=1-content.png);
 } 
+
+.demo-solar-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/emoncms/Portrait-640x360-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/motioneye/Portrait-640x360-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/netstats/Portrait-640x360-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: 634.5px;
+width: 360px;
+background-image: url(../img/demo-content/openhab/Portrait-640x360-PR=1-content.png);
+} 
 } 
 
 /* ----- ----- SunWorkstation : ( portrait ) ------ ----*/ 
@@ -350,6 +590,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 570.5px;
 width: 360px;
 background-image: url(../img/demo-content/emby/Portrait-576x360-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: 570.5px;
+width: 360px;
+background-image: url(../img/demo-content/emoncms/Portrait-576x360-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 570.5px;
+width: 360px;
+background-image: url(../img/demo-content/motioneye/Portrait-576x360-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 570.5px;
+width: 360px;
+background-image: url(../img/demo-content/netstats/Portrait-576x360-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 570.5px;
+width: 360px;
+background-image: url(../img/demo-content/openhab/Portrait-576x360-PR=2-content.png);
 } 
 } 
 
@@ -383,6 +647,30 @@ height: 714.5px;
 width: 360px;
 background-image: url(../img/demo-content/emby/Portrait-720x360-PR=3-content.png);
 } 
+
+.demo-solar-div { 
+height: 714.5px;
+width: 360px;
+background-image: url(../img/demo-content/emoncms/Portrait-720x360-PR=3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 714.5px;
+width: 360px;
+background-image: url(../img/demo-content/motioneye/Portrait-720x360-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 714.5px;
+width: 360px;
+background-image: url(../img/demo-content/netstats/Portrait-720x360-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 714.5px;
+width: 360px;
+background-image: url(../img/demo-content/openhab/Portrait-720x360-PR=3-content.png);
+} 
 } 
 
 /* ----- ----- Iphone6and6Sand7and8 : ( portrait ) ------ ----*/ 
@@ -414,6 +702,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 661.5px;
 width: 375px;
 background-image: url(../img/demo-content/emby/Portrait-667x375-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: 661.5px;
+width: 375px;
+background-image: url(../img/demo-content/emoncms/Portrait-667x375-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 661.5px;
+width: 375px;
+background-image: url(../img/demo-content/motioneye/Portrait-667x375-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 661.5px;
+width: 375px;
+background-image: url(../img/demo-content/netstats/Portrait-667x375-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 661.5px;
+width: 375px;
+background-image: url(../img/demo-content/openhab/Portrait-667x375-PR=2-content.png);
 } 
 } 
 
@@ -447,6 +759,30 @@ height: 806.5px;
 width: 375px;
 background-image: url(../img/demo-content/emby/Portrait-812x375-PR=3-content.png);
 } 
+
+.demo-solar-div { 
+height: 806.5px;
+width: 375px;
+background-image: url(../img/demo-content/emoncms/Portrait-812x375-PR=3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 806.5px;
+width: 375px;
+background-image: url(../img/demo-content/motioneye/Portrait-812x375-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 806.5px;
+width: 375px;
+background-image: url(../img/demo-content/netstats/Portrait-812x375-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 806.5px;
+width: 375px;
+background-image: url(../img/demo-content/openhab/Portrait-812x375-PR=3-content.png);
+} 
 } 
 
 /* ----- ----- IpadandTFT : ( portrait ) ------ ----*/ 
@@ -478,6 +814,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 1018.5px;
 width: 768px;
 background-image: url(../img/demo-content/emby/Portrait-512x384-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: 1018.5px;
+width: 768px;
+background-image: url(../img/demo-content/emoncms/Portrait-512x384-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1018.5px;
+width: 768px;
+background-image: url(../img/demo-content/motioneye/Portrait-512x384-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1018.5px;
+width: 768px;
+background-image: url(../img/demo-content/netstats/Portrait-512x384-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1018.5px;
+width: 768px;
+background-image: url(../img/demo-content/openhab/Portrait-512x384-PR=2-content.png);
 } 
 } 
 
@@ -511,6 +871,30 @@ height: 794.5px;
 width: 384px;
 background-image: url(../img/demo-content/emby/Portrait-800x384-PR=2-content.png);
 } 
+
+.demo-solar-div { 
+height: 794.5px;
+width: 384px;
+background-image: url(../img/demo-content/emoncms/Portrait-800x384-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 794.5px;
+width: 384px;
+background-image: url(../img/demo-content/motioneye/Portrait-800x384-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 794.5px;
+width: 384px;
+background-image: url(../img/demo-content/netstats/Portrait-800x384-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 794.5px;
+width: 384px;
+background-image: url(../img/demo-content/openhab/Portrait-800x384-PR=2-content.png);
+} 
 } 
 
 /* ----- ----- LenovoThinkpadT60 : ( portrait ) ------ ----*/ 
@@ -542,6 +926,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 528.5px;
 width: 400px;
 background-image: url(../img/demo-content/emby/Portrait-534x400-PR=3-content.png);
+} 
+
+.demo-solar-div { 
+height: 528.5px;
+width: 400px;
+background-image: url(../img/demo-content/emoncms/Portrait-534x400-PR=3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 528.5px;
+width: 400px;
+background-image: url(../img/demo-content/motioneye/Portrait-534x400-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 528.5px;
+width: 400px;
+background-image: url(../img/demo-content/netstats/Portrait-534x400-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 528.5px;
+width: 400px;
+background-image: url(../img/demo-content/openhab/Portrait-534x400-PR=3-content.png);
 } 
 } 
 
@@ -575,6 +983,30 @@ height: 634.5px;
 width: 400px;
 background-image: url(../img/demo-content/emby/Portrait-640x400-PR=3-content.png);
 } 
+
+.demo-solar-div { 
+height: 634.5px;
+width: 400px;
+background-image: url(../img/demo-content/emoncms/Portrait-640x400-PR=3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 634.5px;
+width: 400px;
+background-image: url(../img/demo-content/motioneye/Portrait-640x400-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 634.5px;
+width: 400px;
+background-image: url(../img/demo-content/netstats/Portrait-640x400-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 634.5px;
+width: 400px;
+background-image: url(../img/demo-content/openhab/Portrait-640x400-PR=3-content.png);
+} 
 } 
 
 /* ----- ----- PixelXL : ( portrait ) ------ ----*/ 
@@ -606,6 +1038,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 726.5px;
 width: 412px;
 background-image: url(../img/demo-content/emby/Portrait-732x412-PR=3.5-content.png);
+} 
+
+.demo-solar-div { 
+height: 726.5px;
+width: 412px;
+background-image: url(../img/demo-content/emoncms/Portrait-732x412-PR=3.5-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 726.5px;
+width: 412px;
+background-image: url(../img/demo-content/motioneye/Portrait-732x412-PR=3.5-content.png);
+} 
+
+.demo-netstats-div { 
+height: 726.5px;
+width: 412px;
+background-image: url(../img/demo-content/netstats/Portrait-732x412-PR=3.5-content.png);
+} 
+
+.demo-openhab-div { 
+height: 726.5px;
+width: 412px;
+background-image: url(../img/demo-content/openhab/Portrait-732x412-PR=3.5-content.png);
 } 
 } 
 
@@ -639,6 +1095,30 @@ height: 730.5px;
 width: 414px;
 background-image: url(../img/demo-content/emby/Portrait-736x414-PR=2.7-content.png);
 } 
+
+.demo-solar-div { 
+height: 730.5px;
+width: 414px;
+background-image: url(../img/demo-content/emoncms/Portrait-736x414-PR=2.7-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 730.5px;
+width: 414px;
+background-image: url(../img/demo-content/motioneye/Portrait-736x414-PR=2.7-content.png);
+} 
+
+.demo-netstats-div { 
+height: 730.5px;
+width: 414px;
+background-image: url(../img/demo-content/netstats/Portrait-736x414-PR=2.7-content.png);
+} 
+
+.demo-openhab-div { 
+height: 730.5px;
+width: 414px;
+background-image: url(../img/demo-content/openhab/Portrait-736x414-PR=2.7-content.png);
+} 
 } 
 
 /* ----- ----- Pixel : ( portrait ) ------ ----*/ 
@@ -670,6 +1150,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 733.5px;
 width: 416px;
 background-image: url(../img/demo-content/emby/Portrait-739x416-PR=2.6-content.png);
+} 
+
+.demo-solar-div { 
+height: 733.5px;
+width: 416px;
+background-image: url(../img/demo-content/emoncms/Portrait-739x416-PR=2.6-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 733.5px;
+width: 416px;
+background-image: url(../img/demo-content/motioneye/Portrait-739x416-PR=2.6-content.png);
+} 
+
+.demo-netstats-div { 
+height: 733.5px;
+width: 416px;
+background-image: url(../img/demo-content/netstats/Portrait-739x416-PR=2.6-content.png);
+} 
+
+.demo-openhab-div { 
+height: 733.5px;
+width: 416px;
+background-image: url(../img/demo-content/openhab/Portrait-739x416-PR=2.6-content.png);
 } 
 } 
 
@@ -703,6 +1207,30 @@ height: 1434.5px;
 width: 450px;
 background-image: url(../img/demo-content/emby/Portrait-1440x450-PR=2-content.png);
 } 
+
+.demo-solar-div { 
+height: 1434.5px;
+width: 450px;
+background-image: url(../img/demo-content/emoncms/Portrait-1440x450-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1434.5px;
+width: 450px;
+background-image: url(../img/demo-content/motioneye/Portrait-1440x450-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1434.5px;
+width: 450px;
+background-image: url(../img/demo-content/netstats/Portrait-1440x450-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1434.5px;
+width: 450px;
+background-image: url(../img/demo-content/openhab/Portrait-1440x450-PR=2-content.png);
+} 
 } 
 
 /* ----- ----- GalaxyS2 : ( portrait ) ------ ----*/ 
@@ -734,6 +1262,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 794.5px;
 width: 480px;
 background-image: url(../img/demo-content/emby/Portrait-800x480-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: 794.5px;
+width: 480px;
+background-image: url(../img/demo-content/emoncms/Portrait-800x480-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 794.5px;
+width: 480px;
+background-image: url(../img/demo-content/motioneye/Portrait-800x480-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: 794.5px;
+width: 480px;
+background-image: url(../img/demo-content/netstats/Portrait-800x480-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: 794.5px;
+width: 480px;
+background-image: url(../img/demo-content/openhab/Portrait-800x480-PR=1-content.png);
 } 
 } 
 
@@ -767,6 +1319,30 @@ height: 2954.5px;
 width: 1440px;
 background-image: url(../img/demo-content/emby/Portrait-987x480-PR=3-content.png);
 } 
+
+.demo-solar-div { 
+height: 2954.5px;
+width: 1440px;
+background-image: url(../img/demo-content/emoncms/Portrait-987x480-PR=3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 2954.5px;
+width: 1440px;
+background-image: url(../img/demo-content/motioneye/Portrait-987x480-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 2954.5px;
+width: 1440px;
+background-image: url(../img/demo-content/netstats/Portrait-987x480-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 2954.5px;
+width: 1440px;
+background-image: url(../img/demo-content/openhab/Portrait-987x480-PR=3-content.png);
+} 
 } 
 
 /* ----- ----- OnePlus3 : ( portrait ) ------ ----*/ 
@@ -798,6 +1374,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 848.5px;
 width: 480px;
 background-image: url(../img/demo-content/emby/Portrait-854x480-PR=2.3-content.png);
+} 
+
+.demo-solar-div { 
+height: 848.5px;
+width: 480px;
+background-image: url(../img/demo-content/emoncms/Portrait-854x480-PR=2.3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 848.5px;
+width: 480px;
+background-image: url(../img/demo-content/motioneye/Portrait-854x480-PR=2.3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 848.5px;
+width: 480px;
+background-image: url(../img/demo-content/netstats/Portrait-854x480-PR=2.3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 848.5px;
+width: 480px;
+background-image: url(../img/demo-content/openhab/Portrait-854x480-PR=2.3-content.png);
 } 
 } 
 
@@ -831,6 +1431,30 @@ height: 2554.5px;
 width: 1440px;
 background-image: url(../img/demo-content/emby/Portrait-859x483-PR=3-content.png);
 } 
+
+.demo-solar-div { 
+height: 2554.5px;
+width: 1440px;
+background-image: url(../img/demo-content/emoncms/Portrait-859x483-PR=3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 2554.5px;
+width: 1440px;
+background-image: url(../img/demo-content/motioneye/Portrait-859x483-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 2554.5px;
+width: 1440px;
+background-image: url(../img/demo-content/netstats/Portrait-859x483-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 2554.5px;
+width: 1440px;
+background-image: url(../img/demo-content/openhab/Portrait-859x483-PR=3-content.png);
+} 
 } 
 
 /* ----- ----- IpadPro : ( portrait ) ------ ----*/ 
@@ -862,6 +1486,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 1360.5px;
 width: 1024px;
 background-image: url(../img/demo-content/emby/Portrait-683x512-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: 1360.5px;
+width: 1024px;
+background-image: url(../img/demo-content/emoncms/Portrait-683x512-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1360.5px;
+width: 1024px;
+background-image: url(../img/demo-content/motioneye/Portrait-683x512-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1360.5px;
+width: 1024px;
+background-image: url(../img/demo-content/netstats/Portrait-683x512-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1360.5px;
+width: 1024px;
+background-image: url(../img/demo-content/openhab/Portrait-683x512-PR=2-content.png);
 } 
 } 
 
@@ -895,6 +1543,30 @@ height: 978.5px;
 width: 577px;
 background-image: url(../img/demo-content/emby/Portrait-984x577-PR=1.1-content.png);
 } 
+
+.demo-solar-div { 
+height: 978.5px;
+width: 577px;
+background-image: url(../img/demo-content/emoncms/Portrait-984x577-PR=1.1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 978.5px;
+width: 577px;
+background-image: url(../img/demo-content/motioneye/Portrait-984x577-PR=1.1-content.png);
+} 
+
+.demo-netstats-div { 
+height: 978.5px;
+width: 577px;
+background-image: url(../img/demo-content/netstats/Portrait-984x577-PR=1.1-content.png);
+} 
+
+.demo-openhab-div { 
+height: 978.5px;
+width: 577px;
+background-image: url(../img/demo-content/openhab/Portrait-984x577-PR=1.1-content.png);
+} 
 } 
 
 /* ----- ----- Nexus7 : ( portrait ) ------ ----*/ 
@@ -926,6 +1598,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 954.5px;
 width: 600px;
 background-image: url(../img/demo-content/emby/Portrait-960x600-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: 954.5px;
+width: 600px;
+background-image: url(../img/demo-content/emoncms/Portrait-960x600-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 954.5px;
+width: 600px;
+background-image: url(../img/demo-content/motioneye/Portrait-960x600-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 954.5px;
+width: 600px;
+background-image: url(../img/demo-content/netstats/Portrait-960x600-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 954.5px;
+width: 600px;
+background-image: url(../img/demo-content/openhab/Portrait-960x600-PR=2-content.png);
 } 
 } 
 
@@ -959,6 +1655,30 @@ height: 801.5px;
 width: 606px;
 background-image: url(../img/demo-content/emby/Portrait-807x606-PR=2.3-content.png);
 } 
+
+.demo-solar-div { 
+height: 801.5px;
+width: 606px;
+background-image: url(../img/demo-content/emoncms/Portrait-807x606-PR=2.3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 801.5px;
+width: 606px;
+background-image: url(../img/demo-content/motioneye/Portrait-807x606-PR=2.3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 801.5px;
+width: 606px;
+background-image: url(../img/demo-content/netstats/Portrait-807x606-PR=2.3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 801.5px;
+width: 606px;
+background-image: url(../img/demo-content/openhab/Portrait-807x606-PR=2.3-content.png);
+} 
 } 
 
 /* ----- ----- Surface3 : ( portrait ) ------ ----*/ 
@@ -990,6 +1710,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 1274.5px;
 width: 720px;
 background-image: url(../img/demo-content/emby/Portrait-1280x720-PR=1.5-content.png);
+} 
+
+.demo-solar-div { 
+height: 1274.5px;
+width: 720px;
+background-image: url(../img/demo-content/emoncms/Portrait-1280x720-PR=1.5-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1274.5px;
+width: 720px;
+background-image: url(../img/demo-content/motioneye/Portrait-1280x720-PR=1.5-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1274.5px;
+width: 720px;
+background-image: url(../img/demo-content/netstats/Portrait-1280x720-PR=1.5-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1274.5px;
+width: 720px;
+background-image: url(../img/demo-content/openhab/Portrait-1280x720-PR=1.5-content.png);
 } 
 } 
 
@@ -1023,6 +1767,30 @@ height: 1360.5px;
 width: 768px;
 background-image: url(../img/demo-content/emby/Portrait-1366x768-PR=1-content.png);
 } 
+
+.demo-solar-div { 
+height: 1360.5px;
+width: 768px;
+background-image: url(../img/demo-content/emoncms/Portrait-1366x768-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1360.5px;
+width: 768px;
+background-image: url(../img/demo-content/motioneye/Portrait-1366x768-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1360.5px;
+width: 768px;
+background-image: url(../img/demo-content/netstats/Portrait-1366x768-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1360.5px;
+width: 768px;
+background-image: url(../img/demo-content/openhab/Portrait-1366x768-PR=1-content.png);
+} 
 } 
 
 /* ----- ----- Nexus9 : ( portrait ) ------ ----*/ 
@@ -1054,6 +1822,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 1018.5px;
 width: 768px;
 background-image: url(../img/demo-content/emby/Portrait-1024x768-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: 1018.5px;
+width: 768px;
+background-image: url(../img/demo-content/emoncms/Portrait-1024x768-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1018.5px;
+width: 768px;
+background-image: url(../img/demo-content/motioneye/Portrait-1024x768-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1018.5px;
+width: 768px;
+background-image: url(../img/demo-content/netstats/Portrait-1024x768-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1018.5px;
+width: 768px;
+background-image: url(../img/demo-content/openhab/Portrait-1024x768-PR=2-content.png);
 } 
 } 
 
@@ -1089,6 +1881,30 @@ height: 1360.5px;
 width: 768px;
 background-image: url(../img/demo-content/emby/Portrait-1366x768-PR=1+scale-content.png);
 } 
+
+.demo-solar-div { 
+height: 1360.5px;
+width: 768px;
+background-image: url(../img/demo-content/emoncms/Portrait-1366x768-PR=1+scale-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1360.5px;
+width: 768px;
+background-image: url(../img/demo-content/motioneye/Portrait-1366x768-PR=1+scale-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1360.5px;
+width: 768px;
+background-image: url(../img/demo-content/netstats/Portrait-1366x768-PR=1+scale-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1360.5px;
+width: 768px;
+background-image: url(../img/demo-content/openhab/Portrait-1366x768-PR=1+scale-content.png);
+} 
 } 
 
 /* ----- ----- GalaxyTab10 : ( portrait ) ------ ----*/ 
@@ -1120,6 +1936,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 1274.5px;
 width: 800px;
 background-image: url(../img/demo-content/emby/Portrait-1280x800-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: 1274.5px;
+width: 800px;
+background-image: url(../img/demo-content/emoncms/Portrait-1280x800-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1274.5px;
+width: 800px;
+background-image: url(../img/demo-content/motioneye/Portrait-1280x800-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1274.5px;
+width: 800px;
+background-image: url(../img/demo-content/netstats/Portrait-1280x800-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1274.5px;
+width: 800px;
+background-image: url(../img/demo-content/openhab/Portrait-1280x800-PR=1-content.png);
 } 
 } 
 
@@ -1153,6 +1993,30 @@ height: 1274.5px;
 width: 850px;
 background-image: url(../img/demo-content/emby/Portrait-1280x850-PR=2-content.png);
 } 
+
+.demo-solar-div { 
+height: 1274.5px;
+width: 850px;
+background-image: url(../img/demo-content/emoncms/Portrait-1280x850-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1274.5px;
+width: 850px;
+background-image: url(../img/demo-content/motioneye/Portrait-1280x850-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1274.5px;
+width: 850px;
+background-image: url(../img/demo-content/netstats/Portrait-1280x850-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1274.5px;
+width: 850px;
+background-image: url(../img/demo-content/openhab/Portrait-1280x850-PR=2-content.png);
+} 
 } 
 
 /* ----- ----- PowerBookG4 : ( portrait ) ------ ----*/ 
@@ -1184,6 +2048,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 1273.5px;
 width: 854px;
 background-image: url(../img/demo-content/emby/Portrait-1279x854-PR=1.1-content.png);
+} 
+
+.demo-solar-div { 
+height: 1273.5px;
+width: 854px;
+background-image: url(../img/demo-content/emoncms/Portrait-1279x854-PR=1.1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1273.5px;
+width: 854px;
+background-image: url(../img/demo-content/motioneye/Portrait-1279x854-PR=1.1-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1273.5px;
+width: 854px;
+background-image: url(../img/demo-content/netstats/Portrait-1279x854-PR=1.1-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1273.5px;
+width: 854px;
+background-image: url(../img/demo-content/openhab/Portrait-1279x854-PR=1.1-content.png);
 } 
 } 
 
@@ -1217,6 +2105,30 @@ height: 2038.5px;
 width: 1078px;
 background-image: url(../img/demo-content/emby/Portrait-2044x1078-PR=1.1-content.png);
 } 
+
+.demo-solar-div { 
+height: 2038.5px;
+width: 1078px;
+background-image: url(../img/demo-content/emoncms/Portrait-2044x1078-PR=1.1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 2038.5px;
+width: 1078px;
+background-image: url(../img/demo-content/motioneye/Portrait-2044x1078-PR=1.1-content.png);
+} 
+
+.demo-netstats-div { 
+height: 2038.5px;
+width: 1078px;
+background-image: url(../img/demo-content/netstats/Portrait-2044x1078-PR=1.1-content.png);
+} 
+
+.demo-openhab-div { 
+height: 2038.5px;
+width: 1078px;
+background-image: url(../img/demo-content/openhab/Portrait-2044x1078-PR=1.1-content.png);
+} 
 } 
 
 /* ----- ----- PopularDevices1 : ( portrait ) ------ ----*/ 
@@ -1248,6 +2160,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 1434.5px;
 width: 1152px;
 background-image: url(../img/demo-content/emby/Portrait-1440x1152-PR=1.3-content.png);
+} 
+
+.demo-solar-div { 
+height: 1434.5px;
+width: 1152px;
+background-image: url(../img/demo-content/emoncms/Portrait-1440x1152-PR=1.3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1434.5px;
+width: 1152px;
+background-image: url(../img/demo-content/motioneye/Portrait-1440x1152-PR=1.3-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1434.5px;
+width: 1152px;
+background-image: url(../img/demo-content/netstats/Portrait-1440x1152-PR=1.3-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1434.5px;
+width: 1152px;
+background-image: url(../img/demo-content/openhab/Portrait-1440x1152-PR=1.3-content.png);
 } 
 } 
 
@@ -1281,6 +2217,30 @@ height: 1875.5px;
 width: 1411px;
 background-image: url(../img/demo-content/emby/Portrait-1881x1411-PR=1.1-content.png);
 } 
+
+.demo-solar-div { 
+height: 1875.5px;
+width: 1411px;
+background-image: url(../img/demo-content/emoncms/Portrait-1881x1411-PR=1.1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1875.5px;
+width: 1411px;
+background-image: url(../img/demo-content/motioneye/Portrait-1881x1411-PR=1.1-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1875.5px;
+width: 1411px;
+background-image: url(../img/demo-content/netstats/Portrait-1881x1411-PR=1.1-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1875.5px;
+width: 1411px;
+background-image: url(../img/demo-content/openhab/Portrait-1881x1411-PR=1.1-content.png);
+} 
 } 
 
 /* ----- ----- 4320p : ( portrait ) ------ ----*/ 
@@ -1312,6 +2272,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: 7674.5px;
 width: 4320px;
 background-image: url(../img/demo-content/emby/Portrait-7680x4320-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: 7674.5px;
+width: 4320px;
+background-image: url(../img/demo-content/emoncms/Portrait-7680x4320-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 7674.5px;
+width: 4320px;
+background-image: url(../img/demo-content/motioneye/Portrait-7680x4320-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: 7674.5px;
+width: 4320px;
+background-image: url(../img/demo-content/netstats/Portrait-7680x4320-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: 7674.5px;
+width: 4320px;
+background-image: url(../img/demo-content/openhab/Portrait-7680x4320-PR=1-content.png);
 } 
 } 
 
@@ -1345,6 +2329,30 @@ height: 8186.5px;
 width: 8192px;
 background-image: url(../img/demo-content/emby/Portrait-8192x8192-PR=1-content.png);
 } 
+
+.demo-solar-div { 
+height: 8186.5px;
+width: 8192px;
+background-image: url(../img/demo-content/emoncms/Portrait-8192x8192-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 8186.5px;
+width: 8192px;
+background-image: url(../img/demo-content/motioneye/Portrait-8192x8192-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: 8186.5px;
+width: 8192px;
+background-image: url(../img/demo-content/netstats/Portrait-8192x8192-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: 8186.5px;
+width: 8192px;
+background-image: url(../img/demo-content/openhab/Portrait-8192x8192-PR=1-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00050 : ( portrait ) ------ ----*/ 
@@ -1376,6 +2384,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-7679x4319-PR=4-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-7679x4319-PR=4-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-7679x4319-PR=4-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-7679x4319-PR=4-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-7679x4319-PR=4-content.png);
 } 
 } 
 
@@ -1409,6 +2441,30 @@ height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-2959x1439-PR=4-content.png);
 } 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-2959x1439-PR=4-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-2959x1439-PR=4-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-2959x1439-PR=4-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-2959x1439-PR=4-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00048 : ( portrait ) ------ ----*/ 
@@ -1440,6 +2496,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-2559x1410-PR=4-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-2559x1410-PR=4-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-2559x1410-PR=4-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-2559x1410-PR=4-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-2559x1410-PR=4-content.png);
 } 
 } 
 
@@ -1473,6 +2553,30 @@ height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-2043x1151-PR=3-content.png);
 } 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-2043x1151-PR=3-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-2043x1151-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-2043x1151-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-2043x1151-PR=3-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00046 : ( portrait ) ------ ----*/ 
@@ -1504,6 +2608,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1880x1077-PR=3-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-1880x1077-PR=3-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-1880x1077-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-1880x1077-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-1880x1077-PR=3-content.png);
 } 
 } 
 
@@ -1537,6 +2665,30 @@ height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1439x1023-PR=3-content.png);
 } 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-1439x1023-PR=3-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-1439x1023-PR=3-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-1439x1023-PR=3-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-1439x1023-PR=3-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00044 : ( portrait ) ------ ----*/ 
@@ -1568,6 +2720,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1365x853-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-1365x853-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-1365x853-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-1365x853-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-1365x853-PR=2-content.png);
 } 
 } 
 
@@ -1601,6 +2777,30 @@ height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1279x849-PR=2-content.png);
 } 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-1279x849-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-1279x849-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-1279x849-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-1279x849-PR=2-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00042 : ( portrait ) ------ ----*/ 
@@ -1632,6 +2832,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1278x799-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-1278x799-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-1278x799-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-1278x799-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-1278x799-PR=2-content.png);
 } 
 } 
 
@@ -1665,6 +2889,30 @@ height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-1023x767-PR=2-content.png);
 } 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-1023x767-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-1023x767-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-1023x767-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-1023x767-PR=2-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00040 : ( portrait ) ------ ----*/ 
@@ -1696,6 +2944,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-983x719-PR=2-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-983x719-PR=2-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-983x719-PR=2-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-983x719-PR=2-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-983x719-PR=2-content.png);
 } 
 } 
 
@@ -1729,6 +3001,30 @@ height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-959x605-PR=1-content.png);
 } 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-959x605-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-959x605-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-959x605-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-959x605-PR=1-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00038 : ( portrait ) ------ ----*/ 
@@ -1760,6 +3056,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-853x599-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-853x599-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-853x599-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-853x599-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-853x599-PR=1-content.png);
 } 
 } 
 
@@ -1793,6 +3113,30 @@ height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-811x576-PR=1-content.png);
 } 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-811x576-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-811x576-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-811x576-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-811x576-PR=1-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00036 : ( portrait ) ------ ----*/ 
@@ -1824,6 +3168,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-806x479-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-806x479-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-806x479-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-806x479-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-806x479-PR=1-content.png);
 } 
 } 
 
@@ -1857,6 +3225,30 @@ height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-799x449-PR=1-content.png);
 } 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-799x449-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-799x449-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-799x449-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-799x449-PR=1-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00034 : ( portrait ) ------ ----*/ 
@@ -1888,6 +3280,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-738x415-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-738x415-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-738x415-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-738x415-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-738x415-PR=1-content.png);
 } 
 } 
 
@@ -1921,6 +3337,30 @@ height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-735x413-PR=1-content.png);
 } 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-735x413-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-735x413-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-735x413-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-735x413-PR=1-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00032 : ( portrait ) ------ ----*/ 
@@ -1952,6 +3392,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-731x411-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-731x411-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-731x411-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-731x411-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-731x411-PR=1-content.png);
 } 
 } 
 
@@ -1985,6 +3449,30 @@ height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-719x399-PR=1-content.png);
 } 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-719x399-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-719x399-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-719x399-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-719x399-PR=1-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00030 : ( portrait ) ------ ----*/ 
@@ -2016,6 +3504,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-666x383-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-666x383-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-666x383-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-666x383-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-666x383-PR=1-content.png);
 } 
 } 
 
@@ -2049,6 +3561,30 @@ height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-639x374-PR=1-content.png);
 } 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-639x374-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-639x374-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-639x374-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-639x374-PR=1-content.png);
+} 
 } 
 
 /* ----- ----- breakpoint filler-----00030 : ( portrait ) ------ ----*/ 
@@ -2080,5 +3616,29 @@ filter: invert(100%); /* ----- see frames.css ----*/
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/emby/Portrait-575x359-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/Portrait-575x359-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/Portrait-575x359-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/Portrait-575x359-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/Portrait-575x359-PR=1-content.png);
 } 
 } 

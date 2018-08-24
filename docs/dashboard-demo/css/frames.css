@@ -36,7 +36,7 @@
 	position:fixed;
 	top:0px;
 	left:-1vw;
-	opacity: 0.9; /* 0.8 - 0.9 when testing, 1 for production */
+	opacity: 1; /* 0.8 - 0.9 when testing, 1 for production */
 	filter: invert(100%); 
 	-webkit-filter: invert(100%); 
  /* ----- inverting the background image of the iframe isn't solved, so the whole thing is invterted ----*/ 

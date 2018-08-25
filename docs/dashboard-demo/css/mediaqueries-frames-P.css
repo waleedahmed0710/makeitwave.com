@@ -2355,6 +2355,62 @@ background-image: url(../img/demo-content/openhab/Portrait-8192x8192-PR=1-conten
 } 
 } 
 
+/* ----- ----- pixel2 : ( portrait ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION: ( 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 731 x 411 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 410.5px)
+and (max-device-width: 411.5px)
+and (min-device-height: 300px)
+and (max-device-height: 731.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+.demo-iframe-container { 
+height: 725.5px;
+width: 411px;
+} 
+
+.demo-iframe {
+height: 724.5px;
+width: 410px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 725.5px;
+width: 411px;
+background-image: url(../img/demo-content/emby/Portrait-731x411-PR=2.7-content.png);
+} 
+
+.demo-solar-div { 
+height: 725.5px;
+width: 411px;
+background-image: url(../img/demo-content/emoncms/Portrait-731x411-PR=2.7-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 725.5px;
+width: 411px;
+background-image: url(../img/demo-content/motioneye/Portrait-731x411-PR=2.7-content.png);
+} 
+
+.demo-netstats-div { 
+height: 725.5px;
+width: 411px;
+background-image: url(../img/demo-content/netstats/Portrait-731x411-PR=2.7-content.png);
+} 
+
+.demo-openhab-div { 
+height: 725.5px;
+width: 411px;
+background-image: url(../img/demo-content/openhab/Portrait-731x411-PR=2.7-content.png);
+} 
+} 
+
 /* ----- ----- breakpoint filler-----00050 : ( portrait ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION: ( 7679 x 4319 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION: ( 7679.5 x 4319 ) ------ ----*/ 
@@ -3368,7 +3424,7 @@ background-image: url(../img/demo-content/openhab/Portrait-735x413-PR=1-content.
 /* ----- ----- LOGICAL RESOLUTION: ( 731 x 411 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 399.5px)
+and (min-device-width: 410.5px)
 and (max-device-width: 411.5px)
 and (min-device-height: 720px)
 and (max-device-height: 731.5px)
@@ -3420,12 +3476,12 @@ background-image: url(../img/demo-content/openhab/Portrait-731x411-PR=1-content.
 } 
 
 /* ----- ----- breakpoint filler-----00031 : ( portrait ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION: ( 719 x 399 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 719 x 399 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION: ( 719 x 410 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 719 x 410 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 383.5px)
-and (max-device-width: 399.5px)
+and (min-device-width: 399.5px)
+and (max-device-width: 410.5px)
 and (min-device-height: 667px)
 and (max-device-height: 719.5px)
 and (-webkit-device-pixel-ratio: 1)
@@ -3447,41 +3503,41 @@ filter: invert(100%); /* ----- see frames.css ----*/
 .demo-emby-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emby/Portrait-719x399-PR=1-content.png);
+background-image: url(../img/demo-content/emby/Portrait-719x410-PR=1-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/Portrait-719x399-PR=1-content.png);
+background-image: url(../img/demo-content/motioneye/Portrait-719x410-PR=1-content.png);
 } 
 
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/Portrait-719x399-PR=1-content.png);
+background-image: url(../img/demo-content/emoncms/Portrait-719x410-PR=1-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/Portrait-719x399-PR=1-content.png);
+background-image: url(../img/demo-content/netstats/Portrait-719x410-PR=1-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/Portrait-719x399-PR=1-content.png);
+background-image: url(../img/demo-content/openhab/Portrait-719x410-PR=1-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00030 : ( portrait ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION: ( 666 x 383 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 666 x 383 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION: ( 666 x 399 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 666 x 399 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 374.5px)
-and (max-device-width: 383.5px)
+and (min-device-width: 383.5px)
+and (max-device-width: 399.5px)
 and (min-device-height: 640px)
 and (max-device-height: 666.5px)
 and (-webkit-device-pixel-ratio: 1)
@@ -3503,41 +3559,41 @@ filter: invert(100%); /* ----- see frames.css ----*/
 .demo-emby-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emby/Portrait-666x383-PR=1-content.png);
+background-image: url(../img/demo-content/emby/Portrait-666x399-PR=1-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/Portrait-666x383-PR=1-content.png);
+background-image: url(../img/demo-content/motioneye/Portrait-666x399-PR=1-content.png);
 } 
 
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/Portrait-666x383-PR=1-content.png);
+background-image: url(../img/demo-content/emoncms/Portrait-666x399-PR=1-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/Portrait-666x383-PR=1-content.png);
+background-image: url(../img/demo-content/netstats/Portrait-666x399-PR=1-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/Portrait-666x383-PR=1-content.png);
+background-image: url(../img/demo-content/openhab/Portrait-666x399-PR=1-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00029 : ( portrait ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION: ( 639 x 374 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 639 x 374 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION: ( 639 x 383 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 639 x 383 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 359.5px)
-and (max-device-width: 374.5px)
+and (min-device-width: 374.5px)
+and (max-device-width: 383.5px)
 and (min-device-height: 576px)
 and (max-device-height: 639.5px)
 and (-webkit-device-pixel-ratio: 1)
@@ -3559,41 +3615,41 @@ filter: invert(100%); /* ----- see frames.css ----*/
 .demo-emby-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emby/Portrait-639x374-PR=1-content.png);
+background-image: url(../img/demo-content/emby/Portrait-639x383-PR=1-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/Portrait-639x374-PR=1-content.png);
+background-image: url(../img/demo-content/motioneye/Portrait-639x383-PR=1-content.png);
 } 
 
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/Portrait-639x374-PR=1-content.png);
+background-image: url(../img/demo-content/emoncms/Portrait-639x383-PR=1-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/Portrait-639x374-PR=1-content.png);
+background-image: url(../img/demo-content/netstats/Portrait-639x383-PR=1-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/Portrait-639x374-PR=1-content.png);
+background-image: url(../img/demo-content/openhab/Portrait-639x383-PR=1-content.png);
 } 
 } 
 
 /* ----- ----- breakpoint filler-----00030 : ( portrait ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION: ( 575 x 359 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 575 x 359 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION: ( 575 x 374 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 575 x 374 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 349.5px)
-and (max-device-width: 359.5px)
+and (min-device-width: 359.5px)
+and (max-device-width: 374.5px)
 and (min-device-height: 568px)
 and (max-device-height: 575.5px)
 and (-webkit-device-pixel-ratio: 1)
@@ -3615,30 +3671,30 @@ filter: invert(100%); /* ----- see frames.css ----*/
 .demo-emby-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emby/Portrait-575x359-PR=1-content.png);
+background-image: url(../img/demo-content/emby/Portrait-575x374-PR=1-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/Portrait-575x359-PR=1-content.png);
+background-image: url(../img/demo-content/motioneye/Portrait-575x374-PR=1-content.png);
 } 
 
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/Portrait-575x359-PR=1-content.png);
+background-image: url(../img/demo-content/emoncms/Portrait-575x374-PR=1-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/Portrait-575x359-PR=1-content.png);
+background-image: url(../img/demo-content/netstats/Portrait-575x374-PR=1-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/Portrait-575x359-PR=1-content.png);
+background-image: url(../img/demo-content/openhab/Portrait-575x374-PR=1-content.png);
 } 
 } 

@@ -2427,25 +2427,25 @@ background-image: url(../img/demo-content/emby/Landscape-2959x1439-PR=4-content.
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/-content.png);
+background-image: url(../img/demo-content/emoncms/Landscape-731x411-PR=2.7-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/-content.png);
+background-image: url(../img/demo-content/motioneye/Landscape-731x411-PR=2.7-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/-content.png);
+background-image: url(../img/demo-content/netstats/Landscape-731x411-PR=2.7-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/-content.png);
+background-image: url(../img/demo-content/openhab/Landscape-731x411-PR=2.7-content.png);
 } 
 } 
 
@@ -3353,7 +3353,7 @@ background-image: url(../img/demo-content/openhab/Landscape-1023x767-PR=2-conten
 @media only screen
 and (min-device-width: 720px)
 and (max-device-width: 731.5px)
-and (min-device-height: 399.5px)
+and (min-device-height: 410.5px)
 and (max-device-height: 411.5px)
 and (-webkit-device-pixel-ratio: 1)
 and (orientation: landscape) { 
@@ -3403,14 +3403,14 @@ background-image: url(../img/demo-content/openhab/Landscape-983x719-PR=2-content
 
 
 /* ----- ----- breakpoint filler-----00031 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION ( 719 x 399 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION ( 719 x 399 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 719 x 410 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 719 x 410 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 667px)
 and (max-device-width: 719.5px)
-and (min-device-height: 383.5px)
-and (max-device-height: 399.5px)
+and (min-device-height: 399.5px)
+and (max-device-height: 410.5px)
 and (-webkit-device-pixel-ratio: 1)
 and (orientation: landscape) { 
 
@@ -3430,7 +3430,7 @@ filter: invert(100%); /* ----- see frames.css ----*/
 .demo-emby-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emby/Landscape-719x399-PR=1-content.png);
+background-image: url(../img/demo-content/emby/Landscape-719x410-PR=1-content.png);
 } 
 .demo-solar-div { 
 height: calc(99.99vh);
@@ -3459,14 +3459,14 @@ background-image: url(../img/demo-content/openhab/Landscape-959x605-PR=1-content
 
 
 /* ----- ----- breakpoint filler-----00030 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION ( 666 x 383 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION ( 666 x 383 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 666 x 399 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 666 x 399 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 640px)
 and (max-device-width: 666.5px)
-and (min-device-height: 374.5px)
-and (max-device-height: 383.5px)
+and (min-device-height: 383.5px)
+and (max-device-height: 399.5px)
 and (-webkit-device-pixel-ratio: 1)
 and (orientation: landscape) { 
 
@@ -3486,7 +3486,7 @@ filter: invert(100%); /* ----- see frames.css ----*/
 .demo-emby-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emby/Landscape-666x383-PR=1-content.png);
+background-image: url(../img/demo-content/emby/Landscape-666x399-PR=1-content.png);
 } 
 .demo-solar-div { 
 height: calc(99.99vh);
@@ -3515,14 +3515,14 @@ background-image: url(../img/demo-content/openhab/Landscape-853x599-PR=1-content
 
 
 /* ----- ----- breakpoint filler-----00029 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION ( 639 x 374 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION ( 639 x 374 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 639 x 383 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 639 x 383 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 576px)
 and (max-device-width: 639.5px)
-and (min-device-height: 359.5px)
-and (max-device-height: 374.5px)
+and (min-device-height: 374.5px)
+and (max-device-height: 383.5px)
 and (-webkit-device-pixel-ratio: 1)
 and (orientation: landscape) { 
 
@@ -3542,7 +3542,7 @@ filter: invert(100%); /* ----- see frames.css ----*/
 .demo-emby-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emby/Landscape-639x374-PR=1-content.png);
+background-image: url(../img/demo-content/emby/Landscape-639x383-PR=1-content.png);
 } 
 .demo-solar-div { 
 height: calc(99.99vh);
@@ -3571,14 +3571,14 @@ background-image: url(../img/demo-content/openhab/Landscape-811x576-PR=1-content
 
 
 /* ----- ----- breakpoint filler-----00030 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION ( 575 x 359 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION ( 575 x 359 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 575 x 374 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 575 x 374 ) ------ ----*/ 
 
 @media only screen
 and (min-device-width: 568px)
 and (max-device-width: 575.5px)
-and (min-device-height: 349.5px)
-and (max-device-height: 359.5px)
+and (min-device-height: 359.5px)
+and (max-device-height: 374.5px)
 and (-webkit-device-pixel-ratio: 1)
 and (orientation: landscape) { 
 
@@ -3598,7 +3598,7 @@ filter: invert(100%); /* ----- see frames.css ----*/
 .demo-emby-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emby/Landscape-575x359-PR=1-content.png);
+background-image: url(../img/demo-content/emby/Landscape-575x374-PR=1-content.png);
 } 
 .demo-solar-div { 
 height: calc(99.99vh);

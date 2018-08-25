@@ -103,7 +103,16 @@
 							<div style="display:inline; overflow:hidden; height: 30px; width:400px; background-color: red;">
 								<div style="zoom: calc(50vw); float: left; max-width:140px;">
 									<form action="/charge" method="post">
-										<script class="stripe-button" data-amount="19999" data-currency="GBP" data-description="1 Wave Starter Kit (£199.99)" data-image="/square-image.png" data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN" data-name="Wave Store" src="https://checkout.stripe.com/checkout.js">
+										<script class="stripe-button" 
+										data-amount="19999" 
+										data-currency="GBP" 
+										data-description="1 Wave Starter Kit (£199.99)" 
+										data-image="/square-image.png" 
+										data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN" 
+										data-name="Wave Store" 
+										data-billing-address="true"
+										data-shipping-address="true"
+										src="https://checkout.stripe.com/checkout.js">
 										</script>
 									</form>
 								</div>

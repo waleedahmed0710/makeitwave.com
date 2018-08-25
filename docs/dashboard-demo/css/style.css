@@ -270,6 +270,7 @@ Main Components
     opacity:0.6;
    	margin-top:-0.1rem;
 	height:80px;
+	min-height:150px;
 	zoom:0.6;
 	display:block;
 	margin-bottom:5px;

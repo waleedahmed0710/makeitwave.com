@@ -2337,6 +2337,63 @@ background-image: url(../img/demo-content/openhab/Landscape-7680x4320-PR=1-conte
 } 
 } 
 
+/* ----- ----- pixel2 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION: ( 1080 x 1920 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION: ( 411 x 731 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 730.5px)
+and (max-device-width: 731.5px)
+and (min-device-height: 1079.5px)
+and (max-device-height: 1080.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+width: 725.5px;
+height: 411px;
+} 
+
+.demo-iframe {
+height: 724.5px;
+width: 410px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 725.5px;
+width: 411px;
+background-image: url(../img/demo-content/emby/Landscape-411x731-PR=2.7-content.png);
+} 
+
+.demo-solar-div { 
+height: 725.5px;
+width: 411px;
+background-image: url(../img/demo-content/emoncms/Landscape-411x731-PR=2.7-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 725.5px;
+width: 411px;
+background-image: url(../img/demo-content/motioneye/Landscape-411x731-PR=2.7-content.png);
+} 
+
+.demo-netstats-div { 
+height: 725.5px;
+width: 411px;
+background-image: url(../img/demo-content/netstats/Landscape-411x731-PR=2.7-content.png);
+} 
+
+.demo-openhab-div { 
+height: 725.5px;
+width: 411px;
+background-image: url(../img/demo-content/openhab/Landscape-411x731-PR=2.7-content.png);
+} 
+} 
+
+
 
 /* ----- ----- breakpoint filler-----00050 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 7679 x 4319 ) ------ ----*/ 
@@ -2789,7 +2846,9 @@ background-image: url(../img/demo-content/openhab/-content.png);
 /* ----- ----- breakpoint filler-----00042 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 1278 x 799 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 1278 x 799 ) ------ ----*/ 
+/* ----- ----- DISABLED - CONFLICTS WITH IPAD LANDSCAPE ------ ----*/ 
 
+/* ----- -----
 @media only screen
 and (min-device-width: 1024px)
 and (max-device-width: 1278.5px)
@@ -2807,8 +2866,8 @@ width: calc(99.99vw);
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url();
-filter: invert(100%); /* ----- see frames.css ----*/ 
--webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+filter: invert(100%); /* ----- see frames.css 
+-webkit-filter: invert(100%); /* ----- see frames.css 
 } 
 
 .demo-emby-div { 
@@ -2819,27 +2878,27 @@ background-image: url(../img/demo-content/emby/Landscape-1278x799-PR=2-content.p
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/Landscape-7679.5x4319-PR=4-content.png);
+background-image: url(../img/demo-content/emoncms/Landscape-1278x799-PR=2-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/Landscape-7679.5x4319-PR=4-content.png);
+background-image: url(../img/demo-content/motioneye/Landscape-1278x799-PR=2-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/Landscape-7679.5x4319-PR=4-content.png);
+background-image: url(../img/demo-content/netstats/Landscape-1278x799-PR=2-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/Landscape-7679.5x4319-PR=4-content.png);
+background-image: url(../img/demo-content/openhab/Landscape-1278x799-PR=2-content.png);
 } 
-} 
+} ------ ----*/ 
 
 
 /* ----- ----- breakpoint filler-----00041 : ( landscape ) ------ ----*/ 

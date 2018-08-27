@@ -40,7 +40,7 @@
 	<style type="text/css">
 
 	@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
-	      
+	      h1 { font-size: 1.6rem; }
 	</style>
 	<script src="http://code.jquery.com/jquery-3.3.1.slim.min.js">
 	</script>
@@ -72,23 +72,53 @@
 				<li data-slide-to="3" data-target="#myCarousel"></li>
 			</ol>
 			<div class="carousel-inner">
-			
 				<div class="carousel-item active">
-					<img alt="Second slide" class="second-slide" src="img/smart_home2.png">
+					<img alt="First slide" class="first-slide" src="img/smart_home2.png">
 					<div class="container carouselone">
 						<div class="carousel-caption text-left">
 							<h1>Control 100 Things </h1>
-							<p class="carousel-title" style="margin-left: -10px;">From <b style="color:yellow;opacity:0.6;">One</b> Dashboard</p>
+							<p class="carousel-title" style="margin-left: -10px; font-size: 1.2rem;">From <b style="color:yellow;opacity:0.6;">One</b> Dashboard</p>
 							<p class="carousel-subtitle">* from your Pocket. <b style="color:yellow;opacity:0.6;">From anywhere</b></p>
-							<p><a href="//play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup"><img src="img/google_app.png"></a> <a href="//play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup"><img src="img/apple_app.png"></a></p>
+							
+							<div style="display:inline-block; overflow:hidden; height: 50px; width:380px; letter-spacing:30px;">
+								<div style="margin-left: 0px; float: left; ">
+									<a href="//play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup"><img src="img/google_app.png" style="margin-left: 10px;"></a> 
+								<div style="margin-left: 0px; float: left; ">
+									<a href="//itunes.apple.com/us/app/dataplicity-terminal-for-pi/id921634512" target="_popup"><img src="img/apple_app.png"></a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+				</div>
+				
+				<div class="carousel-item">
+					<img alt="Second slide" class="seond-slide" src="img/plugplay.png">
+					<div class="container carouselone">
+						<div class="carousel-caption text-left"  style="margin-bottom:0rem;">
+							<h1>Subscription-Free</h1>
+							<p style="text-indent: 0px;">Including <b style="color:yellow;opacity:0.6;">FREE</b>  <b style="font-size:1rem; font-weight:lighter!important;">Service & Support</b></p>
+							<p></p>
+							<p style="text-indent: 0px; color: grey;">Fully Maintained (Open) Source Code</p>
+							
+							<div style="display:inline-block; overflow:hidden; height: 50px; width:380px;">
+								<div style="margin-left: 0px; float: left; ">
+								<a data-featherlight="iframe" href="https://github.com/unclehowell/WaveOS/blob/master/README.md" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" v-scrolling="" class="btn btn-lg btn-primary 1" role="button" style="overflow:hidden!important;"><strong>Source Code</strong></a> 
+								</div>
+								<div style="margin-left: 30px; float: left; ">
+								<a  href="download.html"  class="btn btn-lg btn-primary 1" role="button" style="overflow:hidden!important;"><strong>Version 4.3</strong></a>
+								</div>
+							</div>
+							<b style="margin-top: 1em;"></b></p>
+						</div>
+					</div>
+				</div>
+				
 					<div class="carousel-item">
-					<img alt="Fourth slide" class="fourth-slide" src="img/productbox.png">
+					<img alt="Third slide" class="third-slide" src="img/productbox.png">
 					<div class="container carouselone">
 						<div class="carousel-caption text-left" style="margin-bottom:2rem;">
-							<h1>Wave Starter Kit</h1>
+							<h1>Get Started</h1>
 							<p style="text-indent: 0px;"><b style="color:yellow;opacity:0.6;">£199.99 GBP</b>  <b style="font-size:1rem; font-style: italic;font-weight:lighter!important;">(inc. VAT & FREE Delivery)</b></p>
 							<p class="carousel-subtitle">* Ships 15th Dec 2018 - Pre-Order Today</p>
 							<div style="display:inline; overflow:hidden; height: 30px; width:400px; background-color: red;">
@@ -115,24 +145,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="carousel-item">
-					<img alt="Fifth slide" class="fourth-slide" src="img/plugplay.png">
-					<div class="container carouselone">
-						<div class="carousel-caption text-left"  style="margin-bottom:2rem;">
-							<h1>Free Service & Support</h1>
-							<p style="text-indent: 0px;">Fully Maintained (Open) Source Code</p>
-							<div style="display:inline; overflow:hidden; height: 30px; width:400px;">
-								<div style="margin-left: 0px; float: left; ">
-								<a data-featherlight="iframe" href="https://github.com/unclehowell/WaveOS/blob/master/README.md" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" v-scrolling="" class="btn btn-lg btn-primary 1" role="button" style="overflow:hidden!important;"><strong>Source Code</strong></a> 
-								</div>
-								<div style="margin-left: 30px; float: left; ">
-								<a  href="download.html"  class="btn btn-lg btn-primary 1" role="button" style="overflow:hidden!important;"><strong>Latest Release</strong></a>
-								</div>
-							</div>
-							<b style="margin-top: 1em;"></b></p>
-						</div>
-					</div>
-				</div><a class="carousel-control-prev" data-slide="prev" href="#myCarousel" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#myCarousel" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span></a><a id="anchor_video" name="anchor_video"></a><br>
+				<a class="carousel-control-prev" data-slide="prev" href="#myCarousel" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#myCarousel" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span></a><a id="anchor_video" name="anchor_video"></a><br>
 				<span class="sr-only">Next</span>
 			</div><span class="sexy_line"></span><br>
 			<div style=" margin-top: 0em; display: block; height: 10px;"></div>

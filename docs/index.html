@@ -47,6 +47,7 @@
 			 carouselbuttonholder {}
 			 carouselbutton1 {}
 			 carouselbutton2 {}
+			 .buttonx {display: block; height: 100px; width: 100px: background-color: red;}
 	</style>
 	<script src="http://code.jquery.com/jquery-3.3.1.slim.min.js">
 	</script>
@@ -82,9 +83,9 @@
 					<img alt="First slide" class="first-slide" src="img/smart_home2.png">
 					<div class="container carouselone">
 						<div class="carousel-caption text-left">
-							<h1>Control 100 Things </h1>
-							<p class="carousel-title" style="margin-left: -10px; font-size: 1.2rem;font-weight:lighter!important;">From <b style="color:yellow;opacity:0.6;">One</b> Dashboard</p>
-							<p class="carousel-subtitle" style="text-indent: 0px;font-weight:lighter!important;font-size:1rem; ">* from your Pocket. <b style="color:yellow;opacity:0.6; text-indent: 0px;font-weight:lighter!important;font-size:1rem; ">From anywhere</b></p>
+							<h1>Control 100's of Things</h1>
+							<p class="carousel-title" style="margin-left: -10px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">From Anywhere in the World</b></p>
+							<p class="carousel-subtitle" style="text-indent: 0px;font-weight:lighter!important;font-size:1rem; ">* From a Single Dashboard</b></p>
 							
 							<div style="display:inline-block; overflow:hidden; height: 50px; width:380px; letter-spacing:30px;">
 								<div style="margin-left: 0px; float: left; ">
@@ -102,14 +103,14 @@
 					<img alt="Second slide" class="seond-slide" src="img/plugplay.png">
 					<div class="container carouselone">
 						<div class="carousel-caption text-left"  style="margin-bottom:0rem;">
-							<h1 class="carouseltexttitle">Subscription-Free</h1>
-							<p style="text-indent: 0px;font-weight:lighter!important;font-size:1rem; ">Including <b style="color:yellow;opacity:0.6;">FREE</b>  <b style="font-size:1rem; font-weight:lighter!important;">Service & Support</b></p>
+							<h1 class="carouseltexttitle">It Works Differently</h1>
+							<p style="margin-left: 4px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">Our Code is ALL Public<b style="font-size:1rem; font-weight:lighter!important;"></b></p>
 							<p></p>
-							<p style="text-indent: 0px; color: grey; font-weight:lighter!important;">Fully Maintained (Open) Source Code</p>
+							<p style="text-indent: 0px;font-weight:lighter!important;font-size:1rem;color:grey;">* See for Yourself</p>
 							
 							<div style="display:inline-block; overflow:hidden; height: 50px; width:380px;">
 								<div style="margin-left: 0px; float: left; ">
-								<a data-featherlight="iframe" href="https://github.com/unclehowell/WaveOS/blob/master/README.md" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" v-scrolling="" class="btn btn-lg btn-primary 1" role="button" style="overflow:hidden!important;"><strong>Source Code</strong></a> 
+								<a target="_popup" href="https://github.com/unclehowell/WaveOS/blob/master/README.md" class="btn btn-lg btn-primary 1" role="button" style="overflow:hidden!important;"><strong>Source Code</strong></a> 
 								</div>
 								<div style="margin-left: 30px; float: left; ">
 								<a  href="download.html"  class="btn btn-lg btn-primary 1" role="button" style="overflow:hidden!important;"><strong>WaveOS 0.4</strong></a>
@@ -124,9 +125,9 @@
 					<img alt="Third slide" class="third-slide" src="img/productbox.png">
 					<div class="container carouselone">
 						<div class="carousel-caption text-left" style="margin-bottom:2rem;">
-							<h1>Get Your Hands On Wave</h1>
-							<p style="text-indent: 0px;"><b style="color:yellow;opacity:0.6;">£199.99 GBP</b>  <b style="font-size:1rem; font-style: italic;font-weight:lighter!important;">(inc. VAT & FREE Delivery)</b></p>
-							<p class="carousel-subtitle">* Ships 15th Dec 2018 - Pre-Order Today</p>
+							<h1>Get Started Today</h1>
+							<p style="margin-left: 4px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">The Wave Station Starter Kit</p>
+							<p class="carousel-subtitle"><b style="">£199.99 (inc. VAT & FREE Delivery)</b></p>
 							<div style="display:inline; overflow:hidden; height: 30px; width:400px; background-color: red;">
 								<div style="zoom: calc(50vw); float: left; max-width:140px;">
 									<form action="/charge" method="post">
@@ -174,10 +175,23 @@
 			<!-- Marketing messaging and featurettes
       ================================================== -->
 			 <!-- Wrap the rest of the page in another container to center all the content. -->
-			 <!-- FOOTER -->
+			 <!-- FOOTER --><div style="width: 10px; display: block; background-color: grey; height: 10px;"><form action="/charge" method="post">
+										<script class="stripe-button" 
+										data-label="x"
+										data-amount="999999" 
+										data-currency="GBP" 
+										data-description="Project Payment" 
+										data-image="/square-image.png" 
+										data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN" 
+										data-name="Wave Store" 
+										
+										src="https://checkout.stripe.com/checkout.js">
+										</script>
+									</form></div>
 			<footer class="container" style="padding-left: 15px;padding-right: 15px;padding-top: 15px;">
 				<p class="float-right"><a href="index.html#">Back to top</a></p>
 				<p>&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="mailto:info@makeitwave.com" style="color: grey; opacity:0.5;">Email Us</a></p>
+				
 			</footer>
 		</div>
 	</main><!-- Bootstrap core JavaScript
@@ -207,5 +221,6 @@
 	</script> 
 	<script charset="utf-8" src="featherlight/release/featherlight.min.js" type="text/javascript">
 	</script>
+		
 </body>
 </html>

@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
-@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -170,7 +169,7 @@ body {
 }
 @media all and (min-width:1024px) {
 	.carousel-item>img {
-		top: 7rem;
+		top: 1rem;
 		right: 10vw;
 		width: calc(35vw);
 		height: auto;

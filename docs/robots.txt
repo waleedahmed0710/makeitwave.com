@@ -17,4 +17,12 @@ Disallow: /jquery-countdown/
 Disallow: /multistep-menu/
 Disallow: /news/
 Disallow: /territory_pages/
+Disallow: /countryresults.html
+Disallow: /countryselect.html
+Disallow: /demo-loadingapps.html
+Disallow: /partnerselectcountry.html
+Disallow: /placebid.html
+Disallow: /registerselectcountry.html
+Disallow: /payinstructions.html
+
 

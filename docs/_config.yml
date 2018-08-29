@@ -2,3 +2,5 @@ url: https://makeitwave.com
 enforce_ssl: makeitwave.com
 theme: jekyll-theme-cayman
 permalink: pretty
+plugins:
+  - jekyll-sitemap

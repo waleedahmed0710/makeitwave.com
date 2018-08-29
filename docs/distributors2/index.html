@@ -27,11 +27,22 @@ html, body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background:#4a535f;
 }
-.wrapper {
-	width:300px;
-	margin:3% auto;
+.wrapperwrapper{
+
+position:static;
+margin-top: 5rem;
+padding-top: calc(10vh);
+width:calc(98vw);
+margin-left:calc(1vw);
+text-align: center!important;
+}
+
+.wrapper{
+
+
 
 }
+
 .dropdown dd, .dropdown dt, .dropdown ul {
 	margin: 0px;
 	padding: 0px;
@@ -76,6 +87,7 @@ html, body {
 	color: #4a535f;
 	text-decoration: none;
 	outline: none;
+	text-align:left;
 }
 .dropdown a:hover {
 	color: #5d4617;
@@ -267,7 +279,7 @@ dl.dropdown dt span:nth-child(3) {
 .auctiontextsubtitle {
 
 color: #5a5a5a;
-margin-top:3em;
+margin-top:4.25em;
 text-align:center;
 font-size: calc(1vw + 43%);
 line-height:0.5;
@@ -281,14 +293,17 @@ padding-right:2vw;
 }
 
 .auctiontextsubsubtitle {
-color: #5a5a5a;
 font-family: 'Cinzel Decorative', cursive;
-letter-spacing:0.2em;
-font-style: italic;
-text-align:center;
-font-size: calc(1vw + 33%);
-font-weight:lighter; 
-line-height:1.2em;
+    letter-spacing: 0.3em;
+    font-style: italic;
+    text-align: center;
+    font-size: 0.6rem;
+    line-height: 0.5;
+    font-weight: lighter;
+    line-height: 1.2em;
+    color: grey;
+    opacity: 1;
+    font-weight: 600;
 
 }
 
@@ -385,6 +400,7 @@ padding-bottom:0.1em;
 
 	<p class="auctiontextsubtitle">Licenced Distributors</p>
 	<p style="display:block; height: calc(30vh)"></p>
+	<div class="wrapperwrapper">
   <div class="wrapper">
 <dl id="country-select" class="dropdown">
   <dt><a href="javascript:void(0);"><span><span style="background-position:0px -55px; margin-top: 29px;margin-right: 20px;"></span><span>England (UK)</span></span></a></dt>
@@ -424,6 +440,7 @@ padding-bottom:0.1em;
     </ul>
   </dd>
 </dl>
+</div>
 </div>
 <h1 class="subtitle fancy2" style=""></h1>
 <p></p>

@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -81,7 +82,7 @@ body {
 	width: 100%;
 	opacity: 0;
 	margin-top: -8px;
-	font-style: bold;
+	font-weight: 600;
 }
 .letter {
 	display: inline-block;
@@ -143,7 +144,7 @@ body {
 	right: 8rem;
 	height: 32rem;
 }
-@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+
 #mc_embed_signup {
 	background: #fff;
 	clear: left;
@@ -166,7 +167,6 @@ body {
 	line-height: 0.5;
 	font-weight: lighter;
 	line-height: 1.2em;
-}
 }
 @media all and (min-width:1024px) {
 	.carousel-item>img {
@@ -237,11 +237,12 @@ body {
 	h1 {
 		
 		font-size: 2em;
-		display: line-block;
+		display: inline-block;
 	}
 	.mobilefloatytext {
 		font-size: 0.8em;
 	}
+}
 	/* Retina Breakpoints(@2x)  */
 	@media(-webkit-min-device-pixel-ratio:1.5), (min--moz-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:3/2), (min-resolution:1.5dppx) {
 		.carouselone {

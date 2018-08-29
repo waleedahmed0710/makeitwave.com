@@ -1,0 +1,20 @@
+# robots.txt for https://makeitwave.com
+
+User-agent: * 
+Disallow: /auction-registration/
+Disallow: /404/
+Disallow: /bidpages/
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /csvtotable/
+Disallow: /dashboard-demo/
+Disallow: /distributors/
+Disallow: /distributors2/
+Disallow: /featherlight/
+Disallow: /forms/
+Disallow: /jquery-countdown/
+Disallow: /multistep-menu/
+Disallow: /news/
+Disallow: /territory_pages/
+

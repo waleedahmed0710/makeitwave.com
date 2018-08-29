@@ -50,8 +50,10 @@ body {
 	text-indent: 15px;
 }
 .carousel-subtitle {
-	font-size: 16px;
-	color: grey;
+	color: #CCCCCC; 
+	text-indent: 0px;
+	font-weight:lighter!important;
+	font-size:1rem; 
 }
 /* Animated Words 
 ------------------------- */

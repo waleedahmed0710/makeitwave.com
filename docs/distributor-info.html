@@ -1,5 +1,4 @@
- <!DOCTYPE html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -47,11 +46,26 @@
 	<style type="text/css">
 	@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 	
-	html, body {margin: 0; height: 100%; overflow-x: hidden}
+			
+	html {
+    background-color: #34485D;
+}
+
+	body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+html, body {margin: 0; height: 100%; overflow-x: hidden}
 	   #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 	   /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	      We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 
+		  
 .countdown-iframe  {
 		text-align:center;
 		opacity:0.8;
@@ -171,13 +185,21 @@ margin-left: -10px;
 
 	<!-- Java -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
- </head>
+	
+	    <script>
+  $(function() {
+    $('body').removeClass('fade-out');
+});
+</script>
 
-<body>
+
+ </head>
+<body BGCOLOR="#34485D" >
+
 </br>
 	<header>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-			<a href="index.html"><img class="navbar-brand" style="border: 1px solid #343A40!important;" src="img/wave_logo.png"></a>
+			<a href="index.html" ><img class="navbar-brand" style="border: 1px solid #343A40!important;" src="img/wave_logo.png"></a>
 			<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
 			<span class="navbar-toggler-icon"></span>
 			</button>
@@ -311,7 +333,7 @@ margin-left: -10px;
 	<script src="js/jquery.min.js"></script> 
 	<script src="js/videoLightning.js"></script> 
 	<script src="js/jqvl-page.js"></script> 
-	
 	 <script src="featherlight/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
 </body>
 </html>

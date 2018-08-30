@@ -144,7 +144,7 @@ body {
 	position: absolute;
 	top: 0;
 	right: 8rem;
-	height: 32rem;
+	height: 30rem;
 }
 
 #mc_embed_signup {
@@ -171,23 +171,15 @@ body {
 	line-height: 1.2em;
 }
 @media all and (min-width:1024px) {
-	.carousel-item>img {
-		top: 1rem;
-		right: 10vw;
-		width: calc(35vw);
-		height: auto;
-	}
+	
 	h1 {
 		font-size: 4rem;
 	}
+	
+
 }
 @media all and (min-width: 960px) and (max-width: 1123px) {
-	.carousel-item>img {
-		top: 7rem;
-		right: 10vw;
-		width: calc(35vw);
-		height: auto;
-	}
+	
 	h1 {
 		
 	}
@@ -206,20 +198,8 @@ body {
 	.mobilefloatytext {
 		font-size: 0.6em;
 	}
-	.carousel-item>img {
-		height: auto;
-		width: calc(30vw);
-		left: 10rem;
-		top: 2rem;
-	}
 }
 @media all and (min-width: 480px)and (max-width: 767px) {
-	.carousel-item>img {
-		height: auto;
-		width: 15rem;
-		left: 15%;
-		top: 2rem;
-	}
 	h1 {
 	
 		font-size: 2rem;
@@ -230,12 +210,7 @@ body {
 	.fancy2 span:before, .fancy2 span:after {
 		width: 0em;
 	}
-	.carousel-item>img {
-		height: auto;
-		width: calc(60vw);
-		left: calc(20vw);
-		top: 4rem;
-	}
+	
 	h1 {
 		
 		font-size: 2em;

@@ -30,8 +30,10 @@
 	<link href="/manifest.json" rel="manifest">
 	<meta content="#ffffff" name="msapplication-TileColor">
 	<meta content="img/favicons/ms-icon-144x144.png" name="msapplication-TileImage">
-	<meta content="#ffffff" name="theme-color"><!-- CSS -->
-	<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<meta content="#ffffff" name="theme-color">
+	
+	<!-- CSS -->
+
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/deconflict.css" rel="stylesheet">
 	<link href="css/jqvl-page.css" rel="stylesheet">
@@ -47,14 +49,7 @@
 	   background-color: #34485D;
 	}
 
-	   body {
-	   opacity: 1;
-	   transition: 0.5s opacity;
-	}
-	body.fade-out {
-	   opacity: 0;
-	   transition: none;
-	}
+	 
 
 	h1 { font-size: 1.7rem; }
 	carouseltexttitle {}
@@ -92,19 +87,12 @@
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 	</script>
-	<script>
-	 $(function() {
-	   $('body').removeClass('fade-out');
-	});
-	</script>
+
 	<script>
 	jQuery("h1").fitText(1); 
 	</script>
 </head>
 <body bgcolor="#34485D">
-	<script>
-	document.body.className += ' fade-out';
-	</script>
 	<header>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 			<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a> <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
@@ -125,32 +113,15 @@
 	<main role="main">
 		<div class="carousel slide" data-ride="carousel" id="myCarousel">
 			<div class="carousel-inner">
-				<div class="carousel-item">
-					<div id="image1"></div>
-					<div class="container carouselone">
-						<div class="carousel-caption text-left">
-							<h1>Control 100 Devices</h1>
-							<p class="carousel-title" style="margin-left: -10px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">From Anywhere in the World</p>
-							<p class="carousel-subtitle" style="color: #CCCCCC; text-indent: 0px;font-weight:lighter!important;font-size:1rem;">Get the (FREE) Remote Access App</p>
-							<div style="display:inline-block; overflow:hidden; height: 50px; width:380px; letter-spacing:30px;">
-								<div style="margin-left: 0px; float: left;">
-									<a href="//play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup"><img src="img/google_app.png" style="margin-left: 10px;"></a>
-									<div style="margin-left: 0px; float: left;">
-										<a href="//itunes.apple.com/us/app/dataplicity-terminal-for-pi/id921634512" target="_popup"><img src="img/apple_app.png"></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				
 				<div class="carousel-item">
 					<div id="image2"></div>
 					<div class="container carouselone">
 						<div class="carousel-caption text-left" style="margin-bottom:0rem;">
-							<h1 class="carouseltexttitle">Modular Approach</h1>
-							<p style="margin-left: 4px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">A Smart Home for Everyone</p>
+							<h1 class="carouseltexttitle">FREE Operating System</h1>
+							<p style="margin-left: 4px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">For Smart Homes and People</p>
 							<p></p>
-							<p style="text-indent: 0px;font-weight:lighter!important;font-size:1rem;color:#CCCCCC;">Learn How Wave Works</p>
+							<p style="text-indent: 0px;font-weight:lighter!important;font-size:1rem;color:#CCCCCC;">Runs on ANY Single Board Computer</p>
 							
 							<div style="display:inline-block; overflow:hidden; height: 50px; width:380px; letter-spacing:30px;">
 								
@@ -167,18 +138,36 @@
 						</div>
 					</div>
 				</div>
-				<div class="carousel-item active">
-					<div id="image3"></div>
+				<div class="carousel-item">
+					<div id="image1"></div>
+					<div class="container carouselone">
+						<div class="carousel-caption text-left">
+							<h1>Manage 100 Devices</h1>
+							<p class="carousel-title" style="margin-left: -10px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">From Anywhere in the World</p>
+							<p class="carousel-subtitle" style="color: #CCCCCC; text-indent: 0px;font-weight:lighter!important;font-size:1rem;">FREE Remote Access & App</p>
+							<div style="display:inline-block; overflow:hidden; height: 50px; width:380px; letter-spacing:30px;">
+								<div style="margin-left: 0px; float: left;">
+									<a href="//play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup"><img src="img/google_app.png" style="margin-left: 10px;"></a>
+									<div style="margin-left: 0px; float: left;">
+										<a href="//itunes.apple.com/us/app/dataplicity-terminal-for-pi/id921634512" target="_popup"><img src="img/apple_app.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item  active">
+					<div id="image4"></div>
 					<div class="container carouselone">
 						<div class="carousel-caption text-left" style="margin-bottom:2rem;">
-							<h1>Get Started with Wave</h1>
-							<p style="margin-left: 4px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;"><b style="">£299.99 (inc. VAT & FREE Delivery)</b></p>
-							<p class="carousel-subtitle"><a href="non-tracking.html" style="text-decoration: underline; color: #CCCCCC;">Remove Vehicle Tracking Parts?</a></p>
+							<h1>Single Unit (Full Kit)</h1>
+							<p style="margin-left: 4px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">£299.98 <b style="font-size: 1rem;font-style:italic;"> (inc. TAX & FREE Delivery)</b></p>
+							<h4 class="carousel-subtitle"><a href="non-tracking.html" style="text-decoration: underline; color: #CCCCCC;"><b style=" opacity:0.6; background-color: white; border:2px solid white; border-radius:4px; width:18px; height:18px; display:inline-block;"></b></a> <p style="vertical-align:top; display:inline-block;margin-left:10px;"> Remove Tracking (Save £99.99)</p></h4>
 							
 							<div style="position:relative; display:inline-block; overflow:hidden; height: 50px; width:380px; letter-spacing:30px;">
 								<div style="margin-left: 0px; float: left;">
 									<form action="/charge" method="post">
-										<script class="stripe-button" data-amount="29999" data-billing-address="true" data-currency="GBP" data-description="1 Base Station - Tracking (£299.99)" data-image="https://makeitwave.com/square-image.png" data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN" data-label="Pay by Card" data-name="Wave Store" data-shipping-address="true" src="https://checkout.stripe.com/checkout.js">
+										<script class="stripe-button" data-amount="29998" data-billing-address="true" data-currency="GBP" data-description="1 Base Station - Tracking (£299.98)" data-image="https://makeitwave.com/square-image.png" data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN" data-label="Pay by Card" data-name="Wave Store" data-shipping-address="true" src="https://checkout.stripe.com/checkout.js">
 										</script></div>
 									
 										<script>
@@ -242,8 +231,7 @@
 	</script> 
 	<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js">
 	</script> <!-- Just to make our placeholder images work. Don't actually copy the next line! --> 
-	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js">
-	</script> <!-- The other .js fils -->
+<!-- The other .js fils -->
 	 
 	<script src="js/scale.fix.js">
 	</script> 

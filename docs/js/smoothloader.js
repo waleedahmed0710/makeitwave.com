@@ -14,7 +14,13 @@ setTimeout(function() {
 
 setTimeout(function() {
   var el = $('#image3');
-  el.html('<img alt="Third slide" class="third-slide" src="img/productbox.png">');
+  el.html('<img alt="Third slide" class="third-slide" src="./img/productbox.png">');
+  onLoad(el);
+}, 100);
+
+setTimeout(function() {
+  var el = $('#image4');
+  el.html('<img alt="Fouth slide" class="fourth-slide" src="./img/productbox2.png">');
   onLoad(el);
 }, 100);
 

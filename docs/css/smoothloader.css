@@ -6,7 +6,7 @@ img {
 
 @media all and (min-width:1024px) {	
 
-#image1>img,#image2>img,#image3>img {
+#image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
 		max-width:calc(55vw);
 			height: auto;
 		min-height: 200px;
@@ -20,7 +20,7 @@ img {
 
 @media all and (min-width: 960px) and (max-width: 1123px) {
 	
-	#image1>img,#image2>img,#image3>img {
+	#image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
 		max-width:calc(55vw);
 			height: auto;
 		min-height: calc(40vw);
@@ -34,7 +34,7 @@ img {
 
 @media all and (min-width: 768px) and (max-width: 959px) {
 	
-#image1>img,#image2>img,#image3>img {
+#image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
 		max-width:calc(55vw);
 			height: auto;
 		min-height: calc(40vw);
@@ -49,7 +49,7 @@ img {
 @media all and (min-width: 480px)and (max-width: 767px) {
 
 	
-#image1>img,#image2>img,#image3>img {
+#image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
 		max-width:calc(75vw);
 			height: auto;
 		min-height: calc(30vw);
@@ -62,7 +62,7 @@ img {
 
 @media all and (max-width: 479px) {
 	
-#image1>img,#image2>img,#image3>img {
+#image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
 		max-width:calc(75vw)!important;
 		height: auto;
 		max-height: 275px;

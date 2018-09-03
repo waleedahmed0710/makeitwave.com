@@ -32,12 +32,14 @@
 	<meta content="img/favicons/ms-icon-144x144.png" name="msapplication-TileImage">
 	<meta content="#ffffff" name="theme-color"><!-- CSS -->
 	<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/deconflict.css" rel="stylesheet">
 	<link href="css/jqvl-page.css" rel="stylesheet">
 	<link href="featherlight/release/featherlight.min.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/smoothloader.css" rel="stylesheet">
+	<link href="css/functions-list.css" rel="stylesheet">
 	<style type="text/css">
 
 	   @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
@@ -45,18 +47,28 @@
 	           
 	   html {
 	   background-color: #34485D;
+	      overflow-x:hidden;
 	}
 
+	   body {
+	   opacity: 1;
+	   transition: 0.5s opacity;
+	
+	}
+	body.fade-out {
+	   opacity: 0;
+	   transition: none;
+	}
 
-
-	h1 { font-size: 1.7rem; }
-	carouseltexttitle {}
+	h1 { font-size: 1.4rem; }
+	.carouseltexttitle {}
 	carouseltextsubtitle {}
 	carouseltextsubsubtitle {}
 	carouselbuttonholder {}
 	carouselbutton1 {}
 	carouselbutton2 {}
-	            
+	      
+	  
 	.auctiontextsubsubtitle {
 	   font-family: 'Open Sans', sans-serif;
 	   font-size:1.25rem;
@@ -82,16 +94,31 @@
 	 background-color: #EB649C !important;
 	 background-image: none;
 	}
+	
+
+
+
 	</style>
+	  <script>
+    function pageLoad(){
+     document.getElementById('mainWrapper').style.visibility="visible";
+    }
+  </script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 	</script>
-
+	<script>
+	 $(function() {
+	   $('body').removeClass('fade-out');
+	});
+	</script>
 	<script>
 	jQuery("h1").fitText(1); 
 	</script>
 </head>
-<body bgcolor="#34485D">
-
+<body bgcolor="#34485D" onload="pageLoad()">
+	<script>
+	document.body.className += ' fade-out';
+	</script>
 	<header>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 			<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a> <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
@@ -109,42 +136,64 @@
 			</div>
 		</nav>
 	</header>
-	<main role="main">
+	<main role="main" id="mainWrapper" style="visibility:hidden">
 		<div class="carousel slide" data-ride="carousel" id="myCarousel">
-			<div class="carousel-inner">
+			<div class="carousel-inner" style="overflow:visible!important;">
 				
-				<div class="carousel-item">
+				<div class="carousel-item active">
 					<div id="image2"></div>
 					<div class="container carouselone">
-						<div class="carousel-caption text-left" style="margin-bottom:0rem;">
-							<h1 class="carouseltexttitle">Connected Smart Home</h1>
-							<p style="margin-left: 4px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">FREE Wave Operating System</p>
-							<p></p>
-							<p style="text-indent: 0px;font-weight:lighter!important;font-size:1rem;color:#CCCCCC;">Runs on ANY Single Board Computer</p>
+						<div class="carousel-caption text-left" style="margin-bottom:2rem;">
+							<h1 class="carouseltexttitle"><strong style="font-weight:600;letter-spacing:1.5px;">All-in-One</strong> Smart Home</h1>
+				
+							<p style="opacity:0.6;text-indent: 0px;font-weight:lighter!important;font-size:1rem;color:yellow;">Single Board Computer & Software</p>
 							
-							<div style="display:inline-block; overflow:hidden; height: 50px; width:380px; letter-spacing:30px;">
+							
 								
-								<div style="margin-left: 0px; float: left;">
-									<a href="download.html" target="_popup"><img src="img/software_button.png" style="margin-left: 10px;"></a>
+							<div style="display:inline-block; overflow:visible; height: 50px; width:380px; letter-spacing:30px;">
+								
+								<div style="margin-left: 0px; float: left; overflow:visible;">
+									<a href="download.html" target="_self" class="download-button">Download V4.3</a>
 									
-									<div style="margin-left: 0px; float: left;">
-										<a href="https://github.com/unclehowell/WaveOS/blob/master/README.md" target="_popup"><img src="img/github_button.png"></a>
+									<div style="margin-left: 0px; float: left;  ">
+										<div class="wrapperwrapper"  >
+								<div class="wrapper" >
+									<dl class="dropdown" >
+										<dt ><a href="javascript:void(0);" style="letter-spacing:0.8px;"><span><span style="background-color:transparent; background-image:none; display:inline-block; color: #343A40; width:3px; height:1px;"></span><span style="margin-left:50px;font-size:1rem;margin-top:-5px;padding-bottom:4px;">Features</span></span></a>
+										</dt>
+										<dd>
+											<ul style="display: none;">
+												<li><a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="dashboard-demo/frame_netstats.html" style="zoom:1;">Track a Vehicle<span style="background-position:0px 0px;"></span></a></li>
+												<li><a>Monitor Energy<span style="background-position:0px -150px;"></span></a></li>
+												<li><a>Monitor CCTV<span style="background-position:0px -450px;"></span></a></li>
+												<li><a>Media Library + IPTV<span style="background-position:0px 0px;"></span></a></li>
+												<li><a>Extend Media to All Rooms<span style="background-position:0px -300px;"></span></a></li>
+												<li><a>Extend Wi-Fi Signal<span style="background-position:0px 0px;"></span></a></li>
+											</ul>
+											
+										</dd>
+									</dl>	
+								</div>
+							</div>			
 									</div>
 								</div>
-							</div>
-							<b style="margin-top: 1em;"></b>
-							<p></p>
+							</div>	
+							
+					
+						<b style="margin-top: 1em;"></b>
+							<p></p>				
 						</div>
+						
 					</div>
 				</div>
 				<div class="carousel-item">
 					<div id="image1"></div>
 					<div class="container carouselone">
 						<div class="carousel-caption text-left" style="margin-bottom:1rem;">
-							<h1>Manage 100 Devices</h1>
-							<p class="carousel-title" style="margin-left: -10px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">From Anywhere in the World</p>
-							<p class="carousel-subtitle" style="color: #CCCCCC; text-indent: 0px;font-weight:lighter!important;font-size:1rem;">FREE Remote Access & App</p>
-							<div style="display:inline-block; overflow:hidden; height: 50px; width:380px; letter-spacing:30px;">
+							<h1>Access from Anywhere</h1>
+							<p class="carousel-title" style="margin-left: -10px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">Using the FREE Mobile App</p>
+							<p class="carousel-subtitle" style="color: #CCCCCC; text-indent: 0px;font-weight:lighter!important;font-size:1rem;"></p>
+							<div style="display:inline-block; overflow:visible!important; height: 50px; width:380px; letter-spacing:30px;">
 								<div style="margin-left: 0px; float: left;">
 									<a href="//play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup"><img src="img/google_app.png" style="margin-left: 10px;"></a>
 									<div style="margin-left: 0px; float: left;">
@@ -155,13 +204,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="carousel-item  active">
+				<div class="carousel-item">
 					<div id="image3"></div>
 					<div class="container carouselone">
 						<div class="carousel-caption text-left" style="margin-bottom:1rem;">
-							<h1>Single Unit (Full Kit)</h1>
-							<p style="margin-left: 4px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">£199.99 <b style="font-size: 1rem;font-style:italic;"> (inc. TAX & FREE Delivery)</b></p>
-								<h4 class="carousel-subtitle"><a href="tracking.html" style="text-decoration: underline; color: #CCCCCC;"><b style="opacity:0.6; background-color: transparent; border:2px solid white; border-radius:4px; width:18px; height:18px; display:inline-block;"></b></a> <p style="vertical-align:top; display:inline-block;margin-left:10px;">  Vehicle Tracking (+£99.99)</p></h4>
+							<h1>Single Board Computer</h1>
+							<p style="margin-left: 4px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">£199.99 <b style="font-size: 1rem;font-style:italic;"> (inc. VAT & FREE Delivery)</b></p>
+							<h4 class="carousel-subtitle"><a href="tracking.html" style="text-decoration: underline; color: #CCCCCC;"><b style="opacity:0.6; background-color: transparent; border:2px solid white; border-radius:4px; width:18px; height:18px; display:inline-block;"></b></a> <p style="vertical-align:top; display:inline-block;margin-left:10px;"> Vehicle Tracking Addon (+£99.99)</p></h4>
 							
 							<div style="position:relative; display:inline-block; overflow:hidden; height: 50px; width:380px; letter-spacing:30px;">
 								<div style="margin-left: 0px; float: left;">
@@ -216,7 +265,7 @@
 		</div>
 		<footer class="container" style="padding-left: 15px;padding-right: 15px;padding-top: 15px;">
 			<p class="float-right"><a href="index.html#">Back to top</a></p>
-			<p>&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="mailto:info@makeitwave.com" style="color: grey; opacity:0.5;">Email Us</a></p>
+			<p>&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="mailto:info@makeitwave.com" style="color: grey; opacity:0.5;z-index:-99;">Email Us</a></p>
 		</footer>
 	</main><!-- Bootstrap core JavaScript
     ================================================== -->
@@ -232,7 +281,7 @@
 	</script> <!-- Just to make our placeholder images work. Don't actually copy the next line! --> 
 	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js">
 	</script> <!-- The other .js fils -->
-	 
+	<script  src="distributors2/js/index.js"></script> <!-- Dropdown Menu-->
 	<script src="js/scale.fix.js">
 	</script> 
 	<script src="js/jquery.min.js">

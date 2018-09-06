@@ -1,74 +1,29 @@
-img {
-  image-rendering: auto;
 
 
-}
 
 @media all and (min-width:1024px) {	
 
-#image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
-		max-width:calc(55vw);
-			height: auto;
-		min-height: 200px;
-		max-height: 400px;
-		margin-right:calc(15vw);
-		float:right;
-		margin-top:55px;
-		 transition: width 0.1s ease-out;
-}
+
 }
 
 @media all and (min-width: 960px) and (max-width: 1123px) {
 	
-	#image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
-		max-width:calc(55vw);
-			height: auto;
-		min-height: calc(40vw);
-		max-height: 280px;
-		margin-right:calc(15vw);
-		float:right;
-		margin-top:55px;
-		 transition: width 0.1s ease-out;
-}
+
 }
 
 @media all and (min-width: 768px) and (max-width: 959px) {
 	
-#image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
-		max-width:calc(55vw);
-			height: auto;
-		min-height: calc(40vw);
-		max-height: 280px;
-		margin-right:calc(15vw);
-		float:right;
-		margin-top:55px;
-		 transition: width 0.1s ease-out;
-}
+
 }
 
 @media all and (min-width: 480px)and (max-width: 767px) {
 
 	
-#image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
-		max-width:calc(75vw);
-			height: auto;
-		min-height: calc(30vw);
-		max-height: 280px;
-		margin-left:calc(12.5vw);
-		margin-top:40px;
-		 transition: width 0.1s ease-out;
-}	
+
 }
 
 @media all and (max-width: 479px) {
 	
-#image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
-		max-width:calc(75vw)!important;
-		height: auto;
-		max-height: 275px;
-		margin-left:calc(12.5vw)!important;
-		margin-top:40px;
-		 transition: width 0.1s ease-out;
-}
+
 }
 

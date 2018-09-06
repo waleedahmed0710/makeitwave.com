@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body {
+overflow:scroll;
+font-family: 'Open Sans', sans-serif;
+top:0;
+left:0;
+}
+
+html {
+overflow:scroll;
+
+}
+
+
+.title {
+text-align:center;
+}
+
+.subtitle {
+text-align:center;
+margin-top:-20px;
+padding:0;
+}
+
+.paragraph-title {
+padding-left: calc(1.25vw);
+text-align:left;
+padding-bottom:0;
+margin-bottom:0;
+font-size:100%;
+
+}
+.paragraph-content {
+
+padding-left: calc(1vw);
+padding-right: calc(2vw);
+text-align:justify;
+word-spacing:0.04rem;
+font-size:80%;
+color:dark-grey;
+
+}
+
+.main-image {
+	content:"image";
+text-align:center;
+margin-top:20px;
+
+min-height: inherit;
+max-height: calc(40vw);
+
+min-width: calc(75vw);
+max-width: calc(75vw);
+
+margin-left:calc(11.5vw);
+margin-bottom:10px;
+position:static!important;
+border:1px solid white!important;
+filter: invert(100%);
+
+}
+
+@media all and (min-width:1024px) {
+	
+}
+
+
+@media all and (min-width: 960px) and (max-width: 1123px) {
+
+}
+@media all and (min-width: 768px) and (max-width: 959px) {
+
+}
+@media all and (min-width: 480px)and (max-width: 767px) {
+
+}
+@media all and (max-width: 479px) {
+	
+
+
+}
+
+@media(-webkit-min-device-pixel-ratio:1.5), (min--moz-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:3/2), (min-resolution:1.5dppx) {
+
+}

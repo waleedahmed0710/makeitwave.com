@@ -7,10 +7,14 @@
 	      if {{ host == window.location.host} && {window.location.protocol != "https:""}}
 	      window.location.protocol = "https";
 	</script>
+	
+
 	<meta charset="utf-8">
 	<meta content="1" http-equiv="Expires">
 	<link href="//makeitwave.com" rel="canonical">
-	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- SEO -->
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	
+	<!-- SEO -->
 	<meta content="Home Operating System" name="description">
 	<meta content="Make it Wave Ltd" name="author">
 	<title>WaveOS</title><!-- Icons -->
@@ -30,216 +34,281 @@
 	<link href="/manifest.json" rel="manifest">
 	<meta content="#ffffff" name="msapplication-TileColor">
 	<meta content="img/favicons/ms-icon-144x144.png" name="msapplication-TileImage">
-	<meta content="#ffffff" name="theme-color"><!-- CSS -->
+	<meta content="#ffffff" name="theme-color">
+	
+	<!-- CSS -->
+	
 	<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+	<link href="css/deconflict.css" rel="stylesheet">
+	<link href="css/jqvl-page.css" rel="stylesheet">
+	<link href="css/smoothloader.css" rel="stylesheet">
+	<link href="css/functions-list.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/deconflict.css" rel="stylesheet">
 	<link href="css/jqvl-page.css" rel="stylesheet">
 	<link href="featherlight/release/featherlight.min.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/smoothloader.css" rel="stylesheet">
 	<link href="css/functions-list.css" rel="stylesheet">
-	<style type="text/css">
 
-	      @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
-	          
-	              
-	      html {
-	      background-color: #34485D;
-	         overflow-x:hidden;
-	   }
+	
+	
+	<!-- scripts 1/2 -->
+	
+	<script src="js/lazy.min.js">	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
+	<script>
+			function pageLoad(){
+			 document.getElementById('mainWrapper').style.visibility="visible";
+			}
+    </script>	
 
-	      body {
-	      opacity: 1;
-	      transition: 0.5s opacity;
-	   
-	   }
-	   body.fade-out {
-	      opacity: 0;
-	      transition: none;
-	   }
-
-	</style>
-	<script>
-	   function pageLoad(){
-	    document.getElementById('mainWrapper').style.visibility="visible";
-	   }
-	</script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-	</script>
-	<script>
-	    $(function() {
-	      $('body').removeClass('fade-out');
-	   });
-	</script>
-	<script>
-	   jQuery("h1").fitText(1); 
-	</script>
 </head>
 <body bgcolor="#34485D" onload="pageLoad()">
-	<script>
-	   document.body.className += ' fade-out';
-	</script>
-	<header>
+
+	<header id="mainWrapper">
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-			<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a> <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+				<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a> 
+				<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item"></li>
+					
 					<li class="nav-item">
-						<a class="nav-link" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="dashboard-demo/dash-or-setup.html" style="overflow:hidden!important; font-family: 'Open Sans', sans-serif;">Demo</a>
 					</li>
-					<li class="nav-item"></li>
+					
 					<li class="nav-item">
-						<a class="nav-link" href="distributors2/index.html" style="font-family: 'Open Sans', sans-serif;">Distributors</a>
+						<a class="nav-link" target="_popup" href="demo.html">Demo</a>
+					</li>
+					
+					<li class="nav-item">
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="distributors2/index.html">Distributors</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</header>
-	<main id="mainWrapper" role="main" style="visibility:hidden">
+	
+	<main role="main">
 		<div class="carousel slide" data-ride="carousel" id="myCarousel">
 			<div class="carousel-inner" style="overflow:visible!important;">
-				<div class="carousel-item active">
+ <!-- First Slide --> 
+				<div class="carousel-item">
 					<div id="image2"></div>
+					
 					<div class="container carouselone">
-						<div class="carousel-caption text-left" style="margin-bottom:2rem;">
-							<h1 class="carouseltexttitle"><strong style="font-weight:600;letter-spacing:1.5px;">All-in-One</strong> Smart Home</h1>
-							<p style="opacity:0.6;text-indent: 0px;font-weight:lighter!important;font-size:1rem;color:yellow;">Single Board Computer & Software</p>
-							<div style="display:inline-block; overflow:visible; height: 50px; width:380px; letter-spacing:30px;">
-								<div style="margin-left: 0px; float: left; overflow:visible;">
-									<a class="download-button" href="download.html" target="_self">Download V4.3</a>
-									<div style="margin-left: 0px; float: left;">
+					<!-- First Line --> 
+						<div class="carousel-caption text-left">
+							<h1 class="carouseltexttitle"><strong style="font-weight:600;letter-spacing:1.5px;"></strong>Your Home. In Order</h1>
+				
+				<!-- Second Line --> 
+							<p class="carousel-title">All Devices. One Dashboard</p>
+				
+				<!-- Third Line --> 
+							</br>	
+						<!-- Buttons Holder --> 
+							<div  class="button-block">
+											
+							<!-- Buttons Right --> 
+								<div  class="button-block-right">	
+														
+							<!-- Buttons Left --> 
+									<div  class="button-block-left">
 										<div class="wrapperwrapper">
 											<div class="wrapper">
 												<dl class="dropdown">
 													<dt>
-														<a href="javascript:void(0);" style="letter-spacing:0.8px;"><span><span style="background-color:transparent; background-image:none; display:inline-block; color: #343A40; width:3px; height:1px;"></span><span style="margin-left:50px;font-size:1rem;margin-top:-5px;padding-bottom:4px;">Features</span></span></a>
+														<a href="javascript:void(0);">
+															<span>
+																<span></span><span>Features</span>
+															</span>
+														</a>
 													</dt>
-													<dd>
-														<ul style="display: none;">
+														<dd>
+															<ul style="display: none;">
 															<li>
-																<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="dashboard-demo/frame_netstats.html" style="zoom:1;">Track a Vehicle<span style="background-position:0px 0px;"></span></a>
-															</li>
-															<li>
-																<a>Monitor Energy<span style="background-position:0px -150px;"></span></a>
-															</li>
-															<li>
-																<a>Monitor CCTV<span style="background-position:0px -450px;"></span></a>
-															</li>
-															<li>
-																<a>Media Library + IPTV<span style="background-position:0px 0px;"></span></a>
-															</li>
-															<li>
-																<a>Extend Media to All Rooms<span style="background-position:0px -300px;"></span></a>
-															</li>
-															<li>
-																<a>Extend Wi-Fi Signal<span style="background-position:0px 0px;"></span></a>
-															</li>
-														</ul>
-													</dd>
+																	<a  data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="content/energy-monitor.html" style="zoom:1;" h-scrolling="yes" v-scrolling="yes">Energy Monitor<span style="background-position:0px -149px;"></span></a>
+																</li>
+																<li>
+																	<a  data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href=""  style="zoom:1;" h-scrolling="yes" v-scrolling="yes">Media & TV<span style="background-position:0px -299px;"></span></a>
+																</li>
+																<li>
+																	<a  data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href=""  style="zoom:1;" h-scrolling="yes" v-scrolling="yes">Switch Controls<span style="background-position:0px 0px;"></span></a>
+																</li>
+																
+																
+																<li>
+																	<a  data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="" style="zoom:1;" h-scrolling="yes" v-scrolling="yes">IP Cameras<span style="background-position:0px -450px;"></span></a>
+																</li>
+																
+																<li>
+																	<a  data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="" style="zoom:1;" h-scrolling="yes" v-scrolling="yes" >Vehicle Tracking<span style="background-position:0px -598px;"></span></a>
+																</li>
+															
+															</ul>
+														</dd>
 												</dl>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div><b style="margin-top: 1em;"></b>
-							<p></p>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="carousel-item">
+				
+				
+	 <!-- Second Slide --> 
+				<div class="carousel-item  active">
 					<div id="image1"></div>
+					
 					<div class="container carouselone">
+				
+				<!-- First Line --> 
 						<div class="carousel-caption text-left">
 							<h1>Access from Anywhere</h1>
-							<p class="carousel-title" style="margin-left: -10px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">Using the FREE Mobile App</p>
-							<p class="carousel-subtitle" style="color: #CCCCCC; text-indent: 0px;font-weight:lighter!important;font-size:1rem;"></p>
-							<div style="display:inline-block; overflow:visible!important; height: 50px; width:380px; letter-spacing:30px;">
-								<div style="margin-left: 0px; float: left;">
-									<a href="//play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup"><img src="img/google_app.png" style="margin-left: 10px;"></a>
-									<div style="margin-left: 0px; float: left;">
-										<a href="//itunes.apple.com/us/app/dataplicity-terminal-for-pi/id921634512" target="_popup"><img src="img/apple_app.png"></a>
+				
+				<!-- Second Line --> 
+							<p class="carousel-title" >Over Cellular or Wi-Fi</p>
+				
+				<!-- Third Line --> 
+							<h4 class="carousel-subtitle">Get the FREE Mobile App </h4>
+							</br>	
+						<!-- Buttons Holder --> 
+							<div class="button-block">
+						
+							<!-- Buttons Right --> 
+								<div class="button-block-right">
+									<a href="//play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup"><img src="img/google_app.png" style="margin-left: 10px;">
+									</a>
+						
+							<!-- Buttons Left --> 
+									<div class="button-block-left">
+										<a href="//itunes.apple.com/us/app/dataplicity-terminal-for-pi/id921634512" target="_popup"><img src="img/apple_app.png">
+										</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				
+				
+	 <!-- Third Slide --> 
 				<div class="carousel-item">
 					<div id="image3"></div>
+					
 					<div class="container carouselone">
-						<div class="carousel-caption text-left" style="margin-bottom:1rem;">
+					
+					<!-- First Line --> 
+						<div class="carousel-caption text-left">
 							<h1>Single Board Computer</h1>
-							<p style="margin-left: 4px; font-size: 1.2rem;font-weight:lighter!important;color:yellow;opacity:0.6;">£199.99 <b style="font-size: 1rem;font-style:italic;">(inc. VAT & FREE Delivery)</b></p>
-							<h4 class="carousel-subtitle"><a href="tracking.html" style="text-decoration: underline; color: #CCCCCC;"><b style="opacity:0.6; background-color: transparent; border:2px solid white; border-radius:4px; width:18px; height:18px; display:inline-block;"></b></a></h4>
-							<p style="vertical-align:top; display:inline-block;margin-left:10px;">Vehicle Tracking Addon (+£99.99)</p>
-							<div style="position:relative; display:inline-block; overflow:hidden; height: 50px; width:380px; letter-spacing:30px;">
-								<div style="margin-left: 0px; float: left;">
+					
+					<!-- Second Line --> 
+								<p class="carousel-title">£199.99 <b style="font-size: 1rem;font-style:italic;">(inc. VAT & FREE Delivery)</b></p>
+					
+					<!-- Third Line --> 
+							<h4 class="carousel-subtitle"><a href="tracking.html" class="tick-box-holder"><b class="tick-box"></b></a></h4><p style=" vign:top; display:inline-block;margin-left:10px;">Vehicle Tracking (+£99.99)</p>
+								</br>							
+							<!-- Buttons Holder --> 
+							<div class="button-block">
+										
+								<!-- Buttons Right --> 
+								<div class="button-block-right">
 									<form action="/charge" method="post">
-										<script class="stripe-button" data-amount="19999" data-billing-address="true" data-currency="GBP" data-description="1 Base Station - Tracking (£199.99)" data-image="https://makeitwave.com/square-image.png" data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN" data-label="Pay by Card" data-name="Wave Store" data-shipping-address="true" src="https://checkout.stripe.com/checkout.js">
-										</script>
+										<script class="stripe-button" data-amount="19999" data-billing-address="true" data-currency="GBP" data-description="1 Base Station - Tracking (£199.99)" data-image="https://makeitwave.com/square-image.png" data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN" data-label="Pay by Card" data-name="Wave Store" data-shipping-address="true" src="https://checkout.stripe.com/checkout.js"></script>
 									</form>
 								</div>
-								<script>
-								                                document.getElementsByClassName("stripe-button-el")[0].style.display = 'none';
-								</script> <button style="background-image:url('img/card_button.png');width:158px;height:41px;border-top:0.05rem solid #34485D; border-left:0.05rem solid #34485D; border-right:0.05rem solid white; border-bottom:0.05rem solid white; border-radius:4px 4px 4px 4px;" type="submit"></button>
-								<div style=" display: inline; float: left; position:absolute; top:0; left:175px;">
-									<a href="https://paypal.me/makeitwave/200" target="_popup"><img src="img/paypal_button2.png"></a>
+									<script>
+																	document.getElementsByClassName("stripe-button-el")[0].style.display = 'none';
+									</script>
+									<button style="background-image:url('img/card_button.png');width:158px;height:41px;border-top:0.05rem solid #34485D; border-left:0.05rem solid #34485D; border-right:0.05rem solid white; border-bottom:0.05rem solid white; border-radius:4px 4px 4px 4px;" type="submit"></button>
+								
+								<!-- Buttons Left --> 
+								<div class="button-block-left">
+										<a href="https://paypal.me/makeitwave/200" target="_popup"><img src="img/paypal_button2.png"></a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				
+			
+				<a class="carousel-control-prev" data-slide="prev" href="#myCarousel" role="button">
+				<span aria-hidden="true" class="carousel-control-prev-icon"></span> 
+				<span class="sr-only">Previous</span></a> 
+				<a class="carousel-control-next" data-slide="next" href="#myCarousel" role="button">
+				<span aria-hidden="true" class="carousel-control-next-icon"></span>
+				<span class="sr-only">Next</span></a>
 			</div>
-		</div><a class="carousel-control-prev" data-slide="prev" href="#myCarousel" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#myCarousel" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span></a><a id="anchor_video" name="anchor_video"></a><br>
-		<span class="sr-only">Next</span> <span class="sexy_line"></span><br>
-		<div style=" margin-top: 0em; display: block; height: 10px;"></div>
-		<h2 class="auctiontextsubsubtitle">Wave Launches</h2>
-		<p style="text-align:center"><a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="news/valelife/index.html" style="overflow:hidden!important;">Vale Life, Premium Lifestyle Magazine</a></p><br>
-		<span class="sexy_line"></span><br>
-		<div style=" margin-top: 0em; display: block; height: 10px;"></div>
-		<h2 class="auctiontextsubsubtitle">"Bravo Wave, I admire ..."</h2>
-		<p style="text-align:center"><a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="https://en.wikipedia.org/wiki/Michael_Moritz" style="overflow:hidden!important;" target="_popup">Sir Michael Moritz KBE, Sequoia Capital</a></p><br>
-		<span class="sexy_line"></span><br>
-		<div style=" margin-top: 0em; display: block; height: 10px;"></div>
-		<h2 class="auctiontextsubsubtitle">Google Patents Wave</h2>
-		<p style="text-align:center"><a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="https://makeitwave.com/data/pdf/Patent%20Purchase%20Agreement.pdf" style="overflow:hidden!important;">Google Patent Agreement (PDF)</a></p><br>
-		<span class="sexy_line"></span>
-		<p></p><br>
-		<div class="container 1" style="text-align:center;">
-			<img class="video-link demo-link" data-video-id="jW_GUwVie3o" src="img/video_container.png" style="width: calc(80.99vw); height:auto;"><a id="anchor_text" name="anchor_text"></a>
-		</div><br>
-		<br>
-		<!-- Marketing messaging and featurettes
-      ================================================== -->
-		 <!-- Wrap the rest of the page in another container to center all the content. -->
-		 <!-- FOOTER -->
-		<div style="display: hidden;width: 10px; display: block; background-color: grey; height: 10px;">
-			<form action="/charge" method="post">
-				<script class="stripe-button" data-amount="499999" data-currency="GBP" data-description="Project Payment" data-image="https://makeitwave.com/square-image.png" data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN" data-label="x" data-name="Wave Store" src="https://checkout.stripe.com/checkout.js">
-				</script>
-			</form>
 		</div>
-		<footer class="container" style="padding-left: 15px;padding-right: 15px;padding-top: 15px;">
-			<p class="float-right"><a href="index.html#">Back to top</a></p>
-			<p>&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="mailto:info@makeitwave.com" style="color: grey; opacity:0.5;z-index:-99;">Email Us</a></p>
+				
+
+			<h4 style="text-align:center; margin-bottom:8rem; margin-top:5rem;">Learn More</h4>
+			<span class="sexy_line"></span>
+		<div style=" margin-top: 0em; display: block; height: 30px;" ></div>
+		<span class="sexy_line"><span ><a class="video-link demo-link" data-video-id="jW_GUwVie3o" ></a></span></span><br>
+			
+	
+		<div style=" margin-top: 0em; display: block; height: 30px;"></div>
+		<div style=" margin-top: 0em; display: block; height: 30px;"></div>
+			<h4 style="text-align:center; margin-bottom:1rem; margin-top:5rem;">Our Story</h4>
+		
+		<div style=" margin-top: 0em; display: block; height: 30px;"></div>
+	<!-- Milestone 4 --> 		
+			<span class="sexy_line"><span class="year">2018</span></span><br>
+		<div style="margin-top: 0em; display: block; height: 10px;"></div>
+			<h6 style="text-align:center;font-style:italic;opacity:0.7;">Operating System Launch</h6>
+				<h2 class="auctiontextsubsubtitle"></h2>
+					<p style="text-align:center;"><a target="_self" href="download.html" style="text-decoration:underline;color:grey;"><strong>WaveOS Beta</strong> - 0.4.3 (<strong>Free</strong>)</a></p><br>
+	<!-- Milestone 3 --> 		
+						<span class="sexy_line"><span class="year">2015</span></span><br>
+		<div style=" margin-top: 0em; display: block; height: 10px;"></div>
+			<h6 style="text-align:center;font-style:italic;opacity:0.7;">Google Patents Wave</h6>
+				<h2 class="auctiontextsubsubtitle"></h2>
+					<p style="text-align:center"><a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="https://makeitwave.com/data/pdf/Patent%20Purchase%20Agreement.pdf" style="text-decoration:underline;text-decoration:underline;color:grey;"><strong>Google Inc.</strong> Patent Agreement (PDF)</a></p><br>
+	
+	<!-- Milestone 2 --> 		
+						<span class="sexy_line"><span class="year">2014</span></span><br>
+		<div style=" margin-top: 0em; display: block; height: 10px;"></div>
+			<h6 style="text-align:center;font-style:italic;opacity:0.7;">$1million Raised</h6>
+				<h2 class="auctiontextsubsubtitle"></h2>
+					<p style="text-align:center"><a  style="text-decoration:underline;text-decoration:underline;color:grey;"><strong>Seed Fund</strong> Investment Round</a></p><br>
+	
+	<!-- Milestone 1 --> 		
+						<span class="sexy_line"><span class="year">2012</span></span><br>
+		<div style=" margin-top: 0em; display: block; height: 10px;"></div>
+			<h6 style="text-align:center;font-style:italic;opacity:0.7;">"Bravo Wave, I Admire"</h6>
+				<h2 class="auctiontextsubsubtitle"></h2>
+					<p style="text-align:center"><a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="https://en.wikipedia.org/wiki/Michael_Moritz" style="text-decoration:underline;text-decoration:underline;color:grey;" target="_popup"><strong>Sir</strong> Michael Moritz <strong>KBE</strong> (Sequoia Capital)</a></p><br>
+	<!-- Milestone 0 --> 		
+						<span class="sexy_line"><span class="year">2009</span></span><br>
+		<div style=" margin-top: 0em; display: block; height: 10px;"></div>
+			<h6 style="text-align:center;font-style:italic;opacity:0.7;">Renamed to Wave</h6>
+				<h2 class="auctiontextsubsubtitle"></h2>
+					<p style="text-align:center"><a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="news/valelife/index.html" style="text-decoration:underline;text-decoration:underline;color:grey;">Vale Life, <strong>Premium</strong> Lifestyle Magazine</a></p><br>
+		
+		<footer class="container" style="left:calc(10vw); padding-right:calc(10vw); padding-left: 15px;padding-right: 15px;padding-top: 15px; bottom:-50px; border-top:1px solid grey;">
+			<p style="padding-right: calc(2vw);" class="float-right"><a href="#">Back to top</a>
+			</p>
+			<p>&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="https://github.com/unclehowell/WaveOS/blob/master/README.md">GitHub</a> &middot; <a href="mailto:info@makeitwave.com" style="color: white; opacity:0.5;">  Email Us</a></p>
 		</footer>
-	</main><!-- Bootstrap core JavaScript
-    ================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
-	</script> 
-	<script>
-	         window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/jquery-slim.min.js"><\/script>')
-	</script> 
+
+	</main>
+	
+	<!-- scripts 2/2 -->
+
+	
 	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js">
 	</script> 
 	<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js">
 	</script> <!-- Just to make our placeholder images work. Don't actually copy the next line! --> 
 	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js">
-	</script> <!-- The other .js fils -->
+	</script> 
 	 
 	<script src="distributors2/js/index.js">
 	</script> <!-- Dropdown Menu-->
@@ -250,7 +319,9 @@
 	</script> 
 	<script src="js/videoLightning.js">
 	</script> 
-	<script src="js/jqvl-page.js">
+	
+	<!-- Video Intro -->
+		<script src="js/jqvl-page.js">
 	</script> 
 	<script src="js/page.js">
 	</script> 
@@ -258,5 +329,6 @@
 	</script> 
 	<script src="js/smoothloader.js">
 	</script>
+	
 </body>
 </html>

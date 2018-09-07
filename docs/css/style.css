@@ -19,7 +19,7 @@
 }
 
 img {
-
+	-ms-interpolation-mode: bicubic; 
 	image-rendering: auto;
 	text-rendering: optimizeSpeed;
 	text-rendering: optimizeLegibility;
@@ -32,15 +32,17 @@ img {
 -------------------------------------------------- */
 
 .navbar-brand {
+	image-rendering: auto;
 	max-width: 175px!important;
 	max-height: 52px;
+	opacity:1;
 }
 .nav-link {
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none!important;
 	border: 1px solid white;
 	opacity: 0.5;
-	border-radius: 20px 20px 20px 20px;
+	border-radius: 30px 30px 30px 30px;
 	padding: 2px;
 	margin: 2px;
 	display: block;
@@ -77,8 +79,8 @@ img {
 	margin-left: -10px; 
 	font-size: 1.2rem;
 	font-weight:light!important;
-	color:yellow;
-	opacity:0.6;
+	color:#61CFF7;
+	opacity:1;
 	
 }
 .carousel-subtitle {
@@ -185,14 +187,15 @@ download-button {
 }
 
 .dropdown dd ul li a span:first-child, .dropdown dt a span span:first-child {
-	background-image: url('../img/vehicletracker.png');
-	background-repeat: no-repeat;
-	width: 250px;
-	height: 150px;
-	display: inline-block;
-	margin:5px;
-	vertical-align: top;
-	font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/vehicletracker.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+    border: 1px solid #343A40;
+    border-radius: 270px 0px 0px 270px;
 	
 }
 
@@ -284,29 +287,28 @@ download-button {
 .dropdown dd ul {
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 650, from(#34485D), to(#61CFF7));
     display: none;
-    padding-top:0.5rem;
+    padding-top: 0.5rem;
     /* position: absolute; */
-	position:fixed;
+    position: fixed;
     border-left: 1px solid #343A40;
-	border-right: 1px solid #343A40;
-	border-top: calc(15vh) solid #343A40;
-	border-bottom: calc(15vh) solid #343A40;
-	border-radius: 75px 75px 75px 75px;
-    list-style: none;
+    border-right: 1px solid #343A40;
+    border-top: calc(15vh) solid #343A40;
+    border-bottom: calc(15vh) solid #343A40;
+    border-radius: 98px 98px 98px 98px;
     overflow-y: scroll;
-	overflow-x: hidden;
-    z-index: 2;
-	width:calc(90vw);
-	max-width: 280px;
-	margin-left: calc(18vw); 
-	max-height:  calc(300vh);
-	height: calc(200vh); 
-	max-height: 700px;
-	float: left;
-	margin-top: calc(5vh); 
-	top: 0;
-
+    overflow-x: hidden;
+    width: calc(90vw);
+    max-width: 288px;
+    margin-left: calc(18vw);
+    max-height: calc(300vh);
+    height: calc(200vh);
+    max-height: 650px;
+    float: left;
+    margin-top: calc(10vh);
+	z-index:1203;
+    top: 0;
 }
+
 
 li a {
 	font-size:13px;
@@ -798,7 +800,7 @@ html.with-featherlight {
 	border: 1px solid grey;
 	top:15px;
 	opacity: 0.5;
-	border-radius: 2px 2px 2px 2px;
+	border-radius: 10px 10px 10px 10px;
 	padding: 2px;
 	margin: 2px;
 	display: block;

@@ -212,70 +212,35 @@ Main Components
   width: 20%;
   float: left;
 }
-.cd-3d-nav li:first-of-type a::before {
-  background-image: url(../img/icons/24530.svg);
-  filter: invert(100%);
-  opacity: 0.3;
-  margin-top: -0.5rem;
-  background-repeat: no repeat;
-    background-position: center;
-		height: 80px;
-	width: 80px;
-  
-}
-.cd-3d-nav li:nth-of-type(2) a::before {
-  background-image: url(../img/icons/remote-control.png);
-   background-position: center;
-     filter: invert(100%);
+
+.cd-3d-nav li a:before {
+     background-position: center;
+     filter: invert(0%);
+	   -webkit-filter: invert(0%);
     background-repeat: no repeat;
 	margin-top:-0.6rem;
 	zoom:0.65;
 	display:block;
 	height: 80px;
+	width: 80px;
 	opacity:0.4;
 	margin-bottom:5px;
+}
 
-
-
+.cd-3d-nav li:first-of-type a::before {
+  background-image: url(../img/icons/emby.png); 
+}
+.cd-3d-nav li:nth-of-type(2) a::before {
+  background-image: url(../img/icons/remote-control.png);
 }
 .cd-3d-nav li:nth-of-type(3) a::before {
   background-image: url(../img/icons/09-512.png);
-     background-position: center;
-     filter: invert(100%);
-    background-repeat: no repeat;
-	margin-top:-0.6rem;
-	height:70px;
-	zoom:0.7;
-	display:block;
-	opacity:0.4;
-	margin-bottom:5px;
 }
 .cd-3d-nav li:nth-of-type(4) a::before {
   background-image: url(../img/icons/Energy_lightning_power_electric_electricity-512.png);
-       background-position: center;
-     filter: invert(100%);
-    background-repeat: no repeat;
-	margin-top:-0.4rem;
-	height:80px;
-	zoom:0.8;
-	display:block;
-	opacity:0.4;
-	margin-bottom:5px;
 }
 .cd-3d-nav li:nth-of-type(5) a::before {
   background-image: url(../img/icons/138338.png);
-       background-position: center;
-     filter: invert(100%);
-    background-repeat: no repeat;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    opacity:0.6;
-   	margin-top:-0.1rem;
-	height:80px;
-	min-height:150px;
-	zoom:0.6;
-	display:block;
-	margin-bottom:5px;
 }
 .cd-3d-nav a {
   position: relative;
@@ -290,7 +255,7 @@ Main Components
   /* navigation icons */
   content: '';
   height: 32px;
-  width: 32px;
+  width: 64px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -301,7 +266,7 @@ Main Components
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background-size: 32px 64px;
+  background-size: 60px 60px;
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -315,7 +280,7 @@ Main Components
   background-color: #212635;
 }
 .cd-3d-nav .cd-selected a::before {
-  background-position: 0 -32px;
+ 
 }
 .nav-is-visible .cd-3d-nav {
   -webkit-transform: translateZ(0);
@@ -435,12 +400,37 @@ main.nav-is-visible {
   -o-transform: translateY(80px);
   transform: translateY(80px);
 }
+
+@media all and (min-width:1024px) {
+	
+}
+
+
+@media all and (min-width: 960px) and (max-width: 1123px) {
+
+}
+@media all and (min-width: 768px) and (max-width: 959px) {
+
+
+}
+@media all and (min-width: 480px)and (max-width: 767px) {
+	  .cd-3d-nav a::before {
+   
+  /* navigation icons */
+  background-size: 40px 40px;
+}
+
+}
+@media all and (max-width: 479px) {
+	  .cd-3d-nav a::before {
+   
+  /* navigation icons */
+  background-size: 40px 40px;
+}
+}
 @media only screen and (min-width: 768px) {
 	
-.cd-3d-nav li:first-of-type a::before {
-  margin-top: -3.5rem;
-  
-}
+
   main.nav-is-visible {
     -webkit-transform: translateY(170px);
     -moz-transform: translateY(170px);
@@ -456,7 +446,7 @@ main.nav-is-visible {
     padding: 7.6em 1em 0;
     color: #ffffff;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight:lighter;
     text-align: center;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -484,12 +474,8 @@ main.nav-is-visible {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
-  }
-  .cd-3d-nav li:nth-of-type(4) a::before {
-	  
-	  margin-top: -1.7rem;
-  }
-  .cd-3d-nav li:nth-of-type(5) a::before {
-	margin-top: -1.7rem;
+  /* navigation icons */
+  background-size: 40px 40px;
 }
+
 }

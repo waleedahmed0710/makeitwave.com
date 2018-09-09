@@ -132,7 +132,33 @@ download-button {
 }
 
 
+.news-link {
+	font-weight: lighter; 
+	cursor: pointer;
+	color:grey;
+	text-align:center;
+	font-style:italic;
+	opacity:0.9;
+}
 
+.news-link:hover {
+
+	text-decoration:underline;
+	color:grey;
+}
+
+.news-title {
+	text-align:center;
+	margin-top:0.5rem;
+	margin-bottom:-0.1rem;
+}
+
+.news-title-timeline {
+	text-align:center;
+	margin-bottom:1rem;/* margin-top:2rem; */
+	padding-top:2rem;
+	padding-bottom:2.5rem;
+}
 /* Animated Words 
 ------------------------- */
 /* Thin out the marketing headings */
@@ -199,10 +225,41 @@ download-button {
 	
 }
 
+ /*  Dropdown Icons Mouseover */
+
+.media-dropdown-img {
+	background-position:0px -299px;
+}
+.media-dropdown-img:hover {
+	background-position:0px -1068px;
+}
+.energy-dropdown-img {
+	background-position:0px -149px;
+}
+.energy-dropdown-img:hover {
+	background-position:0px -918px;
+}
+.iot-dropdown-img {
+	background-position:0px 0px;
+}
+.iot-dropdown-img:hover {
+	background-position:0px -769px;
+}
+.cameras-dropdown-img {
+	background-position:0px -450px;
+}
+.cameras-dropdown-img:hover {
+	background-position:0px -1219px;
+}
+.tracking-dropdown-img {
+	background-position:0px -598px;
+}
+.tracking-dropdown-img:hover {
+	background-position:0px -1367px;
+}
 
 .dropdown dd, .dropdown dt, .dropdown ul {
 	margin: 0px;
-
 	padding: 0px;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -215,14 +272,14 @@ download-button {
     display: block;
     min-height: 40px;
     max-height: 40px;
-    font-size: 0.85rem;
+    font-size: 0.87rem;
 	margin-left:56px;
     padding-top: 10px;
     font-weight: light;
     color: #34485D;
     overflow: hidden;
     font-family: 'Open Sans', sans-serif;
-    border-right: 2px solid #61CFF7;
+    border-right: 1px solid #61CFF7;
 	text-align:right;
 }
 .dropdown dt a img {
@@ -364,20 +421,13 @@ dl.dropdown span:nth-child(3) {
 	float: right;
 }
 dl.dropdown dt span:nth-child(2) {
-    color: #343A40;
-    display: inline-block;
-    line-height: 1.6em;
-    font-family: 'Open Sans', sans-serif;
-    vertical-align: top;
-    margin-left: 37px;
+     color: #343A40;
+    display: inline;
+    margin-left: -76px;
     font-size: 1rem;
-    margin-top: -52px;
-    padding-bottom: 4px;
-    content: "";
     background-color: #61CFF7;
-    /* float: right; */
-    padding-right: 79px;
     text-align: left;
+    padding-left: -100px;
 	
 }
 dl.dropdown dt span:nth-child(3) {
@@ -791,6 +841,7 @@ html.with-featherlight {
 	overflow: hidden;
 	
 }
+
 }
 @media all and (max-width: 479px) {
 	
@@ -908,7 +959,7 @@ html.with-featherlight {
 	}
 
 	
-	@media print {
+@media print {
 	html.with-featherlight>*>:not(.featherlight) {
 		display: none
 	}

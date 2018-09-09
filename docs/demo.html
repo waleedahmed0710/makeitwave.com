@@ -98,13 +98,12 @@ margin-right:calc(45vw);
 margin-left: calc(90vw); 
 text-align:center;
 }
-
-
-  </style>
+ </style>
+ 
   <script>
 
-$(function(){
-  $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  $(function(){
+	$('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
 
   $(window).resize(function(){
     $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
@@ -132,9 +131,11 @@ html {
 <!--[if IE 6]><style>
 /*	se c'e' v-scroll IE6 fa anche apparire h-scroll (width non tiene conto di v-scroll)
 	tranne quando iframe e' in quirks mode, oppure ha: html { overflow-y:scroll }
+		tranne quando iframe e' in quirks mode, oppure ha: html { overflow-y:scroll }
 
 */
 </style><![endif]-->
+
 	<!-- demo -->
 
 	<title>Wave - UI Demo</title>
@@ -161,7 +162,7 @@ html {
 	
 	<nav class="cd-3d-nav-container">
 		<ul class="cd-3d-nav">
-			<li>
+			<li >
 				<a href="dashboard-demo/frame_emby.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">TV & Media</a>
 			</li>
 
@@ -179,7 +180,7 @@ html {
 			</li>
 			
 			<li>
-				<a class="test2" href="dashboard-demo/frame_netstats.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">Trackers</a>
+				<a href="dashboard-demo/frame_netstats.html" onclick="setIframeSrc('framez', this.href); return false" target="framez">Trackers</a>
 				
 			</li>
 		</ul> <!-- .cd-3d-nav -->

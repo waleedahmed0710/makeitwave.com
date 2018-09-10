@@ -3,224 +3,31 @@
 
 <head>
   <meta charset="UTF-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Licenced Distributor Selector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Licenced Distributor Selector</title>
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="../featherlight/release/featherlight.min.css" />
-	<link href="../css/style.css" rel="stylesheet">
-	<link href="../css/breakpoints.css" rel="stylesheet">
-<script>jQuery("h1").fitText(1); </script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
-  
-      <style>
+	<link rel="stylesheet" href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css" >
+	<link rel="stylesheet" href="../featherlight/release/featherlight.min.css" type="text/css" />
+	<link rel="stylesheet" href="../css/style.css" >
+	<link rel="stylesheet" href="../css/distributors2.css" >
+	
+    <style>
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 	font-family: 'Open Sans', sans-serif;
-
 }
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-      body {
+body {
 	font-family: 'Open Sans', sans-serif;
 	background:#4a535f;
 }
-.wrapperwrapper{
-
-position:static;
-margin-top: 5rem;
-padding-top: calc(10vh);
-width:calc(98vw);
-margin-left:calc(1vw);
-text-align: center!important;
-}
 
 
-.dropdown dd, .dropdown dt, .dropdown ul {
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Open Sans', sans-serif;
-}
-.dropdown dd ul li a span:first-child, .dropdown dt a span span:first-child {
-	background-image: url('https://i.imgur.com/OQiDoZe.png');
-	background-repeat: no-repeat;
-	width: 16px;
-	height: 11px;
-	display: inline-block;
-	margin:5px;
-	vertical-align: top;
-	font-family: 'Open Sans', sans-serif;
-}
-.dropdown dt a span {
-	cursor: pointer;
-	display: block;
-	padding: 5px;
-	white-space: nowrap;
-}
-.dropdown dt a img {
-	position: relative;
-	z-index: 1;
-}
-.dropdown dt a span span:first-child:before {
-	position: absolute;
-	content: '';
-	width: 15px;
-	height: 10px;
-	box-shadow: 0 1px 1px rgba(0,0,0,0.2) inset;
-}
-.dropdown dt a span span {
-	display: inline-block;
-	padding: 0;
-}
-.dropdown dt a span span:first-child {
-	padding: 0;
-}
-.dropdown dd {
-	position: relative;
-}
-.dropdown a, .dropdown a:visited {
-	color: #4a535f;
-	text-decoration: none;
-	outline: none;
-	text-align:left;
-}
-.dropdown a:hover {
-	color: #5d4617;
-}
-.dropdown dt a:hover, .dropdown dt a:focus {
-	color: #5d4617;
-}
-.dropdown dt a {
-	position: relative;
-	background: #e3e6ef;
-	display: block;
-	padding-right: 20px;
-	overflow: hidden;
-	border:1px solid #343A40;
-	border-radius: 5px; 
-	width:250px;
-}
-.dropdown dt a:after {
-	content: '';
-	background: #343A40;
-	position: absolute;
-	
-	height: 32px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 35px;
-}
-
-.dropdown dt a:before {
-    background: none repeat scroll 0 0 #FFFFFF;
-    content: "";
-    height: 3px;
-    position: absolute;
-    right: 7px;
-    top: 6px;
-    width: 20px;
-    z-index: 2;
-	box-shadow:0 8px 0 #FFFFFF, 0 16px 0 #FFFFFF;
-}
-.dropdown dd ul {
-	background: #f0f2f7;
-	
-	color: #C5C0B0;
-	display: none;
-	left: 0px;
-	padding: 5px 0px;
-	position: absolute;
-	
-	width: 250px;
-	border:1px solid #343A40;
-	list-style: none;
-	max-height: 100px;
-	overflow-y: scroll;
-	
-	z-index: 2;
-}
-
-li a {
-	font-size:13px;
-}
-
-li a span:nth-child(2) {
-    line-height: 2em;
-}
-.dropdown dd ul::-webkit-scrollbar-track {
- -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
- border-left:1px solid rgba(0,0,0,0.1);
-}
-.dropdown dd ul::-webkit-scrollbar-thumb {
- background: rgba(0,0,0,0.4);
-/*-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5), 1px 0 0 #5cace9 inset, 2px 0 0 #b3d5ee inset;
-    border-radius:10px;*/
-}
-.dropdown dd ul::-webkit-scrollbar-thumb:window-inactive {
- background: blue;
-}
-.dropdown span.value {
-	display: none;
-}
-.dropdown dd ul li a {
-	padding: 5px;
-	display: block;
-	font-size: 12px !important;
-}
-.dropdown dd ul li a:hover {
-	background-color: rgba(0,0,0,0.05);
-}
-dl.dropdown {
-	display: inline-block;
-	width: 240px;
-	margin: -3px 0 0 1px;
-}
-dl.dropdown span:nth-child(3) {
-	color: rgba(0,0,0,0.4)
-}	
-dl.dropdown > span:nth-child(2) {
-	overflow: hidden;
-	white-space: nowrap;
-	display: inline-block;
-}
-dl.dropdown span:nth-child(3) {
-	float: right;
-}
-dl.dropdown dt span:nth-child(2) {
-	color: rgba(0, 0, 0, 0.6);
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1.6em;
-}
-dl.dropdown dt span:nth-child(3) {
-	display: none;
-}
-.countryFlag {
-	padding: 0;
-	background-image: url("https://i.imgur.com/OQiDoZe.png");
-	background-repeat: no-repeat;
-	display: inline-block;
-	height: 11px;
-	margin-right: 4px;
-	width: 16px;
-	cursor: pointer;
-	white-space: nowrap;
-	-moz-border-bottom-colors: none;
-	-moz-border-left-colors: none;
-	-moz-border-right-colors: none;
-	-moz-border-top-colors: none;
-	border-color: #BFBFC1 #B6B6B6 #969696;
-	border-image: none;
-	border-radius: 2px 2px 2px 2px;
-	border-style: solid;
-	border-width: 1px;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.09);
-}
 /*.countryFlag:before {*/
     /*-moz-border-bottom-colors: none;*/
     /*-moz-border-left-colors: none;*/
@@ -241,7 +48,7 @@ dl.dropdown dt span:nth-child(3) {
 /*}*/
 
 
-.css_only{
+.css_only {
     -moz-animation-name: showEffect;
 	-moz-animation-iteration-count: 1;
 	-moz-animation-timing-function: ease-in;
@@ -264,94 +71,18 @@ dl.dropdown dt span:nth-child(3) {
 	100% { display: block; visibility: visible;  }
 
 }
+
 @-webkit-keyframes showEffect {
 	0% { display: none; visibility: hidden; }
 	100% { display: block; visibility: visible;  }
 
 }
+
 @keyframes showEffect {
 	0% { display: none; visibility: hidden; }
 	100% { display: block; visibility: visible;  }
 }
 
-
-.auctiontextsubtitle {
-
-color: #5a5a5a;
-margin-top:4.25em;
-text-align:center;
-font-size: calc(1vw + 43%);
-line-height:0.5;
-font-size:1.5rem;
-font-weight:bold; 
-line-height:1.2em;
-font-family: 'Open Sans', sans-serif;
-letter-spacing:0.1em;
-margin-bottom: -11rem;
-padding-left:2vw;
-padding-right:2vw;
-}
-
-.auctiontextsubsubtitle {
-	font-family: 'Open Sans', sans-serif;
-    letter-spacing: 0.3em;
-    font-style: italic;
-    text-align: center;
-    font-size: 0.6rem;
-    line-height: 0.5;
-    font-weight: lighter;
-    line-height: 1.2em;
-    color: grey;
-    opacity: 1;
-    font-weight: 600;
-
-}
-
-
-.auctiontext {
-	color: #5a5a5a;
-	font-family: 'Open Sans', sans-serif;
-	letter-spacing:0.2em;
-	font-style: italic;
-	font-size: calc(1vw + 20%);
-	font-weight:lighter; 
-	line-height:1.2em;
-	text-align:center;
-	margin-top:-30px;
-	margin-bottom:3	0px;
-}
-
-.sexy_line{ 
-	margin-top:1em;
-	margin-bottom:1em;
-    display:block;
-    border:none;
-    color:white;
-    height:1px;
-    background:black;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
-}
-
-.auctionroom-box {
-
-display: block;
-width: 60%;
-margin-left:20%;
-margin-right:20%;
-background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(rgba(202, 157, 209,.3)), to(#fff)); 
-height: auto;
-border-radius:1em 1em 1em 1em;
-margin-top:0.1em;
-vertical-align: middle;
-}
-
-.auctionroom-notice {
-color: grey;
-text-align:center;
-font-size: 0.8em;
-vertical-align: middle;
-padding-bottom:0.1em;
-}
 
 @media all and (max-width: 479px)  {
 
@@ -361,105 +92,129 @@ padding-bottom:0.1em;
 
 }
 </style>
-	<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 	
-
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../css/breakpoints.css" rel="stylesheet">
-	<link href="../css/distributors2.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
+  
 </head>
 
 <body>
-<header>
+	<header>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-			<a href="../index.html"><img class="navbar-brand" src="../img/wave_logo.png" style="border: 1px solid #343A40!important;"></a><button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-
+			<a href="../index.html">
+				<img class="navbar-brand" src="../img/wave_logo.png" style="border: 1px solid #343A40!important;">
+			</a>
+			
+			<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
+				<span class="navbar-toggler-icon">
+				</span>
+			</button>
+			
 			<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="navbar-nav mr-auto">
+				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-					</li>
-					
+					</li>		
 					<li class="nav-item">
 						<a class="nav-link" target="_popup" href="../demo.html" >Demo</a>
 					</li>
-
 					<li class="nav-item">
 					</li>
-
 					<li class="nav-item">
 						<a class="nav-link" href="#" style="font-family: 'Open Sans', sans-serif;">Distributors</a>
-					</li>
-	
-				</ul>
+					</li>	
+				</ul>	
 			</div>
 		</nav>
 	</header>
 
 	<p class="auctiontextsubtitle">Licenced Distributors</p>
 	<p style="display:block; height: calc(30vh)"></p>
-	<div class="wrapperwrapper">
-  <div class="wrapper">
-<dl id="country-select" class="dropdown">
-  <dt><a href="javascript:void(0);"><span><span style="background-position:0px -55px; margin-top: 29px;margin-right: 20px;"></span><span>England (UK)</span></span></a></dt>
-  <dd>
-    <ul style="display: none;">
-      <li><a cunt_code="+44" href="../territory_pages/england.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;"><span style="background-position:0px -55px"></span><span>England (UK)</span></a></li>
-	  <li><a cunt_code="+1809" href="../territory_pages/scottishbay.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;"><span style="background-position:0px -1529px"></span><span>Scottish Bay (DR)</span><span></span></a></li>
-      <li><a cunt_code="+1264" href="javascript:void(0);"><span style="background-position:0px -1980px"></span><span>Anguilla</span><span>soon</span></a></li>
-      <li><a cunt_code="+1268" href="javascript:void(0);"><span style="background-position:0px -869px"></span><span>Antigua and Barbuda</span><span>soon</span></a></li>
-      <li><a cunt_code="+247" href="javascript:void(0);"><span style="background-position:0px -55px"></span><span>Ascension Island</span><span>soon</span></a></li>
-      <li><a cunt_code="+61" href="javascript:void(0);"><span style="background-position:0px -1716px"></span><span>Australia</span><span>soon</span></a></li>
-      <li><a cunt_code="+43" href="javascript:void(0);"><span style="background-position:0px -1331px"></span><span>Austria</span><span>soon</span></a></li>
-      <li><a cunt_code="+1242" href="javascript:void(0);"><span style="background-position:0px -363px"></span><span>Bahamas</span><span>soon</span></a></li>
-      <li><a cunt_code="+1246" href="javascript:void(0);"><span style="background-position:0px -1573px"></span><span>Barbados</span><span>soon</span></a></li>
-      <li><a cunt_code="+501" href="javascript:void(0);"><span style="background-position:0px -484px"></span><span>Belize</span><span>soon</span></a></li>
-      <li><a cunt_code="+1441" href="javascript:void(0);"><span style="background-position:0px -1914px"></span><span>Bermuda</span><span>soon</span></a></li>
-      <li><a cunt_code="+1" href="javascript:void(0);"><span style="background-position:0px -1375px"></span><span>Canada</span><span>soon</span></a></li>
-      <li><a cunt_code="+1345" href="javascript:void(0);"><span style="background-position:0px -308px"></span><span>Cayman Islands</span><span>soon</span></a></li>
-      <li><a cunt_code="+682" href="javascript:void(0);"><span style="background-position:0px -2267px"></span><span>Cook Islands</span><span>soon</span></a></li>
-      <li><a cunt_code="+357" href="javascript:void(0);"><span style="background-position:0px -561px"></span><span>Cyprus</span><span>soon</span></a></li>
+	
+	<div class="wrapperwrapper2">
+		<div class="wrapper2">
+			<dl id="country-select" class="dropdown2">
+				<dt>
+					<a href="javascript:void(0);">
+						<span>
+							<span style="background-position:0px -55px; margin-top: 29px;margin-right: 20px;">
+							</span>
+							
+							<span>England (UK)
+							</span>
+						</span>
+					</a>
+				</dt>
+				
+				<dd>
+					<ul style="display: none;">
+					  <li><a cunt_code="+44" href="../territory_pages/england.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;"><span style="background-position:0px -55px"></span><span>England (UK)</span></a></li>
+					  <li><a cunt_code="+1809" href="../territory_pages/scottishbay.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;"><span style="background-position:0px -1529px"></span><span>Scottish Bay (DR)</span><span></span></a></li>
+					  <li><a cunt_code="+1264" href="javascript:void(0);"><span style="background-position:0px -1980px"></span><span>Anguilla</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1268" href="javascript:void(0);"><span style="background-position:0px -869px"></span><span>Antigua and Barbuda</span><span>soon</span></a></li>
+					  <li><a cunt_code="+247" href="javascript:void(0);"><span style="background-position:0px -55px"></span><span>Ascension Island</span><span>soon</span></a></li>
+					  <li><a cunt_code="+61" href="javascript:void(0);"><span style="background-position:0px -1716px"></span><span>Australia</span><span>soon</span></a></li>
+					  <li><a cunt_code="+43" href="javascript:void(0);"><span style="background-position:0px -1331px"></span><span>Austria</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1242" href="javascript:void(0);"><span style="background-position:0px -363px"></span><span>Bahamas</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1246" href="javascript:void(0);"><span style="background-position:0px -1573px"></span><span>Barbados</span><span>soon</span></a></li>
+					  <li><a cunt_code="+501" href="javascript:void(0);"><span style="background-position:0px -484px"></span><span>Belize</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1441" href="javascript:void(0);"><span style="background-position:0px -1914px"></span><span>Bermuda</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1" href="javascript:void(0);"><span style="background-position:0px -1375px"></span><span>Canada</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1345" href="javascript:void(0);"><span style="background-position:0px -308px"></span><span>Cayman Islands</span><span>soon</span></a></li>
+					  <li><a cunt_code="+682" href="javascript:void(0);"><span style="background-position:0px -2267px"></span><span>Cook Islands</span><span>soon</span></a></li>
+					  <li><a cunt_code="+357" href="javascript:void(0);"><span style="background-position:0px -561px"></span><span>Cyprus</span><span>soon</span></a></li>
 
-      <li><a cunt_code="+500" href="javascript:void(0);"><span style="background-position:0px -2762px"></span><span>Falkland Islands</span><span>soon</span></a></li>
-      <li><a cunt_code="+350" href="javascript:void(0);"><span style="background-position:0px -275px"></span><span>Gibraltar</span><span>soon</span></a></li>
-      <li><a cunt_code="+1473" href="javascript:void(0);"><span style="background-position:0px -2399px"></span><span>Grenada</span><span>soon</span></a></li>
-      <li><a cunt_code="+353" href="javascript:void(0);"><span style="background-position:0px -1969px"></span><span>Ireland</span><span>soon</span></a></li>
-      <li><a cunt_code="+1876" href="javascript:void(0);"><span style="background-position:0px -1727px"></span><span>Jamaica</span><span>soon</span></a></li>
-      <li><a cunt_code="+1664" href="javascript:void(0);"><span style="background-position:0px -583px"></span><span>Montserrat</span><span>soon</span></a></li>
-      <li><a cunt_code="+64" href="javascript:void(0);"><span style="background-position:0px -1540px"></span><span>New Zealand</span><span>soon</span></a></li>
-      <li><a cunt_code="+63" href="javascript:void(0);"><span style="background-position:0px -1485px"></span><span>Papua New Guinea</span><span>soon</span></a></li>
-      <li><a cunt_code="+290" href="javascript:void(0);"><span style="background-position:0px -495px"></span><span>Saint Helena</span><span>soon</span></a></li>
-      <li><a cunt_code="+1869" href="javascript:void(0);"><span style="background-position:0px -99px"></span><span>Saint Kitts and Nevis</span><span>soon</span></a></li>
-      <li><a cunt_code="+1758" href="javascript:void(0);"><span style="background-position:0px -1397px"></span><span>Saint Lucia</span><span>soon</span></a></li>
-      <li><a cunt_code="+677" href="javascript:void(0);"><span style="background-position:0px -1067px"></span><span>Solomon Islands</span><span>soon</span></a></li>
-      <li><a cunt_code="+1649" href="javascript:void(0);"><span style="background-position:0px -1309px"></span><span>Turks and Caicos</span><span>soon</span></a></li>
-      <li><a cunt_code="+688" href="javascript:void(0);"><span style="background-position:0px -286px"></span><span>Tuvalu</span><span>soon</span></a></li>
-      <li><a cunt_code="+1284" href="javascript:void(0);"><span style="background-position:0px -1408px"></span><span>Virgin Islands</span><span>soon</span></a></li>
-    </ul>
-  </dd>
-</dl>
-</div>
-</div>
-<h1 class="subtitle fancy2" style=""></h1>
-<p></p>
-<div class="auctionroom-box">
-<p class="auctionroom-notice"><a class="auctiontextsubsubtitle" href="../distributor-info.html" h-scrolling="no" style="line-height:1rem;font-family: 'Open Sans', sans-serif;" >Become a Distributor &raquo;</a>  </b></p>
-</div>
-<p class="auctiontextsubsubtitle">  </p>
+					  <li><a cunt_code="+500" href="javascript:void(0);"><span style="background-position:0px -2762px"></span><span>Falkland Islands</span><span>soon</span></a></li>
+					  <li><a cunt_code="+350" href="javascript:void(0);"><span style="background-position:0px -275px"></span><span>Gibraltar</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1473" href="javascript:void(0);"><span style="background-position:0px -2399px"></span><span>Grenada</span><span>soon</span></a></li>
+					  <li><a cunt_code="+353" href="javascript:void(0);"><span style="background-position:0px -1969px"></span><span>Ireland</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1876" href="javascript:void(0);"><span style="background-position:0px -1727px"></span><span>Jamaica</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1664" href="javascript:void(0);"><span style="background-position:0px -583px"></span><span>Montserrat</span><span>soon</span></a></li>
+					  <li><a cunt_code="+64" href="javascript:void(0);"><span style="background-position:0px -1540px"></span><span>New Zealand</span><span>soon</span></a></li>
+					  <li><a cunt_code="+63" href="javascript:void(0);"><span style="background-position:0px -1485px"></span><span>Papua New Guinea</span><span>soon</span></a></li>
+					  <li><a cunt_code="+290" href="javascript:void(0);"><span style="background-position:0px -495px"></span><span>Saint Helena</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1869" href="javascript:void(0);"><span style="background-position:0px -99px"></span><span>Saint Kitts and Nevis</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1758" href="javascript:void(0);"><span style="background-position:0px -1397px"></span><span>Saint Lucia</span><span>soon</span></a></li>
+					  <li><a cunt_code="+677" href="javascript:void(0);"><span style="background-position:0px -1067px"></span><span>Solomon Islands</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1649" href="javascript:void(0);"><span style="background-position:0px -1309px"></span><span>Turks and Caicos</span><span>soon</span></a></li>
+					  <li><a cunt_code="+688" href="javascript:void(0);"><span style="background-position:0px -286px"></span><span>Tuvalu</span><span>soon</span></a></li>
+					  <li><a cunt_code="+1284" href="javascript:void(0);"><span style="background-position:0px -1408px"></span><span>Virgin Islands</span><span>soon</span></a></li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+	</div>
 
-<p style="display:block; height: calc(10vh)"></p>  
+	<h1 class="subtitle fancy2" style=""></h1>
 
-    <script  src="js/index.js"></script>
+	<p></p>
 
+	<div class="auctionroom-box">
+		<p class="auctionroom-notice">
+			<a class="auctiontextsubsubtitle" href="../distributor-info.html" h-scrolling="no" style="line-height:1rem;font-family: 'Open Sans', sans-serif;" >Become a Distributor &raquo;
+			</a>
+			</b>
+		</p>
+	</div>
 
+	<p class="auctiontextsubsubtitle"></p>
+	<p style="display:block; height: calc(10vh)"></p>  
+
+ 
 		<footer class="container" style="left:calc(10vw); padding-right:calc(10vw); padding-left: 15px;padding-right: 15px;padding-top: 15px; bottom:-50px; border-top:1px solid grey;">
-			<p style="padding-right: calc(2vw);" class="float-right"><a href="#">Back to top</a>
+			<p style="padding-right: calc(2vw);" class="float-right">
+				<a href="#">Back to top</a>
 			</p>
-			<p>&copy; 2018 Make it Wave Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="https://github.com/unclehowell/WaveOS/blob/master/README.md">GitHub</a> &middot; <a href="mailto:info@makeitwave.com" style="color: white; opacity:0.5;">  Email Us</a></p>
+			
+			<p>&copy; 2018 Make it Wave Ltd. &middot; 
+				<a href="#">Privacy</a> &middot; 
+				<a href="#">Terms</a> &middot; 
+				<a href="https://github.com/unclehowell/WaveOS/blob/master/README.md">GitHub</a> &middot; 
+				<a href="mailto:info@makeitwave.com" style="color: white; opacity:0.5;">  Email Us</a>
+			</p>
 		</footer>
 
 
-	
+	<script src="js/index.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> <script>
 	window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/jquery-slim.min.js"><\/script>')
 	</script> 
@@ -470,14 +225,7 @@ padding-bottom:0.1em;
 	<script src="../js/jquery.min.js"></script> 
 	<script src="../js/videoLightning.js"></script> 
 	<script src="../featherlight/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-<script>
-$(document).ready(function(){
-    $(".js_only").hide();
-    setTimeout(function () {
-        $(".js_only").show();
-    }, 1000);
-});
-</script>
+
 
 
 </body>

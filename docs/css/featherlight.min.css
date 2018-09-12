@@ -1,37 +1,45 @@
-/**
- * Featherlight - ultra slim jQuery lightbox
- * Version 1.7.13 - http://noelboss.github.io/featherlight/
- *
- * Copyright 2018, Noël Raoul Bossart (http://www.noelboss.com)
- * MIT Licensed.
-**/
+/* mobile first! Wave's Default Device for design is the Galaxy S3 (360 x 640) in Portrait mode.
+   see seperate stylesheets (featherlight-p and fearthlight-l) for portrait and landscape breakpoints and other device sizes.
+   desktop devices exist in featherlight-l only, since they're mainly wider than longer)
+   */
 
 html.with-featherlight {
-	overflow: hidden
+	overflow: hidden;
 }
+
 .featherlight {
 	display: none;
 	position: fixed;
-	top: 0;
+	top: 3rem;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	z-index: 2147483647;
+	overflow-y: hidden;
+	/* z-index: 2147483647; */
 	text-align: center;
 	white-space: nowrap;
 	cursor: pointer;
 	background: #333;
-	background: rgba(0, 0, 0, 0)
+	background: rgba(0, 0, 0, 0);
 }
+
 .featherlight:last-of-type {
-	background: rgba(0, 0, 0, .8)
+	background: rgba(52, 72, 93,0.9)
 }
+
 .featherlight:before {
 	content: '';
 	display: inline-block;
-	height: 100%;
+	height: calc(100vh - 0%);
 	vertical-align: middle
 }
+
+.featherlight-content {
+	border-radius:2rem;
+	background:-webkit-gradient(radial, 50% 50%, 250, 50% 50%, 934, from(rgba(97,207,247,0.5)), to(rgba(52,72,93,0.9)));
+	
+}
+
 .featherlight .featherlight-content {
 	position: relative;
 	text-align: left;
@@ -39,168 +47,122 @@ html.with-featherlight {
 	display: inline-block;
 	overflow: auto;
 	padding: 25px 25px 0;
-	border-bottom: 25px solid transparent;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: :calc(1vw);
+	margin-right: :calc(1vw);
 	max-height: 95%;
-	background: #fff;
 	cursor: auto;
-	white-space: normal
+	white-space: normal;
+	left: calc(0.1vw);
+	max-width: calc(98vw);
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	image-rendering: auto;
+	image-rendering: crisp-edges;
+		
 }
+
+.featherlight-content {
+	position: relative;
+	text-align: left;
+	vertical-align: middle;
+	display: inline-block;
+	overflow: auto;
+	padding: 25px 25px 0;
+	margin-left: :calc(1vw);
+	margin-right: :calc(1vw);
+	max-height: 95%;
+	cursor: auto;
+	white-space: normal;
+	left: calc(0.1vw);
+	max-width: calc(98vw);
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	image-rendering: auto;
+	image-rendering: crisp-edges;
+		
+}
+
 .featherlight .featherlight-inner {
-	display: block
+	display: block;
+	min-width:100%;
 }
+
 .featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
 	display: none
 }
+
 .featherlight .featherlight-close-icon {
-	position: absolute;
-	z-index: 9999;
-	top: 0;
-	right: 0;
-	line-height: 25px;
-	width: 25px;
-	cursor: pointer;
-	text-align: center;
-	font-family: Arial, sans-serif;
-	background: #fff;
-	background: rgba(255, 255, 255, .3);
-	color: #000;
-	border: 0;
-	padding: 0
+    position: sticky;
+	float:right;
+    z-index: 9999;
+    width: 25px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: rgba(255, 255, 255, .5);
+    color: rgba(52,72,93,0.9);
+    border: 0;
+    border-radius: 4px;
+    padding: 0;
+    right: 30px;
+    top: 20px;
+    width: 32px;
+    height: 32px;
+    opacity: 1.1;
+    line-height: 20px;
+    font-weight: bolder;
 }
+
 .featherlight .featherlight-close-icon::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
+
 .featherlight .featherlight-image {
 	width: 100%;
 }
+
 .featherlight-iframe .featherlight-content {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-	border-bottom: 0;
+	max-height: 34rem;
+	width: 95vw;
+	margin-left:1vw;
+	border-radius:3rem;
 	padding: 0;
-	overflow:hidden!important;
-	overflow-y:hidden!important;
-    overflow-x:hidden!important;
-	-webkit-overflow-scrolling: touch
+	overflow-y: inherit!Important;
+	overflow-x: hidden!Important;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: auto;
+	text-rendering: optimizeSpeed;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	
 }
+
 .featherlight iframe {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
+	height: 100%;
+	min-height:230px;
 	border: 0;
-	overflow:hidden!important;
-	overflow-y:hidden!important;
-	overflow-x:hidden!important;
-	-webkit-overflow-scrolling: touch
+	top:-1px!important;
+	left:-1px!important;
+	overflow: hidden!important;
+	overflow-y: hidden!important;
+	overflow-x: hidden!important;
+	-webkit-overflow-scrolling: touch;
+	
 }
+
 .featherlight * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box
-}
-	
-
-@media all and (min-width:1024px){ 
-	.featherlight .featherlight-content {
-		margin-left: 0;
-		margin-right: 0;
-
-}
-	.featherlight-iframe .featherlight-content {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-		
-}
-	.featherlight iframe {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-} 
-}
-@media all and (min-width: 960px) and (max-width: 1199px) { 
-	.featherlight-iframe .featherlight-content {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%); 
-		
-}
-	.featherlight iframe {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-} 
+	box-sizing: border-box;
 }
 
-@media all and (min-width: 768px) and (max-width: 959px) {
-	.featherlight-iframe .featherlight-content {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-		
-}
-	.featherlight iframe {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-} 
-}
-
-@media all and (min-width: 480px) and (max-width: 767px){ 	
-	.featherlight-iframe .featherlight-content {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-		
-}
-	.featherlight iframe {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-}  
-}
-
-@media all and (max-width: 599px) { 	
-	.featherlight-iframe .featherlight-content {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-		
-}
-	.featherlight iframe {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-} 
-}
-@media all and (max-width: 479px) { 
-
-	.featherlight .featherlight-content {
-		margin-left: -2px;
-		margin-right: 0;
-		
-		width:  calc(100vw - 0%);
-
-}
-	.featherlight-iframe .featherlight-content {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-		
-}
-	.featherlight iframe {
-		height: calc(100vh - 0%); 
-		width:  calc(100vw - 0%);
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		-ms-transform: scale(0.55);
-		-moz-transform: scale(0.55);
-		-o-transform: scale(0.55);
-		-webkit-transform: scale(0.55);
-		transform: scale(0.55); 
-		-ms-transform-origin: 0 0;
-		-moz-transform-origin: 0 0;
-		-o-transform-origin: 0 0;
-		-webkit-transform-origin: 0 0;
-		transform-origin: 0 0;
-
-} 
-}
-@media print {
-	html.with-featherlight>*>:not(.featherlight) {
-		display: none
-	}
-}

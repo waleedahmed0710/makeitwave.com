@@ -1,0 +1,230 @@
+
+@media all and (min-width: 960px) 
+and (orientation: portrait) {
+	
+	
+html.with-featherlight {
+}
+.featherlight {
+}
+.featherlight * {
+}
+.featherlight:last-of-type {
+}
+.featherlight:before {
+}
+.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+}
+.featherlight .featherlight-content {		
+}
+.featherlight .featherlight-inner {
+}
+.featherlight-inner {
+}
+.featherlight .featherlight-close-icon {
+}
+.featherlight .featherlight-close-icon::-moz-focus-inner {
+}
+.featherlight .featherlight-image {
+}
+.featherlight iframe {
+	height: calc(100vh - 0%);
+	width: calc(100vw + 0%);
+}
+.featherlight-iframe .featherlight-content {
+	height: calc(100vh - 0%);
+	overflow-y: scroll!Important;
+	overflow-x: hidden!Important;
+}
+.featherlight-content {
+}
+}
+
+@media all and (max-width: 959px) and (min-width: 768px)
+and (orientation: portrait) {
+	
+	
+html.with-featherlight {
+}
+.featherlight {
+}
+.featherlight * {
+}
+.featherlight:last-of-type {
+}
+.featherlight:before {
+}
+.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+}
+.featherlight .featherlight-content {		
+}
+.featherlight .featherlight-inner {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-ms-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-ms-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	overflow: hidden;	
+}
+.featherlight-inner {
+}
+.featherlight .featherlight-close-icon {
+}
+.featherlight .featherlight-close-icon::-moz-focus-inner {
+}
+.featherlight .featherlight-image {
+}
+.featherlight iframe {
+	top: calc(6vh);
+	position: absolute;
+	overflow: hidden!important;
+	height: calc(100vh + 79vh);
+	width: calc(89vw);
+}
+.featherlight .featherlight-content {	
+	margin-right: 0;
+	width: calc(100vw);
+	height: calc(100vh - 0%);
+	overflow-y: scroll!Important;
+	overflow-x: hidden!Important;
+	background-color: white;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-ms-transform: scale(0.98);
+	-moz-transform: scale(0.98);
+	-o-transform: scale(0.98);
+	-webkit-transform: scale(0.98);
+	transform: scale(0.98);
+	-ms-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+.featherlight-content {
+}
+}
+@media all and (max-width: 767px) and  (min-width: 480px) 
+and (orientation: portrait) {
+	
+	
+html.with-featherlight {
+}
+.featherlight {
+}
+.featherlight * {
+}
+.featherlight:last-of-type {
+}
+.featherlight:before {
+}
+.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+}
+.featherlight .featherlight-content {		
+}
+.featherlight .featherlight-inner {
+}
+.featherlight-inner {
+}
+.featherlight .featherlight-close-icon {
+}
+.featherlight .featherlight-close-icon::-moz-focus-inner {
+}
+.featherlight .featherlight-image {
+}
+.featherlight iframe {
+}
+.featherlight-iframe .featherlight-content {
+}
+.featherlight-content {
+}
+
+}
+
+@media all and (max-width: 479px)
+and (orientation: portrait) {
+	
+	
+html.with-featherlight {
+}
+.featherlight {
+}
+.featherlight * {
+}
+.featherlight:last-of-type {
+}
+.featherlight:before {
+}
+.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+}
+.featherlight .featherlight-content {
+	margin-right: 0;
+	width: calc(100vw);
+}
+.featherlight .featherlight-inner {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-ms-transform: scale(0.68);
+	-moz-transform: scale(0.68);
+	-o-transform: scale(0.68);
+	-webkit-transform: scale(0.68);
+	transform: scale(0.68);
+	-ms-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+.featherlight-inner {
+	box-shadow: inset -13px -14px 25px calc(100vh) rgba(255,255,255,0.4);
+}
+.featherlight .featherlight-close-icon {
+	right: 0.6rem;
+    top: 0.8rem;
+}
+.featherlight .featherlight-close-icon::-moz-focus-inner {
+}
+.featherlight .featherlight-image {
+}
+.featherlight iframe {
+	position: absolute;
+	overflow: hidden!important;
+	margin:0;
+	margin-top: 0vh;
+	height: calc(124vh);
+	width: calc(144vw);
+}
+.featherlight-iframe .featherlight-content {
+	margin:-1;
+	max-height: 90vh;
+    margin-top: -10vh;
+    margin-left: 1vw;
+    border-radius: 1rem;
+	height: calc(80vh);
+	overflow-y: scroll!Important;
+	overflow-x: hidden!Important;
+	background-color: white;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-ms-transform: scale(0.98);
+	-moz-transform: scale(0.98);
+	-o-transform: scale(0.98);
+	-webkit-transform: scale(0.98);
+	transform: scale(0.98);
+	-ms-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+.featherlight-content {
+	background: -webkit-gradient(radial, 50% 50%, 30, 50% 50%, 384, from(rgba(97,207,247,0.5)), to(rgba(52,72,93,0.9)));
+}
+}

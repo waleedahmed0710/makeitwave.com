@@ -177,7 +177,8 @@ body.fade-out {
 
 .bg-dark {
 	background-color: #34485D!important;
-	 max-width: 99vw!important; /*	stops jumping when slider changes */
+	 max-width: 100.5vw!important; /*	stops jumping when slider changes */
+	 overflow:hidden;
 }
 
 .video-link {	

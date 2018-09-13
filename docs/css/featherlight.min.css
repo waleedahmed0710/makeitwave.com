@@ -1,168 +1,686 @@
-/* mobile first! Wave's Default Device for design is the Galaxy S3 (360 x 640) in Portrait mode.
-   see seperate stylesheets (featherlight-p and fearthlight-l) for portrait and landscape breakpoints and other device sizes.
-   desktop devices exist in featherlight-l only, since they're mainly wider than longer)
-   */
+/* Featherlight - ultra slim jQuery lightbox */
+/* Version 1.7.13 - http://noelboss.github.io/featherlight/ */
+/* Copyright 2018, Noël Raoul Bossart (http://www.noelboss.com) */
+/* MIT Licensed. */
 
-html.with-featherlight {
+/*               ..                   
+..   ..          ..   ........                     .........     .......     ........                      .........    ......................
+..   ...           ..  ........                   .........     .........    .........                    .........    ......................
+ .......         .....  ........                 .........     ...........     ........                  .........    ......................
+ .......       ........  ........               .........     .............     ........                .........    ......................
+ .......       ...        ........             .........     ...............     ........              .........    .......
+  ......       ........   .........           .........     ........   ......     ........            .........    .......
+  ......       .......   ...........         .........     ........     ......     ........          .........    .................
+   .....        .....   .............       .........     .......    .   ......     ........        ........     .................
+   .........    ....   ...............     .........     .......  . ....  ......     ........      ........     .................
+    .......... . ..  .......   ........   .........     .......... ....... ......     ........    ........     .................
+       ......... .  .......     ..................     ........  . .....    ......      .................     ........
+        .........   ......       ................     ........     ...       ......      ...............     ........
+          ......   ......         ..............     ........                 .......     .............     ...........................
+            ...  .......           ............     ........                   .......     ...........     ...........................
+             .  .......             ..........     ........                     .......     .........     ........................... 
+
+                        
+						 ............................................................................................
+						WaveOS by Unclehowell (https://makeitwave.com)  -  Make it Wave Ltd 2018  - All Rights Reserved 
+					     ............................................................................................                */
+
+/* INDEX - 01: A - Z */
+html.with-featherlight { /* 01:A */
 	overflow: hidden;
 }
-
-.featherlight {
-	display: none;
-	position: fixed;
-	top: 3rem;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	overflow-y: hidden;
-	/* z-index: 2147483647; */
-	text-align: center;
-	white-space: nowrap;
-	cursor: pointer;
-	background: #333;
-	background: rgba(0, 0, 0, 0);
+.featherlight { /* 01:B */
 }
-
-.featherlight:last-of-type {
-	background: rgba(52, 72, 93,0.9)
-}
-
-.featherlight:before {
-	content: '';
-	display: inline-block;
-	height: calc(100vh - 0%);
-	vertical-align: middle
-}
-
-.featherlight-content {
-	border-radius:2rem;
-	background:-webkit-gradient(radial, 50% 50%, 250, 50% 50%, 934, from(rgba(97,207,247,0.5)), to(rgba(52,72,93,0.9)));
-	
-}
-
-.featherlight .featherlight-content {
-	position: relative;
-	text-align: left;
-	vertical-align: middle;
-	display: inline-block;
-	overflow: auto;
-	padding: 25px 25px 0;
-	margin-left: :calc(1vw);
-	margin-right: :calc(1vw);
-	max-height: 95%;
-	cursor: auto;
-	white-space: normal;
-	left: calc(0.1vw);
-	max-width: calc(98vw);
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: auto;
-	text-rendering: optimizeSpeed;
-	text-rendering: optimizeLegibility;
-	text-rendering: geometricPrecision;
-	image-rendering: auto;
-	image-rendering: crisp-edges;
-		
-}
-
-.featherlight-content {
-	position: relative;
-	text-align: left;
-	vertical-align: middle;
-	display: inline-block;
-	overflow: auto;
-	padding: 25px 25px 0;
-	margin-left: :calc(1vw);
-	margin-right: :calc(1vw);
-	max-height: 95%;
-	cursor: auto;
-	white-space: normal;
-	left: calc(0.1vw);
-	max-width: calc(98vw);
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: auto;
-	text-rendering: optimizeSpeed;
-	text-rendering: optimizeLegibility;
-	text-rendering: geometricPrecision;
-	image-rendering: auto;
-	image-rendering: crisp-edges;
-		
-}
-
-.featherlight .featherlight-inner {
-	display: block;
-	min-width:100%;
-}
-
-.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
-	display: none
-}
-
-.featherlight .featherlight-close-icon {
-    position: sticky;
-	float:right;
-    z-index: 9999;
-    width: 25px;
-    cursor: pointer;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background: rgba(255, 255, 255, .5);
-    color: rgba(52,72,93,0.9);
-    border: 0;
-    border-radius: 4px;
-    padding: 0;
-    right: 30px;
-    top: 20px;
-    width: 32px;
-    height: 32px;
-    opacity: 1.1;
-    line-height: 20px;
-    font-weight: bolder;
-}
-
-.featherlight .featherlight-close-icon::-moz-focus-inner {
-	border: 0;
-	padding: 0;
-}
-
-.featherlight .featherlight-image {
-	width: 100%;
-}
-
-.featherlight-iframe .featherlight-content {
-	max-height: 34rem;
-	width: 95vw;
-	margin-left:1vw;
-	border-radius:3rem;
-	padding: 0;
-	overflow-y: inherit!Important;
-	overflow-x: hidden!Important;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: auto;
-	text-rendering: optimizeSpeed;
-	text-rendering: optimizeLegibility;
-	text-rendering: geometricPrecision;
-	
-}
-
-.featherlight iframe {
-	height: 100%;
-	min-height:230px;
-	border: 0;
-	top:-1px!important;
-	left:-1px!important;
-	overflow: hidden!important;
-	overflow-y: hidden!important;
-	overflow-x: hidden!important;
-	-webkit-overflow-scrolling: touch;
-	
-}
-
-.featherlight * {
-	-webkit-box-sizing: border-box;
+.featherlight * {  /* 01:C */
+/* -webkit-box-sizing: border-box; */
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+.featherlight:last-of-type { /* 01:D */
+}
+.featherlight:before { /* 01:E */
+}
+.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner { /* 01:F */
+	display: none
+}
+.featherlight .featherlight-content { /* 01:G */
+}
+.featherlight-content { /* 01:H */
+}
+.featherlight .featherlight-inner { /* 01:I */
+}
+.featherlight-inner { /* 01:J */
+}
+.featherlight .featherlight-close-icon { /* 01:K */
+}
+.featherlight .featherlight-close-icon::-moz-focus-inner { /* 01:L */
+	border: 0;
+	padding: 0;
+}
+.featherlight .featherlight-image { /* 01:M */
+	width: 99vw;
+}
+.featherlight iframe { /* 01:N */
+}
+.featherlight-iframe .featherlight-content { /* 01:O */
+}
 
+/* INDEX - 02:A - Z */
+@media all and (min-width:1024px) {
+	
+	html.with-featherlight {
+	}
+	.featherlight {
+	}
+	.featherlight * {
+	}
+	.featherlight:last-of-type {
+	}
+	.featherlight:before {
+	}
+	.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+	}
+	.featherlight .featherlight-content {		
+	}
+	.featherlight .featherlight-inner {
+	}
+	.featherlight-inner {
+		box-shadow: inset -20px -47px 15px 22px rgba(255,255,255,0.4);
+		border: 1px solid darkgrey;
+	}
+	.featherlight .featherlight-close-icon {
+	}
+	.featherlight .featherlight-close-icon::-moz-focus-inner {
+	}
+	.featherlight .featherlight-image {
+	}
+	.featherlight iframe {
+		float:left;
+		margin-top:-2.8rem;
+		text-align: center;
+		height: 40rem;
+		left:-1px;
+		top:-1px;
+		width: 100vw;
+		overflow-y: hidden;
+		position:sticky;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		-ms-transform: scale(0.98);
+		-moz-transform: scale(0.98);
+		-o-transform: scale(0.98);
+		-webkit-transform: scale(0.98);
+		transform: scale(0.98);
+		-ms-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		transform-origin: 0 0;
+	}
+	.featherlight-iframe .featherlight-content {
+	}
+	.featherlight-content {
+		max-height: 34rem;
+		margin-top:-2.8rem;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+/* INDEX - 03:A - Z */
+@media all and (min-width: 960px) and (max-width: 1123px) {
+	
+	html.with-featherlight {
+	}
+	.featherlight {
+	}
+	.featherlight * {
+	}
+	.featherlight:last-of-type {
+	}
+	.featherlight:before {
+	}
+	.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+	}
+	.featherlight .featherlight-content {		
+	}
+	.featherlight .featherlight-inner {
+	}
+	.featherlight-inner {
+	}
+	.featherlight .featherlight-close-icon {
+	}
+	.featherlight .featherlight-close-icon::-moz-focus-inner {
+	}
+	.featherlight .featherlight-image {
+	}
+	.featherlight iframe {
+		height: calc(100vh - 0%);
+		width: calc(100vw + 0%);
+	}
+	.featherlight-iframe .featherlight-content {
+		height: calc(100vh - 0%);
+		overflow-y: scroll!Important;
+		overflow-x: hidden!Important;
+	}
+	.featherlight-content {
+	}
+}
+
+/* INDEX - 04:A - Z */
+@media all and (min-width: 960px) and (orientation: portrait) {
+	html.with-featherlight {
+	}
+	.featherlight {
+	}
+	.featherlight * {
+	}
+	.featherlight:last-of-type {
+	}
+	.featherlight:before {
+	}
+	.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+	}
+	.featherlight .featherlight-content {		
+	}
+	.featherlight .featherlight-inner {
+	}
+	.featherlight-inner {
+	}
+	.featherlight .featherlight-close-icon {
+	}
+	.featherlight .featherlight-close-icon::-moz-focus-inner {
+	}
+	.featherlight .featherlight-image {
+	}
+	.featherlight iframe {
+		height: calc(100vh - 0%);
+		width: calc(100vw + 0%);
+	}
+	.featherlight-iframe .featherlight-content {
+		height: calc(100vh - 0%);
+		overflow-y: scroll!Important;
+		overflow-x: hidden!Important;
+	}
+	.featherlight-content {
+	}
+}
+
+/* INDEX - 05:A - Z */
+@media all and (min-width: 960px) and (orientation: landscape) {	
+	html.with-featherlight {
+	}
+	.featherlight {
+	}
+	.featherlight * {
+	}
+	.featherlight:last-of-type {
+	}
+	.featherlight:before {
+	}
+	.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+	}
+	.featherlight .featherlight-content {		
+	}
+	.featherlight .featherlight-inner {
+	}
+	.featherlight-inner {
+	}
+	.featherlight .featherlight-close-icon {
+	}
+	.featherlight .featherlight-close-icon::-moz-focus-inner {
+	}
+	.featherlight .featherlight-image {
+	}
+	.featherlight iframe {
+	}
+	.featherlight-iframe .featherlight-content {
+	}
+	.featherlight-content {
+	}
+}
+
+/* INDEX - 06:A - Z */
+@media all and (min-width: 768px) and (max-width: 959px) and (orientation: portrait) {
+	html.with-featherlight {
+	}
+	.featherlight {
+	}
+	.featherlight * {
+	}
+	.featherlight:last-of-type {
+	}
+	.featherlight:before {
+	}
+	.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+	}
+	.featherlight .featherlight-content {		
+	}
+	.featherlight .featherlight-inner {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		-ms-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+		-ms-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		transform-origin: 0 0;
+		overflow: hidden;	
+	}
+	.featherlight-inner {
+	}
+	.featherlight .featherlight-close-icon {
+	}
+	.featherlight .featherlight-close-icon::-moz-focus-inner {
+	}
+	.featherlight .featherlight-image {
+	}
+	.featherlight iframe {
+		top: calc(6vh);
+		position: absolute;
+		overflow: hidden!important;
+		height: calc(100vh + 79vh);
+		width: calc(89vw);
+	}
+	.featherlight .featherlight-content {	
+		margin-right: 0;
+		width: calc(100vw);
+		height: calc(100vh - 0%);
+		overflow-y: scroll!Important;
+		overflow-x: hidden!Important;
+		background-color: white;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		-ms-transform: scale(0.98);
+		-moz-transform: scale(0.98);
+		-o-transform: scale(0.98);
+		-webkit-transform: scale(0.98);
+		transform: scale(0.98);
+		-ms-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		transform-origin: 0 0;
+	}
+	.featherlight-content {
+	}
+}
+
+/* INDEX - 07:A - Z */
+@media all and (max-width: 959px) and (min-width: 768px) and (orientation: landscape) {
+	html.with-featherlight {
+	}
+	.featherlight {
+	}
+	.featherlight * {
+	}
+	.featherlight:last-of-type {
+	}
+	.featherlight:before {
+	}
+	.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+	}
+	.featherlight .featherlight-content {	
+		margin-right: 0;
+		width: calc(100vw);
+	}
+	.featherlight .featherlight-inner {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		-ms-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+		-ms-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		transform-origin: 0 0;
+		overflow: hidden;	
+	}
+	.featherlight-inner {
+	}
+	.featherlight .featherlight-close-icon {
+	}
+	.featherlight .featherlight-close-icon::-moz-focus-inner {
+	}
+	.featherlight .featherlight-image {
+	}
+	.featherlight iframe {
+		top: calc(6vh);
+		position: absolute;
+		overflow: hidden!important;
+		height: calc(100vh + 79vh);
+		width: calc(89vw);
+	}
+	.featherlight-iframe .featherlight-content {
+		height: calc(100vh - 0%);
+		overflow-y: scroll!Important;
+		overflow-x: hidden!Important;
+		background-color: white;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		-ms-transform: scale(0.98);
+		-moz-transform: scale(0.98);
+		-o-transform: scale(0.98);
+		-webkit-transform: scale(0.98);
+		transform: scale(0.98);
+		-ms-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		transform-origin: 0 0;
+	}
+	.featherlight-content {
+	}
+}
+
+/* INDEX - 08:A - Z */
+@media all and (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
+	html.with-featherlight {
+	}
+	.featherlight {
+	}
+	.featherlight * {
+	}
+	.featherlight:last-of-type {
+	}
+	.featherlight:before {
+	}
+	.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+	}
+	.featherlight .featherlight-content {		
+	}
+	.featherlight .featherlight-inner {
+	}
+	.featherlight-inner {
+	}
+	.featherlight .featherlight-close-icon {
+	}
+	.featherlight .featherlight-close-icon::-moz-focus-inner {
+	}
+	.featherlight .featherlight-image {
+	}
+	.featherlight iframe {
+	}
+	.featherlight-iframe .featherlight-content {
+	}
+	.featherlight-content {
+	}
+}
+
+/* INDEX - 09:A - Z */
+@media all and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+	html.with-featherlight {
+	}
+	.featherlight {
+	}
+	.featherlight * {
+	}
+	.featherlight:last-of-type {
+	}
+	.featherlight:before {
+	}
+	.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+	}
+	.featherlight .featherlight-content {
+		margin-top:-2rem;	
+	}
+	.featherlight .featherlight-inner {
+	}
+	.featherlight-inner {
+	}
+	.featherlight .featherlight-close-icon {
+	}
+	.featherlight .featherlight-close-icon::-moz-focus-inner {
+	}
+	.featherlight .featherlight-image {
+	}
+	.featherlight iframe {
+	}
+	.featherlight-iframe .featherlight-content {
+		border-radius:15px;
+	}
+	.featherlight-content {
+	}
+}
+
+/* INDEX - 10:A - Z */
+@media all and (max-width: 479px) and (orientation: portrait) {
+	html.with-featherlight { 
+	}
+	.featherlight { 
+		display: none;
+		position: fixed;
+		top: 3rem;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		overflow-y: hidden;
+		z-index: 2147483647;
+		text-align: center;
+		white-space: nowrap;
+		cursor: pointer;
+		background: rgba(0, 0, 0, 0);
+	}
+	.featherlight * {
+	}
+	.featherlight:last-of-type {
+		background: rgba(52, 72, 93,0.9)
+	}
+	.featherlight:before {
+		content: '';
+		display: inline-block;
+		height: 100vh;
+		vertical-align: middle;
+	}
+	.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+	}
+	.featherlight .featherlight-content {
+		margin-right: 0;
+		width: calc(100vw);
+		position: relative;
+		text-align: left;
+		vertical-align: middle;
+		display: inline-block;
+		cursor: auto;
+		white-space: normal;
+		left: calc(0.1vw);
+		max-width: calc(98vw);
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		image-rendering: auto;
+	}
+	.featherlight .featherlight-inner {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		-ms-transform: scale(0.68);
+		-moz-transform: scale(0.68);
+		-o-transform: scale(0.68);
+		-webkit-transform: scale(0.68);
+		transform: scale(0.68);
+		-ms-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		transform-origin: 0 0; 
+		display: block;
+	}
+	.featherlight-inner {
+	}
+	.featherlight .featherlight-close-icon {
+		right: 0.6rem;
+		top: 0.8rem;
+		position: sticky;
+		float:right;
+		z-index: 9999;
+		width: 25px;
+		cursor: pointer;
+		text-align: center;
+		font-family: Arial, sans-serif;
+		background: rgba(255, 255, 255, .5);
+		color: rgba(52,72,93,0.9);
+		border: 0;
+		border-radius: 4px;
+		padding: 0;
+		width: 32px;
+		height: 32px;
+		opacity: 1.1;
+		line-height: 20px;
+		font-weight: bolder;
+	}
+	.featherlight .featherlight-close-icon::-moz-focus-inner {
+			 
+	}
+	.featherlight .featherlight-image {
+
+	}
+	.featherlight iframe {
+		position: absolute;
+		overflow: hidden!important;
+		margin:0;
+		height: calc(124vh);
+		width: calc(144vw);
+		min-height:230px;
+		border: 0;
+		top:-1px!important;
+		left:-1px!important;
+		-webkit-overflow-scrolling: touch;
+	}
+	.featherlight-iframe .featherlight-content {
+		background-color: white;
+		border-radius: 1rem;
+		height: calc(80vh);
+		margin-top: -10vh;
+		margin-left: 1vw;
+		max-height: 90vh;
+		-ms-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		-moz-osx-font-smoothing: grayscale;
+		-moz-osx-font-smoothing: grayscale;
+		-ms-transform: scale(0.98);
+		-moz-transform: scale(0.98);
+		-o-transform: scale(0.98);
+		-o-transform-origin: 0 0;
+		overflow-y: scroll!Important;
+		overflow-x: hidden!Important;
+		padding: 0;
+		transform: scale(0.98);
+		text-rendering: optimizeLegibility;
+		/* text-rendering: geometricPrecision;	 */
+		transform-origin: 0 0;
+		webkit-font-smoothing: antialiased;
+		webkit-transform: scale(0.98);
+		webkit-transform-origin: 0 0;
+		width: 95vw;
+	}
+	.featherlight-content {
+		background: -webkit-gradient(radial, 50% 50%, 30, 50% 50%, 384, from(rgba(97,207,247,0.5)), to(rgba(52,72,93,0.9)));
+	}
+}
+
+/* INDEX - 11.A - Z */
+@media all and (max-width: 479px) and (orientation: landscape) {
+	html.with-featherlight {
+	}
+	.featherlight {
+	}
+	.featherlight * {
+	}
+	.featherlight:last-of-type {
+	}
+	.featherlight:before {
+	}
+	.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
+	}
+	.featherlight .featherlight-content {
+		margin-right: 0;
+		width: calc(100vw);	
+	}
+	featherlight .featherlight-inner {
+	}
+	.featherlight-inner {
+		box-shadow: inset -13px -14px 25px calc(100vh) rgba(255,255,255,0.4);
+	}
+	.featherlight .featherlight-close-icon  {
+		right: 0.6rem;
+		top: 0.8rem;
+	}
+	.featherlight .featherlight-close-icon::-moz-focus-inner {
+	}
+	.featherlight .featherlight-image {
+	}
+	.featherlight iframe {
+		position: absolute;
+		overflow: hidden!important;
+		margin:0;
+		margin-top: 0vh;
+		height: calc(124vh);
+		width: calc(144vw);
+	}
+	.featherlight-iframe .featherlight-content {
+		max-height: 90vh;
+		margin-top: -10vh;
+		margin-left: 1vw;
+		border-radius: 1rem;
+		height: calc(80vh);
+		overflow-y: scroll!Important;
+		overflow-x: hidden!Important;
+		background-color: white;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		-ms-transform: scale(0.98);
+		-moz-transform: scale(0.98);
+		-o-transform: scale(0.98);
+		-webkit-transform: scale(0.98);
+		transform: scale(0.98);
+		-ms-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		transform-origin: 0 0;
+	}
+	.featherlight-content {
+		background: -webkit-gradient(radial, 50% 50%, 30, 50% 50%, 384, from(rgba(97,207,247,0.5)), to(rgba(52,72,93,0.9)));
+	}
+}
+
+	/* Stylesheet Structure:
+   
+		1. .class-1 {}  .class-2 {} ... etc
+
+		2. @media all and (min-width:1024px) {.class-1 {}.class-2 {} ... etc}
+		3. @media all and (min-width: 960px) and (max-width: 1123px) {.class-1 {}.class-2 {} ... etc}
+		4. @media all and (min-width: 960px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+		5. @media all and (min-width: 960px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
+		6. @media all and (min-width: 768px) and (max-width: 959px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+		7. @media all and (min-width: 768px) and (max-width: 959px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
+		8. @media all and (min-width: 480px) and (max-width: 767px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+		9. @media all and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
+		10. 			       	  @media all and (max-width: 479px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+		11. 					  @media all and (max-width: 479px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
+	
+	classes used in this stylesheet:
+	
+		A.  html.with-featherlight {}
+		B. .featherlight {}
+		C. .featherlight {}
+		D. .featherlight:last-of-type {}
+		E. .featherlight:before {}
+		F. .featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {}
+		G. .featherlight .featherlight-content {}
+		H. .featherlight .featherlight-inner {}
+		I. .featherlight-inner {}
+		J. .featherlight .featherlight-close-icon {}
+		K. .featherlight .featherlight-close-icon::-moz-focus-inner {}
+		L. .featherlight .featherlight-image {}
+		M. .featherlight iframe {}
+		N. .featherlight-iframe .featherlight-content {}
+		O. .featherlight-content {}
+	
+   */

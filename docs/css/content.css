@@ -82,7 +82,6 @@ html {
 	padding-top:20px;
 	padding-bottom:20px;
 	box-shadow: inset 0.4px 0px 2.1px 0.1px white;
-	
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     text-align: justify;
     word-spacing: -0.1rem!important;
@@ -174,3 +173,32 @@ html {
 @media(-webkit-min-device-pixel-ratio:1.5), (min--moz-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:3/2), (min-resolution:1.5dppx) {
 
 }
+
+
+	/* Stylesheet Structure:
+   
+		1. .class-1 {}  .class-2 {} ... etc
+
+		2. @media all and (min-width:1024px) {.class-1 {}.class-2 {} ... etc}
+		3. @media all and (min-width: 960px) and (max-width: 1123px) {.class-1 {}.class-2 {} ... etc}
+		4. @media all and (min-width: 960px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+		5. @media all and (min-width: 960px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
+		6. @media all and (min-width: 768px) and (max-width: 959px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+		7. @media all and (min-width: 768px) and (max-width: 959px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
+		8. @media all and (min-width: 480px) and (max-width: 767px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+		9. @media all and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
+		10. 			       	  @media all and (max-width: 479px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+		11. 					  @media all and (max-width: 479px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
+	
+	classes used in this stylesheet:
+	
+		A.  body {}
+		B. .html {}
+		C. .title {}
+		D. .paragraph-textarea {}
+		E. .paragraph-title {}
+		F. .paragraph-content
+		G. .main-image {}
+		H. .demo-all-divs {}	
+	
+   */

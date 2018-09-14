@@ -83,6 +83,7 @@ body.fade-out {
 .footer>p {
 		margin-bottom:-2rem!important;
 		margin-top:0px;
+		padding:15px;
 }
 
 .footer link:hover {
@@ -168,6 +169,7 @@ body.fade-out {
 .navbar-expand-md .navbar-nav .nav-link {
 	box-shadow: inset 0 -21px 20px rgba(255,255,255,0.05);
 	color: rgba(255,255,255,0.8);
+	width:100%;
 }
 
 .appstore-img-button {
@@ -445,9 +447,8 @@ Dropdown 1 (homepage) - START
 	visibility: hidden;
 }
 .dropdown dt a span span {
-	display: inline-block;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 	padding: 0;
-	
 }
 .dropdown dt a span span:first-child {
 	padding: 0;

@@ -28,9 +28,20 @@
 /* INDEX - 01: A - Z */
 html.with-featherlight { /* 01:A */
 	overflow: hidden;
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-}
+	}
 .featherlight { /* 01:B */
+		display: none;
+		position: fixed;
+		top:0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		overflow-y: hidden;
+		z-index: 2147483647;
+		text-align: center;
+		white-space: nowrap;
+		cursor: pointer;
+		background: rgba(0, 0, 0, 0);
 }
 .featherlight * {  /* 01:C */
 /* -webkit-box-sizing: border-box; */
@@ -456,18 +467,7 @@ html.with-featherlight { /* 01:A */
 	html.with-featherlight { 
 	}
 	.featherlight { 
-		display: none;
-		position: fixed;
 		top: 3rem;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		overflow-y: hidden;
-		z-index: 2147483647;
-		text-align: center;
-		white-space: nowrap;
-		cursor: pointer;
-		background: rgba(0, 0, 0, 0);
 	}
 	.featherlight * {
 	}
@@ -590,6 +590,7 @@ html.with-featherlight { /* 01:A */
 	html.with-featherlight {
 	}
 	.featherlight {
+
 	}
 	.featherlight * {
 	}

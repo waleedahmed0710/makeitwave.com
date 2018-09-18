@@ -15,6 +15,21 @@ body.fade-out {
 	transition: none;
 }
 
+u {
+    text-decoration: none;
+    position: relative;
+}
+u:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -0.1rem;
+    border-width: 0 0 0.05rem;
+    border-style: solid;
+}
+
+
 .bold {
 	font-weight:600!important;
 }
@@ -37,6 +52,33 @@ body.fade-out {
 	text-rendering: optimizeSpeed;
 	text-rendering: optimizeLegibility;
 	text-rendering: geometricPrecision;
+}
+
+.button-text-line1 {
+	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: lighter!important;
+	color: white;
+	letter-spacing:1px;
+	text-align:left;
+	margin-left:50px;
+	font-size: 0.5rem;
+	padding-top:6px;
+	float:left;
+   
+}
+
+.button-text-line2 {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400!important;
+	color: white;
+	letter-spacing:1px;
+	text-align:left;
+	margin-left:50px;
+	font-size: 1rem;
+	margin-top:-6px;
+	float:left;
+   
 }
 
 .segment-video {
@@ -172,8 +214,15 @@ body.fade-out {
 }
 
 .appstore-img-button {
-	border:0.05rem solid #343A40;
-	border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    height: auto;
+	min-width:145px;
+    width: calc(45vw);
+	max-width: 185px;
+    padding-left: 0px;
+    padding-right: 15px;
+    margin-top: 0px;
 }
 
 .bg-dark {
@@ -196,14 +245,38 @@ body.fade-out {
 	float: center;
 }
 
+.carousel-maintitle {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-weight: 400;
+	color:white;
+	opacity:1;
+	margin-bottom:0.6rem;
+	font-size:1.5rem;
+}
+
+.carousel-maintitle-link {
+	opacity: 1;
+	color:white;
+	text-decoration:none;
+	letter-spacing:0.03rem;
+	text-decoration:none;
+	font-weight:600;
+}
+
+.carousel-maintitle-link:hover {
+	color:white;
+	text-decoration:none;
+	font-weight:600;
+}
+
+
 .carousel-title {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 	font-weight: lighter;
-	text-indent: 10px;
-	margin-left: -10px; 
-	font-size: 1.2rem;
 	color:#61CFF7;
 	opacity:1;
-	margin-bottom:1rem;
+	margin-bottom:0.6rem;
+	font-size:1.4rem;
 }
 
 .carousel-title-link {
@@ -355,9 +428,9 @@ Dropdown 1 (homepage) - START
 
 .wrapperwrapper{
 	position:static;
-	margin-top: 0.25rem;
+	margin-top: -0.25rem;
 	text-align: left!important;
-	margin-left:-0.5rem;
+	margin-left:0rem;
 }
 
 .dropdown dd ul li a span:first-child, .dropdown dt a span span:first-child {
@@ -409,7 +482,7 @@ Dropdown 1 (homepage) - START
 .dropdown dd, .dropdown dt, .dropdown ul {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 .dropdown dt a span {
@@ -426,8 +499,8 @@ Dropdown 1 (homepage) - START
     font-weight: lighter;
     color: #34485D;
     overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    border-right: 1px solid #61CFF7;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	border-right: 1px solid transparent;
 	text-align:right;
 	line-height:1.35rem;
 }
@@ -479,12 +552,12 @@ Dropdown 1 (homepage) - START
 
 .dropdown dt a {
 	position: relative;
-	background: #61CFF7;
+	background: transparent;
 	display: block;
 	padding-right: 10px;
 	overflow: hidden;
-	border:2px solid #343A40;
-	border-radius: 5px; 
+	border:1px solid white;
+	border-radius: 7px; 
 	max-width:200px;
 }
 
@@ -570,14 +643,16 @@ dl.dropdown span:nth-child(3) {
 }
 
 dl.dropdown dt span:nth-child(2) {
-    color: #343A40;
+    color: white;
     display: inline;
-    margin-left: -76px;
+    margin-left: -60px;
     font-size: 1rem;
-    background-color: #61CFF7;
+    background-color: transparent;
     text-align: left;
     padding-left: -100px;	
 	font-weight:lighter;
+	float:right;
+	margin-top:-0.2rem;
 }
 
 dl.dropdown dt span:nth-child(3) {
@@ -592,14 +667,14 @@ dl.dropdown>img {
 .dropdown dt a:after {
 	margin-top:1px;
     content: '';
-    background: #343A40;
+    background: transparent;
     position: absolute;
     height: 42px;
     position: absolute;
-    left: 0px;
+    left: -1px;
     top: -2px;
     width: 55px;
-	border:1px solid #343A40
+	border:1px solid white;
 }
 
 .dropdown dt a:before {
@@ -642,13 +717,13 @@ Dropdown 2 (homepage) - START
 	display: inline-block;
 	margin:5px;
 	vertical-align: top;
-	font-family: 'Open Sans', sans-serif;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
 }
 
 .dropdown2 dd, .dropdown2 dt, .dropdown2 ul {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
 }
 
 .dropdown2 dt a span {
@@ -946,6 +1021,14 @@ h1 {
 	transition: width 0.1s ease-out;
 }
 
+
+	
+.nav-link {
+
+	width: 200px;
+ 
+}
+
 }
 
 @media all and (min-width: 960px) and (max-width: 1123px) {
@@ -966,7 +1049,7 @@ h1 {
 @media all and (min-width: 768px) and (max-width: 959px) {
 	
 h1 {
-	font-size: 1.5em;
+	font-size: 1.6rem;
 }
 	
 #image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
@@ -985,7 +1068,7 @@ h1 {
 @media all and (min-width: 480px)and (max-width: 767px) {
 
 h1 {
-	font-size: 2rem;
+	font-size: 1.6rem;
 }
 
 #image1>img,#image2>img,#image3>img,#image4>img,#image4>img {
@@ -1040,7 +1123,7 @@ h1 {
 	/* moved the image up and makes smaller */
 	
 h1 {
-	font-size: 2em;
+	font-size: 1.6rem;
 	display: inline-block;
 }
 	
@@ -1075,12 +1158,9 @@ button.stripe-button-el>span {
 	zoom: 0.8;
 }
 
-h1 { 
-	font-size: 1.4rem; 
-}
- 
+
 .auctiontextsubsubtitle {
-   font-family: 'Open Sans', sans-serif;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
    font-size:135%;
 }
 

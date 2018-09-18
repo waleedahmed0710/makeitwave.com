@@ -1,143 +1,98 @@
-/* Featherlight - ultra slim jQuery lightbox */
-/* Version 1.7.13 - http://noelboss.github.io/featherlight/ */
-/* Copyright 2018, Noël Raoul Bossart (http://www.noelboss.com) */
-/* MIT Licensed. */
-
 /*               ..                   
 ..   ..          ..   ........                     .........     .......     ........                      .........    ......................
-..   ...           ..  ........                   .........     .........    .........                    .........    ......................
+..   ...           ..  ........                   .........     .........     ........                    .........    ......................
  .......         .....  ........                 .........     ...........     ........                  .........    ......................
  .......       ........  ........               .........     .............     ........                .........    ......................
  .......       ...        ........             .........     ...............     ........              .........    .......
   ......       ........   .........           .........     ........   ......     ........            .........    .......
   ......       .......   ...........         .........     ........     ......     ........          .........    .................
-   .....        .....   .............       .........     .......    .   ......     ........        ........     .................
-   .........    ....   ...............     .........     .......  . ....  ......     ........      ........     .................
-    .......... . ..  .......   ........   .........     .......... ....... ......     ........    ........     .................
-       ......... .  .......     ..................     ........  . .....    ......      .................     ........
-        .........   ......       ................     ........     ...       ......      ...............     ........
-          ......   ......         ..............     ........                 .......     .............     ...........................
-            ...  .......           ............     ........                   .......     ...........     ...........................
-             .  .......             ..........     ........                     .......     .........     ........................... 
+   .....        .....   .............       .........     .......    .   ......     ........        .........    .................
+   .........    ....   ...............     .........     .......   .....  ......     ........      .........    .................
+    .......... . ..   ......   ........   .........     .........................     ........    .........    .................
+       ......... .   ......     ..................     ........     ...     ......     ...................    ........
+        .........   ......       ................     ........       .       ......     .................    ........
+          ......   ......         ..............     ........                 ......     ...............    ...........................
+            ...   ......           ............     ........                   ......     .............    ...........................
+             .   ......             ..........     ........                     ......     ...........    ........................... 
 
                         
 						 ............................................................................................
-						WaveOS by Unclehowell (https://makeitwave.com)  -  Make it Wave Ltd 2018  - All Rights Reserved 
-					     ............................................................................................                */
+						           WaveOS by Unclehowell -  Make it Wave Ltd 2018  - All Rights Reserved 
+					     ............................................................................................ 
+                             GitHub: https://github.com/unclehowell/WaveOS -  Website: https://makeitwave.com
+					     ..........................................................................................   */
 
-/* INDEX - 01: A - Z */
-html.with-featherlight { /* 01:A */
-	overflow: hidden;
-	}
-.featherlight { /* 01:B */
-		display: none;
-		position: fixed;
-		top:0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		overflow-y: hidden;
-		z-index: 2147483647;
-		text-align: center;
-		white-space: nowrap;
-		cursor: pointer;
-		background: rgba(0, 0, 0, 0);
-}
-.featherlight * {  /* 01:C */
-/* -webkit-box-sizing: border-box; */
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-.featherlight:last-of-type { /* 01:D */
-}
-.featherlight:before { /* 01:E */
-}
-.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner { /* 01:F */
-	display: none
-}
-.featherlight .featherlight-content { /* 01:G */
-}
-.featherlight-content { /* 01:H */
-}
-.featherlight .featherlight-inner { /* 01:I */
-}
-.featherlight-inner { /* 01:J */
-}
-.featherlight .featherlight-close-icon { /* 01:K */
-}
-.featherlight .featherlight-close-icon::-moz-focus-inner { /* 01:L */
-	border: 0;
-	padding: 0;
-}
-.featherlight .featherlight-image { /* 01:M */
-	width: 99vw;
-}
-.featherlight iframe { /* 01:N */
-}
-.featherlight-iframe .featherlight-content { /* 01:O */
-}
+/*   Classes:    A.  html.with-featherlight {}
+				B. .featherlight {}
+				C. .featherlight * {}
+				D. .featherlight:last-of-type {}
+				E. .featherlight:before {}
+				F. .featherlight link.featherlight-inner {}
+				G. .featherlight script.featherlight-inner {}
+				H. .featherlight style.featherlight-inner {}
+				I. .featherlight .featherlight-content {}
+				J. .featherlight-content {}
+				K. .featherlight .featherlight-inner {}
+				L. .featherlight-inner {}
+				M. .featherlight .featherlight-close-icon {}
+				N. .featherlight .featherlight-close-icon::-moz-focus-inner {}
+				O. .featherlight .featherlight-image {}
+				P. .featherlight iframe {}
+				Q. .featherlight-iframe .featherlight-content {}
+	  
+	Structure:  01. .class-1 {}  .class-2 {} ... etc
 
-/* INDEX - 02:A - Z */
-@media all and (min-width:1024px) {
-	
-	html.with-featherlight {
-	}
-	.featherlight {
-	}
-	.featherlight * {
-	}
-	.featherlight:last-of-type {
-	}
-	.featherlight:before {
-	}
-	.featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {
-	}
-	.featherlight .featherlight-content {		
-	}
-	.featherlight .featherlight-inner {
-	}
-	.featherlight-inner {
-		box-shadow: inset -20px -47px 15px 22px rgba(255,255,255,0.4);
-		border: 1px solid darkgrey;
-	}
-	.featherlight .featherlight-close-icon {
-	}
-	.featherlight .featherlight-close-icon::-moz-focus-inner {
-	}
-	.featherlight .featherlight-image {
-	}
-	.featherlight iframe {
-		float:left;
-		margin-top:-2.8rem;
-		text-align: center;
-		height: 40rem;
-		left:-1px;
-		top:-1px;
-		width: 100vw;
-		overflow-y: hidden;
-		position:sticky;
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		-ms-transform: scale(0.98);
-		-moz-transform: scale(0.98);
-		-o-transform: scale(0.98);
-		-webkit-transform: scale(0.98);
-		transform: scale(0.98);
-		-ms-transform-origin: 0 0;
-		-moz-transform-origin: 0 0;
-		-o-transform-origin: 0 0;
-		-webkit-transform-origin: 0 0;
-		transform-origin: 0 0;
-	}
-	.featherlight-iframe .featherlight-content {
-	}
-	.featherlight-content {
-		max-height: 34rem;
-		margin-top:-2.8rem;
-		margin-left: 0;
-		margin-right: 0;
-	}
-}
+				02. @media all and (min-width:1024px) {.class-1 {}.class-2 {} ... etc}
+				03. @media all and (min-width: 960px) and (max-width: 1123px) {.class-1 {}.class-2 {} ... etc}
+				04. @media all and (min-width: 960px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+				05. @media all and (min-width: 960px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
+				06. @media all and (min-width: 768px) and (max-width: 959px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+				07. @media all and (min-width: 768px) and (max-width: 959px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
+				08. @media all and (min-width: 480px) and (max-width: 767px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+				09. @media all and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
+				10. 			       	   @media all and (max-width: 479px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
+				11. 					   @media all and (max-width: 479px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}     */
+
+/* 01 > */
+/* 01:A */	html.with-featherlight { overflow: hidden; }
+/* 01:B */ .featherlight { display: none; position: fixed; top:0; right: 0; bottom: 0; left: 0; overflow-y: hidden; z-index: 2147483647; text-align: center; white-space: nowrap; cursor: pointer; background: rgba(0, 0, 0, 0); }
+/* 01:C */ .featherlight * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+/* 01:D */ .featherlight:last-of-type { }
+/* 01:E */ .featherlight:before { }
+/* 01:F */ .featherlight link.featherlight-inner { display: none; }
+/* 01:G */ .featherlight script.featherlight-inner { display: none; }
+/* 01:H */ .featherlight style.featherlight-inner { display: none; }
+/* 01:I */ .featherlight .featherlight-content { }
+/* 01:J */ .featherlight-content { }
+/* 01:K */ .featherlight .featherlight-inner { }
+/* 01:L */ .featherlight-inner { }
+/* 01:M */ .featherlight .featherlight-close-icon { }
+/* 01:N */ .featherlight .featherlight-close-icon::-moz-focus-inner { border: 0;padding: 0; }
+/* 01:O */ .featherlight .featherlight-image { width: 99vw; }
+/* 01:P */ .featherlight iframe { }
+/* 01:Q */ .featherlight-iframe .featherlight-content { }
+/* 01 ! */
+
+/* 02 > */  @media all and (min-width:1024px) {	
+/* 02:A */  html.with-featherlight { }
+/* 02:B */ .featherlight { }
+/* 02:C */ .featherlight * { }
+/* 02:D */ .featherlight:last-of-type {}
+/* 02:E */ .featherlight:before {}
+/* 02:F */ .featherlight link.featherlight-inner
+/* 02:G */ .featherlight script.featherlight-inner
+/* 02:H */ .featherlight style.featherlight-inner {}
+/* 02:I */ .featherlight .featherlight-content { max-height: 34rem; margin-top:-2.8rem; margin-left: 0;margin-right: 0; }
+/* 02:J */ .featherlight .featherlight-inner {}
+/* 02:K */ .featherlight-inner {box-shadow: inset -20px -47px 15px 22px rgba(255,255,255,0.4);	border: 1px solid darkgrey; }
+/* 02:J */ .featherlight .featherlight-close-icon {	}
+/* 02:L */ .featherlight .featherlight-close-icon::-moz-focus-inner {}
+/* 02:M */ .featherlight .featherlight-image {}
+/* 02:N */ .featherlight .featherlight-close-icon::-moz-focus-inner {}
+/* 02:O */ .featherlight .featherlight-image {}
+/* 02:P */ .featherlight iframe {float:left;margin-top:-2.8rem;	text-align: center;	height: 40rem;left:-1px;top:-1px;width: 100vw; overflow-y: hidden;	position:sticky; -moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;-ms-transform: scale(0.98);	-moz-transform: scale(0.98); -o-transform: scale(0.98);	-webkit-transform: scale(0.98);	transform: scale(0.98);	-ms-transform-origin: 0 0;	-moz-transform-origin: 0 0;	-o-transform-origin: 0 0;	-webkit-transform-origin: 0 0;	transform-origin: 0 0; }
+/* 02:Q */ .featherlight-iframe .featherlight-content {	} 
+/* 02 ! */ }
 
 /* INDEX - 03:A - Z */
 @media all and (min-width: 960px) and (max-width: 1123px) {
@@ -652,37 +607,4 @@ html.with-featherlight { /* 01:A */
 	}
 }
 
-	/* Stylesheet Structure:
-   
-		1. .class-1 {}  .class-2 {} ... etc
 
-		2. @media all and (min-width:1024px) {.class-1 {}.class-2 {} ... etc}
-		3. @media all and (min-width: 960px) and (max-width: 1123px) {.class-1 {}.class-2 {} ... etc}
-		4. @media all and (min-width: 960px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
-		5. @media all and (min-width: 960px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
-		6. @media all and (min-width: 768px) and (max-width: 959px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
-		7. @media all and (min-width: 768px) and (max-width: 959px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
-		8. @media all and (min-width: 480px) and (max-width: 767px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
-		9. @media all and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
-		10. 			       	  @media all and (max-width: 479px) and (orientation: portrait)  {.class-1 {}.class-2 {} ... etc}
-		11. 					  @media all and (max-width: 479px) and (orientation: landscape) {.class-1 {}.class-2 {} ... etc}
-	
-	classes used in this stylesheet:
-	
-		A.  html.with-featherlight {}
-		B. .featherlight {}
-		C. .featherlight {}
-		D. .featherlight:last-of-type {}
-		E. .featherlight:before {}
-		F. .featherlight link.featherlight-inner, .featherlight script.featherlight-inner, .featherlight style.featherlight-inner {}
-		G. .featherlight .featherlight-content {}
-		H. .featherlight .featherlight-inner {}
-		I. .featherlight-inner {}
-		J. .featherlight .featherlight-close-icon {}
-		K. .featherlight .featherlight-close-icon::-moz-focus-inner {}
-		L. .featherlight .featherlight-image {}
-		M. .featherlight iframe {}
-		N. .featherlight-iframe .featherlight-content {}
-		O. .featherlight-content {}
-	
-   */

@@ -117,6 +117,23 @@ html {
 
 }
 
+.main-image2 {
+	content:"image";
+	text-align:center;
+	margin-top:2rem;
+	height:auto;
+    min-width: calc(70vw);
+    max-width: calc(70vw);
+    margin-left: calc(2.5vw);
+	position:static!important;
+	border-radius: calc(10vw - 7.5rem);
+	filter: invert(0%)!important;
+	overflow:hidden!important;
+	margin-bottom:2rem; 
+	opacity:0.95;
+
+}
+
 .demo-all-divs {
 	background-size:100.5%!important;
 	border:0px solid transparent!important;

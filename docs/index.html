@@ -60,6 +60,11 @@
 				 document.getElementById('mainWrapper').style.visibility="visible";
 				}
 		</script>	
+		<script>
+				$(document).ready(function(){
+				$(window).scrollTop(0);
+				});
+		</script>
 
 	</head>
 
@@ -250,7 +255,7 @@
 										<div class="button-block-left">
 											<form action="/charge" method="post">
 												<script
-													src="//checkout.stripe.com/checkout.js"
+													src="https://checkout.stripe.com/checkout.js"
 													class="stripe-button" 
 													data-amount="19999" 
 													data-billing-address="true" 

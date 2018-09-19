@@ -1289,6 +1289,7 @@ h1 {
 	float:right;
 	margin-top:55px;
 	transition: width 0.1s ease-out;
+	padding-bottom:2rem;
 }
 
 

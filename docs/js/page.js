@@ -90,11 +90,11 @@
       });
   });
   
-  var words = document.getElementsByClassName('word');
+	var words = document.getElementsByClassName('word');
 var wordArray = [];
 var currentWord = 0;
 
-words[currentWord].style.wordSpacing = "10px";
+words[currentWords].style.wordSpacing = "10px";
 for (var i = 0; i < words.length; i++) {
   splitLetters(words[i]);
 }

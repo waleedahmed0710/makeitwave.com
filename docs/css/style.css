@@ -328,7 +328,6 @@ u:after {
 	font-weight: lighter;
 	color:#61CFF7;
 	opacity:1;
-	margin-bottom:2rem;
 	font-size:1rem;
 }
 
@@ -359,6 +358,9 @@ u:after {
 	height: 50px; 
 	width:380px; 
 	letter-spacing:30px;
+	position:static;
+	padding-top: 1.25rem;
+    padding-bottom: 4rem!important;
 }
 
 .button-block-left {
@@ -682,7 +684,9 @@ dl.dropdown {
 	min-width: 320px;
 	max-width: 800px;
 	margin: -3px 0 0 1px;
-	max-height: 50px;
+	max-height: 40px;
+	margin-top: -2px;
+    position: absolute;
 }
 
 dl.dropdown span:nth-child(3) {

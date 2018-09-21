@@ -19,6 +19,7 @@ html {
 
 .title {
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 1rem;
 	display:block;
 	vertical-align:middle;
 	width:280px;
@@ -30,7 +31,7 @@ html {
 	text-align:center;
 	background-color:transparent;
 	font-size:2rem;
-	font-weight: 400;
+	font-weight: lighter;
 	opacity:0.85;
 	color: #34485D;
 }
@@ -122,15 +123,17 @@ html {
 	text-align:center;
 	margin-top:2rem;
 	height:auto;
-    min-width: calc(70vw);
-    max-width: calc(70vw);
-    margin-left: calc(2.5vw);
+    width: calc(50vw);
+    max-width: 470px;
+    min-width: 232px;
 	position:static!important;
 	border-radius: calc(10vw - 7.5rem);
-	filter: invert(0%)!important;
+	brightness(1.05);
+	border-radius: 30px;
+    border-style: outset;
 	overflow:hidden!important;
 	margin-bottom:2rem; 
-	opacity:0.95;
+	opacity:1;
 
 }
 

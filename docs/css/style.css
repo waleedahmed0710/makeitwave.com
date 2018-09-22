@@ -86,6 +86,9 @@
 
 .segment-video {background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); min-height: 35rem; max-height: 1000px; height: 100vh; verticle-align:top; border-top:}
 .segment-press {background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); min-height: 35rem; max-height: 68rem; margin-bottom:1px; height: 125rem; verticle-align:top; overflow:hidden;}
+.segment-title {display:block; vertical-align:middle; width:280px; padding-top:4rem;margin-bottom:2rem; padding-top:2.85rem; padding-bottom:1rem; height: 10rem; margin-left:calc(50% - 140px); text-align:center; background-color:transparent; font-size:1.5rem; font-weight: 400!important;}
+.segment-distributor-regiser  {background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); min-height: 10rem; max-height: 11rem; margin-bottom:1px; height: 10.5rem; verticle-align:top; overflow:hidden; text-align:center;}
+.segment-distributor-regiser2  {background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); min-height: 40rem; max-height: 50rem; margin-bottom:1px; height: 40.5rem; padding-top:67px; verticle-align:top; overflow:hidden; text-align:center;}
 
 .footer {width: 100%; bottom: 0; left: 0; text-decoration: none; display: block; height: 55px; position: relative; float: left; background-color:#34485D; color:white;}
 .footer>p {margin-bottom:-2rem!important; margin-top:0px; padding:15px;}
@@ -102,7 +105,6 @@
 .news-link:hover {text-decoration:underline; color:#9FB1B3;}
 .news-link:visited {text-decoration:underline; color:#9FB1B3; opacity:0.8;}
 .news-title {margin-left: calc(50vw - 8rem); margin-top: 2.5em; background-color: transparent; font-size: 1rem; font-weight: lighter; text-align: center; width: 16rem;}
-.segment-title {display:block; vertical-align:middle; width:280px; padding-top:2.85rem; padding-bottom:1rem; height: 10rem; margin-bottom: 0rem; margin-left:calc(50% - 140px); text-align:center; background-color:transparent; font-size:1.5rem; font-weight: 400!important;}
 .sexy_line {display: block; border: none; color: white; height: 1px; background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));}
 .news-subtitle {text-align: center; margin-top:0.5rem; margin-left:(50vw - 10rem);}
 .wrapperwrapper2 {position:static; padding-top:1rem; width:calc(98vw); margin-left:calc(1vw); text-align: center!important;}
@@ -260,6 +262,8 @@ Dropdown 3 (payment options) - STOP
 
 
 
+
+
 @media all and (min-width:1024px) {
 	
 .footer {
@@ -271,10 +275,7 @@ h1 {
 	font-size: 2rem!important; 
 }
 
-.segment-title {
-	padding-top:4rem;
-	margin-bottom:2rem;
-}
+
 
 .year {
 
@@ -390,6 +391,7 @@ h1 {
 	background: -webkit-gradient(radial, 50% 60%, 150, 50% 60%, 260, from(#fff), to(#F3F5F8));
 	min-height: 5rem;
 	max-height: 6rem;
+	text-align:center;
 }
 	
 .nav-link {

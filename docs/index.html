@@ -62,6 +62,17 @@
 				$(window).scrollTop(0);
 				});
 		</script>
+		
+		<style>
+		.stripe-button-el {
+		display:none!Important;
+		}
+		
+		.stripe_checkout_app html{
+		zoom:0.9;
+		}
+		
+		</style>
 
 	</head>
 
@@ -252,22 +263,24 @@
 									
 										<!-- Buttons Left --> 
 										<div class="button-block-left">
-											<form action="/charge" method="post">
+										
+							
+											<form action="/charge" method="POST">
 												<script
 													src="https://checkout.stripe.com/checkout.js"
 													class="stripe-button" 
-													data-amount="19999" 
-													data-billing-address="true" 
-													data-currency="GBP" 
-													data-description="x1 Wave Center (£199.99)" 
-													data-image="https://makeitwave.com/square-image.png" 
-													data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN" 
-													data-label="Pay by Card" 
+													data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN"
+													data-image="/square-image.png" 
 													data-name="Wave Store" 
-													data-shipping-address="true">
+													data-description="x1 Wave Device (£199.99)" 
+													data-amount="19999" 
+													data-currency="GBP" 
+													data-billing-address="true" 
+													data-shipping-address="true"
+													
 												</script>
 											</form>
-											
+										
 											<script>
 												document.getElementsByClassName("stripe-button-el")[0].style.display = 'none';
 											</script>

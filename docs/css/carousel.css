@@ -80,8 +80,6 @@
 .carousel-dropdown dt a:hover, .carousel-dropdown dt a:focus {color: #5d4617;}
 .carousel-dropdown dt a {position: relative; background: transparent; display: block; padding-right: 10px; overflow: hidden; border:1px solid white; border-radius: 7px; max-width:230px; max-height: 35px;}
 .carousel-dropdown dd ul {background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 934, from(rgba(52,72,93,0.9)), to(rgba(97,207,247,0.9))); box-shadow: inset 0 1px 9px rgba(255,255,255,0.4); padding-top: 1rem; position: fixed; border: 1px solid grey; border-radius: 17px 17px 0px 0px; overflow-y: hidden; -webkit-overflow-scrolling: touch; width: 217px; max-width: 786px; margin-left: 2px; max-height: 357px; margin-top: calc(5vh + 3rem); bottom: 87px;}
-li a {font-size:13px;}
-li a span:nth-child(2) {line-height: 2em;}
 .carousel-dropdown dd ul::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3); border-left:1px solid rgba(0,0,0,0.1);}
 .carousel-dropdown dd ul::-webkit-scrollbar-thumb {background: rgba(0,0,0,0.4);}
 .carousel-dropdown dd ul::-webkit-scrollbar-thumb:window-inactive {background: blue;}
@@ -98,6 +96,10 @@ dl.carousel-dropdown>img {display:hidden; display:none;}
 .carousel-dropdown dt a:after {margin-top:1px; content: ''; background: transparent; position: absolute; height: 42px; position: absolute; left: -1px; top: -2px; width: 55px; border:1px solid white;}
 .carousel-dropdown dt a:before {background: none repeat scroll 0 0 white; content: ""; height: 0.1rem; position: absolute; left: 13px; top: 8px; width: 28px; opacity: 0.7; box-shadow: 0 8px 0 white, 0 16px 0 white;}
 .carousel-dropdown dd ul li a span:first-child, .carousel-dropdown dt a span span:first-child {background-image: url(../img/features-small.png); background-repeat: no-repeat; width: 34px; height: 33px; float: left; margin: 10px 0px 50px -55px; zoom:0.8; vertical-align: top; border-radius: 0px; padding: 0px; left: 0;}
+.carousel-dropdown-holder {background-color:transparent; background-image:none; display:inline-block; color: #343A40; width:3px; height:1px;}
+.carousel-dropdown-list {margin-left:50px; font-size:1rem; margin-top:-5px; padding-bottom:4px;}
+.carousel-caption {position:fixed!important; bottom:0; margin-bottom:0px!important; padding-bottom:1rem!important;}
+
 .media-carousel-dropdown-img {background-position:0px -70.5px;}
 .media-carousel-dropdown-img:hover {box-shadow: 0 5px 19px rgba(0,0,0,1);}
 .energy-carousel-dropdown-img {background-position:1px -34px;}
@@ -110,10 +112,7 @@ dl.carousel-dropdown>img {display:hidden; display:none;}
 .tracking-carousel-dropdown-img:hover {box-shadow: 0 5px 19px rgba(0,0,0,1);}
 .more-carousel-dropdown-img {background-position:0px -180px;}
 .more-carousel-dropdown-img:hover {box-shadow: 0 5px 19px rgba(0,0,0,1);}
-.carousel-dropdown-holder {background-color:transparent; background-image:none; display:inline-block; color: #343A40; width:3px; height:1px;}
-.carousel-dropdown-list {margin-left:50px; font-size:1rem; margin-top:-5px; padding-bottom:4px;}
-u {text-decoration: none; position: relative;}
-u:after { content: ''; width: 99%; position: absolute; left: 0; bottom: -0.01rem; border-width: 0 0 0.05rem; border-style: solid;}
+
 .appstore-img-button-play { background-image:url('../img/google-play-66442243.svg'); background-repeat: no-repeat; background-position: 0px 0px; display: inline-block; background-color: transparent; padding-left: 0px; margin-top: 0px; height:42px; width: 110px; float: left;}
 .appstore-img-button-apple {background-image:url('../img/app-store-1f36bbd8.svg'); background-repeat: no-repeat; background-position: 0px 0px; display: block; background-color: transparent; padding-left: 0px; margin-top: -1px; margin-left: 10px; height:42px; width: 110px; float: left;}
 .payment-button-img-paypal {background-image:url('../img/paypal-logo.png'); background-repeat: no-repeat; background-position: 3px 2.5px; background-size: 82px auto; margin-left: 10px; display:inline-block!important; border: 0.05rem solid white; background-color: transparent; border-radius:4px 4px 4px 4px; width: 110px; height: 32px;}
@@ -123,6 +122,8 @@ u:after { content: ''; width: 99%; position: absolute; left: 0; bottom: -0.01rem
 .button-block {display:inline-block; overflow:visible!important; height: 50px; width:380px; letter-spacing:30px; position:static; padding-top: 1.25rem; padding-bottom: 4rem!important;}
 .button-block-left {margin-left: 0px; float: left;}
 .button-block-right {margin-left: 0px; float: left;}
+
 .tick-box-holder {text-decoration: underline; color: #CCCCCC;}
 .tick-box {opacity:0.6; background-color: transparent; border:2px solid white; border-radius:4px; width:18px; height:18px; display:inline-block;}
+
 .moreinfo {padding-bottom:3px; opacity:0.8; margin-left:9px; width:1.25rem; height:auto; cursor: pointer;}

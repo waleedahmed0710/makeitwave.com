@@ -45,14 +45,14 @@
 		<link rel="stylesheet" href="../css/featherlight.css" type="text/css" />
 		<link rel="stylesheet" href="../css/style.css" >
 		
-
-		<script src="../js/lazy.min.js"></script>
+		<!-- Java -->
+		<script src="js/lazy.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
 		<script>
-			function pageLoad(){
-			 document.getElementById('mainWrapper').style.visibility="visible";
-			}
-		</script>	
+				function pageLoad(){
+				 document.getElementById('mainWrapper').style.visibility="visible";
+				}
+		</script>
 	  
 	</head>
 
@@ -89,17 +89,19 @@
 				</div>
 				
 			</nav>
+
 		</header>
 		
 		<main role="main" class="main">
-		
-			<div class="segment-distributors">	
+					<div class="segment-top">	</div>
+			<div class="segment">	
 				<h1 class="segment-title" >Licenced Distributors</h1>
 			
 				<div class="wrapperwrapper2">
+
 					<div class="wrapper2">
 					
-						<dl id="country-select" class="currencydrop">
+						<dl id="country-select" class="dropdown2">
 							<dt>
 								<a href="javascript:void(0);">
 									<span>
@@ -146,19 +148,14 @@
 						</dl>
 					</div>
 				</div>
-
-				<p class="subtitle fancy2" style=""></p>
 				
-				<div class="segment-distributor-regiser">
-					<h1 class="segment-title" >
-						<a href="../distributor-info.html">Register &raquo;	</a>
-					</h1>	
+				<div class="segment-bottom" >
+					<a href="../distributor-info.html">Register &raquo;	</a>
 				</div>
-				
-				<p class="auctiontextsubsubtitle"></p>
-				<p style="display:block; height: calc(10vh)"></p>  
-
 			</div>
+			
+			
+			<div class="segment-bottom"></div>
 		</main>
 		
 		<footer class="footer" >
@@ -179,8 +176,6 @@
 		<script src="../js/scale.fix.js"></script> 
 		<script src="../js/jquery.min.js"></script> 
 		<script src="../js/videoLightning.js"></script> 
-		<script src="../js/jqvl-page.js"></script> 
-		<script src="../js/page.js"></script> 
 		<script charset="utf-8" src="../featherlight/release/featherlight.min.js" type="text/javascript"></script> 
 		<script src="../js/smoothloader.js"></script>
 

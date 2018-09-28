@@ -96,7 +96,60 @@
 /* 01:AK */  a {text-decoration: none;}
 /* 01:AM */  u {text-decoration: none; position: relative;}
 /* 01:AN */  u:after { content: ''; width: 99%; position: absolute; left: 0; bottom: -0.01rem; border-width: 0 0 0.05rem; border-style: solid;}
-
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h4 { 
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h5 { 
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h6 { 
+    display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
 /* ---  NAVBAR  --- */
 /* 01:BA */  .navbar-brand {image-rendering: auto; max-width: 175px!important; max-height: 52px; opacity:1; border: 0px solid transparent!important; }
 /* 01:BB */  .nav-link {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-weight: 338!important; text-decoration: none!important; border-left: 1px solid #34485D; opacity: 1; border-radius: 30px 30px 30px 30px; box-shadow: 2px 1px 3px rgba(255, 255, 255, 0.2); margin: 2px; display: block; height: 40px; width: 90vw; text-align: center; font-size: 1rem; color: white; letter-spacing: 0.03rem;}
@@ -108,6 +161,7 @@
 /* 01:CB */  .segment { height: inherit; padding-top:1rem; padding-bottom:5rem; background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); verticle-align:top;}
 /* 01:CC */  .segment-bottom {display:flex; white-space:nowrap; justify-content: center; align-items: center; height: inherit; padding-top: calc(10vh); padding-bottom:1rem; background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); verticle-align:top;}
 /* 01:CD */  .segment-title {display:flex; white-space:nowrap; justify-content: center; align-items: center; padding:5rem 0 5rem 0; margin:0; width:auto; overflow: visible;  max-height:4rem; text-align:center; font-size:1.5rem; font-weight: 400!important; background-image: url(../img/wavee.png); background-repeat: no-repeat; background-size: 100px 110px; background-position-x: center; background-position-y: center;}
+			 .nowrap h3 {white-space: nowrap;}
 /* 01:CE */  .segment-subtitle {font-size: 1.5rem;  margin: 1rem 1rem 1rem 0rem;font-weight: lighter;}
 /* 01:CF */  .segment-paragraph {font-weight: lighter; margin-top: 0rem; padding-left: 10vw; overflow: visible; display: flex; justify-content: center; align-items: normal; text-align: justify; padding-right: 10vw; word-spacing: -0.1rem;}
 /* 01:CG */  .segment-col-paragraph {font-weight: lighter!important; text-align: justify; word-spacing: 0.05rem; min-height: 160px; max-height: 200px; padding-left: 1rem; padding-right:1rem;}
@@ -124,7 +178,9 @@
 /* 01:EA */  .news-link {color: #34485D!important; font-size: 0.85rem; font-style: normal; height: 4rem; display: inline-block; font-weight: lighter!important; letter-spacing: 0px;}
 /* 01:EB */  .news-link:hover {text-decoration:underline; color:#9FB1B3;}
 /* 01:EC */  .news-link:visited {text-decoration:underline; color:#9FB1B3; opacity:0.8;}
-/* 01:ED */  .news-title {margin-left: calc(50vw - 8rem); margin-top: 2.5em; background-color: transparent; font-size: 1rem; font-weight: 400; text-align: center; width: 16rem;}
+             .news-title-div { display: inline-block; width: 100vw; text-align: center; height: 5vh; margin-top:1rem; margin-bottom:1rem;}
+/* 01:ED */  .news-title { font-size: 1rem; }
+			 .news-block {height: inherit; margin-bottom:2rem; padding-bottom:2rem; border-radius: 1rem;  background-image: linear-gradient( rgba(255, 72, 93, 0.1),  rgba(52, 255, 93, 0.1),  rgba(52, 72, 255, 0.1));  border:1px solid rgba(52, 72, 93, 0.1);}
 /* 01:EF */  .news-subtitle {text-align: center; margin-top:-0.5rem; margin-left:(50vw - 10rem);}
 /* 01:EG */  .year {font-size:1rem; margin-left: calc(50vw - 100px); display:block; left:0; background-color:white; color:#34485D; border-left:1px solid #34485D; border-right:1px solid #34485D; border-top:1px solid #34485D; border-bottom:1px solid #34485D; border-radius:25px; margin-top:-10px; text-align:center; float:left; max-width:calc(33vw)!important; min-width:200px!important; margin-bottom:2.5rem;}
 

@@ -96,60 +96,7 @@
 /* 01:AK */  a {text-decoration: none;}
 /* 01:AM */  u {text-decoration: none; position: relative;}
 /* 01:AN */  u:after { content: ''; width: 99%; position: absolute; left: 0; bottom: -0.01rem; border-width: 0 0 0.05rem; border-style: solid;}
-h1 { 
-    display: block;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: lighter;
-}
-h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: lighter;
-}
-h3 { 
-    display: block;
-    font-size: 1.17em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: lighter;
-}
-h4 { 
-    display: block;
-    font-size: 1em;
-    margin-top: 1.33em;
-    margin-bottom: 1.33em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: lighter;
-}
-h5 { 
-    display: block;
-    font-size: .83em;
-    margin-top: 1.67em;
-    margin-bottom: 1.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: lighter;
-}
-h6 { 
-    display: block;
-    font-size: .67em;
-    margin-top: 2.33em;
-    margin-bottom: 2.33em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: lighter;
-}
+
 /* ---  NAVBAR  --- */
 /* 01:BA */  .navbar-brand {image-rendering: auto; max-width: 175px!important; max-height: 52px; opacity:1; border: 0px solid transparent!important; }
 /* 01:BB */  .nav-link {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-weight: 338!important; text-decoration: none!important; border-left: 1px solid #34485D; opacity: 1; border-radius: 30px 30px 30px 30px; box-shadow: 2px 1px 3px rgba(255, 255, 255, 0.2); margin: 2px; display: block; height: 40px; width: 90vw; text-align: center; font-size: 1rem; color: white; letter-spacing: 0.03rem;}
@@ -175,13 +122,13 @@ h6 {
 /* 01:DD */  .video-link {display:inline-block; top:0; height:160px; width:160px; background-image:url('../img/playbutton.png'); background-position:0px 0px; border:1px solid grey; border-radius:25px; margin-left: calc(50vw - 80px); position:static; float: center;}
 
 /* ---  SEGMENTS: NEWS   --- */
-/* 01:EA */  .news-link {color: #34485D!important; font-size: 0.85rem; font-style: normal; height: 4rem; display: inline-block; font-weight: lighter!important; letter-spacing: 0px;}
+/* 01:EA */  .news-link {color: #34485D!important; font-size: 0.85rem; font-style: normal; min-height: 1rem; display: inline-block; font-weight: lighter!important; letter-spacing: 0px;}
 /* 01:EB */  .news-link:hover {text-decoration:underline; color:#9FB1B3;}
 /* 01:EC */  .news-link:visited {text-decoration:underline; color:#9FB1B3; opacity:0.8;}
-             .news-title-div { display: inline-block; width: 100vw; text-align: center; height: 5vh; margin-top:1rem; margin-bottom:1rem;}
+             .news-title-div { display: inline-block; width: 100vw; text-align: center;}
 /* 01:ED */  .news-title { font-size: 1rem; }
-			 .news-block {height: inherit; margin-bottom:2rem; padding-bottom:2rem; border-radius: 1rem;  background-image: linear-gradient( rgba(255, 72, 93, 0.1),  rgba(52, 255, 93, 0.1),  rgba(52, 72, 255, 0.1));  border:1px solid rgba(52, 72, 93, 0.1);}
-/* 01:EF */  .news-subtitle {text-align: center; margin-top:-0.5rem; margin-left:(50vw - 10rem);}
+			 .news-block {height: inherit; margin-bottom:2rem;  }
+/* 01:EF */  .news-subtitle {text-align: center; margin-top:-0.5rem; }
 /* 01:EG */  .year {font-size:1rem; margin-left: calc(50vw - 100px); display:block; left:0; background-color:white; color:#34485D; border-left:1px solid #34485D; border-right:1px solid #34485D; border-top:1px solid #34485D; border-bottom:1px solid #34485D; border-radius:25px; margin-top:-10px; text-align:center; float:left; max-width:calc(33vw)!important; min-width:200px!important; margin-bottom:2.5rem;}
 
 /* ---  SEGMENTS: Download   --- */

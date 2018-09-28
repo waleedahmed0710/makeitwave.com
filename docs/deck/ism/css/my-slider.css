@@ -10,7 +10,7 @@
   user-select: none;
   cursor: default;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: white;
   -webkit-animation: ism-fadein 3s;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
@@ -46,7 +46,7 @@
   bottom: 0;
   margin: 0 !important;
   padding: 0 !important;
-  background-color: #d5d5d5;
+  background-color: #34485D;
   text-align: center;
 }
 
@@ -541,17 +541,6 @@ p.ism-badge a.ism-link:hover {
     width: 100%;
     top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);
 }
-
-#my-slider .ism-slide-19 .ism-img-frame {
-   width: 80%;
-    margin-left: 10%;
-}
-
-#my-slider .ism-slide-19 .ism-img {
-    width: 100%;
-    top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);
-}
-
 
 
 

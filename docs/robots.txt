@@ -7,6 +7,8 @@ Disallow: /bidpages/
 Disallow: /css/
 Disallow: /img/
 Disallow: /js/
+Disallow: /content/
+Disallow: /data/
 Disallow: /csvtotable/
 Disallow: /dashboard-demo/
 Disallow: /distributors/

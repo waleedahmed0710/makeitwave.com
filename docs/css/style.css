@@ -155,8 +155,11 @@
 }
 
 h1 { 
-	font-size: 2rem!important; 
+	font-size: 1.25rem!important; 
 }
+
+.carousel-maintitle, .segment-title {	font-size: 2.5rem!important; }
+
 
 
 

@@ -55,7 +55,11 @@
 			}
 		</style>
 		
-	
+
+		<link rel="stylesheet" href="css/preloader/normalize.css">
+		<link rel="stylesheet" href="css/preloader/main.css">
+		<script src="js/preloader/modernizer.js"></script>
+		
 		<!-- scripts 1/2 -->
 		<script src="js/menu.js">	</script>
 		<script src="js/lazy.min.js">	</script>
@@ -66,6 +70,11 @@
 			 document.getElementById('mainWrapper').style.visibility="visible";
 			}
 		</script>
+		
+		<!-- Preloader -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/preloader/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="js/preloader/main.js"></script>
 		
 	</head>
 	<body bgcolor="#34485D" onload="pageLoad()">
@@ -104,7 +113,13 @@
 
 		</header>
 
-		
+			<div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+
+		</div>
 		<main role="main" style="background-color: #34485D;">
 			<div class="carousel slide" data-ride="carousel" id="myCarousel">
 				<div class="carousel-inner" style="overflow:visible!important;">
@@ -116,7 +131,12 @@
 							<div class="carousel-caption text-left">
 								
 								<!-- First Line --> 
-								<h1 class="carousel-maintitle"><u><a href="demo.html" target="_popup" text="dashboard demo" class="carousel-maintitle-link" style="font-weight:600">All in One</a></u> Smart Home</h1>
+								<h1 class="carousel-maintitle">
+									<u>
+										<a href="demo.html" target="_popup" text="dashboard demo" class="carousel-maintitle-link" style="font-weight:600;">All in One</a>
+									</u>Smart Home
+								</h1>
+								
 								
 								<!-- Second Line --> 
 								<h2 class="carousel-title">A Simple Plug & Play Device</h2>	

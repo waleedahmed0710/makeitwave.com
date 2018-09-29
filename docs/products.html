@@ -39,23 +39,86 @@
 	<link href="css/featherlight.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/carousel.css" rel="stylesheet">
-		<style>
-
-		  .stripe-button-el { display:none!Important; }
-		  
-		  .stripe_checkout_app html{ zoom:0.9;  }
-		  
-		  .payment-button-img-stripe {border:1px solid grey;}
-		  
-		  .button-text-stripe {color:grey;}
-		  
-		  .payment-button-img-paypal {border:1px solid grey;}
-		  
-		  .button-text-paypal {color:grey;}
-		  
-		  .product-page-buttons {display:flex; white-space:nowrap; justify-content: center; align-items: center; width:100vw; float:left; position: absolute;}
 		
+	<link rel="stylesheet" href="css/preloader/normalize.css">
+	<link rel="stylesheet" href="css/preloader/main.css">
+	<script src="js/preloader/modernizer.js"></script>
+	<style type="text/css">
+			.stripe-button-el { display:none!Important; }
+			  
+			.stripe_checkout_app html{ zoom:0.9;  }
+			  
+			.payment-button-img-stripe {border:1px solid grey;}
+			  
+			.button-text-stripe {color:grey;}
+			  
+			.payment-button-img-paypal {border:1px solid grey;}
+			  
+			.button-text-paypal {color:grey;}
+			  
+			.product-page-buttons {display:flex; white-space:nowrap; justify-content: center; align-items: center; width:100vw; float:left; position: absolute;}
+			
+			.back-link a {
+				color: #4ca340;
+				text-decoration: none; 
+				border-bottom: 1px #4ca340 solid;
+			}
+			.back-link a:hover,
+			.back-link a:focus {
+				color: #408536; 
+				text-decoration: none;
+				border-bottom: 1px #408536 solid;
+			}
+			h1 {
+				height: 100%;
+				/* The html and body elements cannot have any padding or margin. */
+				margin: 0;
+				font-size: 14px;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 32px;
+				margin-bottom: 3px;
+			}
+			.entry-header {
+				text-align: left;
+				margin: 0 auto 50px auto;
+				width: 80%;
+				max-width: 978px;
+				position: relative;
+				z-index: 10001;
+			}
+			#demo-content {
+				padding-top: 100px;
+			}
+			#carbonads-container {
+				position: fixed;
+				top: 20px;
+				right: 20px;
+				z-index: 1000000;
+			}
+
+			.container { height: auto; min-width: 33vw; width: 400px;  margin: auto; margin-left: 2vw; padding-top: 1em; padding-bottom:2rem;}
+			#my-slider .ism-slide-0 .ism-img {width: 80%!important; margin-left: 12%!important; }
+			#my-slider .ism-slide-1 .ism-img {width: 80%!important; margin-left: 8.5%!important; }
+			#my-slider .ism-slide-2 .ism-img {width: 80%!important; margin-left: 12%!important; }
+			#my-slider .ism-slide-3 .ism-img {width: 80%!important; margin-left: 12%!important; }
+			
+			.ism-slider li.ism-slide {background-color: transparent!important; background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff));}
+			#my-slider .ism-radios li {box-shadow:-2px 2px grey; border-radius:40px; border:1px solid white;}
+			#my-slider .ism-radios li.active label  {opacity: 1; background-color: rgba(97, 207, 247, 1.0)!important; border-radius: 44px!important; border: 2px solid white; border: 4px solid rgba(97, 207, 247, 1.0)!important;
+    margin-top: 2px;
+    margin-left: -1px;
+}
+
+}			
+			#my-slider .ism-radios label {border-radius:40px; }
+			#my-slider .ism-radios {zoom:0.65;}
+
+			#my-slider .ism-button {background-color:rgba(0,0,0, 0.5);}
+			#my-slider .ism-button-next, .ism-button-prev {filter:invert(100%);opacity: 0.25;}
 		</style>
+						
+			<link rel="stylesheet" href="deck/ism/css/my-slider.css"/>
+			<script src="deck/ism/js/ism-2.2.min.js"></script>
 		
 	<!-- scripts 1/2 -->
 
@@ -77,7 +140,7 @@
 	</script>
 </head>
 
-<body bgcolor="#34485D" onload="pageLoad()">
+<body bgcolor="#34485D" onload="pageLoad()" class="demo">
 	<header id="mainWrapper">
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 			<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a> <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
@@ -89,7 +152,7 @@
 
 
 					<li class="nav-item">
-						<a class="nav-link" href="demo.html" target="_popup">Online Demo</a>
+						<a class="nav-link" href="demo.html" target="_popup">Demo</a>
 					</li>
 
 
@@ -114,20 +177,51 @@
 			</div>
 		</nav>
 	</header>
+	
+	
+
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+
+		</div>
+		
+		
 
 
 	<main class="main" role="main">
 		<div class="segment">
-			<h2 class="segment-title">Wave Home Hub</h2>
+			<h2 class="segment-title">Home Hub</h2>
 
 
-			<div style="text-align:center; width:100vw; margin-top:-2.5rem;">
-				<img src="img/productbox3.png" style="width:20rem; padding:10px; height: auto;">
+			<div style="display: flex; justify-content: center; justify-align: center; text-align:center; width:100vw; margin-top:-1rem;margin-bottom:1rem;">
+				<div class="ism-slider" id="my-slider" style="max-width: 400px; max-height: 250px!important;">
+					<ol>
+						<li>
+						  <img src="img/products/homehub-1.png">
+						</li>
+						
+						<li>
+						  <img src="img/products/homehub-2.png">
+						</li>
+						
+							
+						<li>
+						  <img src="img/products/homehub-3.png">
+						</li>
+						
+						<li>
+						  <img src="img/products/homehub-ordernow.png">
+						</li>
+					</ol>
+				</div>
 			</div>
 
 
 			<p class="segment-paragraph">
-				<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="content/wavehomehub.html">Technical Specifications</a>
+				<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="content/wavehomehub.html">Technical Specifications</a>&nbsp; - &nbsp; <a target="_popup" href="demo.html">Demo</a>
 			</p>
 
 			<p class="segment-paragraph">The Home Hub comes complete with memory, power and cabling. Everything you require to start enjoying Wave</p>
@@ -157,7 +251,7 @@
 		<span class="sexy_line"></span>
 
 			<div class="segment">
-			<h2 class="segment-title">Wave Vehicle Tracker</h2>
+			<h2 class="segment-title">Vehicle Tracker</h2>
 
 
 			<div style="text-align:center; width:100vw; margin-top:-2.5rem;">
@@ -196,7 +290,7 @@
 		<span class="sexy_line"></span>
 
 		<div class="segment">
-			<h2 class="segment-title">Wave Energy Monitor</h2>
+			<h2 class="segment-title">Energy Monitor</h2>
 
 
 			<div style="text-align:center; width:100vw; margin-top:-2.5rem;">
@@ -235,7 +329,7 @@
 		<span class="sexy_line"></span>
 
 		<div class="segment">
-			<h2 class="segment-title">Wave Media Extender</h2>
+			<h2 class="segment-title">Media Extender</h2>
 
 
 			<div style="text-align:center; width:100vw; margin-top:-2.5rem;">
@@ -274,7 +368,7 @@
 		<span class="sexy_line"></span>
 
 		<div class="segment">
-			<h2 class="segment-title">Wave Wi-Fi Repeater</h2>
+			<h2 class="segment-title">Wi-Fi Repeater</h2>
 
 
 			<div style="text-align:center; width:100vw; margin-top:-2.5rem;">
@@ -334,7 +428,6 @@
 	</script> 
 	<script src="js/videoLightning.js">
 	</script> <!-- Video Intro -->
-	 
 	<script src="js/jqvl-page.js">
 	</script> 
 	<script src="js/page.js">
@@ -343,5 +436,10 @@
 	</script> 
 	<script src="js/smoothloader.js">
 	</script>
+	<!-- Preloader -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/preloader/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="js/preloader/main.js"></script>
+
 </body>
 </html>

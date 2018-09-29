@@ -107,7 +107,7 @@
 /* 01:CA */  .segment-top {height: inherit; padding-top:1rem; padding-bottom:1rem; background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); verticle-align:top;}
 /* 01:CB */  .segment { height: inherit; padding-top:1rem; padding-bottom:5rem; background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); verticle-align:top;}
 /* 01:CC */  .segment-bottom {display:flex; white-space:nowrap; justify-content: center; align-items: center; height: inherit; padding-top: calc(10vh); padding-bottom:1rem; background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); verticle-align:top;}
-/* 01:CD */  .segment-title {display:flex; white-space:nowrap; justify-content: center; align-items: center; padding:5rem 0 5rem 0; margin:0; width:auto; overflow: visible;  max-height:4rem; text-align:center; font-size:1.5rem; font-weight: 400!important; background-image: url(../img/wavee.png); background-repeat: no-repeat; background-size: 100px 110px; background-position-x: center; background-position-y: center;}
+/* 01:CD */  .segment-title {display:flex; white-space:nowrap; justify-content: center; align-items: center; padding:5rem 0 5rem 0; margin:0; width:auto; overflow: visible;  max-height:4rem; text-align:center; font-size:1.5rem; font-weight: lighter!important; background-image: url(../img/wavee.png); background-repeat: no-repeat; background-size: 100px 110px; background-position-x: center; background-position-y: center;}
 			 .nowrap h3 {white-space: nowrap;}
 /* 01:CE */  .segment-subtitle {font-size: 1.5rem;  margin: 1rem 1rem 1rem 0rem;font-weight: lighter;}
 /* 01:CF */  .segment-paragraph {font-weight: lighter; margin-top: 0rem; padding-left: 10vw; overflow: visible; display: flex; justify-content: center; align-items: normal; text-align: justify; padding-right: 10vw; word-spacing: -0.1rem;}
@@ -145,7 +145,6 @@
 /* 01:XF */  .footer a {color: white; text-decoration:none;}
 /* 01:XG */  .footer a:visited {color: white; text-decoration:none;}
 
-/* .morepress-link {cursor: pointer; font-size:0.75rem; padding-top:0.25rem; padding-bottom:0.25rem; margin-left: calc(50vw - 100px); display:block; left:0; background-color:white; color:#34485D; border-left:5px solid #34485D; border-right:5px solid #34485D; border-top:1px solid #34485D; border-bottom:1px solid #34485D; border-radius:25px; margin-top:-10px; text-align:center; float:left; max-width:calc(33vw)!important; min-width:200px!important;}	 */
 
 @media all and (min-width:1024px) {
 	

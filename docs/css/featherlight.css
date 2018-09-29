@@ -75,24 +75,24 @@
 /* 01 ! */  
 
 /* 02:> */  @media all and (min-width:1024px)                            {	
-/* 02:A */  html.with-featherlight { }
-/* 02:B */ .featherlight { }
-/* 02:C */ .featherlight * { }
-/* 02:D */ .featherlight:last-of-type {}
-/* 02:E */ .featherlight:before {}
-/* 02:F */ .featherlight link.featherlight-inner
-/* 02:G */ .featherlight script.featherlight-inner
+/* 02:A */  html.with-featherlight {}
+/* 02:B */ .featherlight {top:3rem;}
+/* 02:C */ .featherlight * {}
+/* 02:D */ .featherlight:last-of-type {background:rgba(52, 72, 93,0.9)}
+/* 02:E */ .featherlight:before {content:''; display:inline-block; height:100vh; vertical-align:middle; }
+/* 02:F */ .featherlight link.featherlight-inner {} 
+/* 02:G */ .featherlight script.featherlight-inner {} 
 /* 02:H */ .featherlight style.featherlight-inner {}
-/* 02:I */ .featherlight .featherlight-content { max-height:34rem; margin-top:-2.8rem; margin-left:0; margin-right:0; }
-/* 02:J */ .featherlight-content { }
-/* 02:K */ .featherlight .featherlight-inner {}
-/* 02:L */ .featherlight-inner {box-shadow:inset -20px -47px 15px 22px rgba(255,255,255,0.4); 	border:1px solid darkgrey; }
-/* 02:M */ .featherlight .featherlight-close-icon {	}
+/* 02:I */ .featherlight .featherlight-content {margin-right:0; width:calc(100vw); position:relative; text-align:left; vertical-align:middle; display:inline-block; cursor:auto; white-space:normal; left:calc(0.1vw); max-width:calc(98vw); -moz-osx-font-smoothing:grayscale; -webkit-font-smoothing:antialiased; image-rendering:auto; }
+/* 02:J */ .featherlight-content {	margin-top: -2rem; background:-webkit-gradient(radial, 50% 50%, 30, 50% 50%, 384, from(rgba(97,207,247,0.5)), to(rgba(52,72,93,0.9))); }
+/* 02:K */ .featherlight .featherlight-inner {	-moz-osx-font-smoothing:grayscale; -webkit-font-smoothing:antialiased; 	-ms-transform:scale(0.68); -moz-transform:scale(0.68); -o-transform:scale(0.68); -webkit-transform:scale(0.68); transform:scale(0.68);	-ms-transform-origin:0 0; -moz-transform-origin:0 0; 	-o-transform-origin:0 0; -webkit-transform-origin:0 0; transform-origin:0 0; display:block; }
+/* 02:L */ .featherlight-inner {}
+/* 02:M */ .featherlight .featherlight-close-icon {right:0.6rem; top:0.8rem; position:sticky; float:right; z-index:9999; width:25px; cursor:pointer; text-align:center; background:rgba(255, 255, 255, .5); color:rgba(52,72,93,0.9); border:0; border-radius:4px; padding:0; width:32px; height:32px; opacity:1.1; line-height:20px; font-weight:bolder;}
 /* 02:N */ .featherlight .featherlight-close-icon::-moz-focus-inner {}
 /* 02:O */ .featherlight .featherlight-image {}
-/* 02:P */ .featherlight iframe {float:left; margin-top:-2.8rem; 	text-align:center; 	height:40rem; left:-1px; top:-1px; width:100vw; overflow-y:hidden; 	position:sticky; -moz-osx-font-smoothing:grayscale; -webkit-font-smoothing:antialiased; -ms-transform:scale(0.98); 	-moz-transform:scale(0.98); -o-transform:scale(0.98); 	-webkit-transform:scale(0.98); 	transform:scale(0.98); 	-ms-transform-origin:0 0; 	-moz-transform-origin:0 0; 	-o-transform-origin:0 0; 	-webkit-transform-origin:0 0; 	transform-origin:0 0; }
-/* 02:Q */ .featherlight-iframe .featherlight-content {	} 
-/* 02 ! */  }
+/* 02:P */ .featherlight iframe { position:absolute; overflow:hidden!important; margin:0; height:calc(124vh); width:calc(144vw); min-height:230px; border:0; top:-1px!important; left:-1px!important; -webkit-overflow-scrolling:touch; }
+/* 02:Q */ .featherlight-iframe .featherlight-content { background-color:white; border-radius:1rem; height:calc(80vh); margin-top:-10vh; margin-left:1vw; max-height:90vh; -ms-transform-origin:0 0; -moz-transform-origin:0 0; -moz-osx-font-smoothing:grayscale; -moz-osx-font-smoothing:grayscale; -ms-transform:scale(0.98); -moz-transform:scale(0.98); -o-transform:scale(0.98); -o-transform-origin:0 0; overflow-y:scroll!Important; overflow-x:hidden!Important; padding:0; transform:scale(0.98); text-rendering:optimizeLegibility; transform-origin:0 0; webkit-font-smoothing:antialiased; webkit-transform:scale(0.98); webkit-transform-origin:0 0; width:95vw; }
+/* 02 ! */ }
 
 /* 03:> */  @media all and (min-width:960px) and (max-width:1123px)      { 
 /* 03:A */  html.with-featherlight { }

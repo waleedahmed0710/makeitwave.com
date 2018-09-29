@@ -1,179 +1,254 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
 
-		<meta charset="utf-8">
-		<meta content="1" http-equiv="Expires">
-		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no" name="viewport">
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="1" http-equiv="Expires">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no" name="viewport"><!-- GitHub Pages -->
 
-		<!-- GitHub Pages -->
-		<script type="type/javascript">
-			  var host = "makeitwave.com";
-			  if {{ host == window.location.host} && {window.location.protocol != "https:""}}
-			  window.location.protocol = "https";
-		</script>
-		
-		<link href="//makeitwave.com" rel="canonical">
-		
-		<!-- SEO -->
-		<meta content="Home Operating System" name="description">
-		<meta content="Make it Wave Ltd" name="author">
-		<title>WaveOS</title>
-		
-		<!-- Icons -->
-		<link href="img/favicons/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
-		<link href="img/favicons/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
-		<link href="img/favicons/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-		<link href="img/favicons/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
-		<link href="img/favicons/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
-		<link href="img/favicons/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
-		<link href="img/favicons/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
-		<link href="img/favicons/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
-		<link href="img/favicons/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
-		<link href="img/favicons/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
-		<link href="img/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-		<link href="img/favicons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
-		<link href="img/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-		<link href="/manifest.json" rel="manifest">
-		<meta content="#ffffff" name="msapplication-TileColor">
-		<meta content="img/favicons/ms-icon-144x144.png" name="msapplication-TileImage">
-		<meta content="#ffffff" name="theme-color">
-		
-		<!-- CSS -->
-		<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-		<link href="css/functions-list.css" rel="stylesheet">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/deconflict.css" rel="stylesheet">
-		<!-- <link href="css/jqvl-page.css" rel="stylesheet"> -->
-		<link href="css/featherlight.min.css" rel="stylesheet" type="text/css">
-		<link href="css/style.css" rel="stylesheet">
-		<link href="css/smoothloader.css" rel="stylesheet">
-		
-		
-		<!-- scripts 1/2 -->
-		<script src="js/lazy.min.js">	</script>
-		<script src="https://js.stripe.com/v3/"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
-		<script>
-				function pageLoad(){
-				 document.getElementById('mainWrapper').style.visibility="visible";
-				}
-		</script>	
-		<script>
-				$(document).ready(function(){
-				$(window).scrollTop(0);
-				});
-		</script>
+	<script type="type/javascript">
+	                var host = "makeitwave.com";
+	                if {{ host == window.location.host} && {window.location.protocol != "https:""}}
+	                window.location.protocol = "https";
+	</script>
+	<link href="//makeitwave.com" rel="canonical"><!-- SEO -->
+	<meta content="Home Operating System" name="description">
+	<meta content="Make it Wave Ltd" name="author">
 
-	</head>
+	<title>WaveOS</title><!-- Icons -->
+	<link href="img/favicons/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+	<link href="img/favicons/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+	<link href="img/favicons/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+	<link href="img/favicons/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+	<link href="img/favicons/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+	<link href="img/favicons/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+	<link href="img/favicons/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+	<link href="img/favicons/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+	<link href="img/favicons/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="img/favicons/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
+	<link href="img/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="img/favicons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+	<link href="img/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<link href="/manifest.json" rel="manifest">
+	<meta content="#ffffff" name="msapplication-TileColor">
+	<meta content="img/favicons/ms-icon-144x144.png" name="msapplication-TileImage">
+	<meta content="#ffffff" name="theme-color"><!-- CSS -->
+	<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/featherlight.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/carousel.css" rel="stylesheet">
+		<style>
 
-	<body bgcolor="#34485D" onload="pageLoad()">
+		  .stripe-button-el { display:none!Important; }
+		  
+		  .stripe_checkout_app html{ zoom:0.9;  }
+		  
+		  .payment-button-img-stripe {border:1px solid grey;}
+		  
+		  .button-text-stripe {color:grey;}
+		  
+		  .payment-button-img-paypal {border:1px solid grey;}
+		  
+		  .button-text-paypal {color:grey;}
+		  
+		  .product-page-buttons {display:flex; white-space:nowrap; justify-content: center; align-items: center; width:100vw; float:left; position: absolute;}
+		
+		</style>
+		
+	<!-- scripts 1/2 -->
 
-		<header id="mainWrapper">
-			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-					<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a> 
-						<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-				
-				<div class="collapse navbar-collapse" id="navbarCollapse">
-					<ul class="navbar-nav mr-auto">
-						
-						<li class="nav-item">
-						</li>
-						
-						<li class="nav-item">
-							<a class="nav-link" target="_popup" href="demo.html">Preview</a>
-						</li>
-						
-						<li class="nav-item">
-						</li>
-						
-						<li class="nav-item">
-							<a class="nav-link" href="distributors.html">Distributors</a>
-						</li>
-					</ul>
+	<script src="js/lazy.min.js">
+	</script>
+	<script src="https://js.stripe.com/v3/">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script>
+	                  function pageLoad(){
+	                   document.getElementById('mainWrapper').style.visibility="visible";
+	                  }
+	</script>
+	<script>
+	                  $(document).ready(function(){
+	                  $(window).scrollTop(0);
+	                  });
+	</script>
+</head>
+
+<body bgcolor="#34485D" onload="pageLoad()">
+	<header id="mainWrapper">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a> <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+					</li>
+
+
+					<li class="nav-item">
+						<a class="nav-link" href="demo.html" target="_popup">Online Demo</a>
+					</li>
+
+
+					<li class="nav-item">
+					</li>
+
+
+					<li class="nav-item">
+						<a class="nav-link" href="products.html">Products</a>
+					</li>
+
+
+					<li class="nav-item">
+					</li>
+
+
+					<li class="nav-item">
+						<a class="nav-link" href="download.html">Software & support</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+
+	<main class="main" role="main">
+		<div class="segment">
+			<h2 class="segment-title">Wave Home Hub</h2>
+
+
+			<div style="text-align:center; width:100vw; margin-top:-2.5rem;">
+				<img src="img/productbox3.png" style="width:20rem; padding:10px; height: auto;">
+			</div>
+
+
+			<p class="segment-paragraph">
+				<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="content/wavehomehub.html">Technical Specifications</a>
+			</p>
+
+			<p class="segment-paragraph">The Home Hub comes complete with memory, power and cabling. Everything you require to start enjoying Wave</p>
+
+			<p class="segment-paragraph" style="font-weight: 600;">£199.99 GBP &nbsp;&nbsp; (inc. VAT & Delivery)</p>
+
+			<div class="product-page-buttons">
+				<!-- Buttons Right -->
+
+
+				<div class="button-block-right">
+					<a class="payment-button-img-paypal" href="https://paypal.me/makeitwave/200" onclick="setIframeSrc('framez', this.href); return false" target="_popup"><b class="button-text-paypal">Paypal</b></a> <!-- Buttons Left -->
+
+
+					<div class="button-block-left">
+						<form action="/charge" method="post">
+							<script class="stripe-button" data-amount="19999" data-billing-address="true" data-currency="GBP" data-description="x1 Wave Home Hub (£199.99)" data-image="/square-image.png" data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN" data-name="Wave Store" data-shipping-address="true" src="https://checkout.stripe.com/checkout.js">
+							</script>
+						</form>
+						<script>
+						                                                            document.getElementsByClassName("stripe-button-el")[0].style.display = 'none';
+						</script> <button class="payment-button-img-stripe" type="submit"><b class="button-text-stripe">Card</b></button>
+					</div>
 				</div>
-			</nav>
-		</header>
-		
+			</div>
+		</div>
+		<span class="sexy_line"></span>
 
-		<main role="main" class="main">
-			
-			<div class="segment">	
-				<h2 class="segment-title">Home Hub</h2>	
-				<p class="segment-paragraph">With ....</p>
-			</div>
-			
-				<span class="sexy_line"></span>	
-			
-			<div class="segment">	
-				<h2 class="segment-title">Vehicle Tracker</h2>	
-				<p class="segment-paragraph">With ....</p>
-			</div>
-			
-				<span class="sexy_line"></span>	
-			
-			<div class="segment">	
-				<h2 class="segment-title">Energy Monitor</h2>	
-				<p class="segment-paragraph">With ....</p>
-			</div>
-			
-			<span class="sexy_line"></span>	
-				
-			<div class="segment">	
-				<h2 class="segment-title">Media Extender</h2>	
-				<p class="segment-paragraph">With ....</p>
-			</div>
-			
-			<span class="sexy_line"></span>	
-				
-			<div class="segment">	
-				<h2 class="segment-title">Wi-Fi Extender</h2>	
-				<p class="segment-paragraph">With ....</p>
-			</div>
-		</main>
-		
-	
-		<footer class="footer" >
-			<p style="padding-right: calc(2vw);" class="float-right">
-				<a href="#">Back to top</a>
-			</p>
-			
-			<p class="copyright">&copy; 2018 Make it Wave Ltd
-	
-			</p>
-			
-		</footer>
-		
-		<!-- scripts 2/2 -->
+			<div class="segment">
+			<h2 class="segment-title">Wave Vehicle Tracker</h2>
 
-		
-		<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js">
-		</script> 
-		<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js">
-		</script> <!-- Just to make our placeholder images work. Don't actually copy the next line! --> 
-		<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js">
-		</script> 
-		 
-		<script src="js/dropdown.js">
-		</script> 
-		 
-		<script src="js/scale.fix.js">
-		</script> 
-		<script src="js/jquery.min.js">
-		</script> 
-		<script src="js/videoLightning.js">
-		</script> 
-		
-		<!-- Video Intro -->
-			<script src="js/jqvl-page.js">
-		</script> 
-		<script src="js/page.js">
-		</script> 
-		<script charset="utf-8" src="featherlight/release/featherlight.min.js" type="text/javascript">
-		</script> 
-		<script src="js/smoothloader.js">
-		</script>
-		
-	</body>
+
+			<div style="text-align:center; width:100vw; margin-top:-2.5rem;">
+				<img src="img/productbox2.png" style="width:20rem; padding:10px; height: auto;">
+			</div>
+
+
+			<p class="segment-paragraph">
+				<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="content/wavehomehub.html">Technical Specifications</a>
+			</p>
+
+			<p class="segment-paragraph">The Vehicle Tracker comes complete with USSD Sim Card, Antenna, backup cell battery and vehicle power cable. Everything you require to start enjoying Wave</p>
+
+			<p class="segment-paragraph" style="font-weight: 600;">£299.99 GBP &nbsp;&nbsp; (inc. VAT & Delivery)</p>
+
+			<div class="product-page-buttons">
+				<!-- Buttons Right -->
+
+
+				<div class="button-block-right">
+					<a class="payment-button-img-paypal" href="https://paypal.me/makeitwave/300" onclick="setIframeSrc('framez', this.href); return false" target="_popup"><b class="button-text-paypal">Paypal</b></a> <!-- Buttons Left -->
+
+
+					<div class="button-block-left">
+						<form action="/charge" method="post">
+							<script class="stripe-button" data-amount="29999" data-billing-address="true" data-currency="GBP" data-description="x1 Wave Vehicle Tracker (£299.99)" data-image="/square-image.png" data-key="pk_live_8WTX2ufon6TVxo2P5CcYUWzN" data-name="Wave Store" data-shipping-address="true" src="https://checkout.stripe.com/checkout.js">
+							</script>
+						</form>
+						<script>
+						                                                            document.getElementsByClassName("stripe-button-el")[0].style.display = 'none';
+						</script> <button class="payment-button-img-stripe" type="submit"><b class="button-text-stripe">Card</b></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<span class="sexy_line"></span>
+
+		<div class="segment">
+			<h2 class="segment-title">Wave Energy Monitor</h2>
+
+
+			<p class="segment-paragraph">Coming Soon ....</p>
+		</div>
+		<span class="sexy_line"></span>
+
+		<div class="segment">
+			<h2 class="segment-title">Wave Media Extender</h2>
+
+
+			<p class="segment-paragraph">Coming Soon ....</p>
+		</div>
+		<span class="sexy_line"></span>
+
+		<div class="segment">
+			<h2 class="segment-title">Wave Wi-Fi Extender</h2>
+
+
+			<p class="segment-paragraph">Coming Soon ....</p>
+		</div>
+	</main>
+
+
+	<footer class="footer">
+		<p class="float-right" style="padding-right: calc(2vw);"><a href="#">Back to top</a>
+		</p>
+
+
+		<p class="copyright">&copy; 2018 Make it Wave Ltd</p>
+	</footer>
+	<!-- scripts 2/2 -->
+	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js">
+	</script> 
+	<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js">
+	</script> <!-- Just to make our placeholder images work. Don't actually copy the next line! --> 
+	<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js">
+	</script> 
+	<script src="js/dropdown.js">
+	</script> 
+	<script src="js/scale.fix.js">
+	</script> 
+	<script src="js/jquery.min.js">
+	</script> 
+	<script src="js/videoLightning.js">
+	</script> <!-- Video Intro -->
+	 
+	<script src="js/jqvl-page.js">
+	</script> 
+	<script src="js/page.js">
+	</script> 
+	<script charset="utf-8" src="featherlight/release/featherlight.min.js" type="text/javascript">
+	</script> 
+	<script src="js/smoothloader.js">
+	</script>
+</body>
 </html>

@@ -126,7 +126,7 @@
 /* 01:EB */  .news-link:hover {text-decoration:underline; color:#9FB1B3;}
 /* 01:EC */  .news-link:visited {text-decoration:underline; color:#9FB1B3; opacity:0.8;}
              .news-title-div { display: inline-block; width: 100vw; text-align: center;}
-/* 01:ED */  .news-title { font-size: 1rem; }
+/* 01:ED */  .news-title { font-size: 1rem; font-weight: 400;}
 			 .news-block {height: inherit; margin-bottom:2rem;  }
 /* 01:EF */  .news-subtitle {text-align: center; margin-top:-0.5rem; }
 /* 01:EG */  .year {font-size:1rem; margin-left: calc(50vw - 100px); display:block; left:0; background-color:white; color:#34485D; border-left:1px solid #34485D; border-right:1px solid #34485D; border-top:1px solid #34485D; border-bottom:1px solid #34485D; border-radius:25px; margin-top:-10px; text-align:center; float:left; max-width:calc(33vw)!important; min-width:200px!important; margin-bottom:2.5rem;}
@@ -198,9 +198,10 @@ h1 {
 }
 
 .segment-title {
-	font-size: 2.5rem;
-	margin-bottom:4rem; 
-	background-size: 140px 165px;
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    background-size: 140px 165px;
+    margin-bottom: 5.5rem;
 
 }
 

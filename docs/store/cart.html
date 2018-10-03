@@ -1,61 +1,131 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Winery: Your Shopping Cart</title>
-<meta charset="utf-8" />
-<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.shop.js"></script>
-</head>
-
-<body>
-
-<div id="site">
-	<header id="masthead">
-		<h1>Winery <span class="tagline">Wines for web developers since 1999</h1>
-	</header>
-	<div id="content">
-		<h1>Your Shopping Cart</h1>
-		<form id="shopping-cart" action="cart.html" method="post">
-			<table class="shopping-cart">
-			  <thead>
-				<tr>
-					<th scope="col">Item</th>
-					<th scope="col">Qty</th>
-					<th scope="col" colspan="2">Price</th>
-				</tr>
-			  </thead>
-			  <tbody>
-			  
-			  </tbody>
-			</table>
-			<p id="sub-total">
-				<strong>Sub Total</strong>: <span id="stotal"></span>
-			</p>
-			<ul id="shopping-cart-actions">
-				<li>
-					<input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
-				</li>
-				<li>
-					<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
-				</li>
-				<li>
-					<a href="index.html" class="btn">Continue Shopping</a>
-				</li>
-				<li>
-					<a href="checkout.html" class="btn">Go To Checkout</a>
-				</li>
-			</ul>
-		</form>
-	</div>
 	
-	
+	<head>
+		<meta charset="utf-8">
+		<meta content="1" http-equiv="Expires">
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no" name="viewport">
+		<!-- GitHub Pages -->
+		<script type="type/javascript">
+			  var host = "makeitwave.com";
+			  if {{ host == window.location.host} && {window.location.protocol != "https:""}}
+			  window.location.protocol = "https";
+		</script>
+		
+		<link href="//makeitwave.com" rel="canonical">
+		
+		<!-- SEO -->
+		<meta content="Home Operating System" name="description">
+		<meta content="Make it Wave Ltd" name="author">
+		<title>Wave Store</title>
+		
+		<!-- Icons -->
+		<link href="../img/favicons/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+		<link href="../img/favicons/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+		<link href="../img/favicons/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+		<link href="../img/favicons/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+		<link href="../img/favicons/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+		<link href="../img/favicons/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+		<link href="../img/favicons/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+		<link href="../img/favicons/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+		<link href="../img/favicons/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+		<link href="../img/favicons/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
+		<link href="../img/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+		<link href="../img/favicons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+		<link href="../img/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+		<link href="..//manifest.json" rel="manifest">
+		<meta content="#ffffff" name="msapplication-TileColor">
+		<meta content="../img/favicons/ms-icon-144x144.png" name="msapplication-TileImage">
+		<meta content="#ffffff" name="theme-color">
 
-</div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.shop.js"></script>
+		<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="../css/style.css" >
+		<link rel="stylesheet" href="../css/store.css" media="screen" type="text/css" />
+	</head>
 
-<footer id="site-info">
-		Copyright &copy; Winery
-	</footer>
+	<body>
 
-</body>
+		<header id="mainWrapper">
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+				<a href="../index.html"><img class="navbar-brand" src="../img/wave_logo.png"></a> <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto">
+						
+
+
+						<li class="nav-item">
+						</li>
+
+
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Online Store</a>
+						</li>
+
+
+						<li class="nav-item">
+						</li>
+
+
+						<li class="nav-item">
+							<a class="nav-link" href="../download.html">Download Center</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<div id="site" class="main">			
+			<div id="content">
+				<h2 class="segment-title">Your Shopping Cart</h2>
+				<form id="shopping-cart" action="cart.html" method="post">
+					<table class="shopping-cart">
+					  <thead>
+						<tr>
+							<th scope="col">Item</th>
+							<th scope="col">Qty</th>
+							<th class="th2" scope="col" colspan="1">Price</th>
+						</tr>
+					  </thead>
+					  <tbody>
+					  
+					  </tbody>
+					</table>
+					<p id="sub-total">
+						<strong>Sub Total</strong>: <span id="stotal"></span>
+					</p>
+				
+					<ul id="shopping-cart-actions">
+						<li>
+							<input type="submit" name="update" id="update-cart" class="btn" value="Refresh" />
+						</li>
+						<li>
+							<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty" />
+						</li>
+						<li>
+							<a href="index.html" class="btn">Back</a>
+						</li>
+						<li>
+							<a href="checkout.html" class="btn">Checkout</a>
+						</li>
+					</ul>
+				
+				</form>
+			</div>
+		</div>
+			
+			<footer class="footer">
+				<p class="float-right" style="padding-right: calc(2vw);">
+					<a href="../deck.html">Investor Relations</a>
+				</p>
+
+
+				<p class="copyright">&copy; 2018 Make it Wave Ltd</p>
+			</footer>
+
+	</body>
 </html>	

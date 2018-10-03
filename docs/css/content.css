@@ -32,14 +32,14 @@ html {
 	font-size:2rem;
 	font-weight: lighter;
 	opacity:0.85;
-	color: #34485D;
+	color: #333366;
 }
 
 .paragraph-textarea {
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 	font-weight: 400;
 	opacity:0.85;
-	color: #34485D;
+	color: #333366;
 	display: block;
 	overflow: visible;
 	background: transparent;
@@ -151,9 +151,8 @@ html {
 .paragraph-content {
 	/* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
 	font-weight: lighter;
-	word-spacing:0rem;
-	letter-spacing:0rem;
-	line-height:1.8rem;
+	font-size:2.5rem;
+	line-height:3.8rem;
 
 
 }

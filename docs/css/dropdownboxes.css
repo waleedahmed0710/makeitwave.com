@@ -43,7 +43,7 @@ dl.dropdown2>img {display:hidden; display:none;}
 .carousel-dropdown a:hover {color: #5d4617;}
 .carousel-dropdown dt a:hover, .carousel-dropdown dt a:focus {color: #5d4617;}
 .carousel-dropdown dt a {position: relative; background: transparent; display: block; padding-right: 10px; overflow: hidden; border:1px solid white; border-radius: 7px; max-width:230px; max-height: 35px;}
-.carousel-dropdown dd ul {background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 934, from(rgba(52,72,93,0.9)), to(rgba(97,207,247,0.9))); box-shadow: inset 0 1px 9px rgba(255,255,255,0.4); padding-top: 1rem; position: fixed; border: 1px solid grey; border-radius: 17px 17px 0px 0px; overflow-y: hidden; -webkit-overflow-scrolling: touch; width: 217px; max-width: 786px; margin-left: 2px; max-height: 357px; margin-top: calc(5vh + 3rem); bottom: 87px;}
+.carousel-dropdown dd ul { background: rgba(51,51,102,0.9); box-shadow: inset 0 1px 9px rgba(255,255,255,0.4); padding-top: 1rem; position: fixed; border: 1px solid grey; border-radius: 17px 17px 0px 0px; overflow-y: hidden; -webkit-overflow-scrolling: touch; width: 217px; max-width: 786px; margin-left: 2px; max-height: 357px; margin-top: calc(5vh + 3rem); bottom: 87px;}
 .carousel-dropdown dd ul::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3); border-left:1px solid rgba(0,0,0,0.1);}
 .carousel-dropdown dd ul::-webkit-scrollbar-thumb {background: rgba(0,0,0,0.4);}
 .carousel-dropdown dd ul::-webkit-scrollbar-thumb:window-inactive {background: blue;}

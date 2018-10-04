@@ -103,10 +103,10 @@
 				
 					<ul id="shopping-cart-actions">
 						<li>
-							<input type="submit" name="update" id="update-cart" class="btn" value="Refresh" />
+							<input type="submit" name="update" id="update-cart" class="btn" value="Refresh"  name="myForm" onsubmit="event.preventDefault(); validateMyForm();"/>
 						</li>
 						<li>
-							<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty" />
+							<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty" name="myForm" onsubmit="event.preventDefault(); validateMyForm();" />
 						</li>
 						<li>
 							<a href="index.html" class="btn">Back</a>
@@ -129,6 +129,21 @@
 
 				<p class="copyright">&copy; 2018 Make it Wave Ltd</p>
 			</footer>
+			
+			<script type="text/javascript">
+				function validateMyForm()
+				{
+				  if(check if your conditions are not satisfying)
+				  { 
+					alert("validation failed false");
+					returnToPreviousPage();
+					return false;
+				  }
+
+				  alert("validations passed");
+				  return true;
+				}
+			</script>
 
 	</body>
 </html>	

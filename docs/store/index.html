@@ -462,7 +462,7 @@
 							<div class="product-description" data-name="Wi-Fi Booster #M2" data-price="299.99">
 							<img class="navbar-brand" src="../img/wave_logo.png">
 								<h3 class="product-name">Wi-Fi Signal Booster</br><b class="product-name-subtitle"> Mark II</b></h3>
-								<form class="add-to-cart" action="cart.html" method="post">
+								<form class="add-to-cart" action="cart.html" method="post" name="myForm" onsubmit="return validateMyForm();">
 										<table class="add-to-cart-table">
 											<thead>
 												<tr>
@@ -492,7 +492,7 @@
 			<div class="store-button-footer">
 			
 				<form id="shopping-cart" style="text-align:left;" >
-				<p class="store-button-bar-text" id="sub-total" style="font-size:12px;margin-top:5px; left:0; padding-left:0px; text-align:left!important;">
+				<p class="store-button-bar-text" id="sub-total">
 					<a href="cart.html" class="store-button-bar" style="text-align:left!important; left:0; margin-left:0;">Checkout:<span id="stotal" class="cart-amount" style="text-align:left;"></span>
 					</a>
 				</p>	
@@ -511,6 +511,21 @@
 			<p class="copyright">&copy; 2018 Make it Wave Ltd</p>
 		</footer>
 				
+			<script type="text/javascript">
+				function validateMyForm()
+				{
+				  if(check if your conditions are not satisfying)
+				  { 
+					alert("validation failed false");
+					returnToPreviousPage();
+					return false;
+				  }
+
+				  alert("validations passed");
+				  return true;
+				}
+			</script>
+			
 		<!-- scripts 2/2 -->
 		<script src="../js/scale.fix.js"></script> 
 		<script src="../js/jquery.min.js"></script> 

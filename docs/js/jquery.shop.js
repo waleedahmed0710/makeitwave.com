@@ -33,7 +33,7 @@
 			this.currencyString = "£"; // Currency symbol as textual string
 			this.paypalCurrency = "GBP"; // PayPal's currency code
 			this.paypalBusinessEmail = "info@makeitwave.com"; // Your Business PayPal's account email address
-			this.paypalURL = "https://www.sandbox.paypal.com/cgi-bin/merchantpaymentweb?cmd=_flow&SESSION=Xh2JQfIL9UdE3_joMirAg0GBuCrdblqgYgW5obTrWiwyBGOgk1aoTqHcHlW&dispatch=50a222a57771920b6a3d7b606239e4d529b525e0b7e69bf0224adecfb0124e9b61f737ba21b0819863eeac493bb9aa4bf57acefcf1040024&rapidsState=OneX__ExpressCheckoutOneXFlow___StateNewLogin&rapidsStateSignature=0794e2b424347935988dc00b17f405405a1a6ed1"; // The URL of the PayPal's form
+			this.paypalURL = "https://www.sandbox.paypal.com/cgi-bin/"; // The URL of the PayPal's form
 			
 			// Object containing patterns for form validation
 			this.requiredFields = {

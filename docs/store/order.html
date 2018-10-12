@@ -58,7 +58,15 @@
 						<ul class="navbar-nav mr-auto">
 							
 
+						<li class="nav-item">
+						</li>
 
+
+						<li class="nav-item">
+							<a class="nav-link" href="../demo.html" target="_popup">Interactive Demo</a>
+						</li>
+						
+					
 							<li class="nav-item">
 							</li>
 
@@ -112,13 +120,14 @@
 		 </div>
 		 
 		 	<div class="order-button-footer">
-			<form id="paypal-form" action="" method="post">
+			<form id="paypal-form" method="post"  name="gotopaypal" onsubmit="event.preventDefault(); validateGoToPaypal(); window.location=$("https://www.sandbox.paypal.com/cgi-bin/");">
 			<input type="hidden" name="cmd" value="_cart" />
 			<input type="hidden" name="upload" value="1" />
 			<input type="hidden" name="business" value="" />
 				
 			<input type="hidden" name="currency_code" value="" />
 			<input type="submit" id="paypal-btn" class="btn proceed-to-checkout-btn-next" value="Pay Now" style=" max-height: 20px; margin-top:-0.65rem!important; padding:0.1rem!important;" />
+			<p><a class="btn proceed-to-checkout-btn-back" href="javascript:history.back();" />Back</a></p>
 		
 		</form></div>
 		
@@ -355,7 +364,7 @@
 		</div>
 			
 			<script type="text/javascript">
-				function validateMyForm()
+				function validateGoToPaypal()
 				{
 				  if(check if your conditions are not satisfying)
 				  { 

@@ -66,7 +66,7 @@
 		</style>
 		
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.shop.js"></script>
+		<script type="text/javascript" src="../js/jquery.shop.js"></script>
 		<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
 		
 	</head>
@@ -145,7 +145,7 @@
 				</div>
 				</br>
 				
-				<form action="order.html" method="post" id="checkout-order-form" name="myForm" onsubmit="event.preventDefault(); window.location=$("order.html");">
+				<form action="order.html" method="post" id="checkout-order-form" name="order"  onsubmit="event.preventDefault(); validatesubmitorder(); window.location=$("order.html");">
 					
 						
 					<fieldset id="fieldset-billing">
@@ -215,10 +215,10 @@
 							
 						</fieldset>	
 							
-							<div style="display:flex; background-color:black; opacity:0.01; width:100px; height: 100px; position:static; bottom:0!important; "></div>
+							<div style="display:flex; background-color:black; opacity:0.01; width:100px; height: 100px; position:static; bottom:0!important;" ></div>
 							
 							<div class="checkout-button-footer">
-									<p><input type="submit" id="submit-order" value="Next" class="btn proceed-to-checkout-btn-next" style=" min-width:6rem; max-width:6rem;"  /></p>
+									<p><input type="submit" id="submit-order" value="Next" class="btn proceed-to-checkout-btn-next" style=" min-width:6rem; max-width:6rem;" /></p>
 									<p><a class="btn proceed-to-checkout-btn-back" href="javascript:history.back();" />Back</a></p>
 							</div>
 				</form>	
@@ -453,12 +453,12 @@
 		
 	
 				<script type="text/javascript">
-				function validateMyForm()
+				function validatesubmitorder()
 				{
 				  if(check if your conditions are not satisfying)
 				  { 
 					alert("validation failed false");
-					returnToPreviousPage();
+				
 					return false;
 				  }
 

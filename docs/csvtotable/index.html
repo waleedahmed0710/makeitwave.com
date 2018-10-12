@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js is-responsive is-mobile-first">
 <head>
 	<meta charset="utf-8" />
 	<title>jQuery CSVToTable</title>
@@ -11,11 +11,11 @@
 	<script type="text/javascript" src="js/jquery.tablesorter.dev.js"></script>
 	<script>
 	$(function() {
-		$.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-wrTWJkYlP-gjKl5j6qQfmKn24F8nsyku8FW06qWEgW4MnPOkXrxpWFNzyuNJc9f8FaWYEgm7lQPE/pubhtml?gid=291480663&single=true&output=csv', function(data) {
+		$.get('test.tsv', function(data) {
 			$('#CSVSource').html('<pre>' + data + '</pre>');
 		});
 		$('#CSVTable').CSVToTable('test.csv', { loadingImage: 'images/loading.gif', startLine: 0 });
-		$.get('test.tsv', function(data) {
+		$.get('test.csv', function(data) {
 			$('#TSVSource').html('<pre>' + data + '</pre>');
 		});
 		$('#TSVTable').CSVToTable('test.tsv', { loadingText: 'Loading TSV Data...', loadingImage: 'images/loading.gif', startLine: 0, separator: "\t" });
@@ -33,11 +33,7 @@ UK Companies invited to bid for a 'Certified Wave Installer' Licence for their t
 </div>
 
 <br><br>
- <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-wrTWJkYlP-gjKl5j6qQfmKn24F8nsyku8FW06qWEgW4MnPOkXrxpWFNzyuNJc9f8FaWYEgm7lQPE/pubhtml?gid=291480663&single=true&output=csv">source file</a><br>
-
-
-
-
+ <a href="test.csv">source file</a><br>
 
 </body>
 </html>

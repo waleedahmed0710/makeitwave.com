@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var items1 = exports.items1 = [{
     type: 'label',
-    title: 'Give it a test drive:'
+    title: 'testing:'
 }, '-', {
     title: '10 levels here',
     items: [{
@@ -72,7 +72,7 @@ var items1 = exports.items1 = [{
     title: 'Leaf item'
 }, '-', {
     type: 'link',
-    title: 'Give me the stars!',
+    title: 'Online Store',
     url: 'https://github.com/dkozar/react-data-menu/stargazers',
     target: '_blank'
 }];

@@ -52,12 +52,8 @@ html.with-featherlight {
 	max-width: calc(98vw);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	text-rendering: auto;
-	text-rendering: optimizeSpeed;
-	text-rendering: optimizeLegibility;
-	text-rendering: geometricPrecision;
+	text-rendering: optimizeLegibility;  
 	image-rendering: auto;
-	image-rendering: crisp-edges;
 		
 }
 
@@ -77,12 +73,8 @@ html.with-featherlight {
 	max-width: calc(98vw);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	text-rendering: auto;
-	text-rendering: optimizeSpeed;
-	text-rendering: optimizeLegibility;
-	text-rendering: geometricPrecision;
+text-rendering: optimizeLegibility;  
 	image-rendering: auto;
-	image-rendering: crisp-edges;
 		
 }
 
@@ -135,10 +127,7 @@ html.with-featherlight {
 	overflow-x: hidden!Important;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	text-rendering: auto;
-	text-rendering: optimizeSpeed;
-	text-rendering: optimizeLegibility;
-	text-rendering: geometricPrecision;
+text-rendering: optimizeLegibility;  
 	
 }
 

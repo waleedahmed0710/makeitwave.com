@@ -1,6 +1,6 @@
 export const items1 = [{
     type: 'label',
-    title: 'Give it a test drive:'
+    title: 'Online Store'
 }, '-', {
     title: '10 levels here',
     items: [{
@@ -67,7 +67,7 @@ export const items1 = [{
     title: 'Leaf item'
 }, '-', {
     type: 'link',
-    title: 'Give me the stars!',
+    title: 'Checkout',
     url: 'https://github.com/dkozar/react-data-menu/stargazers',
     target: '_blank'
 }];

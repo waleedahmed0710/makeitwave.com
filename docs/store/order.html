@@ -120,11 +120,10 @@
 		 </div>
 		 
 		 	<div class="order-button-footer">
-			<form id="paypal-form" method="post"  name="gotopaypal" onsubmit="event.preventDefault(); validateGoToPaypal(); window.location=$("https://www.sandbox.paypal.com/cgi-bin/");">
+			<form id="paypal-form" method="post" action="" name="gotopaypal" onsubmit="event.preventDefault(); validateGoToPaypal();>
 			<input type="hidden" name="cmd" value="_cart" />
 			<input type="hidden" name="upload" value="1" />
 			<input type="hidden" name="business" value="" />
-				
 			<input type="hidden" name="currency_code" value="" />
 			<input type="submit" id="paypal-btn" class="btn proceed-to-checkout-btn-next" value="Pay Now" style=" max-height: 20px; margin-top:-0.65rem!important; padding:0.1rem!important;" />
 			<p><a class="btn proceed-to-checkout-btn-back" href="javascript:history.back();" />Back</a></p>

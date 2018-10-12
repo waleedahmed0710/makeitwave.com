@@ -1836,7 +1836,7 @@ body.modal-open{overflow:hidden}
 .is-visible{display:inline-block!important}
 .is-invisible{visibility:hidden}
 .is-transparent{opacity:.5}
-[data-state=sticky]{position:fixed}
+[data-state=sticky]{position:fixed;}
 .hide,[data-state=hidden]{display:none}
 .show,[data-state=visible]{display:block}
 .is-accessibly-hidden{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}

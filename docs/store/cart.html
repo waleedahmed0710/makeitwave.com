@@ -53,7 +53,7 @@
 		</style>
 		
 	    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.shop.js"></script>
+		<script type="text/javascript" src="../js/jquery.shop.js"></script>
 		
 	</head>
 
@@ -98,7 +98,7 @@
 		<div id="site" class="main">			
 			<div id="content" class="segment-top">
 				<h2 class="segment-title">Shopping Basket</h2>
-				<form id="shopping-cart" action="cart.html" method="post" name="myForm" onsubmit="event.preventDefault(); window.location.reload();">
+				<form id="shopping-cart" action="cart.html" method="post" name="shoppingcart" onsubmit="event.preventDefault(); window.location.reload();">
 					<table class="shopping-cart">
 					  <thead>
 						<tr>
@@ -117,10 +117,10 @@
 				
 					<ul id="shopping-cart-actions">
 						<li>
-							<input type="submit" id="update-cart" class="btn" value="Refresh"  onsubmit="event.preventDefault(); validateMyForm();" name="up<a href="https://www.jqueryscript.net/time-clock/">date</a>" />
+							<input type="submit" id="update-cart" class="btn" value="Refresh"  name="updatecart" onsubmit="event.preventDefault(); validateupdatecart();"  />
 						</li>
 						<li>
-							<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty" name="myForm" onsubmit="event.preventDefault(); validateMyForm();" />
+							<input type="submit" id="empty-cart" class="btn" value="Empty" name="delete" onsubmit="event.preventDefault(); validatedelete();" />
 						</li>
 						<li>
 							<a href="javascript:history.back();" class="btn">Back</a>
@@ -360,7 +360,7 @@
 		</div>
 			
 			<script type="text/javascript">
-				function validateMyForm()
+				function validatedelete()
 				{
 				  if(check if your conditions are not satisfying)
 				  { 
@@ -373,6 +373,39 @@
 				  return true;
 				}
 			</script>
+			
+					
+			<script type="text/javascript">
+				function validateupdatecart()
+				{
+				  if(check if your conditions are not satisfying)
+				  { 
+					alert("validation failed false");
+					returnToPreviousPage();
+					return false;
+				  }
+
+				  alert("validations passed");
+				  return true;
+				}
+			</script>
+			
+						<script type="text/javascript">
+				function validateshoppingcart()
+				{
+				  if(check if your conditions are not satisfying)
+				  { 
+					alert("validation failed false");
+					returnToPreviousPage();
+					return false;
+				  }
+
+				  alert("validations passed");
+				  return true;
+				}
+			</script>
+			
+		
 	</body>
 		<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script> 
 		<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>

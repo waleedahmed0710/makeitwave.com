@@ -138,10 +138,10 @@
 /* 01:AH */	#paypal-form {	margin:1.5em 0;}
 /* 01:AI */	.row li {display:block;}
 /* 01:AJ */	.shift-down {margin-top:69px;}
-/* 01:AK */	.store-button-footer {float: left; left: 0; width: 105vw; height: 3.5rem!important; overflow: hidden; position: sticky; bottom: 0; border-top: 1px solid grey; background-color: #333366!important;  margin-left: -5vw!important; padding:0 1em -1em 1em; }
-/* 01:?? */	.checkout-button-footer {float: left; left: 0; width: 105vw; height: 3.5rem!important; overflow: hidden; position: sticky; bottom: 0; border-top: 1px solid grey; background-color: #333366!important;  margin-left: -5vw!important; padding:0 1em 0em 1em; }
+/* 01:AK */	.store-button-footer {float: left; left: 0; width: 105vw; height: 3.5rem!important; overflow: hidden; position: fixed; position: fixed; bottom: 0; border-top: 1px solid grey; background-color: #333366!important;  margin-left: -5vw!important; padding:0 1em -1em 1em; }
+/* 01:?? */	.checkout-button-footer {float: left; left: 0; width: 105vw; height: 3.5rem!important; overflow: hidden; position: fixed; position: fixed; bottom: 0; border-top: 1px solid grey; background-color: #333366!important;  margin-left: -5vw!important; padding:0 1em 0em 1em; }
 /* 01:AL */	#site-info {height:3em; width:100%; line-height:3; text-align:center; background:#cc8500; position:absolute; color:#fff; left:0; bottom:0;}
-/* 01:AK */	.basket-button-footer {float: left; left: 0; width: 105vw; height: 3.5rem!important; overflow: hidden; position: sticky; bottom: 0; border-top: 1px solid grey; background-color: #333366!important;  margin-left: -5vw!important; padding:0 1em 0em 1em; }
+/* 01:AK */	.basket-button-footer {float: left; left: 0; width: 105vw; height: 3.5rem!important; overflow: hidden; position: fixed; position: fixed; bottom: 0; border-top: 1px solid grey; background-color: #333366!important;  margin-left: -5vw!important; padding:0 1em 0em 1em; }
 /* 01:AM */	.tagline {float:right; color:#666; font-size:14px; padding-top:3.5em;}
 /* 01:AN */	.th2 {width:40%!important;}
 /* 01:AO */	th {font-weight:200!important;}
@@ -161,15 +161,15 @@
 /* 01:CG */	#checkout-order-form input[type="text"] {width:100%; display:block; background:#fff; border:1px solid #ddd; border-radius:4px; padding:0.3em;}
 /* 01:CH */	#checkout-order-form select { 	width:100%; display:block; background:#fff; border:1px solid #ddd; border-radius:4px; padding:0.3em;}
 /* 01:CI */	#checkout-order-form h2 {font-size:larger; text-align:left; color:grey; padding-left:30px; float:left;}
-/* 01:CJ */	.checkout-button-footer { float: right; left: 0px; width: 100%; height: 4.4rem; overflow: hidden; position: sticky; bottom: 0px; border-top: 1px solid grey; background-color: #333366!important; padding-bottom: 69px; margin-bottom: 0px;}
-/* 01:CJ */	.order-button-footer { float: right; left: 0px; width: 100%; height: 4.4rem; overflow: hidden; position: sticky; bottom: 0px; border-top: 1px solid grey; background-color: #333366!important; padding-bottom: 69px; margin-bottom: 0px;}
-/* 01:CJ */	.cart-button-footer { float: right; left: 0px; width: 100%; height: 4.4rem; overflow: hidden; position: sticky; bottom: 0px; border-top: 1px solid grey; background-color: #333366!important; padding-bottom: 69px; margin-bottom: 0px;}
-/* 01:CJ */	.store-button-footer { float: right; left: 0px; width: 100%; height: 4.4rem; overflow: hidden; position: sticky; bottom: 0px; border-top: 1px solid grey; background-color: #333366!important; padding-bottom: 69px; margin-bottom: 0px;}
+/* 01:CJ */	.checkout-button-footer { float: right; left: 0px; width: 100%; height: 4.4rem; overflow: hidden; position: fixed; position: fixed; bottom: 0px; border-top: 1px solid grey; background-color: #333366!important; padding-bottom: 69px; margin-bottom: 0px;}
+/* 01:CJ */	.order-button-footer { float: right; left: 0px; width: 100%; height: 4.4rem; overflow: hidden; position: fixed; position: fixed; bottom: 0px; border-top: 1px solid grey; background-color: #333366!important; padding-bottom: 69px; margin-bottom: 0px;}
+/* 01:CJ */	.cart-button-footer { float: right; left: 0px; width: 100%; height: 4.4rem; overflow: hidden; position: fixed; position: fixed; bottom: 0px; border-top: 1px solid grey; background-color: #333366!important; padding-bottom: 69px; margin-bottom: 0px;}
+/* 01:CJ */	.store-button-footer { float: right; left: 0px; width: 100%; height: 4.4rem; overflow: hidden; position: fixed; position: fixed; bottom: 0px; border-top: 1px solid grey; background-color: #333366!important; padding-bottom: 69px; margin-bottom: 0px;}
 /* 01:CJ */	.feature-button-footer-holder { 
     width: 100%;
     height: inherit;
     overflow: visible;
-    position: sticky;
+    position: fixed; position: fixed;
     bottom: 0px;
     border-top: 1px solid grey;
 	padding-left:1vw;

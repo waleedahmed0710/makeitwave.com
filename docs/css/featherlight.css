@@ -64,7 +64,7 @@
     max-height: 88.3vh;
     height: inherit;
     bottom: 0px!important;
-    position: sticky;
+    position: fixed; position: fixed;
     display: inline-flex!important;
     width: 100%;
     padding-bottom: 0rem;

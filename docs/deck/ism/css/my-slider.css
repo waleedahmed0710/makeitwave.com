@@ -112,7 +112,7 @@
 */
 
 /* 01:AA */ .ism-slider > ol, .ism-slider > ol > li, .ism-slider > ol > li > img { width: 100%; list-style: none; margin: 0; padding: 0; }
-/* 01:AB */ .ism-slider {overflow: hidden; position: relative; padding: 0 !important; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: default; z-index: 2; background-color: white; -webkit-animation: ism-fadein 3s; -webkit-background-clip: padding-box; -moz-background-clip: padding; background-clip: padding-box; image-rendering: auto; image-rendering: crisp-edges;}
+/* 01:AB */ .ism-slider {overflow: hidden; position: relative; padding: 0 !important; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: default; z-index: 0; background-color: white; -webkit-animation: ism-fadein 3s; -webkit-background-clip: padding-box; -moz-background-clip: padding; background-clip: padding-box; image-rendering: auto; image-rendering: crisp-edges;}
 /* 01:AC */ .ism-slider .ism-slides {list-style: none; position: absolute; height: 100%; top: 0; padding: 0 !important; margin-top: 0; margin-bottom: 0; z-index: 1;}
 /* 01:AD */ .ism-slider li.ism-slide {height: 100%; overflow: hidden; position: absolute; display: block; top: 0; bottom: 0; margin: 0 !important; padding: 0 !important; background-color: #333366; text-align: center;}
 /* 01:AE */ .ism-slider .ism-img-frame {display: block; position: absolute; width: 100%; height: 100%;}
@@ -163,7 +163,7 @@
 /* 01:EG */ #my-slider .ism-pause-button.ism-play {background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAs6AAALOgFkf1cNAAACy0lEQVR42uWbS2hUVxyHv78PLKKiFgXBiIgvBEVKwZWL4kJrF7oQCSpoAlYkuhCyq4hQ2goqSBFBsNBCoXShbgp15XsTQSGKqKj1QdTYFCVQiuDic5FcGkQhj0nm3vl/6+Ge+X3zO2fumTkXhoi6S51NVtQbapfallVAh//Toc7KLED1jbpPnZJVQMF99fPMAgqOqZ9mFqD6UP06s4CC8+r0MucZN8rX/wJ4pu5VP8nYgIHcU5dna8BAFgM31e8rvUiOoAHvt2FHZgEFf6iTs0yBD/EV0K3uVidkFAAwFTgB3FKXZBRQsBS4q+5XZ2YUUPAtcEVtzioAYBnwm/q7OimjgILNwAt1Z1YBADOAk+ptdUFGAQDRPy0equ213GBVRcBADgOX1Y1ZBQAsB86qP4/0BqqqAgq292+3W7IKAJgNnFI71XkZBRQ5VgBP1DZ1WjYBAzkOXFLXZhUAsBI4p55Qx2cUULAbeKxuyyoAYC7wi3pdnZNRQJHzs/5FslWdmk1AwUTgJ+Ciui6jAACBWcDfGQX0At8A8yPiBsCEROHPA80R0ZNtEXwKtETEmvfDZ2jAIeDHiHjxsRc0ogCBl8DGiOjIdiv8H3AQaBpM+EZrwFVgU0S8zLYd7gLaImL1UMM3QgOOAUcjomu4F6iqgH+AzRFxoRabhCrxlr6/zppqEb5qDbgGbIiI7lpvE8vOc6A9IlbVOnwVGnAS+CEinozWAGUV8BrYGhF/jvZAZZwCh4B5YxG+bA3oBNZHxPOxHLQMDegG9kfEyrEOX4YG/AociIhH9XoD9RLQC7RGxJl6168eU+Aofb/JnSnB9BvTBtwBvhzN7/SyNqAH+C4ilpUt/LAY4lnh0+pCGolBCuhVt9CIDPKhqco8WVrLRfAvYG1EPKjSB1qLRfAVcARYVLXwtZgC5+pxxL3eAq6p/47kaFrVBexRmxolzzsZ+iOF4pXTWQAAAABJRU5ErkJggg==);}
 /* 01:EH */ #my-slider .ism-button:hover {background-color: rgba(0, 0, 0, 0.6);}
 /* 01:EI */ #my-slider .ism-pause-button:hover {background-color: rgba(0, 0, 0, 0.6);}
-/* 01:EJ */ #my-slider .ism-radios {display: block; height: 20px; text-align: center;}
+/* 01:EJ */ #my-slider .ism-radios {display: block; height: 14px; text-align: center;}
 /* 01:EK */ #my-slider .ism-radios label {width: 20px; height: 20px; border-radius: 3px; color: #000; background-color: rgba(255, 255, 255, 0.5);}
 /* 01:EL */ #my-slider .ism-radios li.active label {background-color: rgba(255, 255, 255, 1.0);}
 /* 01:EM */ #my-slider .ism-radios label:hover {background-color: rgba(255, 255, 255, 0.8);}
@@ -831,7 +831,7 @@ p.ism-badge a.ism-link:hover {color: #aaa; text-decoration: underline;}
 #my-slider .ism-pause-button.ism-play {background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAs6AAALOgFkf1cNAAACy0lEQVR42uWbS2hUVxyHv78PLKKiFgXBiIgvBEVKwZWL4kJrF7oQCSpoAlYkuhCyq4hQ2goqSBFBsNBCoXShbgp15XsTQSGKqKj1QdTYFCVQiuDic5FcGkQhj0nm3vl/6+Ge+X3zO2fumTkXhoi6S51NVtQbapfallVAh//Toc7KLED1jbpPnZJVQMF99fPMAgqOqZ9mFqD6UP06s4CC8+r0MucZN8rX/wJ4pu5VP8nYgIHcU5dna8BAFgM31e8rvUiOoAHvt2FHZgEFf6iTs0yBD/EV0K3uVidkFAAwFTgB3FKXZBRQsBS4q+5XZ2YUUPAtcEVtzioAYBnwm/q7OimjgILNwAt1Z1YBADOAk+ptdUFGAQDRPy0equ213GBVRcBADgOX1Y1ZBQAsB86qP4/0BqqqAgq292+3W7IKAJgNnFI71XkZBRQ5VgBP1DZ1WjYBAzkOXFLXZhUAsBI4p55Qx2cUULAbeKxuyyoAYC7wi3pdnZNRQJHzs/5FslWdmk1AwUTgJ+Ciui6jAACBWcDfGQX0At8A8yPiBsCEROHPA80R0ZNtEXwKtETEmvfDZ2jAIeDHiHjxsRc0ogCBl8DGiOjIdiv8H3AQaBpM+EZrwFVgU0S8zLYd7gLaImL1UMM3QgOOAUcjomu4F6iqgH+AzRFxoRabhCrxlr6/zppqEb5qDbgGbIiI7lpvE8vOc6A9IlbVOnwVGnAS+CEinozWAGUV8BrYGhF/jvZAZZwCh4B5YxG+bA3oBNZHxPOxHLQMDegG9kfEyrEOX4YG/AociIhH9XoD9RLQC7RGxJl6168eU+Aofb/JnSnB9BvTBtwBvhzN7/SyNqAH+C4ilpUt/LAY4lnh0+pCGolBCuhVt9CIDPKhqco8WVrLRfAvYG1EPKjSB1qLRfAVcARYVLXwtZgC5+pxxL3eAq6p/47kaFrVBexRmxolzzsZ+iOF4pXTWQAAAABJRU5ErkJggg==);}
 #my-slider .ism-button:hover {background-color: rgba(0, 0, 0, 0.6);}
 #my-slider .ism-pause-button:hover {background-color: rgba(0, 0, 0, 0.6);}
-#my-slider .ism-radios {display: block; height: 20px; text-align: center;}
+#my-slider .ism-radios {display: block; height: 16px; text-align: center;}
 #my-slider .ism-radios label {width: 20px; height: 20px; border-radius: 3px; color: #000; background-color: rgba(255, 255, 255, 0.5);}
 #my-slider .ism-radios li.active label {background-color: rgba(255, 255, 255, 1.0);}
 #my-slider .ism-radios label:hover {background-color: rgba(255, 255, 255, 0.8);}

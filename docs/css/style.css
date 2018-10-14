@@ -121,7 +121,7 @@
 
 /* 01:BA */ .navbar-brand {image-rendering: auto; max-width: 115px!important; max-height:auto; margin-bottom:-5px; opacity:1; border: 0px solid transparent!important; }
 /* 01:BB */ .nav-link {font-weight: lighter!important; text-decoration: none!important; border-left: 1px solid #333366; opacity: 1; border-radius: 30px 30px 30px 30px; box-shadow: 2px 1px 3px rgba(255, 255, 255, 0.2); margin: 2px; display: block; height: auto; width: 90vw; text-align: center; font-size: 1rem; color: white; letter-spacing: 0.03rem; padding:5px; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";}
-/* 01:BC */ .navbar-expand-md .navbar-nav .nav-link {min-height: 35px; box-shadow: inset 0 -21px 20px rgba(255,255,255,0.05); color: rgba(255,255,255,0.8); padding: auto!important;}
+/* 01:BC */ .navbar-expand-md .navbar-nav .nav-link {min-height: 35px; box-shadow: inset 0 -21px 20px rgba(255,255,255,0.05); color: rgba(255,255,255,1); padding: auto!important;}
 /* 01:BD */ .bg-dark {background-color: #333366!important; max-width: 100.5vw!important; /* stops jumping when slider changes */  overflow:hidden;}
 
 /* 01:CA */ .segment-top {height: inherit; margin:0 0 0 0; padding-top:65px; padding-bottom:0; background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); verticle-align:top; }
@@ -186,9 +186,9 @@
 /* 02:BD */ .bg-dark  {}
 
 /* 02:CA */ .segment-top  {}
-/* 02:CB */ .segment  {padding-top:5rem;}
+/* 02:CB */ .segment  {padding-top:2rem;}
 /* 02:CC */ .segment-bottom  {}
-/* 02:CD */ .segment-title  {font-size: 2.5rem; margin: -2rem 0 2rem 0; background-size: contain;  }
+/* 02:CD */ .segment-title  {font-size: 2.5rem; margin: 2rem 0 2rem 0; background-size: contain;  }
 /* 02:CE */ .segment-subtitle  {}
 /* 02:CF */ .segment-paragraph  {text-align:justify;}
 /* 02:CG */ .segment-col-paragraph  {max-height: 250px;}

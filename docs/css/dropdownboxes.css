@@ -9,7 +9,7 @@
 .dropdown2 dt a span span {display: inline-block; padding: 0;}
 .dropdown2 dt a span span:first-child {padding:0;}
 .dropdown2 dd {	position: relative;}
-.dropdown2 a, .dropdown2 a:visited {color: #4a535f; text-decoration: none; outline: none; text-align:left;}
+.dropdown2 a, .dropdown2 a:visited {color: #4a535f; text-decoration: none; outline: none; text-align:left; z-index:0!important;}
 .dropdown2 a:hover {color: #5d4617;}
 .dropdown2 dt a:hover, .dropdown2 dt a:focus {color: #5d4617;}
 .dropdown2 dt a {position: relative; background: #e3e6ef; display: block; padding-right: 20px; overflow: hidden; border:1px dotted grey; border-radius: 5px; width:250px;}

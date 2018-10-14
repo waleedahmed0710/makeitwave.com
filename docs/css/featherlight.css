@@ -64,12 +64,11 @@
     max-height: 88.3vh;
     height: inherit;
     bottom: 0px!important;
-    position: fixed; position: fixed;
+    position: sticky;
     display: inline-flex!important;
     width: 100%;
     padding-bottom: 0rem;
-	text-rendering: optimizeLegibility!important;
-	z-index:4;}
+	text-rendering: optimizeLegibility!important;}
 /* 01:C */ .featherlight * { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; text-rendering: optimizeLegibility!important;}
 /* 01:D */ .featherlight:last-of-type { }
 /* 01:E */ .featherlight:before { }
@@ -103,10 +102,11 @@
     background: #333366;
     color: rgba(255,255,255,0.45);
     border-radius: 8px;
-    padding: 0.1rem;
+    padding: 0rem;
     width: 2rem;
     height: 2rem;
     opacity: 0.85!important;
+    zoom: 1.1;
     text-transform: uppercase!Important;
     font-weight: bold;
     margin-right: calc(1vw + 0.5rem);

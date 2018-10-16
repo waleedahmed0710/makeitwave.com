@@ -67,6 +67,11 @@
 		<script src="https://www.paypalobjects.com/api/checkout.js" data-version-4></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
 		<script type="text/javascript" src="../js/jquery.shop.js"></script>
+		
+		<!-- Snopcart -->
+		<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="YTBiMjkwMjktNTA4NS00ZjY4LTg4Y2QtODAzOTk4YTdiMzBhNjM2NzQyMTQwMDM0MzcyMDI0"></script>
+		<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+
 	</head>
 
 	<body onload="pageLoad()">
@@ -534,23 +539,16 @@
 							<div class="product-description" data-name="Signal Booster V2" data-price="1.99">
 							<img class="navbar-brand" src="../img/wave_logo.png">
 								<h3 class="product-name">Nice Price 4 Lukas (Test)</br><b class="product-name-subtitle">Pre-Order for 2019</b></h3>
-								<form class="add-to-cart" action="#anchor-row4" method="post" name="addtocart" onsubmit="event.preventDefault(); window.location.reload();"  >
-										<table class="add-to-cart-table">
-											<thead>
-												<tr>
-													<th scope="col" class="add-to-cart-columb-title">Price (GBP)</th>
-													<th scope="col" class="add-to-cart-columb-title">Qty</th>
-													<th scope="col" class="add-to-cart-columb-title"></th>
-												</tr>
-										 
-												<tr>
-													<th scope="col">     <p class="add-to-cart-price">&pound; 1.99</p></th>
-													<th scope="col"><div><input class="qty add-to-cart-qty" type="text" name="qty-10" id="qty-10" value="1"/></div></th>
-													<th scope="col" ><input class="btn add-to-cart-pre-order-btn" type="submit" value="Pre-Order" /></th>
-												</tr>
-											</thead>
-										</table>
-									</form>
+								<button
+    class="snipcart-add-item"
+    data-item-id="2"
+    data-item-name="test"
+    data-item-price="3.00"
+    data-item-weight="20"
+    data-item-url="https://makeitwave.com/store/"
+    data-item-description="test">
+        Buy bacon
+</button>
 									
 									<p class="product-paragraph">info coming soon <b class="hideonmobile"> </b>
 									<p></p>

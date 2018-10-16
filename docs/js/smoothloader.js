@@ -24,8 +24,6 @@ setTimeout(function() {
   onLoad(el);
 }, 100);
 
-
-
 function onLoad(element) {
   $(element).addClass('loaded');
 }

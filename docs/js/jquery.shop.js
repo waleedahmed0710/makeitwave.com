@@ -33,7 +33,7 @@
 			this.currencyString = "£"; // Currency symbol as textual string
 			this.paypalCurrency = "GBP"; // PayPal's currency code
 			this.paypalBusinessEmail = "info@makeitwave.com"; // Your Business PayPal's account email address
-			this.paypalURL = "https://www.sandbox.paypal.com/cgi-bin/"; // The URL of the PayPal's form
+			this.paypalURL = "https://www.paypal.com/cgi-bin/"; // The URL of the PayPal's form
 			
 			// Object containing patterns for form validation
 			this.requiredFields = {

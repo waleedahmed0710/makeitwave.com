@@ -161,6 +161,9 @@
 
 /* 01:YA */ .download-tweak0002 {}
 
+	.checkout-visibility-mobile { display:block; opacity:1;}
+			.checkout-visibility-desktop {display:none; opacity:0;}
+
 /* 02:>  */  												   @media all and (min-width:1024px) { 
 /* 02:AA */	 html  {}
 /* 02:AB */	 body  {}
@@ -222,6 +225,9 @@
 /* 02:YA */ .download-tweak0002 {}
 /* 02:YB */  
 /* 02:YC */ .segment-tweak0001 {margin-top:3rem!important;}
+
+	.checkout-visibility-mobile { display:none; opacity:0;}
+			.checkout-visibility-desktop {display:block; opacity:1;}
 
 }  
 

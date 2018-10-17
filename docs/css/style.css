@@ -118,7 +118,7 @@
 /* 01:AP */  v:after { content: ''; width: 99%; position: absolute; left: 0%; bottom: -0.01rem; border-width: 0 0 0.05rem; border-style: solid;}
 /* 01:AQ */ .nowrap h3 {white-space: nowrap;}
 /* 01:AR */ .navbar-toggler {margin-bottom: 0.5rem;}
-
+			.nav {line-height:1px!Important;}
 /* 01:BA */ .navbar-brand {image-rendering: auto; max-width: 115px!important; max-height:auto; margin-bottom:-5px; opacity:1; border: 0px solid transparent!important; }
 /* 01:BB */ .nav-link {font-weight: lighter!important; text-decoration: none!important; border-left: 1px solid #333366; opacity: 1; border-radius: 30px 30px 30px 30px; box-shadow: 2px 1px 3px rgba(255, 255, 255, 0.2); margin: 2px; display: block; height: auto; width: 90vw; text-align: center; font-size: 1rem; color: white; letter-spacing: 0.03rem; padding:5px; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";}
 /* 01:BC */ .navbar-expand-md .navbar-nav .nav-link {min-height: 35px; box-shadow: inset 0 -21px 20px rgba(255,255,255,0.05); color: rgba(255,255,255,1); padding: auto!important;}
@@ -161,8 +161,56 @@
 
 /* 01:YA */ .download-tweak0002 {}
 
-	.checkout-visibility-mobile { display:block; opacity:1;}
-			.checkout-visibility-desktop {display:none; opacity:0;}
+	.checkout-visibility-mobile {
+	display: inline-block!important;
+    opacity: 1;
+    min-height: 46px!important;
+    position: relative!important;
+    top: 0!important;
+    right: 0;
+    float: right!important;
+    background-color: transparent;
+    margin-right: 2px!important;
+    margin-top: 8px;
+	}
+			.checkout-visibility-desktop {
+				
+display:none!important;
+				
+				}
+				
+				.snipcart-checkout-text { text-decoration:none!Important;}
+			
+	.navbar-cart-icon {
+		
+     float: left!important;
+    position: absolute;
+    bottom: 0!important;
+    margin: 0px 22px 0px 5px!important;
+    opacity: 0.6!important;
+    color: rgba(255,255,255,0.9);
+    zoom: 1.95!important;
+	}
+	
+	.navbar-cart-icon-desktop {
+	margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;
+	}
+	
+	.navbar-cart-qnt {
+    color: white;
+    float: right!important;
+    right: 0!important;
+    background-color: transparent;
+    opacity: 0.55;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.25)!important;
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    margin-right: 1px;
+	margin-top:1px;
+	}
+	
+	.checkout-details-desktop {padding:4px!Important; color:white; font-weight:lighter!important; font-size:1rem; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-weight:lighter!Important;}
 
 /* 02:>  */  												   @media all and (min-width:1024px) { 
 /* 02:AA */	 html  {}
@@ -226,8 +274,17 @@
 /* 02:YB */  
 /* 02:YC */ .segment-tweak0001 {margin-top:3rem!important;}
 
-	.checkout-visibility-mobile { display:none; opacity:0;}
-			.checkout-visibility-desktop {display:block; opacity:1;}
+	.checkout-visibility-mobile { display:none!important; opacity:0;}
+			.checkout-visibility-desktop {display:block; opacity:1;     border: 1px solid grey;
+    opacity: 1;
+    border-radius: 5px;
+    padding: 1px;
+    width: 152px;
+    display: flex;
+    object-position: right!important;
+    justify-items: right!important;
+    justify-content: right!important;
+	display: block!Important;}
 
 }  
 

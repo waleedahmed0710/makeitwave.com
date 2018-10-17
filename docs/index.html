@@ -113,8 +113,19 @@
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 					<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a> 
 						
-						<div class="checkout-visibility-mobile"> <a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"> <p style="display:inline!important;"><span class="glyphicon glyphicon-shopping-cart" style="margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;" id="dropdown-glyph" >&nbsp; </span></p> </a></div>
-						
+							<div class="checkout-visibility-mobile"> 
+							<a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"> 
+								<p style="display:inline!important;">
+									<span class="glyphicon glyphicon-shopping-cart navbar-cart-icon" >
+										
+										
+										<div class="snipcart-summary navbar-cart-qnt" > 
+											<span class="snipcart-total-items"></span> 		
+										</div>
+									</span>
+								</p> 
+							</a>
+						</div>
 						
 				 <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 				
@@ -149,7 +160,18 @@
 					</ul>
 				
 				</div>
-			<div class="checkout-visibility-desktop"> <a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"><div class="snipcart-summary " style="color:white;margin-top:10px;"> <b style="color:white;opacity:0.6;">Items:</b> <span class="snipcart-total-items "></span> <p style="display:inline!important;"><span class="glyphicon glyphicon-shopping-cart " style="margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;" id="dropdown-glyph" >&nbsp; </span></p> <b style="color:white;opacity:0.6;">&nbsp;Total:</b> <span class="snipcart-total-price "></span> </div></a></div></nav>
+					<div class="checkout-visibility-desktop"> 
+						<a href="#" class="snipcart-checkout snipcart-checkout-text" >							
+							<div class="snipcart-summary checkout-details-desktop"> 
+								<p style="display:inline!important;">
+									<span class="glyphicon glyphicon-shopping-cart navbar-cart-icon-desktop" >&nbsp; </span>
+								</p> 
+									<b>Items:</b> 
+								<span class="snipcart-total-items "></span> 
+							</div>
+						</a>
+					</div>
+				</nav>
 
 		</header>
 
@@ -193,7 +215,7 @@
 														<dt>
 															<a href="javascript:void(0);">
 																<span>
-																	<span></span><span class="features-text">List of Capabilities</span>
+																	<span></span><span class="features-text">Six Things I Can Do</span>
 																</span>
 															</a>
 														</dt>
@@ -203,7 +225,7 @@
 																<li>
 																	
 																	<a  href="store/index.html#product-1" style="color:#66CCFF!important; white-space: nowrap!important; display:inline-block;">
-																	<b style="color:white">Wave Home Hub</b>
+																	<b style="color:white">Smart Home Hub</b>
 																		<span class="glyphicon glyphicon-tower" id="dropdown-glyph" >&nbsp; </span>
 																	</a>
 																</li>
@@ -417,6 +439,7 @@
 										<div class="button-block-left">
 										
 							<button
+									style="margin-left:-55px!important;position:fixed!important;"
 									class="snipcart-add-item btn add-to-cart-btn"
 									data-item-id="01"
 									data-item-name="Wave Home Hub V1"

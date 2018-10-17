@@ -62,7 +62,8 @@ body { background-color:#fafafa;}
 	margin: 0;
 	border-bottom: 1px solid #e0e0e0;
 	    width: 97.5%;
-    margin-left: 0.25rem;
+    margin-left: -1.25rem!important;
+    border-radius: 12px;
 }
 .collection .collection-item.avatar {
 	min-height: 84px;
@@ -101,7 +102,9 @@ body { background-color:#fafafa;}
 }
 .collection .collection-item.active {
 	background-color: #26a69a;
-	color: #eafaf9
+	color: #eafaf9;
+	max-width:400px;
+	display:inline-flex!important;
 }
 .collection .collection-item.active .secondary-content {
 	color: #fff

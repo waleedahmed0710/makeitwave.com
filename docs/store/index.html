@@ -69,8 +69,9 @@
 		<script type="text/javascript" src="../js/jquery.shop.js"></script>
 		
 		<!-- Snipcart -->
-		<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="YTBiMjkwMjktNTA4NS00ZjY4LTg4Y2QtODAzOTk4YTdiMzBhNjM2NzQyMTQwMDM0MzcyMDI0"></script>
+		<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart"   data-autopop="false" data-api-key="YTBiMjkwMjktNTA4NS00ZjY4LTg4Y2QtODAzOTk4YTdiMzBhNjM2NzQyMTQwMDM0MzcyMDI0"></script>
 		<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+	
 
 	</head>
 
@@ -109,10 +110,16 @@
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link" href="../download.html">Download Center</a>
+							<a class="nav-link" href="../download.html#download-segment">Download Center</a>
 						</li>
 					</ul>
 				</div>
+						<a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"><div class="snipcart-summary" style="color:white;margin-top:10px;">
+						
+		<b style="color:white;opacity:0.6;">Items:</b> <span class="snipcart-total-items"></span>
+	<p style="display:inline!important;"><span class="glyphicon glyphicon-shopping-cart"  style="margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;" id="dropdown-glyph" >&nbsp; </span></p>
+    	<b style="color:white;opacity:0.6;">&nbsp;Total:</b> <span class="snipcart-total-price"></span>
+</div></a>
 			</nav>
 		</header>
 			
@@ -788,7 +795,7 @@
 													</li>
 												
 													<li>
-														<a class="FooterNew-link" href="../download.html" data-uitest-target="GoToDownloadCenter" data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToDownloadCenter">
+														<a class="FooterNew-link" href="../download.html#download-segment" data-uitest-target="GoToDownloadCenter" data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToDownloadCenter">
 																Operating System
 														</a>
 													</li>

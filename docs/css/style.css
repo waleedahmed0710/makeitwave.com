@@ -203,11 +203,11 @@
 /* 02:EA */ .news-link  {font-size:1rem!important;}
 /* 02:EB */ .news-link:hover  {}
 /* 02:EC */ .news-link:visited  {}
-/* 02:ED */ .news-title-div  {}
+/* 02:ED */ .news-title-div  {width:79vw;}
 /* 02:EE */ .news-title  {}
 /* 02:EF */ .news-block  {}
 /* 02:EG */ .news-subtitle  {}
-/* 02:EH */ .year  {margin-top: -15px; margin-left: 28vw; width: 50vw!important; min-height:28px;}
+/* 02:EH */ .year  {margin-top: -15px; margin-left: 23vw; width: 50vw!important; min-height:28px;}
 
 /* 02:FA */ .download-buttons-div  {}
 /* 02:FB */ .rounded-circle  {zoom: 1.5;}

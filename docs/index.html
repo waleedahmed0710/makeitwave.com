@@ -215,7 +215,7 @@
 														<dt>
 															<a href="javascript:void(0);">
 																<span>
-																	<span></span><span class="features-text">Products Using Wave</span>
+																	<span></span><span class="features-text">Other Device Roles</span>
 																</span>
 															</a>
 														</dt>
@@ -421,7 +421,7 @@
 						
 						<!-- First Line  -->  
 							<div class="carousel-caption text-left">
-								<h1 class="carousel-maintitle" >Pre-Order Yours Now </h1>
+								<h1 class="carousel-maintitle" >Get A Wave Home Hub </h1>
 						
 						<!-- Second Line --> 
 								<h2 class="carousel-title">(£199.99 inc. VAT)  <a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="content/product-info.html" h-scrolling="no" v-scrolling="yes"><img class="moreinfo" src="img/info.png"></a>							
@@ -869,9 +869,9 @@
 		
 
   <!--- need for footer-dropdown to work, possibly all 3 --> 
-<script defer="" src="freelancer/polyfills-dd3bd39c.js.download"></script>
-<script defer="" id="systemjs-loader" src="freelancer/systemjs-83712958.js.download"></script>
-<script defer="" id="systemjs-config" src="freelancer/systemjs-config-4223b4bd.js.download"></script>
+<script defer="" src="more-footer/polyfills-dd3bd39c.js.download"></script>
+<script defer="" id="systemjs-loader" src="more-footer/systemjs-83712958.js.download"></script>
+<script defer="" id="systemjs-config" src="more-footer/systemjs-config-4223b4bd.js.download"></script>
 
 
 
@@ -904,28 +904,7 @@ document.getElementById('systemjs-config').addEventListener('load', function() {
     window.performance.mark('systemjs_config_ready');
   }
 
-  System.register(
-    'server-data/text-to-posts', [], function(__export) {
-            var isContest;
-      return {
-        setters: [],
-        execute: function() {
-                    __export('isContest', null);
-          }
-      };
-    }
-  );
-  System.register(
-    'server-data/homepage', [], function(__export) {
-            var coupon;
-      return {
-        setters: [],
-        execute: function() {
-                    __export('coupon', null);
-          }
-      };
-    }
-  );
+
   System.register(
     'server-data/footer-locale-selector', [], function(__export) {
             var isAuth;
@@ -936,90 +915,14 @@ document.getElementById('systemjs-config').addEventListener('load', function() {
         setters: [],
         execute: function() {
                     __export('isAuth', "");
-          __export('currentRegion', "North America");
-          __export('currentDomain', "US (International)");
+          __export('currentRegion', "Europe");
+          __export('currentDomain', "UK (International)");
           __export('currentLanguage', "English");
           }
       };
     }
   );
-  System.register(
-    'server-data/flconfigs', [], function(__export) {
-            var sslBaseUrl;
-      var cookieBase;
-      var notifyServer;
-      var flnBillingBaseUrl;
-      var languageCode;
-      var cookieDomain;
-      var siteName;
-      var cdnUrls;
-      var thmSslBaseUrl;
-      var thmOrgId;
-      var facebookAppId;
-      var userJobs;
-      var messagingABTests;
-      var globalMatchmakingABTests;
-      var recaptchaPublicKey;
-      return {
-        setters: [],
-        execute: function() {
-                    __export('sslBaseUrl', "https:\/\/www.freelancer.com");
-          __export('cookieBase', "GETAFREE");
-          __export('notifyServer', "\/\/notifications.freelancer.com");
-          __export('flnBillingBaseUrl', "https:\/\/api.freelancerbilling.com");
-          __export('languageCode', "en");
-          __export('cookieDomain', ".freelancer.com");
-          __export('siteName', "Freelancer.com");
-          __export('cdnUrls', ["cdn2.f-cdn.com","cdn3.f-cdn.com","cdn5.f-cdn.com","cdn6.f-cdn.com"]);
-          __export('thmSslBaseUrl', "https:\/\/cdn1.f-cdn.com");
-          __export('thmOrgId', "lar9e74p");
-          __export('facebookAppId', "120131118061981");
-          __export('userJobs', null);
-          __export('messagingABTests', []);
-          __export('globalMatchmakingABTests', []);
-          __export('recaptchaPublicKey', "6Lc1CCcTAAAAABxlulYmWJj_ZNAHHegrhLV3vS2Z");
-          }
-      };
-    }
-  );
-  System.register(
-    'server-data/tracking', [], function(__export) {
-            var qtsHttpEndpoint;
-      return {
-        setters: [],
-        execute: function() {
-                    __export('qtsHttpEndpoint', "\/\/t.freelancer.com\/");
-          }
-      };
-    }
-  );
 
-  System.register(
-    'angular-server-data/flconfigs',
-    ['angular'],
-    function(__export) {
-      var angular;
-      var messagingABTests;
-      var globalMatchmakingABTests;
-      return {
-        setters: [
-          function(ng) {
-            angular = ng.default;
-          }
-        ],
-        execute: function() {
-          angular.module('flconfigs/messagingABTests', []).constant(
-              'messagingABTests', []
-            );
-            __export('messagingABTests', 'flconfigs/messagingABTests');
-          angular.module('flconfigs/globalMatchmakingABTests', []).constant(
-              'globalMatchmakingABTests', []
-            );
-            __export('globalMatchmakingABTests', 'flconfigs/globalMatchmakingABTests');
-          }
-      };
-    }
-  );
 
   System.import('modules/text-to-post');
   System.import('modules/homepage');
@@ -1030,6 +933,7 @@ document.getElementById('systemjs-config').addEventListener('load', function() {
   System.import('modules/tracking');
   System.import('modules/gdpr-consent');
 });
+
 </script>
 
 <!--// SystemJS  -->

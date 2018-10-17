@@ -57,6 +57,11 @@
 				}
 		</script>
 		
+		<!-- search box -->
+		<link rel="stylesheet" href="search-box/app.css">
+		<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/materialize.css">
+		
 	</head>
 
 	<body bgcolor="#333366" onload="pageLoad()">		
@@ -154,7 +159,7 @@
 			
 			<div class="segment" >
 				<h1 class="segment-title" >Roles</h1>
-					<p class="segment-paragraph" style="text-align:center; padding: 0 2rem 0 2rem!Important;" >A Role is an abbreviation of the term 'Operational Role'. The reason Wave has a Role Store instead of an App Store is because WaveOS actually gives you a choice of what role you want your device to perform before installation completes. In the Home Hub Role for example, the Media Segment has its own Media App Store and the Home Control Segment has its own IoT App Store. </br></br> <a class="btn btn-secondary" href="roles.html">Explore the Role Store</a></p>				
+					<p class="segment-paragraph" style="padding: 0 2rem 0 2rem!Important;" >A Role is an abbreviation of the term 'Operational Role'. The reason Wave has a Role Store instead of an App Store is because WaveOS actually gives you a choice of what role you want your device to perform before installation completes. In the Home Hub Role for example, the Media Segment has its own Media App Store and the Home Control Segment has its own IoT App Store. </br></br><div style="width:100%; text-align:center;"> <a class="btn btn-secondary"  href="roles.html">Explore the Role Store</a></div></p>				
 					<p> </p>	
 					</br>
 			</div>
@@ -167,9 +172,32 @@
 					
 				
 				<div class="buttonsdiv" style="margin-top:3rem; padding-bottom:4rem; text-align:center;">
-					<p class="segment-paragraph" style="text-align:center;" > Question, Query or Concerns ? </br>Our global network of licenced distributors are in every major city worldwide.</br> Please select a territory to locate your nearest Wave product expert </p>
+					<p class="segment-paragraph" > Search the name of your country  ... </p>
 					
-					<div class="wrapperwrapper2" style="margin-top:0!Important; padding-top:0!important;">
+					<input id="search-box" type="text" class="validate" style="max-height:100px!important;" autofocus autocomplete="off" >
+        <ul class="collection" >
+            <li class="collection-item" style="opacity:0;">
+             <a>
+                    Locate Country ...
+                </a>
+            </li>
+            <li class="collection-item" style="opacity:0;">
+                  <a cunt_code="+44" href="territory_pages/england.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;"><span style="background-position:0px -55px"></span><span>England, United Kingdom (UK)</span></a>
+            </li>
+			
+			  <li class="collection-item" style="opacity:0;">
+                <a href="http://deviantart.com">
+                    United States
+                </a>
+            </li>
+			
+		</ul>
+        
+		<div class="no-apps-found" >
+            Error. Try Again
+        </div>
+					
+					<!--- <div class="wrapperwrapper2" style="margin-top:0!Important; padding-top:0!important;">
 
 						<div class="wrapper2">
 					
@@ -188,7 +216,7 @@
 								  <li><a cunt_code="+44" href="territory_pages/england.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;"><span style="background-position:0px -55px"></span><span>Great Britain</span></a></li>
 								  <li><a cunt_code="+1264" href="javascript:void(0);"><span style="background-position:0px -1980px"></span><span>Anguilla</span><span></span></a></li>
 								  <li><a cunt_code="+1268" href="javascript:void(0);"><span style="background-position:0px -869px"></span><span>Antigua and Barbuda</span><span></span></a></li>
-								<!-- flag is wrong  <li><a cunt_code="+247" href="javascript:void(0);"><span style="background-position:0px -55px"></span><span>Ascension Island</span><span></span></a></li> -->
+								<!-- flag is wrong  <li><a cunt_code="+247" href="javascript:void(0);"><span style="background-position:0px -55px"></span><span>Ascension Island</span><span></span></a></li> 
 								  <li><a cunt_code="+61" href="javascript:void(0);"><span style="background-position:0px -1716px"></span><span>Australia</span><span></span></a></li>
 								  <li><a cunt_code="+43" href="javascript:void(0);"><span style="background-position:0px -1331px"></span><span>Austria</span><span></span></a></li>
 								  <li><a cunt_code="+1242" href="javascript:void(0);"><span style="background-position:0px -363px"></span><span>Bahamas</span><span></span></a></li>
@@ -218,12 +246,12 @@
 								</ul>
 							</dd>
 						</dl>
+					</div> -->
 					</div>
-					</div>
-					<p class="segment-paragraph" style="text-align:center;"> Interested in becoming an exclusive WaveOS distributor for your region? </br><a class="btn btn-secondary" href="registration.html" target="_popup" style="margin:20px; ">Apply Now </a></p>
+					<p class="segment-paragraph" style="text-align:center;"> Become an exclusive WaveOS distributor for your region? </br><a class="btn btn-secondary" href="registration.html" target="_popup" style="margin:20px; ">Apply Now </a></p>
 				</div>	
 			</div>	
-			
+			<div class="segment-bottom"></div>
 		</main>	
 		
 	<div class="pinky-template"><div class="sexy_line" style="filter:invert(100%)"></div>
@@ -465,7 +493,18 @@
 		<script src="js/videoLightning.js"></script> 
 		<script src="js/jqvl-page.js"></script> 
 		<script src="featherlight/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-	
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src="search-box/js/list-search-min.js"></script>
+    <script>
+        initializeListSearch({
+            toggleAnimationSpeed: 0,
+            openLinkWithEnterKey: true,
+            itemSelector: '.collection-item',
+            searchTextBoxSelector: '#search-box',
+            noItemsFoundSelector: '.no-apps-found'
+        });
+    </script>
 	</body>
 	
 </html>

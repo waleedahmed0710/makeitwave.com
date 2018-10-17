@@ -45,15 +45,22 @@
 		<link rel="stylesheet" href="css/featherlight.css" type="text/css" />
 		<link rel="stylesheet" href="css/style.css" >
 		<link rel="stylesheet" href="css/dropdownboxes.css">
+			<link href="css/glyphicon.css" type="text/css" rel="stylesheet">
 		
 		<!-- Java -->
 		<script src="js/lazy.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script
+		
 		<script>
 				function pageLoad(){
 				 document.getElementById('mainWrapper').style.visibility="visible";
 				}
 		</script>
+		
+		<!-- search box -->
+		<link rel="stylesheet" href="search-box/app.css">
+		<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/materialize.css">
 	  
 	<!-- Snipcart --> <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-autopop="false" data-api-key="YTBiMjkwMjktNTA4NS00ZjY4LTg4Y2QtODAzOTk4YTdiMzBhNjM2NzQyMTQwMDM0MzcyMDI0"></script> <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" /></head>
 
@@ -66,7 +73,22 @@
 					<img class="navbar-brand" src="img/wave_logo.png">
 				</a> 
 				
-				<div class="checkout-visibility-mobile"> <a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"> <p style="display:inline!important;"><span class="glyphicon glyphicon-shopping-cart" style="margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;" id="dropdown-glyph" >&nbsp; </span></p> </a></div><button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
+				<div class="checkout-visibility-mobile"> 
+							<a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"> 
+								<p style="display:inline!important;">
+									<span class="glyphicon glyphicon-shopping-cart navbar-cart-icon" >
+										
+										
+										<div class="snipcart-summary navbar-cart-qnt" > 
+											<span class="snipcart-total-items"></span> 		
+										</div>
+									</span>
+								</p> 
+							</a>
+						</div>
+				
+				
+				<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				
@@ -74,7 +96,7 @@
 					<ul class="navbar-nav mr-auto">
 					
 
-							
+						
 						<li class="nav-item">
 						</li>
 
@@ -83,13 +105,7 @@
 							<a class="nav-link" href="demo.html" target="_popup">Demo</a>
 						</li>
 						
-							<li class="nav-item">
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="applications.html">MoO Store</a>
-						</li>
-						
+							
 						<li class="nav-item">
 						</li>
 						
@@ -104,11 +120,24 @@
 						<li class="nav-item">
 							<a class="nav-link" href="download.html#download-segment">Download Center</a>
 						</li>
+						
 		
 					</ul>
 				</div>
 				
-			<div class="checkout-visibility-desktop"> <a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"><div class="snipcart-summary" style="color:white;margin-top:10px;"> <b style="color:white;opacity:0.6;">Items:</b> <span class="snipcart-total-items"></span> <p style="display:inline!important;"><span class="glyphicon glyphicon-shopping-cart" style="margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;" id="dropdown-glyph" >&nbsp; </span></p> <b style="color:white;opacity:0.6;">&nbsp;Total:</b> <span class="snipcart-total-price"></span> </div></a></div></nav>
+			<div class="checkout-visibility-desktop"> 
+						<a href="#" class="snipcart-checkout snipcart-checkout-text" >							
+							<div class="snipcart-summary checkout-details-desktop"> 
+								<p style="display:inline!important;">
+									<span class="glyphicon glyphicon-shopping-cart navbar-cart-icon-desktop" >&nbsp; </span>
+								</p> 
+									<b>Items:</b> 
+								<span class="snipcart-total-items "></span> 
+							</div>
+						</a>
+					</div>
+			
+			</nav>
 
 		</header>
 		
@@ -117,60 +146,35 @@
 			<div class="segment">	
 				<h1 class="segment-title" >Licenced Distributors</h1>
 			
-				<div class="wrapperwrapper2">
-
-					<div class="wrapper2">
+						<div class="buttonsdiv" style="margin-top:3rem; padding-bottom:4rem; text-align:center;">
+					<p class="segment-paragraph" style="text-align:center;" > Lookup your country to view your local Wave Distribution Center  ... </p>
 					
-						<dl id="country-select" class="dropdown2">
-							<dt>
-								<a href="javascript:void(0);">
-									<span>
-										<span style="background-position:0px -55px; margin-top: 8px;margin-right: 10px; margin-left: 10px;zoom:1.2;"></span>							
-										<span>England (UK)</span>
-									</span>
-								</a>
-							</dt>
-							
-							<dd>
-								<ul style="display: none;">
-								  <li><a cunt_code="+44" href="territory_pages/england.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;"><span style="background-position:0px -55px"></span><span>England (UK)</span></a></li>
-								  <li><a cunt_code="+1809" href="territory_pages/scottishbay.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;"><span style="background-position:0px -1529px"></span><span>Scottish Bay (DR)</span><span></span></a></li>
-								  <li><a cunt_code="+1264" href="javascript:void(0);"><span style="background-position:0px -1980px"></span><span>Anguilla</span><span></span></a></li>
-								  <li><a cunt_code="+1268" href="javascript:void(0);"><span style="background-position:0px -869px"></span><span>Antigua and Barbuda</span><span></span></a></li>
-								  <li><a cunt_code="+247" href="javascript:void(0);"><span style="background-position:0px -55px"></span><span>Ascension Island</span><span></span></a></li>
-								  <li><a cunt_code="+61" href="javascript:void(0);"><span style="background-position:0px -1716px"></span><span>Australia</span><span></span></a></li>
-								  <li><a cunt_code="+43" href="javascript:void(0);"><span style="background-position:0px -1331px"></span><span>Austria</span><span></span></a></li>
-								  <li><a cunt_code="+1242" href="javascript:void(0);"><span style="background-position:0px -363px"></span><span>Bahamas</span><span></span></a></li>
-								  <li><a cunt_code="+1246" href="javascript:void(0);"><span style="background-position:0px -1573px"></span><span>Barbados</span><span></span></a></li>
-								  <li><a cunt_code="+501" href="javascript:void(0);"><span style="background-position:0px -484px"></span><span>Belize</span><span></span></a></li>
-								  <li><a cunt_code="+1441" href="javascript:void(0);"><span style="background-position:0px -1914px"></span><span>Bermuda</span><span></span></a></li>
-								  <li><a cunt_code="+1" href="javascript:void(0);"><span style="background-position:0px -1375px"></span><span>Canada</span><span></span></a></li>
-								  <li><a cunt_code="+1345" href="javascript:void(0);"><span style="background-position:0px -308px"></span><span>Cayman Islands</span><span></span></a></li>
-								  <li><a cunt_code="+682" href="javascript:void(0);"><span style="background-position:0px -2267px"></span><span>Cook Islands</span><span></span></a></li>
-								  <li><a cunt_code="+357" href="javascript:void(0);"><span style="background-position:0px -561px"></span><span>Cyprus</span><span></span></a></li>
-								  <li><a cunt_code="+500" href="javascript:void(0);"><span style="background-position:0px -2762px"></span><span>Falkland Islands</span><span></span></a></li>
-								  <li><a cunt_code="+350" href="javascript:void(0);"><span style="background-position:0px -275px"></span><span>Gibraltar</span><span></span></a></li>
-								  <li><a cunt_code="+1473" href="javascript:void(0);"><span style="background-position:0px -2399px"></span><span>Grenada</span><span></span></a></li>
-								  <li><a cunt_code="+353" href="javascript:void(0);"><span style="background-position:0px -1969px"></span><span>Ireland</span><span></span></a></li>
-								  <li><a cunt_code="+1876" href="javascript:void(0);"><span style="background-position:0px -1727px"></span><span>Jamaica</span><span></span></a></li>
-								  <li><a cunt_code="+1664" href="javascript:void(0);"><span style="background-position:0px -583px"></span><span>Montserrat</span><span></span></a></li>
-								  <li><a cunt_code="+64" href="javascript:void(0);"><span style="background-position:0px -1540px"></span><span>New Zealand</span><span></span></a></li>
-								  <li><a cunt_code="+63" href="javascript:void(0);"><span style="background-position:0px -1485px"></span><span>Papua New Guinea</span><span></span></a></li>
-								  <li><a cunt_code="+290" href="javascript:void(0);"><span style="background-position:0px -495px"></span><span>Saint Helena</span><span></span></a></li>
-								  <li><a cunt_code="+1869" href="javascript:void(0);"><span style="background-position:0px -99px"></span><span>Saint Kitts and Nevis</span><span></span></a></li>
-								  <li><a cunt_code="+1758" href="javascript:void(0);"><span style="background-position:0px -1397px"></span><span>Saint Lucia</span><span></span></a></li>
-								  <li><a cunt_code="+677" href="javascript:void(0);"><span style="background-position:0px -1067px"></span><span>Solomon Islands</span><span></span></a></li>
-								  <li><a cunt_code="+1649" href="javascript:void(0);"><span style="background-position:0px -1309px"></span><span>Turks and Caicos</span><span></span></a></li>
-								  <li><a cunt_code="+688" href="javascript:void(0);"><span style="background-position:0px -286px"></span><span>Tuvalu</span><span></span></a></li>
-								  <li><a cunt_code="+1284" href="javascript:void(0);"><span style="background-position:0px -1408px"></span><span>Virgin Islands</span><span></span></a></li>
-								</ul>
-							</dd>
-						</dl>
-					</div>
-				</div>
+					<input id="search-box" type="text" class="validate" style="max-height:100px!important; border:0.5px dotted grey;" autofocus autocomplete="off" >
+        <ul class="collection" >
+            <li class="collection-item" style="opacity:0;">
+             <a>
+                    Locate Country ...
+                </a>
+            </li>
+            <li class="collection-item" style="opacity:0;">
+                  <a cunt_code="+44" href="territory_pages/england.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" h-scrolling="no" style="overflow:hidden!important;"><span style="background-position:0px -55px"></span><span>England, United Kingdom (UK)</span></a>
+            </li>
+			
+			  <li class="collection-item" style="opacity:0;">
+                <a href="http://deviantart.com">
+                    United States
+                </a>
+            </li>
+			
+		</ul>
+        
+		<div class="no-apps-found" >
+            Error. Try Again
+        </div>
+		</div>
 				
-				<div class="segment-bottom" >
-					<h1 class="carousel-title"><a href="distributor-info.html">Registration  &raquo;	</a></h1>
+				<div class="segment-bottom" style="text-align:center!important;" >
+					<p class="segment-paragraph" style="text-align:center!important; left:0!important; padding:5vw;"> Become a Licenced Distributor </br></br><a class="btn btn-secondary" href="registration.html" target="_popup" style="margin:20px;">Apply Now </a></p> 
 				</div>
 			</div>
 			
@@ -200,6 +204,18 @@
 		<script src="js/videoLightning.js"></script> 
 		<script charset="utf-8" src="featherlight/release/featherlight.min.js" type="text/javascript"></script> 
 		<script src="js/smoothloader.js"></script>
+		
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src="search-box/js/list-search-min.js"></script>
+    <script>
+        initializeListSearch({
+            toggleAnimationSpeed: 0,
+            openLinkWithEnterKey: true,
+            itemSelector: '.collection-item',
+            searchTextBoxSelector: '#search-box',
+            noItemsFoundSelector: '.no-apps-found'
+        });
+    </script>
 
 	</body>
 

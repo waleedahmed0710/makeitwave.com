@@ -114,7 +114,26 @@
 /* 01:N */ .featherlight .featherlight-close-icon::-moz-focus-inner { }
 /* 01:O */ .featherlight .featherlight-image { }
 /* 01:P */ .featherlight iframe { }
-/* 01:Q */ .featherlight-iframe .featherlight-content {-moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; -ms-transform-origin: 0 0; -moz-transform-origin: 0 0; width: 98%; overflow: hidden; transform-origin: 0 0; display: inline-flex; border: 0.1rem solid rgba(255,255,255,0.15); border-radius: 14px; left: 0; margin: 2%; padding: 1px; box-shadow: 0rem 0rem 0.51rem 0rem rgba(0,0,0,0.3);
+/* 01:Q */ .featherlight-iframe .featherlight-content {
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    width: 98%;
+    overflow: hidden;
+    transform-origin: 0 0;
+    display: inline-flex;
+    border: 0.1rem solid rgba(255,255,255,0.15);
+    border-radius: 14px;
+    left: 0;
+    margin: 10vh 2% 2% 2%!important;
+    margin-top: 10vh !important;
+    margin-right: 2% !important;
+    margin-bottom: 2% !important;
+    margin-left: 2% !important;
+    padding: 1px;
+    box-shadow: 0rem 0rem 0.51rem 0rem rgba(0,0,0,0.3);
+    top: 0!important;
 }  
 
 /* 02:> */  												  @media all and (min-width:1024px) {	

@@ -1,3 +1,72 @@
+/*  2018 Copyright - WaveOS
+                 ..                   
+..   ..          ..   ........                     .........     .......     ........                      .........    ......................
+..   ...           ..  ........                   .........     .........     ........                    .........    ......................
+ .......         .....  ........                 .........     ...........     ........                  .........    ......................
+ .......       ........  ........               .........     .............     ........                .........    ......................
+ .......       ...        ........             .........     ...............     ........              .........    .......
+  ......       ........   .........           .........     ........   ......     ........            .........    .......
+  ......       .......   ...........         .........     ........     ......     ........          .........    .................
+   .....        .....   .............       .........     .......    .   ......     ........        .........    .................
+   .........    ....   ...............     .........     .......   .....  ......     ........      .........    .................
+    .......... . ..   ......   ........   .........     .........................     ........    .........    .................
+       ......... .   ......     ..................     ........     ...     ......     ...................    ........
+        .........   ......       ................     ........       .       ......     .................    ........
+          ......   ......         ..............     ........                 ......     ...............    ...........................
+            ...   ......           ............     ........                   ......     .............    ...........................
+             .   ......             ..........     ........                     ......     ...........    ........................... 
+
+                        
+						 ............................................................................................
+						           WaveOS by Unclehowell -  Make it Wave Ltd 2018  - All Rights Reserved 
+					     ............................................................................................ 
+                             GitHub:https://github.com/unclehowell/WaveOS -  Website:https://makeitwave.com
+					     ..........................................................................................   */
+
+/*  Classes:     A. .container {}
+				 B. .carousel-maintitle {}
+				 C. .carousel-maintitle-link {}
+				 D. .carousel-maintitle-link:hover {}
+				 E. .carousel-title {}
+				 F. .carousel-title-link {}
+				 G. .carousel-title-link:hover {} 
+				 H. .carousel-subtitle {}
+				 I. .carousel-item {}
+				 J. .appstore-img-button-play {}
+				 K. .appstore-img-button-apple  {}
+				 L. .payment-button-img-paypal {}
+				 M. .button-text-paypal {}
+				 N. .payment-button-img-stripe {}
+				 O. .button-text-stripe {}
+				 P. .button-block {}
+				 Q. .button-block-left {}
+				 R. .button-block-right {}
+				 S. .tick-box-holder {}
+				 T. .tick-box {}
+				 U. .moreinfo {}
+				 V.  #image1>img,#image2>img,#image3>img,#image4>img,#image4>img {}			 
+	  
+    Structure:  01. .class-1 {}  .class-2 {} ... etc
+				02. @media all and (min-width:1024px) 							                       {.class-1 {}.class-2 {} ... etc}
+				03. @media all and (min-width:960px) 												   {.class-1 {}.class-2 {} ... etc}
+				04. @media all and (min-width:960px) and (max-width:1123px)							   {.class-1 {}.class-2 {} ... etc}
+				05. @media all and (min-width:960px) and (max-width:1123px)and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				06. @media all and (min-width:960px) and (max-width:1123px)and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
+				07. @media all and (min-width:768px)												   {.class-1 {}.class-2 {} ... etc}
+				08. @media all and (min-width:768px) and (max-width:959px)  						   {.class-1 {}.class-2 {} ... etc}
+				09. @media all and (min-width:768px) and (max-width:959px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				10. @media all and (min-width:768px) and (max-width:959px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
+				11. @media all and (min-width:480px) 					 							   {.class-1 {}.class-2 {} ... etc}
+				12. @media all and (min-width:480px) and (max-width:767px) 							   {.class-1 {}.class-2 {} ... etc}
+				13. @media all and (min-width:480px) and (max-width:767px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				14. @media all and (min-width:480px) and (max-width:767px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
+				15. 					  @media all and (max-width:479px)                             {.class-1 {}.class-2 {} ... etc} 
+				16. 			       	  @media all and (max-width:479px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				17. 					  @media all and (max-width:479px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}     
+				18. @media(-webkit-min-device-pixel-ratio:1.5), (min--moz-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:3/2), (min-resolution:1.5dppx) {}
+				19. @media print {}
+	
+	01:> */ 
 	
 .wrapperwrapper2 {position:static; padding-top:1rem; text-align: center!important;}
 .wrapper2 {	width:300px;margin:3% auto;}

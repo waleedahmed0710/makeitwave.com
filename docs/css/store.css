@@ -111,19 +111,26 @@
 				KF. .add-to-cart-table  {}
 				KG. .add-to-cart-qty {}
 				  
-  	Structure:01. .class-1 {}  .class-2 {} ... etc
+    Structure:  01. .class-1 {}  .class-2 {} ... etc
 				02. @media all and (min-width:1024px) 							                       {.class-1 {}.class-2 {} ... etc}
-				03. @media all and (min-width:960px) and (max-width:1123px)and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
-				04. @media all and (min-width:960px) and (max-width:1123px)and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
-				05. @media all and (min-width:768px) and (max-width:959px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
-				06. @media all and (min-width:768px) and (max-width:959px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
-				07. @media all and (min-width:480px) and (max-width:767px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
-				08. @media all and (min-width:480px) and (max-width:767px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
-				09. 			       	  @media all and (max-width:479px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
-				10. 					  @media all and (max-width:479px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}   
-				11. @media(-webkit-min-device-pixel-ratio:1.5), (min--moz-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:3/2), (min-resolution:1.5dppx) {}
-				12. @media print {}
-*/	
+				03. @media all and (min-width:960px) 												   {.class-1 {}.class-2 {} ... etc}
+				04. @media all and (min-width:960px) and (max-width:1123px)							   {.class-1 {}.class-2 {} ... etc}
+				05. @media all and (min-width:960px) and (max-width:1123px)and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				06. @media all and (min-width:960px) and (max-width:1123px)and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
+				07. @media all and (min-width:768px)												   {.class-1 {}.class-2 {} ... etc}
+				08. @media all and (min-width:768px) and (max-width:959px)  						   {.class-1 {}.class-2 {} ... etc}
+				09. @media all and (min-width:768px) and (max-width:959px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				10. @media all and (min-width:768px) and (max-width:959px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
+				11. @media all and (min-width:480px) 					 							   {.class-1 {}.class-2 {} ... etc}
+				12. @media all and (min-width:480px) and (max-width:767px) 							   {.class-1 {}.class-2 {} ... etc}
+				13. @media all and (min-width:480px) and (max-width:767px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				14. @media all and (min-width:480px) and (max-width:767px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
+				15. 					  @media all and (max-width:479px)                             {.class-1 {}.class-2 {} ... etc} 
+				16. 			       	  @media all and (max-width:479px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				17. 					  @media all and (max-width:479px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}     
+				18. @media(-webkit-min-device-pixel-ratio:1.5), (min--moz-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:3/2), (min-resolution:1.5dppx) {}
+				19. @media print {}
+*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
@@ -132,7 +139,8 @@
 /* 01:AB */	a:hover{color:white!important;}
 /* 01:AC */	a:-webkit-any-link {cursor:pointer!important;}
 /* 01:AD */	body#checkout-page #site-info {position:static;}
-/* 01:AE */	.btn, a.btn {display:inline-block; background:#333366!important; color:#fff; font-size:1rem; min-height:2rem;  text-align:center; border-radius:4px; padding:auto;  border:1px solid white!important; min-width:90px;   max-width:120px; width:30vw; margin:1px; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";}
+/* 01:AE */	.btn, a.btn {    display: inline-flex!important;
+    justify-content: center; background:#333366!important; color:#fff; font-size:1rem; min-height:2rem;  text-align:center; border-radius:4px; padding:auto;  border:1px solid white!important; min-width:90px;   max-width:120px; width:30vw; margin:1px; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";}
 /* 01:AF */	h1, h2, h3, h4, h5, h6 {font-weight:normal;font-size:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";}
 /* 01:AG */	.message {display:block; margin:0.5em 0; color:red;}
 /* 01:AH */	#paypal-form {	margin:1.5em 0;}
@@ -287,7 +295,7 @@
 /* 01:JH */	#user-details-content li {display:block; margin-bottom:0.5em; padding-bottom:0.3em; border-bottom:1px solid #ddd;}
 
 /* 01:KA */	.add-to-cart-form  {text-align:center; padding:10px; margin-bottom:0.5rem; border:1px solid rgba(255,255,255,0.1); border-radius:5px; margin-top:0.5rem;}
-/* 01:KB */	.add-to-cart-columb-title {font-weight:lighter; color:lightsteelblue; opacity:0.5; text-align:center; padding-left:7px; white-space:nowrap;}
+/* 01:KB */	.add-to-cart-columb-title {font-weight:lighter; color:lightsteelblue; opacity:0.5; text-align:center; padding:4px; white-space:nowrap;}
 /* 01:KC */	.add-to-cart-btn {max-width:14px!important; padding:2px 0% 2px 0%!Important; font-size:1rem; min-width:75px;}
 /* 01:KD */	.add-to-cart-pre-order-btn {margin-bottom:-10px; margin-top:5px; max-width:65px; max-height:25px; min-height:30px; min-width:10px; float:left; padding:3px; font-size:0.7rem; font-weight:lighter;}
 /* 01:KE */	.add-to-cart-price {font-weight:200!important; margin:0px; padding:0px; font-size:0.85rem; letter-spacing:0.15em; word-spacing:-0.25rem; color:white; margin:0px; padding:0px;}

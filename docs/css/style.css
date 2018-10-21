@@ -87,16 +87,23 @@
 
     Structure:  01. .class-1 {}  .class-2 {} ... etc
 				02. @media all and (min-width:1024px) 							                       {.class-1 {}.class-2 {} ... etc}
-				03. @media all and (min-width:960px) and (max-width:1123px)and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
-				04. @media all and (min-width:960px) and (max-width:1123px)and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
-				05. @media all and (min-width:768px) and (max-width:959px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
-				06. @media all and (min-width:768px) and (max-width:959px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
-				07. @media all and (min-width:480px) and (max-width:767px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
-				08. @media all and (min-width:480px) and (max-width:767px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
-				09. 			       	  @media all and (max-width:479px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
-				10. 					  @media all and (max-width:479px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}     
-				11. @media(-webkit-min-device-pixel-ratio:1.5), (min--moz-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:3/2), (min-resolution:1.5dppx) {}
-				12. @media print {}
+				03. @media all and (min-width:960px) 												   {.class-1 {}.class-2 {} ... etc}
+				04. @media all and (min-width:960px) and (max-width:1123px)							   {.class-1 {}.class-2 {} ... etc}
+				05. @media all and (min-width:960px) and (max-width:1123px)and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				06. @media all and (min-width:960px) and (max-width:1123px)and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
+				07. @media all and (min-width:768px)												   {.class-1 {}.class-2 {} ... etc}
+				08. @media all and (min-width:768px) and (max-width:959px)  						   {.class-1 {}.class-2 {} ... etc}
+				09. @media all and (min-width:768px) and (max-width:959px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				10. @media all and (min-width:768px) and (max-width:959px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
+				11. @media all and (min-width:480px) 					 							   {.class-1 {}.class-2 {} ... etc}
+				12. @media all and (min-width:480px) and (max-width:767px) 							   {.class-1 {}.class-2 {} ... etc}
+				13. @media all and (min-width:480px) and (max-width:767px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				14. @media all and (min-width:480px) and (max-width:767px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}
+				15. 					  @media all and (max-width:479px)                             {.class-1 {}.class-2 {} ... etc} 
+				16. 			       	  @media all and (max-width:479px) and  (orientation:portrait) {.class-1 {}.class-2 {} ... etc}
+				17. 					  @media all and (max-width:479px) and (orientation:landscape) {.class-1 {}.class-2 {} ... etc}     
+				18. @media(-webkit-min-device-pixel-ratio:1.5), (min--moz-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:3/2), (min-resolution:1.5dppx) {}
+				19. @media print {}
 */
 
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}script{display:none!important}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:0 0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
@@ -145,7 +152,7 @@
 /* 01:EC */ .news-link:visited {text-decoration:underline; color:#9FB1B3; opacity:0.8;}
 /* 01:ED */ .news-title-div { display: inline-block; width: 90vw; text-align: center;}
 /* 01:EE */ .news-title { font-size: 1rem; font-weight: 400;}
-/* 01:EF */ .news-block {height: inherit; margin-bottom:2rem;  }
+/* 01:EF */ .news-block {height: inherit; margin-bottom:2rem; margin-left:-2.5vw!important; }
 /* 01:EG */ .news-subtitle {text-align: center; margin-top:-0.5rem; }
 /* 01:EH */ .year {font-size:1rem; margin-left: calc(45vw - 100px); display:block; left:0; background-color:white; color:#333366; border-left:1px solid #333366; border-right:1px solid #333366; border-top:1px solid #333366; border-bottom:1px solid #333366; border-radius:25px; margin-top:-10px; text-align:center; float:left; max-width:calc(33vw)!important; min-width:200px!important; margin-bottom:2.5rem; padding:5px;}
 
@@ -161,56 +168,13 @@
 
 /* 01:YA */ .download-tweak0002 {}
 
-	.checkout-visibility-mobile {
-	display: inline-block!important;
-    opacity: 1;
-    min-height: 46px!important;
-    position: relative!important;
-    top: 0!important;
-    right: 0;
-    float: right!important;
-    background-color: transparent;
-    margin-right: 2px!important;
-    margin-top: 8px;
-	}
-			.checkout-visibility-desktop {
-				
-display:none!important;
-				
-				}
-				
-				.snipcart-checkout-text { text-decoration:none!Important;}
-			
-	.navbar-cart-icon {
-		
-     float: left!important;
-    position: absolute;
-    bottom: 0!important;
-    margin: 0px 22px 0px 5px!important;
-    opacity: 0.6!important;
-    color: rgba(255,255,255,0.9);
-    zoom: 1.95!important;
-	}
-	
-	.navbar-cart-icon-desktop {
-	margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;
-	}
-	
-	.navbar-cart-qnt {
-    color: white;
-    float: right!important;
-    right: 0!important;
-    background-color: transparent;
-    opacity: 0.55;
-    border-radius: 5px;
-    border: 1px solid rgba(255,255,255,0.25)!important;
-    position: absolute;
-    padding: 5px 10px 5px 10px;
-    margin-right: 1px;
-	margin-top:1px;
-	}
-	
-	.checkout-details-desktop {padding:4px!Important; color:white; font-weight:lighter!important; font-size:1rem; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-weight:lighter!Important;}
+			.checkout-visibility-mobile {display: inline-block!important; opacity: 1; min-height: 46px!important; position: relative!important; top: 0!important; right: 0; float: right!important; background-color: transparent; margin-right: 2px!important;margin-top: 8px;}
+			.checkout-visibility-desktop {display:none!important;}
+			.snipcart-checkout-text {text-decoration:none!Important;}		
+			.navbar-cart-icon {float: left!important; position: absolute; bottom: 0!important; margin: 0px 22px 0px 5px!important; opacity: 0.6!important; color: rgba(255,255,255,0.9); zoom: 1.95!important;	}	
+			.navbar-cart-icon-desktop {margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;}
+			.navbar-cart-qnt {color: white; float: right!important; right: 0!important; background-color: transparent; opacity: 0.55; border-radius: 5px; border: 1px solid rgba(255,255,255,0.25)!important; position: absolute; padding: 5px 10px 5px 10px; margin-right: 1px; margin-top:1px;	}
+			.checkout-details-desktop {padding:4px!Important; color:white; font-weight:lighter!important; font-size:1rem; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-weight:lighter!Important;}
 
 /* 02:>  */  												   @media all and (min-width:1024px) { 
 /* 02:AA */	 html  {}

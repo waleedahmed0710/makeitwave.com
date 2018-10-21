@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js is-responsive is-mobile-first">
+	
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8">	
 		<meta content="1" http-equiv="Expires">
+		<link href="//makeitwave.com" rel="canonical">
 		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no" name="viewport">
-		<!-- GitHub Pages -->
 		<script type="type/javascript">
 			  var host = "makeitwave.com";
 			  if {{ host == window.location.host} && {window.location.protocol != "https:""}}
 			  window.location.protocol = "https";
 		</script>
-		
-		<link href="//makeitwave.com" rel="canonical">
+
 		
 		<!-- SEO -->
 		<meta content="Home Operating System" name="description">
@@ -36,70 +36,67 @@
 		<meta content="#ffffff" name="msapplication-TileColor">
 		<meta content="img/favicons/ms-icon-144x144.png" name="msapplication-TileImage">
 		<meta content="#ffffff" name="theme-color">
-		
+
 		<!-- CSS -->
 		<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/featherlight.css" rel="stylesheet" type="text/css">
-		<link href="css/style.css" rel="stylesheet"><link href="css/glyphicon.css" type="text/css" rel="stylesheet">
-		<link href="css/carousel.css" rel="stylesheet">
-		<link href="css/dropdownboxes.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css" >
+		<link rel="stylesheet" href="css/featherlight.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css">
 		<link href="css/footer.css" type="text/css" rel="stylesheet">
-		<link href="css/glyphicon.css" type="text/css" rel="stylesheet">
-				<link href="css/download-buttons.css" type="text/css" rel="stylesheet">
-
- 		<style>
-			.stripe-button-el {
-			display:none!Important;
-			}
-			
-			.stripe_checkout_app html{
-			zoom:0.9;
-			}
-			
-			@media all and (min-width:1024px) {
-			.tweak0001 {margin-bottom:6rem;}
-			}
-			
-			a {color:grey;}
-			
-			
-		</style>
+		<link href="css/download-buttons.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" href="css/dropdownboxes.css">
+				<link href="css/glyphicon.css" type="text/css" rel="stylesheet">
 		
-
-		<link rel="stylesheet" href="css/preloader/normalize.css">
-		<link rel="stylesheet" href="css/preloader/main.css">
-		<script src="js/preloader/modernizer.js"></script>
-		
-		<!-- scripts 1/2 -->
-		<script src="js/menu.js">	</script>
-		<script src="js/lazy.min.js">	</script>
+		<!-- Java -->
+		<script src="js/lazy.min.js"></script>
 		<script src="https://js.stripe.com/v3/"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
 		<script>
-			function pageLoad(){
-			 document.getElementById('mainWrapper').style.visibility="visible";
-			}
+				function pageLoad(){
+				 document.getElementById('mainWrapper').style.visibility="visible";
+				}
 		</script>
 		
-		<!-- Preloader -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/preloader/jquery-1.9.1.min.js"><\/script>')</script>
-	<script src="js/preloader/main.js"></script>
+		<style>
+		
+		.role-buttons {
+		margin:5px!important;
+		color:white!important;
+		}
+			
+		.btn:hover {background:#333366!important;}
+		.rolestore-buttons {float:left; postion:absolute; margin-top:0!important;text-align:center!important; width:100%!important; padding-top:0px; margin-bottom:1rem;}
+		</style>
 		
 	<!-- Snipcart --> <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-autopop="false" data-api-key="YTBiMjkwMjktNTA4NS00ZjY4LTg4Y2QtODAzOTk4YTdiMzBhNjM2NzQyMTQwMDM0MzcyMDI0"></script> <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" /></head>
-	
-	<body bgcolor="#333366" onload="pageLoad()" data-role="page">
+
+	<body bgcolor="#333366" onload="pageLoad()">		
 		<header id="mainWrapper">
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-					<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a> 
-						<div class="checkout-visibility-mobile"> <a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"> <p style="display:inline!important;"><span class="glyphicon glyphicon-shopping-cart" style="margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;" id="dropdown-glyph" >&nbsp; </span></p> </a></div><button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+				<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a>
 				
+				
+				<div class="checkout-visibility-mobile"> 
+							<a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"> 
+								<p style="display:inline!important;">
+									<span class="glyphicon glyphicon-shopping-cart navbar-cart-icon" >
+										
+										
+										<div class="snipcart-summary navbar-cart-qnt" > 
+											<span class="snipcart-total-items"></span> 		
+										</div>
+									</span>
+								</p> 
+							</a>
+						</div>
+				
+				
+				<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav mr-auto">
-					
-
-							
+						
 						<li class="nav-item">
 						</li>
 
@@ -109,7 +106,6 @@
 						</li>
 						
 							
-						
 						<li class="nav-item">
 						</li>
 						
@@ -124,228 +120,125 @@
 						<li class="nav-item">
 							<a class="nav-link" href="download.html#download-segment">Download Center</a>
 						</li>
-		
+						
+								
 					</ul>
 				</div>
-			<div class="checkout-visibility-desktop"> <a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"><div class="snipcart-summary" style="color:white;margin-top:10px;"> <b style="color:white;opacity:0.6;">Items:</b> <span class="snipcart-total-items"></span> <p style="display:inline!important;"><span class="glyphicon glyphicon-shopping-cart" style="margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;" id="dropdown-glyph" >&nbsp; </span></p> <b style="color:white;opacity:0.6;">&nbsp;Total:</b> <span class="snipcart-total-price"></span> </div></a></div></nav>
-
+				
+				<div class="checkout-visibility-desktop"> 
+						<a href="#" class="snipcart-checkout snipcart-checkout-text" >							
+							<div class="snipcart-summary checkout-details-desktop"> 
+								<p style="display:inline!important;">
+									<span class="glyphicon glyphicon-shopping-cart navbar-cart-icon-desktop" >&nbsp; </span>
+								</p> 
+									<b>Items:</b> 
+								<span class="snipcart-total-items "></span> 
+							</div>
+						</a>
+					</div>
+				
+			</nav>
 		</header>
+		<div id="download"></div>
+		<main role="main" class="main">
+		
 
+			
+			<div class="segment">
+				<h1 class="segment-title" >Role Store</h1>
+				<p class="segment-paragraph" style="text-align:justify; padding: 0 2rem 0 2rem!Important;" > Welcome to the Role Store, which is an abbreviation of the term 'Operational Role'. Unlike any other Operating System before us, Wave has a Role Store instead of an App Store. This is due to the fact WaveOS actually gives you a choice of what function you want your device to perform before you arrive at the application layer. In the Home Hub Role for example, the Media Segment has its own Media App Store and the Home Control Segment has its own IoT App Store.  </p>
+			</div>
+			
+			<span class="sexy_line"></span>	
+			<div class="segment" >
+					<div class="row" >
+						<div class="col-lg-4">
+							<a id="role-1" ></a>
+							<h3 class="segment-subtitle" >Home Hub Role</h3>
+							<img alt="Generic placeholder image" class="rounded-circle" height="140" src="img/roles/homehub.png" width="140">
+				
+							<div class="rolestore-buttons"> 
+								<a class="btn btn-secondary role-buttons" >Learn More</a>
+								<a class="btn btn-secondary role-buttons" href="store/index.html#product-1" style="margin-left:10px;">Shop for Device</a> 
+								<a class="btn btn-secondary role-buttons" href="download.html#download-segment" style="margin-left:10px;">Download OS</a> 
+							</div>
+							<p class="segment-col-paragraph" >The Home Hub Role is presented as an option after your device has booted up for the first time with WaveOS installed. If selected WaveOS will autonomously install and configure your Smart Device to operate as a cutting-edge, Plug & Play, Smart Home Hub - featuring an All-in-One Dashboard containing a Media Center, IoT Smart Home Controls, IPCCTV DVR and interfaces for the Energy Monitor and Vehicle Tracking (if paired). Additionally there is subscription-free remote access from a free remote access app, downloadable on the Android Play and iOS App Store. </br>  </p>
+						</div>
+
+						<div class="col-lg-4">
+							<a id="role-2" ></a>
+								<h3 class="segment-subtitle">Energy Moniting Role</h3>
+							<img alt="Generic placeholder image" class="rounded-circle" height="140" src="img/roles/energymonitor.png" width="140">
+						
+							 <div class="rolestore-buttons"> 
+							 <a class="btn btn-secondary role-buttons" >Learn More </a>
+							 <a class="btn btn-secondary role-buttons" href="store/index.html#product-2" style="margin-left:10px;">Shop for Devices</a> 
+							 <a class="btn btn-secondary role-buttons" href="download.html#download-segment" style="margin-left:10px;">Download OS</a> 
+							 </div>
+							<p class="segment-col-paragraph">The Energy Monitor Role is presented as an option after your device has booted up for the first time with WaveOS installed. If selected WaveOS will autonomously install and configure your Smart Device & CT Sensors, into the latest, Plug & Play, Wireless, Energy Monitor. Which will transmit real-time energy consumption and production statistics to your Wave Smart Home Hub. Your CT Sensors simply clip onto your buildings incomming power and you are live.  </br></p>
+						</div>
+
+						<div class="col-lg-4">
+							<a id="role-3" ></a>
+													<h3 class="segment-subtitle">Vehicle Tracking Role</h3>
+							<img alt="Generic placeholder image" class="rounded-circle" height="140" src="img/roles/vehicletracker.png" width="140">
 	
+							 <div class="rolestore-buttons"> 
+							 <a class="btn btn-secondary role-buttons" >Learn More</a>
+							 <a class="btn btn-secondary role-buttons" href="store/index.html#product-3" style="margin-left:10px;">Shop for Devices</a> 
+							 <a class="btn btn-secondary role-buttons" href="download.html#download-segment" style="margin-left:10px;">Download OS</a> 
+						</div>
+							<p class="segment-col-paragraph"> The Vehicle Tracking Role is presented as an option after your device has booted up for the first time with WaveOS installed. If selected WaveOS will autonomously install and configure your Smart Device and GPRS Transceiver to operate as a pioneering Vehicle Tracking Device. What makes Wave so pioneering here, is our use of the USSD celluar channel which exempts the user from requiring a paid contract with a mobile carrier, saving you £500+ per year in sim card contracts. Our Any-Network USSD Sim is shipped with the product. </br></p>
+						</div>	
+					</div>
+				</div>	
 
+		<div class="segment" >
+			<div class="row" >
+				<div class="col-lg-4">
+					<a id="role-4" ></a>
+						<h3 class="segment-subtitle" >Multi-Room Link Role</h3>
+					<img alt="Generic placeholder image" class="rounded-circle" height="140" src="img/roles/multiroom.png" width="140">
+				
+					 <div class="rolestore-buttons"> 
+					 <a class="btn btn-secondary role-buttons" >Learn More</a>
+					 <a class="btn btn-secondary role-buttons" href="store/index.html#product-4" style="margin-left:10px;">Shop for Devices</a> 
+					 <a class="btn btn-secondary role-buttons" href="download.html#download-segment" style="margin-left:10px;">Download OS</a>
+					 </div>
+					<p class="segment-col-paragraph" > The Multi-Room Link Role is presented as an option after your device has booted up for the first time with WaveOS installed. If selected WaveOS will autonomously install and configure your Smart Device and bluetooth keyboard, to function as a Wave Smart Home, Multi-Room Link - wirelessly extending your Wave dashboard to a second display in any room of your house. The display itself even falls into the control of Wave when connected, allowing you to control the attached TV locally and/or remotely, from any authorised mobile device. </br></p>							
+				</div>
+
+				<div class="col-lg-4">
+					<a id="role-5" ></a>
+								<h3 class="segment-subtitle">Signal Boosting Role</h3>
+					<img alt="Generic placeholder image" class="rounded-circle" height="140" src="img/roles/signalbooster.png" width="140">
+		
+					<div class="rolestore-buttons"> 
+					<a class="btn btn-secondary role-buttons" >Learn More</a>
+					<a class="btn btn-secondary role-buttons" href="store/index.html#product-5" style="margin-left:10px;">Shop for Devices</a> 
+					<a class="btn btn-secondary role-buttons" href="download.html#download-segment" style="margin-left:10px;">Download OS</a> </div>
+					<p class="segment-col-paragraph">The Signal Boosting Role is presented as an option after your device has booted up for the first time with WaveOS installed. If selected WaveOS will autonomously install and configure your Smart Device to perform as a Wave Smart Home Wi-Fi Signal Booster. </br> </p>
+				</div>
+
+				<div class="col-lg-4">
+					<a id="role-6" ></a>
+						<h3 class="segment-subtitle">Storage Drive Role</h3>
+					<img alt="Generic placeholder image" class="rounded-circle" height="140" src="img/roles/networkstorage.png" width="140">
+				
+					<div class="rolestore-buttons"> 
+					<a class="btn btn-secondary role-buttons" >Learn More</a>
+					<a class="btn btn-secondary role-buttons" href="store/index.html#product-6" style="margin-left:10px;">Shop for Devices</a> 
+					<a class="btn btn-secondary role-buttons" href="download.html#download-segment" style="margin-left:10px;">Download OS</a> </div>
+					<p class="segment-col-paragraph">  The Storage Device Role is presented as an option after your device has booted up for the first time with WaveOS installed. If selected WaveOS will autonomously install and configure your Smart Device to perform as a Raid 10 Storage Device.</br> </p>
+				</div>	
+			</div>					
+		</div>
+		<span class="sexy_line"></span>	
+		<div class="segment-bottom"></div>
 			
-			<div class="segment-top" style="margin:69px; padding:0; display:inline-block!important; width: 100vw!important; min-height:600vh!important; overflow: hidden;  background-color:black!important; background-color:black!important;"> 
-			<li><a>     <span class="glyphicon glyphicon-plus" >1</span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-euro" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-minus" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-cloud" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-envelope" >5</span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-pencil" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-glass" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-music" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-search" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-heart" >10</span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-star" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-star-empty" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-user" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-film" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-th-large" >15</span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-th" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-th-list" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-ok" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-remove" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-zoom-in" >20</span></a>	</li>                       
-				<li><a>  	<span class="glyphicon glyphicon-zoom-out" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-off" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-signal" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-cog" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-trash" >25</span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-home" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-file" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-time" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-road" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-download-alt" >30</span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-download" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-upload" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-inbox" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-play-circle" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-repeat" >35</span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-refresh" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-list-alt" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-flag" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-headphones" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-volume-off" >40</span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-volume-down" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-volume-up" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-qrcode" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-barcode" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-tag" >45</span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-tags" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-book" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-print" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-font" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-bold" >50</span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-italic" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-text-height" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-text-width" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-align-left" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-align-center" >55</span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-align-right" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-align-justify" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-list" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-indent-left" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-indent-right" >60</span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-facetime-video" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-picture" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-map-marker" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-adjust" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-tint" >65</span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-edit" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-share" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-check" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-move" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-step-backward" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-fast-backward" >70</span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-backward" ></span></a>	</li>                         
-				<li><a>  	<span class="glyphicon glyphicon-play" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-pause" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-stop" ></span></a>	</li>                       
-				<li><a>  	<span class="glyphicon glyphicon-forward" ></span></a>	</li>                   
-				<li><a>  	<span class="glyphicon glyphicon-fast-forward" >75</span></a>	</li>         
-				<li><a>  	<span class="glyphicon glyphicon-step-forward" ></span></a>	</li>           
-				<li><a>  	<span class="glyphicon glyphicon-eject" ></span></a>	</li>                     
-				<li><a>  	<span class="glyphicon glyphicon-chevron-left" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-chevron-right" ></span></a>	</li>                  
-				<li><a>  	<span class="glyphicon glyphicon-plus-sign" ></span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-minus-sign" >80</span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-remove-sign" ></span></a>	</li>                  
-				<li><a>  	<span class="glyphicon glyphicon-ok-sign" ></span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-question-sign" ></span></a>	</li>                  
-				<li><a>  	<span class="glyphicon glyphicon-info-sign" ></span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-screenshot" ></span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-remove-circle" >85</span></a>	</li>                  
-				<li><a>  	<span class="glyphicon glyphicon-ok-circle" ></span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-ban-circle" ></span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-arrow-left" ></span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-arrow-right" ></span></a>	</li>                  
-				<li><a>  	<span class="glyphicon glyphicon-arrow-up" >90</span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-arrow-down" ></span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-share-alt" ></span></a>	</li>                      
-				<li><a>  	<span class="glyphicon glyphicon-resize-full" ></span></a>	</li>                  
-				<li><a>  	<span class="glyphicon glyphicon-resize-small" ></span></a>	</li>                  
-				<li><a>  	<span class="glyphicon glyphicon-exclamation-sign" >95</span></a>	</li>              
-				<li><a>  	<span class="glyphicon glyphicon-gift" ></span></a>	</li>                          
-				<li><a>  	<span class="glyphicon glyphicon-leaf" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-eye-open" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-eye-close" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-warning-sign" >100</span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-plane" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-random" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-comment" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-magnet" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-chevron-up" >105</span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-chevron-down" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-retweet" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-shopping-cart" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-folder-close" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-folder-open" >110</span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-resize-vertical" ></span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-resize-horizontal" ></span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-hdd" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-bullhorn" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-certificate" >115</span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-thumbs-up" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-thumbs-down" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-hand-right" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-hand-left" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-hand-up" >120</span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-hand-down" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-circle-arrow-right" ></span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-circle-arrow-left" ></span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-circle-arrow-up" ></span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-circle-arrow-down" >125</span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-globe" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-tasks" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-filter" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-fullscreen" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-dashboard" >130</span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-heart-empty" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-link" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-phone" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-usd" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-gbp" >135</span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-sort" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-sort-by-alphabet" ></span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-sort-by-alphabet-alt" ></span></a>	</li>        
-				<li><a>  	<span class="glyphicon glyphicon-sort-by-order" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-sort-by-order-alt" >140</span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-sort-by-attributes" ></span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-sort-by-attributes-alt" ></span></a>	</li>        
-				<li><a>  	<span class="glyphicon glyphicon-unchecked" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-expand" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-collapse-down" >145</span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-collapse-up" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-log-in" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-flash" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-log-out" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-new-window" >150</span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-record" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-save" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-open" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-saved" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-import" >155</span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-export" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-send" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-floppy-disk" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-floppy-saved" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-floppy-remove" >160</span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-floppy-save" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-floppy-open" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-credit-card" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-transfer" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-cutlery" >165</span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-header" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-compressed" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-earphone" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-phone-alt" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-tower" >170</span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-stats" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-sd-video" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-hd-video" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-subtitles" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-sound-stereo" >175</span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-sound-dolby" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-sound-5-1" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-sound-6-1" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-sound-7-1" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-copyright-mark" >180</span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-registration-mark" ></span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-cloud-download" ></span></a>	</li>            
-				<li><a>  	<span class="glyphicon glyphicon-cloud-upload" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-tree-conifer" ></span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-tree-deciduous" >185</span></a>	</li>                
-				<li><a>  	<span class="glyphicon glyphicon-briefcase" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-calendar" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-pushpin" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-paperclip" ></span></a>	</li>                    
-				<li><a>  	<span class="glyphicon glyphicon-camera" >190</span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-lock" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-bell" ></span></a>	</li>                        
-				<li><a>  	<span class="glyphicon glyphicon-bookmark" ></span></a>	</li>     			
-				<li><a>  	<span class="glyphicon glyphicon-fire" ></span></a></li>
-																				
-																	
-																		
-			
-			 
+		</main>	
 		
-			</div>	
-			
-		</main>
-		
-		
-		
-		<div class="pinky-template"><div class="sexy_line" style="filter:invert(100%)"></div>
+	<div class="pinky-template"><div class="sexy_line" style="filter:invert(100%)"></div>
 			<a id="wavefooter"></a>
 			<footer class="FooterNew">
 				<div class="FooterNew-content">
@@ -535,7 +428,7 @@
 						</div>
 
 						
-			
+							<!-- Statistics -->
 							<div class="FooterNew-section">
 								<div class="Container">
 					<div class="Grid">
@@ -569,22 +462,21 @@
 				</div>
 			</footer>	
 		</div>
-
-			
-		<!-- scripts 2/2 -->
+	
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+		<script>
+		window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/jquery-slim.min.js"><\/script>')
+		</script> 
 		<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script> 
-		<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
-		<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js"></script> 
-		<script src="js/carousel-dropdown.js"></script> 
-		<script src="js/currencydrop.js"></script> 
+		<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>  
+		<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js"></script> <!-- The other .js fils -->
+				<script src="js/distributors-dropdown.js"></script> 
 		<script src="js/scale.fix.js"></script> 
 		<script src="js/jquery.min.js"></script> 
 		<script src="js/videoLightning.js"></script> 
 		<script src="js/jqvl-page.js"></script> 
-		<script src="js/page.js"></script> 
-		<script charset="utf-8" src="featherlight/release/featherlight.min.js" type="text/javascript"></script> 
-		<script src="js/smoothloader.js"></script>
-		
+		<script src="featherlight/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+	
   <!--- need for footer-dropdown to work, possibly all 3 --> 
 <script defer="" src="more-footer/polyfills-dd3bd39c.js.download"></script>
 <script defer="" id="systemjs-loader" src="more-footer/systemjs-83712958.js.download"></script>
@@ -655,4 +547,5 @@ document.getElementById('systemjs-config').addEventListener('load', function() {
 
 <!--// SystemJS  -->
 	</body>
+	
 </html>

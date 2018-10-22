@@ -40,6 +40,8 @@
 				AO.  v {}
 				AP.  v:after {}
 				AQ. .nowrap h3  {}
+				AR. .navbar-toggler {}
+				AS. .nav {}
 				
 				---  NAVBAR  ---
 				BA. .navbar-brand {}
@@ -53,6 +55,7 @@
 				CI. .sexy_line {}
 				CJ. .sexy_line2 {}
 				CK. .col-lg-4 {}
+				CL. .midcontent-title {}
 				
 				DA. .segment-video {} 
 				DB. .video-frame {}
@@ -125,7 +128,8 @@
 /* 01:AP */  v:after { content: ''; width: 99%; position: absolute; left: 0%; bottom: -0.01rem; border-width: 0 0 0.05rem; border-style: solid;}
 /* 01:AQ */ .nowrap h3 {white-space: nowrap;}
 /* 01:AR */ .navbar-toggler {margin-bottom: 0.5rem;}
-			.nav {line-height:1px!Important;}
+/* 01:AS */ .nav {line-height:1px!Important;}
+			
 /* 01:BA */ .navbar-brand {image-rendering: auto; max-width: 115px!important; max-height:auto; margin-bottom:-5px; opacity:1; border: 0px solid transparent!important; }
 /* 01:BB */ .nav-link {font-weight: lighter!important; text-decoration: none!important; border-left: 1px solid #333366; opacity: 1; border-radius: 30px 30px 30px 30px; box-shadow: 2px 1px 3px rgba(255, 255, 255, 0.2); margin: 2px; display: block; height: auto; width: 90vw; text-align: center; font-size: 1rem; color: white; letter-spacing: 0.03rem; padding:5px; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";}
 /* 01:BC */ .navbar-expand-md .navbar-nav .nav-link {min-height: 35px; box-shadow: inset 0 -21px 20px rgba(255,255,255,0.05); color: rgba(255,255,255,1); padding: auto!important;}
@@ -134,13 +138,14 @@
 /* 01:CA */ .segment-top {height: inherit; margin:0 0 0 0; padding-top:65px; padding-bottom:0; background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); verticle-align:top; }
 /* 01:CB */ .segment { padding-left:5vw; padding-right:5vw; height: inherit; padding-top:2rem; padding-bottom:2rem; background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); verticle-align:top;}
 /* 01:CC */ .segment-bottom {display:flex; white-space:nowrap; justify-content: center; align-items: center; height: inherit; padding-top: calc(10vh); padding-bottom:1rem; background: -webkit-gradient(radial, 50% 50%, 450, 50% 50%, 860, from(#F3F5F8), to(#fff)); verticle-align:top;}
-/* 01:CD */ .segment-title {display:flex; white-space:pre-line; justify-content: center; align-items: center; padding:5rem 2rem 5rem 2rem; margin:0; width:auto; overflow: visible;  max-height:4rem; text-align:center; font-size:1.5rem; font-weight: lighter!important; background-image: url(../img/wavee.png); background-repeat: no-repeat; background-size: contain; background-position-x: center; background-position-y: center;}
+/* 01:CD */ .segment-title {display:flex; white-space:pre-line; justify-content: center; align-items: center; padding:5rem 2rem 5rem 2rem; margin:0; width:auto; overflow: visible;  max-height:4rem; text-align:center; font-size:1.5rem; font-weight: lighter!important; background-image: url(../img/wavee.png); background-repeat: no-repeat; background-size: contain; background-position-x: center; background-position-y: center;}	
 /* 01:CE */ .segment-subtitle {font-size: 1.5rem;  margin: 1rem 1rem 1rem 0rem;font-weight: lighter;}
 /* 01:CF */ .segment-paragraph {font-size: larger!important; font-weight: lighter; margin-top: 0rem; padding-left: 5vw; overflow: visible; display:block; justify-content: center; align-items: normal; text-align: justify; padding-right: 5vw; word-spacing: -0.1rem;}
 /* 01:CG */ .segment-col-paragraph {font-weight: lighter!important; text-align: justify!important; word-spacing: 0.05rem; min-height: 160px; max-height: 200px; padding-left: 1rem; padding-right:1rem; margin-bottom:66px;}
 /* 01:CI */ .sexy_line {display: block; border: none; color: white; height: 1px; background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(transparent));}
 /* 01:CJ */ .sexy_line2 {display: block; border: 1px solid transparent; color: white; height: 3px; background: -webkit-gradient(radial, 50% 12%, 10, 50% 87%, 148, from(grey), to(#fff));}
 /* 01:CK */ .col-lg-4 {text-align: center; border-bottom: 1px solid rgba(0,0,0,0.0); }
+/* 01:CL */ .midcontent-title {}
 
 /* 01:DA */ .video-frame {box-shadow: 0px 0px 8px -1px #fff!important;}
 /* 01:DB */ .video-wrapper {background:rgba(52, 72, 93, 0.9)!important;}
@@ -204,6 +209,7 @@
 /* 02:CB */ .segment  {padding-top:2rem;}
 /* 02:CC */ .segment-bottom  {}
 /* 02:CD */ .segment-title  {font-size: 2.5rem; margin: 2rem 0 2rem 0; background-size: contain;  }
+			.midcontent-title {margin:-2rem 0rem 4rem 0rem!important;}
 /* 02:CE */ .segment-subtitle  {}
 /* 02:CF */ .segment-paragraph  {text-align:justify;}
 /* 02:CG */ .segment-col-paragraph  {max-height: 250px; margin-bottom:40px; text-align:center;}

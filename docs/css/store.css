@@ -295,7 +295,7 @@
 /* 01:JH */	#user-details-content li {display:block; margin-bottom:0.5em; padding-bottom:0.3em; border-bottom:1px solid #ddd;}
 
 /* 01:KA */	.add-to-cart-form  {text-align:center; padding:10px; margin-bottom:0.5rem; border:1px solid rgba(255,255,255,0.1); border-radius:5px; margin-top:0.5rem;}
-/* 01:KB */	.add-to-cart-columb-title {font-weight:lighter; color:lightsteelblue; opacity:0.5; text-align:center; padding:4px; white-space:nowrap;}
+/* 01:KB */	.add-to-cart-columb-title {font-weight:lighter; color:lightsteelblue; opacity:1; text-align:center; padding:4px; white-space:nowrap;}
 /* 01:KC */	.add-to-cart-btn {max-width:14px!important; padding:2px 0% 2px 0%!Important; font-size:1rem; min-width:75px;}
 /* 01:KD */	.add-to-cart-pre-order-btn {margin-bottom:-10px; margin-top:5px; max-width:65px; max-height:25px; min-height:30px; min-width:10px; float:left; padding:3px; font-size:0.7rem; font-weight:lighter;}
 /* 01:KE */	.add-to-cart-price {font-weight:200!important; margin:0px; padding:0px; font-size:0.85rem; letter-spacing:0.15em; word-spacing:-0.25rem; color:white; margin:0px; padding:0px;}
@@ -408,7 +408,7 @@
 /* 02:JH */	#user-details-content li {}
 
 /* 02:KA */	.add-to-cart-form  {text-align:center; padding:10px; margin-bottom:0.5rem; border:1px solid rgba(255,255,255,0.1); border-radius:5px; margin-top:0.5rem;}
-/* 02:KB */	.add-to-cart-columb-title {font-weight:lighter; color:lightsteelblue; opacity:0.5; text-align:center; padding-left:7px; white-space:nowrap;}
+/* 02:KB */	.add-to-cart-columb-title {font-weight:lighter; color:lightsteelblue; opacity:1; text-align:center; padding-left:7px; white-space:nowrap;}
 /* 02:KC */	.add-to-cart-btn { width:120px; max-height:30px; min-height:25px; min-width:80px;  padding-top:3px; font-weight:lighter;}
 /* 02:KD */	.add-to-cart-pre-order-btn {margin-top:5px; max-width:65px; max-height:25px; min-height:30px; min-width:10px; float:left; padding-top:3px; font-size:0.75rem; font-weight:lighter;}
 /* 02:KE */	.add-to-cart-price {font-weight:200!important; margin:0px; padding:0px; font-size:0.85rem; letter-spacing:0.15em; word-spacing:-0.25rem; color:white; margin:0px; padding:0px;}

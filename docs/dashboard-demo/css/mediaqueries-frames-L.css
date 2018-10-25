@@ -1,5 +1,5 @@
 
-/*--- Last Modified: June 14, 2018 - 20:36 GMT ---*/ 
+/*--- Last Modified: October 25, 2018 - 4:27 GMT ---*/ 
 
 /* ----- ----- Iphone4 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 960 x 640 ) ------ ----*/ 
@@ -2337,62 +2337,176 @@ background-image: url(../img/demo-content/openhab/Landscape-7680x4320-PR=1-conte
 } 
 } 
 
-/* ----- ----- pixel2 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION: ( 1080 x 1920 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION: ( 411 x 731 ) ------ ----*/ 
+
+/* ----- ----- 8KFullDome : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 8192 x 8192 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 8192 x 8192 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 730.5px)
-and (max-device-width: 731.5px)
-and (min-device-height: 1079.5px)
-and (max-device-height: 1080.5px)
-and (-webkit-device-pixel-ratio: 3)
+and (min-device-width: 8191.5px)
+and (max-device-width: 8192.5px)
+and (min-device-height: 8191.5px)
+and (max-device-height: 8192.5px)
+and (-webkit-device-pixel-ratio: 1)
 and (orientation: landscape) { 
 
 .demo-iframe-container { 
-width: 725.5px;
-height: 411px;
+height: 8186.5px;
+width: 8192px;
 } 
 
 .demo-iframe {
-height: 724.5px;
-width: 410px;
+height: 8185.5px;
+width: 8191px;
 background-image: url();
 filter: invert(100%); /* ----- see frames.css ----*/ 
 -webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
-height: 725.5px;
-width: 411px;
-background-image: url(../img/demo-content/emby/Landscape-411x731-PR=2.7-content.png);
+height: 8186.5px;
+width: 8192px;
+background-image: url(../img/demo-content/emby/Landscape-8192x8192-PR=1-content.png);
 } 
 
 .demo-solar-div { 
-height: 725.5px;
-width: 411px;
-background-image: url(../img/demo-content/emoncms/Landscape-411x731-PR=2.7-content.png);
+height: 8186.5px;
+width: 8192px;
+background-image: url(../img/demo-content/emoncms/Landscape-8192x8192-PR=1-content.png);
 } 
 
 .demo-motioneye-div { 
-height: 725.5px;
-width: 411px;
-background-image: url(../img/demo-content/motioneye/Landscape-411x731-PR=2.7-content.png);
+height: 8186.5px;
+width: 8192px;
+background-image: url(../img/demo-content/motioneye/Landscape-8192x8192-PR=1-content.png);
 } 
 
 .demo-netstats-div { 
-height: 725.5px;
-width: 411px;
-background-image: url(../img/demo-content/netstats/Landscape-411x731-PR=2.7-content.png);
+height: 8186.5px;
+width: 8192px;
+background-image: url(../img/demo-content/netstats/Landscape-8192x8192-PR=1-content.png);
 } 
 
 .demo-openhab-div { 
-height: 725.5px;
-width: 411px;
-background-image: url(../img/demo-content/openhab/Landscape-411x731-PR=2.7-content.png);
+height: 8186.5px;
+width: 8192px;
+background-image: url(../img/demo-content/openhab/Landscape-8192x8192-PR=1-content.png);
 } 
 } 
 
+
+/* ----- ----- pixel2 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 1920 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 731 x 411 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 730.5px)
+and (max-device-width: 731.5px)
+and (min-device-height: 410.5px)
+and (max-device-height: 411.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 405.5px;
+width: 731px;
+} 
+
+.demo-iframe {
+height: 404.5px;
+width: 730px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 405.5px;
+width: 731px;
+background-image: url(../img/demo-content/emby/Landscape-731x411-PR=2.7-content.png);
+} 
+
+.demo-solar-div { 
+height: 405.5px;
+width: 731px;
+background-image: url(../img/demo-content/emoncms/Landscape-731x411-PR=2.7-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 405.5px;
+width: 731px;
+background-image: url(../img/demo-content/motioneye/Landscape-731x411-PR=2.7-content.png);
+} 
+
+.demo-netstats-div { 
+height: 405.5px;
+width: 731px;
+background-image: url(../img/demo-content/netstats/Landscape-731x411-PR=2.7-content.png);
+} 
+
+.demo-openhab-div { 
+height: 405.5px;
+width: 731px;
+background-image: url(../img/demo-content/openhab/Landscape-731x411-PR=2.7-content.png);
+} 
+} 
+
+
+/* ----- ----- Hauwaei P20 (Lukas' Mobile) : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2280 x 1080 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 2280 x 1080 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 2279.5px)
+and (max-device-width: 2280.5px)
+and (min-device-height: 1079.5px)
+and (max-device-height: 1080.5px)
+and (-webkit-device-pixel-ratio: 1)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: 1074.5px;
+width: 2280px;
+} 
+
+.demo-iframe {
+height: 1073.5px;
+width: 2279px;
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: 1074.5px;
+width: 2280px;
+background-image: url(../img/demo-content/emby/Landscape-2280x1080-PR=1-content.png);
+} 
+
+.demo-solar-div { 
+height: 1074.5px;
+width: 2280px;
+background-image: url(../img/demo-content/emoncms/Landscape-2280x1080-PR=1-content.png);
+} 
+
+.demo-motioneye-div { 
+height: 1074.5px;
+width: 2280px;
+background-image: url(../img/demo-content/motioneye/Landscape-2280x1080-PR=1-content.png);
+} 
+
+.demo-netstats-div { 
+height: 1074.5px;
+width: 2280px;
+background-image: url(../img/demo-content/netstats/Landscape-2280x1080-PR=1-content.png);
+} 
+
+.demo-openhab-div { 
+height: 1074.5px;
+width: 2280px;
+background-image: url(../img/demo-content/openhab/Landscape-2280x1080-PR=1-content.png);
+} 
+} 
 
 
 /* ----- ----- breakpoint filler-----00050 : ( landscape ) ------ ----*/ 
@@ -2512,7 +2626,7 @@ background-image: url(../img/demo-content/openhab/Landscape-731x411-PR=2.7-conte
 /* ----- ----- LOGICAL RESOLUTION ( 2559 x 1410 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 2044px)
+and (min-device-width: 2280px)
 and (max-device-width: 2559.5px)
 and (min-device-height: 1151.5px)
 and (max-device-height: 1410.5px)
@@ -2540,37 +2654,37 @@ background-image: url(../img/demo-content/emby/Landscape-2559x1410-PR=4-content.
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/-content.png);
+background-image: url(../img/demo-content/emoncms/Landscape-2280x1080-PR=1-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/-content.png);
+background-image: url(../img/demo-content/motioneye/Landscape-2280x1080-PR=1-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/-content.png);
+background-image: url(../img/demo-content/netstats/Landscape-2280x1080-PR=1-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/-content.png);
+background-image: url(../img/demo-content/openhab/Landscape-2280x1080-PR=1-content.png);
 } 
 } 
 
 
 /* ----- ----- breakpoint filler-----00047 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION ( 2043 x 1151 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION ( 2043 x 1151 ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2279 x 1151 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 2279 x 1151 ) ------ ----*/ 
 
 @media only screen
-and (min-device-width: 1881px)
-and (max-device-width: 2043.5px)
-and (min-device-height: 1077.5px)
+and (min-device-width: 2044px)
+and (max-device-width: 2279.5px)
+and (min-device-height: 1079.5px)
 and (max-device-height: 1151.5px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: landscape) { 
@@ -2591,7 +2705,7 @@ filter: invert(100%); /* ----- see frames.css ----*/
 .demo-emby-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emby/Landscape-2043x1151-PR=3-content.png);
+background-image: url(../img/demo-content/emby/Landscape-2279x1151-PR=3-content.png);
 } 
 .demo-solar-div { 
 height: calc(99.99vh);
@@ -2620,6 +2734,62 @@ background-image: url(../img/demo-content/openhab/-content.png);
 
 
 /* ----- ----- breakpoint filler-----00046 : ( landscape ) ------ ----*/ 
+/* ----- ----- PHYSICAL RESOLUTION ( 2043 x 1079 ) ------ ----*/ 
+/* ----- ----- LOGICAL RESOLUTION ( 2043 x 1079 ) ------ ----*/ 
+
+@media only screen
+and (min-device-width: 1881px)
+and (max-device-width: 2043.5px)
+and (min-device-height: 1077.5px)
+and (max-device-height: 1079.5px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+.demo-iframe-container { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+} 
+
+.demo-iframe {
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url();
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
+} 
+
+.demo-emby-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emby/Landscape-2043x1079-PR=3-content.png);
+} 
+.demo-solar-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/emoncms/-content.png);
+} 
+
+.demo-motioneye-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/motioneye/-content.png);
+} 
+
+.demo-netstats-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/netstats/-content.png);
+} 
+
+.demo-openhab-div { 
+height: calc(99.99vh);
+width: calc(99.99vw);
+background-image: url(../img/demo-content/openhab/-content.png);
+} 
+} 
+
+
+/* ----- ----- breakpoint filler-----00045 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 1880 x 1077 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 1880 x 1077 ) ------ ----*/ 
 
@@ -2675,7 +2845,7 @@ background-image: url(../img/demo-content/openhab/-content.png);
 } 
 
 
-/* ----- ----- breakpoint filler-----00045 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00044 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 1439 x 1023 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 1439 x 1023 ) ------ ----*/ 
 
@@ -2731,7 +2901,7 @@ background-image: url(../img/demo-content/openhab/-content.png);
 } 
 
 
-/* ----- ----- breakpoint filler-----00044 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00043 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 1365 x 853 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 1365 x 853 ) ------ ----*/ 
 
@@ -2787,7 +2957,7 @@ background-image: url(../img/demo-content/openhab/-content.png);
 } 
 
 
-/* ----- ----- breakpoint filler-----00043 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00042 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 1279 x 849 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 1279 x 849 ) ------ ----*/ 
 
@@ -2820,35 +2990,33 @@ background-image: url(../img/demo-content/emby/Landscape-1279x849-PR=2-content.p
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/-content.png);
+background-image: url(../img/demo-content/emoncms/Landscape-7679.5x4319-PR=4-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/-content.png);
+background-image: url(../img/demo-content/motioneye/Landscape-7679.5x4319-PR=4-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/-content.png);
+background-image: url(../img/demo-content/netstats/Landscape-7679.5x4319-PR=4-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/-content.png);
+background-image: url(../img/demo-content/openhab/Landscape-7679.5x4319-PR=4-content.png);
 } 
 } 
 
 
-/* ----- ----- breakpoint filler-----00042 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00041 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 1278 x 799 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 1278 x 799 ) ------ ----*/ 
-/* ----- ----- DISABLED - CONFLICTS WITH IPAD LANDSCAPE ------ ----*/ 
 
-/* ----- -----
 @media only screen
 and (min-device-width: 1024px)
 and (max-device-width: 1278.5px)
@@ -2866,8 +3034,8 @@ width: calc(99.99vw);
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url();
-filter: invert(100%); /* ----- see frames.css 
--webkit-filter: invert(100%); /* ----- see frames.css 
+filter: invert(100%); /* ----- see frames.css ----*/ 
+-webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
 } 
 
 .demo-emby-div { 
@@ -2878,30 +3046,30 @@ background-image: url(../img/demo-content/emby/Landscape-1278x799-PR=2-content.p
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/Landscape-1278x799-PR=2-content.png);
+background-image: url(../img/demo-content/emoncms/Landscape-2959x1439-PR=4-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/Landscape-1278x799-PR=2-content.png);
+background-image: url(../img/demo-content/motioneye/Landscape-2959x1439-PR=4-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/Landscape-1278x799-PR=2-content.png);
+background-image: url(../img/demo-content/netstats/Landscape-2959x1439-PR=4-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/Landscape-1278x799-PR=2-content.png);
+background-image: url(../img/demo-content/openhab/Landscape-2959x1439-PR=4-content.png);
 } 
-} ------ ----*/ 
+} 
 
 
-/* ----- ----- breakpoint filler-----00041 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00040 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 1023 x 767 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 1023 x 767 ) ------ ----*/ 
 
@@ -2934,30 +3102,30 @@ background-image: url(../img/demo-content/emby/Landscape-1023x767-PR=2-content.p
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/Landscape-2959x1439-PR=4-content.png);
+background-image: url(../img/demo-content/emoncms/Landscape-2559x1410-PR=4-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/Landscape-2959x1439-PR=4-content.png);
+background-image: url(../img/demo-content/motioneye/Landscape-2559x1410-PR=4-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/Landscape-2959x1439-PR=4-content.png);
+background-image: url(../img/demo-content/netstats/Landscape-2559x1410-PR=4-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/Landscape-2959x1439-PR=4-content.png);
+background-image: url(../img/demo-content/openhab/Landscape-2559x1410-PR=4-content.png);
 } 
 } 
 
 
-/* ----- ----- breakpoint filler-----00040 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00039 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 983 x 719 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 983 x 719 ) ------ ----*/ 
 
@@ -2990,30 +3158,30 @@ background-image: url(../img/demo-content/emby/Landscape-983x719-PR=2-content.pn
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/Landscape-2559x1410-PR=4-content.png);
+background-image: url(../img/demo-content/emoncms/Landscape-2279x1151-PR=3-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/Landscape-2559x1410-PR=4-content.png);
+background-image: url(../img/demo-content/motioneye/Landscape-2279x1151-PR=3-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/Landscape-2559x1410-PR=4-content.png);
+background-image: url(../img/demo-content/netstats/Landscape-2279x1151-PR=3-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/Landscape-2559x1410-PR=4-content.png);
+background-image: url(../img/demo-content/openhab/Landscape-2279x1151-PR=3-content.png);
 } 
 } 
 
 
-/* ----- ----- breakpoint filler-----00039 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00038 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 959 x 605 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 959 x 605 ) ------ ----*/ 
 
@@ -3046,30 +3214,30 @@ background-image: url(../img/demo-content/emby/Landscape-959x605-PR=1-content.pn
 .demo-solar-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/Landscape-2043x1151-PR=3-content.png);
+background-image: url(../img/demo-content/emoncms/Landscape-2043x1079-PR=3-content.png);
 } 
 
 .demo-motioneye-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/Landscape-2043x1151-PR=3-content.png);
+background-image: url(../img/demo-content/motioneye/Landscape-2043x1079-PR=3-content.png);
 } 
 
 .demo-netstats-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/Landscape-2043x1151-PR=3-content.png);
+background-image: url(../img/demo-content/netstats/Landscape-2043x1079-PR=3-content.png);
 } 
 
 .demo-openhab-div { 
 height: calc(99.99vh);
 width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/Landscape-2043x1151-PR=3-content.png);
+background-image: url(../img/demo-content/openhab/Landscape-2043x1079-PR=3-content.png);
 } 
 } 
 
 
-/* ----- ----- breakpoint filler-----00038 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00037 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 853 x 599 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 853 x 599 ) ------ ----*/ 
 
@@ -3125,7 +3293,7 @@ background-image: url(../img/demo-content/openhab/Landscape-1880x1077-PR=3-conte
 } 
 
 
-/* ----- ----- breakpoint filler-----00037 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00036 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 811 x 576 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 811 x 576 ) ------ ----*/ 
 
@@ -3181,7 +3349,7 @@ background-image: url(../img/demo-content/openhab/Landscape-1439x1023-PR=3-conte
 } 
 
 
-/* ----- ----- breakpoint filler-----00036 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00035 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 806 x 479 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 806 x 479 ) ------ ----*/ 
 
@@ -3237,7 +3405,7 @@ background-image: url(../img/demo-content/openhab/Landscape-1365x853-PR=2-conten
 } 
 
 
-/* ----- ----- breakpoint filler-----00035 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00034 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 799 x 449 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 799 x 449 ) ------ ----*/ 
 
@@ -3293,7 +3461,7 @@ background-image: url(../img/demo-content/openhab/Landscape-1279x849-PR=2-conten
 } 
 
 
-/* ----- ----- breakpoint filler-----00034 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00033 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 738 x 415 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 738 x 415 ) ------ ----*/ 
 
@@ -3349,7 +3517,7 @@ background-image: url(../img/demo-content/openhab/Landscape-1278x799-PR=2-conten
 } 
 
 
-/* ----- ----- breakpoint filler-----00033 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00032 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 735 x 413 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 735 x 413 ) ------ ----*/ 
 
@@ -3405,7 +3573,7 @@ background-image: url(../img/demo-content/openhab/Landscape-1023x767-PR=2-conten
 } 
 
 
-/* ----- ----- breakpoint filler-----00032 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00031 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 731 x 411 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 731 x 411 ) ------ ----*/ 
 
@@ -3461,7 +3629,7 @@ background-image: url(../img/demo-content/openhab/Landscape-983x719-PR=2-content
 } 
 
 
-/* ----- ----- breakpoint filler-----00031 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00030 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 719 x 410 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 719 x 410 ) ------ ----*/ 
 
@@ -3517,7 +3685,7 @@ background-image: url(../img/demo-content/openhab/Landscape-959x605-PR=1-content
 } 
 
 
-/* ----- ----- breakpoint filler-----00030 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00029 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 666 x 399 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 666 x 399 ) ------ ----*/ 
 
@@ -3573,7 +3741,7 @@ background-image: url(../img/demo-content/openhab/Landscape-853x599-PR=1-content
 } 
 
 
-/* ----- ----- breakpoint filler-----00029 : ( landscape ) ------ ----*/ 
+/* ----- ----- breakpoint filler-----00030 : ( landscape ) ------ ----*/ 
 /* ----- ----- PHYSICAL RESOLUTION ( 639 x 383 ) ------ ----*/ 
 /* ----- ----- LOGICAL RESOLUTION ( 639 x 383 ) ------ ----*/ 
 
@@ -3625,62 +3793,6 @@ background-image: url(../img/demo-content/netstats/Landscape-811x576-PR=1-conten
 height: calc(99.99vh);
 width: calc(99.99vw);
 background-image: url(../img/demo-content/openhab/Landscape-811x576-PR=1-content.png);
-} 
-} 
-
-
-/* ----- ----- breakpoint filler-----00030 : ( landscape ) ------ ----*/ 
-/* ----- ----- PHYSICAL RESOLUTION ( 575 x 374 ) ------ ----*/ 
-/* ----- ----- LOGICAL RESOLUTION ( 575 x 374 ) ------ ----*/ 
-
-@media only screen
-and (min-device-width: 568px)
-and (max-device-width: 575.5px)
-and (min-device-height: 359.5px)
-and (max-device-height: 374.5px)
-and (-webkit-device-pixel-ratio: 1)
-and (orientation: landscape) { 
-
-.demo-iframe-container { 
-height: calc(99.99vh);
-width: calc(99.99vw);
-} 
-
-.demo-iframe {
-height: calc(99.99vh);
-width: calc(99.99vw);
-background-image: url();
-filter: invert(100%); /* ----- see frames.css ----*/ 
--webkit-filter: invert(100%); /* ----- see frames.css ----*/ 
-} 
-
-.demo-emby-div { 
-height: calc(99.99vh);
-width: calc(99.99vw);
-background-image: url(../img/demo-content/emby/Landscape-575x374-PR=1-content.png);
-} 
-.demo-solar-div { 
-height: calc(99.99vh);
-width: calc(99.99vw);
-background-image: url(../img/demo-content/emoncms/Landscape-806x479-PR=1-content.png);
-} 
-
-.demo-motioneye-div { 
-height: calc(99.99vh);
-width: calc(99.99vw);
-background-image: url(../img/demo-content/motioneye/Landscape-806x479-PR=1-content.png);
-} 
-
-.demo-netstats-div { 
-height: calc(99.99vh);
-width: calc(99.99vw);
-background-image: url(../img/demo-content/netstats/Landscape-806x479-PR=1-content.png);
-} 
-
-.demo-openhab-div { 
-height: calc(99.99vh);
-width: calc(99.99vw);
-background-image: url(../img/demo-content/openhab/Landscape-806x479-PR=1-content.png);
 } 
 } 
 

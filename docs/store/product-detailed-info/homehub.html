@@ -9,7 +9,7 @@
 		<meta charset="utf-8">
 		<meta content="1" http-equiv="Expires">
 		<link href="//makeitwave.com" rel="canonical">
-		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- SEO -->
+				<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no" name="viewport"><!-- SEO -->
 		<meta content="Home Operating System" name="description">
 		<meta content="Make it Wave Ltd" name="author">
 		
@@ -35,9 +35,20 @@
 		<meta content="#ffffff" name="theme-color">
 		
 		<!-- CSS -->
+		<link rel="stylesheet" href="../../css/bootstrap.min.css" >
+
 		<link href="../../css/content.css" rel="stylesheet">
 		<link href="../../css/product-slideshows.css" rel="stylesheet">
+		<style>
 		
+		@media (min-width: 1024px) {
+		.ism-slider {
+		display:inline-flex;
+		max-width:45rem;
+		height: -webkit-fill-available!important;
+		}
+		}
+		</style>
 		
 		<!-- Scripts -->	
 		<script src="../../js/ism-2.2.min.js"></script>
@@ -48,65 +59,51 @@
 			 document.getElementById('mainWrapper').style.visibility="visible";
 			}
 		</script>
-	<!-- Snipcart --> <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-autopop="false" data-api-key="YTBiMjkwMjktNTA4NS00ZjY4LTg4Y2QtODAzOTk4YTdiMzBhNjM2NzQyMTQwMDM0MzcyMDI0"></script> <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" /></head>
+</head>
 	
 	<body style="overflow:hidden!important;">
 
-		<h1 class="title">Wave Home Hub</h1>
+		<h1 class="title">Home Hub</h1>
 		
-		<div class="paragraph-textarea">
-		<div class="ism-slider" id="my-slider">
-										<ol>
-											<li><img src="../../img/products/homehub-1.png">
-											</li>
+		<div class="row" >
+			<div class="col-lg-6">
+				<div class="ism-slider" id="my-slider">
+					<ol>
+						<li><img src="../../img/products/techspec/raspberrypi3.gif">
+						</li>
 
-
-											<li><img src="../../img/products/homehub-2.png">
-											</li>
-
-
-											<li><img src="../../img/products/homehub-3.png">
-											</li>
-
-
-											<li><img src="../../img/products/homehub-ordernow.png">
-											</li>
-										</ol>
-									</div>
+						<li><img src="../../img/products/techspec/homehub2.png">
+						</li>
+						
+						<li><img src="../../img/products/techspec/homehub.png">
+						</li>
+						
+					</ol>
+				</div>
+			</div>
+							
+					
+			<div class="col-lg-6">
+					<p class="paragraph-content">See below the hardware specifications for the Wave Home Hub. Learn more by reading this products <u><a href="../../data/docs/products/homehub/build/html/index.html" style="color:white;">User Guide </a></u> </p>
+						
+							<h2 class="paragraph-title">Specifications</h2>
+						<div class="paragraph-content">
+						
+							<ul>
+								<li>10/100 Ethernet Port for quick connection to internet</li>
+								<li>Micro SD port for loading operating system and storing data</li>	
+								<li>Broadcom BCM2837 Arm7 Quad Core Processor running at 900MHz & 1GB RAM</li>
+								<li>4 x USB 2 ports (1.2Amp Output)</li>
+								<li>Full size HDMI - Stream and watch Hi-definition video output at 1080P</li>
+								<li>40pin extended GPIO - Touch screen display, other accessories etc</li>	
+								<li>Combined 4-pole jack for connecting your stereo audio out and composite video out</li>
+								<li>2Amp Micro USB Power Port - Includes Advanced Power Management</li>
+							</ul>
+							
+						</div>
 			
-			<h2 class="paragraph-title">Technical Specifications</h2>
-				</br>
-			<div class="paragraph-content">
-			
-				<ul>
-					<li>Broadcom BCM2837 Arm7 Quad Core Processor powered Single Board Computer running at 900MHz</li>
-					<li>1GB RAM</li>
-					<li>40pin extended GPIO</li>
-					<li>4 x USB 2 ports</li>
-					<li>4 pole Stereo output and Composite video port</li>
-					<li>Full size HDMI</li>
-					<li>CSI camera port for connecting the Raspberry Pi camera</li>
-					<li>DSI display port for connecting the Raspberry Pi touch screen display</li>
-					<li>Micro SD port for loading your operating system and storing data</li>
-					<li>Micro USB power source</li>
-				</ul>
-				
-				<ul>
-					<li>Broadcom BCM2837Arm7 Quad Core Processor powered Single Board Computer running at 900MHz</li>
-					<li>1GB RAM so you can now run bigger and more powerful applications</li>
-					<li>Identical board layout and footprint as the Model B+, so all cases and 3rd party add-on boards designed for the Model B+ will be fully compatible.</li>
-					<li>Fully HAT compatible</li>
-					<li>40pin extended GPIO to enhance your &ldquo;real world&rdquo; projects. GPIO is 100% compatible with the Model B+ and A+ boards. First 26 pins are identical to the Model A and Model B boards to provide full backward compatibility across all boards.</li>
-					<li>Connect a Raspberry Pi camera and touch screen display (each sold separately)</li>
-					<li>Stream and watch Hi-definition video output at 1080P</li>
-					<li>Micro SD slot for storing information and loading your operating systems.</li>
-					<li>Advanced power management:</li>
-					<li>You can now provide up to 1.2 AMP to the USB port &ndash; enabling you to connect more power hungry USB devices directly to the Raspberry PI. (This feature requires a 2Amp micro USB Power Supply)</li>
-					<li>10/100 Ethernet Port to quickly connect the Raspberry Pi to the Internet</li>
-					<li>Combined 4-pole jack for connecting your stereo audio out and composite video out</li>
-				</ul>
 			</div>
 		</div>
-		
+			
 	</body>
 </html>

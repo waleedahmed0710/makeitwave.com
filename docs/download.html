@@ -48,13 +48,66 @@
 		<link href="css/download-buttons.css" type="text/css" rel="stylesheet">
 		<link rel="stylesheet" href="css/dropdownboxes.css">
 		<link href="css/glyphicon.css" type="text/css" rel="stylesheet">
+	
+		<style>
+		.appstore-img-button-play {
+			background-image: url(img/google-play-66442243.svg);
+			background-repeat: no-repeat;
+			background-position: 0px 0px;
+
+			background-color: transparent;
+			padding-left: 0px;
+			margin-top: 0px;
+			height: 42px;
+			width: 110px;
+			
+			display: flex!important;
+			justify-content: center!Important;
+			object-position: center!important;
+			align-content: center!important;
+			zoom:1.5;
+		}
 		
+		.appstore-img-button-apple {
+			background-image: url(img/app-store-1f36bbd8.svg);
+			background-repeat: no-repeat;
+			background-position: 0px 0px;
+	
+			background-color: transparent;
+			padding-left: 0px;
+			margin-top: -1px;
+			margin-left: 0px;
+			height: 42px;
+			width: 110px;
+		
+			display: flex!important;
+			justify-content: center!Important;
+			object-position: center!important;
+			align-content: center!important;
+			zoom:1.5;
+		}
+		
+	.btn-group2 { 
+		position: relative!important;
+		display: inline-flex;
+		vertical-align: middle!important;
+		vertical-align: middle!important;
+		object-position: center!Important;
+		align-content: center!important;
+		justify-content: center!important; 
+	
+		width:100%; 
+		text-align:center!Important; 
+		padding:0px!important;
+		margin:0px!important;
+	}
+	</style>
 	
 
 		
 		<!-- Java -->
 		<script src="js/lazy.min.js"></script>
-		<script src="https://js.stripe.com/v3/"></script>
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
 		<script>
 				function pageLoad(){
@@ -96,7 +149,7 @@
 									</span>
 								</p> 
 							</a>
-						</div>
+					</div>
 					
 					<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 
@@ -145,33 +198,72 @@
 		</nav>
 		</header>
 		<div id="download"></div>
+		
 		<main role="main" class="main">
 		<a id="download-segment"></a>
-			<div class="segment-top">
-			
-				<h1 class="segment-title" >Wave Operating System</h1>
+			<div class="segment-top" >
+				<div class="row" >
+					<div class="col-lg-6">
+									<h1 class="segment-title" >Operating System</h1>
+						<p class="segment-paragraph" style="text-align:center; padding: 0 2rem 0 2rem!Important;"> Below are links to our Software, Source Code and User Guide. Installation Instructions can also be found lower down on this page.</p>				
 		
-					<p class="segment-paragraph" style="text-align:center; padding: 0 2rem 0 2rem!Important;" > Download the latest version of WaveOS to your Device</p>				
-		
-				<div class="download-buttons-div">
-					<div class="btn-group btn-download">
-						<p style="font-weight:lighter;">Latest Version: 0.4 </p>
-						<a target="_popup" class="btn btn-lg btn-success" href="https://mega.nz/#!4aYSiJiS!S2VeWes_0SPgtxJD2yVxAYrVlQEsvFT_D1ft0Tt5As8">
-							<i class="glyphicon glyphicon-arrow-down">&nbsp; </i>
-							<strong>ISO</strong><span>&nbsp;  (500MB)</span>
-						</a>
+						<div class="download-buttons-div">
+							<div class="btn-group btn-download">
+								<p style="font-weight:lighter;">Latest Version: 0.4 </p>
+								<a target="_popup" class="btn btn-lg btn-success" href="https://mega.nz/#!4aYSiJiS!S2VeWes_0SPgtxJD2yVxAYrVlQEsvFT_D1ft0Tt5As8">
+									<i class="glyphicon glyphicon-arrow-down">&nbsp; </i>
+									<strong>ISO</strong><span>&nbsp;  (500MB)</span>
+								</a>
+								
+								<a target="_popup" class="btn btn-lg btn-success" href="https://mega.nz/#!0a4TgCzJ!uIMdWcIw7mlIHDW9Wmo7NC3sXgxjv4YvwP-Oq21kR88">
+									<i class="glyphicon glyphicon-compressed">&nbsp; </i>
+									<strong>ZIP</strong> <span>&nbsp;  (150MB)</span>
+								</a>
+									<a target="_popup"  class="btn btn-lg btn-info2" href="https://github.com/unclehowell/WaveOS/blob/master/README.md">
+									<i class="glyphicon glyphicon-eye-open">&nbsp; </i>
+									<strong>Source Code </strong> 
+								</a> 
+									<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true"  class="btn btn-lg btn-info2" href="data\docs\software\wave_os\build\html/index.html" style="background-color:rgba(0,0,0,0.4)!important;">
+									<i class="glyphicon glyphicon-book">&nbsp; </i>
+									<strong>User Guide </strong> &nbsp;
+								</a> 
+							</div>
+						</div>
+					</div>
 						
-						<a target="_popup" class="btn btn-lg btn-success" href="https://mega.nz/#!0a4TgCzJ!uIMdWcIw7mlIHDW9Wmo7NC3sXgxjv4YvwP-Oq21kR88">
-							<i class="glyphicon glyphicon-compressed">&nbsp; </i>
-							<strong>ZIP</strong> <span>&nbsp;  (150MB)</span>
-						</a>
-							<a target="_popup"  class="btn btn-lg btn-info2" href="https://github.com/unclehowell/WaveOS/blob/master/README.md">
-							<i class="glyphicon glyphicon-eye-open">&nbsp; </i>
-							<strong>VIEW CODE </strong> &nbsp;  (github)
-						</a> 
+				
+					<div class="col-lg-6">
+						<h1 class="segment-title" >Remote Access App</h1>
+						<p class="segment-paragraph" style="text-align:center; padding: 0 2rem 0 2rem!Important;" > Below are links to Dataplicity's Mobile Apps, which are used to gain remote access to Device running WaveOS. </p>				
+		
+						<div class="download-buttons-div">
+							<div class="btn-group btn-download">
+								<p style="font-weight:lighter;">Latest Version: N/A </p>
+								
+								<div class="btn-group2 btn-group">
+								<a href="https://play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup" class="appstore-img-button-play" style="filter:invert(50%)">
+								</a>
+									
+								</div>
+							
+								<div class="btn-group btn-group2">
+								<a href="//itunes.apple.com/us/app/dataplicity-terminal-for-pi/id921634512" target="_popup" class="appstore-img-button-apple" style="filter:invert(50%)">
+								</a>	
+								</div>								
+						
+							</div>
+						</div>		
+							
+
+					
 					</div>
 				</div>
-				<p></p></br>
+			</div>
+		
+
+		
+		
+			
 				
 				<span class="sexy_line"></span>	
 			
@@ -193,14 +285,16 @@
 
 						<div class="col-lg-4">
 							<img alt="Generic placeholder image" class="rounded-circle" height="140" src="img/plugplay2.png" width="140">
-							<h3 class="segment-subtitle">Connect Device</h3>
-							<p class="segment-col-paragraph">Attach the ethernet Cable to Wave and the other end into your internet router. Then connect the power cord. The system will boot up & use the internet to autonomously set itself up. This process takes 5 - 10 minutes. </br></br>
+							<h3 class="segment-subtitle">A. Connect Cables</h3>
+							<p class="segment-col-paragraph" style="margin-bottom:10px!important;">Attach the ethernet Cable to Wave and the other end into your internet router. Then connect the power cord. The system will boot up & use the internet to autonomously set itself up. This process takes 5 - 10 minutes.</p>
+							<h3 class="segment-subtitle" >B. Select Edition</h3>
+							<p class="segment-col-paragraph">Using your smartphone or computer, connect to the Wi-Fi (SSID:Wave-Hotspot/ Password: makeitwave). Once connected enter into your web-browser: "192.168.42.1" or "http://wave/". Then select a Software Edition to complete the installation </br></br>
 							</div>
 
 						<div class="col-lg-4">
 							<img alt="Generic placeholder image" class="rounded-circle" height="140" src="img/menu.png" width="140">
-							<h3 class="segment-subtitle">Access Menu</h3>
-							<p class="segment-col-paragraph">Using your smartphone or computer, connect to the Wi-Fi (SSID:Wave-Hotspot/ Password: makeitwave). Once connected enter into your web-browser: "192.168.42.1" or "http://wave/". Then follow the onscreen instructions  </p>
+							<h3 class="segment-subtitle">Enjoy Wave</h3>
+							<p class="segment-col-paragraph">Whichever Edition you select we hope you'll enjoy Wave. If you select the Home Hub Edition you will be up and running in minutes with nothing else to do. </br></br><a class="btn btn-secondary"  href="dashboard-demo/multistep-menu/index.html" target="_popup" style="width:140px;margin-left:calc(50% - 70px);">Interactive Demo</a> </br></br> For all of the other Editions you will receive a brief instruction what to do after your device has configured itself to the role it will perform. </p>
 						</div>	
 				</div>
 			</div>
@@ -385,12 +479,12 @@
 														</a>
 													</li>
 													<li>
-														<a class="FooterNew-link" href="#wavefooter" data-uitest-target="GoToHowItWorks" data-qtsb-section="footer" data-qtsb-subsection="About" data-qtsb-label="GoToHowItWorks">
+														<a class="FooterNew-link" href="index.html#howitworks" data-uitest-target="GoToHowItWorks" data-qtsb-section="footer" data-qtsb-subsection="About" data-qtsb-label="GoToHowItWorks">
 																How it Works
 														</a>
 													</li>
 													<li>
-														<a class="FooterNew-link" target="_popup" href="https://waveos.readthedocs.io/en/latest/" data-uitest-target="GoToSecurity" data-qtsb-section="footer" data-qtsb-subsection="About" data-qtsb-label="GoToSecurity">
+														<a class="FooterNew-link" href="documents.html" data-uitest-target="GoToSecurity" data-qtsb-section="footer" data-qtsb-subsection="About" data-qtsb-label="GoToSecurity">
 																Documentation
 														</a>
 													</li>
@@ -405,7 +499,7 @@
 														</a>
 													</li>
 													<li>
-														<a class="FooterNew-link" href="#wavefooter" data-uitest-target="GoToContact" data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToContact">
+														<a class="FooterNew-link" href="distributors.html#contactus" data-uitest-target="GoToContact" data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToContact">
 																Contact Us
 														</a>
 													</li>

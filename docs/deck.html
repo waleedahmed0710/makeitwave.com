@@ -55,7 +55,7 @@
 		
 		<!-- scripts 1/2 -->
 		<script src="js/lazy.min.js">	</script>
-		<script src="https://js.stripe.com/v3/"></script>
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	</script>
 		<script>
 				function pageLoad(){
@@ -86,8 +86,25 @@
 
 		<header id="mainWrapper">
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-					<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a> 
-						<div class="checkout-visibility-mobile"> <a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"> <p style="display:inline!important;"><span class="glyphicon glyphicon-shopping-cart" style="margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;" id="dropdown-glyph" >&nbsp; </span></p> </a></div><button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+					
+				<a href="index.html"><img class="navbar-brand" src="img/wave_logo.png"></a> 
+						
+					<div class="checkout-visibility-mobile"> 
+							<a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"> 
+								<p style="display:inline!important;">
+									<span class="glyphicon glyphicon-shopping-cart navbar-cart-icon" >
+										
+										
+										<div class="snipcart-summary navbar-cart-qnt" > 
+											<span class="snipcart-total-items"></span> 		
+										</div>
+									</span>
+								</p> 
+							</a>
+					</div>
+					
+					<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+
 				
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav mr-auto">
@@ -121,7 +138,17 @@
 		
 					</ul>
 				</div>
-			<div class="checkout-visibility-desktop"> <a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"><div class="snipcart-summary" style="color:white;margin-top:10px;"> <b style="color:white;opacity:0.6;">Items:</b> <span class="snipcart-total-items"></span> <p style="display:inline!important;"><span class="glyphicon glyphicon-shopping-cart" style="margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;" id="dropdown-glyph" >&nbsp; </span></p> <b style="color:white;opacity:0.6;">&nbsp;Total:</b> <span class="snipcart-total-price"></span> </div></a></div></nav>
+					<div class="checkout-visibility-desktop"> 
+						<a href="#" class="snipcart-checkout snipcart-checkout-text" >							
+							<div class="snipcart-summary checkout-details-desktop"> 
+								<p style="display:inline!important;">
+									<span class="glyphicon glyphicon-shopping-cart navbar-cart-icon-desktop" >&nbsp; </span>
+								</p> 
+									<b>Items:</b> 
+								<span class="snipcart-total-items "></span> 
+							</div>
+						</a>
+					</div></nav>
 		</header>
 		
 
@@ -277,12 +304,12 @@
 														</a>
 													</li>
 													<li>
-														<a class="FooterNew-link" href="#wavefooter" data-uitest-target="GoToHowItWorks" data-qtsb-section="footer" data-qtsb-subsection="About" data-qtsb-label="GoToHowItWorks">
+														<a class="FooterNew-link" href="index.html#howitworks" data-uitest-target="GoToHowItWorks" data-qtsb-section="footer" data-qtsb-subsection="About" data-qtsb-label="GoToHowItWorks">
 																How it Works
 														</a>
 													</li>
 													<li>
-														<a class="FooterNew-link" target="_popup" href="https://waveos.readthedocs.io/en/latest/" data-uitest-target="GoToSecurity" data-qtsb-section="footer" data-qtsb-subsection="About" data-qtsb-label="GoToSecurity">
+														<a class="FooterNew-link" href="documents.html" data-uitest-target="GoToSecurity" data-qtsb-section="footer" data-qtsb-subsection="About" data-qtsb-label="GoToSecurity">
 																Documentation
 														</a>
 													</li>
@@ -297,7 +324,7 @@
 														</a>
 													</li>
 													<li>
-														<a class="FooterNew-link" href="#wavefooter" data-uitest-target="GoToContact" data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToContact">
+														<a class="FooterNew-link" href="distributors.html#contactus" data-uitest-target="GoToContact" data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToContact">
 																Contact Us
 														</a>
 													</li>

@@ -1,8 +1,8 @@
-18. Miscellanious
+10. Miscellanious
 ===================
 
 18.1 Entire Agreement; Amendments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 This Agreement and the Appendixes hereto represent the entire understanding between the parties hereto and supersede all other written or oral agreements heretofore made by or on behalf of Company or Distributor and may be changed only by agreements in writing signed by the authorized representatives of the parties.
 
@@ -15,7 +15,7 @@ Country of Great Britain in which state the offices of Company are located. Acco
 
 
 18.3 Relationship of Parties
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nothing in this Agreement shall constitute or be deemed to constitute a partnership between the parties hereto or constitute or be deemed to constitute Distributor as agent of Company, or its affiliates, for any purpose whatever, and neither party shall have  authority or power to bind the other party, or its affiliates, or to contract in the name of or create a liability against the other party or its affiliates, in any way or for any purpose. 
 

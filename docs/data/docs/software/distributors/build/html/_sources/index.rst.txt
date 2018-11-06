@@ -1,15 +1,16 @@
-WaveOS Software Distribution Licence Agreement
-===============================================
+Wave® Software Distribution Terms
+===============================================================
 
-Terms & Conditions
-------------------
+For Service Centers, Resellers & Installers. These terms and conditions are for Authorised, Licenced and/or Official re-distributors of the Wave® Operating System. 
 
-.. image:: images/homehub.png
+If you or your organisation wish to become a Certified and/or Licenced Distributor for WaveOS™, please visit this link to submit your registration:  https://makeitwave.com/distributor-info.html 
 
+This document may also be used as a guide for any entity wishing to share or re-distribute this software freely, without consequence or making themselves known to, or affiliating with Wave®. 
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 1
    
+   releasenotes
    background
    definitions
    grantlicence

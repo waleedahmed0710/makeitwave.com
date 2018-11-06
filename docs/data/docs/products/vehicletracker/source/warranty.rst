@@ -1,5 +1,5 @@
 Legal Compliance & Warranty
-==============================
+======================================================
 
 This appendix includes the following topics:
 
@@ -7,7 +7,7 @@ This appendix includes the following topics:
 • Warranty Information
 
 Regulatory Compliance
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 FCC Class B Information
 ------------------------
@@ -24,7 +24,7 @@ This device has been tested and found to comply with the limits for a Class B di
 • Connect the equipment into an outlet on a circuit different from that to which the receiver is connected. 
 • Consult the dealer or an experienced radio/television technician for help. 
 
-Any changes or modifications not expressly approved by Wave could void your authority to operate this device.
+Any changes or modifications not expressly approved by Wave® could void your authority to operate this device.
 
 Safety Compliance
 -----------------
@@ -37,7 +37,7 @@ Marking by the CE symbol indicates compliance of this system to the applicable C
 
 
 GNU General Public Licence ("GPL")
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 Firmware incorporated into this product may include third party copyrighted software licensed under the GPL or Lesser General Public License (“LGPL”) (collectively, “GPL Software”) and not Wave’s End User License Agreement. In accordance with the GPL, if applicable: 
 
@@ -47,11 +47,11 @@ Firmware incorporated into this product may include third party copyrighted soft
 4) a copy of the GPL is included herewith, may be obtained at http://www.gnu.org
 
 
-Modification of or tampering with the Software, including but not limited to any Open Source Software, is solely at your own risk. Wave is not responsible for any such modification or tampering. Wave will not support any product in which you have or have attempted to modify the Software supplied by Make it Wave Ltd.
+Modification of or tampering with the Software, including but not limited to any Open Source Software, is solely at your own risk. Wave® is not responsible for any such modification or tampering. Wave® will not support any product in which you have or have attempted to modify the Software supplied by Make it Wave Ltd.
 
 
 Mozilla Public License Version 2.0
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 1. Definitions
 --------------
@@ -390,13 +390,13 @@ Warranty Information
 Obtaining Services
 ---------------------------
 
-Wave values your business and always attempts to provide you the very best of service. If this Product requires maintenance, either contact the dealer from whom you originally purchased the Product or visit our product support website at https://makeitwave.com for information on how to obtain service or a Return Material Authorization (RMA). If it is determined that the Product may be defective, you will be given an RMA number and instructions for Product return. An unauthorized return (i.e., one for which an RMA number has not been issued) will be returned to you at your expense. Authorized returns must be shipped in an approved shipping container, prepaid and insured, to the address provided on your return paperwork. Your original box and packaging materials should be kept for storing or shipping your Wave product.  Wave shall have no liability for lost data regardless of the cause, recovery of lost data, or data contained in any Product placed in its possession.
+Wave® values your business and always attempts to provide you the very best of service. If this Product requires maintenance, either contact the dealer from whom you originally purchased the Product or visit our product support website at https://makeitwave.com for information on how to obtain service or a Return Material Authorization (RMA). If it is determined that the Product may be defective, you will be given an RMA number and instructions for Product return. An unauthorized return (i.e., one for which an RMA number has not been issued) will be returned to you at your expense. Authorized returns must be shipped in an approved shipping container, prepaid and insured, to the address provided on your return paperwork. Your original box and packaging materials should be kept for storing or shipping your Wave® product.  Wave® shall have no liability for lost data regardless of the cause, recovery of lost data, or data contained in any Product placed in its possession.
 
 Limited Warranty
 -----------------
 
-Wave warrants that the Product, in the course of its normal use, will for the term defined below, be free from defects in material and workmanship and will conform to Wave’s specification therefor. The term of your limited warranty depends on the country in which your Product was purchased. The term of your limited warranty is for 3 years in the North, South and Central America region, 3 years in the Europe, the Middle East and Africa region, and 3 years in the Asia Pacific region, unless otherwise required by law. The term of your limited warranty period shall commence on the purchase date appearing on your purchase receipt. Wave shall have no liability for any Product returned if Wave determines that the Product was stolen from Wave or that the asserted defect a) is not present, or b) is attributable to misuse, improper installation, alteration (including removing or obliterating labels and opening or removing external enclosures, unless the product is on the list of limited user-serviceable products and the specific alteration is within the scope of the applicable instructions, as found at https://makeitwave.com), accident or mishandling while in the possession of someone other than Wave, Wave's licenced distributors and/or Wave's End-User. Subject to the limitations specified above, your sole and exclusive warranty shall be, during the period of warranty specified above and at Wave’s option, the repair or replacement of the Product. 
+Wave® warrants that the Product, in the course of its normal use, will for the term defined below, be free from defects in material and workmanship and will conform to Wave’s specification therefor. The term of your limited warranty depends on the country in which your Product was purchased. The term of your limited warranty is for 3 years in the North, South and Central America region, 3 years in the Europe, the Middle East and Africa region, and 3 years in the Asia Pacific region, unless otherwise required by law. The term of your limited warranty period shall commence on the purchase date appearing on your purchase receipt. Wave® shall have no liability for any Product returned if Wave® determines that the Product was stolen from Wave® or that the asserted defect a) is not present, or b) is attributable to misuse, improper installation, alteration (including removing or obliterating labels and opening or removing external enclosures, unless the product is on the list of limited user-serviceable products and the specific alteration is within the scope of the applicable instructions, as found at https://makeitwave.com), accident or mishandling while in the possession of someone other than Wave, Wave's licenced distributors and/or Wave's End-User. Subject to the limitations specified above, your sole and exclusive warranty shall be, during the period of warranty specified above and at Wave’s option, the repair or replacement of the Product. 
 
-The foregoing limited warranty is Wave’s sole warranty and is applicable only to products sold as new. The remedies provided herein are in lieu of a) any and all other remedies and warranties, whether expressed, implied or statutory, including but not limited to, any implied warranty of merchantability or fitness for a particular purpose, and b) any and all obligations and liabilities of Wave for damages including, but not limited to accidental, consequential, or special damages, or any financial loss, lost profits or expenses, or lost data arising out of or in connection with the purchase, use, or performance of the Product, even if Wave has been advised of the possibility of such damages. In the United States for example, some states do not allow exclusion or limitations of incidental or consequential damages, so the limitations above may not apply to you. This warranty gives you specific legal rights, and you may also have other rights which vary from country to country.
+The foregoing limited warranty is Wave’s sole warranty and is applicable only to products sold as new. The remedies provided herein are in lieu of a) any and all other remedies and warranties, whether expressed, implied or statutory, including but not limited to, any implied warranty of merchantability or fitness for a particular purpose, and b) any and all obligations and liabilities of Wave® for damages including, but not limited to accidental, consequential, or special damages, or any financial loss, lost profits or expenses, or lost data arising out of or in connection with the purchase, use, or performance of the Product, even if Wave® has been advised of the possibility of such damages. In the United States for example, some states do not allow exclusion or limitations of incidental or consequential damages, so the limitations above may not apply to you. This warranty gives you specific legal rights, and you may also have other rights which vary from country to country.
 
   

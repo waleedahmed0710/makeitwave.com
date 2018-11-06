@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Distributor Licence Terms'
+project = u'Wave® Software Distribution Terms'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Make it Wave Ltd'
+author = u'Sion Buckler, Founder & CEO'
 
 # The short X.Y version
-version = u''
+version = u'0.0.1'
 # The full version, including alpha/beta/rc tags
-release = u'0.1'
+release = u'0.0.1rc1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -101,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'WaveHomeHubdoc'
+htmlhelp_basename = 'WaveOSdistributiondoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -128,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WaveHomeHub.tex', u'Distributor Licence Terms Documentation',
+    (master_doc, 'WaveOSdistribution.tex', u'Wave® Software Distribution Terms',
      u'Make it Wave Ltd', 'manual'),
 ]
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wavehomehub', u'Wave® Home Hub™ Documentation',
+    (master_doc, 'WaveOSdistribution', u'Wave® Software Distribution Terms',
      [author], 1)
 ]
 
@@ -149,9 +149,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WaveHomeHub', u'Distributor Licence Terms Documentation',
-     author, 'WaveHomeHub', 'One line description of project.',
-     'Miscellaneous'),
+    (master_doc, 'WaveOSdistribution', u'Wave® Software Distribution Terms',
+     author, 'WaveOSdistribution', 'Wave® Software Distribution Terms',
+     'terms'),
 ]
 
 

@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Wave Vehicle Tracker'
+project = u'Wave® Vehicle Tracker™'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Make it Wave Ltd'
+author = u'Sion Buckler, Founder & CEO'
 
 # The short X.Y version
-version = u''
+version = u'0.0.1'
 # The full version, including alpha/beta/rc tags
-release = u'0.1'
+release = u'0.0.1rc1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -101,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'WaveHomeHubdoc'
+htmlhelp_basename = 'WaveVehicleTrackerdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -128,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WaveHomeHub.tex', u'Wave Vehicle Tracker Documentation',
+    (master_doc, 'WaveVehicleTracker.tex', u'Wave® Vehicle Tracker™',
      u'Make it Wave Ltd', 'manual'),
 ]
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wavehomehub', u'Wave® Vehicle Tracker™ Documentation',
+    (master_doc, 'WaveVehicleTracker', u'Wave® Vehicle Tracker™',
      [author], 1)
 ]
 
@@ -149,8 +149,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WaveHomeHub', u'Wave Vehicle Tracker Documentation',
-     author, 'WaveHomeHub', 'One line description of project.',
+    (master_doc, 'WaveVehicleTracker', u'Wave® Vehicle Tracker™',
+     author, 'WaveVehicleTracker', 'Free Energy & Internet',
      'Miscellaneous'),
 ]
 

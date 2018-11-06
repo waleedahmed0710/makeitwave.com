@@ -1,4 +1,4 @@
-Wave Multi Room
+Wave® Multi Room
 ==================
 
 Product User Guide
@@ -10,6 +10,8 @@ Product User Guide
 .. toctree::
    :maxdepth: 1
    
+   releasenotes
+   legalandsafety
    introduction
    thisproduct
    serviceandsupport

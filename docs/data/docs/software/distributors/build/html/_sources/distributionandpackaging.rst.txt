@@ -1,8 +1,8 @@
-6. Distribution and Packaging
-======================================
+Distribution and Packaging
+==============================================================
 
 6.1 Generally
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 Distributor shall reproduce the Products and distribute copies of the Products solely in accordance with the requirements below:
 
@@ -32,7 +32,7 @@ In connection with the distribution and licensing of the Products to End Users, 
 
 
 6.3 Alpha/ Beta Releases
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Distributor will control and limit or cause to be controlled and limited the use of the Beta Releases for the specific purposes authorized in Section 2.1. In the event that Distributor uses the Beta Releases on the computer system of a prospective End User, Distributor shall remain in the presence of such prospective End User at all times that any Beta Release is installed at the site of such prospective End User, and, upon completion of any demonstration, Distributor shall remove all Beta Releases from the computer system of such prospective End User and cause the deletion of all portions of the same from such computer. For the purposes of this Agreement, Beta Releases shall be considered Products.
 

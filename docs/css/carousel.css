@@ -81,7 +81,15 @@
 /* 01:S */ .tick-box-holder {text-decoration: underline; color: #CCCCCC;}
 /* 01:T */ .tick-box {opacity:0.6; background-color: transparent; border:2px solid white; border-radius:4px; width:18px; height:18px; display:inline-block;}
 /* 01:U */ .moreinfo {padding-bottom:3px; opacity:0.8; margin-left:9px; width:1.25rem; height:auto; cursor: pointer;}
-/* 01:V */ #image1>img,#image2>img,#image3>img,#image4>img,#image4>img {}
+/* 01:V */ #image1>img,#image2>img,#image3>img,#image4>img,#image4>img {    max-width: calc(75vw);
+    height: auto;
+    min-height: calc(30vw);
+    max-height: 280px;
+    margin-left: calc(12.5vw);
+    margin-top: 75px;
+    transition: width 0.1s ease-out;
+    padding-bottom: 0!important;
+    margin-bottom: 0!important;}
 /* 01 ! */ 
 
 /* 02:> */   												    @media all and (min-width:1024px) { 
@@ -256,7 +264,8 @@
 /* 08:S */ .tick-box-holder {}
 /* 08:T */ .tick-box {}
 /* 08:U */ .moreinfo {}
-/* 08:V */ #image1>img,#image2>img,#image3>img,#image4>img,#image4>img {}
+/* 08:V */ #image1>img,#image2>img,#image3>img,#image4>img,#image4>img {    
+	}
 /* 08 ! */ }
 
 /* 09:> */                          @media all and (max-width: 479px) and  (orientation:portrait) {

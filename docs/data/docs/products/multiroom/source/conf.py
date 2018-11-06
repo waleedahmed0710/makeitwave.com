@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Wave Home Hub'
+project = u'Wave® Multi-Room™'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Make it Wave Ltd'
+author = u'Sion Buckler, Founder & CEO'
 
 # The short X.Y version
-version = u''
+version = u'0.0.1'
 # The full version, including alpha/beta/rc tags
-release = u'0.1'
+release = u'0.0.1rc1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -128,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WaveHomeHub.tex', u'Wave Home Hub Documentation',
+    (master_doc, 'WaveHomeHub.tex', u'Wave® Multi-Room™',
      u'Make it Wave Ltd', 'manual'),
 ]
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wavehomehub', u'Wave® Home Hub™ Documentation',
+    (master_doc, 'wavehomehub', u'Wave® Multi-Room™',
      [author], 1)
 ]
 
@@ -149,8 +149,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WaveHomeHub', u'Wave Home Hub Documentation',
-     author, 'WaveHomeHub', 'One line description of project.',
+    (master_doc, 'WaveHomeHub', u'Wave® Multi-Room™',
+     author, 'WaveHomeHub', 'Free Energy & Internet',
      'Miscellaneous'),
 ]
 

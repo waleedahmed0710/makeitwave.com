@@ -1,5 +1,5 @@
 11. Non Disclosure & Confidendiality
-=====================================
+=============================================================
 
 11.1 Disclosure
 ~~~~~~~~~~~~~~~~
@@ -9,7 +9,7 @@ Each party hereunder may disclose to the other party certain Trade Secrets and C
 
 
 11.2 Requirement of Confidentiality
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Recipient agrees to hold the Proprietary Information disclosed by Owner in confidence and not to, directly or indirectly, copy, reproduce, distribute, manufacture, duplicate, reveal, report, publish, disclose, cause to be disclosed, or otherwise transfer the Proprietary Information disclosed by Owner to any third party, or utilize the Proprietary Information disclosed by Owner for any purpose whatsoever other than as expressly contemplated by this Agreement. Recipient shall protect the disclosed Proprietary Information by using the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized disclosure of the Proprietary Information as Recipient uses to protect its own proprietary or confidential information of a like nature.  With regard to the Trade Secrets, this obligation shall continue for so long as such information constitutes a trade secret under applicable law. With regard to the Confidential Information, this obligation shall continue for the Term and for a period of five (5) years thereafter. The foregoing obligations shall not apply if and to the extent that:
 

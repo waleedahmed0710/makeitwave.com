@@ -50,6 +50,14 @@ make html
 cd ..
 cd ..
 
+
+cd software/dev_guide
+make clean
+make html
+cd ..
+cd ..
+
+
 cd software/distributors
 make clean
 make html
@@ -62,17 +70,59 @@ make html
 cd ..
 cd ..
 
-cd organisation/business_plan
+
+cd organisation/google-patent-purchase
 make clean
 make html
 cd ..
 cd ..
 
-cd organisation/technology_plan
+
+cd organisation/business
 make clean
 make html
 cd ..
 cd ..
+
+cd organisation/finances
+make clean
+make html
+cd ..
+cd ..
+
+
+cd organisation/whitepaper
+make clean
+make html
+cd ..
+cd ..
+
+
+cd organisation/privacy
+make clean
+make html
+cd ..
+cd ..
+
+
+cd organisation/copyright
+make clean
+make html
+cd ..
+cd ..
+
+cd organisation/terms
+make clean
+make html
+cd ..
+cd ..
+
+cd organisation/website
+make clean
+make html
+cd ..
+cd ..
+
 
 
 

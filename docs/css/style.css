@@ -180,6 +180,8 @@
 			.navbar-cart-icon-desktop {margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;}
 			.navbar-cart-qnt {color: white; float: right!important; right: 0!important; background-color: transparent; opacity: 0.55; border-radius: 5px; border: 1px solid rgba(255,255,255,0.25)!important; position: absolute; padding: 5px 10px 5px 10px; margin-right: 1px; margin-top:1px;	}
 			.checkout-details-desktop {padding:4px!Important; color:white; font-weight:lighter!important; font-size:1rem; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-weight:lighter!Important;}
+			
+/* 01:YB */ .glyphiconbig {zoom:4!important;}
 
 /* 02:>  */  												   @media all and (min-width:1024px) { 
 /* 02:AA */	 html  {}

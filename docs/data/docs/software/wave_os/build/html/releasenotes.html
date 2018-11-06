@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Release Notes &amp; Notices &mdash; Wave Operating System 0.0.4 documentation</title>
+  <title>Release Notes &amp; Notices &mdash; Wave® Operating System 0.4.4rc1 documentation</title>
   
 
   
@@ -29,7 +29,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Preperation &amp; Planning" href="preperation.html" />
-    <link rel="prev" title="Wave Operating System" href="index.html" /> 
+    <link rel="prev" title="Wave® Operating System" href="index.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -48,7 +48,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Wave Operating System
+            <a href="index.html" class="icon icon-home"> Wave® Operating System
           
 
           
@@ -56,6 +56,10 @@
 
           
             
+            
+              <div class="version">
+                0.4.4
+              </div>
             
           
 
@@ -120,7 +124,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Wave Operating System</a>
+          <a href="index.html">Wave® Operating System</a>
         
       </nav>
 
@@ -175,8 +179,8 @@
 <p>This section provides information about what is new or changed, including urgent issues, Software &amp; documentation updates, maintenance and new releases.</p>
 <ul class="simple">
 <li>‘Updates’ are the term used to describe significant changes to our public source code</li>
-<li>Twice daily WaveOS will check the source code for scripts which can impliment these changes</li>
-<li>If a change script is flagged as ready, WaveOS will retrieve and run it locally</li>
+<li>Twice daily WaveOS™ will check the source code for scripts which can impliment these changes</li>
+<li>If a change script is flagged as ready, WaveOS™ will retrieve and run it locally</li>
 <li>The last digit(s) of the versions ID will increase to reflect the new update e.g. <code class="docutils literal notranslate"><span class="pre">0.0.X</span></code></li>
 <li>Auto-Updates are normally performed every two months</li>
 <li>A reboot and downtime of between 30 seconds and 2 minutes is expected</li>
@@ -195,7 +199,7 @@
 <h3>Older Versions<a class="headerlink" href="#older-versions" title="Permalink to this headline">¶</a></h3>
 <p>Below are references to older version releases and release notes:</p>
 <table border="1" class="colwidths-given docutils" id="id1">
-<caption><span class="caption-text">Table 1.0 - Archieved Versions of WaveOS</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-text">Table 1.0 - Archieved Versions of WaveOS™</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col width="20%" />
 <col width="20%" />
@@ -272,7 +276,7 @@
 </div>
 <div class="section" id="version-0-3-0">
 <h4>Version 0.3.0<a class="headerlink" href="#version-0-3-0" title="Permalink to this headline">¶</a></h4>
-<p>Published in Spring 2018 as proof-of-concept, demonstrating how easily our solution could be downloaded from our website (for free), copied to a Micro SD Card and upon insersion (into any of the 19 million Single Board Computers in circulation) the device and the software operating it would perform as intended, without any programming knowledge or configuration required e.g. completely ‘plug &amp; play’. This demonstrated the methodology of quick deployment and scaling internationally. WaveOS Version 0.1.0 also demostrated how product assembly could occur with a non-skilled/ robotic workforce. Faults with this version release include download time (it’s 2GB) and restriction to the exact device type the source ran on. Since it’s a snapshot (copy) only, outdates software is actually being transfered, instead of the latest source code being obtained during first boot. There are also many features not included in this image.</p>
+<p>Published in Spring 2018 as proof-of-concept, demonstrating how easily our solution could be downloaded from our website (for free), copied to a Micro SD Card and upon insersion (into any of the 19 million Single Board Computers in circulation) the device and the software operating it would perform as intended, without any programming knowledge or configuration required e.g. completely ‘plug &amp; play’. This demonstrated the methodology of quick deployment and scaling internationally. WaveOS™ Version 0.1.0 also demostrated how product assembly could occur with a non-skilled/ robotic workforce. Faults with this version release include download time (it’s 2GB) and restriction to the exact device type the source ran on. Since it’s a snapshot (copy) only, outdates software is actually being transfered, instead of the latest source code being obtained during first boot. There are also many features not included in this image.</p>
 </div>
 </div>
 </div>
@@ -306,12 +310,12 @@
 <tr class="row-odd"><td>01-08-2018</td>
 <td>cgi</td>
 <td>0.4.4</td>
-<td>Buttons not working on Edition Select stage. Can’t select Edition to complete installation of WaveOS</td>
+<td>Buttons not working on Edition Select stage. Can’t select Edition to complete installation of WaveOS®</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Comments</strong> - If connection is lost/ re-established, version 0.5+ will stop services, return to dynamic then change to static (avoiding network conflics). The script required to convert a dynamic address to a static one, after the ethernet is inserted or removed and re-inserted ( <code class="docutils literal notranslate"><span class="pre">ifup</span></code> / <code class="docutils literal notranslate"><span class="pre">ifdown</span></code> ) must be on the sd card image itself and obviously not a remote location, since there will be no outside connection until said script establishes it</p>
-<p><strong>Comments</strong> - This idea of converting a dynamic IP to a static one should be done in DietPi (DietPi bridges the gap between the Linux Operating System and Wave Software layer). Their team is also aware of the suggestion since we submitted it via their GitHub repository in early 2018. However Wave aims to phase out DietPi from its final solution and build itself upon Linux directly. DietPi has been used for bootstrapping and startup only, since it automates many of the functions Wave depends on and the DietPi team have resolved many of the issues integrating the various 3rd party applications e.g. Emby, Netstats, PiHole etc.</p>
+<p><strong>Comments</strong> - This idea of converting a dynamic IP to a static one should be done in DietPi (DietPi bridges the gap between the Linux Operating System and Wave® Software layer). Their team is also aware of the suggestion since we submitted it via their GitHub repository in early 2018. However Wave® aims to phase out DietPi from its final solution and build itself upon Linux directly. DietPi has been used for bootstrapping and startup only, since it automates many of the functions Wave® depends on and the DietPi team have resolved many of the issues integrating the various 3rd party applications e.g. Emby, Netstats, PiHole etc.</p>
 </div>
 <div class="section" id="recently-updated-topics">
 <h2>Recently Updated Topics<a class="headerlink" href="#recently-updated-topics" title="Permalink to this headline">¶</a></h2>
@@ -330,7 +334,7 @@
         <a href="preperation.html" class="btn btn-neutral float-right" title="Preperation &amp; Planning" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral" title="Wave Operating System" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral" title="Wave® Operating System" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

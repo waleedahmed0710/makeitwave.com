@@ -1,0 +1,265 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>19. Source Code Escrow &mdash; WaveOS™ Developers Guide 0.0.1rc1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="APPENDIX A – Description of Software" href="appendix-a.html" />
+    <link rel="prev" title="18. Miscellanious" href="miscellaneous.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> WaveOS™ Developers Guide
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes &amp; Notices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="background.html">Background</a></li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">1. Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="grantlicence.html">2. Grant of Non-Exclusive Right &amp; Licence</a></li>
+<li class="toctree-l1"><a class="reference internal" href="maintenanceservice.html">3. Maintenance Services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="additionalresponsibilities.html">4. Additional Responsibilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licencefees.html">5. Licence Fees &amp; Payment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="distributionandpackaging.html">6. Distribution and Packaging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compliance.html">7. Compliance with Laws</a></li>
+<li class="toctree-l1"><a class="reference internal" href="additionalresponsibilities2.html">8. Additional Responsibilities of Distributor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ownership.html">9. Ownership</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trademarks.html">10. Trademarks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nondisclosure.html">11. Non Disclosure &amp; Confidendiality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="remedyandperformance.html">12. Equitable Remedies &amp; Specific Performance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="warranties.html">13. Warranties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="indemnification.html">14. Indemnification Generally</a></li>
+<li class="toctree-l1"><a class="reference internal" href="terminiation.html">15. Term &amp; Termination</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arbitration.html">16. Arbitration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="liability.html">17. Limitation of Liability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">18. Miscellanious</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">19. Source Code Escrow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#escrow-election">19.1 Escrow Election</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#escrow-desposit">19.2 Escrow Desposit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#event-of-default">19.4 Event of Default</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ongoing-obligations">19.5 Ongoing Obligations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#escrow-fees">19.6 Escrow Fees</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="appendix-a.html">APPENDIX A – Description of Software</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">WaveOS™ Developers Guide</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>19. Source Code Escrow</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/escrow.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="source-code-escrow">
+<h1>19. Source Code Escrow<a class="headerlink" href="#source-code-escrow" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="escrow-election">
+<h2>19.1 Escrow Election<a class="headerlink" href="#escrow-election" title="Permalink to this headline">¶</a></h2>
+<p>At its option, Distributor may ask Company to escrow the Products.  Company shall within thirty days of any such request deposit into escrow source code for the Company-owned Products, and will deposit any Updates to the source code into escrow from time to time during the Term not less frequently than once every six (6) months.</p>
+</div>
+<div class="section" id="escrow-desposit">
+<h2>19.2 Escrow Desposit<a class="headerlink" href="#escrow-desposit" title="Permalink to this headline">¶</a></h2>
+<p>Company shall ensure that the deposited source code will include sufficient instructions to allow Distributor to build the release into an executable version of the Products and such release will be the version currently in use by Distributor, that all components of the Products which are required for Distributor to build an executable of the Products will be deposited and that the deposit will be free of computer viruses or disabling functions or keys.</p>
+<p>19.3 Release Conditions
+~~~~~~~~~~~~~~~~~~~~~~~~~#</p>
+<p>Upon the occurrence of an Event of Default, as defined below, Distributor may demand release of the source code from the escrow agent, pursuant to the terms of the Escrow Agreement, to continue to maintain the Products and is hereby granted a limited, non-exclusive, nontransferable, royalty-free license to use the source code to make such modifications to the Products it considers necessary or appropriate and solely for ordinary course support and maintenance of the current version of the Products, including without limitation, bug fixes, and any derivative works of the Products needed to sustain the continued development and use of the Distributor Solution by Distributor and its customers, but expressly excluding new enhancement or versions,  and ports which have not been commercially released by Company nor licensed by Distributor to its end use customers.</p>
+</div>
+<div class="section" id="event-of-default">
+<h2>19.4 Event of Default<a class="headerlink" href="#event-of-default" title="Permalink to this headline">¶</a></h2>
+<p>As used herein an “Event of Default” means: Company or its assignee is in material breach of its obligations as to support or maintenance of the Products under this Agreement and has failed to remedy such default notified by Distributor to Company within thirty (30) days.  Distributor must notify the escrow agent of the Event of Default promptly, setting out the facts and circumstances of the Event of Default.</p>
+</div>
+<div class="section" id="ongoing-obligations">
+<h2>19.5 Ongoing Obligations<a class="headerlink" href="#ongoing-obligations" title="Permalink to this headline">¶</a></h2>
+<p>During the term of this Licence Agreement, Distributor agrees to handle the delivered source code in its original format and will only disclose it to third parties through reference of the original source and not branches of the source which have been altered by 3rd parties. If Distributor chooses to continue distributing the Software, to which Distributor has source code access, while identifying themselves as licenced Distributor before or after the expiration of this agreement, Distributor will be fined to the amount of the licence renewal fee</p>
+</div>
+<div class="section" id="escrow-fees">
+<h2>19.6 Escrow Fees<a class="headerlink" href="#escrow-fees" title="Permalink to this headline">¶</a></h2>
+<p>All escrow fees and costs shall be for the account of Distributor and fully paid by Distributor. Company shall be entitled to reasonably select the Escrow Agent.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="appendix-a.html" class="btn btn-neutral float-right" title="APPENDIX A – Description of Software" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="miscellaneous.html" class="btn btn-neutral" title="18. Miscellanious" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Make it Wave Ltd
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

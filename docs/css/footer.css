@@ -1512,7 +1512,7 @@ html.is-mobile-first:not(.is-responsive) .pinky-template .navigation-section-inn
 .pinky-template .FooterNew-subTitle{font-size:125%;line-height:1.2;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;color:inherit;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-weight:200;line-height:1}
 .pinky-template .FooterNew-subTitle-icon{margin-right:8px}
 .pinky-template .FooterNew-links{margin:0;padding:0;list-style:none;margin-bottom:16px}
-.pinky-template .FooterNew-link{font-size:13px;font-size:.8125rem;line-height:1.2;color:#BEC0C2;display:inline-block;margin-bottom:4px;-webkit-transition:color .3s ease-out;transition:color .3s ease-out}
+.pinky-template .FooterNew-link{font-size:.8125rem;line-height:1.2;color:#BEC0C2;display:inline-block;margin-bottom:4px;-webkit-transition:color .3s ease-out;transition:color .3s ease-out}
 .pinky-template .FooterNew-link:hover{color:#F7F7F7}
 .pinky-template .FooterNew-link-icon--active{display:none}
 .pinky-template .FooterNew-link-icon--disable{display:block}

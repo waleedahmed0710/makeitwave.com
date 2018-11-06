@@ -1,13 +1,13 @@
 Release Notes & Notices
-========================
+================================================
 
 This section provides information about what is new or changed, including urgent issues, Software & documentation updates, maintenance and new releases. 
 
 - 'Updates' are the term used to describe significant changes to our public source code 
 
-- Twice daily WaveOS will check the source code for scripts which can impliment these changes
+- Twice daily WaveOS™ will check the source code for scripts which can impliment these changes
 
-- If a change script is flagged as ready, WaveOS will retrieve and run it locally
+- If a change script is flagged as ready, WaveOS™ will retrieve and run it locally
 
 - The last digit(s) of the versions ID will increase to reflect the new update e.g. ``0.0.X``
 
@@ -16,7 +16,7 @@ This section provides information about what is new or changed, including urgent
 - A reboot and downtime of between 30 seconds and 2 minutes is expected
 
 Version 0.5.0 (Alpha)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 In this version release our developement team have removed a barrier which requested new users adjust their router's subnet to match Wave's pre-set static IP, before booting up the device for the first time. An issue preventing the Edition from running and subsequently the initial installation from completing was also rectified. 
 
@@ -32,7 +32,7 @@ Older Versions
 
 Below are references to older version releases and release notes: 
 
-.. csv-table:: Table 1.0 - Archieved Versions of WaveOS
+.. csv-table:: Table 1.0 - Archieved Versions of WaveOS™
    :file: table-data/firmware.csv
    :widths: 20, 20, 20, 20, 20
    :header-rows: 1
@@ -52,11 +52,11 @@ Published in Summer 2018. The image is much lighter (150Mb). But there were seri
 Version 0.3.0
 ####################
 
-Published in Spring 2018 as proof-of-concept, demonstrating how easily our solution could be downloaded from our website (for free), copied to a Micro SD Card and upon insersion (into any of the 19 million Single Board Computers in circulation) the device and the software operating it would perform as intended, without any programming knowledge or configuration required e.g. completely 'plug & play'. This demonstrated the methodology of quick deployment and scaling internationally. WaveOS Version 0.1.0 also demostrated how product assembly could occur with a non-skilled/ robotic workforce. Faults with this version release include download time (it's 2GB) and restriction to the exact device type the source ran on. Since it's a snapshot (copy) only, outdates software is actually being transfered, instead of the latest source code being obtained during first boot. There are also many features not included in this image.   
+Published in Spring 2018 as proof-of-concept, demonstrating how easily our solution could be downloaded from our website (for free), copied to a Micro SD Card and upon insersion (into any of the 19 million Single Board Computers in circulation) the device and the software operating it would perform as intended, without any programming knowledge or configuration required e.g. completely 'plug & play'. This demonstrated the methodology of quick deployment and scaling internationally. WaveOS™ Version 0.1.0 also demostrated how product assembly could occur with a non-skilled/ robotic workforce. Faults with this version release include download time (it's 2GB) and restriction to the exact device type the source ran on. Since it's a snapshot (copy) only, outdates software is actually being transfered, instead of the latest source code being obtained during first boot. There are also many features not included in this image.   
   
   
 Known and Corrected Issues
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Below is a table of pending issues which have been reported to our team. 
 	These issues will be cleared from this list as and when they are remedied. 
@@ -68,7 +68,7 @@ Below is a table of pending issues which have been reported to our team.
    
 **Comments** - If connection is lost/ re-established, version 0.5+ will stop services, return to dynamic then change to static (avoiding network conflics). The script required to convert a dynamic address to a static one, after the ethernet is inserted or removed and re-inserted ( ``ifup`` / ``ifdown`` ) must be on the sd card image itself and obviously not a remote location, since there will be no outside connection until said script establishes it
 
-**Comments** - This idea of converting a dynamic IP to a static one should be done in DietPi (DietPi bridges the gap between the Linux Operating System and Wave Software layer). Their team is also aware of the suggestion since we submitted it via their GitHub repository in early 2018. However Wave aims to phase out DietPi from its final solution and build itself upon Linux directly. DietPi has been used for bootstrapping and startup only, since it automates many of the functions Wave depends on and the DietPi team have resolved many of the issues integrating the various 3rd party applications e.g. Emby, Netstats, PiHole etc.
+**Comments** - This idea of converting a dynamic IP to a static one should be done in DietPi (DietPi bridges the gap between the Linux Operating System and Wave® Software layer). Their team is also aware of the suggestion since we submitted it via their GitHub repository in early 2018. However Wave® aims to phase out DietPi from its final solution and build itself upon Linux directly. DietPi has been used for bootstrapping and startup only, since it automates many of the functions Wave® depends on and the DietPi team have resolved many of the issues integrating the various 3rd party applications e.g. Emby, Netstats, PiHole etc.
 
 Recently Updated Topics
 ~~~~~~~~~~~~~~~~~~~~~~~~

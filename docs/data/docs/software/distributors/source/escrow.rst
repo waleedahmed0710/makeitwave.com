@@ -1,4 +1,4 @@
-19. Source Code Escrow
+Source Code Escrow
 ======================
 
 19.1 Escrow Election

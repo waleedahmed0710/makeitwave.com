@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Wave Operating System'
+project = u'Wave® Operating System'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Unclehowell'
+author = u'Sion Buckler, Founder & CEO'
 
 # The short X.Y version
-version = u''
+version = u'0.4.4'
 # The full version, including alpha/beta/rc tags
-release = u'0.0.4'
+release = u'0.4.4rc1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -128,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Wave.tex', u'Wave Documentation',
+    (master_doc, 'Wave.tex', u'WaveOS™ Operation Manual',
      u'Make it Wave Ltd', 'manual'),
 ]
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wave', u'Wave Documentation',
+    (master_doc, 'wave', u'WaveOS™',
      [author], 1)
 ]
 
@@ -149,9 +149,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Wave', u'Wave Documentation',
-     author, 'Wave', 'Freer Energy & Internet',
-     'Miscellaneous'),
+    (master_doc, 'Wave', u'WaveOS™',
+     author, 'Make it Wave Ltd', 'WaveOS™ Operation Manual',
+     'manual'),
 ]
 
 

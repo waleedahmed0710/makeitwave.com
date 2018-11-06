@@ -2,7 +2,7 @@
 ===============
 
 13.1 Warranties of Company
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 (a) Company warrants to Distributor that (i) Company has full authority to execute and perform this Agreement; (ii) this Agreement has been duly executed and delivered by Company and constitutes the legal, enforceable and binding obligation of Company; and (iii) Company's execution and performance of this Agreement will not violate any law or breach any other agreement.
 
@@ -12,7 +12,7 @@
 
   
 13.2 Warranties of Distributor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (a) Distributor warrants to Company that (i) Distributor has full authority to execute and perform this Agreement; (ii) this Agreement has been duly executed and delivered by Distributor and constitutes the legal, enforceable and binding obligation of Distributor; (iii) Distributor's execution and performance of this Agreement will not violate any law or breach any other agreement; and (iv) no approval, action or authorization by any governmental authority or agency is required for Distributor's execution and performance hereof or, if it is, such approval, action or authorization has been obtained and written evidence thereof has been provided to Company.
 

@@ -51,7 +51,7 @@ This device complies with part 15 of the FCC Rules. Operation is subject to the 
    :header-rows: 0
 
    * - .. image::	images/ce.png
-	 - This product and if applicable, the supplied accessories too are marked with "CE" and comply therefore with the applicable harmonized European standards listed under the EMC Directive 2014/30/EU, the RoHS Directive 2011/65/EU   
+     - This product and if applicable, the supplied accessories too are marked with "CE" and comply therefore with the applicable harmonized European standards listed under the EMC Directive 2014/30/EU, the RoHS Directive 2011/65/EU   
 
 
 

@@ -7,23 +7,23 @@
 	left:0px;
 	margin-top:0px;
 	margin-left:0px;
-		width:calc(99.99vw);
+	width:calc(99.99vw);
 	height:calc(99.99vh);
 
 }
  
 .iframe-mq {
-	background-size:99.99%;
+	background-size:100.5%;
 	background-repeat: no-repeat;
 	background-position:center top;
-	border: 2px solid #485274;
+	border: 0.5px solid #485274;
 	background-color: white;
 	position:static;
 	margin-top:0px;
 	margin-left:0px;
 	opacity:1;
-	width:calc(99.99vw);
-	height:calc(99.99vh);
+	width:100vw;
+	height:100vh;
 
 }
 
@@ -31,14 +31,12 @@
 	
 	border: 0.5px solid grey;
 	background-repeat: no-repeat;
-	background-size:99%;
+	background-size:100%;
     background-position:center top;
 	position:fixed;
 	top:0px;
-	left:-1vw;
+	left:-1px;
 	opacity: 1; /* 0.8 - 0.9 when testing, 1 for production */
-	filter: invert(100%); 
-	-webkit-filter: invert(100%); 
  /* ----- inverting the background image of the iframe isn't solved, so the whole thing is invterted ----*/ 
   /* ----- we then have to invert this div so it inverts back to what it should be. Also make .iframe-mq background color the invers ----*/ 
 	

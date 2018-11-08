@@ -105,6 +105,7 @@ body { background-color:#fafafa;}
 	color: #eafaf9;
 	max-width:400px;
 	display:inline-flex!important;
+	margin-left:0!important;
 }
 .collection .collection-item.active .secondary-content {
 	color: #fff

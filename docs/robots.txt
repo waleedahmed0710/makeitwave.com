@@ -1,36 +1,4 @@
 # robots.txt for https://makeitwave.com
 
 User-agent: * 
-Disallow: /404/
-Disallow: /auction-registration/
-Disallow: /bidpages/
-Disallow: /content/
-Disallow: /csvtotable/
-Disallow: /dashboard-demo/
-Disallow: /data/
-Disallow: /deck/
-Disallow: /distributors/
-Disallow: /distributors2/
-Disallow: /dropdown/
-Disallow: /forms/
-Disallow: /ideal-footer/
-Disallow: /img/
-Disallow: /jquery-countdown/
-Disallow: /js/
-Disallow: /multistep-menu/
-Disallow: /news/
-Disallow: /react-data-menu-master/
-Disallow: /store/
-Disallow: /store2/
-Disallow: /territory_pages/
-Disallow: /404.html
-Disallow: /c.txt
-Disallow: /countryresults.html
-Disallow: /countryselect.html
-Disallow: /demo-loadingapps.html
-Disallow: /partnerselectcountry.html
-Disallow: /placebid.html
-Disallow: /registerselectcountry.html
-Disallow: /payinstructions.html
-
-
+Disallow: 

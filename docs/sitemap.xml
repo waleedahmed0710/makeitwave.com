@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://makeitwave.com/</loc>
+  <lastmod>2018-11-10T20:43:12+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/index.html</loc>
+  <lastmod>2018-11-10T20:43:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/demo.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/store/index.html</loc>
+  <lastmod>2018-11-10T20:43:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/download.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/documents.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/content/product-info.html</loc>
+  <lastmod>2018-11-10T20:43:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/distributors.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/dashboard-demo/multistep-menu/index.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/history.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/news.html</loc>
+  <lastmod>2018-11-10T20:43:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/invest.html</loc>
+  <lastmod>2018-11-10T20:43:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/contactus.html</loc>
+  <lastmod>2018-11-10T20:43:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/website/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/dashboard-demo/frame_welcome.html</loc>
+  <lastmod>2018-11-10T20:43:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/dashboard-demo/frame_emby.html</loc>
+  <lastmod>2018-11-10T20:43:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/dashboard-demo/frame_openhab.html</loc>
+  <lastmod>2018-11-10T20:43:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/dashboard-demo/frame_cameras.html</loc>
+  <lastmod>2018-11-10T20:43:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/dashboard-demo/frame_solar.html</loc>
+  <lastmod>2018-11-10T20:43:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/dashboard-demo/frame_netstats.html</loc>
+  <lastmod>2018-11-10T20:43:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/homehub/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/store/product-detailed-info/homehub.html</loc>
+  <lastmod>2018-11-10T20:43:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/demo-energy.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/energymonitor/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/store/product-detailed-info/energymonitor.html</loc>
+  <lastmod>2018-11-10T20:43:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/demo-tracker.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/vehicletracker/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/multiroom/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/signalbooster/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/storagedevice/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/roles.html</loc>
+  <lastmod>2018-11-10T20:43:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/wavedistributors.html</loc>
+  <lastmod>2018-11-10T20:43:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/warranty/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/deck_featherlight-popup.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/business/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/finances/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/google-patent-purchase/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/pdf/Patent%20Purchase%20Agreement.pdf</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/dashboard-demo/multistep-menu/version.txt</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/news/valelife/index.html</loc>
+  <lastmod>2018-11-10T20:43:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/website/build/html/index.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/report-issues.html</loc>
+  <lastmod>2018-11-10T20:43:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/homehub/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/homehub/build/html/legalandsafety.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/homehub/build/html/introduction.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/homehub/build/html/thisproduct.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/homehub/build/html/serviceandsupport.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/homehub/build/html/warranty.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/energymonitor/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/energymonitor/build/html/legalandsafety.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/energymonitor/build/html/introduction.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/energymonitor/build/html/thisproduct.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/energymonitor/build/html/serviceandsupport.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/energymonitor/build/html/warranty.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/vehicletracker/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/vehicletracker/build/html/legalandsafety.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/vehicletracker/build/html/introduction.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/vehicletracker/build/html/thisproduct.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/vehicletracker/build/html/serviceandsupport.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/vehicletracker/build/html/warranty.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/multiroom/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/multiroom/build/html/legalandsafety.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/multiroom/build/html/introduction.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/multiroom/build/html/thisproduct.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/multiroom/build/html/serviceandsupport.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/multiroom/build/html/warranty.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/signalbooster/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/signalbooster/build/html/legalandsafety.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/signalbooster/build/html/introduction.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/signalbooster/build/html/thisproduct.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/signalbooster/build/html/serviceandsupport.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/signalbooster/build/html/warranty.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/storagedevice/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/storagedevice/build/html/legalandsafety.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/storagedevice/build/html/introduction.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/storagedevice/build/html/thisproduct.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/storagedevice/build/html/serviceandsupport.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/storagedevice/build/html/warranty.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/warranty/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/warranty/build/html/part1.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/warranty/build/html/part2.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/products/warranty/build/html/part3.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/preperation.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/gettingstarted.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/installation.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/end-user.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/productmaint.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/afterinstallconfig.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/integration.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/upgrading.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/troubleshooting.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/docsandvideos.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/faq.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/developers.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/wave_os/build/html/networkmaint.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/background.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/definitions.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/grantlicence.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/maintenanceservice.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/additionalresponsibilities.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/licencefees.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/distributionandpackaging.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/compliance.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/additionalresponsibilities2.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/ownership.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/trademarks.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/nondisclosure.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/remedyandperformance.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/warranties.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/indemnification.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/terminiation.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/arbitration.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/liability.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/miscellaneous.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/escrow.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/distributors/build/html/appendix-a.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/distributor-info.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/background.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/definitions.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/grantlicence.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/maintenanceservice.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/additionalresponsibilities.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/licencefees.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/distributionandpackaging.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/compliance.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/additionalresponsibilities2.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/ownership.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/trademarks.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/nondisclosure.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/remedyandperformance.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/warranties.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/indemnification.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/terminiation.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/arbitration.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/liability.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/miscellaneous.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/escrow.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/software/dev_guide/build/html/appendix-a.html</loc>
+  <lastmod>2018-11-10T20:43:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/abstract.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/why.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/overview.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/ecosystem.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/partners.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/datasharing.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/marketing.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/team.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/whatissurf.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/builtbysurf.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/ukcompany.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/advisoryservice.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/whitepaper/build/html/legalandaccounting.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/business/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/business/build/html/executive-statement.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/finances/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/finances/build/html/investors.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/finances/build/html/lenders.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/google-patent-purchase/build/html/releasenotes.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/google-patent-purchase/build/html/1-definitions.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/google-patent-purchase/build/html/2-delivery.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/google-patent-purchase/build/html/3-transfer.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/google-patent-purchase/build/html/4-reversionary.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/google-patent-purchase/build/html/5-additionalobligations.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/google-patent-purchase/build/html/6-representations.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/google-patent-purchase/build/html/7-miscellaneous.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/google-patent-purchase/build/html/8-agreed.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://makeitwave.com/data/docs/organisation/google-patent-purchase/build/html/patent-annex.html</loc>
+  <lastmod>2018-11-10T20:43:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

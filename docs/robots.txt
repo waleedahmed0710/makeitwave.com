@@ -2,3 +2,5 @@
 
 User-agent: * 
 Disallow: 
+
+Sitemap: https://makeitwave.com/sitemap.xml

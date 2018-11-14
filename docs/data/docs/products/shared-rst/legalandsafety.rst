@@ -1,5 +1,5 @@
-Notices & Safety
-=================
+Guidelines & Safety
+=====================
 
 COPYRIGHT © 2018 Make it Wave Ltd. 
 
@@ -20,9 +20,9 @@ Please use this User Guide under the guidance of professionals.
    :header-rows: 0
 
    * - .. image::	images/logo.png
-     - and other Wave trademarks and logos are the properties of Wave in various jurisdictions. Other trademarks and logos mentioned below are the properties of their respective owners. 
+     - **Company Logo**  
 
-
+The above logo and other Wave trademarks and logos are the properties of Wave in various jurisdictions. Other trademarks and logos mentioned below are the properties of their respective owners. 
 
 **Legal Disclaimer**
 
@@ -51,9 +51,9 @@ This device complies with part 15 of the FCC Rules. Operation is subject to the 
    :header-rows: 0
 
    * - .. image::	images/ce.png
-     - This product and if applicable, the supplied accessories too are marked with "CE" and comply therefore with the applicable harmonized European standards listed under the EMC Directive 2014/30/EU, the RoHS Directive 2011/65/EU   
+     - **European Standard**
 
-
+This product and if applicable, the supplied accessories too are marked with "CE" and comply therefore with the applicable harmonized European standards listed under the EMC Directive 2014/30/EU, the RoHS Directive 2011/65/EU   
 
 	 
 .. list-table:: 
@@ -61,17 +61,21 @@ This device complies with part 15 of the FCC Rules. Operation is subject to the 
    :header-rows: 0
 
    * - .. image::	images/norecycle.png
-     - 2012/19/EU (WEEE directive) Products marked with this symbol cannot be disposed of as unsorted municipal waste in the European Union. For proper recycling, return this product to your local supplier upon the purchase of equivalent new equipment, or dispose of it at designated collection points. For more information see: www.recyclethis.info 
+     - **WEEE Directive**
+
+
+2012/19/EU (WEEE directive) Products marked with this symbol cannot be disposed of as unsorted municipal waste in the European Union. For proper recycling, return this product to your local supplier upon the purchase of equivalent new equipment, or dispose of it at designated collection points. For more information see: www.recyclethis.info 
 	 
 	 
 .. list-table:: 
-   :widths: 50  50
+   :widths: 50 50
    :header-rows: 0
 
    * - .. image::	images/norecycle.png
-     - 2006/66/EC (battery directive) This product may contain a battery that cannot be disposed of as unsorted municipal waste in the European Union. See the product specific section of this document for specific battery information. The battery is marked with this symbol, which may include lettering to indicate cadmium (Cd), lead (Pb), or mercury (Hg). For proper recycling, return the battery to your supplier or to a designated collection point. For more information see: www.recyclethis.info 
+     - **Battery Directive**
 
 
+2006/66/EC (Battery Directive) This product may contain a battery that cannot be disposed of as unsorted municipal waste in the European Union. See the product specific section of this document for specific battery information. The battery is marked with this symbol, which may include lettering to indicate cadmium (Cd), lead (Pb), or mercury (Hg). For proper recycling, return the battery to your supplier or to a designated collection point. For more information see: www.recyclethis.info
 
 **Industry Canada ICES-003 Compliance**
 
@@ -83,27 +87,32 @@ This device meets the CAN ICES-3 (A)/NMB-3(A) standards requirements.
 These instructions are intended to ensure that user can use the product correctly to avoid danger or property loss.  
 The precaution measure is divided into “Warnings” and “Cautions” 
 
-**Warnings:** Serious injury or death may occur if any of the warnings are neglected. 
-
-**Cautions:** Injury or equipment damage may occur if any of the cautions are neglected. 
-
 
 .. list-table:: 
-   :widths: 20 20
+   :widths: 50 50
    :header-rows: 0
 
-   * - .. image::	images/warning.png   
-     - .. image::	images/caution.png   
-   * - Warnings Follow these safeguards to prevent serious injury or death. 
-     - safeguards to prevent serious injury or death. 
-	 
+   * - .. image::	images/warning.png 
+     - **Warnings**
 
 
-Cautions Follow these precautions to prevent potential injury or material damage.  
+
+**Warnings:** Safeguards to prevent serious injury or death. Serious injury or death may occur if any of the warnings are neglected. Follow these safeguards to prevent serious injury or death.  
 
 
 .. list-table:: 
-   :widths: 20 40
+   :widths: 50 50
+   :header-rows: 0
+
+   * - .. image::	images/caution.png
+     - 	**Cautions** 
+   
+
+**Cautions:** Injury or equipment damage may occur if any of the cautions are neglected. Follow these precautions to prevent potential injury or material damage. 
+
+  
+.. list-table:: 
+   :widths: 50 50
    :header-rows: 0
 
    * - .. image::	images/warning.png   
@@ -123,7 +132,7 @@ Cautions Follow these precautions to prevent potential injury or material damage
 ● If smoke, odor or noise rise from the device, turn off the power at once and unplug the power cable, and then please contact the service center.
 
 .. list-table:: 
-   :widths: 20 40
+   :widths: 50 50
    :header-rows: 0
 
    * - .. image::	images/caution.png    

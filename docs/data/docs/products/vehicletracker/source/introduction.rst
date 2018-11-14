@@ -22,7 +22,7 @@ Image 1.0 - Wave® Smart Home™
 
 A Wave® Smart Home is a term which can be used to describe a home using (at the very least) a Wave® Home Hub™;
 
-Image 1.0 - Wave® Home Hub™
+Image 1.1 - Wave® Home Hub™
 
 .. image::	images/homehub.png
 
@@ -47,7 +47,7 @@ The Wave® Smart Home solution reduces a households energy bills each month by p
    
    
 **NOTES:**
-	• The products above are to enhance the  `Wave® Home Hub™ <../../../../products/homehub/build/html/index.html>`__,  experience and do not function independantly. Please ensure you have a  **`Wave® Home Hub™ <../../../products/homehub/build/html/index.html>`__,** in place, for these devices to connect to. 
+	• The products above are to enhance the  `Wave® Home Hub™ <../../../../products/homehub/build/html/index.html>`__,  experience and do not function independantly. Please ensure you have a  `Wave® Home Hub™ <../../../../products/homehub/build/html/index.html>`__, in place, for these devices to communicate to. 
 
 
 Dashboard & Tabs

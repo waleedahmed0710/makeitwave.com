@@ -40,14 +40,49 @@
 */
 /*--- Last Modified: June 14, 2018 - 20:36 GMT ---*/
 
-/*! normalize.css v2.1.2 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}script{display:none!important}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:0 0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+/* 01:AA */  .demo-iframe-container {height: 100vh; width: 100vw;   }
+/* 01:AB */  .demo-iframe {height: 100vh; width: 100vw;  filter: invert(100%); -webkit-filter: invert(100%);  }
+/* 01:AC */  .demo-emby-div {height: 100vh; min-width: 100vw!important; background-color:rgba(37,37,37,0.6); }
+/* 01:AD */  .demo-solar-div {height: 100vh; min-width: 100vw!important; }
+/* 01:AE */  .demo-motioneye-div {height: 100vh; min-width: 100vw!important;  }
+/* 01:AF */  .demo-netstats-div {height: 100vh; min-width: 100vw!important;  }
+/* 01:AG */  .demo-openhab-div { height: 100vh; min-width: 100vw!important;  background-color:rgba(0,0,0,0.7);}
+/* 01:!! */ 
 
-/* 01:>  */ .article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}script{display:none!important}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:0 0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
-/* 01:AA */ .demo-iframe-container, .demo-iframe {height: 100vh; width: 100vw; }
-/* 01:AB */ .demo-iframe {filter: invert(100%); -webkit-filter: invert(100%); background-image: url(https://docs.google.com/spreadsheets/d/e/2PACX-1vQQRpSkpCHUtlDlgB6JPpClF-SYXaXE4gk64_4J3iY8bfP3JXkKw4bE3yv_ctha-q0uBOj_Deij-R_Q/pubchart?oid=798668426&format=image); }
-/* 01:AC */ .demo-emby-div {height: auto; width: 100vw; background-image: url(../img/demo-content/emby/Portrait-568x320-PR=2-content.png); }
-/* 01:AD */ .demo-solar-div {height: auto; width: 100vw; background-image: url(../img/demo-content/emoncms/Portrait-568x320-PR=2-content.png);}
-/* 01:AE */ .demo-motioneye-div {height: auto; width: 100vw; background-image: url(../img/demo-content/motioneye/Portrait-568x320-PR=2-content.png);}
-/* 01:AF */ .demo-netstats-div {height: auto; width: 100vw; background-image: url(../img/demo-content/netstats/Portrait-568x320-PR=2-content.png);}
-/* 01:AG */ .demo-openhab-div {height: auto; width: 100vw; background-image: url(../img/demo-content/openhab/Portrait-568x320-PR=2-content.png);}
+/* 02:>  */  @media all and (min-width:960px) and (max-width:1123px)and  (orientation:portrait) {
+/* 02:AA */  
+/* 02:AB */ 
+/* 02:AC */  .demo-emby-div {background-image: url(../img/demo-content/emby/Portrait-960x600-PR=2-content.png); }
+/* 02:AD */  .demo-solar-div {background-image: url(../img/demo-content/emoncms/Portrait-960x600-PR=2-content.png);}
+/* 02:AE */  .demo-motioneye-div {background-image: url(../img/demo-content/motioneye/Portrait-960x600-PR=2-content.png);}
+/* 02:AF */  .demo-netstats-div {background-image: url(../img/demo-content/netstats/Portrait-960x600-PR=2-content.png);}
+/* 02:AG */  .demo-openhab-div {background-image: url(../img/demo-content/openhab/Portrait-960x600-PR=2-content.png); }
+/* 02:!! */ }
 
+/* 03:>  */  @media all and (min-width:768px) and (max-width:959px) and  (orientation:portrait) {
+/* 03:AA */  
+/* 03:AB */ 
+/* 03:AC */  .demo-emby-div {overflow:hidden;  background-image: url(../img/demo-content/emby/Portrait-984x577-PR=1.1-content.png);}
+/* 03:AD */  .demo-solar-div {  background-image: url(../img/demo-content/emoncms/Portrait-984x577-PR=1.1-content.png);}
+/* 03:AE */  .demo-motioneye-div {  background-image: url(../img/demo-content/motioneye/Portrait-984x577-PR=1.1-content.png);}
+/* 03:AF */  .demo-netstats-div {  background-image: url(../img/demo-content/netstats/Portrait-984x577-PR=1.1-content.png);}
+/* 03:AG */  .demo-openhab-div {  background-image: url(../img/demo-content/openhab/Portrait-984x577-PR=1.1-content.png);}
+/* 03:!! */  }
+
+/* 04:>  */  @media all and (min-width:480px) and (max-width:767px) and  (orientation:portrait) {
+/* 04:AA */  
+/* 04:AB */ 
+/* 04:AC */  .demo-emby-div { overflow:hidden; background-image: url(../img/demo-content/emby/Portrait-984x577-PR=1.1-content.png);}
+/* 04:AD */  .demo-solar-div { background-image: url(../img/demo-content/emoncms/Portrait-984x577-PR=1.1-content.png);}
+/* 04:AE */  .demo-motioneye-div {  background-image: url(../img/demo-content/motioneye/Portrait-984x577-PR=1.1-content.png);}
+/* 04:AF */  .demo-netstats-div { background-image: url(../img/demo-content/netstats/Portrait-984x577-PR=1.1-content.png);}
+/* 04:AG */  .demo-openhab-div {  background-image: url(../img/demo-content/openhab/Portrait-984x577-PR=1.1-content.png);}
+/* 04:!! */ }
+
+/* 05:>  */  @media all and (max-width:479px) and  (orientation:portrait) {
+/* 05:AC */  .demo-emby-div {overflow:hidden;  background-image: url(../img/demo-content/emby/Portrait-984x577-PR=1.1-content.png);}
+/* 05:AD */  .demo-solar-div { background-image: url(../img/demo-content/emoncms/Portrait-984x577-PR=1.1-content.png);}
+/* 05:AE */  .demo-motioneye-div { background-image: url(../img/demo-content/motioneye/Portrait-984x577-PR=1.1-content.png);}
+/* 05:AF */  .demo-netstats-div { background-image: url(../img/demo-content/netstats/Portrait-984x577-PR=1.1-content.png);}
+/* 05:AG */  .demo-openhab-div { background-image: url(../img/demo-content/openhab/Portrait-984x577-PR=1.1-content.png);}
+/* 05:!! */ }

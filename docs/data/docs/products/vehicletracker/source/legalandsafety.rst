@@ -102,9 +102,9 @@ The precaution measure is divided into “Warnings” and “Cautions”
 
 ● Proper configuration of all passwords and other security settings is the responsibility of the installer and/or end-user.
 
-● In the use of the product, you must be in strict compliance with the electrical safety regulations of the nation and region. Please refer to technical specifications for detailed information. 
+● In the use of the product, you must be in strict compliance with the electrical safety regulations of the nation and region. 
 
-● Input voltage should meet both the SELV (Safety Extra Low Voltage) and the Limited Power Source with 24 VAC or 12 VDC according to the IEC60950-1 standard. Please refer to technical specifications for detailed information. 
+● Input voltage should meet both the SELV (Safety Extra Low Voltage) and the Limited Power Source with 24 VAC or 12 VDC according to the IEC60950-1 standard.  
 
 ● Do not connect several devices to one power adapter as adapter overload may cause over-heating or a fire hazard.
  

@@ -100,25 +100,6 @@ The precaution measure is divided into “Warnings” and “Cautions”
 **Warnings:** Safeguards to prevent serious injury or death. Serious injury or death may occur if any of the warnings are neglected. Follow these safeguards to prevent serious injury or death.  
 
 
-.. list-table:: 
-   :widths: 50 50
-   :header-rows: 0
-
-   * - .. image::	images/caution.png
-     - 	**Cautions** 
-   
-
-**Cautions:** Injury or equipment damage may occur if any of the cautions are neglected. Follow these precautions to prevent potential injury or material damage. 
-
-  
-.. list-table:: 
-   :widths: 50 50
-   :header-rows: 0
-
-   * - .. image::	images/warning.png   
-     -   **Warnings**   
-
-
 ● Proper configuration of all passwords and other security settings is the responsibility of the installer and/or end-user.
 
 ● In the use of the product, you must be in strict compliance with the electrical safety regulations of the nation and region. Please refer to technical specifications for detailed information. 
@@ -138,7 +119,8 @@ The precaution measure is divided into “Warnings” and “Cautions”
    * - .. image::	images/caution.png    
      - **Cautions**   
 
-	 
+
+**Cautions:** Injury or equipment damage may occur if any of the cautions are neglected. Follow these precautions to prevent potential injury or material damage. 
 
 ● Make sure the power supply voltage is correct before using the product. 
 

@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'webmaster'
+project = u'Wave® Webmasters Operator Manual'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Make it Wave Ltd'
+author = u'Sion Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
-version = u''
+version = u'0.0.1'
 # The full version, including alpha/beta/rc tags
-release = u'0.0.1'
+release = u'0.0.1rc1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -39,10 +39,6 @@ release = u'0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.githubpages',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -78,7 +74,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -105,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'webmasterdoc'
+htmlhelp_basename = 'WebmasterDocs'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -132,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'webmaster.tex', u'webmaster Documentation',
+    (master_doc, 'WebmasterDocs.tex', u'Wave® Webmasters Operator Manual',
      u'Make it Wave Ltd', 'manual'),
 ]
 
@@ -142,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'webmaster', u'webmaster Documentation',
+    (master_doc, 'WebmasterDocs', u'Wave® Webmasters Operator Manual',
      [author], 1)
 ]
 
@@ -153,8 +149,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'webmaster', u'webmaster Documentation',
-     author, 'webmaster', 'One line description of project.',
+    (master_doc, 'WebmasterDocs', u'Wave® Webmasters Operator Manual',
+     author, 'WebmasterDocs', 'Free Energy & Internet',
      'Miscellaneous'),
 ]
 
@@ -175,16 +171,3 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-
-# -- Extension configuration -------------------------------------------------
-
-# -- Options for intersphinx extension ---------------------------------------
-
-# Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
-
-# -- Options for todo extension ----------------------------------------------
-
-# If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True

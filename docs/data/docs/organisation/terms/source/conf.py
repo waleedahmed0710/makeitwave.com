@@ -21,7 +21,7 @@
 
 project = u'Wave® Terms'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Sion Buckler, Founder & CEO'
+author = u'Sion Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
 version = u'0.0.1'

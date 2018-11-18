@@ -1,7 +1,12 @@
 Wave® & Google Inc. - Patent Purchase Agreement
 ==================================================
 
-**Author(s):** Sion Buckler, Founder & CEO, Make it Wave Ltd & Kirk W. Dailey, Head of Patent Transactions, Google Inc.
+
+**Author:** Sion Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537
+
+& 
+
+Kirk W. Dailey, Head of Patent Transactions, Google Inc.
 
 This PATENT PURCHASE AGREEMENT (the "**Agreement**") is entered into by and between Google Inc. a Delaware corporation with its principal place of business at 1600 Amphitheatre Parway, Mountain View, CA 94043 USA ("**Google**" or "**Seller**") and Make it Wave Ltd. (formerly HLCA Media Ltd), a United Kingdom limited liability company, with its principal place of business at New Mill Farm Stables, Monknash, Cowbridge, Wales, CF71 7QQ ("**Buyer**") and its effective as of November 10, 2015 (the "**Effective Date**).
 
@@ -37,5 +42,58 @@ Index
    8-agreed
    patent-annex
 
+
    
+   
+
+
+ 
+   
+........................................
+  
+
+**Document Author:** Sion Hywel Buckler
+
+........................................
+
+
+Science & Computer Science (Bachelors), Electronic Engineering, Industrial Electronics and Electronics & Computing (Advanced Diplomas), Cisco Certified (CCNA), Microsoft Security Expert, Prince2, Institute of Electronic Engineering (IEEE), Siemens Certified Engineer, Certified Telecommunications Service Provider (NVQ3), Satellites & Full Spectrum Radio, Fixed Telecommunications Systems with Enhanced Capabilities (Nortel Passport, RAD-IP Mux, Probot Fiber Optics, APC Power Supplies), SKP01 Electrical Safety, NVQ2 IT, Defence Specialist LAN, TCP/IP, Subnetting, DHCP, Addressing, Routing & Browsing, Communications Equitment Room Design & Maintenance, Health & Safety, Fire Safety Officer, Cyber Warfare (Pen Testing/ JOCS), Electronic Warfare, SIP/ VOIP, Google Advertising Professional, SEO, PPC, HTML5, CSS3, Java, Perl, Ajax, JQuery, MySQL, Unix, Python, Linux. 
+
+
+.. list-table:: 
+   :widths: 50 50
+   :header-rows: 0
+
+   * - **Founder & CEO**   
+     - .. image:: images/wave-logo.png 
+
+	 
+Make it Wave Ltd - Private Company 11363386. Limited by Shares, Registered Offices in England and Wales.
+
+	 
+
+.. list-table:: 
+   :widths: 50 50
+   :header-rows: 0
+ 
+   * - **Head of Defence**
+     - .. image::	images/ccu.png
+
+
+Caribbean Communications Unit (CCU). Royal Signals Association Life Membership ID:55983
+
+
+.. list-table:: 
+   :widths: 50 50
+   :header-rows: 0
+
+   * - **Prime Technocrat**  
+     - .. image::	images/scottishbay.png    
+      
+
+	 
+Public Servant. Scottish Bay DAO. British Crown/ Oath ID: 25148537 (2002 - 2024)
+
+
+
    

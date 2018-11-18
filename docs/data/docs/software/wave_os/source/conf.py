@@ -21,12 +21,12 @@
 
 project = u'Wave® Operating System'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Sion Buckler, Founder & CEO'
+author = u'Sion Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
-version = u'0.4.4'
+version = u'0.5.0'
 # The full version, including alpha/beta/rc tags
-release = u'0.4.4rc1'
+release = u'0.5.0rc1'
 
 
 # -- General configuration ---------------------------------------------------

@@ -1,18 +1,23 @@
 Wave® Whitepaper
 ==================
 
+Free Internet & Energy
+=========================
+
+**The Wave® Operating System (WaveOS™) brings into existance, a new generation of Smart Home Products, capable of lowering internet & energy bills by as much as 100% e.g. Free Internet & Energy**
+
+**Author:** Sion Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537
+
 Our Vision
 -----------
 
-We believe a powered and connected world is a better one. When you empower anyone with electricity and internet, their ability to contribute and generate value for their society, grows exponentially.  
+We believe a connected and powered world is a better one. When you empower anyone with internet and electricity, their ability to contribute and generate value for their society, grows exponentially.  
 
-Wave® is pleased to announce that we have developed a technology which profits from reducing users energy & internet bills each month. In some case studies we have seen bills reduce to zero. 
+Wave® is pleased to announce that we have developed a technology which profits from reducing the internet and energy bills of our users. During early trials of Wave® some bills even reduced to zero e.gf free internet & energy 
 
-The Wave® solution is an Operating System we call WaveOS, which is part of a Patent Purchase Agreement with Google. So free energy & internet has become a reality.  
+The Wave® solution is an Operating System we call WaveOS™, which was awarded Patents from Google in 2016. During 2018 Wave® began developing a range of smart home products which are powered by the Wave® Operating System. Visit our online store for more information `https://makeitwave.com/store/ <../../../../../../store/index.html>`__ 
 
-Wave® has created a small selection of plug & play products which run the Wave® Operating System. Avaliable for purchase from our website, with all the supporting documents including a Quick Start Guide, Operation Manuals, Warranty etc - https://makeitwave.com
-
-The Source Code for WaveOS is open and public on GitHub for investigation and full transparency. The latest compiled software is also FREE to download from our website. So anyone already in possession of a Single Board Computer (such as the Raspberry Pi) can begin enjoying the benefits of Wave® immidiately.
+WaveOS™ is free and open-source (GitHub). The latest compiled version of the software is also free to download from our website for anyone already in possession of a Single Board Computer e.g. Raspberry Pi - `https://makeitwave.com/download.html <../../../../../../download.html>`__
 
 Thank you for your time reading this. 
 We've been Wave® and you've been great. 
@@ -39,7 +44,59 @@ Glossary
    advisoryservice
    legalandaccounting
    
+    
    
+
+
+ 
+   
+........................................
+  
+
+**Document Author:** Sion Hywel Buckler
+
+........................................
+
+
+Science & Computer Science (Bachelors), Electronic Engineering, Industrial Electronics and Electronics & Computing (Advanced Diplomas), Cisco Certified (CCNA), Microsoft Security Expert, Prince2, Institute of Electronic Engineering (IEEE), Siemens Certified Engineer, Certified Telecommunications Service Provider (NVQ3), Satellites & Full Spectrum Radio, Fixed Telecommunications Systems with Enhanced Capabilities (Nortel Passport, RAD-IP Mux, Probot Fiber Optics, APC Power Supplies), SKP01 Electrical Safety, NVQ2 IT, Defence Specialist LAN, TCP/IP, Subnetting, DHCP, Addressing, Routing & Browsing, Communications Equitment Room Design & Maintenance, Health & Safety, Fire Safety Officer, Cyber Warfare (Pen Testing/ JOCS), Electronic Warfare, SIP/ VOIP, Google Advertising Professional, SEO, PPC, HTML5, CSS3, Java, Perl, Ajax, JQuery, MySQL, Unix, Python, Linux. 
+
+
+.. list-table:: 
+   :widths: 50 50
+   :header-rows: 0
+
+   * - **Founder & CEO**   
+     - .. image:: images/wave-logo.png 
+
+	 
+Make it Wave Ltd - Private Company 11363386. Limited by Shares, Registered Offices in England and Wales.
+
+	 
+
+.. list-table:: 
+   :widths: 50 50
+   :header-rows: 0
+ 
+   * - **Head of Defence**
+     - .. image::	images/ccu.png
+
+
+Caribbean Communications Unit (CCU). Royal Signals Association Life Membership ID:55983
+
+
+.. list-table:: 
+   :widths: 50 50
+   :header-rows: 0
+
+   * - **Prime Technocrat**  
+     - .. image::	images/scottishbay.png    
+      
+
+	 
+Public Servant. Scottish Bay DAO. British Crown/ Oath ID: 25148537 (2002 - 2024)
+
+
+  
 
 
 Disclaimers

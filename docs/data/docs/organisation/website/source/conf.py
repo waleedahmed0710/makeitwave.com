@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Webmasters User Guide'
+project = u'Website Technical Document'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Sion Buckler, Founder & CEO'
+author = u'Sion Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
 version = u'0.0.1'
@@ -128,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'makeitwavecom.tex', u'makeitwave.com - Webmaster User Guide',
+    (master_doc, 'makeitwavecom.tex', u'makeitwave.com - Website User Manual',
      u'Make it Wave Ltd', 'manual'),
 ]
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'makeitwavecom', u'makeitwave.com - Webmaster User Guide',
+    (master_doc, 'makeitwavecom', u'makeitwave.com - Technical Document',
      [author], 1)
 ]
 
@@ -149,7 +149,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'makeitwavecom', u'makeitwave.com - Webmaster User Guide',
+    (master_doc, 'makeitwavecom', u'makeitwave.com - Technical Document',
      author, 'makeitwavecom', 'Free Internet & Energy',
      'Miscellaneous'),
 ]

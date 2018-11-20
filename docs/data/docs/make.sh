@@ -14,6 +14,7 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -29,6 +30,7 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -44,6 +46,7 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -59,6 +62,7 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -74,6 +78,7 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -89,6 +94,7 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -99,7 +105,12 @@ cp -r shared-resources/ccu.png products/warranty/source/images/ccu.png
 cp -r shared-resources/scottishbay.png products/warranty/source/images/scottishbay.png
 cd products/warranty
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -109,7 +120,12 @@ cp -r shared-resources/ccu.png  software/dev_guide/source/images/ccu.png
 cp -r shared-resources/scottishbay.png  software/dev_guide/source/images/scottishbay.png
 cd software/dev_guide
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -119,7 +135,12 @@ cp -r shared-resources/ccu.png software/distributors/source/images/ccu.png
 cp -r shared-resources/scottishbay.png software/distributors/source/images/scottishbay.png
 cd software/distributors
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -129,7 +150,12 @@ cp -r shared-resources/ccu.png software/wave_os/source/images/ccu.png
 cp -r shared-resources/scottishbay.png software/wave_os/source/images/scottishbay.png
 cd software/wave_os
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -139,7 +165,12 @@ cp -r shared-resources/ccu.png organisation/google-patent-purchase/source/images
 cp -r shared-resources/scottishbay.png organisation/google-patent-purchase/source/images/scottishbay.png
 cd organisation/google-patent-purchase
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -149,7 +180,12 @@ cp -r shared-resources/ccu.png organisation/evr/source/images/ccu.png
 cp -r shared-resources/scottishbay.png organisation/evr/source/images/scottishbay.png
 cd organisation/evr
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -159,7 +195,12 @@ cp -r shared-resources/ccu.png organisation/business/source/images/ccu.png
 cp -r shared-resources/scottishbay.png organisation/business/source/images/scottishbay.png
 cd organisation/business
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -169,7 +210,12 @@ cp -r shared-resources/ccu.png organisation/finances/source/images/ccu.png
 cp -r shared-resources/scottishbay.png organisation/finances/source/images/scottishbay.png
 cd organisation/finances
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -179,7 +225,12 @@ cp -r shared-resources/ccu.png organisation/whitepaper/source/images/ccu.png
 cp -r shared-resources/scottishbay.png organisation/whitepaper/source/images/scottishbay.png
 cd organisation/whitepaper
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -189,7 +240,12 @@ cp -r shared-resources/ccu.png organisation/privacy/source/images/ccu.png
 cp -r shared-resources/scottishbay.png organisation/privacy/source/images/scottishbay.png
 cd organisation/privacy
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -199,7 +255,12 @@ cp -r shared-resources/ccu.png organisation/copyright/source/images/ccu.png
 cp -r shared-resources/scottishbay.png organisation/copyright/source/images/scottishbay.png
 cd organisation/copyright
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -209,7 +270,12 @@ cp -r shared-resources/ccu.png organisation/terms/source/images/ccu.png
 cp -r shared-resources/scottishbay.png organisation/terms/source/images/scottishbay.png
 cd organisation/terms
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -219,7 +285,12 @@ cp -r shared-resources/ccu.png organisation/website/source/images/ccu.png
 cp -r shared-resources/scottishbay.png organisation/website/source/images/scottishbay.png
 cd organisation/website
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 
@@ -230,7 +301,12 @@ cp -r shared-resources/ccu.png organisation/webmaster/source/images/ccu.png
 cp -r shared-resources/scottishbay.png organisation/webmaster/source/images/scottishbay.png
 cd organisation/webmaster
 make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
 make html
+make latexpdf
 cd ..
 cd ..
 

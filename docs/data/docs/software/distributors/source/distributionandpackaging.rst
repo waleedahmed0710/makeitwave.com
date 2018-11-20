@@ -1,7 +1,7 @@
 Distribution and Packaging
 ==============================================================
 
-6.1 Generally
+Generally
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 Distributor shall reproduce the Products and distribute copies of the Products solely in accordance with the requirements below:
@@ -17,7 +17,7 @@ Distributor shall reproduce the Products and distribute copies of the Products s
 (e)	Distributor shall determine End User Agreement(s) in accordance with the Company's Distributor Terms & Conditions and their own Products and Services as the Distributor sees fit.
 
 
-6.2 End User
+End User
 ~~~~~~~~~~~~~~
 
 In connection with the distribution and licensing of the Products to End Users, and in addition to any other terms and conditions provided in this Agreement, Distributor shall also comply with the terms and conditions of this Section.
@@ -31,7 +31,7 @@ In connection with the distribution and licensing of the Products to End Users, 
 (e) Company will defend, indemnify and hold harmless Distributor, including its respective subsidiaries, shareholders, directors, officers, employees and agents from and against any claims, causes of actions, obligations, liability, liens, judgments, damages, tortious interference, losses, costs, expenses and fees related to(i) personal injury (including death) and real or tangible personal property damages caused by the negligent or intentional acts of Company, its employees or agents and (ii) Company’s gross negligence or willful misconduct.
 
 
-6.3 Alpha/ Beta Releases
+Alpha/ Beta Releases
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Distributor will control and limit or cause to be controlled and limited the use of the Beta Releases for the specific purposes authorized in Section 2.1. In the event that Distributor uses the Beta Releases on the computer system of a prospective End User, Distributor shall remain in the presence of such prospective End User at all times that any Beta Release is installed at the site of such prospective End User, and, upon completion of any demonstration, Distributor shall remove all Beta Releases from the computer system of such prospective End User and cause the deletion of all portions of the same from such computer. For the purposes of this Agreement, Beta Releases shall be considered Products.

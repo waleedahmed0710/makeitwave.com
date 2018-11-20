@@ -21,7 +21,7 @@
 
 project = u'Waves Product Warranty'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Sion Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
+author = u'Siôn H. Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
 version = u'0.0.1'
@@ -35,7 +35,7 @@ release = u'0.0.1rc1'
 #
 # needs_sphinx = '1.0'
 
-# Add any Sphinx extension module names here, as strings. They can be
+# Add any Sphinx extenSiôn module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
@@ -103,7 +103,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'WaveProductWarrantydoc'
+htmlhelp_basename = 'wave-products-warranty'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -130,8 +130,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WaveProductWarranty.tex', u'Wave® Product Warranty',
-     u'Wave® Product Warranty', 'terms'),
+    (master_doc, 'wave-products-warranty.tex', u'Wave® Product Warranty',
+     u'Author(s): Siôn H. Buckler, Wave®', 'manual'),
 ]
 
 
@@ -140,7 +140,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'waveproductwarranty', u'Wave® Product Warranty',
+    (master_doc, 'wave-products-warranty', u'Wave® Product Warranty',
      [author], 1)
 ]
 
@@ -151,9 +151,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WaveProductWarranty', u'Wave® Product Warranty',
-     author, 'WaveProductWarranty', 'Warranty Information',
-     'terms'),
+    (master_doc, 'wave-products-warranty', u'Wave® Product Warranty',
+     author, 'wave-products-warranty', 'Warranty Information',
+     'manual'),
 ]
 
 
@@ -175,7 +175,7 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 
-# -- Options for todo extension ----------------------------------------------
+# -- Options for todo extenSiôn ----------------------------------------------
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True

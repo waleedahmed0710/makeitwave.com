@@ -9,7 +9,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 .. csv-table:: Table 1.0 - Wave Loan Register
-   :file: table-data/loan-register.csv
+   :file: _static/loan-register.csv
    :widths: 20, 20, 20, 20
    :header-rows: 1
 

@@ -1,4 +1,4 @@
-Release Notes & Notices
+Release Notes and Notices
 ================================================
 
 This section provides information about what is new or changed, including urgent issues, Software & documentation updates, maintenance and new releases. 
@@ -28,12 +28,12 @@ In this version release our developement team have removed a barrier which reque
 
 
 Older Versions
-------------------------------
+####################
 
 Below are references to older version releases and release notes: 
 
-.. csv-table:: Table 1.0 - Archieved Versions of WaveOS™
-   :file: table-data/firmware.csv
+.. csv-table:: Table 1.0 - Archieved versions of WaveOS™
+   :file: _static/firmware.csv
    :widths: 20, 20, 20, 20, 20
    :header-rows: 1
    
@@ -52,7 +52,7 @@ Published in Summer 2018. The image is much lighter (150Mb). But there were seri
 Version 0.3.0
 ####################
 
-Published in Spring 2018 as proof-of-concept, demonstrating how easily our solution could be downloaded from our website (for free), copied to a Micro SD Card and upon insersion (into any of the 19 million Single Board Computers in circulation) the device and the software operating it would perform as intended, without any programming knowledge or configuration required e.g. completely 'plug & play'. This demonstrated the methodology of quick deployment and scaling internationally. WaveOS™ Version 0.1.0 also demostrated how product assembly could occur with a non-skilled/ robotic workforce. Faults with this version release include download time (it's 2GB) and restriction to the exact device type the source ran on. Since it's a snapshot (copy) only, outdates software is actually being transfered, instead of the latest source code being obtained during first boot. There are also many features not included in this image.   
+Published in Spring 2018 as proof-of-concept, demonstrating how easily our solution could be downloaded from our website (for free), copied to a Micro SD Card and upon inserSiôn (into any of the 19 million Single Board Computers in circulation) the device and the software operating it would perform as intended, without any programming knowledge or configuration required e.g. completely 'plug & play'. This demonstrated the methodology of quick deployment and scaling internationally. WaveOS™ version 0.1.0 also demostrated how product assembly could occur with a non-skilled/ robotic workforce. Faults with this version release include download time (it's 2GB) and restriction to the exact device type the source ran on. Since it's a snapshot (copy) only, outdates software is actually being transfered, instead of the latest source code being obtained during first boot. There are also many features not included in this image.   
   
   
 Known and Corrected Issues
@@ -62,7 +62,7 @@ Below is a table of pending issues which have been reported to our team.
 	These issues will be cleared from this list as and when they are remedied. 
 
 .. csv-table:: Table 1.1 - Known Issues
-   :file: table-data/issues.csv
+   :file: _static/issues.csv
    :widths: 10, 10, 20, 60
    :header-rows: 1
    

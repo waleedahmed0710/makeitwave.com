@@ -1,5 +1,5 @@
 Background
-==========
+==============
 
 Make it Wave Ltd, hearonafter 'Company', is the software owner and has a right to license to others, certain computer software programs and related documentation. Distributor desires a nonexclusive, nontransferable, non-assignable and limited right and license to reproduce, market, and distribute such products within distributors country of origin,  and Company agrees to grant to Distributor such right and license solely as set forth herein.
 

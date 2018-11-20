@@ -1,4 +1,4 @@
-1. Definitions
+Definitions
 ======================
 
 In addition to the terms defined elsewhere in this Agreement, the following terms shall have the respective meanings specified below;
@@ -11,7 +11,7 @@ In addition to the terms defined elsewhere in this Agreement, the following term
 
 **"Docket"** means Seller's or its agents' list or other means of tracking information relating to the prosecution or maintenance of the Patents throughout the world, including, as applicable and available, the names, address, email addresses, and phone numbers of prosecution counsel and agents, and information relating to deadlines, payments, and filings, which list or other means of tracking information is current as of the Effective Date. 
 
-**"Entity"** means any person, corporation, partnership, limited liability company, association, join stock company, trust, joint venture, unincorporated Organization, governmental entity (or any department, agency, or political subdivision thereof) or any other legal entity. 
+**"Entity"** means any person, corporation, partnership, limited liability company, Association , join stock company, trust, joint venture, unincorporated Organization, governmental entity (or any department, agency, or political subdivision thereof) or any other legal entity. 
 
 **"Executed Assignments"** means both the executed and witnessed Assignment of Patent Rights in **Exhibit C**. 
 

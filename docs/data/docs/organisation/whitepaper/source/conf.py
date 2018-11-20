@@ -21,7 +21,7 @@
 
 project = u'Wave® Whitepaper'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Sion Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
+author = u'Siôn H. Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
 version = u'0.0.1'
@@ -35,7 +35,7 @@ release = u'0.0.1rc1'
 #
 # needs_sphinx = '1.0'
 
-# Add any Sphinx extension module names here, as strings. They can be
+# Add any Sphinx extenSiôn module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
@@ -101,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'WaveWhitePaperdoc'
+htmlhelp_basename = 'wave-organisation-whitepaper'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -128,8 +128,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WaveWhitePaper.tex', u'Wave® Whitepaper',
-     u'Make it Wave Ltd', 'manual'),
+    (master_doc, 'wave-organisation-whitepaper.tex', u'Wave® Whitepaper',
+     u'Author(s): Siôn H. Buckler, Wave®', 'manual'),
 ]
 
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'WaveWhitePaper', u'Wave® Whitepaper',
+    (master_doc, 'wave-organisation-whitepaper', u'Wave® Whitepaper',
      [author], 1)
 ]
 
@@ -149,9 +149,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WaveWhitePaper', u'Wave® Whitepaper',
-     author, 'WaveWhitePaper', 'Free Energy & Internet',
-     'Miscellaneous'),
+    (master_doc, 'wave-organisation-whitepaper', u'Wave® Whitepaper',
+     author, 'wave-organisation-whitepaper', 'Free Energy & Internet',
+     'manual'),
 ]
 
 
@@ -171,3 +171,13 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+
+# External links
+
+import sys, os
+sys.path.append('.')
+from links.link import *
+from links import *
+
+extlinks = {'Store': ('https://makeitwave.com/store/%s',
+                      'Store')}

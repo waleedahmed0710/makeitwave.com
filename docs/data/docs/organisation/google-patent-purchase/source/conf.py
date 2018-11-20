@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Wave® & Google Inc. Patents'
-copyright = u'2018, Make it Wave Ltd. & Google Inc.'
-author = u'Kirk W. Dailey, Head of Patent Transactions, Google Inc. & Sion Buckler, Founder & CEO, Make it Wave Ltd.'
+project = u'Wave® and Google Inc. Patents'
+copyright = u'2018, Make it Wave Ltd. and Google Inc.'
+author = u'Kirk W. Dailey, Head of Patent Transactions, Google Inc. and Siôn H. Buckler, Founder and CEO, Make it Wave Ltd.'
 
 # The short X.Y version
 version = u'0.0.2'
@@ -35,7 +35,7 @@ release = u'0.0.2rc1'
 #
 # needs_sphinx = '1.0'
 
-# Add any Sphinx extension module names here, as strings. They can be
+# Add any Sphinx extenSiôn module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
@@ -101,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'WavePatentGoogledoc'
+htmlhelp_basename = 'wave-organisation-google_patent_agreement'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -128,8 +128,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WavePatentGoogle.tex', u'Wave® & Google Inc. Patents',
-     u'Google Inc.', 'manual'),
+    (master_doc, 'wave-organisation-google_patent_agreement.tex', u'Wave® and Google Inc. Patents',
+     u'Author(s): Kirk W. Dailey, Google Inc. and Siôn H. Buckler, Wave®', 'manual'),
 ]
 
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'WavePatentGoogle', u'Wave® & Google Inc. Patents',
+    (master_doc, 'wave-organisation-google_patent_agreement', u'Wave® and Google Inc. Patents',
      [author], 1)
 ]
 
@@ -149,9 +149,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WavePatentGoogle', u'Wave® & Google Inc. Patents',
-     author, 'WavePatentGoogle', 'Wave® & Google Inc. Patents',
-     'Miscellaneous'),
+    (master_doc, 'wave-organisation-google_patent_agreement', u'Wave® and Google Inc. Patents',
+     author, 'wave-organisation-google_patent_agreement', 'Wave® and Google Inc. Patents',
+     'manual'),
 ]
 
 

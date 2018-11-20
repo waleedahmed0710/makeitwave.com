@@ -1,0 +1,16 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}All Wave\IeC {\textregistered } Financials - In one Place!}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Release Notes and Notices}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Version 0.0.1 (Alpha)}{1}{subsection.1.1.1}
+\contentsline {subsubsection}{Older Versions}{1}{subsubsection*.3}
+\contentsline {subsubsection}{Version 0.0.0}{1}{subsubsection*.4}
+\contentsline {subsection}{\numberline {1.1.2}Known and Corrected Issues}{1}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Recently Updated Topics}{1}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}1.1 Shareholders Register}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}1.2 Investment Opportunity}{2}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}1.3 Become an Investor}{2}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}2. Loans}{2}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}2.1 Loan Opportunity}{2}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}2.2 Loan Register}{2}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}2.3 Become a Lender}{2}{subsection.1.3.3}
+\contentsline {chapter}{\numberline {2}\sphinxstylestrong {Document Author(s):}}{3}{chapter.2}

@@ -1,7 +1,7 @@
-13. Warranties
+Warranties
 ===============
 
-13.1 Warranties of Company
+Warranties of Company
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 (a) Company warrants to Distributor that (i) Company has full authority to execute and perform this Agreement; (ii) this Agreement has been duly executed and delivered by Company and constitutes the legal, enforceable and binding obligation of Company; and (iii) Company's execution and performance of this Agreement will not violate any law or breach any other agreement.
@@ -11,7 +11,7 @@
 (c)	OTHER THAN AS EXPRESSLY SET FORTH IN SECTION 13.1, Company DOES NOT MAKE ANY EXPRESS OR IMPLIED WARRANTIES TO Distributor, END USERS, OR ANY OTHER PERSONS OR ENTITIES WITH RESPECT TO THE PRODUCTS, ANY COPIES THEREOF, ANY SERVICES PROVIDED HEREUNDER OR OTHERWISE REGARDING THIS AGREEMENT, WHETHER ORAL OR WRITTEN, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTY OF MERCHANTABILITY, AND THE IMPLIED WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE.
 
   
-13.2 Warranties of Distributor
+Warranties of Distributor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (a) Distributor warrants to Company that (i) Distributor has full authority to execute and perform this Agreement; (ii) this Agreement has been duly executed and delivered by Distributor and constitutes the legal, enforceable and binding obligation of Distributor; (iii) Distributor's execution and performance of this Agreement will not violate any law or breach any other agreement; and (iv) no approval, action or authorization by any governmental authority or agency is required for Distributor's execution and performance hereof or, if it is, such approval, action or authorization has been obtained and written evidence thereof has been provided to Company.

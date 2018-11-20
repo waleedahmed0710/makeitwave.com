@@ -1,17 +1,17 @@
-3. Transfer of Patents and Additional Rights; License Back
+Transfer of Patents and Additional Rights; License Back
 =============================================================
 
-3.1 Assignment of Patents
+Assignment of Patents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Upon the Closing, Seller hereby sells, assigns, transfers, and conveys to Buyer, or shall have caused its Affiliates to sell, assign, transfer and convey to Buyer, all of its right, title, and interest in and to the Patents. 
 
-3.2 Assignment of Additional Rights
+Assignment of Additional Rights
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Upon the Closing, Seller hereby also sells, assigns, transfers, and conveys to Buyer, or shall have caused its Affiliates to sell,, assign, transfer and convey to Buyer, all of its right, title and interest in and to all causes of action (whether known or unknown or whether currently pending, filed, or otherwise) and its other enforcement rights under, or on account of, any of the Patents described in Section 3.1, including, without limitation, all of its causes of action other enforcement rights for (i) damages, (ii) injunctive relief, (iii) any other remedies of any kind for past, current and future infringement, and (iv) rights to collect royalties or other payments under or on account of any of the Patents and/or any of the foregoing (such causes of action and other enforcement rights collectively "**Additional Rights**") (excluding any Existing Licenses under Section 3.3).
 
-3.3 Existing Licenses
+Existing Licenses
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (a) The transfers of the Assigned Patent Rights pursuant to Seciton 3.1 and 3.2 are subject to (i) any existing licenses (including transferrable licences) or license rights (including any previous license or other commitments made to a standards development organization regarding the Patents) executed prior to the Effective Data ("**Existing Licenses**").
@@ -19,7 +19,7 @@ Upon the Closing, Seller hereby also sells, assigns, transfers, and conveys to B
 (b) Buyer agrees and covenants that if the Buyer sells, conveys title to, or assigns the right to enforce any of the Assigned Patent Rights to a third party, Buyer will bind the third party as well as the Affiliates of the third party with the language of this Section 3.3. Additionally, Buyer agrees and covenants to oblige any such third party to bind any subsequent transferee to the obligations set forth in this Section 3.3.
 
 
-3.4 License Back
+License Back
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (a) Upon Closing, Buyer hereby grants to Seller, for the benefit of Seller and its Affiliates, for the lives of all the Patents, as may be adjusted by applicable law, an irrevocable, non-exclusive, sublicensable (as described below), worldwide, royalty-free, fully paid-up right and license under the Patents, to develop, have developed, make, have made, use, have used, sell, offer to sell, import, license, lease, support, install, service, import, export and otherwise transfer or dispose of, directly or indirectly, any product, service, technology or process and use or practice any method in connection therewith ("**Seller License"**) from the Closing until the last to expire of each of the Patents. The Seller License extends to all Seller Partners, but only to the extent a claim of infringement is alleged to be based in whole or in part on their activities relating to any Seller Products. The Seller License includes a full release from liability for past damages under the Patents of Seller, its Affiliates and Seller Partners. 
@@ -31,7 +31,7 @@ Upon the Closing, Seller hereby also sells, assigns, transfers, and conveys to B
 (d) Buyer agrees and covenants that if the Buyer sells, conveys title to, or assigns the right to enforce any of the Assigned Patent Rights to a third party, Buyer will bind the third party as well as the Affiliates of the third party with the language of this Section 3.4. Additionally, Buyer agrees and covenants to oblige any such third party to bind any subsequent transferee to the obligations set forth in Section 3.4.
 
 
-3.5 Reimbursement
+Reimbursement
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Buyer agrees to reimburse Seller, at Seller's request, for all expenses reasonably incurred by Seller and its Affiliates, either directly or under an obligation to any prior owner of the Patents and its Affiliates, in satisfying any legal obligations or document production required or compelled pursuant to a contractual obligation or by a court of law or other governmental agency as part of a litigation or legal action concerning the Patents and involving Buyer. 

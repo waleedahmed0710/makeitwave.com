@@ -100,17 +100,17 @@ The precaution measure is divided into “Warnings” and “Cautions”
 **Warnings:** Safeguards to prevent serious injury or death. Serious injury or death may occur if any of the warnings are neglected. Follow these safeguards to prevent serious injury or death.  
 
 
-● Proper configuration of all passwords and other security settings is the responsibility of the installer and/or end-user.
+- Proper configuration of all passwords and other security settings is the responsibility of the installer and/or end-user.
 
-● In the use of the product, you must be in strict compliance with the electrical safety regulations of the nation and region. 
+- In the use of the product, you must be in strict compliance with the electrical safety regulations of the nation and region. 
 
-● Input voltage should meet both the SELV (Safety Extra Low Voltage) and the Limited Power Source with 24 VAC or 12 VDC according to the IEC60950-1 standard.  
+- Input voltage should meet both the SELV (Safety Extra Low Voltage) and the Limited Power Source with 24 VAC or 12 VDC according to the IEC60950-1 standard.  
 
-● Do not connect several devices to one power adapter as adapter overload may cause over-heating or a fire hazard.
+- Do not connect several devices to one power adapter as adapter overload may cause over-heating or a fire hazard.
  
-● Please make sure that the plug is firmly connected to the power socket. When the product is mounted on wall or ceiling, the device shall be firmly fixed.  
+- Please make sure that the plug is firmly connected to the power socket. When the product is mounted on wall or ceiling, the device shall be firmly fixed.  
 
-● If smoke, odor or noise rise from the device, turn off the power at once and unplug the power cable, and then please contact the service center.
+- If smoke, odor or noise rise from the device, turn off the power at once and unplug the power cable, and then please contact the service center.
 
 .. list-table:: 
    :widths: 50 50
@@ -122,23 +122,23 @@ The precaution measure is divided into “Warnings” and “Cautions”
 
 **Cautions:** Injury or equipment damage may occur if any of the cautions are neglected. Follow these precautions to prevent potential injury or material damage. 
 
-● Make sure the power supply voltage is correct before using the product. 
+- Make sure the power supply voltage is correct before using the product. 
 
-● Do not drop the product or subject it to physical shock. 
+- Do not drop the product or subject it to physical shock. 
 
-● If cleaning is necessary, use clean cloth with a bit of ethanol and wipe it gently. If the product will not be used for an extended period, please repackage it to protect the sensor from dirt.  
+- If cleaning is necessary, use clean cloth with a bit of ethanol and wipe it gently. If the product will not be used for an extended period, please repackage it to protect the sensor from dirt.  
 
-● Do not place the product in extremely hot, cold (the operating temperature shall be-30°C ~+60°C, or -40°C ~ +60°C if the product model has an “H” in its suffix), dusty or damp locations, and do not expose it to high electromagnetic radiation.  
+- Do not place the product in extremely hot, cold (the operating temperature shall be-30°C ~+60°C, or -40°C ~ +60°C if the product model has an “H” in its suffix), dusty or damp locations, and do not expose it to high electromagnetic radiation.  
 
-● To avoid heat accumulation, good ventilation is required for operating environment.  
+- To avoid heat accumulation, good ventilation is required for operating environment.  
 
-● Keep the product away from liquid while in use. 
+- Keep the product away from liquid while in use. 
 
-● While in delivery, the product shall be packed in its original packing, or packing of the same texture. 
+- While in delivery, the product shall be packed in its original packing, or packing of the same texture. 
 
-● Improper use or replacement of the battery, if required, may result in hazard of explosion. Replace with the same or equivalent type only. Dispose of used batteries according to the instructions provided by the battery manufacturer. 
+- Improper use or replacement of the battery, if required, may result in hazard of exploSiôn. Replace with the same or equivalent type only. Dispose of used batteries according to the instructions provided by the battery manufacturer. 
 
-● If the product does not work properly, please contact your dealer or the nearest service center. (We shall not assume any responsibility for problems caused by unauthorized repair or maintenance.) 
+- If the product does not work properly, please contact your dealer or the nearest service center. (We shall not assume any responsibility for problems caused by unauthorized repair or maintenance.) 
 
 
 

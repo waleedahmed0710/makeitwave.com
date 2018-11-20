@@ -4,7 +4,7 @@ Preferences
 hyperlink
 ~~~~~~~~~
 
-Hyperlink `here <http://Arch Linuxarm.org/platforms/armv6/raspberry-pi>`__, 
+Hyperlink `here <http://ArchLinuxarm.org/platforms/armv6/raspberry-pi>`__, 
 
 command lines
 ~~~~~~~~~~~~~~~~~

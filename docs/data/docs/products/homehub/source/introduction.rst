@@ -3,7 +3,12 @@ Introduction
 
 The topics described within most sections of this document apply to Wave's entire product line. For guidance on the specific product named in the title of this document, please refer to the 'About this Product' section.  
 
-Wave® is a Highly Affordable, All-in-One Smart Home Solution**. It's modular, plug & play and works right out of the box - making it today's easiest and fastest way to transform any house into a fully-intergrated digital smart home. The Wave® Smart Home solution is also the worlds first technology to make internet and energy free. The technology reduces households internet and energy bills each month, completely autonomously, while users enjoy the products **state of the art** smart home features; 
+Wave® is a Highly Affordable, All-in-One, **Complete Smart Home Solution**. It's modular, plug & play and works right out of the box - making it today's easiest and fastest way to transform any house into a fully-intergrated digital smart home. The Wave® Smart Home solution is also the worlds first technology to make internet and energy free. The technology reduces households internet and energy bills each month, completely autonomously, while users enjoy the products **state of the art** smart home features; 
+
+Image 1.0 - Wave® Smart Home™
+
+.. image::	images/config-1.png
+
 
 -  Multi-Room Media (DLNA - Music, Movies & IPTV Streaming)
 -  Wireless Home Control (IoT, Smart Plug Sockets, Lights etc)
@@ -13,23 +18,19 @@ Wave® is a Highly Affordable, All-in-One Smart Home Solution**. It's modular, p
 -  Multi-User Support (access the Wave® Dashboard™ from multiple devices, simultaniously, through any web-browser)
 -  Access the Wave® Dashboard™ from Anywhere in the world using the Free Wave® Remote (Remote Access) Mobile App
 
-Image 1.0 - Wave® Smart Home™
-
-.. image::	images/config-1.png
-
 The Wave® Smart Home describes, at the very least, a Wave® Home Hub™ with at least one Wave® Enhacement Product connected to it. (details below) 
 
 Image 1.1 - Wave®  Dashboard™
 
 .. image::	images/dashboard.png
 
-The Wave®  Dashboard™ describes the all-in-one home control menu which origionates from the Wave® Home Hub™. From this dashboard you will see: 
+The Wave®  Dashboard™ describes the all-in-one home control menu which originates from the Wave® Home Hub™. From this dashboard you will see: 
 
 	•  Tab 1 - Media Library: Featuring Movies, Music, IPTV, Latest Trailers, TV Shows
-	•  Tab 1 - IoT Home Control: Scan your Wi-Fi for Things to Control, Add buttons to control your Things
-	•  Tab 1 - IPCCTV: Scan your Wi-Fi for IP Camera Monitor to monitor. Includes Motion Detect and loopback recording.
-	•  Tab 1 - Energy: 
-	•  Tab 1 - 
+	•  Tab 2 - IoT Home Control: Scan your Wi-Fi for Things to Control, Add buttons to control your Things
+	•  Tab 3 - IPCCTV: Scan your Wi-Fi for IP Camera Monitor to monitor. Includes Motion Detect and loopback recording.
+	•  Tab 4 - Energy: 
+	•  Tab 5 - 
 
 
 Editions: Same Box. Same Software 
@@ -40,7 +41,7 @@ Each
 The 
 
 .. csv-table:: Table 1.0 - Wave's 'Enhacement' Products
-   :file: table-data/enhancementproducts.csv
+   :file: _static/enhancementproducts.csv
    :widths: 20, 80
    :header-rows: 1
    
@@ -68,7 +69,7 @@ Image 1.1 - Wave® Home Hub™
 
 
 .. csv-table:: Table 1.0 - Wave's 'Enhacement' Products
-   :file: table-data/enhancementproducts.csv
+   :file: _static/enhancementproducts.csv
    :widths: 20, 80
    :header-rows: 1
    

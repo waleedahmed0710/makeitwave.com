@@ -1,4 +1,4 @@
-7. Compliance with Laws
+Compliance with Laws
 ================================================
 
 

@@ -1,21 +1,21 @@
-1. Executive Statement
+Executive Statement
 =============================
 
 bla bla bla
 
-1.1 Business Overview
+Business Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-1.2 Research and Development
+Research and Development
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-1.3 Our Vision
+Our vision
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-1.4 Opportunities and threats
+Opportunities and threats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 

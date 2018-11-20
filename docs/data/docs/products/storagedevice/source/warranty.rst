@@ -50,7 +50,7 @@ Firmware incorporated into this product may include third party copyrighted soft
 Modification of or tampering with the Software, including but not limited to any Open Source Software, is solely at your own risk. Wave® is not responsible for any such modification or tampering. Wave® will not support any product in which you have or have attempted to modify the Software supplied by Make it Wave Ltd.
 
 
-Mozilla Public License Version 2.0
+Mozilla Public License version 2.0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 1. Definitions
@@ -60,7 +60,7 @@ Mozilla Public License Version 2.0
     means each individual or legal entity that creates, contributes to
     the creation of, or owns Covered Software.
 
-1.2. "Contributor Version"
+1.2. "Contributor version"
     means the combination of the Contributions of others (if any) used
     by a Contributor and that particular Contributor's Contribution.
 
@@ -114,12 +114,12 @@ Mozilla Public License Version 2.0
     Contributor that would be infringed, but for the grant of the
     License, by the making, using, selling, offering for sale, having
     made, import, or transfer of either its Contributions or its
-    Contributor Version.
+    Contributor version.
 
 1.12. "Secondary License"
-    means either the GNU General Public License, Version 2.0, the GNU
-    Lesser General Public License, Version 2.1, the GNU Affero General
-    Public License, Version 3.0, or any later versions of those
+    means either the GNU General Public License, version 2.0, the GNU
+    Lesser General Public License, version 2.1, the GNU Affero General
+    Public License, version 3.0, or any later versions of those
     licenses.
 
 1.13. "Source Code Form"
@@ -151,7 +151,7 @@ non-exclusive license:
 
 (b) under Patent Claims of such Contributor to make, use, sell, offer
     for sale, have made, import, and otherwise transfer either its
-    Contributions or its Contributor Version.
+    Contributions or its Contributor version.
 
 2.2. Effective Date
 
@@ -173,7 +173,7 @@ Contributor:
 (b) for infringements caused by: (i) Your and any other third party's
     modifications of Covered Software, or (ii) the combination of its
     Contributions with other software (except as part of its Contributor
-    Version); or
+    version); or
 
 (c) under Patent Claims infringed by Covered Software in the absence of
     its Contributions.
@@ -300,7 +300,7 @@ Your receipt of the notice.
 
 5.2. If You initiate litigation against any entity by asserting a patent
 infringement claim (excluding declaratory judgment actions,
-counter-claims, and cross-claims) alleging that a Contributor Version
+counter-claims, and cross-claims) alleging that a Contributor version
 directly or indirectly infringes any patent, then the rights granted to
 You by any and all Contributors for the Covered Software under Section
 2.1 of this License shall terminate.
@@ -331,24 +331,24 @@ Any litigation relating to this License may be brought only in the courts of a j
 
 This License represents the complete agreement concerning the subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. Any law or regulation which provides that the language of a contract shall be construed against the drafter shall not be used to construe this License against a Contributor.
 
-10. Versions of the License
+10. versions of the License
 ---------------------------
 
-10.1. New Versions
+10.1. New versions
 
 Mozilla Foundation is the license steward. Except as provided in Section
 10.3, no one other than the license steward has the right to modify or
 publish new versions of this License. Each version will be given a
 distinguishing version number.
 
-10.2. Effect of New Versions
+10.2. Effect of New versions
 
 You may distribute the Covered Software under the terms of the version
 of the License under which You originally received the Covered Software,
 or under the terms of any subsequent version published by the license
 steward.
 
-10.3. Modified Versions
+10.3. Modified versions
 
 If you create software not governed by this License, and you want to
 create a new license for such software, you may create and use a

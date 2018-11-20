@@ -1,7 +1,7 @@
-14. Indemnification Generally
+Indemnification Generally
 ======================================================
 
-14.1 Company Indemnification
+Company Indemnification
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 Company shall, except as otherwise provided below, indemnify, defend and hold harmless Distributor and its officers, directors and agents against any damages, costs, and fees resulting from: 
@@ -22,7 +22,7 @@ Company will have no liability for any infringement or misappropriation of any c
 
 
  
-14.2 Distributor Indemnification
+Distributor Indemnification
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In addition to any other Distributor obligations of indemnity provided in this Agreement, Distributor agrees to indemnify, defend and hold harmless Company, its affiliates, and their directors, officers, shareholders, employees and agents from and against any liabilities, losses, damages, causes of action or injuries, together with costs and expenses, including reasonable attorneys' fees, resulting from any claim by unaffiliated third parties arising out of or resulting from:

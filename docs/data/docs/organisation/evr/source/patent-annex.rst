@@ -18,7 +18,7 @@ USSD Tracker Solution
      - Containing 1 USSD-Ready Sim Card (Supplied)
    * - Thingstream.io
      - USSD Data > API Key/ Data Stream
-   * - WaveOS Version 0.0.5
+   * - WaveOS version 0.0.5
      - Upgrade to include thingstream.io API Key input / genertor button/ auto-generate key
 
 

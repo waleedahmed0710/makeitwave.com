@@ -5,7 +5,7 @@ This section provides information about what is new or changed, including urgent
 
 - 'Updates' are the term used to describe significant changes to our public source code. These technical documents are now contained within our public source code. 
 
-Version 0.0.1 (Alpha)
+Version 0.0.1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 This is the first release/ draft of this technical document.

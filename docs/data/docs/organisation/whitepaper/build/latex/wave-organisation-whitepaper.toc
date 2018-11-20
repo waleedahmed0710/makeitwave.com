@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {1.1}Our vision}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Glossary}{1}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Release Notes and Notices}{1}{subsection.1.2.1}
-\contentsline {subsubsection}{Version 0.0.1 (Alpha)}{1}{subsubsection*.3}
+\contentsline {subsubsection}{Version 0.0.1}{1}{subsubsection*.3}
 \contentsline {paragraph}{Older Versions}{2}{paragraph*.4}
 \contentsline {paragraph}{Version 0.0.0}{2}{paragraph*.5}
 \contentsline {subsubsection}{Known and Corrected Issues}{2}{subsubsection*.6}

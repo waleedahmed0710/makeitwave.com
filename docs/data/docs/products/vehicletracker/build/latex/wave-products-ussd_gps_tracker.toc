@@ -1,7 +1,7 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Product User Guide}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Release Notes and Notices}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Version 0.0.1 (Alpha)}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Version 0.0.1}{2}{subsection.1.1.1}
 \contentsline {subsubsection}{Older Versions}{2}{subsubsection*.3}
 \contentsline {subsubsection}{Version 0.0.0}{2}{subsubsection*.4}
 \contentsline {subsection}{\numberline {1.1.2}Known and Corrected Issues}{2}{subsection.1.1.2}

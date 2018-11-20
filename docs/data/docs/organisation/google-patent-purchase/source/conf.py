@@ -21,7 +21,7 @@
 
 project = u'Wave® and Google Inc. Patents'
 copyright = u'2018, Make it Wave Ltd. and Google Inc.'
-author = u'Kirk W. Dailey, Head of Patent Transactions, Google Inc. and Siôn H. Buckler, Founder and CEO, Make it Wave Ltd.'
+author = u'Kirk W. Dailey, Head of Patent Transactions, Google Inc.'
 
 # The short X.Y version
 version = u'0.0.2'

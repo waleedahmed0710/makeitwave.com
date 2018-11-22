@@ -273,6 +273,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8c.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8c.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvb8c.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT wave-logo.png
 INPUT ./wave-logo.png
 INPUT ./wave-logo.png
@@ -303,8 +305,6 @@ INPUT scottishbay.png
 INPUT ./scottishbay.png
 INPUT scottishbay.png
 INPUT ./scottishbay.png
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT wave-organisation-whitepaper.ind
 INPUT wave-organisation-whitepaper.ind
 INPUT wave-organisation-whitepaper.aux

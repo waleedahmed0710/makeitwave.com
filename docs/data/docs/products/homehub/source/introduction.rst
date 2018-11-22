@@ -1,5 +1,5 @@
-Introduction
-=============
+Introduction to Wave®
+=========================
 
 The topics described within most sections of this document apply to Wave's entire product line. For guidance on the specific product named in the title of this document, please refer to the 'About this Product' section.  
 

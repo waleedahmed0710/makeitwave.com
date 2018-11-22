@@ -24,9 +24,9 @@ copyright = u'2018, Make it Wave Ltd. & EVR Solar S.R.L.'
 author = u'Siôn H. Buckler, Founder and CEO, Make it Wave Ltd. and Frank Van Rienen, President of EVR Solar S.R.L'
 
 # The short X.Y version
-version = u'0.0.1'
+version = u'0.1'
 # The full version, including alpha/beta/rc tags
-release = u'0.0.1rc2'
+release = u'0.0.1'
 
 
 # -- General configuration ---------------------------------------------------

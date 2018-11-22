@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {1.1.1}Older Versions}{1}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Version 0.0.0}{1}{subsection.1.1.2}
 \contentsline {section}{\numberline {1.2}Known and Corrected Issues}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}Recently Updated Topics}{1}{section.1.3}
+\contentsline {section}{\numberline {1.3}Recently Updated Topics}{2}{section.1.3}
 \contentsline {chapter}{\numberline {2}Wave\IeC {\textregistered } Copyright Notice 2018}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Coming Soon}{3}{section.2.1}
 \contentsline {chapter}{\numberline {3}\sphinxstylestrong {Document Author(s):}}{5}{chapter.3}

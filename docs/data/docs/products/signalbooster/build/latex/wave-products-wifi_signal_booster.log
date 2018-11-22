@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  20 NOV 2018 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  21 NOV 2018 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1149,7 +1149,10 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
  (./wave-products-wifi_signal_booster.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
-)
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 12.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+))
 \tf@toc=\write6
 \openout6 = `wave-products-wifi_signal_booster.toc'.
 
@@ -1169,11 +1172,8 @@ File: homehub.png Graphic file (type png)
  <use homehub.png>
 Package pdftex.def Info: homehub.png used on input line 74.
 (pdftex.def)             Requested size: 200.7495pt x 210.78699pt.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 81.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [1
+[1
 
  <./homehub.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 158--159
@@ -1217,6 +1217,8 @@ File: caution.png Graphic file (type png)
  <use caution.png>
 Package pdftex.def Info: caution.png used on input line 335.
 (pdftex.def)             Requested size: 75.28105pt x 65.24358pt.
+LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `TS1/phv/b/n' tried instead on input line 376.
 
 <config-1.png, id=110, 407.15492pt x 356.26056pt>
 File: config-1.png Graphic file (type png)
@@ -1327,15 +1329,15 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1150.
 
 Package rerunfilecheck Info: File `wave-products-wifi_signal_booster.out' has n
 ot changed.
-(rerunfilecheck)             Checksum: 3707DC3B5F42506A512E55A2F79ED82D;1252.
+(rerunfilecheck)             Checksum: D63285E0FF04721654458EDE1CC67116;1306.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1150.
  ) 
 Here is how much of TeX's memory you used:
- 13779 strings out of 494945
- 191702 string characters out of 6181031
- 277557 words of memory out of 5000000
- 16672 multiletter control sequences out of 15000+600000
- 44765 words of font info for 65 fonts, out of 8000000 for 9000
+ 13781 strings out of 494945
+ 191743 string characters out of 6181031
+ 277574 words of memory out of 5000000
+ 16674 multiletter control sequences out of 15000+600000
+ 45077 words of font info for 66 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  37i,12n,45p,1579b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1343,7 +1345,7 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-products-wifi_signal_booster.pdf (21 pages, 239880 bytes
+Output written on wave-products-wifi_signal_booster.pdf (21 pages, 227156 bytes
 ).
 PDF statistics:
  283 PDF objects out of 1000 (max. 8388607)

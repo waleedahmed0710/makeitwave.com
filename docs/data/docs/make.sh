@@ -14,9 +14,19 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/homehub ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/homehub ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/energymonitor\n\n"
 cp -r products/shared-rst/* products/energymonitor/source
@@ -30,9 +40,19 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/energymonitor ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/energymonitor ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/vehicletracker\n\n"
 cp -r products/shared-rst/* products/vehicletracker/source
@@ -46,9 +66,18 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/vehicletracker ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/vehicletracker ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/multiroom\n\n"
 cp -r products/shared-rst/* products/multiroom/source
@@ -62,9 +91,19 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/multiroom ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/multiroom ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/signalbooster\n\n"
 cp -r products/shared-rst/* products/signalbooster/source
@@ -78,9 +117,19 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/signalbooster ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/signalbooster ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/storagedevice\n\n"
 cp -r products/shared-rst/* products/storagedevice/source
@@ -94,12 +143,20 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/storagedevice ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/storagedevice ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/warranty\n\n"
-cp -r products/shared-rst/* products/storagedevice/source
 cp -r shared-resources/wave-logo.png products/warranty/source/images/wave-logo.png
 cp -r shared-resources/ccu.png products/warranty/source/images/ccu.png
 cp -r shared-resources/scottishbay.png products/warranty/source/images/scottishbay.png
@@ -110,9 +167,18 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/warranty ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/warranty ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for software/dev_guide\n\n"
 cp -r shared-resources/wave-logo.png  software/dev_guide/source/images/wave-logo.png
@@ -125,9 +191,19 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for software/dev_guide ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for software/dev_guide ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for software/distributors\n\n"
 cp -r shared-resources/wave-logo.png software/distributors/source/images/wave-logo.png
@@ -140,9 +216,19 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for software/distributors ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for software/distributors ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for software/wave_os\n\n"
 cp -r shared-resources/wave-logo.png software/wave_os/source/images/wave-logo.png
@@ -155,9 +241,20 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for software/wave_os ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for software/wave_os ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
+
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/google-patent-purchase\n\n"
 cp -r shared-resources/wave-logo.png organisation/google-patent-purchase/source/images/wave-logo.png
@@ -170,9 +267,20 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/google-patent-purchase ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/google-patent-purchase ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
+
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/evr\n\n"
 cp -r shared-resources/wave-logo.png organisation/evr/source/images/wave-logo.png
@@ -185,9 +293,18 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/evr ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/evr ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/business\n\n"
 cp -r shared-resources/wave-logo.png organisation/business/source/images/wave-logo.png
@@ -200,9 +317,18 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/business ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/business ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/finances\n\n"
 cp -r shared-resources/wave-logo.png organisation/finances/source/images/wave-logo.png
@@ -215,9 +341,18 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/finances ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/finances ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/whitepaper\n\n"
 cp -r shared-resources/wave-logo.png organisation/whitepaper/source/images/wave-logo.png
@@ -230,9 +365,18 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/whitepaper ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/whitepaper ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/privacy\n\n"
 cp -r shared-resources/wave-logo.png organisation/privacy/source/images/wave-logo.png
@@ -245,9 +389,18 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/privacy ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/privacy ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/copyright\n\n"
 cp -r shared-resources/wave-logo.png organisation/copyright/source/images/wave-logo.png
@@ -260,9 +413,20 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/copyright ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/copyright ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
+
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/terms\n\n"
 cp -r shared-resources/wave-logo.png organisation/terms/source/images/wave-logo.png
@@ -275,9 +439,20 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/terms ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/terms ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
+
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/website\n\n"
 cp -r shared-resources/wave-logo.png organisation/website/source/images/wave-logo.png
@@ -290,9 +465,19 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/website ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/website ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
+
 
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/webmaster\n\n"
@@ -306,9 +491,18 @@ rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/webmaster ...\n\n"
 make latexpdf
-cd ..
-cd ..
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/webmaster ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+cd ../../../../../../
 
 
 

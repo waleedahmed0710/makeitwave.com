@@ -1,6 +1,6 @@
 .container-mq {
 
-	border: 0.5px solid grey;
+	border: 0px solid grey;
 	background-color:#333333;
 	position: absolute;
 	top:0px;
@@ -29,7 +29,7 @@
 
 .demo-all-divs {
 	
-	border: 0.5px solid grey;
+	border: 0px solid grey;
 	background-repeat: no-repeat;
 	background-size:100%;
     background-position:center top;

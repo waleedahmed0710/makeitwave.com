@@ -1,7 +1,7 @@
 About This Product
 ==================
 
-This section provides information about this specific product. 
+This section provides information about this specific product. Coming soon
 
 Package Content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 

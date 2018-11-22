@@ -41,7 +41,7 @@
 /*--- Last Modified: June 14, 2018 - 20:36 GMT ---*/
 
 /* 01:AA */  .demo-iframe-container {height: 100vh; width: 100vw;   }
-/* 01:AB */  .demo-iframe {height: 100vh; width: 100vw;  filter: invert(100%); -webkit-filter: invert(100%);  }
+/* 01:AB */  .demo-iframe {height: 100vh; width: 100vw;   }
 /* 01:AC */  .demo-emby-div {height: 100vh; min-width: 100vw!important; background-color:rgba(37,37,37,0.6); }
 /* 01:AD */  .demo-solar-div {height: 100vh; min-width: 100vw!important; }
 /* 01:AE */  .demo-motioneye-div {height: 100vh; min-width: 100vw!important;  }

@@ -52,7 +52,7 @@
 
 
 \title{WaveOS™ Operators Guide}
-\date{Nov 20, 2018}
+\date{Nov 21, 2018}
 \release{0.5.0rc1}
 \author{Author(s): Siôn H. Buckler, Wave®}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -128,6 +128,118 @@ To avoid conflicting IP addresses on the network, this process will repeat in th
 Below are references to older version releases and release notes:
 
 
+\begin{savenotes}\sphinxattablestart
+\centering
+\sphinxcapstartof{table}
+\sphinxcaption{Table 1.0 - Archieved versions of WaveOS™}\label{\detokenize{releasenotes:id1}}
+\sphinxaftercaption
+\begin{tabular}[t]{|\X{20}{100}|\X{20}{100}|\X{20}{100}|\X{20}{100}|\X{20}{100}|}
+\hline
+\sphinxstyletheadfamily 
+date
+&\sphinxstyletheadfamily 
+version
+&\sphinxstyletheadfamily 
+size
+&\sphinxstyletheadfamily 
+description
+&\sphinxstyletheadfamily 
+download link
+\\
+\hline
+01-06-2018
+&
+0.4.4
+&
+150Mb
+&
+improved autonomous install
+&
+Download 0.4.0 (updates itself to 0.4.4)
+\\
+\hline
+01-04-2018
+&
+0.4.3
+&
+150Mb
+&
+improved autonomous install
+&
+Download 0.4.0 (updates itself to 0.4.3)
+\\
+\hline
+01-02-2018
+&
+0.4.2
+&
+150Mb
+&
+improved autonomous install
+&
+Download 0.4.0 (updates itself to 0.4.2)
+\\
+\hline
+01-12-2017
+&
+0.4.1
+&
+150Mb
+&
+improved autonomous install
+&
+Download 0.4.0 (updates itself to 0.4.1)
+\\
+\hline
+01-10-2017
+&
+0.4.0
+&
+150Mb
+&
+correctly built image (7zip)
+&
+\sphinxurl{https://mega.nz/\#!4aYSiJiS!S2VeWes\_0SPgtxJD2yVxAYrVlQEsvFT\_D1ft0Tt5As8}
+\\
+\hline
+01-08-2017
+&
+0.3.0
+&
+500Mb
+&
+attempt 1 to build it right
+&
+Not Public
+\\
+\hline
+01-06-2017
+&
+0.2.0
+&
+500Mb
+&
+compressed copy of image
+&
+\sphinxurl{https://mega.nz/\#!YbpRgIKS!GEpuU9cKBb2Ef0SaEXsjgkXiZDcnIwBwt7lH-fQRA-A}
+\\
+\hline
+01-04-2017
+&
+0.1.0
+&
+2Gb
+&
+proof-of-concept (10.0.0.x)
+&
+\sphinxurl{https://mega.nz/\#!8HwW1JKZ!Hs1HQCEKzNIabAGGtAZ5t2O9ppSve9canZFbBAcl8v8}
+\\
+\hline
+\end{tabular}
+\par
+\sphinxattableend\end{savenotes}
+
+
 \subsubsection{Version 0.4.4}
 \label{\detokenize{releasenotes:version-0-4-4}}
 Published in Winter 2018. 500Mb .ISO (150Mb compressed). Lightweight in size \& quick to download. Installs and configures autonomously in around 10 minutes during first boot. Now contains a remote updating feature. Some new {\hyperref[\detokenize{releasenotes:known-and-corrected-issues}]{\emph{issues}}}, still need resolving by next version
@@ -149,6 +261,46 @@ Published in Spring 2018 as proof-of-concept, demonstrating how easily our solut
 These issues will be cleared from this list as and when they are remedied.
 
 \end{description}
+
+
+\begin{savenotes}\sphinxattablestart
+\centering
+\sphinxcapstartof{table}
+\sphinxcaption{Table 1.1 - Known Issues}\label{\detokenize{releasenotes:id2}}
+\sphinxaftercaption
+\begin{tabular}[t]{|\X{10}{100}|\X{10}{100}|\X{20}{100}|\X{60}{100}|}
+\hline
+\sphinxstyletheadfamily 
+date
+&\sphinxstyletheadfamily 
+subject
+&\sphinxstyletheadfamily 
+version
+&\sphinxstyletheadfamily 
+description
+\\
+\hline
+01-08-2018
+&
+static ip
+&
+0.4.4
+&
+Cannot be expected to change my router settings to suite Wave.
+\\
+\hline
+01-08-2018
+&
+cgi
+&
+0.4.4
+&
+Buttons not working on Edition Select stage. Can’t select Edition to complete installation of WaveOS®
+\\
+\hline
+\end{tabular}
+\par
+\sphinxattableend\end{savenotes}
 
 \sphinxstylestrong{Comments} - If connection is lost/ re-established, version 0.5+ will stop services, return to dynamic then change to static (avoiding network conflics). The script required to convert a dynamic address to a static one, after the ethernet is inserted or removed and re-inserted ( \sphinxcode{\sphinxupquote{ifup}} / \sphinxcode{\sphinxupquote{ifdown}} ) must be on the sd card image itself and obviously not a remote location, since there will be no outside connection until said script establishes it
 

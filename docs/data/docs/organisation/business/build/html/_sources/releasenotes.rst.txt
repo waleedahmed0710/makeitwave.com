@@ -14,7 +14,7 @@ This is the first release/ draft of this technical document.
 Older Versions
 ####################
 
-There are no Older Versions of this document, however a table has been made so that enteries can be made. We're also still exploring how exactly we will make links to the Older Versions possible. Perhaps a PDF snapshot will do, before the directory is overwritten with the next version. The sphinx methodology is new to our team, we're still exploring this and other options for maintaining technical documents for this project: 
+There are no older versions of this document, however a table has been made so that enteries can be made. We're also still exploring how exactly we will make links to the older versions possible. Perhaps a PDF snapshot will do, before the directory is overwritten with the next version. The sphinx methodology is new to our team, we're still exploring this and other options for maintaining technical documents for this project: 
 
 .. csv-table:: Table 1.0 - Older Versions of this Document
    :file: _static/olderversions.csv

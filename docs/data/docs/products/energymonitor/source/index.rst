@@ -1,8 +1,8 @@
-Wave® Energy Monitor™ - Freer Energy & Internet
-===================================================
+Wave® Product User Guide
+=====================================================
 
-Product User Guide
---------------------------------
+*Wave® Energy Monitor™*
+
 
 
 .. image:: images/energymonitor.png
@@ -22,9 +22,9 @@ Product User Guide
   
 
 **Document Author(s):** 
-----------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Siôn H. Buckler** - Science & Computer Science (Bachelors), Electronic Engineering, Industrial Electronics and Electronics & Computing (Advanced Diplomas), Cisco Certified (CCNA), Microsoft Security Expert(MCSE), Prince2, Institute of Electronic Engineering (IEEE), Siemens Certified Engineer, Certified Telecommunications Service Provider (NVQ3), Satellites & Full Spectrum Radio, Fixed Telecommunications Systems with Enhanced Capabilities (Nortel Passport, RAD-IP Mux, Probot Fiber Optics, APC Power Supplies), SKP01 Electrical Safety, NVQ2 IT, Defence Specialist LAN, TCP/IP, Subnetting, DHCP, Addressing, Routing & Browsing, Communications Equitment Room Design & Maintenance, Health & Safety, Fire Safety Officer, Cyber Warfare (Pen Testing/ JOCS), Electronic Warfare, SIP/ VOIP, Google Advertising ProfesSiônal, SEO, PPC, HTML5, CSS3, Java, Perl, Ajax, JQuery, MySQL, Unix, Python, Linux. 
+**Siôn H. Buckler** - Science & Computer Science (Bachelors), Electronic Engineering, Industrial Electronics and Electronics & Computing (Advanced Diplomas), Cisco Certified Network Associate (CCNA), Microsoft Certified Solutions Expert (MCSE), Certified Project Management (Prince2 Practitioner), Institute of Electronic Engineering (IEEE), Siemens Certified Engineer, Certified Telecommunications Service Provider (NVQ3), Satellites & Full Spectrum Radio, Fixed Telecommunications Systems with Enhanced Capabilities (Nortel Passport, RAD-IP Mux, Probot Fiber Optics, APC Power Supplies), SKP01 Electrical Safety, NVQ2 IT, Defence Specialist LAN, TCP/IP, Subnetting, DHCP, Addressing, Routing & Browsing, Communications Equitment Room Design & Maintenance, Health & Safety/ Fire Safety Officer, Military Command & Leader (Level 2 CMI),  Cyber Security (Pen Testing/ JOCS), Electronic Warfare, SIP/ VOIP, Google Advertising ProfesSiônal, SEO, PPC, HTML5, CSS3, Java, Perl, Ajax, JQuery, MySQL, Unix, Python, Linux. 
 
 
 

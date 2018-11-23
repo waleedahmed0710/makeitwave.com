@@ -48,4 +48,4 @@
 \contentsline {subsection}{\numberline {2.10.1}USSD Tracker Solution}{12}{subsection.2.10.1}
 \contentsline {subsubsection}{Equity in Wave}{12}{subsubsection*.5}
 \contentsline {subsubsection}{WaveOS Licence Agreement}{13}{subsubsection*.6}
-\contentsline {chapter}{\numberline {3}\sphinxstylestrong {Document Author(s):}}{15}{chapter.3}
+\contentsline {section}{\numberline {2.11}\sphinxstylestrong {Document Author(s):}}{13}{section.2.11}

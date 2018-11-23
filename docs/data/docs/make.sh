@@ -2,6 +2,7 @@
 #
 unset CDPATH
 
+
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/homehub\n\n"
 cp -r products/shared-rst/* products/homehub/source
 cp -r shared-resources/wave-logo.png products/homehub/source/images/wave-logo.png
@@ -20,11 +21,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/homehub ...Done!\n\n
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 
@@ -46,11 +50,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/energymonitor ...Don
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 
@@ -72,11 +79,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/vehicletracker ...Do
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/multiroom\n\n"
@@ -97,11 +107,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/multiroom ...Done!\n
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 
@@ -123,11 +136,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/signalbooster ...Don
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 
@@ -149,11 +165,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/storagedevice ...Don
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/warranty\n\n"
@@ -173,12 +192,16 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/warranty ...Done!\n\
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for software/dev_guide\n\n"
 cp -r shared-resources/wave-logo.png  software/dev_guide/source/images/wave-logo.png
@@ -197,11 +220,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for software/dev_guide ...Done!\n
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 
@@ -222,11 +248,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for software/distributors ...Done
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 
@@ -247,11 +276,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for software/wave_os ...Done!\n\n
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 
@@ -273,11 +305,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/google-patent-pu
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 
@@ -299,11 +334,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/evr ...Done!\n\n
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/business\n\n"
@@ -323,11 +361,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/business ...Done
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/finances\n\n"
@@ -347,12 +388,17 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/finances ...Done
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
+
+
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/whitepaper\n\n"
 cp -r shared-resources/wave-logo.png organisation/whitepaper/source/images/wave-logo.png
@@ -371,11 +417,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/whitepaper ...Do
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/privacy\n\n"
@@ -395,11 +444,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/privacy ...Done!
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/copyright\n\n"
@@ -419,11 +471,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/copyright ...Don
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 
@@ -445,11 +500,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/terms ...Done!\n
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 
@@ -471,11 +529,14 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/website ...Done!
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 
@@ -497,11 +558,43 @@ printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/webmaster ...Don
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...Done!\n\n"
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
 printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
 cd _static/css
 sed -i 's/#2980B9/#333366/g' theme.css
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...Done!\n\n"
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
+cd ../../../../../../
+
+
+
+printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/memorandum-articles\n\n"
+cp -r shared-resources/wave-logo.png organisation/memorandum-articles/source/images/wave-logo.png
+cp -r shared-resources/ccu.png organisation/memorandum-articles/source/images/ccu.png
+cp -r shared-resources/scottishbay.png organisation/memorandum-articles/source/images/scottishbay.png
+cd organisation/memorandum-articles
+make clean
+cd source/images
+rm -r homehub\ -\ Copy.png
+cd ..
+cd ..
+make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/memorandum-articles ...\n\n"
+make latexpdf
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/memorandum-articles ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+
 cd ../../../../../../
 
 

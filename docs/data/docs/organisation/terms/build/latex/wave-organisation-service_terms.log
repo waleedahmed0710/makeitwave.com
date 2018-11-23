@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  21 NOV 2018 21:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  22 NOV 2018 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1247,13 +1247,13 @@ Here is how much of TeX's memory you used:
  16593 multiletter control sequences out of 15000+600000
  44765 words of font info for 65 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 37i,12n,49p,974b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,49p,1092b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-organisation-service_terms.pdf (11 pages, 96535 bytes).
+Output written on wave-organisation-service_terms.pdf (11 pages, 96637 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams

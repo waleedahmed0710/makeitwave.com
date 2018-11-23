@@ -129,7 +129,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'wave-organisation-google_patent_agreement.tex', u'Wave® and Google Inc. Patents',
-     u'Author(s): Kirk W. Dailey, Google Inc. and Siôn H. Buckler, Wave®', 'manual'),
+     u'Author(s): Kirk W. Dailey, Head of Patent Transactions, Google Inc.', 'manual'),
 ]
 
 

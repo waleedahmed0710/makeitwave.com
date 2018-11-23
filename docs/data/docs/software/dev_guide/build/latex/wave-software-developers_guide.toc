@@ -107,4 +107,4 @@
 \contentsline {section}{\numberline {1.22}APPENDIX A \textendash {} Description of Software}{21}{section.1.22}
 \contentsline {subsection}{\numberline {1.22.1}Introduction (In Laymens Terms)}{21}{subsection.1.22.1}
 \contentsline {subsection}{\numberline {1.22.2}Technical Description (Summary)}{22}{subsection.1.22.2}
-\contentsline {chapter}{\numberline {2}\sphinxstylestrong {Document Author(s):}}{23}{chapter.2}
+\contentsline {section}{\numberline {1.23}\sphinxstylestrong {Document Author(s):}}{22}{section.1.23}

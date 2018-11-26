@@ -136,7 +136,7 @@
 
 /* 01:>  */  
 /* 01:AA */	a:active, :focus {outline-style:none;}
-/* 01:AB */	a:hover{color:white!important;}
+/* 01:AB */	a:hover{color:grey!important;}
 /* 01:AC */	a:-webkit-any-link {cursor:pointer!important;}
 /* 01:AD */	body#checkout-page #site-info {position:static;}
 /* 01:AE */	.btn, a.btn {    display: inline-flex!important;

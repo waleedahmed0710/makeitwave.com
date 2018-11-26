@@ -1,9 +1,9 @@
 # Fdb version 3
-["makeindex wave-organisation-whitepaper.idx"] 1542913918 "wave-organisation-whitepaper.idx" "wave-organisation-whitepaper.ind" "wave-organisation-whitepaper" 1542913922
-  "wave-organisation-whitepaper.idx" 1542913921 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex wave-organisation-whitepaper.idx"] 1543203457 "wave-organisation-whitepaper.idx" "wave-organisation-whitepaper.ind" "wave-organisation-whitepaper" 1543203461
+  "wave-organisation-whitepaper.idx" 1543203460 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "wave-organisation-whitepaper.ind"
-["pdflatex"] 1542913920 "wave-organisation-whitepaper.tex" "wave-organisation-whitepaper.pdf" "wave-organisation-whitepaper" 1542913922
+["pdflatex"] 1543203458 "wave-organisation-whitepaper.tex" "wave-organisation-whitepaper.pdf" "wave-organisation-whitepaper" 1543203461
   "/etc/texmf/web2c/texmf.cnf" 1542675378 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -141,23 +141,23 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1488610416 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1542675794 127853 b41f58aff49fe1af38af8d065f49d51c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1542675777 719477 f2d8b6486516c91eaebe063dd9f3e035 ""
-  "ccu.png" 1542913906 39929 6ecf4b7467557b7f1f66e103dfe09415 ""
+  "ccu.png" 1543203438 39929 6ecf4b7467557b7f1f66e103dfe09415 ""
   "footnotehyper-sphinx.sty" 1540361364 8888 1bbd7bdeae8c8bed1d10d551bddb1cc9 ""
-  "scottishbay.png" 1542913906 58734 325d2a2013e791f88ccfcf6ffdb5a953 ""
+  "scottishbay.png" 1543203438 58734 325d2a2013e791f88ccfcf6ffdb5a953 ""
   "sphinx.sty" 1540361364 69913 6a504e8686d0f955660c2147d7b57d6f ""
-  "sphinxhighlight.sty" 1542913916 8137 b8d4ef963833564f6e4eadc09cd757c4 ""
+  "sphinxhighlight.sty" 1543203452 8137 b8d4ef963833564f6e4eadc09cd757c4 ""
   "sphinxmanual.cls" 1540361364 3529 fa4d4e9f811425ef5966e441eeee9f7f ""
   "sphinxmulticell.sty" 1540361364 14618 0defbdc8536ad2e67f1eac6a1431bc55 ""
-  "wave-logo.png" 1542913906 42732 e3b368f2bec4cf8ee2532f089e693e0a ""
-  "wave-organisation-whitepaper.aux" 1542913922 10003 5990e8c20eaf6bf10653a376ebe9b723 ""
-  "wave-organisation-whitepaper.ind" 1542913919 0 d41d8cd98f00b204e9800998ecf8427e "makeindex wave-organisation-whitepaper.idx"
-  "wave-organisation-whitepaper.out" 1542913922 480 61b4ab0076825a08652c8e6473fcc500 ""
-  "wave-organisation-whitepaper.tex" 1542913917 17294 3d60ac530606e840490a72d146e5f766 ""
-  "wave-organisation-whitepaper.toc" 1542913922 3099 8594e7f8a233a1a058436f87afd68b84 ""
+  "wave-logo.png" 1543203438 42732 e3b368f2bec4cf8ee2532f089e693e0a ""
+  "wave-organisation-whitepaper.aux" 1543203460 10175 b835bdaa144c89fd4bbd08dc2b719a84 ""
+  "wave-organisation-whitepaper.ind" 1543203457 0 d41d8cd98f00b204e9800998ecf8427e "makeindex wave-organisation-whitepaper.idx"
+  "wave-organisation-whitepaper.out" 1543203460 480 61b4ab0076825a08652c8e6473fcc500 ""
+  "wave-organisation-whitepaper.tex" 1543203453 18476 a4e4766cd3eef2ad4f84bc250f86ae16 ""
+  "wave-organisation-whitepaper.toc" 1543203460 3159 059c023b6ce5c4072438393d0f3f71c3 ""
   (generated)
-  "wave-organisation-whitepaper.log"
   "wave-organisation-whitepaper.out"
   "wave-organisation-whitepaper.idx"
   "wave-organisation-whitepaper.pdf"
-  "wave-organisation-whitepaper.aux"
   "wave-organisation-whitepaper.toc"
+  "wave-organisation-whitepaper.aux"
+  "wave-organisation-whitepaper.log"

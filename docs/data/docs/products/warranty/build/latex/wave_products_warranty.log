@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  22 NOV 2018 15:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  25 NOV 2018 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**wave-products-warranty.tex
-(./wave-products-warranty.tex
+**wave_products_warranty.tex
+(./wave_products_warranty.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (./sphinxmanual.cls
@@ -977,12 +977,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 )
 \@indexfile=\write4
-\openout4 = `wave-products-warranty.idx'.
+\openout4 = `wave_products_warranty.idx'.
 
 
-Writing index file wave-products-warranty.idx
-(./wave-products-warranty.aux)
-\openout1 = `wave-products-warranty.aux'.
+Writing index file wave_products_warranty.idx
+(./wave_products_warranty.aux)
+\openout1 = `wave_products_warranty.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
@@ -1090,9 +1090,9 @@ LaTeX Info: Redefining \ref on input line 63.
 LaTeX Info: Redefining \pageref on input line 63.
 LaTeX Info: Redefining \nameref on input line 63.
 
-(./wave-products-warranty.out) (./wave-products-warranty.out)
+(./wave_products_warranty.out) (./wave_products_warranty.out)
 \@outlinefile=\write5
-\openout5 = `wave-products-warranty.out'.
+\openout5 = `wave_products_warranty.out'.
 
 Package hyperref Info: Option `pageanchor' set `false' on input line 72.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 72.
@@ -1140,12 +1140,12 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-] (./wave-products-warranty.toc
+] (./wave_products_warranty.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 )
 \tf@toc=\write6
-\openout6 = `wave-products-warranty.toc'.
+\openout6 = `wave_products_warranty.toc'.
 
  [1
 
@@ -1215,17 +1215,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 401--401
 []\T1/ptm/m/n/10 Prime
  []
 
-[9] (./wave-products-warranty.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 409.
- [10 <./wave-logo.png> <./ccu.png> <./scottishbay.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 409.
- (./wave-products-warranty.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 409.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 409.
-Package rerunfilecheck Info: File `wave-products-warranty.out' has not changed.
+[9 <./wave-logo.png> <./ccu.png> <./scottishbay.png>]
+(./wave_products_warranty.ind)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 411.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 411.
+ (./wave_products_warranty.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 411.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 411.
+Package rerunfilecheck Info: File `wave_products_warranty.out' has not changed.
 
 (rerunfilecheck)             Checksum: C645B175BD72E016605BA46FA56B15DF;1049.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 409.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 411.
  ) 
 Here is how much of TeX's memory you used:
  13650 strings out of 494945
@@ -1240,7 +1241,7 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-products-warranty.pdf (14 pages, 117618 bytes).
+Output written on wave_products_warranty.pdf (14 pages, 117630 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  137 compressed objects within 2 object streams

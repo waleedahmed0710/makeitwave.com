@@ -13,7 +13,7 @@ Title
 
 Seller or its Affilate owns good and marketable title to the Patents. To Seller's knowledge, the Assigned Patent Rights are free and clear or all liens, claims, morgages, security interests or other encumbrances, and restrictions, except for the existing licences and covenants not to sue that are expressly binding on successors to the applicable Patents described in Section 3.3. To Seller's knowledge, there are no actions, suits, investigations, claims, or proceedings threatened, pending, or, to Seller's knowledge, in progress relating in any way to the Assigned Patent Rights, except as disclosed on Exhibit A. To Seller's knowledge, there are no existing binding contracts, agreements, options, commitments, proposals, bids, offers, or rights with, to, or in any person to aquire any of the Assigned Patent Rights. 
 
-Existing Licenses
+Existing Licenses Clause
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After the Effective Date, none of Seller or its Affiliates, any prior owner, or any inventor will retain any rights or interest in the Assigned Patent Rights, except as described in Section 3.3 or Section 3.4. None of the licenses or rights in the Patents granted by Seller or its Affiliate is an exclusive grant or right and each such license is nontransferable (except soley in the context of acquisition of the respective licensee and in that case, the scope of each such license or rights in the Patents is limited to the activities of the licensee prior to the acquisition) and non-sublicensable (except to affiliates of the licensee). 

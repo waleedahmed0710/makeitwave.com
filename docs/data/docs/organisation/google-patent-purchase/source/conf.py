@@ -11,8 +11,6 @@ author = u'Kirk W. Dailey, Head of Patent Transactions, Google Inc.'
 version = u'0.0.2'
 release = u'0.0.2rc1'
 
-
-
 extensions = ['sphinx.ext.autosectionlabel', 'releases']
 
 templates_path = ['_templates']
@@ -23,28 +21,10 @@ master_doc = 'index'
 
 language = None
 
-releases_debug = True
 
-
-
-year = datetime.now().year
-
-
-# Ensure project directory is on PYTHONPATH for version, autodoc access
-sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), '..')))
-
-
-
-exclude_patterns = ['_build']
-
-
-pygments_style = None
 
 
 html_theme = 'sphinx_rtd_theme'
-
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
 
 html_static_path = ['_static']
 
@@ -52,13 +32,12 @@ html_static_path = ['_static']
 htmlhelp_basename = 'wave-organisation-google_patent_agreement'
 
 # Dogfood
-extensions.append('wave-organisation-google_patent_agreement')
 
 releases_github_path = 'unclehowell/makeitwave.com-master/docs/data/docs/organisation/memorandum-articles'
 
 latex_elements = {
 
-the paper size = 'a4paper'
+
     #
     # 'papersize': 'letterpaper',
 

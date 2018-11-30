@@ -3,9 +3,12 @@ Changelog
 =========
 
 
-- 
-- 
-- 
-- 
+* :release:`1.1.0 <date>`
+* :release:`1.0.1 <date>`
+* :support:`4` Updated our test runner
+* :bug:`3` Another bugfix
+* :feature:`2` Implemented new feature
+* :bug:`1` Fixed a bug
+* :release:`1.0.0 <date>`
 
 

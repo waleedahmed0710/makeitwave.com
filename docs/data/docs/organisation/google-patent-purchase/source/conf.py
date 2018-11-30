@@ -25,7 +25,7 @@ language = None
 
 releases_debug = True
 
-releases_unstable_prehistory = True
+
 
 year = datetime.now().year
 
@@ -54,7 +54,7 @@ htmlhelp_basename = 'wave-organisation-google_patent_agreement'
 # Dogfood
 extensions.append('wave-organisation-google_patent_agreement')
 
-releases_github_path = 'unclehowell/makeitwave.com'
+releases_github_path = 'unclehowell/makeitwave.com-master/docs/data/docs/organisation/memorandum-articles'
 
 latex_elements = {
 

@@ -20,6 +20,7 @@ Dated: 14/05/2018
 .. toctree::
    :maxdepth: 2
 
+   changelog
    releasenotes
    introduction
    directors

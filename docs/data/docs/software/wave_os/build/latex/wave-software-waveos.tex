@@ -8,14 +8,21 @@
 \PassOptionsToPackage{warn}{textcomp}
 \usepackage[utf8]{inputenc}
 \ifdefined\DeclareUnicodeCharacter
-% support both utf8 and utf8x syntaxes
-\edef\sphinxdqmaybe{\ifdefined\DeclareUnicodeCharacterAsOptional\string"\fi}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe00A0}{\nobreakspace}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2500}{\sphinxunichar{2500}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2502}{\sphinxunichar{2502}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2514}{\sphinxunichar{2514}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe251C}{\sphinxunichar{251C}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2572}{\textbackslash}
+ \ifdefined\DeclareUnicodeCharacterAsOptional
+  \DeclareUnicodeCharacter{"00A0}{\nobreakspace}
+  \DeclareUnicodeCharacter{"2500}{\sphinxunichar{2500}}
+  \DeclareUnicodeCharacter{"2502}{\sphinxunichar{2502}}
+  \DeclareUnicodeCharacter{"2514}{\sphinxunichar{2514}}
+  \DeclareUnicodeCharacter{"251C}{\sphinxunichar{251C}}
+  \DeclareUnicodeCharacter{"2572}{\textbackslash}
+ \else
+  \DeclareUnicodeCharacter{00A0}{\nobreakspace}
+  \DeclareUnicodeCharacter{2500}{\sphinxunichar{2500}}
+  \DeclareUnicodeCharacter{2502}{\sphinxunichar{2502}}
+  \DeclareUnicodeCharacter{2514}{\sphinxunichar{2514}}
+  \DeclareUnicodeCharacter{251C}{\sphinxunichar{251C}}
+  \DeclareUnicodeCharacter{2572}{\textbackslash}
+ \fi
 \fi
 \usepackage{cmap}
 \usepackage[T1]{fontenc}
@@ -25,7 +32,6 @@
 \usepackage[Bjarne]{fncychap}
 \usepackage{sphinx}
 
-\fvset{fontsize=\small}
 \usepackage{geometry}
 
 % Include hyperref last.
@@ -41,9 +47,6 @@
 
 \addto\captionsenglish{\renewcommand{\literalblockcontinuedname}{continued from previous page}}
 \addto\captionsenglish{\renewcommand{\literalblockcontinuesname}{continues on next page}}
-\addto\captionsenglish{\renewcommand{\sphinxnonalphabeticalgroupname}{Non-alphabetical}}
-\addto\captionsenglish{\renewcommand{\sphinxsymbolsname}{Symbols}}
-\addto\captionsenglish{\renewcommand{\sphinxnumbersname}{Numbers}}
 
 \addto\extrasenglish{\def\pageautorefname{page}}
 
@@ -52,19 +55,17 @@
 
 
 \title{WaveOS™ Operators Guide}
-\date{Nov 26, 2018}
+\date{Nov 30, 2018}
 \release{0.5.0rc1}
 \author{Author(s): Siôn H. Buckler, Wave®}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{Release}
 \makeindex
+
 \begin{document}
 
-\pagestyle{empty}
 \maketitle
-\pagestyle{plain}
 \sphinxtableofcontents
-\pagestyle{normal}
 \phantomsection\label{\detokenize{index::doc}}
 
 
@@ -74,6 +75,17 @@
 Welcome to the WaveOS™ Operators Guide. Contained in this document is clear and helpful information to assist you in your understanding, use and enjoyment of WaveOS™.
 
 Index:
+
+
+\section{Changelog}
+\label{\detokenize{changelog:changelog}}\label{\detokenize{changelog::doc}}\begin{itemize}
+\item {} 
+{\color{red}\bfseries{}:release:{}`1.0.1 \textless{}2018-11-30\textgreater{}{}`}
+
+\item {} 
+{\color{red}\bfseries{}:feature:{}`01{}`} Just Published using Sphinx.
+
+\end{itemize}
 
 
 \section{Release Notes and Notices}
@@ -890,8 +902,9 @@ point
 
 \section{\sphinxstylestrong{Document Author(s):}}
 \label{\detokenize{index:document-author-s}}
-\sphinxstylestrong{Siôn H. Buckler}
 
+\subsection{Siôn H. Buckler}
+\label{\detokenize{index:sion-h-buckler}}
 
 \begin{savenotes}\sphinxattablestart
 \centering

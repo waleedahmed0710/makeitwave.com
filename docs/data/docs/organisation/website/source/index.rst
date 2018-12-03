@@ -1,8 +1,3 @@
-.. makeitwave.com documentation master file, created by
-   sphinx-quickstart on Mon Nov  5 23:57:59 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 makeitwave.com - Website Technical Document
 ================================================
 
@@ -10,6 +5,7 @@ makeitwave.com - Website Technical Document
 .. toctree::
    :maxdepth: 2
    
+   changelog
    releasenotes
     
 
@@ -19,8 +15,9 @@ makeitwave.com - Website Technical Document
 **Document Author(s):** 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Siôn H. Buckler**
-
+=====================
+Siôn H. Buckler
+=====================
 
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+ 
 |               Organisation          |              Role                   |                 Details                                                               |

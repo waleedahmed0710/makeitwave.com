@@ -53,3 +53,4 @@
 \contentsline {subsection}{\numberline {6.5.1}Obtaining Services}{22}{subsection.6.5.1}
 \contentsline {subsection}{\numberline {6.5.2}Limited Warranty}{23}{subsection.6.5.2}
 \contentsline {chapter}{\numberline {7}\sphinxstylestrong {Document Author(s):}}{25}{chapter.7}
+\contentsline {section}{\numberline {7.1}Si\IeC {\^o}n H. Buckler}{25}{section.7.1}

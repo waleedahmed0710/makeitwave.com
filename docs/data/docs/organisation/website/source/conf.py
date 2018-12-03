@@ -1,32 +1,26 @@
-# -*- coding: utf-8 -*-
-#
-# Configuration file for the Sphinx documentation builder.
-#
-# This file does only contain a selection of the most common options. For a
-# full list see the documentation:
-# http://www.sphinx-doc.org/en/master/config
+from datetime import datetime
+import os
+import sys
 
-# -- Path setup --------------------------------------------------------------
+import sphinx_rtd_theme
 
-# If extensions (or modules to document with autodoc) are in another directory,
-# add these directories to sys.path here. If the directory is relative to the
-# documentation root, use os.path.abspath to make it absolute, like shown here.
-#
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+# Ensure project directory is on PYTHONPATH for version, autodoc access
+sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), '..')))
 
+exclude_patterns = ['_build']
 
-# -- Project information -----------------------------------------------------
+# Dogfood
+releases_github_path = 'unclehowell/makeitwave.com/tree/master/docs'
+
 
 project = u'Website Technical Document'
 copyright = u'2018, Make it Wave Ltd'
 author = u'Siôn H. Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
-version = u'0.1'
+version = u'1.0.0'
 # The full version, including alpha/beta/rc tags
-release = u'0.0.1'
+release = u'1.0.0rc1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -38,7 +32,7 @@ release = u'0.0.1'
 # Add any Sphinx extenSiôn module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autosectionlabel']
+extensions = ['sphinx.ext.autosectionlabel', 'releases']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -74,6 +68,7 @@ pygments_style = None
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the

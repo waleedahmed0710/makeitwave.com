@@ -28,3 +28,4 @@
 \contentsline {section}{\numberline {1.4}Warranty Service Information}{7}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}What this Warranty Covers}{7}{subsection.1.4.1}
 \contentsline {chapter}{\numberline {2}\sphinxstylestrong {Document Author(s):}}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Si\IeC {\^o}n H. Buckler}{9}{section.2.1}

@@ -14,3 +14,4 @@
 \contentsline {subsection}{\numberline {1.3.2}2.2 Loan Register}{4}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}2.3 Become a Lender}{4}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}\sphinxstylestrong {Document Author(s):}}{4}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Si\IeC {\^o}n H. Buckler}{4}{subsection.1.4.1}

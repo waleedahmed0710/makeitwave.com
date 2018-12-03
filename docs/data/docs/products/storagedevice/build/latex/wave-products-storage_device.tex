@@ -8,14 +8,21 @@
 \PassOptionsToPackage{warn}{textcomp}
 \usepackage[utf8]{inputenc}
 \ifdefined\DeclareUnicodeCharacter
-% support both utf8 and utf8x syntaxes
-\edef\sphinxdqmaybe{\ifdefined\DeclareUnicodeCharacterAsOptional\string"\fi}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe00A0}{\nobreakspace}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2500}{\sphinxunichar{2500}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2502}{\sphinxunichar{2502}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2514}{\sphinxunichar{2514}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe251C}{\sphinxunichar{251C}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2572}{\textbackslash}
+ \ifdefined\DeclareUnicodeCharacterAsOptional
+  \DeclareUnicodeCharacter{"00A0}{\nobreakspace}
+  \DeclareUnicodeCharacter{"2500}{\sphinxunichar{2500}}
+  \DeclareUnicodeCharacter{"2502}{\sphinxunichar{2502}}
+  \DeclareUnicodeCharacter{"2514}{\sphinxunichar{2514}}
+  \DeclareUnicodeCharacter{"251C}{\sphinxunichar{251C}}
+  \DeclareUnicodeCharacter{"2572}{\textbackslash}
+ \else
+  \DeclareUnicodeCharacter{00A0}{\nobreakspace}
+  \DeclareUnicodeCharacter{2500}{\sphinxunichar{2500}}
+  \DeclareUnicodeCharacter{2502}{\sphinxunichar{2502}}
+  \DeclareUnicodeCharacter{2514}{\sphinxunichar{2514}}
+  \DeclareUnicodeCharacter{251C}{\sphinxunichar{251C}}
+  \DeclareUnicodeCharacter{2572}{\textbackslash}
+ \fi
 \fi
 \usepackage{cmap}
 \usepackage[T1]{fontenc}
@@ -25,7 +32,6 @@
 \usepackage[Bjarne]{fncychap}
 \usepackage{sphinx}
 
-\fvset{fontsize=\small}
 \usepackage{geometry}
 
 % Include hyperref last.
@@ -41,9 +47,6 @@
 
 \addto\captionsenglish{\renewcommand{\literalblockcontinuedname}{continued from previous page}}
 \addto\captionsenglish{\renewcommand{\literalblockcontinuesname}{continues on next page}}
-\addto\captionsenglish{\renewcommand{\sphinxnonalphabeticalgroupname}{Non-alphabetical}}
-\addto\captionsenglish{\renewcommand{\sphinxsymbolsname}{Symbols}}
-\addto\captionsenglish{\renewcommand{\sphinxnumbersname}{Numbers}}
 
 \addto\extrasenglish{\def\pageautorefname{page}}
 
@@ -52,19 +55,17 @@
 
 
 \title{Wave® Storage Device™}
-\date{Nov 26, 2018}
+\date{Nov 30, 2018}
 \release{0.0.1}
 \author{Author(s): Siôn H. Buckler, Wave®}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{Release}
 \makeindex
+
 \begin{document}
 
-\pagestyle{empty}
 \maketitle
-\pagestyle{plain}
 \sphinxtableofcontents
-\pagestyle{normal}
 \phantomsection\label{\detokenize{index::doc}}
 
 
@@ -691,9 +692,6 @@ Marking by the CE symbol indicates compliance of this system to the applicable C
 \label{\detokenize{warranty:gnu-general-public-licence-gpl}}
 Firmware incorporated into this product may include third party copyrighted software licensed under the GPL or Lesser General Public License (“LGPL”) (collectively, “GPL Software”) and not Wave’s End User License Agreement. In accordance with the GPL, if applicable:
 \begin{enumerate}
-\def\theenumi{\arabic{enumi}}
-\def\labelenumi{\theenumi )}
-\makeatletter\def\p@enumii{\p@enumi \theenumi )}\makeatother
 \item {} 
 the source code for the GPL Software may be downloaded at no charge from \sphinxurl{https://makeitwave.com/download.html} or by contacting Customer Support within three years of the date of purchase;
 
@@ -736,9 +734,6 @@ including portions thereof.
 \item[{1.5. “Incompatible With Secondary Licenses”}] \leavevmode
 means
 \begin{enumerate}
-\def\theenumi{\alph{enumi}}
-\def\labelenumi{(\theenumi )}
-\makeatletter\def\p@enumii{\p@enumi (\theenumi )}\makeatother
 \item {} 
 that the initial Contributor has attached the notice described
 in Exhibit B to the Covered Software; or
@@ -768,9 +763,6 @@ all of the rights conveyed by this License.
 \item[{1.10. “Modifications”}] \leavevmode
 means any of the following:
 \begin{enumerate}
-\def\theenumi{\alph{enumi}}
-\def\labelenumi{(\theenumi )}
-\makeatletter\def\p@enumii{\p@enumi (\theenumi )}\makeatother
 \item {} 
 any file in Source Code Form that results from an addition to,
 deletion from, or modification of the contents of Covered
@@ -819,9 +811,6 @@ ownership of such entity.
 Each Contributor hereby grants You a world-wide, royalty-free,
 non-exclusive license:
 \begin{enumerate}
-\def\theenumi{\alph{enumi}}
-\def\labelenumi{(\theenumi )}
-\makeatletter\def\p@enumii{\p@enumi (\theenumi )}\makeatother
 \item {} 
 under intellectual property rights (other than patent or trademark)
 Licensable by such Contributor to use, reproduce, make available,
@@ -850,9 +839,6 @@ distribution or licensing of Covered Software under this License.
 Notwithstanding Section 2.1(b) above, no patent license is granted by a
 Contributor:
 \begin{enumerate}
-\def\theenumi{\alph{enumi}}
-\def\labelenumi{(\theenumi )}
-\makeatletter\def\p@enumii{\p@enumi (\theenumi )}\makeatother
 \item {} 
 for any code that a Contributor has removed from Covered Software;
 or
@@ -914,9 +900,6 @@ Form.
 
 If You distribute Covered Software in Executable Form then:
 \begin{enumerate}
-\def\theenumi{\alph{enumi}}
-\def\labelenumi{(\theenumi )}
-\makeatletter\def\p@enumii{\p@enumi (\theenumi )}\makeatother
 \item {} 
 such Covered Software must also be made available in Source Code
 Form, as described in Section 3.1, and You must inform recipients of
@@ -1102,8 +1085,9 @@ The foregoing limited warranty is Wave’s sole warranty and is applicable only 
 
 \chapter{\sphinxstylestrong{Document Author(s):}}
 \label{\detokenize{index:document-author-s}}
-\sphinxstylestrong{Siôn H. Buckler}
 
+\section{Siôn H. Buckler}
+\label{\detokenize{index:sion-h-buckler}}
 
 \begin{savenotes}\sphinxattablestart
 \centering

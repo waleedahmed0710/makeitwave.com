@@ -8,14 +8,21 @@
 \PassOptionsToPackage{warn}{textcomp}
 \usepackage[utf8]{inputenc}
 \ifdefined\DeclareUnicodeCharacter
-% support both utf8 and utf8x syntaxes
-\edef\sphinxdqmaybe{\ifdefined\DeclareUnicodeCharacterAsOptional\string"\fi}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe00A0}{\nobreakspace}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2500}{\sphinxunichar{2500}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2502}{\sphinxunichar{2502}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2514}{\sphinxunichar{2514}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe251C}{\sphinxunichar{251C}}
-  \DeclareUnicodeCharacter{\sphinxdqmaybe2572}{\textbackslash}
+ \ifdefined\DeclareUnicodeCharacterAsOptional
+  \DeclareUnicodeCharacter{"00A0}{\nobreakspace}
+  \DeclareUnicodeCharacter{"2500}{\sphinxunichar{2500}}
+  \DeclareUnicodeCharacter{"2502}{\sphinxunichar{2502}}
+  \DeclareUnicodeCharacter{"2514}{\sphinxunichar{2514}}
+  \DeclareUnicodeCharacter{"251C}{\sphinxunichar{251C}}
+  \DeclareUnicodeCharacter{"2572}{\textbackslash}
+ \else
+  \DeclareUnicodeCharacter{00A0}{\nobreakspace}
+  \DeclareUnicodeCharacter{2500}{\sphinxunichar{2500}}
+  \DeclareUnicodeCharacter{2502}{\sphinxunichar{2502}}
+  \DeclareUnicodeCharacter{2514}{\sphinxunichar{2514}}
+  \DeclareUnicodeCharacter{251C}{\sphinxunichar{251C}}
+  \DeclareUnicodeCharacter{2572}{\textbackslash}
+ \fi
 \fi
 \usepackage{cmap}
 \usepackage[T1]{fontenc}
@@ -25,7 +32,6 @@
 \usepackage[Bjarne]{fncychap}
 \usepackage{sphinx}
 
-\fvset{fontsize=\small}
 \usepackage{geometry}
 
 % Include hyperref last.
@@ -41,9 +47,6 @@
 
 \addto\captionsenglish{\renewcommand{\literalblockcontinuedname}{continued from previous page}}
 \addto\captionsenglish{\renewcommand{\literalblockcontinuesname}{continues on next page}}
-\addto\captionsenglish{\renewcommand{\sphinxnonalphabeticalgroupname}{Non-alphabetical}}
-\addto\captionsenglish{\renewcommand{\sphinxsymbolsname}{Symbols}}
-\addto\captionsenglish{\renewcommand{\sphinxnumbersname}{Numbers}}
 
 \addto\extrasenglish{\def\pageautorefname{page}}
 
@@ -52,19 +55,17 @@
 
 
 \title{Wave® Financials}
-\date{Nov 26, 2018}
+\date{Nov 30, 2018}
 \release{0.0.1}
 \author{Author(s): Siôn H. Buckler, Wave®}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{Release}
 \makeindex
+
 \begin{document}
 
-\pagestyle{empty}
 \maketitle
-\pagestyle{plain}
 \sphinxtableofcontents
-\pagestyle{normal}
 \phantomsection\label{\detokenize{index::doc}}
 
 
@@ -872,8 +873,9 @@ Current
 
 \section{\sphinxstylestrong{Document Author(s):}}
 \label{\detokenize{index:document-author-s}}
-\sphinxstylestrong{Siôn H. Buckler}
 
+\subsection{Siôn H. Buckler}
+\label{\detokenize{index:sion-h-buckler}}
 
 \begin{savenotes}\sphinxattablestart
 \centering

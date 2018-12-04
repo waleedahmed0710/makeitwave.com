@@ -13,3 +13,4 @@
 \contentsline {chapter}{\numberline {3}Website Terms}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}Coming Soon}{5}{section.3.1}
 \contentsline {chapter}{\numberline {4}\sphinxstylestrong {Document Author(s):}}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Si\IeC {\^o}n H. Buckler}{7}{section.4.1}

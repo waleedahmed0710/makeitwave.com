@@ -1,0 +1,479 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Changelog &mdash; Wave® Memorandum and Articles 0.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Release Notes and Notices" href="releasenotes.html" />
+    <link rel="prev" title="Wave® Memorandum and Articles of Association" href="index.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Wave® Memorandum and Articles
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version"> Document Version : 
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes and Notices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="directors.html">Directors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="shares.html">Shares and Distribution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="decisionmaking.html">Decision-Making by Shareholders</a></li>
+<li class="toctree-l1"><a class="reference internal" href="administrativearrangements.html">Administative Arrangements</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Wave® Memorandum and Articles</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Changelog</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/changelog.rst.txt" rel="nofollow"> </a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="changelog">
+<h1>Changelog<a class="headerlink" href="#changelog" title="Permalink to this headline">¶</a></h1>
+<ul>
+<li><p class="first"><a href="#id1"><span class="problematic" id="id2">:release:`1.6.1 &lt;2018-07-02&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id3"><span class="problematic" id="id4">:release:`1.5.1 &lt;2018-07-02&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id5"><span class="problematic" id="id6">:support:`73 backported`</span></a> (via <a href="#id7"><span class="problematic" id="id8">:issue:`77`</span></a>) Add support for Sphinx 1.7.x
+(while retaining support for previous versions of Sphinx). Thanks to Miro
+Hrončok for the patch.</p>
+</li>
+<li><p class="first"><a href="#id9"><span class="problematic" id="id10">:release:`1.6.0 &lt;2018-06-20&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id11"><span class="problematic" id="id12">:feature:`75`</span></a> Update <code class="docutils literal notranslate"><span class="pre">releases.util.parse_changelog</span></code> so it hands kwargs
+into <code class="docutils literal notranslate"><span class="pre">releases.util.make_app</span></code>, which in turn now accepts a
+<code class="docutils literal notranslate"><span class="pre">load_extensions</span></code> argument triggering loading of one’s configured
+extensions. This is only of interest if you’re using <code class="docutils literal notranslate"><span class="pre">parse_changelog</span></code>
+directly; it does not impact normal Releases usage.</p>
+</li>
+<li><p class="first"><a href="#id13"><span class="problematic" id="id14">:release:`1.5.0 &lt;2018-05-02&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id15"><span class="problematic" id="id16">:feature:`59`</span></a> Allow multiple changelog files – <code class="docutils literal notranslate"><span class="pre">releases_document_name</span></code>
+may now optionally be a list of strings instead of a single string. Thanks to
+William Minchin for the patch.</p>
+</li>
+<li><p class="first"><a href="#id17"><span class="problematic" id="id18">:release:`1.4.2 &lt;2018-04-27&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id19"><span class="problematic" id="id20">:support:`74 backported`</span></a> We never pulled our README into our <code class="docutils literal notranslate"><span class="pre">setup.py</span></code>
+metadata, resulting in a rather sparse PyPI page! This has been fixed. Thanks
+to Peter Demin for the report.</p>
+</li>
+<li><p class="first"><a href="#id21"><span class="problematic" id="id22">:release:`1.4.1 &lt;2018-03-28&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id23"><span class="problematic" id="id24">:support:`73 backported`</span></a> Sphinx 1.7.x changed some semi-public APIs; given
+this is the second minor release in a row to do so, we’re explicitly
+bracketing our <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> dependencies to Sphinx &gt;= 1.3 and &lt; 1.7. We
+expect to bump this up one minor release at a time as we add compatibility
+back in.</p>
+</li>
+<li><p class="first"><a href="#id25"><span class="problematic" id="id26">:release:`1.4.0 &lt;2017-10-20&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id27"><span class="problematic" id="id28">:support:`-`</span></a> Drop Python 2.6 and 3.3 support, to correspond with earlier
+changes in Sphinx and most other public Python projects.</p>
+</li>
+<li><p class="first"><a href="#id29"><span class="problematic" id="id30">:bug:`- major`</span></a> Identified a handful of issues with our Sphinx pin &amp;
+subsequently, internal changes in Sphinx 1.6 which broke (and/or appear to
+break, such as noisy warnings) our own behavior. These have (hopefully) all
+been fixed.</p>
+</li>
+<li><p class="first"><a href="#id31"><span class="problematic" id="id32">:release:`1.3.2 &lt;2017-10-19&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id33"><span class="problematic" id="id34">:support:`68 backported`</span></a> Update packaging requirements to allow for
+<code class="docutils literal notranslate"><span class="pre">sphinx&gt;=1.3,&lt;2</span></code>. Thanks to William Minchin.</p>
+</li>
+<li><p class="first"><a href="#id35"><span class="problematic" id="id36">:release:`1.3.1 &lt;2017-05-18&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id37"><span class="problematic" id="id38">:bug:`60`</span></a> Report extension version to Sphinx for improved Sphinx debug
+output. Credit: William Minchin.</p>
+</li>
+<li><p class="first"><a href="#id39"><span class="problematic" id="id40">:bug:`66`</span></a> (via <a href="#id41"><span class="problematic" id="id42">:issue:`67`</span></a>) Deal with some Sphinx 1.6.1 brokenness causing
+<code class="docutils literal notranslate"><span class="pre">AttributeError</span></code> by leveraging <code class="docutils literal notranslate"><span class="pre">getattr()</span></code>’s default-value argument.
+Thanks to Ian Cordasco for catch &amp; patch.</p>
+</li>
+<li><p class="first"><a href="#id43"><span class="problematic" id="id44">:release:`1.3.0 &lt;2016-12-09&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id45"><span class="problematic" id="id46">:feature:`-`</span></a> Add <code class="docutils literal notranslate"><span class="pre">releases.util</span></code>, exposing (among other things) a highly
+useful <code class="docutils literal notranslate"><span class="pre">parse_changelog(path)</span></code> function that returns a user-facing dict
+representing a parsed changelog. Allows users to examine their changelogs
+programmatically and answer questions like “do I have any outstanding bugs in
+the 1.1 release line?”.</p>
+</li>
+<li><p class="first"><a href="#id47"><span class="problematic" id="id48">:release:`1.2.1 &lt;2016-07-25&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id49"><span class="problematic" id="id50">:support:`51 backported`</span></a> Modernize release management so PyPI trove
+classifiers are more accurate, wheel archives are universal instead of Python
+2 only, and release artifacts are GPG signed.</p>
+</li>
+<li><p class="first"><a href="#id51"><span class="problematic" id="id52">:bug:`56`</span></a> Fix exceptions that occurred when no release/issue link options
+were configured. Now those options are truly optional: release version and
+issue number text will simply display normally instead of as hyperlinks.
+Thanks to André Caron for the report.</p>
+</li>
+<li><p class="first"><a href="#id53"><span class="problematic" id="id54">:bug:`36`</span></a> Changelogs with no releases whatsoever should still be viable
+instead of raising exceptions. This is now happily the case. All items in
+such changelogs will end up in a single “unreleased features” list, just as
+with regular prehistory entries. Thanks to Steve Ivy for initial report and
+André Caron for additional feedback.</p>
+</li>
+<li><p class="first"><a href="#id55"><span class="problematic" id="id56">:release:`1.2.0 &lt;2016-05-20&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id57"><span class="problematic" id="id58">:bug:`- major`</span></a> Fix formatting of release header dates; a “75% text size”
+style rule has had an uncaught typo for some time.</p>
+</li>
+<li><p class="first"><a href="#id59"><span class="problematic" id="id60">:bug:`55 major`</span></a> Non-annotated changelog line items (which implicitly become
+bugs) were incorrectly truncating their contents in some situations
+(basically, any time they included non-regular-text elements like monospace,
+bold etc). This has been fixed.</p>
+</li>
+<li><p class="first"><a href="#id61"><span class="problematic" id="id62">:feature:`19`</span></a> Add <code class="docutils literal notranslate"><span class="pre">unstable_prehistory</span></code> option/mode for changelogs whose
+0.x release cycle is “rapid” or “unstable” and doesn’t closely follow normal
+semantic version-driven organization. See <span class="xref std std-ref">unstable-prehistory</span>.</p>
+</li>
+<li><p class="first"><a href="#id63"><span class="problematic" id="id64">:bug:`53 major`</span></a> Tweak newly-updated models so bugfix items prior to an
+initial release are considered ‘major bugs’ so they get rolled into that
+initial release (instead of causing a <code class="docutils literal notranslate"><span class="pre">ValueError</span></code>).</p>
+</li>
+<li><p class="first"><a href="#id65"><span class="problematic" id="id66">:release:`1.1.0 &lt;2016-04-28&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id67"><span class="problematic" id="id68">:feature:`45`</span></a> Add support for major version transitions (e.g. 1.0 to 2.0).</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This adds a new install-time dependency: the <a class="reference external" href="https://python-semanticversion.readthedocs.io">semantic_version library</a>. It’s pure Python, so
+installation should be trivial.</p>
+</div>
+</li>
+<li><p class="first"><a href="#id69"><span class="problematic" id="id70">:bug:`44 major`</span></a> Update one of our internal docutils-related classes for
+compatibility with Sphinx 1.4.x. Thanks to Gabi Davar for catch &amp; patch.</p>
+</li>
+<li><p class="first"><a href="#id71"><span class="problematic" id="id72">:release:`1.0.0 &lt;2015-11-05&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id73"><span class="problematic" id="id74">:feature:`42`</span></a> For readability, issues within each release so they are
+displayed in feature-&gt;bug-&gt;support order.</p>
+</li>
+<li><p class="first"><a href="#id75"><span class="problematic" id="id76">:feature:`41`</span></a> Clean up changelog discovery so one can have comments,
+paragraphs or other non-bullet-list elements above or below the changelog.
+Thanks to Rodrigue Cloutier for the original request/patch.</p>
+</li>
+<li><p class="first"><a href="#id77"><span class="problematic" id="id78">:release:`0.7.0 &lt;2014-09-04&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id79"><span class="problematic" id="id80">:bug:`30 major`</span></a> Add LICENSE (plus a handful of other administrative files) to
+a <code class="docutils literal notranslate"><span class="pre">MANIFEST.in</span></code> so sdists pick it up. Thanks to Zygmunt Krynicki for catch
+&amp; original patch (<a href="#id81"><span class="problematic" id="id82">:issue:`33`</span></a>).</p>
+</li>
+<li><p class="first"><a href="#id83"><span class="problematic" id="id84">:feature:`21`</span></a> Allow duplicate issue numbers; not allowing them was
+technically an implementation detail. Thanks to Dorian Puła for the patch.</p>
+</li>
+<li><p class="first"><a href="#id85"><span class="problematic" id="id86">:release:`0.6.1 &lt;2014-04-06&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id87"><span class="problematic" id="id88">:bug:`-`</span></a> Fix a silly issue with the new feature from <a href="#id89"><span class="problematic" id="id90">:issue:`22`</span></a> where it
+accidentally referred to the Sphinx document <em>title</em> instead of the document
+<em>filename</em>.</p>
+</li>
+<li><p class="first"><a href="#id91"><span class="problematic" id="id92">:release:`0.6.0 &lt;2014-04-03&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id93"><span class="problematic" id="id94">:feature:`22`</span></a> Make the document name used as the changelog - previously
+hardcoded as <code class="docutils literal notranslate"><span class="pre">changelog</span></code> (<code class="docutils literal notranslate"><span class="pre">.rst</span></code>) - configurable. Thanks to James Mills
+for the feature request.</p>
+</li>
+<li><p class="first"><a href="#id95"><span class="problematic" id="id96">:feature:`26`</span></a> Allow specifying Github path shorthand config option instead of
+explicit release/issue URL strings.</p>
+</li>
+<li><p class="first"><a href="#id97"><span class="problematic" id="id98">:release:`0.5.3 &lt;2014-03-15&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id99"><span class="problematic" id="id100">:bug:`25`</span></a> Empty/no-issue line items broke at some point; fixed.</p>
+</li>
+<li><p class="first"><a href="#id101"><span class="problematic" id="id102">:bug:`24`</span></a> Broke inline issue parsing; fixed now.</p>
+</li>
+<li><p class="first"><a href="#id103"><span class="problematic" id="id104">:release:`0.5.2 &lt;2014-03-13&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id105"><span class="problematic" id="id106">:bug:`23`</span></a> Rework implementation to deal with issue descriptions that span
+more than one paragraph - subsequent paragraphs/blocks were not being
+displayed prior.</p>
+</li>
+<li><p class="first"><a href="#id107"><span class="problematic" id="id108">:release:`0.5.1 &lt;2014-02-11&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id109"><span class="problematic" id="id110">:bug:`-`</span></a> Fix silly bug in <a href="#id111"><span class="problematic" id="id112">:issue:`20`</span></a> that cropped up on Python 3.x.</p>
+</li>
+<li><p class="first"><a href="#id113"><span class="problematic" id="id114">:release:`0.5.0 &lt;2014-02-11&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id115"><span class="problematic" id="id116">:feature:`20`</span></a> Allow specifying minimum release line in bugfixes that don’t
+apply to all active lines (e.g. because they pertain to a recently added
+feature.)</p>
+</li>
+<li><p class="first"><a href="#id117"><span class="problematic" id="id118">:release:`0.4.0 &lt;2013-12-24&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id119"><span class="problematic" id="id120">:feature:`17`</span></a> Allow releases to explicitly define which issues they include.
+Useful for overriding default assumptions (e.g. a special bugfix release from
+an otherwise dormant line.)</p>
+</li>
+<li><p class="first"><a href="#id121"><span class="problematic" id="id122">:release:`0.3.1 &lt;2013-12-18&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id123"><span class="problematic" id="id124">:bug:`16`</span></a> Fix some edge cases regarding release ordering &amp; unreleased issue
+display. Includes splitting unreleased display info into two ‘Next release’
+pseudo-release entries.</p>
+</li>
+<li><p class="first"><a href="#id125"><span class="problematic" id="id126">:support:`15`</span></a> Add <span class="xref std std-doc">/concepts</span> to flesh out some assumptions not
+adequately explained in <span class="xref std std-doc">/usage</span>.</p>
+</li>
+<li><p class="first"><a href="#id127"><span class="problematic" id="id128">:release:`0.3.0 &lt;2013-11-21&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id129"><span class="problematic" id="id130">:feature:`11`</span></a> Fix up styling so changelogs don’t look suboptimal under <a class="reference external" href="http://ericholscher.com/blog/2013/nov/4/new-theme-read-the-docs/">the
+new Read The Docs theme</a>. Still
+looks OK under their old theme too!</p>
+</li>
+<li><p class="first"><a href="#id131"><span class="problematic" id="id132">:support:`0`</span></a> Move to actual Sphinx docs so we can use ourselves.</p>
+</li>
+<li><p class="first"><a href="#id133"><span class="problematic" id="id134">:support:`0`</span></a> Created a basic test suite to protect against regressions.</p>
+</li>
+<li><p class="first"><a href="#id135"><span class="problematic" id="id136">:bug:`9 major`</span></a> Clean up additional ‘unreleased’ display/organization
+behavior, including making sure ALL unreleased issues show up as
+‘unreleased’. Thanks to Donald Stufft for the report.</p>
+</li>
+<li><p class="first"><a href="#id137"><span class="problematic" id="id138">:feature:`1`</span></a> (also <a href="#id139"><span class="problematic" id="id140">:issue:`3`</span></a>, <a href="#id141"><span class="problematic" id="id142">:issue:`10`</span></a>) Allow using <code class="docutils literal notranslate"><span class="pre">-</span></code> or <code class="docutils literal notranslate"><span class="pre">0</span></code> as a
+dummy issue ‘number’, which will result in no issue number/link being
+displayed.  Thanks to Markus Zapke-Gründemann and Hynek Schlawack for patches
+&amp; discussion.</p>
+<blockquote>
+<div><ul class="simple">
+<li>This feature lets you categorize changes that aren’t directly related
+to issues in your tracker. It’s an improvement over, and replacement
+for, the previous “vanilla bullet list items are treated as bugs”
+behavior.</li>
+<li>Said behavior (non-role-prefixed bullet list items turning into
+regular bugs) is being retained as there’s not a lot to gain from
+deactivating it.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first"><a href="#id143"><span class="problematic" id="id144">:release:`0.2.4 &lt;2013.10.04&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id145"><span class="problematic" id="id146">:support:`0 backported`</span></a> Handful of typos, doc tweaks &amp; addition of a
+.gitignore file.  Thanks to Markus Zapke-Gründemann.</p>
+</li>
+<li><p class="first"><a href="#id147"><span class="problematic" id="id148">:bug:`0`</span></a> Fix duplicate display of “bare” (not prefixed with an issue role)
+changelog entries. Thanks again to Markus.</p>
+</li>
+<li><p class="first"><a href="#id149"><span class="problematic" id="id150">:support:`0 backported`</span></a> Edited the README/docs to be clearer about how
+Releases works/operates.</p>
+</li>
+<li><p class="first"><a href="#id151"><span class="problematic" id="id152">:support:`0 backported`</span></a> Explicitly documented how non-role-prefixed line
+items are preserved.</p>
+</li>
+<li><p class="first"><a href="#id153"><span class="problematic" id="id154">:bug:`0`</span></a> Updated non-role-prefixed line items so they get prefixed with a
+‘[Bug]’ signifier (since they are otherwise treated as bugfix items.)</p>
+</li>
+<li><p class="first"><a href="#id155"><span class="problematic" id="id156">:release:`0.2.3 &lt;2013.09.16&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id157"><span class="problematic" id="id158">:bug:`0`</span></a> Fix a handful of bugs in release assignment logic.</p>
+</li>
+<li><p class="first"><a href="#id159"><span class="problematic" id="id160">:release:`0.2.2 &lt;2013.09.15&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id161"><span class="problematic" id="id162">:bug:`0`</span></a> Ensured Python 3 compatibility.</p>
+</li>
+<li><p class="first"><a href="#id163"><span class="problematic" id="id164">:release:`0.2.1 &lt;2013.09.15&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id165"><span class="problematic" id="id166">:bug:`0`</span></a> Fixed a stupid bug causing invalid issue hyperlinks.</p>
+</li>
+<li><p class="first"><a href="#id167"><span class="problematic" id="id168">:release:`0.2.0 &lt;2013.09.15&gt;`</span></a></p>
+</li>
+<li><p class="first"><a href="#id169"><span class="problematic" id="id170">:feature:`0`</span></a> Basic functionality.</p>
+</li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="releasenotes.html" class="btn btn-neutral float-right" title="Release Notes and Notices" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Wave® Memorandum and Articles of Association" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Make it Wave Ltd
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'0.0.1',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

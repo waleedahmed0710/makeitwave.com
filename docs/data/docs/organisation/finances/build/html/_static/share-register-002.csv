@@ -1,56 +1,59 @@
-Investor, Round, Shares, % Ownership
-B Leonides,	Seed,	0.172%,	1719585
-M Holmes,	Seed,	0.009%,	91305
-R James,	Seed,	0.009%,	91305
-S Barnes,	Seed,	0.011%,	106523
-C Gilder,	Seed,	0.012%,	121741
-P Beals,	Seed, 0.017%,	167393
-P Brown,	Seed,	0.020%,	197828
-M Hough,	Seed,	0.023%,	228263
-A Witcomb,	Seed,	0.059%,	593485
-D Owen,	Seed,	0.059%,	593485
-J Smith-Walker,	Seed,	0.059%,	593485
-R Davis,	Seed,	0.059%,	593485
-S Gates,	Seed,	0.059%,	593485
-C Doick,	Seed,	0.076%,	760878
-C Kell,	Seed,	0.079%,	791313
-S Purcell,	Seed,	0.088%,	882619
-C Chapman,	Seed,	0.107%,	1065229
-T Marshall,	Seed,	0.298%,	2982642
-C Marshall, Seed,	0.329%,	3286994
-H Davies,	Seed,	0.119%,	1186970
-M Simpson,	Seed,	0.119%,	1186970
-S Hume,	Seed,	0.330%,	3302211
-B Pullen,	Seed,	0.128%,	1278275
-G Caines,	Seed,	0.385%,	3850043
-A Powell,	Seed,	0.388%,	3880478
-M Preston,	Seed,	0.158%,	1582627
-M Alexader,	Seed,	0.301%,	3013077
-L Wallace,	Seed,	0.247%,	2465245
-M Boyd,	Seed,	0.247%,	2465245
-M MCarthy,	Seed,	0.306%,	3058730
-S Hargreaves,	Seed,	1.064%,	10637076
-G Stewart,	Seed,	0.612%,	6117460
-S Reynolds,	Seed,	0.612%,	6117460
-D Allen,	Seed,	2.115%,	21152412
-J Davis,	Seed,	2.827%,	28274232
-N Smith,	Seed,	1.525%,	15247998
-D Marshall,	Seed,	4.853%,	48528808
-A Vashi,	Seed,	6.559%,	65587695
-C Pitcairn,	Seed,	3.021%,	30206862
-L Allen,	Seed,	5.408%,	54083218
-G Pitcairn,	Seed,	4.480%,	44800505
-P Caines,	Seed,	14.210%,	142101601
-Make it Wave Ltd,	Seed,	28.346%,	283457698
-E Young,	Seed,	0.304%,	3043513
-J O’Sullivan,	Seed,	3.348%,	33478638
-Y Sakowitz,	Seed,	0.030%,	304351
-M Weaver,	Seed,	0.030%,	304351
-J Choudhury-Lucas,	Seed,	0.383%,	3825208
-R Stevenson,	Seed,	0.500%,	5000000
-B Naipaul,	Seed,	0.500%,	5000000
-			
-			
-,	Series A,	15.000%,	150000000
-			
-	,,	100.000%,	1000000000
+Investor, Round,Ownership %,Shares (Tokens)
+B Leonides,	Seed,0.17200,172000000
+M Holmes,	Seed,0.00900,9000000
+R James,	Seed,0.00900,9000000
+S Barnes,	Seed,0.01100,11000000
+C Gilder,	Seed,0.01200,12000000
+P Beals,	Seed,0.01700,17000000
+P Brown,	Seed,0.02000,20000000
+M Hough,	Seed,0.02300,23000000
+A Witcomb,	Seed,0.05900,59000000
+D Owen,	Seed,0.05900,59000000
+J Smith-Walker,	Seed,0.05900,59000000
+R Davis,	Seed,0.05900,59000000
+S Gates,	Seed,0.05900,59000000
+C Doick,	Seed,0.07600,76000000
+C Kell,	Seed,0.07900,79000000
+S Purcell,	Seed,0.08800,88000000
+C Chapman,	Seed,0.10700,107000000
+T Marshall,	Seed,0.29800,298000000
+C Marshall,Seed,0.32900,329000000
+H Davies,	Seed,0.11900,119000000
+M Simpson,	Seed,0.11900,119000000
+S Hume,	Seed,0.33000,330000000
+B Pullen,	Seed,0.12800,128000000
+G Caines,	Seed,0.38500,385000000
+A Powell,	Seed,0.38800,388000000
+M Preston,	Seed,0.15800,158000000
+M Alexader,	Seed,0.30100,301000000
+L Wallace,	Seed,0.24700,247000000
+M Boyd,	Seed,0.24700,247000000
+M MCarthy,	Seed,0.30600,306000000
+S Hargreaves,	Seed,1.06400,1064000000
+G Stewart,	Seed,0.61200,612000000
+S Reynolds,	Seed,0.61200,612000000
+D Allen,	Seed,2.11500,2115000000
+J Davis,	Seed,2.82700,2827000000
+N Smith,	Seed,1.52500,1525000000
+D Marshall,	Seed,4.85300,4853000000
+A Vashi,	Seed,6.55900,6559000000
+C Pitcairn,	Seed,3.02100,3021000000
+L Allen,	Seed,5.40800,5408000000
+G Pitcairn,	Seed,4.48000,4480000000
+P Caines,	Seed,14.21000,14210000000
+Make it Wave Ltd,	Seed,25.84600,25846000000
+EVR Solar S.R.L,Seed,2.50000,2500000000
+E Young,	Seed,0.30400,304000000
+J O'Sullivan,	Seed,3.34800,3348000000
+Y Sakowitz,	Seed,0.03000,30000000
+M Weaver,	Seed,0.03000,30000000
+J Choudhury-Lucas,	Seed,0.38300,383000000
+R Stevenson,	Seed,0.50000,500000000
+B Naipaul,	Seed,0.50000,500000000
+EVR Solar S.R.L,Series A,2.50000,2500000000
+E Coldwell,Series A,0.00006,60000
+			,,,
+			,,,
+,	Series A,12.49994,12499940000
+			,,,
+	,,100.00000,100000000000

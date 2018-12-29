@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  3 DEC 2018 20:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  15 DEC 2018 00:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1105,13 +1105,6 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 68.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
-)
-LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
 (Font)              Font shape `T1/phv/b/it' tried instead on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
@@ -1133,8 +1126,6 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 68.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
  [1
@@ -1160,10 +1151,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 72.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <10> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 75.
- [1] [2
+) [1] [2
 
 ]
 Chapter 1.
@@ -1177,10 +1165,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
  []
 
 [5] [6]
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 261.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
 LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <12> not available
 (Font)              Font shape `TS1/phv/b/n' tried instead on input line 261.
- [7] [8] [9] [10] [11]
-<kirks-sig.png, id=186, 225.84375pt x 83.31125pt>
+ [7] [8]
+[9] [10] [11] <kirks-sig.png, id=186, 225.84375pt x 83.31125pt>
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 436.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -1265,11 +1258,11 @@ Package rerunfilecheck Info: File `wave-organisation-evr_agreement.out' has not
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 622.
  ) 
 Here is how much of TeX's memory you used:
- 13714 strings out of 494945
- 190812 string characters out of 6181031
- 278178 words of memory out of 5000000
- 16639 multiletter control sequences out of 15000+600000
- 44454 words of font info for 64 fonts, out of 8000000 for 9000
+ 13708 strings out of 494945
+ 190713 string characters out of 6181031
+ 278174 words of memory out of 5000000
+ 16633 multiletter control sequences out of 15000+600000
+ 43518 words of font info for 61 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  37i,12n,49p,1596b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1277,7 +1270,7 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-organisation-evr_agreement.pdf (17 pages, 128323 bytes).
+Output written on wave-organisation-evr_agreement.pdf (17 pages, 128258 bytes).
 
 PDF statistics:
  246 PDF objects out of 1000 (max. 8388607)

@@ -21,7 +21,7 @@
 
 project = u'WaveOS™ Developers Guide'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Siôn H. Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
+author = u'Siôn H. Buckler, Founder & CEO of Wave + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
 version = u'0.1'
@@ -128,7 +128,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'wave-software-developers_guide.tex', u'WaveOS™ Development Guide',
-     u'Author(s): Siôn H. Buckler, Wave®', 'manual'),
+     u'Author(s): Siôn H. Buckler, Wave', 'manual'),
 ]
 
 

@@ -154,7 +154,7 @@
 /* 01:DM */ @keyframes zoomrotate {0% { -webkit-transform: rotate(0) scale(1.0); transform: rotate(0) scale(1.0); } 50% { -webkit-transform: rotate(-5deg) scale(1.3); transform: rotate(-5deg) scale(1.3); } 100% { -webkit-transform: rotate(0) scale(1.0); transform: rotate(0) scale(1.0); }}
 /* 01:DN */ @keyframes zoomin {0% { -webkit-transform: scale(1.0); transform: scale(1.0); } 100% { -webkit-transform: scale(3.0); transform: scale(3.0); }}
 
-/* 01:EA */ #my-slider {width: 89vw;  height: 85vh;-webkit-border-radius: 5px; border-radius: 5px;}
+/* 01:EA */ #my-slider {width: 89.05vw;  height: 85vh;-webkit-border-radius: 5px; border-radius: 5px;}
 /* 01:EB */ #my-slider-ism-badge {width: 796px;}
 /* 01:EC */ #my-slider .ism-button {display: block; border-radius: 25px; width: 50px; height: 50px; background-size: 16px 16px; top: 50%; margin-top: -25px; color: #fff; background-color: rgba(0, 0, 0, 0.3); display: block; visibility: visible;}
 /* 01:ED */ #my-slider .ism-button-prev {background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEX///////////////////////////////////////////9/gMdvAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAAAuUAAALlARv+XnsAAABUSURBVEjH7dYxCgAgEAPB8weX/39WFBtBbsFSY2sYyzXicDLq0wQDKQGQAKiJAZTEvC+IRgPBYAEyYOB1AAf4hAkTXxB5nySOGmaRw4pp5rhv34MOQwscJ7/MrxQAAAAASUVORK5CYII=); left: 10px;}
@@ -189,7 +189,7 @@
 /* 01:> */ .ism-slider > ol, .ism-slider > ol > li, .ism-slider > ol > li > img { width: 100%; list-style: none; margin: 0; padding: 0; }
 .ism-slider {overflow: hidden; position: relative; padding: 0 !important; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: default; z-index: 2; background-color: white; -webkit-animation: ism-fadein 3s; -webkit-background-clip: padding-box; -moz-background-clip: padding; background-clip: padding-box; image-rendering: auto; image-rendering: crisp-edges;}
 .ism-slider .ism-slides {list-style: none; position: absolute; height: 100%; top: 0; padding: 0 !important; margin-top: 0; margin-bottom: 0; z-index: 1;}
-.ism-slider li.ism-slide {height: 100%; overflow: hidden; position: absolute; display: block; top: 0; bottom: 0; margin: 0 !important; padding: 0 !important; background-color: #333366; text-align: center;}
+.ism-slider li.ism-slide {height: 100%; overflow: hidden; position: absolute; display: block; top: 0; bottom: 0; margin: 0 !important; padding: 0 !important; background-color: #333366; text-align: center; box-shadow: -1px -1px 3px 3px #333366;} 
 .ism-slider .ism-img-frame {display: block; position: absolute; width: 100%; height: 100%;}
 .ism-slider a.ism-image-link {position: absolute; color: inherit; text-decoration: none; display: block; top: 0; left: 0; width: 100%; height: 100%;}
 .ism-slider .ism-img {display: block; border: none; position: absolute; pointer-events: none;}

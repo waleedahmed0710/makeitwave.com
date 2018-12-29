@@ -9,13 +9,12 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), '..')))
 
 exclude_patterns = ['_build']
 
-# Dogfood
-releases_github_path = 'unclehowell/makeitwave.com/tree/master/docs'
+
 
 
 project = u'Website Technical Document'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Siôn H. Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
+author = u'Siôn H. Buckler, Founder & CEO of Wave + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
 version = u'1.0.0'
@@ -32,7 +31,7 @@ release = u'1.0.0rc1'
 # Add any Sphinx extenSiôn module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autosectionlabel', 'releases']
+extensions = ['sphinx.ext.autosectionlabel']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -123,7 +122,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'wave-organisation-website_guide.tex', u'makeitwave.com - Website User Manual',
-     u'Author(s): Siôn H. Buckler, Wave®', 'manual'),
+     u'Author(s): Siôn H. Buckler, Wave', 'manual'),
 ]
 
 

@@ -167,7 +167,7 @@
 			.snipcart-checkout-text {text-decoration:none!Important;}		
 			.navbar-cart-icon {float: left!important; position: absolute; bottom: 0!important; margin: 0px 22px 0px 5px!important; opacity: 0.6!important; color: rgba(255,255,255,0.9); zoom: 1.95!important;	}	
 			.navbar-cart-icon-desktop {margin-left:20px!important; opacity:0.6!important; color:white; margin-top:-2.5px!Important;}
-			.navbar-cart-qnt {color: white; float: right!important; right: 0!important; background-color: transparent; opacity: 0.55; border-radius: 5px; border: 1px solid rgba(255,255,255,0.25)!important; position: absolute; padding: 5px 10px 5px 10px; margin-right: 1px; margin-top:1px;	}
+			.navbar-cart-qnt {color: white; float: right!important; right: 0!important; background-color: transparent; opacity: 0.55; border-radius: 5px; border: 1px solid rgba(255,255,255,0.25)!important; position: absolute; padding: 5px 10px 5px 10px; margin-right: 1px; margin-top:1px; min-height:33px;	}
 			.checkout-details-desktop {padding:4px!Important; color:white; font-weight:lighter!important; font-size:1rem; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-weight:lighter!Important;}
 			
 /* 01:YB */ .glyphiconbig {zoom:4!important;}
@@ -192,7 +192,7 @@
 /* 02:AS */ .showonlyonmobile {display:}
 
 /* 02:BA */ .navbar-brand  {}
-/* 02:BB */ .nav-link  {width: 200px;}
+/* 02:BB */ .nav-link  {width: 130px;}
 /* 02:BC */ .navbar-expand-md .navbar-nav .nav-link  {}
 /* 02:BD */ .bg-dark  {}
 

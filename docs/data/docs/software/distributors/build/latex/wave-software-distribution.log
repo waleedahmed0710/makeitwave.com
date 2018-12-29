@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  3 DEC 2018 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  15 DEC 2018 00:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,13 +1106,6 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 68.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
-)
-LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
 (Font)              Font shape `T1/phv/b/it' tried instead on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
@@ -1134,8 +1127,6 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 68.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
  [1
@@ -1162,9 +1153,6 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 72.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <10> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 79.
-
 [1] [2
 
 ]
@@ -1317,11 +1305,11 @@ ged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 967.
  ) 
 Here is how much of TeX's memory you used:
- 14021 strings out of 494945
- 195045 string characters out of 6181031
- 283004 words of memory out of 5000000
- 16790 multiletter control sequences out of 15000+600000
- 44453 words of font info for 64 fonts, out of 8000000 for 9000
+ 13986 strings out of 494945
+ 194538 string characters out of 6181031
+ 283000 words of memory out of 5000000
+ 16759 multiletter control sequences out of 15000+600000
+ 43517 words of font info for 61 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  37i,12n,49p,1791b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1329,7 +1317,7 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-software-distribution.pdf (59 pages, 193222 bytes).
+Output written on wave-software-distribution.pdf (59 pages, 192857 bytes).
 PDF statistics:
  946 PDF objects out of 1000 (max. 8388607)
  860 compressed objects within 9 object streams

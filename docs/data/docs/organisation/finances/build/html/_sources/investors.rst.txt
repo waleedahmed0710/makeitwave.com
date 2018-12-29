@@ -1,43 +1,245 @@
-Royalty Tokens
-~~~~~~~~~~~~~~~~~~~~~~~~
+Wave® Royalty Tokens (WRT)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wave® is the property and trading name of the British Corporation: `Make it Wave Ltd <../../../../../pdf/MAKE%20IT%20WAVE%20LTD%20COI.pdf>`__.
-This UK Company is made up of 1,000 shares, held in trust by the Founder & CEO Siôn H. Buckler. 
-Annual Profits & Losses and Balance Sheets are reported to UK Companies House for  `public record <https://webcheck.uk.gov>`__.
+Unlike companies which distribute funds to shareholders quarterly, or yearly, the Wave® DAO is able to distribute royalties to Royalty Token holders in real-time (daily/ hourly). 
+This is achieved using Etherium Cryptocurrency and Blockchain/ Smart Contract Technology. 
+Henceforth Wave® is able to automate the pooling of revenue from the networks advertisers & cryptocurreny miners and autonomously allocate and distribute this cryptocurrency to Token Holders in accordance with the latest WRT Master Register. 
 
-Wave® simultaniously operates as a Decentralised Autonomous Organisation (DAO), of which there are 1 billion shares in circulation.  
-Using the Etherium Blockchain & Smart Contracts, royalties from Wave® are distributed to ISP's, The development team and then the 1 billion shareholders in real-time. DAO activity is recorded on the Etherium blockchain for `public record <https://ethereum.org>`__. 
+WRT Master Register
+----------------------
 
-Royalty Tokens Register
-----------------------------------
-
-.. csv-table:: Table 1.0 - Wave Shareholder Register 17/11/2018
-   :file: _static/share-register-002.csv
-   :widths: 20, 20, 20, 20
+.. csv-table:: Wave® Royalty Tokens - Master Register (28/12/2018)
+   :file: _static/wrt-master-register.csv
+   :widths: 20, 20, 20, 20, 20
    :header-rows: 1
-
-  
-Royalty Tokens Blockchain
-------------------------------------- 
-
-See below the investment Toke statements
-
-Invest 1
-##########
-
-
-Investor 2
-###########
 
 
    
-Purchase Royalty Tokens
--------------------------- 
+WRT ICO (by account)
+--------------------------------------
+
+See below the activity statements of the purchases of Royalty Tokens
+
+B Leonides
+##########
+
+   
+M Holmes
+#########
 
 
-To invest in Wave® and receive your Royalty Tokens, please visit https://makeitwave.com/invest.html  
-This page provides website visitors with an option to purchase equity in our Wave®, directly via our website. 
-Our public records are updated immidiately. 
+R James
+#########
+
+
+S Barnes
+#########
+
+
+C Gilder
+#########
+
+
+P Beals
+#########
+
+
+P Brown
+#########
+
+
+M Hough
+#########
+
+
+A Witcomb
+#########
+
+
+D Owen
+#########
+
+
+J Smith-Walker
+##############
+
+
+R Davis
+#########
+
+
+S Gates
+#########
+
+
+C Doick
+#########
+
+
+C Kell
+#########
+
+
+S Purcell
+#########
+
+
+C Chapman
+#########
+
+
+T Marshall
+############
+
+
+C Marshall
+#############
+
+
+H Davies
+#########
+
+
+M Simpson
+#########
+
+
+S Hume
+#########
+
+
+B Pullen
+#########
+
+
+G Caines
+#########
+
+
+A Powell
+#########
+
+
+M Preston
+#########
+
+
+M Alexader
+###########
+
+
+L Wallace
+#########
+
+
+M Boyd
+#########
+
+
+M MCarthy
+#########
+
+
+S Hargreaves
+##############
+
+
+G Stewart
+#########
+
+
+S Reynolds
+##############
+
+
+D Allen
+#########
+
+
+J Davis
+#########
+
+
+N Smith
+#########
+
+
+D Marshall
+############
+
+
+A Vashi
+#########
+
+
+H Pitcairn
+############
+
+
+C Pitcairn
+###########
+
+
+L Allen
+#########
+
+
+G Pitcairn
+############
+
+
+
+P Caines
+############
+
+
+
+Make it Wave Ltd (S Buckler)
+############################
+
+
+
+E Young
+#########
+
+
+
+J O’Sullivan
+################
+
+
+
+Y Sakowitz
+################
+
+
+M Weaver
+################
+
+
+J Choudhury-Lucas
+####################
+
+
+
+R Stevenson
+#############
+
+
+
+B Naipaul
+############
+
+
+
+E Coldwell
+################
+
+
+
+
+
+
 
 
 

@@ -25,7 +25,6 @@ Index
    :maxdepth: 2
    
 
-   changelog
    releasenotes
    1-definitions
    2-delivery

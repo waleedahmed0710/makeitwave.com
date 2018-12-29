@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Wave® & EVR Solar S.R.L USSD Agreement'
+project = u'Wave & EVR Solar S.R.L USSD Agreement'
 copyright = u'2018, Make it Wave Ltd. & EVR Solar S.R.L.'
 author = u'Siôn H. Buckler, Founder and CEO, Make it Wave Ltd. and Frank Van Rienen, President of EVR Solar S.R.L'
 
@@ -127,8 +127,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'wave-organisation-evr_agreement.tex', u'Wave® and EVR Solar - USSD Agreement',
-     u'Author(s): Siôn H. Buckler, Wave®', 'manual'),
+    (master_doc, 'wave-organisation-evr_agreement.tex', u'Wave and EVR Solar - USSD Agreement',
+     u'Author(s): Siôn H. Buckler, Wave', 'manual'),
 ]
 
 
@@ -137,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wave-organisation-evr_agreement', u'Wave® and EVR Solar - USSD Agreement',
+    (master_doc, 'wave-organisation-evr_agreement', u'Wave and EVR Solar - USSD Agreement',
      [author], 1)
 ]
 
@@ -148,8 +148,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'wave-organisation-evr_agreement', u'Wave® and EVR Solar - USSD Agreement',
-     author, 'wave-organisation-evr_agreement', 'Wave® and EVR Solar - USSD Agreement',
+    (master_doc, 'wave-organisation-evr_agreement', u'Wave and EVR Solar - USSD Agreement',
+     author, 'wave-organisation-evr_agreement', 'Wave and EVR Solar - USSD Agreement',
      'manual'),
 ]
 

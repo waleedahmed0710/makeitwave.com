@@ -1,53 +1,52 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Recitals}{3}{chapter.1}
 \contentsline {chapter}{\numberline {2}Index}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Changelog}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Release Notes and Notices}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Version 0.0.1}{5}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.1}Release Notes and Notices}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Version 0.0.1}{5}{subsection.2.1.1}
 \contentsline {subsubsection}{Older Versions}{5}{subsubsection*.3}
 \contentsline {subsubsection}{Version 0.0.0}{5}{subsubsection*.4}
-\contentsline {subsection}{\numberline {2.2.2}Known and Corrected Issues}{6}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Recently Updated Topics}{6}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Definitions}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Delivery, Closing and Consideration}{7}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Delivery}{7}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Closing}{7}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Consideration}{7}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Additional Payments}{7}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}Transfer of Patents and Additional Rights; License Back}{8}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Assignment of Patents}{8}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Assignment of Additional Rights}{8}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Existing Licenses}{8}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}License Back}{8}{subsection.2.5.4}
-\contentsline {subsection}{\numberline {2.5.5}Reimbursement}{9}{subsection.2.5.5}
-\contentsline {section}{\numberline {2.6}Reversionary Interest}{9}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Buyer Must Remain in LOT Network for Two Years}{9}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Reversion to Google}{9}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}No Licence Back to Buyer}{9}{subsection.2.6.3}
-\contentsline {section}{\numberline {2.7}Additional Obligations}{10}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Further Cooperation}{10}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Common Interest Agreement}{10}{subsection.2.7.2}
-\contentsline {subsection}{\numberline {2.7.3}Disclosure of Licensees}{10}{subsection.2.7.3}
-\contentsline {section}{\numberline {2.8}Representations and Warranties of Seller}{10}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Authority}{10}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}Title}{11}{subsection.2.8.2}
-\contentsline {subsection}{\numberline {2.8.3}Existing Licenses Clause}{11}{subsection.2.8.3}
-\contentsline {subsection}{\numberline {2.8.4}Special Conditions on Standards Essential Patents}{11}{subsection.2.8.4}
-\contentsline {section}{\numberline {2.9}Miscellaneous}{11}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}Disclaimer of Representations and Warranties}{11}{subsection.2.9.1}
-\contentsline {subsection}{\numberline {2.9.2}Limitation of Liability}{11}{subsection.2.9.2}
-\contentsline {subsection}{\numberline {2.9.3}Limitation on Consequential Damages}{12}{subsection.2.9.3}
-\contentsline {subsection}{\numberline {2.9.4}Compliance with Laws}{12}{subsection.2.9.4}
-\contentsline {subsection}{\numberline {2.9.5}Confidentiality of Terms}{12}{subsection.2.9.5}
-\contentsline {subsection}{\numberline {2.9.6}Governing Law; Venue/ Juristiction}{12}{subsection.2.9.6}
-\contentsline {subsection}{\numberline {2.9.7}Notices}{13}{subsection.2.9.7}
-\contentsline {subsection}{\numberline {2.9.8}Relationship of Parties}{13}{subsection.2.9.8}
-\contentsline {subsection}{\numberline {2.9.9}Severability}{13}{subsection.2.9.9}
-\contentsline {subsection}{\numberline {2.9.10}Waiver}{13}{subsection.2.9.10}
-\contentsline {subsection}{\numberline {2.9.11}Termination}{13}{subsection.2.9.11}
-\contentsline {subsection}{\numberline {2.9.12}Miscellaneous Items}{14}{subsection.2.9.12}
-\contentsline {subsection}{\numberline {2.9.13}Counterparts}{14}{subsection.2.9.13}
-\contentsline {section}{\numberline {2.10}Signatures and Agreement}{14}{section.2.10}
-\contentsline {section}{\numberline {2.11}Patent Annex}{15}{section.2.11}
-\contentsline {section}{\numberline {2.12}\sphinxstylestrong {Document Author(s):}}{15}{section.2.12}
-\contentsline {subsection}{\numberline {2.12.1}Si\IeC {\^o}n H. Buckler}{15}{subsection.2.12.1}
+\contentsline {subsection}{\numberline {2.1.2}Known and Corrected Issues}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Recently Updated Topics}{6}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Definitions}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Delivery, Closing and Consideration}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Delivery}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Closing}{7}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Consideration}{7}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Additional Payments}{7}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Transfer of Patents and Additional Rights; License Back}{7}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Assignment of Patents}{7}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Assignment of Additional Rights}{7}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Existing Licenses}{8}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}License Back}{8}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Reimbursement}{9}{subsection.2.4.5}
+\contentsline {section}{\numberline {2.5}Reversionary Interest}{9}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Buyer Must Remain in LOT Network for Two Years}{9}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Reversion to Google}{9}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}No Licence Back to Buyer}{9}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Additional Obligations}{9}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Further Cooperation}{9}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Common Interest Agreement}{10}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Disclosure of Licensees}{10}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}Representations and Warranties of Seller}{10}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Authority}{10}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Title}{10}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.3}Existing Licenses Clause}{10}{subsection.2.7.3}
+\contentsline {subsection}{\numberline {2.7.4}Special Conditions on Standards Essential Patents}{11}{subsection.2.7.4}
+\contentsline {section}{\numberline {2.8}Miscellaneous}{11}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Disclaimer of Representations and Warranties}{11}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Limitation of Liability}{11}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Limitation on Consequential Damages}{11}{subsection.2.8.3}
+\contentsline {subsection}{\numberline {2.8.4}Compliance with Laws}{11}{subsection.2.8.4}
+\contentsline {subsection}{\numberline {2.8.5}Confidentiality of Terms}{12}{subsection.2.8.5}
+\contentsline {subsection}{\numberline {2.8.6}Governing Law; Venue/ Juristiction}{12}{subsection.2.8.6}
+\contentsline {subsection}{\numberline {2.8.7}Notices}{12}{subsection.2.8.7}
+\contentsline {subsection}{\numberline {2.8.8}Relationship of Parties}{13}{subsection.2.8.8}
+\contentsline {subsection}{\numberline {2.8.9}Severability}{13}{subsection.2.8.9}
+\contentsline {subsection}{\numberline {2.8.10}Waiver}{13}{subsection.2.8.10}
+\contentsline {subsection}{\numberline {2.8.11}Termination}{13}{subsection.2.8.11}
+\contentsline {subsection}{\numberline {2.8.12}Miscellaneous Items}{13}{subsection.2.8.12}
+\contentsline {subsection}{\numberline {2.8.13}Counterparts}{14}{subsection.2.8.13}
+\contentsline {section}{\numberline {2.9}Signatures and Agreement}{14}{section.2.9}
+\contentsline {section}{\numberline {2.10}Patent Annex}{14}{section.2.10}
+\contentsline {section}{\numberline {2.11}\sphinxstylestrong {Document Author(s):}}{14}{section.2.11}
+\contentsline {subsection}{\numberline {2.11.1}Si\IeC {\^o}n H. Buckler}{15}{subsection.2.11.1}

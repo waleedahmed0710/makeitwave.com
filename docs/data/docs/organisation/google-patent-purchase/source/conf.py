@@ -1,7 +1,7 @@
 
-project = u'Wave® and Google Inc. Patents'
+project = u'Wave® & Google Inc. Patents'
 copyright = u'2018, Make it Wave Ltd. and Google Inc.'
-author = u'Kirk W. Dailey, Head of Patent Transactions, Google Inc.'
+author = u'Kirk W. Dailey, Google Inc.'
 
 version = u'0.0.2'
 release = u'0.0.2rc1'
@@ -56,8 +56,8 @@ latex_elements = {
 
 
 latex_documents = [
-    (master_doc, 'wave-organisation-google_patent_agreement.tex', u'Wave® and Google Inc. Patents',
-     u'Author(s): Kirk W. Dailey, Head of Patent Transactions, Google Inc.', 'manual'),
+    (master_doc, 'wave-organisation-google_patent_agreement.tex', u'Wave and Google Inc. Patents',
+     u'Author(s): Kirk W. Dailey, Google Inc.', 'manual'),
 ]
 
 

@@ -1,0 +1,76 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}All Wave\IeC {\textregistered } Financials - In one Place!}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Release Notes and Notices}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Version 0.0.1}{1}{subsection.1.1.1}
+\contentsline {subsubsection}{Older Versions}{1}{subsubsection*.3}
+\contentsline {subsubsection}{Version 0.0.0}{1}{subsubsection*.4}
+\contentsline {subsection}{\numberline {1.1.2}Known and Corrected Issues}{1}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Recently Updated Topics}{2}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Introduction}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Review \& Purchase}{2}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Wave\IeC {\textregistered } Royalty Tokens (WRT)}{2}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}WRT Master Register}{3}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}WRT ICO (by account)}{4}{subsection.1.3.2}
+\contentsline {subsubsection}{B Leonides}{4}{subsubsection*.5}
+\contentsline {subsubsection}{M Holmes}{4}{subsubsection*.6}
+\contentsline {subsubsection}{R James}{4}{subsubsection*.7}
+\contentsline {subsubsection}{S Barnes}{4}{subsubsection*.8}
+\contentsline {subsubsection}{C Gilder}{4}{subsubsection*.9}
+\contentsline {subsubsection}{P Beals}{4}{subsubsection*.10}
+\contentsline {subsubsection}{P Brown}{4}{subsubsection*.11}
+\contentsline {subsubsection}{M Hough}{4}{subsubsection*.12}
+\contentsline {subsubsection}{A Witcomb}{4}{subsubsection*.13}
+\contentsline {subsubsection}{D Owen}{4}{subsubsection*.14}
+\contentsline {subsubsection}{J Smith-Walker}{4}{subsubsection*.15}
+\contentsline {subsubsection}{R Davis}{4}{subsubsection*.16}
+\contentsline {subsubsection}{S Gates}{5}{subsubsection*.17}
+\contentsline {subsubsection}{C Doick}{5}{subsubsection*.18}
+\contentsline {subsubsection}{C Kell}{5}{subsubsection*.19}
+\contentsline {subsubsection}{S Purcell}{5}{subsubsection*.20}
+\contentsline {subsubsection}{C Chapman}{5}{subsubsection*.21}
+\contentsline {subsubsection}{T Marshall}{5}{subsubsection*.22}
+\contentsline {subsubsection}{C Marshall}{5}{subsubsection*.23}
+\contentsline {subsubsection}{H Davies}{5}{subsubsection*.24}
+\contentsline {subsubsection}{M Simpson}{5}{subsubsection*.25}
+\contentsline {subsubsection}{S Hume}{5}{subsubsection*.26}
+\contentsline {subsubsection}{B Pullen}{5}{subsubsection*.27}
+\contentsline {subsubsection}{G Caines}{5}{subsubsection*.28}
+\contentsline {subsubsection}{A Powell}{5}{subsubsection*.29}
+\contentsline {subsubsection}{M Preston}{5}{subsubsection*.30}
+\contentsline {subsubsection}{M Alexader}{5}{subsubsection*.31}
+\contentsline {subsubsection}{L Wallace}{5}{subsubsection*.32}
+\contentsline {subsubsection}{M Boyd}{5}{subsubsection*.33}
+\contentsline {subsubsection}{M MCarthy}{5}{subsubsection*.34}
+\contentsline {subsubsection}{S Hargreaves}{5}{subsubsection*.35}
+\contentsline {subsubsection}{G Stewart}{5}{subsubsection*.36}
+\contentsline {subsubsection}{S Reynolds}{5}{subsubsection*.37}
+\contentsline {subsubsection}{D Allen}{5}{subsubsection*.38}
+\contentsline {subsubsection}{J Davis}{5}{subsubsection*.39}
+\contentsline {subsubsection}{N Smith}{5}{subsubsection*.40}
+\contentsline {subsubsection}{D Marshall}{5}{subsubsection*.41}
+\contentsline {subsubsection}{A Vashi}{5}{subsubsection*.42}
+\contentsline {subsubsection}{H Pitcairn}{6}{subsubsection*.43}
+\contentsline {subsubsection}{C Pitcairn}{6}{subsubsection*.44}
+\contentsline {subsubsection}{L Allen}{6}{subsubsection*.45}
+\contentsline {subsubsection}{G Pitcairn}{6}{subsubsection*.46}
+\contentsline {subsubsection}{P Caines}{6}{subsubsection*.47}
+\contentsline {subsubsection}{Make it Wave Ltd (S Buckler)}{6}{subsubsection*.48}
+\contentsline {subsubsection}{E Young}{6}{subsubsection*.49}
+\contentsline {subsubsection}{J O\IeC {\textquoteright }Sullivan}{6}{subsubsection*.50}
+\contentsline {subsubsection}{Y Sakowitz}{6}{subsubsection*.51}
+\contentsline {subsubsection}{M Weaver}{6}{subsubsection*.52}
+\contentsline {subsubsection}{J Choudhury-Lucas}{6}{subsubsection*.53}
+\contentsline {subsubsection}{R Stevenson}{6}{subsubsection*.54}
+\contentsline {subsubsection}{B Naipaul}{6}{subsubsection*.55}
+\contentsline {subsubsection}{E Coldwell}{6}{subsubsection*.56}
+\contentsline {section}{\numberline {1.4}Wave\IeC {\textregistered } Interest Tokens (WIT)}{6}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}WIT Master Register}{6}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}WIT ICO (by account)}{6}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Balance Sheets}{6}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}2011 - 2013}{7}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}2014 - 2016}{8}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}2017 - 2019}{10}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}2020 - 2022}{12}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1.5.5}2023 - 2025}{14}{subsection.1.5.5}
+\contentsline {section}{\numberline {1.6}\sphinxstylestrong {Document Author(s):}}{16}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Si\IeC {\^o}n H. Buckler}{16}{subsection.1.6.1}

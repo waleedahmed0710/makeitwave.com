@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Wave® Memorandum and Articles'
+project = u'Wave Memorandum and Articles'
 copyright = u'2018, Make it Wave Ltd'
 author = u'Company Warehouse, Chelmsford (Essex)'
 
@@ -128,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'wave-organisation-memorandum_articles.tex', u'Wave® Memorandum and Articles',
+    (master_doc, 'wave-organisation-memorandum_articles.tex', u'Wave Memorandum and Articles',
      u'Author(s): Company Warehouse, Chelmsford (Essex)', 'manual'),
 ]
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wave-organisation-memorandum_articles', u'Wave® Memorandum and Articles',
+    (master_doc, 'wave-organisation-memorandum_articles', u'Wave Memorandum and Articles',
      [author], 1)
 ]
 
@@ -149,7 +149,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'wave-organisation-memorandum_articles', u'Wave® Memorandum and Articles',
+    (master_doc, 'wave-organisation-memorandum_articles', u'Wave Memorandum and Articles',
      author, 'wave-organisation-memorandum_articles', 'Memorandum and Articles of Association',
      'manual'),
 ]

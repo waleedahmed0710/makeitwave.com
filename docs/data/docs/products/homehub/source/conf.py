@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Wave® Home Hub™'
+project = u'Wave Home Hub™'
 copyright = u'2018, Make it Wave Ltd'
-author = u'Siôn H. Buckler, Founder & CEO of Wave® + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
+author = u'Siôn H. Buckler, Founder & CEO of Wave + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
 version = u'0.1'
@@ -38,7 +38,7 @@ release = u'0.0.1'
 # Add any Sphinx extenSiôn module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autosectionlabel', 'releases']
+extensions = ['sphinx.ext.autosectionlabel']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -127,8 +127,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'wave-products-home_hub.tex', u'Wave® Home Hub™',
-     u'Author(s): Siôn H. Buckler, Wave®', 'manual'),
+    (master_doc, 'wave-products-home_hub.tex', u'Wave Home Hub™',
+     u'Author(s): Siôn H. Buckler, Wave', 'manual'),
 ]
 
 
@@ -137,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wave-products-home_hub', u'Wave® Home Hub™',
+    (master_doc, 'wave-products-home_hub', u'Wave Home Hub™',
      [author], 1)
 ]
 
@@ -148,7 +148,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'wave-products-home_hub', u'Wave® Home Hub™',
+    (master_doc, 'wave-products-home_hub', u'Wave Home Hub™',
      author, 'wave-products-home_hub', 'Free Energy & Internet',
      'manual'),
 ]

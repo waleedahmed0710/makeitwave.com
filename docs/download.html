@@ -43,11 +43,13 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css" >
 		<link rel="stylesheet" href="css/featherlight.css" type="text/css">
-		<link rel="stylesheet" href="css/style.css">
-		<link href="css/footer.css" type="text/css" rel="stylesheet">
-		<link href="css/download-buttons.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+		<link href="css/store.css" rel="stylesheet" media="screen" type="text/css" />
+		<link rel="stylesheet" href="css/footer.css" type="text/css" >
+		<link rel="stylesheet" href="css/download-buttons.css" type="text/css">
 		<link rel="stylesheet" href="css/dropdownboxes.css">
-		<link href="css/glyphicon.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" href="css/glyphicon.css" type="text/css" >
+
 	
 		<style amp-custom>
 		.appstore-img-button-play {
@@ -103,7 +105,20 @@
 	}
 	
 	.segment-col-paragraph {min-height:unset!important;}
+	.cart-amount { word-spacing:-3px;}
+	.col-lg-4 { padding:2rem!important;}
+	.row {margin-top: -40px; padding-bottom: 26px;}
+	#sub-total {all:unset; color:white; font-weight:200;}
+	.add-to-cart {font-size:0.75rem; color:white!important;opacity:1!important;}
+	.btn:hover {color:white!Important; background-color: #333366!important; box-shadow: none;}
+	.btn { color:white!Important; background-color: transparent!important; box-shadow: inset 0 -21px 20px rgba(255,255,255,0.05);}
+	.add-to-cart2 {margin-top:3px!important; padding:6px 7px 1px 8px!important; margin-bottom:3px!important; min-width:100px!important;}
+	.info-button-text {display:block; padding:0px 0px 0px 2px!important; margin:0; width:85px; background-color:transparent; text-align:left!important;  font-size:0.75rem;}
+	.info-button-text2 {display:block; padding:0px 0px 0px 6px!important; margin:0; width:85px; background-color:transparent; text-align:left!important;  font-size:0.75rem;}
+	.product-paragraph {margin-top:15px;)
+
 	</style>
+	
 	
 
 		
@@ -155,7 +170,7 @@
 					
 					<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 
-				<div class="collapse navbar-collapse" id="navbarCollapse">
+			<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav mr-auto">
 						
 						<li class="nav-item">
@@ -163,17 +178,19 @@
 
 
 						<li class="nav-item">
-							<a class="nav-link" href="demo.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" >Experience</a>
+							<a class="nav-link" href="demo.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" >Demo</a>
 						</li>
-						
-							
+	
 						
 						<li class="nav-item">
 						</li>
 						
 
 						<li class="nav-item">
-							<a class="nav-link" href="store/index.html">Device Store</a>
+							<a class="nav-link" href="store/index.html">Products</a>
+						</li>
+						
+					
 						</li>
 						
 						<li class="nav-item">
@@ -182,6 +199,7 @@
 						<li class="nav-item">
 							<a class="nav-link" href="download.html">Software</a>
 						</li>
+											
 						
 						<li class="nav-item">
 						</li>
@@ -193,10 +211,15 @@
 						<li class="nav-item">
 						</li>
 						
+						<li class="nav-item">
+							<a class="nav-link" href="search.html"><span class="glyphicon glyphicon-search" style="color:white;zoom:0.9;"></span> Search</a>
+
+						</li>
+		
 								
 					</ul>
-				</div>
-					<div class="checkout-visibility-desktop"> 
+			</div>
+			<div class="checkout-visibility-desktop"> 
 						<a href="#" class="snipcart-checkout snipcart-checkout-text" >							
 							<div class="snipcart-summary checkout-details-desktop"> 
 								<p style="display:inline!important;">
@@ -207,121 +230,170 @@
 							</div>
 						</a>
 					</div>
-		</nav>
 		</header>
 		<div id="download"></div>
 		
-		<main role="main" class="main">
-		<a id="download-segment"></a>
-			<div class="segment-top" ></div>
-			<div class="segment" >
-				<div class="row" >
-				
-					<div class="col-lg-4">
-						<h1 class="segment-title" >Wave® Remote™</h1>
-						<p class="segment-paragraph" style="text-align:justify; padding: 0 2rem 0 2rem!Important;" > Below is the latest  <strong>FREE</strong> Mobile App, Source Code & Technical Docs, allowing you to remotely access your <u><a href="demo.html" target="_popup">Wave® Smart Home Dashboard</a></u>, for free, from anywhere in the world : </p>				
-		
-						<div class="download-buttons-div">
-							<div class="btn-group btn-download">
-								<p style="font-weight:lighter;">Latest Version: N/A </p>
-								
-								<div class="btn-group2 btn-group">
-								<a href="//play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup" class="appstore-img-button-play" style="filter:invert(50%)">
-								</a>
-									
-								</div>
-							
-								<div class="btn-group btn-group2">
-								<a href="//itunes.apple.com/us/app/dataplicity-terminal-for-pi/id921634512" target="_popup" class="appstore-img-button-apple" style="filter:invert(50%)">
-								</a>	
-								</div>								
-						<div class="btn-group btn-download">								
-									<a target="_popup"  class="btn btn-lg btn-info2" href="//dataplicity.io" style="margin-top:-2px!important;">
-										<i class="glyphicon glyphicon-eye-open" >&nbsp; </i>
-										<strong>Source Code </strong> 
-									</a> 
-									<a target="_popup" class="btn btn-lg btn-info2" href="//dataplicity.io" style="background-color:rgba(0,0,0,0.4)!important;">
-										<i class="glyphicon glyphicon-book">&nbsp; </i>
-										<strong>Documents </strong> &nbsp;
-									</a> 
-								</div>
-							</div>
-						</div>		
-							
+<div id="site" class="main">
+<div id="content" class="segment-top" >
+<div id="products" class="container" >
+<ul class="row">
+	<li class="col-lg-4">
+		<a id="product-1" ></a>
+					<img src="img/apps.png" class="product-image">
 
-					
-					</div>
-					
-					
+					<div class="product-description" data-name="Remote™" data-price="199.99">
+						<img class="navbar-brand" src="img/wave_logo.png">
+						<h3 class="product-name" style="margin-left:-12px;">Remote Access</br><b class="product-name-subtitle"></b></h3>
+				
 						
-					<div class="col-lg-4">
-									<h1 class="segment-title" >WaveOS™</h1>
-						<p class="segment-paragraph" style="text-align:justify; padding: 0 2rem 0 2rem!Important;"> Below is the latest <strong>FREE</strong>  Operating System, Source Code & Technical Docs from Wave®. Transforms almost any Single Board Computer into a Wave® Smart Home Device: </p>				
-		
-						<div class="download-buttons-div">
-							<div class="btn-group btn-download">
-								<p style="font-weight:lighter;">Latest Version: 0.4 </p>
-								<a target="_popup" class="btn btn-lg btn-success" href="//mega.nz/#!4aYSiJiS!S2VeWes_0SPgtxJD2yVxAYrVlQEsvFT_D1ft0Tt5As8">
-									<i class="glyphicon glyphicon-arrow-down">&nbsp; </i>
-									<strong>ISO</strong><span>&nbsp;  (500MB)</span>
-								</a>
-								
-								<a target="_popup" class="btn btn-lg btn-success" href="//mega.nz/#!0a4TgCzJ!uIMdWcIw7mlIHDW9Wmo7NC3sXgxjv4YvwP-Oq21kR88">
-									<i class="glyphicon glyphicon-compressed">&nbsp; </i>
-									<strong>ZIP</strong> <span>&nbsp;  (150MB)</span>
-								</a>
-									<a target="_popup"  class="btn btn-lg btn-info2" href="//github.com/unclehowell/WaveOS/blob/master/README.md" >
-									<i class="glyphicon glyphicon-eye-open">&nbsp; </i>
-									<strong>Source Code </strong> 
-								</a> 
-									<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true"  class="btn btn-lg btn-info2" href="data\docs\software\wave_os\build\html/index.html" style="background-color:rgba(0,0,0,0.4)!important;">
-									<i class="glyphicon glyphicon-book">&nbsp; </i>
-									<strong>Documents </strong> &nbsp;
-								</a> 
-							</div>
+<div style="height:62px!important;">
+							<table  style="left:0; right:0; width:70%; margin-left:auto		; margin-right:auto;">
+						
+								<tbody>
+									<tr>
+										<th scope="col" class="add-to-cart-columb-title" style="width: 49.9097%; height:inherit; padding:0px; margin:0px;">	</br><a href="//itunes.apple.com/us/app/dataplicity-terminal-for-pi/id921634512" target="_popup" class="appstore-img-button-apple" style="filter:invert(10%);  width:70px; display:block; margin:5px;  ">
+										</a>
+										</th>
+
+										<th scope="col" class="add-to-cart-columb-title" rowspan="2" style="width: 49.9097%;height:inherit; padding:0px; margin:0px;">   
+											<b class="add-to-cart"></br> <a href="//play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup" class="appstore-img-button-play" style="filter:invert(10%); width:70px; display:block;  margin:5px;">
+										</a></b>
+											</button>   
+										</th>
+									</tr>
+								</tbody>
+							</table>			
 						</div>
+						<p class="product-paragraph" style="margin-top:11px!important;">Multi-User, FREE Remote Access App to Monitor & Control your Wave® Smart Home™ from your mobile device wherever you are in the world. The mobile application connects using client-initiated HTTPS, so remote access to your Wave® Smart Home™ is always encrypted and safe without any need to configure firewalls.</b>
+						<p></p>
+
+						<a onclick="window.open('https://github.com/wildfoundry/dataplicity-agent')" class="btn add-to-cart-btn add-to-cart2" style="margin-left:-5px;margin-right:15px;" >
+						<span style="background-image: url(img/git-footer.png);
+    background-repeat: no-repeat;
+    background-position: 2px 0px;
+    display: inline-block;
+    zoom: 1.05;
+    width: 20px;
+    background-size: 16px;
+    margin-right: 3px;
+    margin-left: -2px;
+    float: left;" ></span> &nbsp; 
+						<b class="info-button-text2" style="margin-top:1px; margin-left:-1px;">The Code </b>
+						</a> 
+
+						<a onclick="window.open('https://docs.dataplicity.com/')" class="btn add-to-cart-btn add-to-cart2" >
+						<span class="glyphicon glyphicon-book" ></span> &nbsp;
+						<b class="info-button-text" style="margin-left:5px;">The Docs</b>
+						</a>
+						<a id="product-2"></a>
+					</div>	
+				</li>
+				
+			<li class="col-lg-4">
+					<img src="img/os.png" class="product-image">								
+					<div class="product-description" >
+
+						<img class="navbar-brand" src="img/wave_logo.png">
+						<h3 class="product-name">Operating System</br><b class="product-name-subtitle"></b></h3>
+						
+<div style="height:62px!important;">
+							<table  style="left:0; right:0; width:70%; margin-left:auto; margin-right:auto;">
+						
+								<tbody>
+									<tr>
+										<th scope="col" class="add-to-cart-columb-title" style="width: 49.9097%; height:inherit; padding:0px; margin:0px;">	</br>
+											<a onclick="window.open('https://mega.nz/#!4aYSiJiS!S2VeWes_0SPgtxJD2yVxAYrVlQEsvFT_D1ft0Tt5As8')" style="filter:invert(10%);  width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b style="font-size:12.5px; color:white;">	<i class="glyphicon glyphicon-arrow-down" style=" margin-left: 1px; margin-right: -7px; margin-top: 5px;">&nbsp; </i> <strong>ISO</strong><span>&nbsp;  (500MB)</b></span>
+											</a>
+										</th>
+
+										<th scope="col" class="add-to-cart-columb-title" style="width: 49.9097%; height:inherit; padding:0px; margin:0px;">	</br>
+											<a onclick="window.open('https://mega.nz/#!0a4TgCzJ!uIMdWcIw7mlIHDW9Wmo7NC3sXgxjv4YvwP-Oq21kR88')" style="filter:invert(10%);  width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b style="font-size:12.5px; color:white;">	<i class="glyphicon glyphicon-compressed" style="    margin-left: 1px;   margin-right: -7px;  margin-top: 5px;">&nbsp; </i>
+									<strong>ZIP</strong><span>&nbsp;  (150MB)</b></span>
+											</a>
+										</th>
+									</tr>
+								</tbody>
+							</table>			
+						</div>
+						
+						<p class="product-paragraph" style="margin-top:11px!important;">The latest version of the FREE Wave® Operating System (WaveOS™). Including Source Code & Operation Manual. Transforms almost any Single Board Computer into a Wave® Smart Home Device. Copy WaveOS™ to your devices Micro SD Card using the 2 Minute QuickStart Guide <a href="#quickstart"><u>below</u></a>.</b>
+						<p></p>
+
+						<a onclick="window.open('https://github.com/unclehowell/WaveOS/blob/master/README.md')" class="btn add-to-cart-btn add-to-cart2" style="margin-left:-5px;margin-right:15px;" >
+												<span style="background-image: url(img/git-footer.png);
+							background-repeat: no-repeat;
+							background-position: 2px 0px;
+							display: inline-block;
+							zoom: 1.05;
+							width: 20px;
+							background-size: 16px;
+							margin-right: 3px;
+							margin-left: -2px;
+							float: left;" ></span> &nbsp; 
+							<b class="info-button-text2" style="margin-top:1px; margin-left:-1px;">The Code </b>
+						</a> 
+
+						<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true"  href="data\docs\software\wave_os\build\html\index.html" class="btn add-to-cart-btn add-to-cart2" >
+						<span class="glyphicon glyphicon-book" ></span> &nbsp;
+						<b class="info-button-text" style="margin-left:5px;">The Docs</b>
+						</a>
+
+						
 					</div>
+				</li>
+
+				<li class="col-lg-4">
+
+					<img src="img/wallet.png" class="product-image">
+
+					<div class="product-description" >
+						<img class="navbar-brand" src="img/wave_logo.png">
+						<h3 class="product-name">Royalty Wallet</br><b class="product-name-subtitle"></b></h3>
 						
-					
-					
-				
-				<div class="col-lg-4">
-						<h1 class="segment-title" >Wave® Wallet™</h1>
-						<p class="segment-paragraph" style="text-align:justify; padding: 0 2rem 0 2rem!Important;">  Below is the <strong>FREE</strong> Mobile App, Source Code & Technical Docs allowing owners of our platforms 1 Billion Shares to receive royalities from the ads served to our global network of Wave® users:  </p>				
-		
-					<div class="download-buttons-div">
-							<div class="btn-group btn-download">
-								<p style="font-weight:lighter;">Latest Version: N/A </p>
-								
-								<div class="btn-group2 btn-group">
-								<a href="//trustwalletapp.com" target="_popup" class="appstore-img-button-play" style="filter:invert(50%)">
-								</a>
-									
-								</div>
-							
-								<div class="btn-group btn-group2">
-								<a href="//trustwalletapp.com" target="_popup" class="appstore-img-button-apple" style="filter:invert(50%)">
-								</a>	
-								</div>								
-						<div class="btn-group btn-download">								
-									<a target="_popup"  class="btn btn-lg btn-info2" href="//trustwalletapp.com" style="margin-top:-2px!important;">
-										<i class="glyphicon glyphicon-eye-open" >&nbsp; </i>
-										<strong>Source Code </strong> 
-									</a> 
-									<a target="_popup" class="btn btn-lg btn-info2" href="//trustwalletapp.com" style="background-color:rgba(0,0,0,0.4)!important;">
-										<i class="glyphicon glyphicon-book">&nbsp; </i>
-										<strong>Documents </strong> &nbsp;
-									</a> 
-								</div>
-							</div>
-						</div>		
+<div style="height:62px!important;">
+							<table  style="left:0; right:0; width:70%; margin-left:auto; margin-right:auto;">
 						
-				</div>
-					
-				
-				
-				</div>
+								<tbody>
+									<tr>
+										<th scope="col" class="add-to-cart-columb-title" style="width: 49.9097%; height:inherit; padding:0px; margin:0px;">	</br><a onclick="window.open('https://trustwalletapp.com/')" class="appstore-img-button-apple" style="filter:invert(10%);  width:70px; display:block; margin:5px;  ">
+										</a>
+										</th>
+
+										<th scope="col" class="add-to-cart-columb-title" rowspan="2" style="width: 49.9097%;height:inherit; padding:0px; margin:0px;">   
+											<b class="add-to-cart"></br> <a onclick="window.open('https://trustwalletapp.com/')"  class="appstore-img-button-play" style="filter:invert(10%); width:70px; display:block;  margin:5px;">
+										</a></b>
+											</button>   
+										</th>
+									</tr>
+								</tbody>
+							</table>			
+						</div>
+						<p class="product-paragraph" style="margin-top:11px!important;">The latest version of the FREE Cryptocurrency Wallet App, Source Code & User Guide. Used by <u><a href="invest.html">Financeers</a></u> to receive royalties from our Decentralised Autonomous Organisation (DAO). Store & Trade your Tokenized Shares and/or Promissary Notes and the re-occuring revenue these tokens generate.</b>
+						<p></p>
+
+						<a onclick="window.open('https://github.com/')" class="btn add-to-cart-btn add-to-cart2" style="margin-left:-5px;margin-right:15px;" >
+						<span style="background-image: url(img/git-footer.png);
+    background-repeat: no-repeat;
+    background-position: 2px 0px;
+    display: inline-block;
+    zoom: 1.05;
+    width: 20px;
+    background-size: 16px;
+    margin-right: 3px;
+    margin-left: -2px;
+    float: left;" ></span> &nbsp; 
+						<b class="info-button-text2" style="margin-top:1px; margin-left:-1px;">The Code </b>
+						</a> 
+
+						<a onclick="window.open('https://docs.trustwalletapp.com/')" class="btn add-to-cart-btn add-to-cart2" >
+						<span class="glyphicon glyphicon-book" ></span> &nbsp;
+						<b class="info-button-text" style="margin-left:2px;">User Guide</b>
+						</a>
+				</li>		
+			</ul>	
 			</div>
+			</div>			
+		
 		
 
 		
@@ -330,6 +402,7 @@
 				
 			<span class="sexy_line"></span>	
 			<div class="segment" >
+				<a id="quickstart"></a>
 				<h1 class="segment-title" ><b style="font-weight:bold;">2 Minute </b>&nbsp;Quickstart Guide</h1>
 					<div class="row" >
 						<div class="col-lg-4">
@@ -435,7 +508,7 @@
 													
 													
 													<li>
-															<h5 class="FooterNew-link-title" data-footerlink="footer-link"></br>Businesses</h5>
+															<h5 class="FooterNew-link-title" data-footerlink="footer-link"></br>Services</h5>
 														</a>
 													</li>
 													
@@ -547,15 +620,10 @@
 									</div>
 									
 									<div class="Grid-col Grid-col--tablet-3  Grid-col--desktopSmall-2 FooterNew-link-section">
-											<h5 class="FooterNew-link-title FooterNew-link-title--hideMobile">Apps</h5>
+											<h5 class="FooterNew-link-title FooterNew-link-title--hideMobile">WaveOS™ Alpha</h5>
 											<div class="FooterNew-appStoreIcons">
-												<a href="//itunes.apple.com/us/app/dataplicity-terminal-for-pi/id921634512" class="FooterNew-appStoreIcon" target="_blank"  data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" data-qtsb-label="GoToAppleStore" data-content="Free Wave® Application on the Apple Store - Remotely Access Your Free Internet and Free Energy Wave® Smart Home" Title="Download Wave® on the Apple App Store - Free Wave® Application on the Apple Store - Remotely Access Your Free Internet and Free Energy Wave® Smart Home">
-														<img class="FooterNew-appStoreIcon-image" src="ideal-footer/index_files/app-store-1f36bbd8.svg" alt="Apple App Store Badge">
-												</a>
-												<a href="https://play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" class="FooterNew-appStoreIcon" target="_blank" data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" data-qtsb-label="GoToPlayStore" data-content="Free Wave® Application on the Google Play Store - Remotely Access Your Free Internet and Free Energy Wave® Smart Home" Title="Get Wave® on Google Play - Free Wave® Application on the Google Play Store - Remotely Access Your Free Internet and Free Energy Wave® Smart Home">
-														<img class="FooterNew-appStoreIcon-image" src="ideal-footer/index_files/google-play-66442243.svg" alt="Google Play Store Badge">
-												</a>
-											</div>
+											<a onclick="window.open('https://mega.nz/#!4aYSiJiS!S2VeWes_0SPgtxJD2yVxAYrVlQEsvFT_D1ft0Tt5As8')" style="filter:invert(10%); width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b style="font-size:12.5px; color:white;" data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" data-qtsb-label="GoToWaveISO" data-content="WaveOS™.iso Latest Version, Direct Download - Freer Internet & Energy Solution" Title="WaveOS™.iso Latest Version, Direct Download - Freer Internet & Energy Solution"> <i class="glyphicon glyphicon-arrow-down" style=" margin-left: 5px; margin-right: -7px; margin-top: 5px;">&nbsp; </i> <strong>ISO</strong><span>&nbsp; (500MB)</b></span> </a>
+												<a onclick="window.open('https://mega.nz/#!0a4TgCzJ!uIMdWcIw7mlIHDW9Wmo7NC3sXgxjv4YvwP-Oq21kR88')" style="filter:invert(10%); width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b style="font-size:12.5px; color:white;" data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" data-qtsb-label="GoToWaveZIP" data-content="WaveOS™.zip Latest Version, Direct Download - Freer Internet & Energy Solution" Title="WaveOS™.zip Latest Version, Direct Download - Freer Internet & Energy Solution"> <i class="glyphicon glyphicon-compressed" style=" margin-left: 6px; margin-right: -6px; margin-top: 5px;">&nbsp; </i> <strong>ZIP</strong><span>&nbsp; (150MB)</b></span> </a> </div>
 
 											<div class="FooterNew-social">
 										<a class="FooterNew-social-icon Icon Icon--light" rel="nofollow" href="https://www.facebook.com/pages/makeitwave" target="_blank"  data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" data-qtsb-label="GoToFacebook" data-content="Like Wave® on Facebook and join our journey to make Free Internet and Free Energy Devices, Services, Products and Solutions - Like Wave® on Facebook Today" Title="Wave® on Facebook - Like Wave® on Facebook and join our journey to make Free Internet and Free Energy Devices, Services, Products and Solutions - Like Wave® on Facebook Today">

@@ -34,8 +34,8 @@ Below is the balance sheets, ranging from 2011 to the current date. Future data 
    
 
 
-2020 - 2022
-----------------------
+2020 - 2022 (forecast)
+---------------------------
 
 .. csv-table:: Wave® 2020 - 2022 Balance Sheet (28/12/2018)
    :file: _static/balance-sheets/2020-2022_balance-sheet.csv
@@ -44,8 +44,8 @@ Below is the balance sheets, ranging from 2011 to the current date. Future data 
    
 
 
-2023 - 2025
-----------------------
+2023 - 2025 (forecast)
+---------------------------
 
 .. csv-table:: Wave® 2023 - 2025 Balance Sheet (28/12/2018)
    :file: _static/balance-sheets/2023-2025_balance-sheet.csv

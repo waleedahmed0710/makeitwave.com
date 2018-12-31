@@ -1,4 +1,4 @@
-Legal Compliance & Warranty
+Legal Compliance & Warranty g
 ======================================================
 
 This appendix includes the following topics:
@@ -6,7 +6,7 @@ This appendix includes the following topics:
 • Regulatory Compliance
 • Warranty Information
 
-Regulatory Compliance
+Regulatory Compliance g
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 

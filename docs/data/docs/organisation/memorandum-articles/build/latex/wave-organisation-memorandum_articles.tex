@@ -55,7 +55,7 @@
 
 
 \title{Wave Memorandum and Articles}
-\date{Dec 15, 2018}
+\date{Dec 31, 2018}
 \release{0.0.1}
 \author{Author(s): Company Warehouse, Chelmsford (Essex)}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -78,339 +78,6 @@ Each subscriber to this memorandum of association wishes to form a company under
 Names of subscriber(s); \sphinxstylestrong{SION HYWEL BUCKLER}
 
 Dated: 14/05/2018
-
-
-\chapter{Changelog}
-\label{\detokenize{changelog:changelog}}\label{\detokenize{changelog::doc}}\begin{itemize}
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.6.1 \textless{}2018-07-02\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.5.1 \textless{}2018-07-02\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`73 backported{}`} (via {\color{red}\bfseries{}:issue:{}`77{}`}) Add support for Sphinx 1.7.x
-(while retaining support for previous versions of Sphinx). Thanks to Miro
-Hrončok for the patch.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.6.0 \textless{}2018-06-20\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`75{}`} Update \sphinxcode{\sphinxupquote{releases.util.parse\_changelog}} so it hands kwargs
-into \sphinxcode{\sphinxupquote{releases.util.make\_app}}, which in turn now accepts a
-\sphinxcode{\sphinxupquote{load\_extensions}} argument triggering loading of one’s configured
-extensions. This is only of interest if you’re using \sphinxcode{\sphinxupquote{parse\_changelog}}
-directly; it does not impact normal Releases usage.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.5.0 \textless{}2018-05-02\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`59{}`} Allow multiple changelog files \textendash{} \sphinxcode{\sphinxupquote{releases\_document\_name}}
-may now optionally be a list of strings instead of a single string. Thanks to
-William Minchin for the patch.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.4.2 \textless{}2018-04-27\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`74 backported{}`} We never pulled our README into our \sphinxcode{\sphinxupquote{setup.py}}
-metadata, resulting in a rather sparse PyPI page! This has been fixed. Thanks
-to Peter Demin for the report.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.4.1 \textless{}2018-03-28\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`73 backported{}`} Sphinx 1.7.x changed some semi-public APIs; given
-this is the second minor release in a row to do so, we’re explicitly
-bracketing our \sphinxcode{\sphinxupquote{setup.py}} dependencies to Sphinx \textgreater{}= 1.3 and \textless{} 1.7. We
-expect to bump this up one minor release at a time as we add compatibility
-back in.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.4.0 \textless{}2017-10-20\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`-{}`} Drop Python 2.6 and 3.3 support, to correspond with earlier
-changes in Sphinx and most other public Python projects.
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`- major{}`} Identified a handful of issues with our Sphinx pin \&
-subsequently, internal changes in Sphinx 1.6 which broke (and/or appear to
-break, such as noisy warnings) our own behavior. These have (hopefully) all
-been fixed.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.3.2 \textless{}2017-10-19\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`68 backported{}`} Update packaging requirements to allow for
-\sphinxcode{\sphinxupquote{sphinx\textgreater{}=1.3,\textless{}2}}. Thanks to William Minchin.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.3.1 \textless{}2017-05-18\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`60{}`} Report extension version to Sphinx for improved Sphinx debug
-output. Credit: William Minchin.
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`66{}`} (via {\color{red}\bfseries{}:issue:{}`67{}`}) Deal with some Sphinx 1.6.1 brokenness causing
-\sphinxcode{\sphinxupquote{AttributeError}} by leveraging \sphinxcode{\sphinxupquote{getattr()}}’s default-value argument.
-Thanks to Ian Cordasco for catch \& patch.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.3.0 \textless{}2016-12-09\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`-{}`} Add \sphinxcode{\sphinxupquote{releases.util}}, exposing (among other things) a highly
-useful \sphinxcode{\sphinxupquote{parse\_changelog(path)}} function that returns a user-facing dict
-representing a parsed changelog. Allows users to examine their changelogs
-programmatically and answer questions like “do I have any outstanding bugs in
-the 1.1 release line?”.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.2.1 \textless{}2016-07-25\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`51 backported{}`} Modernize release management so PyPI trove
-classifiers are more accurate, wheel archives are universal instead of Python
-2 only, and release artifacts are GPG signed.
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`56{}`} Fix exceptions that occurred when no release/issue link options
-were configured. Now those options are truly optional: release version and
-issue number text will simply display normally instead of as hyperlinks.
-Thanks to André Caron for the report.
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`36{}`} Changelogs with no releases whatsoever should still be viable
-instead of raising exceptions. This is now happily the case. All items in
-such changelogs will end up in a single “unreleased features” list, just as
-with regular prehistory entries. Thanks to Steve Ivy for initial report and
-André Caron for additional feedback.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.2.0 \textless{}2016-05-20\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`- major{}`} Fix formatting of release header dates; a “75\% text size”
-style rule has had an uncaught typo for some time.
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`55 major{}`} Non-annotated changelog line items (which implicitly become
-bugs) were incorrectly truncating their contents in some situations
-(basically, any time they included non-regular-text elements like monospace,
-bold etc). This has been fixed.
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`19{}`} Add \sphinxcode{\sphinxupquote{unstable\_prehistory}} option/mode for changelogs whose
-0.x release cycle is “rapid” or “unstable” and doesn’t closely follow normal
-semantic version-driven organization. See \DUrole{xref,std,std-ref}{unstable-prehistory}.
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`53 major{}`} Tweak newly-updated models so bugfix items prior to an
-initial release are considered ‘major bugs’ so they get rolled into that
-initial release (instead of causing a \sphinxcode{\sphinxupquote{ValueError}}).
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.1.0 \textless{}2016-04-28\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`45{}`} Add support for major version transitions (e.g. 1.0 to 2.0).
-
-\begin{sphinxadmonition}{note}{Note:}
-This adds a new install-time dependency: the \sphinxhref{https://python-semanticversion.readthedocs.io}{semantic\_version library}. It’s pure Python, so
-installation should be trivial.
-\end{sphinxadmonition}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`44 major{}`} Update one of our internal docutils-related classes for
-compatibility with Sphinx 1.4.x. Thanks to Gabi Davar for catch \& patch.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`1.0.0 \textless{}2015-11-05\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`42{}`} For readability, issues within each release so they are
-displayed in feature-\textgreater{}bug-\textgreater{}support order.
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`41{}`} Clean up changelog discovery so one can have comments,
-paragraphs or other non-bullet-list elements above or below the changelog.
-Thanks to Rodrigue Cloutier for the original request/patch.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.7.0 \textless{}2014-09-04\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`30 major{}`} Add LICENSE (plus a handful of other administrative files) to
-a \sphinxcode{\sphinxupquote{MANIFEST.in}} so sdists pick it up. Thanks to Zygmunt Krynicki for catch
-\& original patch ({\color{red}\bfseries{}:issue:{}`33{}`}).
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`21{}`} Allow duplicate issue numbers; not allowing them was
-technically an implementation detail. Thanks to Dorian Puła for the patch.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.6.1 \textless{}2014-04-06\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`-{}`} Fix a silly issue with the new feature from {\color{red}\bfseries{}:issue:{}`22{}`} where it
-accidentally referred to the Sphinx document \sphinxstyleemphasis{title} instead of the document
-\sphinxstyleemphasis{filename}.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.6.0 \textless{}2014-04-03\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`22{}`} Make the document name used as the changelog - previously
-hardcoded as \sphinxcode{\sphinxupquote{changelog}} (\sphinxcode{\sphinxupquote{.rst}}) - configurable. Thanks to James Mills
-for the feature request.
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`26{}`} Allow specifying Github path shorthand config option instead of
-explicit release/issue URL strings.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.5.3 \textless{}2014-03-15\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`25{}`} Empty/no-issue line items broke at some point; fixed.
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`24{}`} Broke inline issue parsing; fixed now.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.5.2 \textless{}2014-03-13\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`23{}`} Rework implementation to deal with issue descriptions that span
-more than one paragraph - subsequent paragraphs/blocks were not being
-displayed prior.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.5.1 \textless{}2014-02-11\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`-{}`} Fix silly bug in {\color{red}\bfseries{}:issue:{}`20{}`} that cropped up on Python 3.x.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.5.0 \textless{}2014-02-11\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`20{}`} Allow specifying minimum release line in bugfixes that don’t
-apply to all active lines (e.g. because they pertain to a recently added
-feature.)
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.4.0 \textless{}2013-12-24\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`17{}`} Allow releases to explicitly define which issues they include.
-Useful for overriding default assumptions (e.g. a special bugfix release from
-an otherwise dormant line.)
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.3.1 \textless{}2013-12-18\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`16{}`} Fix some edge cases regarding release ordering \& unreleased issue
-display. Includes splitting unreleased display info into two ‘Next release’
-pseudo-release entries.
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`15{}`} Add \DUrole{xref,std,std-doc}{/concepts} to flesh out some assumptions not
-adequately explained in \DUrole{xref,std,std-doc}{/usage}.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.3.0 \textless{}2013-11-21\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`11{}`} Fix up styling so changelogs don’t look suboptimal under \sphinxhref{http://ericholscher.com/blog/2013/nov/4/new-theme-read-the-docs/}{the
-new Read The Docs theme}. Still
-looks OK under their old theme too!
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`0{}`} Move to actual Sphinx docs so we can use ourselves.
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`0{}`} Created a basic test suite to protect against regressions.
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`9 major{}`} Clean up additional ‘unreleased’ display/organization
-behavior, including making sure ALL unreleased issues show up as
-‘unreleased’. Thanks to Donald Stufft for the report.
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`1{}`} (also {\color{red}\bfseries{}:issue:{}`3{}`}, {\color{red}\bfseries{}:issue:{}`10{}`}) Allow using \sphinxcode{\sphinxupquote{-}} or \sphinxcode{\sphinxupquote{0}} as a
-dummy issue ‘number’, which will result in no issue number/link being
-displayed.  Thanks to Markus Zapke-Gründemann and Hynek Schlawack for patches
-\& discussion.
-\begin{itemize}
-\item {} 
-This feature lets you categorize changes that aren’t directly related
-to issues in your tracker. It’s an improvement over, and replacement
-for, the previous “vanilla bullet list items are treated as bugs”
-behavior.
-
-\item {} 
-Said behavior (non-role-prefixed bullet list items turning into
-regular bugs) is being retained as there’s not a lot to gain from
-deactivating it.
-
-\end{itemize}
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.2.4 \textless{}2013.10.04\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`0 backported{}`} Handful of typos, doc tweaks \& addition of a
-.gitignore file.  Thanks to Markus Zapke-Gründemann.
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`0{}`} Fix duplicate display of “bare” (not prefixed with an issue role)
-changelog entries. Thanks again to Markus.
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`0 backported{}`} Edited the README/docs to be clearer about how
-Releases works/operates.
-
-\item {} 
-{\color{red}\bfseries{}:support:{}`0 backported{}`} Explicitly documented how non-role-prefixed line
-items are preserved.
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`0{}`} Updated non-role-prefixed line items so they get prefixed with a
-‘{[}Bug{]}’ signifier (since they are otherwise treated as bugfix items.)
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.2.3 \textless{}2013.09.16\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`0{}`} Fix a handful of bugs in release assignment logic.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.2.2 \textless{}2013.09.15\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`0{}`} Ensured Python 3 compatibility.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.2.1 \textless{}2013.09.15\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:bug:{}`0{}`} Fixed a stupid bug causing invalid issue hyperlinks.
-
-\item {} 
-{\color{red}\bfseries{}:release:{}`0.2.0 \textless{}2013.09.15\textgreater{}{}`}
-
-\item {} 
-{\color{red}\bfseries{}:feature:{}`0{}`} Basic functionality.
-
-\end{itemize}
 
 
 \chapter{Release Notes and Notices}
@@ -823,21 +490,28 @@ Details
 &
 Founder \& CEO
 &
-Make it Wave Ltd, British Company (England \& Wales), Limited by Shares, ID 11363386
+Make it Wave Ltd, British Corporation (England \& Wales), ID 11363386, Company Director
 \\
 \hline
 \noindent\sphinxincludegraphics{{ccu}.png}
 &
 Head of Defence
 &
-Caribbean Communications Unit, Royal Signals Association , Life Member ID 55983
+Caribbean Communications Unit (CCU), Royal Corps of Signals, Life Member ID 55983
+\\
+\hline
+\noindent\sphinxincludegraphics{{uarsociety1}.png}
+&
+Volunteer
+&
+Utilities as Rights (UaR) Society, British Crown Public Servant, Gov/Oath ID 25148537
 \\
 \hline
 \noindent\sphinxincludegraphics{{scottishbay}.png}
 &
-Prime Technocrat
+Entrepreneur in Residence
 &
-Scottish Bay DAO, Scottish Bay, British Crown Public Servant, 2024 Oath ID 25148537
+Scottish Bay, Dominican Republic
 \\
 \hline
 \end{tabulary}

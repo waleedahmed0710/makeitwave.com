@@ -1,245 +1,34 @@
-Wave® Royalty Tokens (WRT)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Wave® Tokens - Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Unlike companies which distribute funds to shareholders quarterly, or yearly, the Wave® DAO is able to distribute royalties to Royalty Token holders in real-time (daily/ hourly). 
-This is achieved using Etherium Cryptocurrency and Blockchain/ Smart Contract Technology. 
-Henceforth Wave® is able to automate the pooling of revenue from the networks advertisers & cryptocurreny miners and autonomously allocate and distribute this cryptocurrency to Token Holders in accordance with the latest WRT Master Register. 
+Wave® Royalty Token (WRT)
+--------------------------------------------
 
-WRT Master Register
-----------------------
+Unlike companies which distribute funds to shareholders quarterly, or yearly, the Wave® DAO is able to distribute royalties to WRT holders in real-time (daily/ hourly). 
+This is achieved using Ethereum Cryptocurrency and Blockchain/ Smart Contract Technology. 
+Wave® pools revenue from the networks advertisering & cryptocurreny mining activity and autonomously allocates and distributes this cryptocurrency to the wallet addresses listed on the latest WRT Master Register. 
 
-.. csv-table:: Wave® Royalty Tokens - Master Register (28/12/2018)
-   :file: _static/wrt-master-register.csv
-   :widths: 20, 20, 20, 20, 20
+
+.. csv-table:: Wave® Royalty Tokens (WRT) - Master Register
+   :file: _static/wrt-holders/wrt-master-register.csv
+   :widths: 40, 20, 20, 20
    :header-rows: 1
 
 
+
+
+Wave® Interest Token (WIT)
+----------------------------------------
+
+
+The same delivery methods used to give investors in Royalty Tokens their royalties, are employed by the Wave® DAO to offer lenders real-time interest on loans made to Wave®. 
+**Interest Tokens** can be used to receive real-time interest on loans, in much the same way royalties from our network are autonomously paid to Royalty Token holders.
+
+
+.. csv-table:: Wave® Interest Token (WIT) - Master Register
+   :file: _static/wit-holders/WIT-summary.csv
+   :widths: 40, 15, 15, 15, 15
+   :header-rows: 1
+
    
-WRT ICO (by account)
---------------------------------------
-
-See below the activity statements of the purchases of Royalty Tokens
-
-B Leonides
-##########
-
-   
-M Holmes
-#########
-
-
-R James
-#########
-
-
-S Barnes
-#########
-
-
-C Gilder
-#########
-
-
-P Beals
-#########
-
-
-P Brown
-#########
-
-
-M Hough
-#########
-
-
-A Witcomb
-#########
-
-
-D Owen
-#########
-
-
-J Smith-Walker
-##############
-
-
-R Davis
-#########
-
-
-S Gates
-#########
-
-
-C Doick
-#########
-
-
-C Kell
-#########
-
-
-S Purcell
-#########
-
-
-C Chapman
-#########
-
-
-T Marshall
-############
-
-
-C Marshall
-#############
-
-
-H Davies
-#########
-
-
-M Simpson
-#########
-
-
-S Hume
-#########
-
-
-B Pullen
-#########
-
-
-G Caines
-#########
-
-
-A Powell
-#########
-
-
-M Preston
-#########
-
-
-M Alexader
-###########
-
-
-L Wallace
-#########
-
-
-M Boyd
-#########
-
-
-M MCarthy
-#########
-
-
-S Hargreaves
-##############
-
-
-G Stewart
-#########
-
-
-S Reynolds
-##############
-
-
-D Allen
-#########
-
-
-J Davis
-#########
-
-
-N Smith
-#########
-
-
-D Marshall
-############
-
-
-A Vashi
-#########
-
-
-H Pitcairn
-############
-
-
-C Pitcairn
-###########
-
-
-L Allen
-#########
-
-
-G Pitcairn
-############
-
-
-
-P Caines
-############
-
-
-
-Make it Wave Ltd (S Buckler)
-############################
-
-
-
-E Young
-#########
-
-
-
-J O’Sullivan
-################
-
-
-
-Y Sakowitz
-################
-
-
-M Weaver
-################
-
-
-J Choudhury-Lucas
-####################
-
-
-
-R Stevenson
-#############
-
-
-
-B Naipaul
-############
-
-
-
-E Coldwell
-################
-
-
-
-
-
-
-
-
 

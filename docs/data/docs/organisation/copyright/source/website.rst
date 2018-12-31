@@ -1,4 +1,4 @@
-Wave® Copyright Notice 2018
+Wave® Website - Copyright Notice 2018
 ================================================
 
 Coming Soon

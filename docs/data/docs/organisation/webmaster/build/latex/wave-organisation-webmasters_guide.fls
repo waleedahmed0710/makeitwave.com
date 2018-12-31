@@ -260,9 +260,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT wave-logo.png
@@ -278,6 +278,11 @@ INPUT ./ccu.png
 INPUT ./ccu.png
 INPUT ccu.png
 INPUT ./ccu.png
+INPUT uarsociety1.png
+INPUT ./uarsociety1.png
+INPUT ./uarsociety1.png
+INPUT uarsociety1.png
+INPUT ./uarsociety1.png
 INPUT scottishbay.png
 INPUT ./scottishbay.png
 INPUT ./scottishbay.png
@@ -291,6 +296,10 @@ INPUT ccu.png
 INPUT ./ccu.png
 INPUT ccu.png
 INPUT ./ccu.png
+INPUT uarsociety1.png
+INPUT ./uarsociety1.png
+INPUT uarsociety1.png
+INPUT ./uarsociety1.png
 INPUT scottishbay.png
 INPUT ./scottishbay.png
 INPUT scottishbay.png

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  15 DEC 2018 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  31 DEC 2018 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1213,55 +1213,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 563--564
 <wave-logo.png, id=198, 200.75pt x 100.375pt>
 File: wave-logo.png Graphic file (type png)
  <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 612.
+Package pdftex.def Info: wave-logo.png used on input line 619.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
 <ccu.png, id=199, 200.75pt x 100.375pt>
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 612.
+Package pdftex.def Info: ccu.png used on input line 619.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<scottishbay.png, id=200, 200.75pt x 100.375pt>
+<uarsociety1.png, id=200, 200.75pt x 100.375pt>
+File: uarsociety1.png Graphic file (type png)
+ <use uarsociety1.png>
+Package pdftex.def Info: uarsociety1.png used on input line 619.
+(pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
+
+<scottishbay.png, id=201, 200.75pt x 100.375pt>
 File: scottishbay.png Graphic file (type png)
  <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 612.
+Package pdftex.def Info: scottishbay.png used on input line 619.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 File: wave-logo.png Graphic file (type png)
 
 <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 612.
-(pdftex.def)             Requested size: 137.34492pt x 68.6768pt.
+Package pdftex.def Info: wave-logo.png used on input line 619.
+(pdftex.def)             Requested size: 127.99892pt x 64.00084pt.
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 612.
-(pdftex.def)             Requested size: 137.34492pt x 68.6768pt.
+Package pdftex.def Info: ccu.png used on input line 619.
+(pdftex.def)             Requested size: 127.99892pt x 64.00084pt.
+File: uarsociety1.png Graphic file (type png)
+ <use uarsociety1.png>
+Package pdftex.def Info: uarsociety1.png used on input line 619.
+(pdftex.def)             Requested size: 127.99892pt x 64.00084pt.
 File: scottishbay.png Graphic file (type png)
  <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 612.
-(pdftex.def)             Requested size: 137.34492pt x 68.6768pt.
+Package pdftex.def Info: scottishbay.png used on input line 619.
+(pdftex.def)             Requested size: 127.99892pt x 64.00084pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
-[]\T1/ptm/m/n/10 Prime
- []
-
+[13 <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
 (./wave-organisation-evr_agreement.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 622.
- [13 <./wave-logo.png> <./ccu.png> <./scottishbay.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 622.
- (./wave-organisation-evr_agreement.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 622.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 622.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 629.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 629.
+
+(./wave-organisation-evr_agreement.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 629.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 629.
 Package rerunfilecheck Info: File `wave-organisation-evr_agreement.out' has not
  changed.
 (rerunfilecheck)             Checksum: A34C8F347F55AFCD1B7EBE2C01AA6F46;2130.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 622.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 629.
  ) 
 Here is how much of TeX's memory you used:
- 13708 strings out of 494945
- 190713 string characters out of 6181031
+ 13714 strings out of 494945
+ 190814 string characters out of 6181031
  278174 words of memory out of 5000000
- 16633 multiletter control sequences out of 15000+600000
+ 16637 multiletter control sequences out of 15000+600000
  43518 words of font info for 61 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  37i,12n,49p,1596b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1270,11 +1278,11 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-organisation-evr_agreement.pdf (17 pages, 128258 bytes).
+Output written on wave-organisation-evr_agreement.pdf (18 pages, 131692 bytes).
 
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

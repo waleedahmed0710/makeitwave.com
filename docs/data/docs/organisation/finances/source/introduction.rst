@@ -30,6 +30,6 @@ Details of the performance of the Tokens ICO's can be located under the Master R
 Review & Purchase
 ####################
 
-DAO activity is recorded on the Etherium blockchain for `public record <https://ethereum.org>`__. 
+The Wave® DAO activity will appear on the Ethereum blockchain for `public record <https://ethereum.org>`__. 
 To purchase Wave® Tokens please visit the investment section of our website: makeitwave.com
 

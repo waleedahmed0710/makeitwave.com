@@ -146,11 +146,11 @@ Article 12: Chairing of Directors’ Meetings
 
 `1.` The directors may appoint a director to chair their meetings. 
 
-`2.` The person so appointed for the time being is known as the chairman. 
+`2.` The person so appointed for the time being is known as the Secretary General. 
 
-`3.` The directors may terminate the chairman’ s appointment at any time. 
+`3.` The directors may terminate the Secretary General’ s appointment at any time. 
 
-`4.` If the chairman is not participating in a directors’ meeting within ten minutes of the time at which it was to start, the participating directors must appoint one of themselves to chair it.
+`4.` If the Secretary General is not participating in a directors’ meeting within ten minutes of the time at which it was to start, the participating directors must appoint one of themselves to chair it.
 
 
 .. _article 13:
@@ -158,9 +158,9 @@ Article 12: Chairing of Directors’ Meetings
 Article 13: Casting Vote
 ============================
 
-`1.` If the numbers of votes for and against a proposal are equal, the chairman or other director chairing the meeting has a casting vote. 
+`1.` If the numbers of votes for and against a proposal are equal, the Secretary General or other director chairing the meeting has a casting vote. 
 
-`2.` But this does not apply if, in accordance with the articles, the chairman or other director is not to be counted as participating in the decision-making process for quorum or voting purposes.
+`2.` But this does not apply if, in accordance with the articles, the Secretary General or other director is not to be counted as participating in the decision-making process for quorum or voting purposes.
 
 
 .. _article 14:
@@ -190,9 +190,9 @@ Article 14: Conflict of Interest
 	
 `5.` For the purposes of this article, references to proposed decisions and decision-making processes include any directors’ meeting or part of a directors’ meeting. 
 
-`6.` Subject to paragraph (7), if a question arises at a meeting of directors or of a committee of directors as to the right of a director to participate in the meeting (or part of the meeting) for voting or quorum purposes, the question may, before the conclusion of the meeting, be referred to the chairman whose ruling in relation to any director other than the chairman is to be final and conclusive. 
+`6.` Subject to paragraph (7), if a question arises at a meeting of directors or of a committee of directors as to the right of a director to participate in the meeting (or part of the meeting) for voting or quorum purposes, the question may, before the conclusion of the meeting, be referred to the Secretary General whose ruling in relation to any director other than the Secretary General is to be final and conclusive. 
 
-`7.` If any question as to the right to participate in the meeting (or part of the meeting) should arise in respect of the chairman, the question is to be decided by a decision of the5directors at that meeting, for which purpose the chairman is not to be counted as participating in the meeting (or that part of the meeting) for voting or quorum purposes.
+`7.` If any question as to the right to participate in the meeting (or part of the meeting) should arise in respect of the Secretary General, the question is to be decided by a decision of the5directors at that meeting, for which purpose the Secretary General is not to be counted as participating in the meeting (or that part of the meeting) for voting or quorum purposes.
 
 
 .. _article 15:

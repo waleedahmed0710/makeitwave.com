@@ -32,7 +32,7 @@ Siôn H. Buckler
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
 | .. image:: images/ccu.png           |            Head of Defence          | Caribbean Communications Unit (CCU), Royal Corps of Signals, Life Member ID 55983     |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
-| .. image:: images/uarsociety1.png   |               Volunteer	            | Utilities as Rights (UaR) Society, British Crown Public Servant, Gov/Oath ID 25148537 |
+| .. image:: images/uarsociety1.png   |               Chairman	            | Utilities as Rights (UaR) Society, British Crown Public Servant, Gov/Oath ID 25148537 |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
 | .. image:: images/scottishbay.png   |      Entrepreneur in Residence      | Scottish Bay, Dominican Republic                                                      |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+ 

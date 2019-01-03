@@ -13,9 +13,9 @@ In the articles, unless the context requires otherwise:
 
 **“bankruptcy”** - includes individual insolvency proceedings in a jurisdiction other than England and Wales or Northern Ireland which have an effect similar to that of bankruptcy;
 
-**“chairman”** - has the meaning given in article 12;
+**“Secretary General”** - has the meaning given in article 12;
 
-**“chairman of the meeting”** - has the meaning given in article 39;
+**“Secretary General of the meeting”** - has the meaning given in article 39;
 
 **“Companies Acts”** - means the Companies Acts (as defined in section 2 of the Companies Act 2006), in so far as they apply to the company;
 

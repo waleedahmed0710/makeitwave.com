@@ -60,13 +60,13 @@ Siôn H. Buckler
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
 |               Organisation          |              Role                   |                 Details                                                               |
 +=====================================+=====================================+=======================================================================================+
-| .. image:: images/wave-logo.png     |            Founder & CEO            | Make it Wave Ltd, British Corporation (England & Wales), ID 11363386, Company Director|
+| .. image:: images/wave-logo.png     |           Founder & CEO             | Make it Wave Ltd, British Corporation (England & Wales), Company Director ID 11363386 |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
-| .. image:: images/ccu.png           |            Head of Defence          | Caribbean Communications Unit (CCU), Royal Corps of Signals, Life Member ID 55983     |
+| .. image:: images/ccu.png           |          Head of Defence            | Caribbean Communications Unit (CCU), Royal Corps of Signals, Life Member ID 55983     |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
-| .. image:: images/uarsociety1.png   |               Chairman	            | Utilities as Rights (UaR) Society, British Crown Public Servant, Gov/Oath ID 25148537 |
+| .. image:: images/uarsociety1.png   |         Secretary General           | Utilities as Rights (UaR) Society, British Crown Public Servant, Gov/Oath ID 25148537 |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
-| .. image:: images/scottishbay.png   |      Entrepreneur in Residence      | Scottish Bay, Dominican Republic                                                      |
+| .. image:: images/scottishbay.png   |    Military Commander & Theorist    | Scottish Bay, Dominican Republic                                                      |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
 
 

@@ -387,6 +387,10 @@ cd ../../../../../../
 
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/tokens\n\n"
+sh tokens.sh
+sh wit-wallets.sh
+sh wrt-wallets.sh
+sh win-wallets.sh
 cp -r shared-resources/wave-logo.png organisation/tokens/source/images/wave-logo.png
 cp -r shared-resources/ccu.png organisation/tokens/source/images/ccu.png
 cp -r shared-resources/scottishbay.png organisation/tokens/source/images/scottishbay.png

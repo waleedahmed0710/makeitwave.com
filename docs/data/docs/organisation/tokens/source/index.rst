@@ -2,18 +2,19 @@ Wave Tokens
 ==================
 
 
-.. image:: images/fianancials.png
-
 
 .. toctree::
    :maxdepth: 2
    
    releasenotes
    introduction
-   investors
-   statements
-   
-   
+   wrt-summary
+   wrt-detail
+   wit-summary
+   wit-detail
+   win-summary
+   win-detail
+ 
  
    
 
@@ -35,9 +36,9 @@ Siôn H. Buckler
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
 | .. image:: images/ccu.png           |          Head of Defence            | Caribbean Communications Unit (CCU), Royal Corps of Signals, Life Member ID 55983     |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
-| .. image:: images/uarsociety1.png   |         Secretary General           | Utilities as Rights (UaR) Society, British Crown Public Servant, Gov/Oath ID 25148537 |
+| .. image:: images/uarsociety1.png   |         Council President           | Utilities as Rights (UaR) Society, British Crown Public Servant, Gov/Oath ID 25148537 |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
-| .. image:: images/scottishbay.png   |    Military Commander & Theorist    | Scottish Bay, Dominican Republic                                                      |
+| .. image:: images/scottishbay.png   |         Military Theorist           | Scottish Bay, Dominican Republic                                                      |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
 
 

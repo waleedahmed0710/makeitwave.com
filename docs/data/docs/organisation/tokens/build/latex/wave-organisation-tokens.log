@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  1 JAN 2019 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  9 JAN 2019 08:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1146,17 +1146,26 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `TS1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `TS1/ptm/b/n' tried instead on input line 10.
-)
+ [1
+
+])
 \tf@toc=\write6
 \openout6 = `wave-organisation-tokens.toc'.
 
- [1
+ [2]
+Chapter 1.
 
-] [2
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+[]|\T1/ptm/m/n/10 01-01-
+ []
 
-]
-<fianancials.png, id=99, 793.95212pt x 355.24268pt>
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 72.
+[1
+
+
+] [2]
+Chapter 2.
+<fianancials.png, id=435, 793.95212pt x 355.24268pt>
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 193.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1164,588 +1173,459 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 File: fianancials.png Graphic file (type png)
 
 <use fianancials.png>
-Package pdftex.def Info: fianancials.png used on input line 72.
+Package pdftex.def Info: fianancials.png used on input line 193.
 (pdftex.def)             Requested size: 469.75502pt x 210.18762pt.
- [1 <./fianancials.png>] [2
+ [3
 
-]
-Chapter 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-[]|\T1/ptm/m/n/10 01-11-
- []
-
-[3] [4]
-Chapter 2.
-[5
-
-] [6
-
-]
+ <./fianancials.png>] [4]
 Chapter 3.
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 212.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 219.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 212.
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 781--782
-[]|\T1/phv/m/n/10 Deposited
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 785--786
-[]|\T1/phv/m/n/10 Interest
- []
-
-LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <10> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 876.
-[8] [9] [10
+(Font)              Font shape `TS1/phv/b/n' tried instead on input line 219.
+ [5
 
 ]
+LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <10> not available
+(Font)              Font shape `TS1/phv/b/n' tried instead on input line 866.
+ [6]
 Chapter 4.
 
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 899--901
+Underfull \hbox (badness 10000) in paragraph at lines 891--893
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 916--918
+Underfull \hbox (badness 10000) in paragraph at lines 927--929
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 930--931
-[]|\T1/ptm/m/n/10 05/03/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 963--965
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 939--940
-[]|\T1/ptm/m/n/10 05/04/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 999--1001
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 948--949
-[]|\T1/ptm/m/n/10 16/05/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1037
+[]|\T1/phv/m/n/10 Balance
+ []
+
+[7
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1073
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 957--958
-[]|\T1/ptm/m/n/10 23/05/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1109
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 966--967
-[]|\T1/ptm/m/n/10 06/06/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1143--1145
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 975--976
-[]|\T1/ptm/m/n/10 20/06/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1179--1181
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 984--985
-[]|\T1/ptm/m/n/10 04/07/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1217
+[]|\T1/phv/m/n/10 Balance
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 1251--1253
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 993--994
-[]|\T1/ptm/m/n/10 19/07/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1287--1289
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1002--1003
-[]|\T1/ptm/m/n/10 01/08/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1323--1325
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1011--1012
-[]|\T1/ptm/m/n/10 08/08/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1442
+[]|\T1/phv/m/n/10 Balance
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 1476--1478
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1020--1021
-[]|\T1/ptm/m/n/10 15/08/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1521--1523
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1029--1030
-[]|\T1/ptm/m/n/10 04/10/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1557--1559
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1038--1039
-[]|\T1/ptm/m/n/10 17/10/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1595
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1047--1048
-[]|\T1/ptm/m/n/10 24/10/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1638--1640
+[]|\T1/phv/m/n/10 Balance
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 1674--1676
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1056--1057
-[]|\T1/ptm/m/n/10 15/11/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1710--1712
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1065--1066
-[]|\T1/ptm/m/n/10 28/11/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1746--1748
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1074--1075
-[]|\T1/ptm/m/n/10 09/12/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1791--1793
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1083--1084
-[]|\T1/ptm/m/n/10 24/01/14| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1092--1093
-[]|\T1/ptm/m/n/10 04/02/14| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1101--1102
-[]|\T1/ptm/m/n/10 03/03/14| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1110--1111
-[]|\T1/ptm/m/n/10 06/03/14| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1119--1120
-[]|\T1/ptm/m/n/10 17/03/14| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1128--1129
-[]|\T1/ptm/m/n/10 20/03/14| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1137--1138
-[]|\T1/ptm/m/n/10 25/03/14| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1146--1147
-[]|\T1/ptm/m/n/10 27/03/14| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1150--1151
-[]|\T1/ptm/m/n/10 10016.60| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1155--1156
-[]|\T1/ptm/m/n/10 27/03/14| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1159--1160
-[]|\T1/ptm/m/n/10 10216.60| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1164--1165
-[]|\T1/ptm/m/n/10 28/11/14| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1168--1169
-[]|\T1/ptm/m/n/10 11142.01| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1173--1174
-[]|\T1/ptm/m/n/10 20/03/15| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1177--1178
-[]|\T1/ptm/m/n/10 13142.01| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1182--1183
-[]|\T1/ptm/m/n/10 20/03/15| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1186--1187
-[]|\T1/ptm/m/n/10 15142.01| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1191--1192
-[]|\T1/ptm/m/n/10 23/07/15| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1195--1196
-[]|\T1/ptm/m/n/10 17141.01| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1200--1201
-[]|\T1/ptm/m/n/10 05/10/15| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1204--1205
-[]|\T1/ptm/m/n/10 17155.91| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1209--1210
-[]|\T1/ptm/m/n/10 08/10/15| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1213--1214
-[]|\T1/ptm/m/n/10 17360.81| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1218--1219
-[]|\T1/ptm/m/n/10 28/11/15| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1222--1223
-[]|\T1/ptm/m/n/10 18810.14| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1227--1228
-[]|\T1/ptm/m/n/10 28/11/16| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1231--1232
-[]|\T1/ptm/m/n/10 20691.16| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1236--1237
-[]|\T1/ptm/m/n/10 28/11/17| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1240--1241
-[]|\T1/ptm/m/n/10 22760.27| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1245--1246
-[]|\T1/ptm/m/n/10 28/11/18| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1249--1250
-[]|\T1/ptm/m/n/10 25036.30| 
+Underfull \hbox (badness 10000) in paragraph at lines 1827--1829
+[]|\T1/phv/m/n/10 Balance
  []
 
 [11]
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1274--1275
+Underfull \hbox (badness 10000) in paragraph at lines 1881--1883
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1279--1280
-[]|\T1/ptm/m/n/10 15/11/13| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1284--1285
-[]|\T1/ptm/m/n/10 28/11/13| 
- []
-
-
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1311--1312
+Underfull \hbox (badness 10000) in paragraph at lines 1917--1919
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1316--1317
-[]|\T1/ptm/m/n/10 05/04/13| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1318--1319
-[]|\T1/ptm/m/n/10 20000.00| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1320--1321
-[]|\T1/ptm/m/n/10 20000.00| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1325--1326
-[]|\T1/ptm/m/n/10 01/10/13| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1329--1330
-[]|\T1/ptm/m/n/10 25000.00| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1334--1335
-[]|\T1/ptm/m/n/10 28/11/13| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1338--1339
-[]|\T1/ptm/m/n/10 26208.33| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1343--1344
-[]|\T1/ptm/m/n/10 28/11/14| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1347--1348
-[]|\T1/ptm/m/n/10 28829.16| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1352--1353
-[]|\T1/ptm/m/n/10 09/01/15| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1356--1357
-[]|\T1/ptm/m/n/10 28979.16| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1361--1362
-[]|\T1/ptm/m/n/10 28/11/15| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1365--1366
-[]|\T1/ptm/m/n/10 31634.33| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1370--1371
-[]|\T1/ptm/m/n/10 28/11/16| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1374--1375
-[]|\T1/ptm/m/n/10 34797.76| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1379--1380
-[]|\T1/ptm/m/n/10 28/11/17| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1383--1384
-[]|\T1/ptm/m/n/10 38277.54| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1388--1389
-[]|\T1/ptm/m/n/10 11/01/17| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1392--1393
-[]|\T1/ptm/m/n/10 38467.54| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1397--1398
-[]|\T1/ptm/m/n/10 28/11/18| 
- []
-
-
-Overfull \hbox (2.9645pt too wide) in paragraph at lines 1401--1402
-[]|\T1/ptm/m/n/10 42311.92| 
- []
-
-
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1428--1429
+Underfull \hbox (badness 10000) in paragraph at lines 1953--1955
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1433--1434
-[]|\T1/ptm/m/n/10 15/11/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 1989--1991
+[]|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1438--1439
-[]|\T1/ptm/m/n/10 28/11/13| 
+Underfull \hbox (badness 10000) in paragraph at lines 2025--2027
+[]|\T1/phv/m/n/10 Balance
  []
 
 [12]
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1465--1466
+Underfull \hbox (badness 10000) in paragraph at lines 2061--2063
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1470--1471
-[]|\T1/ptm/m/n/10 15/11/13| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1475--1476
-[]|\T1/ptm/m/n/10 28/11/13| 
- []
-
-
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1502--1503
+Underfull \hbox (badness 10000) in paragraph at lines 2097--2099
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1507--1508
-[]|\T1/ptm/m/n/10 15/11/13| 
- []
-
-
-Overfull \hbox (1.02428pt too wide) in paragraph at lines 1512--1513
-[]|\T1/ptm/m/n/10 28/11/13| 
- []
-
-
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1544--1545
+Underfull \hbox (badness 10000) in paragraph at lines 2133--2135
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1593--1594
+Underfull \hbox (badness 10000) in paragraph at lines 2169--2171
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2205--2207
 []|\T1/phv/m/n/10 Balance
  []
 
 [13]
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1642--1643
+Underfull \hbox (badness 10000) in paragraph at lines 2259--2261
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1691--1692
+Underfull \hbox (badness 10000) in paragraph at lines 2295--2297
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1740--1741
+Underfull \hbox (badness 10000) in paragraph at lines 2340--2342
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1789--1790
+Underfull \hbox (badness 10000) in paragraph at lines 2376--2378
 []|\T1/phv/m/n/10 Balance
  []
 
 
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1838--1839
+Underfull \hbox (badness 10000) in paragraph at lines 2412--2414
 []|\T1/phv/m/n/10 Balance
  []
 
 [14]
-Overfull \hbox (1.59413pt too wide) in paragraph at lines 1887--1888
+Underfull \hbox (badness 10000) in paragraph at lines 2448--2450
 []|\T1/phv/m/n/10 Balance
  []
 
-[15] [16]
-Overfull \vbox (534.32408pt too high) has occurred while \output is active []
 
+Underfull \hbox (badness 10000) in paragraph at lines 2484--2486
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2520--2522
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2556--2558
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2592--2594
+[]|\T1/phv/m/n/10 Balance
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2630
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2664--2666
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2700--2702
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2736--2738
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2781--2783
+[]|\T1/phv/m/n/10 Balance
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2819
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2853--2855
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2889--2891
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2952--2954
+[]|\T1/phv/m/n/10 Balance
+ []
 
 [17] [18
 
 ]
 Chapter 5.
-<wave-logo.png, id=261, 200.75pt x 100.375pt>
+[19] [20
+
+]
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3129--3132
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3146--3149
+[]|\T1/phv/m/n/10 Balance
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 3522--3524
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3648--3650
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3747--3749
+[]|\T1/phv/m/n/10 Balance
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 3846--3848
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3909--3911
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4035--4037
+[]|\T1/phv/m/n/10 Balance
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 4125--4127
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4269--4271
+[]|\T1/phv/m/n/10 Balance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4350--4352
+[]|\T1/phv/m/n/10 Balance
+ []
+
+[24] [25] [26
+
+]
+Chapter 7.
+[27] [28
+
+]
+Chapter 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4474--4476
+[]|\T1/phv/m/n/10 Balance
+ []
+
+[29] [30
+
+]
+Chapter 9.
+<wave-logo.png, id=625, 200.75pt x 100.375pt>
 File: wave-logo.png Graphic file (type png)
  <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 2100.
+Package pdftex.def Info: wave-logo.png used on input line 4663.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<ccu.png, id=262, 200.75pt x 100.375pt>
+<ccu.png, id=626, 200.75pt x 100.375pt>
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 2100.
+Package pdftex.def Info: ccu.png used on input line 4663.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<uarsociety1.png, id=263, 200.75pt x 100.375pt>
+<uarsociety1.png, id=627, 200.75pt x 100.375pt>
 File: uarsociety1.png Graphic file (type png)
  <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 2100.
+Package pdftex.def Info: uarsociety1.png used on input line 4663.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<scottishbay.png, id=264, 200.75pt x 100.375pt>
+<scottishbay.png, id=628, 200.75pt x 100.375pt>
 File: scottishbay.png Graphic file (type png)
  <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 2100.
+Package pdftex.def Info: scottishbay.png used on input line 4663.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 File: wave-logo.png Graphic file (type png)
 
 <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 2100.
-(pdftex.def)             Requested size: 123.93823pt x 61.96994pt.
+Package pdftex.def Info: wave-logo.png used on input line 4663.
+(pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 2100.
-(pdftex.def)             Requested size: 123.93823pt x 61.96994pt.
-File: uarsociety1.png Graphic file (type png)
- <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 2100.
-(pdftex.def)             Requested size: 123.93823pt x 61.96994pt.
-File: scottishbay.png Graphic file (type png)
- <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 2100.
-(pdftex.def)             Requested size: 123.93823pt x 61.96994pt.
+Package pdftex.def Info: ccu.png used on input line 4663.
+(pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 4663--4663
+[]\T1/ptm/m/n/10 Head of
+ []
+
+File: uarsociety1.png Graphic file (type png)
+<use uarsociety1.png>
+Package pdftex.def Info: uarsociety1.png used on input line 4663.
+(pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4663--4663
+[]\T1/ptm/m/n/10 Coun-cil
+ []
+
+File: scottishbay.png Graphic file (type png)
+<use scottishbay.png>
+Package pdftex.def Info: scottishbay.png used on input line 4663.
+(pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4663--4663
+[]\T1/ptm/m/n/10 Mil-i-tary
+ []
+
+[31 <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
 (./wave-organisation-tokens.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2110.
- [19 <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>] [20
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2110.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4673.
+ [32]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4673.
  (./wave-organisation-tokens.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2110.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4673.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4673.
 
 Package rerunfilecheck Info: File `wave-organisation-tokens.out' has not change
 d.
-(rerunfilecheck)             Checksum: 47B2A8D9106E1D8F4750E68BAED0DCCF;2330.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2110.
+(rerunfilecheck)             Checksum: E08258844A7D68B3DEF92096841320E9;13845.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4673.
  ) 
 Here is how much of TeX's memory you used:
- 13791 strings out of 494945
- 191943 string characters out of 6181031
- 313118 words of memory out of 5000000
- 16668 multiletter control sequences out of 15000+600000
+ 13985 strings out of 494945
+ 194347 string characters out of 6181031
+ 322798 words of memory out of 5000000
+ 16794 multiletter control sequences out of 15000+600000
  44141 words of font info for 63 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 37i,12n,49p,1079b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,51p,1079b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-organisation-tokens.pdf (24 pages, 170181 bytes).
+Output written on wave-organisation-tokens.pdf (36 pages, 207923 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 118 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 702 PDF objects out of 1000 (max. 8388607)
+ 637 compressed objects within 7 object streams
+ 186 named destinations out of 1000 (max. 500000)
+ 670 words of extra memory for PDF output out of 10000 (max. 10000000)
 

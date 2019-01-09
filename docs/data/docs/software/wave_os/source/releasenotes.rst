@@ -32,7 +32,7 @@ Older Versions
 
 Below are references to older version releases and release notes: 
 
-.. csv-table:: Table 1.0 - Archieved versions of WaveOS™
+.. csv-table:: Table 1.0 - archived versions of WaveOS™
    :file: _static/firmware.csv
    :widths: 20, 20, 20, 20, 20
    :header-rows: 1

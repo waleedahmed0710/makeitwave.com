@@ -16,29 +16,30 @@ Older Versions
 ####################
 
 
-.. csv-table:: Table 1.0 - Older Versions of this Document
+.. csv-table:: Older Versions of this Document
    :file: _static/olderversions.csv
-   :widths: 25, 25, 25, 25
+   :widths: 20, 20, 20, 40
    :header-rows: 1
    
    
 Version 0.1.0
 ####################
 
-N/A
+- First Release
    
 
 Known and Corrected Issues
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Below is a table of pending issues which have been reported to our team. 
-	These issues will be cleared from this list as and when they are remedied. 
+These issues will be cleared from this list as and when they are remedied. 
 
-.. csv-table:: Table 1.1 - Known Issues
+.. csv-table:: Known Issues
    :file: _static/issues.csv
-   :widths: 10, 10, 20, 60
+   :widths: 15, 10, 20, 55
    :header-rows: 1
-   
+
+
 **Comments** - none 
 
 Recently Updated Topics

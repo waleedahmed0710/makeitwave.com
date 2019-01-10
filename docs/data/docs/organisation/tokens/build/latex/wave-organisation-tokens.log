@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  9 JAN 2019 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  10 JAN 2019 06:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1287,13 +1287,13 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4740.
 
 Package rerunfilecheck Info: File `wave-organisation-tokens.out' has not change
 d.
-(rerunfilecheck)             Checksum: 525AED31D4B73E87F9FEB02D4E21D88E;2560.
+(rerunfilecheck)             Checksum: 9C9F92E756E487236F4DF2B5F78A7FB6;2453.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4740.
  ) 
 Here is how much of TeX's memory you used:
  13914 strings out of 494945
- 193698 string characters out of 6181031
- 323395 words of memory out of 5000000
+ 193751 string characters out of 6181031
+ 323505 words of memory out of 5000000
  16727 multiletter control sequences out of 15000+600000
  44141 words of font info for 63 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
@@ -1303,7 +1303,7 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-organisation-tokens.pdf (32 pages, 198829 bytes).
+Output written on wave-organisation-tokens.pdf (32 pages, 199235 bytes).
 PDF statistics:
  431 PDF objects out of 1000 (max. 8388607)
  373 compressed objects within 4 object streams

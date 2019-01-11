@@ -129,10 +129,16 @@
     overflow: auto;
     margin-left: -1rem;
 }
-	</style> 
+
+.rssdog {
+    font-size:20pt;
+}
+</style>
+	
+	
 	
 	<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none} </style></noscript> 
-
+	
 	 </head> 
 	 
 	 <body bgcolor="#333366" onload="pageLoad()">		
@@ -162,7 +168,7 @@
 		
 		<div id="products" class="container" >	
 			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Recent Developments 2</h2>
-			<div id="results"></div>
+<iframe width="100%" height="750" frameborder="0" class="rssdog" src="https://www.rssdog.com/index.php?url=https%3A%2F%2Fgithub.com%2Funclehowell%2Fwaveos%2Fcommits%2Fmaster.atom&mode=html&showonly=&maxitems=3&showdescs=1&desctrim=0&descmax=0&tabwidth=100%25&showdate=1&linktarget=_blank&textsize=inherit&fullhtml=1&bordercol=%23d4d0c8&headbgcol=%23999999&headtxtcol=%23ffffff&titlebgcol=%23f1eded&titletxtcol=%23000000&itembgcol=%23ffffff&itemtxtcol=%23000000&ctl=0"></iframe>
 		</div>
 
 		<div id="products" class="container" >	
@@ -193,23 +199,6 @@
 })();
 </script>
 
-<script language="JavaScript">
-    $.ajax({
-         type: "GET",
-         cache: false,
-         dataType: "xml",
-         url: "https://github.com/unclehowell/makeitwave.com/commits/master.atom", //Requesting to proxy to get response from timeofindia
-         success: function(data) {
-             var $xml = $(data);
-            $xml.find("item").each(function() {
-                $("#results").append($(this).find("title").text()+":"+$(this).find("pubDate").text()+"<br>");
-            });
-        },
-        error : function(jqXHR, textStatus, errorThrown) {
-            alert("error: "+textStatus);
-        }
-   });
-</script>
 	
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
 		<script>

@@ -44,7 +44,7 @@
 		<link rel="stylesheet" href="../css/bootstrap.min.css" >
 		<link rel="stylesheet" href="../css/featherlight.css" type="text/css">
 		<link rel="stylesheet" href="../css/style.css" media="screen" type="text/css" />
-		<link href="../css/store.css" rel="stylesheet" media="screen" type="text/css" />
+		<link rel="stylesheet" href="../css/store.css" media="screen" type="text/css" />
 		<link rel="stylesheet" href="../css/footer.css" type="text/css" >
 		<link rel="stylesheet" href="../css/download-buttons.css" type="text/css">
 		<link rel="stylesheet" href="../css/dropdownboxes.css">
@@ -77,66 +77,68 @@
 		
 	
 
-	 <style amp-boilerplate>
-	 
-	 body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
-	 
-	 	 .rssincl-box-id {color: red; display: none;}
-         .rssincl-head  {color: green;}
-        .rssincl-title  {color: blue; display: none;}
-        .rssincl-content  {color: yellow;}
-		.rssincl-entry  {    height: inherit!important;    color: grey;    border: 1px solid grey;    border-radius: 16px;    margin: 0 0 24px 0!important;    max-width: 90vw;    padding: 41px 35px 0px 35px;}
-		.rssincl-itemfeedtitle {display: none;}
-		.rssincl-itemtitle  {color:#333366; font-weight: 800;  text-transform: uppercase; margin-top:2px; text-decoration:underline; }
-        .rssincl-itemdesc  {    color: grey;   line-height: 26px; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";}
-        .rssincl-itemdate  {    color: rgba(0,0,0,0.4);    float: left;    margin: 2px;    background-color: rgba(0,0,0,0.2);    padding: 5px 15px 5px 15px;    border-radius: 10px;
-    margin: -3px 20px 0px 0px;    font-weight: 700;}
-		.rssincl-itemauthor {color:grey; text-align: right;}
-
-	 .wrap {
-       width: 100vw;
-    height: 150%;
-    padding: 0;
-    overflow-y: hidden!important;
-	    overflow-x: hidden!important;
-}
-
-
-
-.frame {
-        width: 174%;
-    height: 130vh;
-    border: 0;
-    -ms-transform: scale(0.55);
-    -moz-transform: scale(0.55);
-    -o-transform: scale(0.55);
-    -webkit-transform: scale(0.55);
-    transform: scale(0.55);
-    -ms-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    overflow: auto;
-    margin-left: -1rem;
-}
-
-.rssdog {
-    font-size:20pt;
-}
-</style>
-	
-	
-	
-	<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none} </style></noscript> 
-	
-	 </head> 
-	 
-	 <body bgcolor="#333366" onload="pageLoad()">		
+		<style amp-boilerplate>
+			 
+			 body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+			 
+		#github-commits {border:1px solid rgba (0,0,0,0.05); border-radius:10px; padding:20px;}
 		
-		<div id="download"></div>
+		.github-commit a:hover, a:visited, a:link, a:active { text-decoration: none; }
+		.github-commit {  vertical-align: top!important;    margin-right: 20px;    min-height: 113px!important;    max-width: 50px!important;    background-color: rgba(0,0,0,0.02);  border-radius: 20px;    min-width: 700px!important;    padding: 10px 10px 10px 10px!important;    line-height: 28px;    border: 2px solid white;
+    width: 50%!important;    font-size: 14px;    overflow: hidden!important;    text-overflow: ellipsis!important;    -webkit-box-orient: vertical!important;    display: inline-block!Important;    margin-left: 0px;}
+
+	.github-commit title {  content: attr(title);  padding: 4px 8px;  color: #333;  position: absolute;  left: 0;  top: 100%;  white-space: nowrap;  z-index: 20px;
+  -moz-border-radius: 5px;  -webkit-border-radius: 5px;  border-radius: 5px;  -moz-box-shadow: 0px 0px 4px #222;  -webkit-box-shadow: 0px 0px 4px #222;  box-shadow: 0px 0px 4px #222;
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);  background-image: -o-linear-gradient(top, #eeeeee, #cccccc); }
+
+		.github-avatar {}
+		.github-user {  margin-right: 19px; margin-left: 19px!important;    background-color: #333366;    display: -webkit-inline-box;    padding: 14px;    color: white;    text-indent: -5px;
+    line-height: 17px!important;    max-height: 200px!Important;    border-radius: 20px;    max-width: 111px;    overflow: hidden!important;    border: 1px solid grey;
+    opacity: 0.8;}
 		
-<div id="site" class="main">
+		li {background-color: rgba(0,0,0,0.06);    margin: 10px;    padding: 10px;    border-radius: 10px;    border: 1px solid #333666; overflow: hidden!important; }
+
+		.wrap {
+			width: 100vw;
+			height: 150%;
+			padding: 0;
+			overflow-y: hidden!important;
+			overflow-x: hidden!important;
+			}
+
+
+
+		.frame {
+				width: 174%;
+			height: 130vh;
+			border: 0;
+			-ms-transform: scale(0.55);
+			-moz-transform: scale(0.55);
+			-o-transform: scale(0.55);
+			-webkit-transform: scale(0.55);
+			transform: scale(0.55);
+			-ms-transform-origin: 0 0;
+			-moz-transform-origin: 0 0;
+			-o-transform-origin: 0 0;
+			-webkit-transform-origin: 0 0;
+			transform-origin: 0 0;
+			overflow: auto;
+			margin-left: -1rem;
+		}
+
+		
+		</style>
+	
+	
+	
+		<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none} </style></noscript> 
+	
+	</head> 
+
+	<body bgcolor="#333366" onload="pageLoad()">
+	
+	<div id="site" class="main">
 	<div id="content" class="segment-top" >
 
 		<div id="products" class="container" >
@@ -149,21 +151,15 @@
 		</div>
 		
 
-
-		<div id="products" class="container" >	
-			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">RSSinclude.com (30 trial)</h2>
-			</br>
-			<div id="rssincl-box-container-1204120"></div></br>
-		</div>
-		</br>
-		</div>
-		
-		<div id="products" class="container" >	
-			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Recent Developments 2</h2>
-<iframe width="100%" height="" frameborder="0" class="rssdog" src="https://www.rssdog.com/index.php?url=https%3A%2F%2Fgithub.com%2Funclehowell%2Fwaveos%2Fcommits%2Fmaster.atom&mode=html&showonly=&maxitems=3&showdescs=1&desctrim=0&descmax=0&tabwidth=100%25&showdate=1&linktarget=_blank&textsize=inherit&fullhtml=1&bordercol=%23d4d0c8&headbgcol=%23999999&headtxtcol=%23ffffff&titlebgcol=%23f1eded&titletxtcol=%23000000&itembgcol=%23ffffff&itemtxtcol=%23000000&ctl=0"></iframe>
-		</div>
-
-
+			
+	  <div id="products" class="container" >	
+	
+					</br></br>
+			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Latest from Developers</h2>
+			<div id="github-commits"></div>
+	
+	  </div> 
+	 
 				
 		<div id="products" class="container" >	
 			</br>
@@ -178,31 +174,19 @@
 	</div>
 	
 
-  
-<script type="text/javascript">
-(function() {
-  var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
-  s.src = 'http://output77.rssinclude.com/output?type=asyncjs&id=1204120&hash=df0c4f70c3be7789635dd4479cac30cd';
-  document.getElementsByTagName('head')[0].appendChild(s);
-})();
-</script>
 
-	
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
-		<script>
-		window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/jquery-slim.min.js"><\/script>')
-		</script> 
-		<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script> 
-		<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>  
-		<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js"></script> <!-- The other .js fils -->
-		<script src="../js/scale.fix.js"></script> 
-		<script src="../js/jquery.min.js"></script> 
-		<script src="../js/jqvl-page.js"></script> 
-		<script src="../js/github-widget.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-	
-		
+	  
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+	  <script src="../js/github.commits.widget.js"></script>
+	  
+	  <script>
+		$(function() {
+			$('#github-commits').githubInfoWidget(
+				{ user: 'Unclehowell', repo: 'WaveOS', branch: 'master', last: 3, limitMessageTo: 300 });
+		});
+	  </script> 
 
+
+	  
 	</body>
-	
 </html>

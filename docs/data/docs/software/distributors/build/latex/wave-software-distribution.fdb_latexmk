@@ -1,9 +1,9 @@
 # Fdb version 3
-["makeindex wave-software-distribution.idx"] 1547085468 "wave-software-distribution.idx" "wave-software-distribution.ind" "wave-software-distribution" 1547085472
-  "wave-software-distribution.idx" 1547085471 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex wave-software-distribution.idx"] 1547238370 "wave-software-distribution.idx" "wave-software-distribution.ind" "wave-software-distribution" 1547238375
+  "wave-software-distribution.idx" 1547238374 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "wave-software-distribution.ind"
-["pdflatex"] 1547085470 "wave-software-distribution.tex" "wave-software-distribution.pdf" "wave-software-distribution" 1547085472
+["pdflatex"] 1547238373 "wave-software-distribution.tex" "wave-software-distribution.pdf" "wave-software-distribution" 1547238375
   "/etc/texmf/web2c/texmf.cnf" 1542675378 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -138,24 +138,24 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1488610416 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1542675794 127853 b41f58aff49fe1af38af8d065f49d51c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1542675777 719477 f2d8b6486516c91eaebe063dd9f3e035 ""
-  "ccu.png" 1547085448 39929 6ecf4b7467557b7f1f66e103dfe09415 ""
+  "ccu.png" 1547238353 39929 6ecf4b7467557b7f1f66e103dfe09415 ""
   "footnotehyper-sphinx.sty" 1543295005 8886 0562fcad2b7e25f93331edc6fc422c87 ""
-  "scottishbay.png" 1547085448 64550 4ba2fa0df92eb03217725096cb264a23 ""
+  "scottishbay.png" 1547238353 64550 4ba2fa0df92eb03217725096cb264a23 ""
   "sphinx.sty" 1543295005 68662 158e7929147502e48ab2fdf26a101dfd ""
-  "sphinxhighlight.sty" 1547085463 8137 b8d4ef963833564f6e4eadc09cd757c4 ""
+  "sphinxhighlight.sty" 1547238367 8137 b8d4ef963833564f6e4eadc09cd757c4 ""
   "sphinxmanual.cls" 1543295005 3589 0b0aac49c6f36925cf5f9d524a75a978 ""
   "sphinxmulticell.sty" 1543295005 14618 0defbdc8536ad2e67f1eac6a1431bc55 ""
-  "uarsociety1.png" 1547085448 38759 837cc66f6a00e1ec00b7385ff0934c83 ""
-  "wave-logo.png" 1547085448 42732 e3b368f2bec4cf8ee2532f089e693e0a ""
-  "wave-software-distribution.aux" 1547085472 25070 651ce716bfa420c463dd8bac561834ba ""
-  "wave-software-distribution.ind" 1547085468 0 d41d8cd98f00b204e9800998ecf8427e "makeindex wave-software-distribution.idx"
-  "wave-software-distribution.out" 1547085472 15642 567d5530e000484f9bc85191c51ca7c3 ""
-  "wave-software-distribution.tex" 1547085463 87731 b32cdc85b193749566dee958fd2bc563 ""
-  "wave-software-distribution.toc" 1547085472 8563 6a8a7eafbef3bb7c398c6cce48546fcc ""
+  "uarsociety1.png" 1547238353 38759 837cc66f6a00e1ec00b7385ff0934c83 ""
+  "wave-logo.png" 1547238353 42732 e3b368f2bec4cf8ee2532f089e693e0a ""
+  "wave-software-distribution.aux" 1547238374 25070 651ce716bfa420c463dd8bac561834ba ""
+  "wave-software-distribution.ind" 1547238370 0 d41d8cd98f00b204e9800998ecf8427e "makeindex wave-software-distribution.idx"
+  "wave-software-distribution.out" 1547238374 15642 567d5530e000484f9bc85191c51ca7c3 ""
+  "wave-software-distribution.tex" 1547238368 87731 0546026de279cd65a76a305d0061a0e9 ""
+  "wave-software-distribution.toc" 1547238374 8563 6a8a7eafbef3bb7c398c6cce48546fcc ""
   (generated)
   "wave-software-distribution.aux"
   "wave-software-distribution.pdf"
   "wave-software-distribution.out"
-  "wave-software-distribution.idx"
   "wave-software-distribution.log"
+  "wave-software-distribution.idx"
   "wave-software-distribution.toc"

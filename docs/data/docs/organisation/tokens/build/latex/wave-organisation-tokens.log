@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  10 JAN 2019 06:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  12 JAN 2019 00:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1202,14 +1202,14 @@ LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <14.4> not available
 
 ]
 LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <10> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 981.
+(Font)              Font shape `TS1/phv/b/n' tried instead on input line 991.
  [8] [9] [10]
 [11] [12
 
 ]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2286--2287
+Underfull \hbox (badness 10000) in paragraph at lines 2296--2297
 []|\T1/ptm/m/n/10 Seed-Round-J-Choudhury-
  []
 
@@ -1224,71 +1224,71 @@ Chapter 6.
 <wave-logo.png, id=354, 200.75pt x 100.375pt>
 File: wave-logo.png Graphic file (type png)
  <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 4730.
+Package pdftex.def Info: wave-logo.png used on input line 4742.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
 <ccu.png, id=355, 200.75pt x 100.375pt>
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 4730.
+Package pdftex.def Info: ccu.png used on input line 4742.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
 <uarsociety1.png, id=356, 200.75pt x 100.375pt>
 File: uarsociety1.png Graphic file (type png)
  <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 4730.
+Package pdftex.def Info: uarsociety1.png used on input line 4742.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
 <scottishbay.png, id=357, 200.75pt x 100.375pt>
 File: scottishbay.png Graphic file (type png)
  <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 4730.
+Package pdftex.def Info: scottishbay.png used on input line 4742.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 File: wave-logo.png Graphic file (type png)
 
 <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 4730.
+Package pdftex.def Info: wave-logo.png used on input line 4742.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 4730.
+Package pdftex.def Info: ccu.png used on input line 4742.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4730--4730
+Underfull \hbox (badness 10000) in paragraph at lines 4742--4742
 []\T1/ptm/m/n/10 Head of
  []
 
 File: uarsociety1.png Graphic file (type png)
 <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 4730.
+Package pdftex.def Info: uarsociety1.png used on input line 4742.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4730--4730
+Underfull \hbox (badness 10000) in paragraph at lines 4742--4742
 []\T1/ptm/m/n/10 Coun-cil
  []
 
 File: scottishbay.png Graphic file (type png)
 <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 4730.
+Package pdftex.def Info: scottishbay.png used on input line 4742.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4730--4730
+Underfull \hbox (badness 10000) in paragraph at lines 4742--4742
 []\T1/ptm/m/n/10 Mil-i-tary
  []
 
 [27 <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
 (./wave-organisation-tokens.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4740.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4752.
  [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 4740.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4752.
  (./wave-organisation-tokens.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4740.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4740.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4752.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4752.
 
 Package rerunfilecheck Info: File `wave-organisation-tokens.out' has not change
 d.
 (rerunfilecheck)             Checksum: 9C9F92E756E487236F4DF2B5F78A7FB6;2453.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4740.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4752.
  ) 
 Here is how much of TeX's memory you used:
  13914 strings out of 494945
@@ -1303,7 +1303,7 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-organisation-tokens.pdf (32 pages, 199235 bytes).
+Output written on wave-organisation-tokens.pdf (32 pages, 199382 bytes).
 PDF statistics:
  431 PDF objects out of 1000 (max. 8388607)
  373 compressed objects within 4 object streams

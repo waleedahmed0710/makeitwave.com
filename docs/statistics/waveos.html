@@ -58,7 +58,7 @@
 		<!-- Include the library. -->
 		<script  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
 		
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
 
 		<!-- Java -->
 		<script src="../js/lazy.min.js"></script>
@@ -71,21 +71,11 @@
 		</script>
 		
 		<!-- search box -->
-		<link rel="stylesheet" href="search-box/app.css">
+	
 		<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	
 		
-		<script>
-		$(document).ready(function() {
-    var url = window.location.href;
-    console.log(url);
-    if( url.indexOf('#') < 0 ) {
-        window.location.replace(url + "#");
-    } else {
-        window.location.replace(url);
-    }
-});</script>
-	<!-- Snipcart --> <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-autopop="false" data-api-key="YTBiMjkwMjktNTA4NS00ZjY4LTg4Y2QtODAzOTk4YTdiMzBhNjM2NzQyMTQwMDM0MzcyMDI0"></script> <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+	
 
 	 <style amp-boilerplate>
 	 
@@ -108,6 +98,7 @@
     height: 150%;
     padding: 0;
     overflow-y: hidden!important;
+	    overflow-x: hidden!important;
 }
 
 
@@ -160,24 +151,20 @@
 
 
 		<div id="products" class="container" >	
-			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Recent Developments (expire 30 days)</h2>
+			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">RSSinclude.com (30 trial)</h2>
 			</br>
 			<div id="rssincl-box-container-1204120"></div></br>
 		</div>
 		</br>
+		</div>
 		
 		<div id="products" class="container" >	
 			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Recent Developments 2</h2>
-<iframe width="100%" height="750" frameborder="0" class="rssdog" src="https://www.rssdog.com/index.php?url=https%3A%2F%2Fgithub.com%2Funclehowell%2Fwaveos%2Fcommits%2Fmaster.atom&mode=html&showonly=&maxitems=3&showdescs=1&desctrim=0&descmax=0&tabwidth=100%25&showdate=1&linktarget=_blank&textsize=inherit&fullhtml=1&bordercol=%23d4d0c8&headbgcol=%23999999&headtxtcol=%23ffffff&titlebgcol=%23f1eded&titletxtcol=%23000000&itembgcol=%23ffffff&itemtxtcol=%23000000&ctl=0"></iframe>
+<iframe width="100%" height="" frameborder="0" class="rssdog" src="https://www.rssdog.com/index.php?url=https%3A%2F%2Fgithub.com%2Funclehowell%2Fwaveos%2Fcommits%2Fmaster.atom&mode=html&showonly=&maxitems=3&showdescs=1&desctrim=0&descmax=0&tabwidth=100%25&showdate=1&linktarget=_blank&textsize=inherit&fullhtml=1&bordercol=%23d4d0c8&headbgcol=%23999999&headtxtcol=%23ffffff&titlebgcol=%23f1eded&titletxtcol=%23000000&itembgcol=%23ffffff&itemtxtcol=%23000000&ctl=0"></iframe>
 		</div>
 
-		<div id="products" class="container" >	
-		</br>
-			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Projects Surrounding This One</h2>
-			</br>
-			<div class="github-widget" data-user="unclehowell" data-options='{"sortBy": "stargazers_count"}'></div>
-		</div>
-					
+
+				
 		<div id="products" class="container" >	
 			</br>
 			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Programming Languages Used</h2>	
@@ -191,6 +178,7 @@
 	</div>
 	
 
+  
 <script type="text/javascript">
 (function() {
   var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;

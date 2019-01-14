@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  12 JAN 2019 00:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  14 JAN 2019 07:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1162,7 +1162,7 @@ LaTeX Font Info:    Font shape `TS1/ptm/bx/n' in size <10> not available
 ] [2
 
 ]
-<homehub.png, id=174, 200.75pt x 210.7875pt>
+<homehub.png, id=185, 200.75pt x 210.7875pt>
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -1186,7 +1186,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
 [3] [4]
 Chapter 2.
-<logo.png, id=203, 97.71718pt x 18.32198pt>
+<logo.png, id=213, 97.71718pt x 18.32198pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 201.
@@ -1194,13 +1194,13 @@ Package pdftex.def Info: logo.png used on input line 201.
  [5
 
  <./logo.png>]
-<ce.png, id=209, 70.2625pt x 60.225pt>
+<ce.png, id=219, 70.2625pt x 60.225pt>
 File: ce.png Graphic file (type png)
  <use ce.png>
 Package pdftex.def Info: ce.png used on input line 237.
 (pdftex.def)             Requested size: 70.26231pt x 60.22484pt.
 
-<norecycle.png, id=210, 80.3pt x 80.3pt>
+<norecycle.png, id=220, 80.3pt x 80.3pt>
 File: norecycle.png Graphic file (type png)
  <use norecycle.png>
 Package pdftex.def Info: norecycle.png used on input line 254.
@@ -1211,13 +1211,13 @@ File: norecycle.png Graphic file (type png)
 Package pdftex.def Info: norecycle.png used on input line 271.
 (pdftex.def)             Requested size: 80.29979pt x 80.29979pt.
  [6 <./ce.png> <./norecycle.png>]
-<warning.png, id=217, 75.28125pt x 65.24374pt>
+<warning.png, id=227, 75.28125pt x 65.24374pt>
 File: warning.png Graphic file (type png)
  <use warning.png>
 Package pdftex.def Info: warning.png used on input line 298.
 (pdftex.def)             Requested size: 75.28105pt x 65.24358pt.
 
-<caution.png, id=218, 75.28125pt x 65.24374pt>
+<caution.png, id=228, 75.28125pt x 65.24374pt>
 File: caution.png Graphic file (type png)
  <use caution.png>
 Package pdftex.def Info: caution.png used on input line 335.
@@ -1226,153 +1226,134 @@ Package pdftex.def Info: caution.png used on input line 335.
 Chapter 3.
 LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `TS1/phv/b/n' tried instead on input line 376.
-<config-1.png, id=229, 407.15492pt x 356.26056pt>
+<config-1.png, id=239, 407.15492pt x 356.26056pt>
 File: config-1.png Graphic file (type png)
  <use config-1.png>
 Package pdftex.def Info: config-1.png used on input line 384.
 (pdftex.def)             Requested size: 407.15393pt x 356.25969pt.
  [9
 
- <./config-1.png>] <dashboard.png, id=236, 401.5pt x 200.75pt>
-File: dashboard.png Graphic file (type png)
- <use dashboard.png>
-Package pdftex.def Info: dashboard.png used on input line 413.
-(pdftex.def)             Requested size: 401.49901pt x 200.7495pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
-[]|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 En-ergy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
-[]|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 Ve-hi-cle
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
-[]|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 Multi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--471
-[]|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 Sig-nal
- []
-
-[10 <./dashboard.png>]
+ <./config-1.png>] [10]
 File: homehub.png Graphic file (type png)
  <use homehub.png>
-Package pdftex.def Info: homehub.png used on input line 491.
+Package pdftex.def Info: homehub.png used on input line 459.
 (pdftex.def)             Requested size: 200.7495pt x 210.78699pt.
- [11]
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
+ <dashboard.png, id=255, 401.5pt x 200.75pt>
+File: dashboard.png Graphic file (type png)
+
+<use dashboard.png>
+Package pdftex.def Info: dashboard.png used on input line 485.
+(pdftex.def)             Requested size: 401.49901pt x 200.7495pt.
+ [11] [12 <./dashboard.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
 []|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 En-ergy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
+Underfull \hbox (badness 10000) in paragraph at lines 557--558
 []|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 Ve-hi-cle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--542
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
 []|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 Multi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 []|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 Sig-nal
  []
 
-[12]
-Chapter 4.
-[13
-
-] [14
+[13] [14
 
 ]
-Chapter 5.
+Chapter 4.
 [15] [16
 
 ]
+Chapter 5.
+[17] [18
+
+]
 Chapter 6.
-[17] [18] [19] [20] [21] [22] [23] [24
+[19] [20] [21] [22] [23] [24] [25] [26
 
 ]
 Chapter 7.
-<wave-logo.png, id=350, 200.75pt x 100.375pt>
+<wave-logo.png, id=371, 200.75pt x 100.375pt>
 File: wave-logo.png Graphic file (type png)
  <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 1132.
+Package pdftex.def Info: wave-logo.png used on input line 1128.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<ccu.png, id=351, 200.75pt x 100.375pt>
+<ccu.png, id=372, 200.75pt x 100.375pt>
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 1132.
+Package pdftex.def Info: ccu.png used on input line 1128.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<uarsociety1.png, id=352, 200.75pt x 100.375pt>
+<uarsociety1.png, id=373, 200.75pt x 100.375pt>
 File: uarsociety1.png Graphic file (type png)
  <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 1132.
+Package pdftex.def Info: uarsociety1.png used on input line 1128.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<scottishbay.png, id=353, 200.75pt x 100.375pt>
+<scottishbay.png, id=374, 200.75pt x 100.375pt>
 File: scottishbay.png Graphic file (type png)
  <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 1132.
+Package pdftex.def Info: scottishbay.png used on input line 1128.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 File: wave-logo.png Graphic file (type png)
 
 <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 1132.
+Package pdftex.def Info: wave-logo.png used on input line 1128.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 1132.
+Package pdftex.def Info: ccu.png used on input line 1128.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1132--1132
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1128
 []\T1/ptm/m/n/10 Head of
  []
 
 File: uarsociety1.png Graphic file (type png)
 <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 1132.
+Package pdftex.def Info: uarsociety1.png used on input line 1128.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1132--1132
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1128
 []\T1/ptm/m/n/10 Coun-cil
  []
 
 File: scottishbay.png Graphic file (type png)
 <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 1132.
+Package pdftex.def Info: scottishbay.png used on input line 1128.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1132--1132
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1128
 []\T1/ptm/m/n/10 Mil-i-tary
  []
 
-[25 <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
+[27 <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
 (./wave-products-storage_device.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1142.
- [26]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1142.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1138.
+ [28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1138.
  (./wave-products-storage_device.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1142.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1142.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1138.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1138.
 
 Package rerunfilecheck Info: File `wave-products-storage_device.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 252F0C238D0089C7A96699B1DCA5CAE3;4890.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1142.
+(rerunfilecheck)             Checksum: 23EEB66366298FFDA32517A87B73B0FD;5166.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1138.
  ) 
 Here is how much of TeX's memory you used:
- 13805 strings out of 494945
- 191704 string characters out of 6181031
- 277275 words of memory out of 5000000
- 16684 multiletter control sequences out of 15000+600000
+ 13819 strings out of 494945
+ 192004 string characters out of 6181031
+ 277547 words of memory out of 5000000
+ 16691 multiletter control sequences out of 15000+600000
  47634 words of font info for 67 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  37i,12n,49p,1574b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1382,10 +1363,10 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on wave-products-storage_device.pdf (30 pages, 244686 bytes).
+Output written on wave-products-storage_device.pdf (32 pages, 246814 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
- 105 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
 

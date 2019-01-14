@@ -386,25 +386,25 @@ sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
 cd ../../../../../../
 
 
-printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/tokens\n\n"
+printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for services/tokens\n\n"
 sh tokens.sh
 sh wit-wallets.sh
 sh wrt-wallets.sh
 sh win-wallets.sh
-cp -r shared-resources/wave-logo.png organisation/tokens/source/images/wave-logo.png
-cp -r shared-resources/ccu.png organisation/tokens/source/images/ccu.png
-cp -r shared-resources/scottishbay.png organisation/tokens/source/images/scottishbay.png
-cp -r shared-resources/uarsociety1.png organisation/tokens/source/images/uarsociety1.png
-cd organisation/tokens
+cp -r shared-resources/wave-logo.png services/tokens/source/images/wave-logo.png
+cp -r shared-resources/ccu.png services/tokens/source/images/ccu.png
+cp -r shared-resources/scottishbay.png services/tokens/source/images/scottishbay.png
+cp -r shared-resources/uarsociety1.png services/tokens/source/images/uarsociety1.png
+cd services/tokens
 make clean
 cd source/images
 rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/tokens ...\n\n"
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for services/tokens ...\n\n"
 make latexpdf
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for organisation/tokens ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for services/tokens ...Done!\n\n"
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
@@ -554,7 +554,6 @@ sed -i 's/#2980B9/#333366/g' theme.css
 sed -i 's/#343131/#333366/g' theme.css
 sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
 cd ../../../../../../
-
 
 
 printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for organisation/webmaster\n\n"

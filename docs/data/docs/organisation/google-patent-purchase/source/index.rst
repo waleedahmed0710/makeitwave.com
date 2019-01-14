@@ -46,13 +46,11 @@ Index
 **Document Author(s):** 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Kirk W. Dailey, Head of Patent Transactions, Google Inc.
+**Kirk W. Dailey, Head of Patent Transactions, Google Inc.**
 
 and
 
-=====================
-Siôn H. Buckler
-=====================
+**Siôn H. Buckler**
 
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
 |               Organisation          |              Role                   |                 Details                                                               |

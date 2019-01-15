@@ -4,12 +4,11 @@ Release Notes and Notices
 This section provides information about what is new or changed, including urgent issues, documentation updates, maintenance and new releases. 
 - 'Updates' are the term used to describe significant changes to our public source code and/or records. 
 
+
 Version 0.1.0
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+####################
 
-This document has the following updates since version 0.1.0 was published:
-
-- some records were incorrect - see the issues table (bad link). Fixed it! 
+- First Release
 
 
 Older Versions
@@ -21,11 +20,6 @@ Older Versions
    :widths: 20, 20, 20, 40
    :header-rows: 1
    
-   
-Version 0.1.0
-####################
-
-- First Release
    
 
 Known and Corrected Issues

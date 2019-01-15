@@ -100,7 +100,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'wave-organisation-tokens'
+htmlhelp_basename = 'wave-organisation-blockchain'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -127,7 +127,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'wave-organisation-tokens.tex', u'Wave Tokens',
+    (master_doc, 'wave-organisation-Blockchain.tex', u'Wave Blockchain',
      u'Author(s): Siôn H. Buckler, Wave', 'manual'),
 ]
 
@@ -137,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wave-organisation-tokens', u'Wave Blockchain',
+    (master_doc, 'wave-organisation-Blockchain', u'Wave Blockchain',
      [author], 1)
 ]
 

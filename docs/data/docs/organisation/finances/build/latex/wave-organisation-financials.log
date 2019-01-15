@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  15 JAN 2019 21:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  15 JAN 2019 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1731,12 +1731,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 5115--5115
 []\T1/ptm/m/n/10 Mil-i-tary
  []
 
-[29
-
- <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
 (./wave-organisation-financials.ind)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5125.
- [30]
+ [29
+
+ <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>] [30]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 5125.
  (./wave-organisation-financials.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5125.
@@ -1754,13 +1753,13 @@ Here is how much of TeX's memory you used:
  16691 multiletter control sequences out of 15000+600000
  44141 words of font info for 63 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 37i,12n,49p,1083b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,49p,921b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-organisation-financials.pdf (34 pages, 205978 bytes).
+Output written on wave-organisation-financials.pdf (34 pages, 205785 bytes).
 PDF statistics:
  441 PDF objects out of 1000 (max. 8388607)
  381 compressed objects within 4 object streams

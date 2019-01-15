@@ -503,7 +503,7 @@ Account 152 - (E-Coldwell)
    
    
 Account 401 - (M-Garza-&-Co)
----------------------------
+------------------------------
 
 
 .. csv-table:: Wave® Royalty Token (WRT) - Account ID: 401 (M-Garza-&-Co)

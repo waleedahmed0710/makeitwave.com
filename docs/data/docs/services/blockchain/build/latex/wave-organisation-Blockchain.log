@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  15 JAN 2019 21:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  15 JAN 2019 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**wave-organisation-tokens.tex
-(./wave-organisation-tokens.tex
+**wave-organisation-Blockchain.tex
+(./wave-organisation-Blockchain.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (./sphinxmanual.cls
@@ -979,12 +979,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 )
 \@indexfile=\write4
-\openout4 = `wave-organisation-tokens.idx'.
+\openout4 = `wave-organisation-Blockchain.idx'.
 
 
-Writing index file wave-organisation-tokens.idx
-(./wave-organisation-tokens.aux)
-\openout1 = `wave-organisation-tokens.aux'.
+Writing index file wave-organisation-Blockchain.idx
+(./wave-organisation-Blockchain.aux)
+\openout1 = `wave-organisation-Blockchain.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
@@ -1092,9 +1092,9 @@ LaTeX Info: Redefining \ref on input line 65.
 LaTeX Info: Redefining \pageref on input line 65.
 LaTeX Info: Redefining \nameref on input line 65.
 
-(./wave-organisation-tokens.out) (./wave-organisation-tokens.out)
+(./wave-organisation-Blockchain.out) (./wave-organisation-Blockchain.out)
 \@outlinefile=\write5
-\openout5 = `wave-organisation-tokens.out'.
+\openout5 = `wave-organisation-Blockchain.out'.
 
 Package hyperref Info: Option `pageanchor' set `false' on input line 68.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 68.
@@ -1136,63 +1136,63 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
- (./wave-organisation-tokens.toc
+ (./wave-organisation-Blockchain.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 10.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `TS1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `TS1/ptm/b/n' tried instead on input line 10.
+(Font)              Font shape `TS1/ptm/b/n' tried instead on input line 9.
+)
+\tf@toc=\write6
+\openout6 = `wave-organisation-Blockchain.toc'.
+
  [1
 
-])
-\tf@toc=\write6
-\openout6 = `wave-organisation-tokens.toc'.
+] [2
 
- [2] [1
-
-]
+] [1]
 [2
 
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--120
+Underfull \hbox (badness 10000) in paragraph at lines 1--118
 []|[][]$\T1/ptm/m/n/10 https : / / makeitwave . com / data /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--120
+Underfull \hbox (badness 10000) in paragraph at lines 1--118
 \T1/ptm/m/n/10 docs / organisation / tokens / build /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--120
+Underfull \hbox (badness 10000) in paragraph at lines 1--118
 \T1/ptm/m/n/10 html / _static / archive / 2015-[]07-[]01 _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--129
+Underfull \hbox (badness 10000) in paragraph at lines 1--127
 []|[][]$\T1/ptm/m/n/10 https : / / makeitwave . com / data /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--129
+Underfull \hbox (badness 10000) in paragraph at lines 1--127
 \T1/ptm/m/n/10 docs / organisation / tokens / build /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--129
+Underfull \hbox (badness 10000) in paragraph at lines 1--127
 \T1/ptm/m/n/10 html / _static / archive / 2019-[]01-[]09 _
  []
 
 [3] [4]
 Chapter 2.
-<fianancials.png, id=437, 793.95212pt x 355.24268pt>
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 193.
+<fianancials.png, id=92, 793.95212pt x 355.24268pt>
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 183.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1200,7 +1200,7 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 File: fianancials.png Graphic file (type png)
 
 <use fianancials.png>
-Package pdftex.def Info: fianancials.png used on input line 193.
+Package pdftex.def Info: fianancials.png used on input line 183.
 (pdftex.def)             Requested size: 469.75502pt x 210.18762pt.
  [5
 
@@ -1208,16 +1208,16 @@ Package pdftex.def Info: fianancials.png used on input line 193.
 
 ]
 Chapter 3.
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 202.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 192.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 202.
+(Font)              Font shape `TS1/phv/b/n' tried instead on input line 192.
  [7]
 LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <10> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 980.
+(Font)              Font shape `TS1/phv/b/n' tried instead on input line 970.
  [8] [9] [10]
 [11] [12
 
@@ -1231,92 +1231,92 @@ Chapter 5.
 
 ]
 Chapter 6.
-<wave-logo.png, id=591, 200.75pt x 100.375pt>
+<wave-logo.png, id=311, 200.75pt x 100.375pt>
 File: wave-logo.png Graphic file (type png)
  <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 3873.
+Package pdftex.def Info: wave-logo.png used on input line 3863.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<ccu.png, id=592, 200.75pt x 100.375pt>
+<ccu.png, id=312, 200.75pt x 100.375pt>
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 3873.
+Package pdftex.def Info: ccu.png used on input line 3863.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<uarsociety1.png, id=593, 200.75pt x 100.375pt>
+<uarsociety1.png, id=313, 200.75pt x 100.375pt>
 File: uarsociety1.png Graphic file (type png)
  <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 3873.
+Package pdftex.def Info: uarsociety1.png used on input line 3863.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<scottishbay.png, id=594, 200.75pt x 100.375pt>
+<scottishbay.png, id=314, 200.75pt x 100.375pt>
 File: scottishbay.png Graphic file (type png)
  <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 3873.
+Package pdftex.def Info: scottishbay.png used on input line 3863.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 File: wave-logo.png Graphic file (type png)
 
 <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 3873.
+Package pdftex.def Info: wave-logo.png used on input line 3863.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 3873.
+Package pdftex.def Info: ccu.png used on input line 3863.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3873--3873
+Underfull \hbox (badness 10000) in paragraph at lines 3863--3863
 []\T1/ptm/m/n/10 Head of
  []
 
 File: uarsociety1.png Graphic file (type png)
 <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 3873.
+Package pdftex.def Info: uarsociety1.png used on input line 3863.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3873--3873
+Underfull \hbox (badness 10000) in paragraph at lines 3863--3863
 []\T1/ptm/m/n/10 Coun-cil
  []
 
 File: scottishbay.png Graphic file (type png)
 <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 3873.
+Package pdftex.def Info: scottishbay.png used on input line 3863.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3873--3873
+Underfull \hbox (badness 10000) in paragraph at lines 3863--3863
 []\T1/ptm/m/n/10 Mil-i-tary
  []
 
-[25 <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
-(./wave-organisation-tokens.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3883.
- [26]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3883.
- (./wave-organisation-tokens.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3883.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3883.
+(./wave-organisation-Blockchain.ind)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3873.
+ [25 <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>] [26
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3873.
+ (./wave-organisation-Blockchain.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3873.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3873.
 
-Package rerunfilecheck Info: File `wave-organisation-tokens.out' has not change
-d.
-(rerunfilecheck)             Checksum: 9C1208E7F7FAD2C393AB2243C28FAC29;14344.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3883.
+Package rerunfilecheck Info: File `wave-organisation-Blockchain.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: 9BFD5F2C74C46D24D21383575F954677;1058.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3873.
  ) 
 Here is how much of TeX's memory you used:
- 13959 strings out of 494945
- 194014 string characters out of 6181031
- 308619 words of memory out of 5000000
- 16780 multiletter control sequences out of 15000+600000
+ 13888 strings out of 494945
+ 193092 string characters out of 6181031
+ 308583 words of memory out of 5000000
+ 16710 multiletter control sequences out of 15000+600000
  44141 words of font info for 63 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 37i,12n,51p,1079b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,45p,921b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-organisation-tokens.pdf (30 pages, 192753 bytes).
+Output written on wave-organisation-Blockchain.pdf (30 pages, 184197 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 606 compressed objects within 7 object streams
- 174 named destinations out of 1000 (max. 500000)
- 646 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 

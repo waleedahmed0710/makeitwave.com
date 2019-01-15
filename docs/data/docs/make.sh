@@ -38,7 +38,6 @@ cp -r shared-resources/uarsociety1.png products/homehub/source/images/uarsociety
 cd products/homehub
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -66,7 +65,6 @@ cp -r shared-resources/uarsociety1.png products/energymonitor/source/images/uars
 cd products/energymonitor
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -94,7 +92,6 @@ cp -r shared-resources/uarsociety1.png products/vehicletracker/source/images/uar
 cd products/vehicletracker
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -122,7 +119,6 @@ cp -r shared-resources/uarsociety1.png products/multiroom/source/images/uarsocie
 cd products/multiroom
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -150,7 +146,6 @@ cp -r shared-resources/uarsociety1.png products/signalbooster/source/images/uars
 cd products/signalbooster
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -178,7 +173,6 @@ cp -r shared-resources/uarsociety1.png products/storagedevice/source/images/uars
 cd products/storagedevice
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -205,7 +199,6 @@ cp -r shared-resources/uarsociety1.png products/warranty/source/images/uarsociet
 cd products/warranty
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -232,7 +225,6 @@ cp -r shared-resources/uarsociety1.png  software/dev_guide/source/images/uarsoci
 cd software/dev_guide
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -259,7 +251,6 @@ cp -r shared-resources/uarsociety1.png software/distributors/source/images/uarso
 cd software/distributors
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -286,7 +277,6 @@ cp -r shared-resources/uarsociety1.png software/wave_os/source/images/uarsociety
 cd software/wave_os
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -313,7 +303,7 @@ cd ../../../../../../
 # cd organisation/google-patent-purchase
 # make clean
 # cd source/images
-# rm -r homehub\ -\ Copy.png
+# 
 # cd ..
 # cd ..
 # make html
@@ -340,7 +330,6 @@ cp -r shared-resources/uarsociety1.png organisation/business/source/images/uarso
 cd organisation/business
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -367,7 +356,6 @@ cp -r shared-resources/uarsociety1.png organisation/finances/source/images/uarso
 cd organisation/finances
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -386,11 +374,15 @@ sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
 cd ../../../../../../
 
 
-printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for services/tokens\n\n"
+printf "\n\n${RED}Wave®${NC} - Getting Latest Blockchain Info \n\n" 
+
 sh tokens.sh
 sh wit-wallets.sh
 sh wrt-wallets.sh
 sh win-wallets.sh
+
+
+printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for services/tokens\n\n"
 cp -r shared-resources/wave-logo.png services/tokens/source/images/wave-logo.png
 cp -r shared-resources/ccu.png services/tokens/source/images/ccu.png
 cp -r shared-resources/scottishbay.png services/tokens/source/images/scottishbay.png
@@ -398,13 +390,42 @@ cp -r shared-resources/uarsociety1.png services/tokens/source/images/uarsociety1
 cd services/tokens
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
 printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for services/tokens ...\n\n"
 make latexpdf
 printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for services/tokens ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
+cd build/html
+sed -i 's/ View page source/ /g' *.html
+sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
+printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
+cd _static/css
+sed -i 's/#2980B9/#333366/g' theme.css
+sed -i 's/#343131/#333366/g' theme.css
+sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
+cd ../../../../../../
+
+
+printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for services/blockchain\n\n"
+sh tokens.sh
+sh wit-wallets.sh
+sh wrt-wallets.sh
+sh win-wallets.sh
+cp -r shared-resources/wave-logo.png services/blockchain/source/images/wave-logo.png
+cp -r shared-resources/ccu.png services/blockchain/source/images/ccu.png
+cp -r shared-resources/scottishbay.png services/blockchain/source/images/scottishbay.png
+cp -r shared-resources/uarsociety1.png services/blockchain/source/images/uarsociety1.png
+cd services/blockchain
+make clean
+cd source/images
+cd ..
+cd ..
+make html
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for services/blockchain ...\n\n"
+make latexpdf
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for services/blockchain ...Done!\n\n"
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
@@ -425,7 +446,6 @@ cp -r shared-resources/uarsociety1.png organisation/whitepaper/source/images/uar
 cd organisation/whitepaper
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -453,7 +473,6 @@ cp -r shared-resources/uarsociety1.png organisation/privacy/source/images/uarsoc
 cd organisation/privacy
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -481,7 +500,6 @@ cp -r shared-resources/uarsociety1.png organisation/copyright/source/images/uars
 cd organisation/copyright
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -509,7 +527,6 @@ cp -r shared-resources/uarsociety1.png organisation/terms/source/images/uarsocie
 cd organisation/terms
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -537,7 +554,6 @@ cp -r shared-resources/uarsociety1.png organisation/website/source/images/uarsoc
 cd organisation/website
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -564,7 +580,6 @@ cp -r shared-resources/uarsociety1.png organisation/webmaster/source/images/uars
 cd organisation/webmaster
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -592,7 +607,6 @@ cp -r shared-resources/uarsociety1.png organisation/memorandum-articles/source/i
 cd organisation/memorandum-articles
 make clean
 cd source/images
-rm -r homehub\ -\ Copy.png
 cd ..
 cd ..
 make html
@@ -609,7 +623,4 @@ sed -i 's/#2980B9/#333366/g' theme.css
 sed -i 's/#343131/#333366/g' theme.css
 sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
 cd ../../../../../../
-
-
-
 

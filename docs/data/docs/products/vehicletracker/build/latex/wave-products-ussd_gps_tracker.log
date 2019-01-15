@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  14 JAN 2019 07:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  15 JAN 2019 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1233,38 +1233,37 @@ Package pdftex.def Info: config-1.png used on input line 384.
 (pdftex.def)             Requested size: 407.15393pt x 356.25969pt.
  [9
 
- <./config-1.png>] [10] <homehub.png, id=255, 200.75pt x 210.7875pt>
-File: homehub.png Graphic file (type png)
- <use homehub.png>
-Package pdftex.def Info: homehub.png used on input line 459.
-(pdftex.def)             Requested size: 200.7495pt x 210.78699pt.
-
-<dashboard.png, id=256, 401.5pt x 200.75pt>
-File: dashboard.png Graphic file (type png)
- <use dashboard.png>
-Package pdftex.def Info: dashboard.png used on input line 485.
-(pdftex.def)             Requested size: 401.49901pt x 200.7495pt.
- [11 <./homehub.png>] [12 <./dashboard.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 552--553
+ <./config-1.png>] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
 []|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 En-ergy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
 []|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 Ve-hi-cle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 []|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 Multi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
 []|\T1/ptm/m/n/10 Wave\TS1/ptm/m/n/10 ® \T1/ptm/m/n/10 Sig-nal
  []
 
-[13] [14
+<homehub.png, id=257, 200.75pt x 210.7875pt>
+File: homehub.png Graphic file (type png)
+ <use homehub.png>
+Package pdftex.def Info: homehub.png used on input line 515.
+(pdftex.def)             Requested size: 200.7495pt x 210.78699pt.
+ [11 <./homehub.png>] <dashboard.png, id=264, 401.5pt x 200.75pt>
+File: dashboard.png Graphic file (type png)
+ <use dashboard.png>
+Package pdftex.def Info: dashboard.png used on input line 541.
+(pdftex.def)             Requested size: 401.49901pt x 200.7495pt.
+ [12 <./dashboard.png>] [13] [14
 
 ]
 Chapter 4.
@@ -1347,7 +1346,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1138.
 
 Package rerunfilecheck Info: File `wave-products-ussd_gps_tracker.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 23EEB66366298FFDA32517A87B73B0FD;5166.
+(rerunfilecheck)             Checksum: DE532D74F20C0CFD287007DF1A514254;5166.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1138.
  ) 
 Here is how much of TeX's memory you used:
@@ -1364,7 +1363,7 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on wave-products-ussd_gps_tracker.pdf (32 pages, 369743 bytes).
+Output written on wave-products-ussd_gps_tracker.pdf (32 pages, 369830 bytes).
 PDF statistics:
  439 PDF objects out of 1000 (max. 8388607)
  364 compressed objects within 4 object streams

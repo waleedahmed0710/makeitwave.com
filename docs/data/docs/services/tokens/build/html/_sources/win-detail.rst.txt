@@ -16,21 +16,3 @@ Unlike WRT & WIT, the Wave® Impact Notes sits alongside the ISP's in the DAO co
    :header-rows: 1
 
    
-Impact Note Accounts
-##################################
-
-See below the performance of the sales of the WIN Coins. 
-The statements have been grouped into accounts based on wallet addresses (or aliases).
-
-
-
-Account 301 - (Anonymous-2)
----------------------------
-
-
-.. csv-table:: Wave® Impact Notes (WIN) - Wallet 301 - Anonymous-2
-   :file: _static/win-coin/win-wallet-301.csv
-   :widths: 15, 35, 15, 15, 20
-   :header-rows: 1
-
-

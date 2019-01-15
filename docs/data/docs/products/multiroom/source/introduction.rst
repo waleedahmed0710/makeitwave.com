@@ -20,23 +20,6 @@ Wave® is a Highly Affordable, All-in-One, **Complete Smart Home Solution**. It'
 -  Access the Wave® Dashboard™ from Anywhere in the world using the Free Wave® Remote (Remote Access) Mobile App
 
 
-Wave® Operating System
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-For simplicity each product in the Wave® Smart Home™ uses the exact same hardware device and operating system. 
-The hardware devices are known as Single Board Computers (SBC's). 
-The  software is known as the Wave® Operating System (WaveOS™) and runs all of the devices in the Wave® Smart Home™. 
-
-WaveOS™ is Free, Open-Source and is held on a Micro SD Card inside of every Wave® Smart Home™ product. 
-WaveOS™ will boot the device up, establish an internet connection and generate a Wi-Fi Hotspot autonomously. 
-The operator can then connect their device to the Wi-Fi Hotspot and complete initial set-up via their web-browser.
-
-To complete initial set-up the operator must simply select which Edition of WaveOS™ they'd like installed to the device. 
-The Edition of WaveOS™ installed will determine which product the device will become (or which function the device will serve within the  Smart Home™). 
-For example, if the operator selects the Home Hub™ Edition of WaveOS™, it will transform the device a Wave® Home Hub™. 
-The initial installation is done via a web browser menu (no programming skills requires), it's one-click, fully autonomous and takes only a few minutes. 
-
-
 Wave® Hardware Devices
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -58,6 +41,41 @@ Handling Precaution
 **Safe Power Down & Disconnect**
 
 **General Maintenance & Care**
+
+
+
+Wave® Operating System
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For simplicity each product in the Wave® Smart Home™ uses the exact same hardware device and operating system. 
+The hardware devices are known as Single Board Computers (SBC's). 
+The  software is known as the Wave® Operating System (WaveOS™) and runs all of the devices in the Wave® Smart Home™. 
+
+WaveOS™ is Free, Open-Source and is held on a Micro SD Card inside of every Wave® Smart Home™ product. 
+WaveOS™ will boot the device up, establish an internet connection and generate a Wi-Fi Hotspot autonomously. 
+The operator can then connect their device to the Wi-Fi Hotspot and complete initial set-up via their web-browser.
+
+To complete initial set-up the operator must simply select which Edition of WaveOS™ they'd like installed to the device. 
+The Edition of WaveOS™ installed will determine which product the device will become (or which function the device will serve within the  Smart Home™). 
+For example, if the operator selects the Home Hub™ Edition of WaveOS™, it will transform the device a Wave® Home Hub™. 
+The initial installation is done via a web browser menu (no programming skills requires), it's one-click, fully autonomous and takes only a few minutes. 
+
+
+Wave® Enhacement Products
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+With the exclusion of the Wave® Home Hub™ and Neo Dome™, all products from Wave® are considered **Enhancement Products** since they are designed to enhance the experience and performance of the Home Hub™ and Neo Dome™. The quantity and configuration of these enhancement products will depend on the size of the users home, occupants and their personal preferences. Below is a list of the full range of Wave® Enhacement Products: 
+
+
+.. csv-table:: Table 1.0 - Wave's 'Enhacement' Products
+   :file: _static/enhancementproducts.csv
+   :widths: 20, 80
+   :header-rows: 1
+   
+   
+**NOTES:**
+	• The products above are to enhance the `Wave® Home Hub™ <https://makeitwave.com/data/docs/products/homehub/build/html/index.html>`__, and the `Wave® Neo Dome™ <https://makeitwave.com/data/docs/products/neodome/build/html/index.html>`__,. They **DO NOT** function independantly of the Home Hub™ and/or Neo Dome™. Please ensure you have one of the Wave® core products in place, before expecting full enjoyment and use of the above Enhacement Products. 
+
 
 
 
@@ -129,23 +147,6 @@ Receives info from the  Wave® USSD/GPS Tracker and displays location and batter
 	• Functions most effectively when all wireless devices connect exclusively to the Wave® Wi-Fi Hotspot
 	• Not designed to replace or function as a replacement internet modem/ router hotspot. 
 	
-
-Wave® Enhacement Products
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**The Home Hub™** experience can be improved even further by introducing other Wave® products, known as **Home Hub™ Enhancement Products**. The quantity and configuration of these enhancement products will depend on the size of the users home, occupants and their personal preferences. Below is a list of the full range of Wave® Home Hub™ Enhacement Products: 
-
-
-.. csv-table:: Table 1.0 - Wave's 'Enhacement' Products
-   :file: _static/enhancementproducts.csv
-   :widths: 20, 80
-   :header-rows: 1
-   
-   
-**NOTES:**
-	• The products above are to enhance the  `Wave® Home Hub™ <https://makeitwave.com/data/docs/products/homehub/build/html/index.html>`__,  experience and do not function independantly. Please ensure you have a  `Wave® Home Hub™ <https://makeitwave.com/data/docs/products/homehub/build/html/index.html>`__, in place, for these devices to communicate to. 
-
-
 
 
 Getting Started

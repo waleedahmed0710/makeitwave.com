@@ -29,7 +29,6 @@
   height: 21px;
   padding: 0 5px 0 23px;
   line-height: 21px;
-  background: transparent url('repostat.png') no-repeat 0 0;
 }
 .gw-watchers {
   background-position: 5px -2px;
@@ -44,3 +43,44 @@
 .gw-clearer {
   clear: left;
 }
+
+.dev-cal {text-align:center; display: block; margin-left: auto; margin-bottom:5rem; margin-right: auto; zoom:1.1; float:right; min-width: 100vw; }
+.dev-cal-div-top, .dev-cal-div{  width: inherit;
+  height: inherit;
+  position: inherit;
+  top: 0;
+  height: inherit;
+  left: 0; border:1px solid blue; margin-left:-10vw; }
+ 
+ .dev-cal-div { left: 0;  z-index: 10; border:1px solid red; height: 100px;}
+@media (max-width: 800px) and (orientation: portrait) {
+	 .gw-repo-outer { margin-left: 10vw;float:unset!important; width:unset!important;zoom:0.83;}
+	
+	 }
+	 
+	 	.gw-stats> { height:20px!important; }
+		.gw-stats>li { border:1px solid grey; display:inline!Important;  }
+		
+		.gw-forks { margin: 0px 2px 0 8px!important; padding: 1px 15px 0 63px;
+					line-height: 26px;
+					background: transparent url(../img/fork.png) no-repeat 0 0;
+					background-size: initial;
+					background-position: center;
+					align-content: right!important;
+					align-items: right!important;
+					text-align: -webkit-right!important;
+					}
+		
+		.gw-watchers {margin: 0px 2px 0 30px!important;
+					padding: 1px 12px 0 77px;
+					line-height: 26px;
+					background: transparent url(../img/watcher.png) no-repeat 0 0;
+					background-size: initial;
+					background-position: center;
+					align-content: right!important;
+					align-items: right!important;
+					text-align: -webkit-right!important;
+					}
+
+		* {box-sizing: border-box}
+	

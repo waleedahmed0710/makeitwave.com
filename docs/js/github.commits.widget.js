@@ -113,6 +113,7 @@ THE SOFTWARE.
                     var link = $('<a class="github-commit"></a>')
                       .attr("title", originalCommitMessage)
                       .attr("href", 'https://github.com/' + user + '/' + repo + '/commit/' + sha)
+					  .attr("target", '_popup')
                       .text(commitMessage);
 
                     return link;

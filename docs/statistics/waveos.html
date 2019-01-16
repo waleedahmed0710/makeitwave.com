@@ -39,7 +39,7 @@
 		<meta content="#ffffff" name="theme-color">
 
 		<!-- CSS -->
-		<link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" >
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 		<link rel="stylesheet" href="../css/bootstrap.min.css" >
 		<link rel="stylesheet" href="../css/featherlight.css" type="text/css">
@@ -58,7 +58,7 @@
 		<!-- Include the library. -->
 		<script  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
 		
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
 
 		<!-- Java -->
 		<script src="../js/lazy.min.js"></script>
@@ -79,33 +79,30 @@
 
 		<style amp-boilerplate>
 			 
-			 body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+		 body{   -webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
 			 
-		#github-commits {border:1px solid rgba (0,0,0,0.05); border-radius:10px; padding:20px;}
-		
-		.github-commit a:hover, a:visited, a:link, a:active { text-decoration: none; }
-		.github-commit { vertical-align: top!important; margin-right: 20px; min-height: 113px!important; max-width: 50px!important; background-color: rgba(0,0,0,0.02); border-radius: 20px; min-width: 700px!important; padding: 10px 10px 10px 10px!important; line-height: 28px; border: 2px solid white; width: 50%!important; font-size: 15px; overflow: hidden!important; text-overflow: ellipsis!important; -webkit-box-orient: vertical!important; display: inline-block!Important; margin-left: 0px; font-variant-caps: all-petite-caps!important; font-weight: 450;}
+			#github-commits {border:1px solid rgba (0,0,0,0.05); border-radius:10px; padding:20px;}
+			.github-commit a:hover, a:visited, a:link, a:active { text-decoration: none; }
+			.github-commit { vertical-align: top!important; margin-right: 20px; min-height: 113px!important; max-width: 50px!important; background-color: rgba(0,0,0,0.02); border-radius: 20px; min-width: 700px!important; padding: 10px 10px 10px 10px!important; line-height: 28px; border: 2px solid white; width: 50%!important; font-size: 15px; overflow: hidden!important; text-overflow: ellipsis!important; -webkit-box-orient: vertical!important; display: inline-block!Important; margin-left: 0px; font-variant-caps: all-petite-caps!important; font-weight: 450;}
 
-	.github-commit title {  content: attr(title);  padding: 4px 8px;  color: #333;  position: absolute;  left: 0;  top: 100%;  white-space: nowrap;  z-index: 20px;
-  -moz-border-radius: 5px;  -webkit-border-radius: 5px;  border-radius: 5px;  -moz-box-shadow: 0px 0px 4px #222;  -webkit-box-shadow: 0px 0px 4px #222;  box-shadow: 0px 0px 4px #222;
-  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
-  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);  background-image: -o-linear-gradient(top, #eeeeee, #cccccc); }
+			.github-commit title {  content: attr(title);  padding: 4px 8px;  color: #333;  position: absolute;  left: 0;  top: 100%;  white-space: nowrap;  z-index: 20px;
+		  -moz-border-radius: 5px;  -webkit-border-radius: 5px;  border-radius: 5px;  -moz-box-shadow: 0px 0px 4px #222;  -webkit-box-shadow: 0px 0px 4px #222;  box-shadow: 0px 0px 4px #222;
+		  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+		  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);  background-image: -o-linear-gradient(top, #eeeeee, #cccccc); }
 
 		.github-avatar {}
-		.github-user {  margin-right: 19px; margin-left: 19px!important;    background-color: #333366;    display: -webkit-inline-box;    padding: 14px;    color: white;    text-indent: -5px;
-    line-height: 17px!important;    max-height: 200px!Important;    border-radius: 20px;    max-width: 111px;    overflow: hidden!important;    border: 1px solid grey;
-    opacity: 0.8;}
+		.github-user {  margin-right: 19px; margin-left: 19px!important;    background-color: #333366;    display: -webkit-inline-box;    padding: 14px;    color: white;    text-indent: -5px; line-height: 17px!important;    max-height: 200px!Important;    border-radius: 20px;    max-width: 111px;    overflow: hidden!important;    border: 1px solid grey; opacity: 0.8;}
 		
-		li {background-color: rgba(0,0,0,0.06); margin: 10px; padding: 13px 13px 23px 13px; border-radius: 10px; border: 1px solid #333666; overflow: hidden!important; font-weight: lighter!important; vertical-align: top!important; display: flex!important; text-underline-position: under!important; min-width: 90%!important; max-width: 99%!important; }
+		li {background-color: rgba(0,0,0,0.06); margin: 10px; padding: 13px 13px 23px 13px; border-radius: 4px; border: 1px solid #333666; overflow: hidden!important; font-weight: lighter!important; vertical-align: top!important; display: flex!important; text-underline-position: under!important; min-width: 90%!important; max-width: 99%!important; }
 
 		.wrap {
+		
 			width: 100vw;
 			height: 150%;
 			padding: 0;
 			overflow-y: hidden!important;
 			overflow-x: hidden!important;
 			}
-
 
 
 		.frame {
@@ -125,8 +122,9 @@
 			overflow: auto;
 			margin-left: -1rem;
 		}
-
 		
+	
+
 		</style>
 	
 	
@@ -135,7 +133,7 @@
 	
 	</head> 
 
-	<body bgcolor="#333366" onload="pageLoad()">
+	<body bgcolor="#333366" onload="pageLoad()" style="overflow-x: hidden!important;">
 	
 	<div id="site" class="main">
 	<div id="content" class="segment-top" >
@@ -143,9 +141,9 @@
 		<div id="products" class="container" >
 			<h1 class="segment-title" style="margin:-2rem 0 0rem 0;" >Wave® Operating System (WaveOS™)</h1>
 			</br></br>
-			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Intensity of Development</h2>
+			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Development Calendar</h2>
 				</br>
-			<img style="text-align:center; display: block; margin-left: auto; margin-right: auto; zoom:1.1;" src="http://ghchart.rshah.org/333366/unclehowell" alt="Unclehowell's Github chart" />
+			<img class="dev-cal" src="http://ghchart.rshah.org/333366/unclehowell" alt="Unclehowell's Github chart" />
 				</br></br>
 		</div>
 		
@@ -156,9 +154,31 @@
 					</br></br>
 			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Latest from Developers</h2>
 			<div id="github-commits"></div>
+			<div style="    margin: -24px 30px 10px 27px!Important;
+    text-align: center!Important;
+    background-color: rgba(0,0,0,0.06);
+    padding: 13px 13px 23px 13px;
+    border-radius: 4px;
+    border: 1px solid #333666;
+    overflow: hidden!important;
+    font-weight: lighter!important;
+    vertical-align: top!important;
+    text-underline-position: under!important;
+    color: black;"><a href="https://github.com/unclehowell/WaveOS/commits" target="_popup"><u>See All</u> </a></div>
 	
+	
+
 	  </div> 
+	  	
 	 
+	 <div id="products" class="container" >
+</br></br>	 
+					
+				<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Related Projects</h2>
+					 </br> 
+					<div style="all:unset;!important" class="github-widget" data-user="unclehowell"  data-options='{"limit":3, "sortBy": "stargazers_count"}'></div>
+		</div>	
+		
 				
 		<div id="products" class="container" >	
 			</br>
@@ -170,22 +190,34 @@
 			
 		</div>	
 	
+		
 	</div>
 	
 
 
-	  
+	  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
-	  <script src="../js/github.commits.widget.js"></script>
-	  
+	    <script src="../js/github.commits.widget.min.js"></script>
+	  	<script src="../js/github.commits.widget.js"></script> 
+		<script src="../js/github-widget.js"></script>
+
 	  <script>
 		$(function() {
 			$('#github-commits').githubInfoWidget(
-				{ user: 'Unclehowell', repo: 'WaveOS', branch: 'master', last: 3, limitMessageTo: 300 });
+				{ user: 'Unclehowell', repo: 'waveos', branch: 'master', last: 3, limitMessageTo: 300 });
 		});
 	  </script> 
-
-
+	
+	  <script>
+window.onload = function(){
+  var anchors = document.getElementsByTagName('a');
+  for (var i=0; i<anchors.length; i++){
+    if (anchors[i].hostname != window.location.hostname) {
+        anchors[i].setAttribute('target', '_blank');
+    }
+  }
+}
+	  </script>
 	  
 	</body>
 </html>

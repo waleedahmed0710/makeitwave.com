@@ -127,6 +127,10 @@
 		}
 
 		
+		
+	
+	
+		
 		</style>
 	
 	
@@ -135,7 +139,7 @@
 	
 	</head> 
 
-	<body bgcolor="#333366" onload="pageLoad()">
+	<body bgcolor="#333366" onload="pageLoad()" style="overflow-x: hidden!important;">
 	
 	<div id="site" class="main">
 	<div id="content" class="segment-top" >
@@ -143,13 +147,13 @@
 		<div id="products" class="container" >
 			<h1 class="segment-title" style="margin:-2rem 0 0rem 0;" >Wave® Website (makeitwave.com)</h1>
 			</br></br>
-			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Intensity of Development</h2>
+			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Development Calendar</h2>
 				</br>
-			<img style="text-align:center; display: block; margin-left: auto; margin-right: auto; zoom:1.1;" src="http://ghchart.rshah.org/333366/unclehowell" alt="Unclehowell's Github chart" />
+			<img style="z-index: 1;" class="dev-cal" src="http://ghchart.rshah.org/333366/unclehowell" alt="Unclehowell's Github chart" />
 				</br></br>
 		</div>
 		
-
+</br></br>
 			
 	  <div id="products" class="container" >	
 	
@@ -157,7 +161,13 @@
 			<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Latest from Developers</h2>
 			<div id="github-commits"></div>
 	
-	  </div> 
+	  </div>
+
+<div id="products" class="container" >	
+				
+						<h2 class="segment-subtitle" style="text-align:center; display: block; margin-left: auto; margin-right: auto;">Related Projects</h2>
+				  <div class="github-widget" data-user="unclehowell" data-options='{"limit":3, "sortBy": "stargazers_count"}'></div>
+	</div>		  
 	 
 				
 		<div id="products" class="container" >	
@@ -169,6 +179,8 @@
 			</div>
 			
 		</div>	
+		
+			
 	
 	</div>
 	
@@ -176,8 +188,11 @@
 
 	  
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
-	  <script src="../js/github.commits.widget.js"></script>
-	  
+
+	  	    <script src="../js/github.commits.widget.min.js"></script>
+	  	<script src="../js/github.commits.widget.js"></script> 
+				<script src="../js/github-widget.js"></script>
+	
 	  <script>
 		$(function() {
 			$('#github-commits').githubInfoWidget(
@@ -186,6 +201,15 @@
 	  </script> 
 
 
-	  
+	  	  <script>
+window.onload = function(){
+  var anchors = document.getElementsByTagName('a');
+  for (var i=0; i<anchors.length; i++){
+    if (anchors[i].hostname != window.location.hostname) {
+        anchors[i].setAttribute('target', '_blank');
+    }
+  }
+}
+	  </script>
 	</body>
 </html>

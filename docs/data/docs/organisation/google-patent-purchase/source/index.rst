@@ -61,7 +61,7 @@ and
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
 | .. image:: images/uarsociety1.png   |         Council President           | Utilities as a Right (UaaR) Society, British Public Servant, Gov/Oath ID 25148537     |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
-| .. image:: images/scottishbay.png   |         Military Theorist           | Scottish Bay, Dominican Republic (Treaty of Guarantee)                                |
+| .. image:: images/scottishbay.png   |         Military Theorist           | Scottish Bay, Dominican Republic (Green Line & Treaty of Guarantee)                   |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
 
 

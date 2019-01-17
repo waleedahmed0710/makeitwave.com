@@ -127,7 +127,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'wave-organisation-Blockchain.tex', u'Wave Blockchain',
+    (master_doc, 'wave-organisation-blockchain.tex', u'Wave Blockchain',
      u'Author(s): Siôn H. Buckler, Wave', 'manual'),
 ]
 
@@ -137,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wave-organisation-Blockchain', u'Wave Blockchain',
+    (master_doc, 'wave-organisation-blockchain', u'Wave Blockchain',
      [author], 1)
 ]
 
@@ -148,8 +148,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'wave-organisation-Blockchain', u'Wave Blockchain',
-     author, 'wave-organisation-Blockchain', 'Free Energy & Internet',
+    (master_doc, 'wave-organisation-blockchain', u'Wave Blockchain',
+     author, 'wave-organisation-blockchain', 'Free Energy & Internet',
      'manual'),
 ]
 

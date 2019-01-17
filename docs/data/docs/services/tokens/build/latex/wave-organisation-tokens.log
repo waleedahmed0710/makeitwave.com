@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  16 JAN 2019 03:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  18 JAN 2019 03:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1229,86 +1229,175 @@ Underfull \hbox (badness 10000) in paragraph at lines 954--955
 
 [9] [10]
 Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
+[]|\T1/ptm/m/n/10 Forecast (M-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1147
+[]|\T1/ptm/m/n/10 Forecast (J-Smith-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+[]|\T1/ptm/m/n/10 Forecast (C-A-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+[]|\T1/ptm/m/n/10 Forecast (C-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
+[]|\T1/ptm/m/n/10 Forecast (T-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
+[]|\T1/ptm/m/n/10 Forecast (C-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1268
+[]|\T1/ptm/m/n/10 Forecast (S-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1289--1290
+[]|\T1/ptm/m/n/10 Forecast (M-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1311--1312
+[]|\T1/ptm/m/n/10 Forecast (D-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1334
+[]|\T1/ptm/m/n/10 Forecast (H-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1367
+[]|\T1/ptm/m/n/10 Forecast (J-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1388--1389
+[]|\T1/ptm/m/n/10 Forecast (J-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1399--1400
+[]|\T1/ptm/m/n/10 Forecast (M-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1410--1411
+[]|\T1/ptm/m/n/10 Forecast (S-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1443--1444
+[]|\T1/ptm/m/n/10 Forecast (M-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1465--1466
+[]|\T1/ptm/m/n/10 Forecast (F-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1476--1477
+[]|\T1/ptm/m/n/10 Forecast (K-E-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1487--1488
+[]|\T1/ptm/m/n/10 Forecast
+ []
+
 [11
 
-] [12
-
-]
+] [12]
 Chapter 6.
 <wave-logo.png, id=161, 200.75pt x 100.375pt>
 File: wave-logo.png Graphic file (type png)
  <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 1148.
+Package pdftex.def Info: wave-logo.png used on input line 1563.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
 <ccu.png, id=162, 200.75pt x 100.375pt>
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 1148.
+Package pdftex.def Info: ccu.png used on input line 1563.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
 <uarsociety1.png, id=163, 200.75pt x 100.375pt>
 File: uarsociety1.png Graphic file (type png)
  <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 1148.
+Package pdftex.def Info: uarsociety1.png used on input line 1563.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
 <scottishbay.png, id=164, 200.75pt x 100.375pt>
 File: scottishbay.png Graphic file (type png)
  <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 1148.
+Package pdftex.def Info: scottishbay.png used on input line 1563.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 File: wave-logo.png Graphic file (type png)
 
 <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 1148.
+Package pdftex.def Info: wave-logo.png used on input line 1563.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 1148.
+Package pdftex.def Info: ccu.png used on input line 1563.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1148
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1563
 []\T1/ptm/m/n/10 Head of
  []
 
 File: uarsociety1.png Graphic file (type png)
 <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 1148.
+Package pdftex.def Info: uarsociety1.png used on input line 1563.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1148
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1563
 []\T1/ptm/m/n/10 Coun-cil
  []
 
 File: scottishbay.png Graphic file (type png)
 <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 1148.
+Package pdftex.def Info: scottishbay.png used on input line 1563.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1148
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1563
 []\T1/ptm/m/n/10 Mil-i-tary
  []
 
 (./wave-organisation-tokens.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1158.
- [13 <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>] [14
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1158.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1573.
+ [13
+
+ <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>] [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1573.
  (./wave-organisation-tokens.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1158.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1573.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1573.
 
 Package rerunfilecheck Info: File `wave-organisation-tokens.out' has not change
 d.
 (rerunfilecheck)             Checksum: 9D94073BB99C6D353B5B07108A8C5EE7;2157.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1158.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1573.
  ) 
 Here is how much of TeX's memory you used:
- 13636 strings out of 494945
- 188590 string characters out of 6181031
- 316159 words of memory out of 5000000
- 16593 multiletter control sequences out of 15000+600000
+ 13637 strings out of 494945
+ 188595 string characters out of 6181031
+ 316240 words of memory out of 5000000
+ 16594 multiletter control sequences out of 15000+600000
  44141 words of font info for 63 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  37i,12n,45p,917b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1317,7 +1406,7 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-organisation-tokens.pdf (18 pages, 166732 bytes).
+Output written on wave-organisation-tokens.pdf (18 pages, 170268 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
  166 compressed objects within 2 object streams

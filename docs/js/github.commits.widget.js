@@ -118,6 +118,22 @@ THE SOFTWARE.
 
                     return link;
                 }
+				
+				  function message(commitMessage, sha) {
+                    var originalCommitMessage = commitMessage;
+                    if (limitMessage > 0 && commitMessage.length > limitMessage)
+                    {
+                        commitMessage = commitMessage.substr(0, limitMessage) + '...';
+                    }
+
+                    var link = $('<a class="github-commit"></a>')
+                      .attr("title", originalCommitMessage)
+                      .attr("href", 'https://github.com/' + user + '/' + repo + '/commit/' + sha)
+					  .attr("target", '_popup')
+                      .text(commitMessage);
+
+                    return link;
+                }
 
                 function when(commitDate) {
                     var commitTime = new Date(commitDate).getTime();

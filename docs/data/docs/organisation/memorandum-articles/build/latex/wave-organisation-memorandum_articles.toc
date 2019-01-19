@@ -38,4 +38,3 @@
 \contentsline {section}{\numberline {6.1}Final Articles}{12}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Article 48: Means of Communications to be Used}{12}{subsection.6.1.1}
 \contentsline {chapter}{\numberline {7}\sphinxstylestrong {Document Author(s):}}{13}{chapter.7}
-\contentsline {section}{\numberline {7.1}Si\IeC {\^o}n H. Buckler}{13}{section.7.1}

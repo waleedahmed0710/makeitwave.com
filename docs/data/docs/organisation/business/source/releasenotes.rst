@@ -5,10 +5,10 @@ This section provides information about what is new or changed, including urgent
 
 - 'Updates' are the term used to describe significant changes to our public source code. These technical documents are now contained within our public source code. 
 
-Version 0.0.1
+Version 0.2.0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
-This is the first release/ draft of this technical document.
+The latest release/ draft of this business plan.
 
 
 Older Versions
@@ -22,10 +22,23 @@ There are no older versions of this document, however a table has been made so t
    :header-rows: 1
    
    
-Version 0.0.0
+
+Version 0.1.6
 ####################
 
-N/A
+2014 - 2017 Plan (Draft)
+
+
+Version 0.1.5
+####################
+
+2016 - 2018 Plan (Draft)
+
+
+Version 0.1.4
+####################
+
+2012 - 2014 Plan 
    
 
 Known and Corrected Issues

@@ -1,4 +1,4 @@
-PWD /mnt/c/Users/loco/documents/github/makeitwave.com/docs/data/docs/services/tokens/build/latex
+PWD /mnt/c/users/loco/documents/github/makeitwave.com/docs/data/docs/services/tokens/build/latex
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -48,7 +48,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
@@ -277,8 +276,6 @@ INPUT fianancials.png
 INPUT ./fianancials.png
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8c.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvb8c.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8c.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvb8c.vf
 INPUT wave-logo.png

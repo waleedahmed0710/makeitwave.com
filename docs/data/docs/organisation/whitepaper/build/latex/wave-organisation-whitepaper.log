@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  18 JAN 2019 03:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  19 JAN 2019 03:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,7 +1051,7 @@ e
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
+* modes: 
 * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
 * v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
@@ -1073,8 +1073,8 @@ e
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1131,12 +1131,14 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-]
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 68.
+
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
- (./wave-organisation-whitepaper.toc
+(./wave-organisation-whitepaper.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 )
@@ -1144,11 +1146,26 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 \openout6 = `wave-organisation-whitepaper.toc'.
 
 
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 68.
+
 [1
 
-] [2
 
 ]
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 68.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 68.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 68.
+
 Chapter 1.
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 75.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -1156,14 +1173,20 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `TS1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `TS1/ptm/b/n' tried instead on input line 75.
- [1
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 115.
+
+[1
+
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 178--179
 []|\T1/ptm/m/n/10 01-11-
  []
 
-[2] [3] [4] <wave-logo.png, id=102, 200.75pt x 100.375pt>
+[2] [3] [4] <wave-logo.png, id=94, 200.75pt x 100.375pt>
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 467.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -1174,19 +1197,19 @@ File: wave-logo.png Graphic file (type png)
 Package pdftex.def Info: wave-logo.png used on input line 467.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<ccu.png, id=104, 200.75pt x 100.375pt>
+<ccu.png, id=96, 200.75pt x 100.375pt>
 File: ccu.png Graphic file (type png)
  <use ccu.png>
 Package pdftex.def Info: ccu.png used on input line 467.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<uarsociety1.png, id=105, 200.75pt x 100.375pt>
+<uarsociety1.png, id=97, 200.75pt x 100.375pt>
 File: uarsociety1.png Graphic file (type png)
  <use uarsociety1.png>
 Package pdftex.def Info: uarsociety1.png used on input line 467.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<scottishbay.png, id=106, 200.75pt x 100.375pt>
+<scottishbay.png, id=98, 200.75pt x 100.375pt>
 File: scottishbay.png Graphic file (type png)
  <use scottishbay.png>
 Package pdftex.def Info: scottishbay.png used on input line 467.
@@ -1237,10 +1260,10 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 497.
  ) 
 Here is how much of TeX's memory you used:
- 13649 strings out of 494945
- 189522 string characters out of 6181031
- 277042 words of memory out of 5000000
- 16593 multiletter control sequences out of 15000+600000
+ 13658 strings out of 494945
+ 189667 string characters out of 6181031
+ 277060 words of memory out of 5000000
+ 16601 multiletter control sequences out of 15000+600000
  43517 words of font info for 61 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  37i,12n,45p,1810b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1249,10 +1272,10 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-organisation-whitepaper.pdf (11 pages, 108892 bytes).
+Output written on wave-organisation-whitepaper.pdf (9 pages, 108681 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 56 named destinations out of 1000 (max. 500000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

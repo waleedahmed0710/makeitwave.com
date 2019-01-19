@@ -50,7 +50,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
@@ -288,6 +287,11 @@ INPUT ./ccu.png
 INPUT ./ccu.png
 INPUT ccu.png
 INPUT ./ccu.png
+INPUT uarsociety1.png
+INPUT ./uarsociety1.png
+INPUT ./uarsociety1.png
+INPUT uarsociety1.png
+INPUT ./uarsociety1.png
 INPUT scottishbay.png
 INPUT ./scottishbay.png
 INPUT ./scottishbay.png
@@ -301,6 +305,10 @@ INPUT ccu.png
 INPUT ./ccu.png
 INPUT ccu.png
 INPUT ./ccu.png
+INPUT uarsociety1.png
+INPUT ./uarsociety1.png
+INPUT uarsociety1.png
+INPUT ./uarsociety1.png
 INPUT scottishbay.png
 INPUT ./scottishbay.png
 INPUT scottishbay.png

@@ -5,10 +5,12 @@ This section provides information about what is new or changed, including urgent
 - 'Updates' are the term used to describe significant changes to our public source code and/or records. 
 
 
-Version 0.1.0
-####################
+Version 0.1.1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
-- First Release
+- Reconcised some missing transactions on the accounts of D-Khan & P-Caines & F-Gill
+- For the consideration of investors and lenders moving from WRT & WIT to WIN, a forecast (mock account) for each reconsiled account was inserted into WIN
+
 
 
 Older Versions
@@ -19,6 +21,14 @@ Older Versions
    :file: _static/olderversions.csv
    :widths: 20, 20, 20, 40
    :header-rows: 1
+   
+   
+
+   
+Version 0.1.0
+####################
+
+- First Release
    
    
 

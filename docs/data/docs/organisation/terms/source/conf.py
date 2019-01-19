@@ -24,9 +24,9 @@ copyright = u'2018, Make it Wave Ltd'
 author = u'Siôn H. Buckler, Founder & CEO of Wave + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
-version = u'0.1'
+version = u'0.1.0'
 # The full version, including alpha/beta/rc tags
-release = u'0.0.1'
+release = u'0.1.0rc'
 
 
 # -- General configuration ---------------------------------------------------
@@ -100,34 +100,18 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'wave-organisation-service_terms'
+htmlhelp_basename = 'wave-organisation-terms'
 
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    # 'papersize': 'letterpaper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    # 'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
-
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
-}
+latex_elements = { 'classoptions': ',openany,oneside', 'babel' : '\\usepackage[english]{babel}' }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'wave-organisation-service_terms.tex', u'Wave Terms Documentation',
+    (master_doc, 'wave-organisation-terms.tex', u'Wave Terms',
      u'Author(s): Siôn H. Buckler, Wave', 'manual'),
 ]
 
@@ -137,7 +121,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wave-organisation-service_terms', u'Wave Terms',
+    (master_doc, 'wave-organisation-terms', u'Wave Terms',
      [author], 1)
 ]
 
@@ -148,8 +132,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'wave-organisation-service_terms', u'Wave Terms',
-     author, 'wave-organisation-service_terms', 'Free Energy & Internet',
+    (master_doc, 'wave-organisation-terms', u'Wave Terms',
+     author, 'wave-organisation-terms', 'Free Energy & Internet',
      'manual'),
 ]
 

@@ -54,8 +54,7 @@ Account 205 - (D-Khan)
    :header-rows: 1
 
 
-
-   
+  
 
 Account 206 - (M-Kennedy)
 ---------------------------
@@ -66,7 +65,8 @@ Account 206 - (M-Kennedy)
    :widths: 15, 35, 15, 15, 20
    :header-rows: 1
 
-   
+ 
+ 
 Account 207 - (R-Davis)
 ---------------------------
 
@@ -74,6 +74,8 @@ Account 207 - (R-Davis)
    :file: _static/wit-coin/wit-wallet-207.csv
    :widths: 15, 35, 15, 15, 20
    :header-rows: 1
+   
+
    
 
 Account 208 - (F-Van-Rienen)

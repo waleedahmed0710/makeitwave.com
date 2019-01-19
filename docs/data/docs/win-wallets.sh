@@ -269,7 +269,7 @@ cd ../../../../../
 
 printf "\n\n${RED}Wave®${NC} - Getting WIN Wallet - UID: 334 (R-Davis):  \n\n"
 cd services/blockchain/source/_static/win-coin
-curl -f '' -o win-wallet-334.csv
+curl -f 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQYIYq02QR1wFKGezAb57Air3CWksLzOcNZkxoCRXA6mmw5nKGs0TQRc3k40C6gxdpkaUrenvmnyiSx/pub?gid=1702304530&single=true&output=csv' -o win-wallet-334.csv
 cut -d, -f 1-5 win-wallet-334.csv > temp-win-wallet-334.csv
 mv temp-win-wallet-334.csv win-wallet-334.csv
 cd ../../../../../

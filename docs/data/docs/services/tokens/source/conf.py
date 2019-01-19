@@ -24,9 +24,9 @@ copyright = u'2018, Make it Wave Ltd'
 author = u'Siôn H. Buckler, Founder & CEO of Wave + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
 # The short X.Y version
-version = u'0.1.1'
+version = u'0.1.2'
 # The full version, including alpha/beta/rc tags
-release = u'0.1.1'
+release = u'0.1.2rc'
 
 
 # -- General configuration ---------------------------------------------------
@@ -105,23 +105,7 @@ htmlhelp_basename = 'wave-organisation-tokens'
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    # 'papersize': 'letterpaper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    # 'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
-
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
-}
+latex_elements = { 'classoptions': ',openany,oneside', 'babel' : '\\usepackage[english]{babel}' }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,

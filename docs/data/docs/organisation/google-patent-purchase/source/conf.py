@@ -35,24 +35,7 @@ html_static_path = ['_static']
 htmlhelp_basename = 'wave-organisation-google_patent_agreement'
 
 
-latex_elements = {
-
-
-    #
-    # 'papersize': 'letterpaper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    # 'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
-
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
-}
+latex_elements = { 'classoptions': ',openany,oneside', 'babel' : '\\usepackage[english]{babel}' }
 
 
 latex_documents = [

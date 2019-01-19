@@ -1,110 +1,110 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Release Notes and Notices}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Version 0.0.1}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Older Versions}{3}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Version 0.0.0}{3}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Known and Corrected Issues}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}Recently Updated Topics}{4}{section.1.3}
-\contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}
-\contentsline {chapter}{\numberline {3}Definitions}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Documentation}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}End User}{7}{section.3.2}
-\contentsline {section}{\numberline {3.3}Executable Code}{7}{section.3.3}
-\contentsline {section}{\numberline {3.4}Fees}{7}{section.3.4}
-\contentsline {section}{\numberline {3.5}Marks}{7}{section.3.5}
-\contentsline {section}{\numberline {3.6}Master Copy}{8}{section.3.6}
-\contentsline {section}{\numberline {3.7}Module}{8}{section.3.7}
-\contentsline {section}{\numberline {3.8}Products}{8}{section.3.8}
-\contentsline {section}{\numberline {3.9}Proprietary Notices}{8}{section.3.9}
-\contentsline {section}{\numberline {3.10}Registered End Users}{8}{section.3.10}
-\contentsline {section}{\numberline {3.11}Seat}{8}{section.3.11}
-\contentsline {section}{\numberline {3.12}Server}{8}{section.3.12}
-\contentsline {section}{\numberline {3.13}Services}{8}{section.3.13}
-\contentsline {section}{\numberline {3.14}Software}{9}{section.3.14}
-\contentsline {section}{\numberline {3.15}Source Code}{9}{section.3.15}
-\contentsline {section}{\numberline {3.16}Term}{9}{section.3.16}
-\contentsline {section}{\numberline {3.17}Region}{9}{section.3.17}
-\contentsline {chapter}{\numberline {4}Grant of Non-Exclusive Right \& Licence}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Grant of Licence}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Special Permission(s) Request Process}{11}{section.4.2}
-\contentsline {section}{\numberline {4.3}Reservation of Rights}{12}{section.4.3}
-\contentsline {chapter}{\numberline {5}Maintenance Services}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}New Releases}{13}{section.5.1}
-\contentsline {section}{\numberline {5.2}Error Correction}{13}{section.5.2}
-\contentsline {section}{\numberline {5.3}Help Desk}{13}{section.5.3}
-\contentsline {section}{\numberline {5.4}Company Support}{14}{section.5.4}
-\contentsline {chapter}{\numberline {6}Additional Responsibilities}{15}{chapter.6}
-\contentsline {section}{\numberline {6.1}Delivery of Products}{15}{section.6.1}
-\contentsline {section}{\numberline {6.2}Training Services}{15}{section.6.2}
-\contentsline {section}{\numberline {6.3}Additional Services}{15}{section.6.3}
-\contentsline {chapter}{\numberline {7}Licence Fees \& Payment}{17}{chapter.7}
-\contentsline {section}{\numberline {7.1}Licence Fee}{17}{section.7.1}
-\contentsline {section}{\numberline {7.2}Timing of Payments}{17}{section.7.2}
-\contentsline {section}{\numberline {7.3}Audit}{17}{section.7.3}
-\contentsline {section}{\numberline {7.4}Expense}{17}{section.7.4}
-\contentsline {section}{\numberline {7.5}Delinquent Accounts}{18}{section.7.5}
-\contentsline {section}{\numberline {7.6}Payment in Great British Pound Sterling (GBP)}{18}{section.7.6}
-\contentsline {section}{\numberline {7.7}Taxes}{18}{section.7.7}
-\contentsline {chapter}{\numberline {8}Distribution and Packaging}{19}{chapter.8}
-\contentsline {section}{\numberline {8.1}Generally}{19}{section.8.1}
-\contentsline {section}{\numberline {8.2}End User}{19}{section.8.2}
-\contentsline {section}{\numberline {8.3}Alpha/ Beta Releases}{20}{section.8.3}
-\contentsline {chapter}{\numberline {9}Compliance with Laws}{21}{chapter.9}
-\contentsline {chapter}{\numberline {10}Additional Responsibilities of Distributor}{23}{chapter.10}
-\contentsline {section}{\numberline {10.1}Annual Status Report}{23}{section.10.1}
-\contentsline {section}{\numberline {10.2}Annual Marketing Information}{23}{section.10.2}
-\contentsline {section}{\numberline {10.3}Travel and Related Expenses}{23}{section.10.3}
-\contentsline {section}{\numberline {10.4}Distributor Employees}{24}{section.10.4}
-\contentsline {section}{\numberline {10.5}End User Support}{24}{section.10.5}
-\contentsline {section}{\numberline {10.6}Product Implementation}{24}{section.10.6}
-\contentsline {section}{\numberline {10.7}Contact with End User}{24}{section.10.7}
-\contentsline {section}{\numberline {10.8}End User Responses}{24}{section.10.8}
-\contentsline {section}{\numberline {10.9}Company Technology}{24}{section.10.9}
-\contentsline {chapter}{\numberline {11}Ownership}{27}{chapter.11}
-\contentsline {chapter}{\numberline {12}Trademarks}{29}{chapter.12}
-\contentsline {section}{\numberline {12.1}Ownership}{29}{section.12.1}
-\contentsline {section}{\numberline {12.2}Use of Marks}{29}{section.12.2}
-\contentsline {section}{\numberline {12.3}Notice of Infringements}{29}{section.12.3}
-\contentsline {section}{\numberline {12.4}Distributors Trademarks}{29}{section.12.4}
-\contentsline {chapter}{\numberline {13}Non Disclosure \& Confidendiality}{31}{chapter.13}
-\contentsline {section}{\numberline {13.1}Disclosure}{31}{section.13.1}
-\contentsline {section}{\numberline {13.2}Requirement of Confidentiality}{31}{section.13.2}
-\contentsline {section}{\numberline {13.3}Security Measures}{32}{section.13.3}
-\contentsline {chapter}{\numberline {14}Equitable Remedies \& Specific Performance}{33}{chapter.14}
-\contentsline {chapter}{\numberline {15}Warranties}{35}{chapter.15}
-\contentsline {section}{\numberline {15.1}Warranties of Company}{35}{section.15.1}
-\contentsline {section}{\numberline {15.2}Warranties of Distributor}{35}{section.15.2}
-\contentsline {chapter}{\numberline {16}Indemnification Generally}{37}{chapter.16}
-\contentsline {section}{\numberline {16.1}Company Indemnification}{37}{section.16.1}
-\contentsline {section}{\numberline {16.2}Distributor Indemnification}{37}{section.16.2}
-\contentsline {chapter}{\numberline {17}Term \& Termination}{39}{chapter.17}
-\contentsline {section}{\numberline {17.1}Term}{39}{section.17.1}
-\contentsline {section}{\numberline {17.2}Early Termination}{39}{section.17.2}
-\contentsline {section}{\numberline {17.3}Termination of Rights to Distribute in Certain Countries}{39}{section.17.3}
-\contentsline {section}{\numberline {17.4}Obligations upon Termination}{40}{section.17.4}
-\contentsline {section}{\numberline {17.5}Survival of Terms}{40}{section.17.5}
-\contentsline {chapter}{\numberline {18}Arbitration}{41}{chapter.18}
-\contentsline {chapter}{\numberline {19}Limitation of Liability}{43}{chapter.19}
-\contentsline {chapter}{\numberline {20}Miscellanious}{45}{chapter.20}
-\contentsline {section}{\numberline {20.1}Entire Agreement; Amendments}{45}{section.20.1}
-\contentsline {section}{\numberline {20.2}Applicable Law}{45}{section.20.2}
-\contentsline {section}{\numberline {20.3}Relationship of Parties}{45}{section.20.3}
-\contentsline {section}{\numberline {20.4}Assignment}{45}{section.20.4}
-\contentsline {section}{\numberline {20.5}Waiver}{46}{section.20.5}
-\contentsline {section}{\numberline {20.6}Notice}{46}{section.20.6}
-\contentsline {section}{\numberline {20.7}Force Majeure}{46}{section.20.7}
-\contentsline {section}{\numberline {20.8}Headings}{46}{section.20.8}
-\contentsline {section}{\numberline {20.9}Severability}{46}{section.20.9}
-\contentsline {section}{\numberline {20.10}Appendixes}{46}{section.20.10}
-\contentsline {chapter}{\numberline {21}Source Code Escrow}{49}{chapter.21}
-\contentsline {section}{\numberline {21.1}Escrow Election}{49}{section.21.1}
-\contentsline {section}{\numberline {21.2}Escrow Desposit}{49}{section.21.2}
-\contentsline {section}{\numberline {21.3}Release Conditions}{49}{section.21.3}
-\contentsline {section}{\numberline {21.4}Event of Default}{49}{section.21.4}
-\contentsline {section}{\numberline {21.5}Ongoing Obligations}{50}{section.21.5}
-\contentsline {section}{\numberline {21.6}Escrow Fees}{50}{section.21.6}
-\contentsline {chapter}{\numberline {22}APPENDIX A \textendash {} Description of Software}{51}{chapter.22}
-\contentsline {section}{\numberline {22.1}Introduction (Laymens Terms)}{51}{section.22.1}
-\contentsline {section}{\numberline {22.2}Technical Description (Summary)}{52}{section.22.2}
-\contentsline {chapter}{\numberline {23}\sphinxstylestrong {Document Author(s):}}{53}{chapter.23}
-\contentsline {section}{\numberline {23.1}Si\IeC {\^o}n H. Buckler}{53}{section.23.1}
+\contentsline {chapter}{\numberline {1}Release Notes and Notices}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Version 0.0.1}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Older Versions}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Version 0.0.0}{2}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Known and Corrected Issues}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Recently Updated Topics}{3}{section.1.3}
+\contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}
+\contentsline {chapter}{\numberline {3}Definitions}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Documentation}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}End User}{5}{section.3.2}
+\contentsline {section}{\numberline {3.3}Executable Code}{5}{section.3.3}
+\contentsline {section}{\numberline {3.4}Fees}{5}{section.3.4}
+\contentsline {section}{\numberline {3.5}Marks}{5}{section.3.5}
+\contentsline {section}{\numberline {3.6}Master Copy}{6}{section.3.6}
+\contentsline {section}{\numberline {3.7}Module}{6}{section.3.7}
+\contentsline {section}{\numberline {3.8}Products}{6}{section.3.8}
+\contentsline {section}{\numberline {3.9}Proprietary Notices}{6}{section.3.9}
+\contentsline {section}{\numberline {3.10}Registered End Users}{6}{section.3.10}
+\contentsline {section}{\numberline {3.11}Seat}{6}{section.3.11}
+\contentsline {section}{\numberline {3.12}Server}{6}{section.3.12}
+\contentsline {section}{\numberline {3.13}Services}{6}{section.3.13}
+\contentsline {section}{\numberline {3.14}Software}{7}{section.3.14}
+\contentsline {section}{\numberline {3.15}Source Code}{7}{section.3.15}
+\contentsline {section}{\numberline {3.16}Term}{7}{section.3.16}
+\contentsline {section}{\numberline {3.17}Region}{7}{section.3.17}
+\contentsline {chapter}{\numberline {4}Grant of Non-Exclusive Right \& Licence}{8}{chapter.4}
+\contentsline {section}{\numberline {4.1}Grant of Licence}{8}{section.4.1}
+\contentsline {section}{\numberline {4.2}Special Permission(s) Request Process}{8}{section.4.2}
+\contentsline {section}{\numberline {4.3}Reservation of Rights}{9}{section.4.3}
+\contentsline {chapter}{\numberline {5}Maintenance Services}{10}{chapter.5}
+\contentsline {section}{\numberline {5.1}New Releases}{10}{section.5.1}
+\contentsline {section}{\numberline {5.2}Error Correction}{10}{section.5.2}
+\contentsline {section}{\numberline {5.3}Help Desk}{10}{section.5.3}
+\contentsline {section}{\numberline {5.4}Company Support}{11}{section.5.4}
+\contentsline {chapter}{\numberline {6}Additional Responsibilities}{12}{chapter.6}
+\contentsline {section}{\numberline {6.1}Delivery of Products}{12}{section.6.1}
+\contentsline {section}{\numberline {6.2}Training Services}{12}{section.6.2}
+\contentsline {section}{\numberline {6.3}Additional Services}{12}{section.6.3}
+\contentsline {chapter}{\numberline {7}Licence Fees \& Payment}{13}{chapter.7}
+\contentsline {section}{\numberline {7.1}Licence Fee}{13}{section.7.1}
+\contentsline {section}{\numberline {7.2}Timing of Payments}{13}{section.7.2}
+\contentsline {section}{\numberline {7.3}Audit}{13}{section.7.3}
+\contentsline {section}{\numberline {7.4}Expense}{13}{section.7.4}
+\contentsline {section}{\numberline {7.5}Delinquent Accounts}{14}{section.7.5}
+\contentsline {section}{\numberline {7.6}Payment in Great British Pound Sterling (GBP)}{14}{section.7.6}
+\contentsline {section}{\numberline {7.7}Taxes}{14}{section.7.7}
+\contentsline {chapter}{\numberline {8}Distribution and Packaging}{15}{chapter.8}
+\contentsline {section}{\numberline {8.1}Generally}{15}{section.8.1}
+\contentsline {section}{\numberline {8.2}End User}{15}{section.8.2}
+\contentsline {section}{\numberline {8.3}Alpha/ Beta Releases}{16}{section.8.3}
+\contentsline {chapter}{\numberline {9}Compliance with Laws}{17}{chapter.9}
+\contentsline {chapter}{\numberline {10}Additional Responsibilities of Distributor}{18}{chapter.10}
+\contentsline {section}{\numberline {10.1}Annual Status Report}{18}{section.10.1}
+\contentsline {section}{\numberline {10.2}Annual Marketing Information}{18}{section.10.2}
+\contentsline {section}{\numberline {10.3}Travel and Related Expenses}{18}{section.10.3}
+\contentsline {section}{\numberline {10.4}Distributor Employees}{19}{section.10.4}
+\contentsline {section}{\numberline {10.5}End User Support}{19}{section.10.5}
+\contentsline {section}{\numberline {10.6}Product Implementation}{19}{section.10.6}
+\contentsline {section}{\numberline {10.7}Contact with End User}{19}{section.10.7}
+\contentsline {section}{\numberline {10.8}End User Responses}{19}{section.10.8}
+\contentsline {section}{\numberline {10.9}Company Technology}{19}{section.10.9}
+\contentsline {chapter}{\numberline {11}Ownership}{21}{chapter.11}
+\contentsline {chapter}{\numberline {12}Trademarks}{22}{chapter.12}
+\contentsline {section}{\numberline {12.1}Ownership}{22}{section.12.1}
+\contentsline {section}{\numberline {12.2}Use of Marks}{22}{section.12.2}
+\contentsline {section}{\numberline {12.3}Notice of Infringements}{22}{section.12.3}
+\contentsline {section}{\numberline {12.4}Distributors Trademarks}{22}{section.12.4}
+\contentsline {chapter}{\numberline {13}Non Disclosure \& Confidendiality}{24}{chapter.13}
+\contentsline {section}{\numberline {13.1}Disclosure}{24}{section.13.1}
+\contentsline {section}{\numberline {13.2}Requirement of Confidentiality}{24}{section.13.2}
+\contentsline {section}{\numberline {13.3}Security Measures}{25}{section.13.3}
+\contentsline {chapter}{\numberline {14}Equitable Remedies \& Specific Performance}{26}{chapter.14}
+\contentsline {chapter}{\numberline {15}Warranties}{27}{chapter.15}
+\contentsline {section}{\numberline {15.1}Warranties of Company}{27}{section.15.1}
+\contentsline {section}{\numberline {15.2}Warranties of Distributor}{27}{section.15.2}
+\contentsline {chapter}{\numberline {16}Indemnification Generally}{29}{chapter.16}
+\contentsline {section}{\numberline {16.1}Company Indemnification}{29}{section.16.1}
+\contentsline {section}{\numberline {16.2}Distributor Indemnification}{29}{section.16.2}
+\contentsline {chapter}{\numberline {17}Term \& Termination}{31}{chapter.17}
+\contentsline {section}{\numberline {17.1}Term}{31}{section.17.1}
+\contentsline {section}{\numberline {17.2}Early Termination}{31}{section.17.2}
+\contentsline {section}{\numberline {17.3}Termination of Rights to Distribute in Certain Countries}{31}{section.17.3}
+\contentsline {section}{\numberline {17.4}Obligations upon Termination}{32}{section.17.4}
+\contentsline {section}{\numberline {17.5}Survival of Terms}{32}{section.17.5}
+\contentsline {chapter}{\numberline {18}Arbitration}{33}{chapter.18}
+\contentsline {chapter}{\numberline {19}Limitation of Liability}{34}{chapter.19}
+\contentsline {chapter}{\numberline {20}Miscellanious}{35}{chapter.20}
+\contentsline {section}{\numberline {20.1}Entire Agreement; Amendments}{35}{section.20.1}
+\contentsline {section}{\numberline {20.2}Applicable Law}{35}{section.20.2}
+\contentsline {section}{\numberline {20.3}Relationship of Parties}{35}{section.20.3}
+\contentsline {section}{\numberline {20.4}Assignment}{35}{section.20.4}
+\contentsline {section}{\numberline {20.5}Waiver}{36}{section.20.5}
+\contentsline {section}{\numberline {20.6}Notice}{36}{section.20.6}
+\contentsline {section}{\numberline {20.7}Force Majeure}{36}{section.20.7}
+\contentsline {section}{\numberline {20.8}Headings}{36}{section.20.8}
+\contentsline {section}{\numberline {20.9}Severability}{36}{section.20.9}
+\contentsline {section}{\numberline {20.10}Appendixes}{36}{section.20.10}
+\contentsline {chapter}{\numberline {21}Source Code Escrow}{38}{chapter.21}
+\contentsline {section}{\numberline {21.1}Escrow Election}{38}{section.21.1}
+\contentsline {section}{\numberline {21.2}Escrow Desposit}{38}{section.21.2}
+\contentsline {section}{\numberline {21.3}Release Conditions}{38}{section.21.3}
+\contentsline {section}{\numberline {21.4}Event of Default}{38}{section.21.4}
+\contentsline {section}{\numberline {21.5}Ongoing Obligations}{39}{section.21.5}
+\contentsline {section}{\numberline {21.6}Escrow Fees}{39}{section.21.6}
+\contentsline {chapter}{\numberline {22}APPENDIX A \textendash {} Description of Software}{40}{chapter.22}
+\contentsline {section}{\numberline {22.1}Introduction (Laymens Terms)}{40}{section.22.1}
+\contentsline {section}{\numberline {22.2}Technical Description (Summary)}{41}{section.22.2}
+\contentsline {chapter}{\numberline {23}\sphinxstylestrong {Document Author(s):}}{42}{chapter.23}
+\contentsline {section}{\numberline {23.1}Si\IeC {\^o}n H. Buckler}{42}{section.23.1}

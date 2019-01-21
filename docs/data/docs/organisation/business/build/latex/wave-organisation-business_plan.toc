@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {3.4}Advisors}{9}{section.3.4}
 \contentsline {chapter}{\numberline {4}Market Analysis}{10}{chapter.4}
 \contentsline {section}{\numberline {4.1}Market Research}{10}{section.4.1}
-\contentsline {section}{\numberline {4.2}Types of Customers}{14}{section.4.2}
+\contentsline {section}{\numberline {4.2}Types of Customers}{15}{section.4.2}
 \contentsline {section}{\numberline {4.3}Types of Products and Services}{15}{section.4.3}
 \contentsline {section}{\numberline {4.4}Marketing and Promotion}{15}{section.4.4}
 \contentsline {section}{\numberline {4.5}Main Competitors}{15}{section.4.5}

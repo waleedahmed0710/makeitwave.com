@@ -169,48 +169,28 @@ Yearly 25,536 minutes 425h 36min
 Types of Customers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The ideal customer profile is of someone who considers this saving relevant and meaningful, yet
-also has some spare income to make purchases on line and who also sees the advertising as
-useful and relevant. They will also be open to change and innovation and aware of social and
-environmental factors that are shaping the world at the moment.
+The ideal customer profile is of someone who considers this saving relevant and meaningful, yet also has some spare income to make purchases on line and who also sees the advertising as useful and relevant. They will also be open to change and innovation and aware of social and environmental factors that are shaping the world at the moment.
+
 If we break it down the ideal profile is as follows:
 - Men and women
 - Age 21-50
 - Income: mainly lower-middle and higher-middle income individuals
 - Singles, Married couples & families
 - Socially aware
-Families, although may not have as much disposable income as singles & married couples, are
-shorter on time and likely to use the internet to make purchases.
-The internet has a major advantage over the high street in that you can search and find the
-product for the lowest price available in minutes. Nobody these days wishes to spend hours
-walking or driving from shop to shop to find the best deal, when it can be accessed at home or
-at a hotspot almost instantly
+
+Families, although may not have as much disposable income as singles & married couples, are shorter on time and likely to use the internet to make purchases. The internet has a major advantage over the high street in that you can search and find the product for the lowest price available in minutes. Nobody these days wishes to spend hours walking or driving from shop to shop to find the best deal, when it can be accessed at home or at a hotspot almost instantly
 
 
 Types of Products and Services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Integration Alliance (CENTIA: Cyber Enhanced Networks and Telecommunications Integration
-Alliance)
-CENTIA is scheduled to launch in August 2013. This team of approximately 200 advertisers, ISP’s
-and developers will consist of some of the biggest movers & shakers within the industry.
-The partners will all be charged a monthly subscription fee in return for input, exclusive use of
-the platform before public release, partnership deals and shares in the company. These partners
-will also have the opportunity to tender for any of the project mandates in the next few months
-and following release.
+Integration Alliance (CENTIA: Cyber Enhanced Networks and Telecommunications Integration Alliance) CENTIA is scheduled to launch in August 2013. This team of approximately 200 advertisers, ISP’s and developers will consist of some of the biggest movers & shakers within the industry. The partners will all be charged a monthly subscription fee in return for input, exclusive use of the platform before public release, partnership deals and shares in the company. These partners will also have the opportunity to tender for any of the project mandates in the next few months and following release.
 
-Pre sign up, each partner agree to be bound by our terms and conditions, which will include an
-NDA that will protect our business and any projects that are discussed and produced within
-CENTIA.
+Pre sign up, each partner agree to be bound by our terms and conditions, which will include an NDA that will protect our business and any projects that are discussed and produced within CENTIA.
 
-The alliance itself will stabilise and change con-currently with the business evolution. For
-example, as we move the focus from the launch of our free internet service to the development
-of the Wave App Store, the advertising agencies and ISP’s will unsubscribe and new, more
-relevant businesses and developers will take their place. These alternative partners will work
-with us to bring the next roll out to market and the WT customer base.
+The alliance itself will stabilise and change con-currently with the business evolution. For example, as we move the focus from the launch of our free internet service to the development of the Wave App Store, the advertising agencies and ISP’s will unsubscribe and new, more relevant businesses and developers will take their place. These alternative partners will work with us to bring the next roll out to market and the WT customer base.
 
-The number of members will stay constant throughout the lifespan of the business as the main
-objective is to keep bringing our customers the most innovative technology possible.
+The number of members will stay constant throughout the lifespan of the business as the main objective is to keep bringing our customers the most innovative technology possible.
 
 
 
@@ -221,9 +201,7 @@ Marketing and Promotion
 Main Competitors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is currently an untapped niche market, which means competitors do not currently exist in
-the UK. Indeed, up until now, we have only found one other business that is operating within
-our sector in California but there are still major differences in our business models.
+This is currently an untapped niche market, which means competitors do not currently exist in the UK. Indeed, up until now, we have only found one other business that is operating within our sector in California but there are still major differences in our business models.
 
 
 Key Suppliers

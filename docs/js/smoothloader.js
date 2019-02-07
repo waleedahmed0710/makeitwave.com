@@ -18,11 +18,7 @@ setTimeout(function() {
   onLoad(el);
 }, 100);
 
-setTimeout(function() {
-  var el = $('#image4');
-  el.html('<img alt="Fouth slide" class="fourth-slide" src="./img/carousel/image4.png">');
-  onLoad(el);
-}, 100);
+
 
 function onLoad(element) {
   $(element).addClass('loaded');

@@ -29,18 +29,18 @@ unset CDPATH
 #
   
 
-printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/homehub\n\n"
-cp -r products/shared-rst/* products/homehub/source
-cp -r shared-resources/wave-logo.png products/homehub/source/images/wave-logo.png
-cp -r shared-resources/ccu.png products/homehub/source/images/ccu.png
-cp -r shared-resources/scottishbay.png products/homehub/source/images/scottishbay.png
-cp -r shared-resources/uarsociety1.png products/homehub/source/images/uarsociety1.png
-cd products/homehub
+printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/3g-homehub\n\n"
+cp -r products/shared-rst/* products/3g-homehub/source
+cp -r shared-resources/wave-logo.png products/3g-homehub/source/images/wave-logo.png
+cp -r shared-resources/ccu.png products/3g-homehub/source/images/ccu.png
+cp -r shared-resources/scottishbay.png products/3g-homehub/source/images/scottishbay.png
+cp -r shared-resources/uarsociety1.png products/3g-homehub/source/images/uarsociety1.png
+cd products/3g-homehub
 make clean
 make html
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/homehub ...\n\n"
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/3g-homehub ...\n\n"
 make latexpdf
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/homehub ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/3g-homehub ...Done!\n\n"
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
@@ -53,18 +53,18 @@ sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
 cd ../../../../../../
 
 
-printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/energymonitor\n\n"
+printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/4g-homehub\n\n"
 cp -r products/shared-rst/* products/energymonitor/source
-cp -r shared-resources/wave-logo.png products/energymonitor/source/images/wave-logo.png
-cp -r shared-resources/ccu.png products/energymonitor/source/images/ccu.png
-cp -r shared-resources/scottishbay.png products/energymonitor/source/images/scottishbay.png
-cp -r shared-resources/uarsociety1.png products/energymonitor/source/images/uarsociety1.png
-cd products/energymonitor
+cp -r shared-resources/wave-logo.png products/4g-homehub/source/images/wave-logo.png
+cp -r shared-resources/ccu.png products/4g-homehub/source/images/ccu.png
+cp -r shared-resources/scottishbay.png products/4g-homehub/source/images/scottishbay.png
+cp -r shared-resources/uarsociety1.png products/4g-homehub/source/images/uarsociety1.png
+cd products/4g-homehub
 make clean
 make html
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/energymonitor ...\n\n"
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/4g-homehub ...\n\n"
 make latexpdf
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/energymonitor ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/4g-homehub ...Done!\n\n"
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html
@@ -77,90 +77,18 @@ sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
 cd ../../../../../../
 
 
-printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/vehicletracker\n\n"
-cp -r products/shared-rst/* products/vehicletracker/source
-cp -r shared-resources/wave-logo.png products/vehicletracker/source/images/wave-logo.png
-cp -r shared-resources/ccu.png products/vehicletracker/source/images/ccu.png
-cp -r shared-resources/scottishbay.png products/vehicletracker/source/images/scottishbay.png
-cp -r shared-resources/uarsociety1.png products/vehicletracker/source/images/uarsociety1.png
-cd products/vehicletracker
+printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/5g-homehub\n\n"
+cp -r products/shared-rst/* products/5g-homehub/source
+cp -r shared-resources/wave-logo.png products/5g-homehub/source/images/wave-logo.png
+cp -r shared-resources/ccu.png products/5g-homehub/source/images/ccu.png
+cp -r shared-resources/scottishbay.png products/5g-homehub/source/images/scottishbay.png
+cp -r shared-resources/uarsociety1.png products/5g-homehub/source/images/uarsociety1.png
+cd products/5g-homehub
 make clean
 make html
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/vehicletracker ...\n\n"
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/5g-homehub ...\n\n"
 make latexpdf
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/vehicletracker ...Done!\n\n"
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
-cd build/html
-sed -i 's/ View page source/ /g' *.html
-sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
-cd _static/css
-sed -i 's/#2980B9/#333366/g' theme.css
-sed -i 's/#343131/#333366/g' theme.css
-sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
-cd ../../../../../../
-
-
-printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/multiroom\n\n"
-cp -r products/shared-rst/* products/multiroom/source
-cp -r shared-resources/wave-logo.png products/multiroom/source/images/wave-logo.png
-cp -r shared-resources/ccu.png products/multiroom/source/images/ccu.png
-cp -r shared-resources/scottishbay.png products/multiroom/source/images/scottishbay.png
-cp -r shared-resources/uarsociety1.png products/multiroom/source/images/uarsociety1.png
-cd products/multiroom
-make clean
-make html
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/multiroom ...\n\n"
-make latexpdf
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/multiroom ...Done!\n\n"
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
-cd build/html
-sed -i 's/ View page source/ /g' *.html
-sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
-cd _static/css
-sed -i 's/#2980B9/#333366/g' theme.css
-sed -i 's/#343131/#333366/g' theme.css
-sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
-cd ../../../../../../
-
-
-printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/signalbooster\n\n"
-cp -r products/shared-rst/* products/signalbooster/source
-cp -r shared-resources/wave-logo.png products/signalbooster/source/images/wave-logo.png
-cp -r shared-resources/ccu.png products/signalbooster/source/images/ccu.png
-cp -r shared-resources/scottishbay.png products/signalbooster/source/images/scottishbay.png
-cp -r shared-resources/uarsociety1.png products/signalbooster/source/images/uarsociety1.png
-cd products/signalbooster
-make clean
-make html
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/signalbooster ...\n\n"
-make latexpdf
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/signalbooster ...Done!\n\n"
-printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
-cd build/html
-sed -i 's/ View page source/ /g' *.html
-sed -i 's/<div class="version">/<div class="version"> Document Version : /g' *.html
-printf "\n\n${RED}Wave®${NC} - Modifying RTD Theme to match Wave® ...\n\n"
-cd _static/css
-sed -i 's/#2980B9/#333366/g' theme.css
-sed -i 's/#343131/#333366/g' theme.css
-sed -i 's/rgba(0,0,0,0.05)/#333366/g' theme.css
-cd ../../../../../../
-
-
-printf "\n\n${RED}Wave®${NC} - Rebuilding Docs for products/storagedevice\n\n"
-cp -r products/shared-rst/* products/storagedevice/source
-cp -r shared-resources/wave-logo.png products/storagedevice/source/images/wave-logo.png
-cp -r shared-resources/ccu.png products/storagedevice/source/images/ccu.png
-cp -r shared-resources/scottishbay.png products/storagedevice/source/images/scottishbay.png
-cp -r shared-resources/uarsociety1.png products/storagedevice/source/images/uarsociety1.png
-cd products/storagedevice
-make clean
-make html
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/storagedevice ...\n\n"
-make latexpdf
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/storagedevice ...Done!\n\n"
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/5g-homehub ...Done!\n\n"
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build/html
 sed -i 's/ View page source/ /g' *.html

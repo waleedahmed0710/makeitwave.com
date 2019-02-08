@@ -133,7 +133,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'wave-organisation-whitepaper', u'Wave Whitepaper',
-     author, 'wave-organisation-whitepaper', 'Free Energy & Internet',
+     author, 'wave-organisation-whitepaper', 'Free Internet',
      'manual'),
 ]
 

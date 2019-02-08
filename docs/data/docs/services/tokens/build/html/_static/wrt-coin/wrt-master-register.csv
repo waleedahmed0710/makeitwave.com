@@ -41,7 +41,7 @@ UID,Wallet ID/ Alias,Deposited (GBP),WRT Coins,Est. Value (GBP)
 140,Seed-Round-L-Allen,74000.00,54080000,719264.00
 141,Seed-Round-G-Pitcairn,0.00,44800000,595840.00
 142,Seed-Round-P-Caines,41354.20,142100000,1889930.00
-143,Seed-Round-S-Buckler,67000.00,283607060,3771973.90
+143,Seed-Round-S-Buckler,67000.00,283794060,3774461.00
 144,Seed-Round-E-Young,0.00,3040000,40432.00
 145,Seed-Round-J-O-Sullivan,0.00,33480000,445284.00
 146,Seed-Round-Y-Sakowitz,0.00,300000,3990.00
@@ -49,10 +49,10 @@ UID,Wallet ID/ Alias,Deposited (GBP),WRT Coins,Est. Value (GBP)
 148,Seed-Round-J-Choudhury-Lucas,3268.75,3830000,50939.00
 149,Seed-Round-R-Stevenson,0.00,5000000,66500.00
 150,Seed-Round-B-Naipaul,0.00,5000000,66500.00
-151,Seed-Round-F-Coldwell-Hall,100.00,17000,226.10
-152,Seed-Round-E-Coldwell,900.00,170000,2261.00
+,,,,
+,,,,
 ,			,,,
 ,			,,,
 401,Series-A-M-Garza-&-Co,,150375940,2000000.00
 ,			,,,
-,Total,255222.95,1000000000,13300000.00
+,Total,254222.95,1000000000,13300000.00

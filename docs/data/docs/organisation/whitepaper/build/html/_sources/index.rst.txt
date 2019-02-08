@@ -1,7 +1,7 @@
 Wave® Whitepaper
 ==================
 
-Freer Energy & Internet
+Free Internet
 =========================
 
 **The Wave® Operating System (WaveOS™) brings into existance, a new generation of Smart Home Products, capable of lowering internet & energy bills by as much as 100% e.g. Free Internet & Energy**

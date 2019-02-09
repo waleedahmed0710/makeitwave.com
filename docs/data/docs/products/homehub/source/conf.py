@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Home Hub™'
+project = u'Home Hub™ - HSPA+/LTE/5G'
 copyright = u'2018, Make it Wave Ltd'
 author = u'Siôn H. Buckler, Founder & CEO of Wave + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 + Prime Technocrat @ Scottish Bay DAO / British Public Servant, 2002 - 2024 Oath ID: 25148537'
 
@@ -111,7 +111,7 @@ latex_elements = { 'classoptions': ',openany,oneside', 'babel' : '\\usepackage[e
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'wave-products-home_hub.tex', u'Home Hub™',
+    (master_doc, 'wave-products-home_hub.tex', u'Home Hub™ - HSPA+/LTE/5G',
      u'Author(s): Siôn H. Buckler, Wave', 'manual'),
 ]
 
@@ -132,7 +132,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'wave-products-home_hub', u'Home Hub™',
+    (master_doc, 'wave-products-home_hub', u'Home Hub™ - HSPA+/LTE/5G',
      author, 'wave-products-home_hub', 'Free Internet',
      'manual'),
 ]

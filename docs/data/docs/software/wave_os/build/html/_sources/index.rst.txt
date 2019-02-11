@@ -11,7 +11,6 @@ Index:
 .. toctree::
    :maxdepth: 2
     
-   changelog
    releasenotes
    preperation
    gettingstarted

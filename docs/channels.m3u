@@ -1,5 +1,6 @@
-#EXTINF:-1,US: News4 (WRC-TV)
-http://31.220.1.190:8080/WuYC3qhd9/65udrOt48Y/92983
-#EXTINF:-1,US: WTTG-TV FOX 5 (WASHINGTON)
-http://31.220.1.190:8080/WuYC3qhd9/65udrOt48Y/92970
-
+#EXTINF:-1 tvg-ID="bbc1.uk" tvg-name="UK: BBC One London" tvg-logo="" group-title="U.K - Entertainment",UK: BBC One London
+http://s1.finoip.com:20000/live/RWdYfbGqNi/Z8f2wP1THG/10702.ts
+#EXTINF:-1 tvg-ID="bbc2.uk" tvg-name="UK: BBC Two" tvg-logo="" group-title="U.K - Entertainment",UK: BBC Two
+http://s1.finoip.com:20000/live/RWdYfbGqNi/Z8f2wP1THG/7100.ts
+#EXTINF:-1 tvg-ID="itv1anglia.uk" tvg-name="UK: ITV London HD" tvg-logo="" group-title="U.K - Entertainment",UK: ITV London HD
+http://s1.finoip.com:20000/live/RWdYfbGqNi/Z8f2wP1THG/10715.ts

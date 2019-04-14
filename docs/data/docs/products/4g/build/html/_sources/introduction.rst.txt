@@ -1,25 +1,27 @@
-Wave® Smart Home™ Intro
+The Wave® Home Hub™
 =========================
 
-The Wave® Smart Home™ is made up of a wide range of Wave® products and services, with the Cellular Home Hub™ at the center. Each product and service has its own seperate Operation Manual/ User Guide. As you will see below, each of these documents first introduces the Wave® Smart Home™ solution as a whole.  
-Information relative to the specific product/ service named in this documents title is listed afterwards - in the 'About this Product' section.  
+The Wave® Home Hub™ is a Single Board Computer e.g. Raspberry Pi , operated by the Wave® operating system: WaveOS™. 
+To receive internet access the Home Hub™ uses one of 3 cellular modules: HSPA+ USB Dongle, 4G/LTE HAT or 5G/mmWave Receiver. 
+This user guide is for the Home Hub™ only. To understand the celluar modules please reference their user guides. 
 
-Image 1.0 - Wave® Smart Home™
+Image 1.0 - Wave® Home Hub™
 
 .. image::	images/config-1.png
 
-Wave® is a Highly Affordable, All-in-One, **Complete Smart Home Solution**. It's modular, plug & play and works right out of the box - making it today's easiest and fastest way to transform any house into a fully-intergrated digital smart home. The Wave® Smart Home™ solution is also the worlds first technology to reduce households internet and energy bills each month, completely autonomously, while users enjoy the products **state of the art** smart home features. which include; 
+The Wave® Home Hub™ is not only the worlds first free internet solution. This product is also a highly affordable, all-in-one, **Smart Home Solution**. It works right out of the box, making it today's easiest and fastest way to transform any house into a fully-intergrated digital smart home. Smart Home features of this product include; 
 
--  Extender Media (DLNA - Music, Movies & IPTV Streaming)
--  Wireless Home Control (IoT, Smart Plug Sockets, Lights etc)
--  IP Camera Monitoring (+25 IP Cameras, Monitor & Motion Detect)
--  Statistics (Self-Labelling, simple interface & Analysis)
--  Settings (Wi-Fi SSID & Password, Software Edition, Time & Date etc)
+-  Media Center (DLNA - Music, Movies & IPTV Streaming etc)
+-  Wireless Home Control (IoT) e.g. Smart Plug Sockets, Lights etc
+-  IP Camera Monitor for up to 25 IP Cameras
+-  Statistics - Self-Labelling, simple interface & Analysis
 -  Multi-User Support (access the Wave® Dashboard™ from multiple devices, simultaniously, through any web-browser)
 -  Remote Access - Access the Wave® Dashboard™ from Anywhere in the world using the Free Wave® Remote (Remote Access) Mobile App
 
+ The Wave® Home Hub™ is also the worlds first free internet solution. By using a cellular module to receive internet access the Home Hub™ is able to convert advertising and cryptocurrency mining revenue into credits which autonomously pay the internet service provider. 
 
-Wave® Hardware Devices
+
+Wave® Hardware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Hardware Features

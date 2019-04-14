@@ -1,11 +1,11 @@
 Wave® Product User Guide
 =====================================================
 
-*Wave® LTE Home Hub™*
+*Wave® Home Hub™ - HSPA+/LTE/5G*
 
 
 
-.. image:: images/energymonitor.png
+.. image:: images/homehub.png
 
 
 .. toctree::
@@ -18,9 +18,9 @@ Wave® Product User Guide
    serviceandsupport
    warranty
    
-   
-  
 
+
+ 
 **Document Author(s):** 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -41,8 +41,7 @@ Siôn H. Buckler
 | .. image:: images/scottishbay.png   |         Military Theorist           | Scottish Bay, Dominican Republic (Green Line & Treaty of Guarantee)                   |
 +-------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------+
 
- 
-
 
 **About** Siôn Buckler - Science & Computer Science (Bachelors), Electronic Engineering, Industrial Electronics and Electronics & Computing (Advanced Diplomas), Cisco Certified Network Associate (CCNA), Microsoft Certified Solutions Expert (MCSE), Certified Project Management (Prince2 Practitioner), Institute of Electronic Engineering (IEEE), Siemens Certified Engineer, Certified Telecommunications Service Provider (NVQ3), Satellites & Full Spectrum Radio, Fixed Telecommunications Systems with Enhanced Capabilities , SKP01 Electrical Safety, NVQ2 IT, Defence Specialist LAN, TCP/IP, Subnetting, DHCP, Addressing, Routing & Browsing, Communications Equitment Room Design & Maintenance, Military Command & Leaderership,  Cyber Security, Electronic Warfare, SIP/ VOIP, SEO, PPC, HTML5, CSS3, Java, Perl, Ajax, JQuery, MySQL, Unix, Python, Linux. 
- 
+
+

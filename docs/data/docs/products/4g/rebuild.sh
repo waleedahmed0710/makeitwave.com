@@ -27,7 +27,7 @@ cp -r ../../shared-resources/scottishbay.png source/images/scottishbay.png
 cp -r ../../shared-resources/uarsociety1.png source/images/uarsociety1.png
 make clean
 make html
-printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/4g ...\n\n"
+printf "\n\n${RED}Wave®${NC} - Rebuilding PDF for products/4G ...\n\n"
 make latexpdf
 printf "\n\n${RED}Wave®${NC} - Remove 'View Page Source' from html ...\n\n"
 cd build

@@ -4,7 +4,7 @@ General Usage
 What is WaveOS™?
 -----------------
 
-The Wave® Operating System (WaveOS™) is a Free & Open-Source Linux-Based Software, designed to make any Single Board Computer a Plug & Play **Smart Home Hub™** with the unique capability of making internet and energy Freer and/or completely free for the household in which it operates. The solution also features some great open source and free apps for the end-users e.g. IPTV/ Media Center, IPCCTV DVR, IoT Smart Home Control, Vehicle Tracking and Energy Monitoring - All autonomously installed and configured during initial installation, which is also autonomous. Wave® simply copies onto a Micro SD card, inserts into any Single Board Computer connected to the internet and within minutes can be used, enjoyed and benefitted from. 
+The Wave® Operating System (WaveOS™) is a Free & Open-Source Linux-Based Software, designed to make any Single Board Computer a Plug & Play **Smart Home Hub™** with the unique capability of making internet Freer and/or completely free for the household in which it operates. The solution also features some great open source and free apps for the end-users e.g. IPTV/ Media Center, IPCCTV DVR, IoT Smart Home Control, Vehicle Tracking and Energy Monitoring - All autonomously installed and configured during initial installation, which is also autonomous. Wave® simply copies onto a Micro SD card, inserts into any Single Board Computer connected to the internet and within minutes can be used, enjoyed and benefitted from. 
 
 
 Disclaimer

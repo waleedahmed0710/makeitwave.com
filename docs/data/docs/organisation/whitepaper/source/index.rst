@@ -4,14 +4,14 @@ Wave® Whitepaper
 Free Internet
 =========================
 
-**The Wave® Operating System (WaveOS™) brings into existance, a new generation of Smart Home Products, capable of lowering internet & energy bills by as much as 100% e.g. Free Internet & Energy**
+**The Wave® Operating System (WaveOS™) brings into existance, a new generation of Smart Home Products, capable of lowering internet bills by as much as 100% e.g. Free internet**
 
 Our vision
 -----------
 
 We believe a connected and powered world is a better one. When you empower anyone with internet and electricity, their ability to contribute and generate value for their society, grows exponentially.  
 
-Wave® is pleased to announce that we have developed a technology which profits from reducing the internet and energy bills of our users. During early trials of Wave® some bills even reduced to zero e.gf free internet & energy 
+Wave® is pleased to announce that we have developed a technology which profits from reducing the internet bills of our users. During early trials of Wave® some bills even reduced to zero e.gf free internet 
 
 The Wave® solution is an Operating System we call WaveOS™, which was awarded Patents from Google in 2016. During 2018 Wave® began developing a range of smart home products which are powered by the Wave® Operating System (WaveOS™). For more info visit our :Store:`Store2`.
 

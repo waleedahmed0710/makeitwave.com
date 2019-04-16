@@ -8,7 +8,7 @@ Image 1.0 - Wave® Smart Home™
 
 .. image::	images/config-1.png
 
-Wave® is a Highly Affordable, All-in-One, **Complete Smart Home Solution**. It's modular, plug & play and works right out of the box - making it today's easiest and fastest way to transform any house into a fully-intergrated digital smart home. The Wave® Smart Home™ solution is also the worlds first technology to reduce households internet and energy bills each month, completely autonomously, while users enjoy the products **state of the art** smart home features. which include; 
+Wave® is a Highly Affordable, All-in-One, **Complete Smart Home Solution**. It's modular, plug & play and works right out of the box - making it today's easiest and fastest way to transform any house into a fully-intergrated digital smart home. The Wave® Smart Home™ solution is also the worlds first technology to reduce households internet bills each month, completely autonomously, while users enjoy the products **state of the art** smart home features. which include; 
 
 -  Extender Media (DLNA - Music, Movies & IPTV Streaming)
 -  Wireless Home Control (IoT, Smart Plug Sockets, Lights etc)

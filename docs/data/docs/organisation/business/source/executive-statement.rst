@@ -1,12 +1,12 @@
 Executive Statement
 =============================
 
-Wave makes internet and energy a free birth-right for everyone.
+Wave makes internet a free birth-right for everyone.
 
 Business Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wave is a new kind of effort which makes internet and energy a free birth-right for everyone.
+Wave is a new kind of effort which makes internet a free birth-right for everyone.
 This charter presents real opportunity for global communities to fairer the distribution of their
 resources; resulting in overall, improved living standards. Success in this field will mark the reach
 of a new level in human development.

@@ -5,16 +5,14 @@ This section provides information about what is new or changed, including urgent
 - 'Updates' are the term used to describe significant changes to our public source code and/or records. 
 
  
-Version 0.1.1
+Version 0.1.3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 
 This document has the following updates since version 0.1.0 was published:
 
-- some records were incorrect - see the issues table (bad link). Fixed it! 
+- Further lending obtained, records updated! 
 
-Some accounts have been reconsiled (D-Khan, P-Caines & F-Gill).
-More reconsiling to do. Responses from investors & lenders is too poor to remedy and there is little co-operation
 
 
 Older Versions
@@ -27,10 +25,16 @@ Older Versions
    :header-rows: 1
    
    
-Version 0.1.0
+Version 0.1.1
 ####################
 
 - First Release
+
+
+Version 0.1.2
+####################
+
+- Changes to presentation of data more than data itself. 
    
 
 Known and Corrected Issues

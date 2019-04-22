@@ -55,9 +55,9 @@ unset CDPATH
 #sh  rebuild.sh
 #cd ../../
 
-cd products/4g/
-sh  rebuild.sh
-cd ../../
+#cd products/4g/
+#sh  rebuild.sh
+#cd ../../
 
 #cd products/5g/
 #sh  rebuild.sh
@@ -79,17 +79,17 @@ cd ../../
 #sh  rebuild.sh 
 #cd ../../
 
-#cd tokens/wrt/
-#sh  rebuild.sh 
-#cd ../../
+cd tokens/wrt/
+sh  rebuild.sh 
+cd ../../
 
-#cd tokens/win/
-#sh  rebuild.sh 
-#cd ../../
+cd tokens/win/
+sh  rebuild.sh 
+cd ../../
 
-#cd tokens/wit/
-#sh  rebuild.sh 
-#cd ../../
+cd tokens/wit/
+sh  rebuild.sh 
+cd ../../
 
 
 

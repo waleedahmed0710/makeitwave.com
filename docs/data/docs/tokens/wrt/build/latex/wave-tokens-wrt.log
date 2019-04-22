@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  11 FEB 2019 07:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  22 APR 2019 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1176,30 +1176,25 @@ less on input line 68.
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--136
-[]|[][]\T1/ptm/m/n/10 2015-07-01_wave-organisation-
+Underfull \hbox (badness 10000) in paragraph at lines 2--138
+[]|[][]\T1/ptm/m/n/10 2019-01-09_wave-organisation-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--145
-[]|[][]\T1/ptm/m/n/10 2015-09-01_wave-organisation-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--154
+Underfull \hbox (badness 10000) in paragraph at lines 2--147
 []|[][]\T1/ptm/m/n/10 2019-01-17_wave-organisation-
  []
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 203.
+less on input line 206.
 
 [2
 
 ] [3]
 Chapter 2.
 <fianancials.png, id=367, 793.95212pt x 355.24268pt>
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 218.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 221.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1207,32 +1202,32 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 File: fianancials.png Graphic file (type png)
 
 <use fianancials.png>
-Package pdftex.def Info: fianancials.png used on input line 218.
+Package pdftex.def Info: fianancials.png used on input line 221.
 (pdftex.def)             Requested size: 469.75502pt x 210.18762pt.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 237.
+less on input line 240.
 
 [4
 
  <./fianancials.png>] [5]
 Chapter 3.
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 245.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 248.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 245.
+(Font)              Font shape `TS1/phv/b/n' tried instead on input line 248.
 
-Underfull \hbox (badness 10000) in paragraph at lines 810--811
+Underfull \hbox (badness 10000) in paragraph at lines 813--814
 []|\T1/ptm/m/n/10 Seed-Round-J-Choudhury-
  []
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 870.
+less on input line 873.
 
 [6
 
@@ -1240,7 +1235,7 @@ less on input line 870.
 Chapter 4.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 1056.
+less on input line 1059.
 
 [8
 
@@ -1249,77 +1244,77 @@ Chapter 5.
 <wave-logo.png, id=489, 200.75pt x 100.375pt>
 File: wave-logo.png Graphic file (type png)
  <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 3391.
+Package pdftex.def Info: wave-logo.png used on input line 3394.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
 <ccu.png, id=490, 200.75pt x 100.375pt>
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 3391.
+Package pdftex.def Info: ccu.png used on input line 3394.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
 <uarsociety1.png, id=491, 200.75pt x 100.375pt>
 File: uarsociety1.png Graphic file (type png)
  <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 3391.
+Package pdftex.def Info: uarsociety1.png used on input line 3394.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
 <scottishbay.png, id=492, 200.75pt x 100.375pt>
 File: scottishbay.png Graphic file (type png)
  <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 3391.
+Package pdftex.def Info: scottishbay.png used on input line 3394.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 File: wave-logo.png Graphic file (type png)
 
 <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 3391.
+Package pdftex.def Info: wave-logo.png used on input line 3394.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 3391.
+Package pdftex.def Info: ccu.png used on input line 3394.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3391--3391
+Underfull \hbox (badness 10000) in paragraph at lines 3394--3394
 []\T1/ptm/m/n/10 Head of
  []
 
 File: uarsociety1.png Graphic file (type png)
 <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 3391.
+Package pdftex.def Info: uarsociety1.png used on input line 3394.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3391--3391
+Underfull \hbox (badness 10000) in paragraph at lines 3394--3394
 []\T1/ptm/m/n/10 Coun-cil
  []
 
 File: scottishbay.png Graphic file (type png)
 <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 3391.
+Package pdftex.def Info: scottishbay.png used on input line 3394.
 (pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3391--3391
+Underfull \hbox (badness 10000) in paragraph at lines 3394--3394
 []\T1/ptm/m/n/10 Mil-i-tary
  []
 
 (./wave-tokens-wrt.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3401.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3404.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 3401.
+less on input line 3404.
 
 [19
 
  <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
 [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3401.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3404.
  (./wave-tokens-wrt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3401.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3401.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3404.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3404.
 
 Package rerunfilecheck Info: File `wave-tokens-wrt.out' has not changed.
 (rerunfilecheck)             Checksum: E6E88DF547642BB4C5337087EE0763AF;12033.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3401.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3404.
  ) 
 Here is how much of TeX's memory you used:
  13905 strings out of 494945
@@ -1334,7 +1329,7 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-tokens-wrt.pdf (23 pages, 190580 bytes).
+Output written on wave-tokens-wrt.pdf (23 pages, 191844 bytes).
 PDF statistics:
  559 PDF objects out of 1000 (max. 8388607)
  508 compressed objects within 6 object streams

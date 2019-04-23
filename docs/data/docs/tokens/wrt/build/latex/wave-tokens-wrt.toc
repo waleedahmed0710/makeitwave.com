@@ -59,8 +59,6 @@
 \contentsline {section}{\numberline {4.48}Account 148 - (J-Choudhury-Lucas)}{17}{section.4.48}
 \contentsline {section}{\numberline {4.49}Account 149 - (R-Stevenson)}{17}{section.4.49}
 \contentsline {section}{\numberline {4.50}Account 150 - (B-Naipaul)}{17}{section.4.50}
-\contentsline {section}{\numberline {4.51}Account 151 - (F-Coldwell-Hall)}{17}{section.4.51}
-\contentsline {section}{\numberline {4.52}Account 152 - (E-Coldwell)}{18}{section.4.52}
-\contentsline {section}{\numberline {4.53}Account 401 - (M-Garza-\&-Co)}{18}{section.4.53}
-\contentsline {chapter}{\numberline {5}\sphinxstylestrong {Document Author(s):}}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Si\IeC {\^o}n H. Buckler}{19}{section.5.1}
+\contentsline {section}{\numberline {4.51}Account 401 - Series-A}{17}{section.4.51}
+\contentsline {chapter}{\numberline {5}\sphinxstylestrong {Document Author(s):}}{18}{chapter.5}
+\contentsline {section}{\numberline {5.1}Si\IeC {\^o}n H. Buckler}{18}{section.5.1}

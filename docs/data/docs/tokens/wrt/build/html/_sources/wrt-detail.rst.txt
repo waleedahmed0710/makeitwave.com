@@ -480,33 +480,13 @@ Account 150 - (B-Naipaul)
    :header-rows: 1
    
 
-
-Account 151 - (F-Coldwell-Hall)
-----------------------------------
-
-.. csv-table:: Wave® Royalty Token (WRT) - Account ID: 151 (F-Coldwell-Hall)
-   :file: _static/wrt-coin/wrt-wallet-151.csv
-   :widths: 15, 35, 15, 15, 20
-   :header-rows: 1
-
-
-
-Account 152 - (E-Coldwell)
----------------------------
-
-
-.. csv-table:: Wave® Royalty Token (WRT) - Account ID: 152 (E-Coldwell)
-   :file: _static/wrt-coin/wrt-wallet-152.csv
-   :widths: 15, 35, 15, 15, 20
-   :header-rows: 1
-
+  
    
-   
-Account 401 - (M-Garza-&-Co)
+Account 401 - Series-A
 ------------------------------
 
 
-.. csv-table:: Wave® Royalty Token (WRT) - Account ID: 401 (M-Garza-&-Co)
+.. csv-table:: Wave® Royalty Token (WRT) - Account ID: 401 Series-A
    :file: _static/wrt-coin/wrt-wallet-401.csv
    :widths: 15, 35, 15, 15, 20
    :header-rows: 1

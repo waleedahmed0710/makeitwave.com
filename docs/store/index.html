@@ -50,7 +50,7 @@
 	      .col-lg-4 { padding:2rem!important;}
 	      .row {margin-top: -40px; padding-bottom: 26px;}
 	      #sub-total {all:unset; color:white; font-weight:200;}
-	      .add-to-cart {font-size:0.75rem; color:white!important;opacity:1!important;}
+	      .add-to-cart {font-size:0.75rem; color:white!important;opacity:1!important;margin-top:4px;}
 	      .btn:hover {color:white!Important; background-color: #333366!important; box-shadow: none;}
 	      .btn { color:white!Important; background-color: transparent!important; box-shadow: inset 0 -21px 20px rgba(255,255,255,0.05);}
 	      .add-to-cart2 {margin-top:3px!important; padding:6px 7px 1px 8px!important; margin-bottom:3px!important; min-width:100px!important;}
@@ -65,6 +65,8 @@
 	               width: 100%;
 	               border: 1px solid #333366;
 	       }
+		   
+		  
 
 
 	</style>
@@ -76,9 +78,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 	</script><!-- Snipcart -->
 
-	<script data-api-key="YTBiMjkwMjktNTA4NS00ZjY4LTg4Y2QtODAzOTk4YTdiMzBhNjM2NzQyMTQwMDM0MzcyMDI0" data-autopop="false" id="snipcart" src="https://cdn.snipcart.com/scripts/2.0/snipcart.js">
-	</script>
-	<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css">
+	
+	
 	<style>
 	      body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
 	</style><noscript>
@@ -90,21 +91,14 @@
 	<header id="mainWrapper">
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 			<a data-content="Wave® Logo - The Symbol of Free Internet" href="../index.html" title="Wave® Logo - The Symbol of Free Internet"><img alt="Wave® Logo - The Symbol of Free Internet" class="navbar-brand" src="../img/wave_logo.png"></a>
-			<div class="checkout-visibility-mobile">
-				<a class="snipcart-checkout" href="#" style="text-decoration:none!Important;">
-				<p style="display:inline!important;"><span class="glyphicon glyphicon-shopping-cart navbar-cart-icon"></span></p>
-				<div class="snipcart-summary navbar-cart-qnt snipcart-summary-empty">
-					<span class="glyphicon glyphicon-shopping-cart navbar-cart-icon"><span class="snipcart-total-items">0</span></span>
-				</div>
-				<p></p></a>
-			</div><button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav mr-auto">
 					
 					<li class="nav-item"></li>
 					
 					<li class="nav-item">
-						<a class="nav-link" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="../demo.html">Dashboard</a>
+						<a class="nav-link" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="../demo.html">Preview</a>
 					</li>
 					
 					<li class="nav-item"></li>
@@ -125,15 +119,13 @@
 							<a class="nav-link" href="https://blog.makeitwave.com"  data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true">Blog</a>
 						</li>
 	
-					
+							<li class="nav-item"></li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><b style="font-weight:bold;">Order Now</b></a>
+					</li>
 				</ul>
 			</div>
-			<div class="checkout-visibility-desktop">
-				<a class="snipcart-checkout snipcart-checkout-text" href="#">
-				<div class="snipcart-summary checkout-details-desktop" style="color:white!important; font-weight:lighter;">
-					<p style="display:inline!important;"><span class="glyphicon glyphicon-shopping-cart navbar-cart-icon-desktop">&nbsp;</span></p><b>Items:</b> <span class="snipcart-total-items"></span>
-				</div></a>
-			</div>
+			
 		</nav>
 	</header>
 	<div class="main" id="site">
@@ -141,19 +133,19 @@
 			<div class="container" id="products">
 				<ul class="row">
 					<li class="col-lg-4">
-						<img class="navbar-brand" src="../img/wave_logo.png">
-						<h3 class="product-name" style="border-bottom:1px solid transparent!important;">Wi-Fi Hotspot <strong>Alpha</strong></h3><br>
+						
+						<h3 class="product-name" style="border-bottom:1px solid transparent!important;"><img class="navbar-brand" src="../img/wave_logo.png" style="margin-bottom:5px;"><strong style="text-transform:none!important;"><b style="color:#66CCFF;">3G/HSPA+</b></strong> </br>Smart Home Hotspot™ </h3><br>
 						<img class="product-image" src="../img/products/productbox16.png">
 						<div class="product-description" data-name="Home Hub">
-							<h3 class="product-name" style="border-bottom:1px solid transparent!important; margin-top:-10px; text-transform: none!important;">Speeds of <strong>20Mbps</strong></h3>
-							<p></p><a class="btn add-to-cart-btn add-to-cart2" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="../3G/index.html"><span class="glyphicon glyphicon-picture"></span> &nbsp; <b class="info-button-text2" style="margin-top:-1px;">&nbsp;Pictures</b></a> <a class="btn add-to-cart-btn add-to-cart2" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="product-detailed-info/3G.html"><span class="glyphicon glyphicon-info-sign"></span> &nbsp; <b class="info-button-text">Learn More</b></a>
-							<p class="product-paragraph">The HSPA+ Wi-Fi Hotspot is our first <strong>FREE Internet</strong> solution. This product combines a Cellular (HSPA+) USB Dongle with a Single Board Computer (SBC), running the latest version of WaveOS™. The Wi-Fi Hotspot is also more than a free internet hotspot. The device has 1TB storage and the menu has a built-in IPTV/ Media Library (Emby), Smart Appliance Control (OpenHAB) and IP Camera Monitor (MotionEye) - making the Wi-Fi Hotspot a cutting-edge Home Entertainment, Home Security and Home Control Solution. <b class="hideonmobile"></b></p>
+							<h3 class="product-name" style="border-bottom:1px solid transparent!important; margin-top:-10px; text-transform: none!important;"><b style="color:white; opacity:1;">Subscription-Free</b> </br> 10Mbps Internet, </br/> 1TGb Storage & </br> HD IPTV </h3>
+							<p></p><a class="btn add-to-cart-btn add-to-cart2" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="../3G/index.html"><span class="glyphicon glyphicon-picture"></span> &nbsp; <b class="info-button-text2" style="margin-top:-1px;">&nbsp;Gallery</b></a> <a class="btn add-to-cart-btn add-to-cart2" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="product-detailed-info/3G.html"><span class="glyphicon glyphicon-info-sign"></span> &nbsp; <b class="info-button-text">Learn More</b></a>
+							<p class="product-paragraph">The HSPA+ Smart Home Hotspot™ is our first <strong>FREE Internet & IPTV solution</strong>. This product combines a Huawei Cellular (HSPA+) USB Dongle with a Raspberry Pi 3B+ Single Board Computer and the latest version of WaveOS™. Built to order for our community of Early Adopters and Beta Testers. <b class="hideonmobile"></b></p>
 							<div class="add-to-cart">
 								<table class="add-to-cart-table" style="left:0; right:0; width:70%; margin-left:15%; border-top:1px solid white;">
 									<tbody>
 										<tr>
-											<th class="add-to-cart-columb-title" scope="col" style="width: 49.9097%;">Price (£)</th>
-											<th class="add-to-cart-columb-title" rowspan="2" scope="col" style="width: 49.9097%;"><button class="snipcart-add-item btn add-to-cart-btn" data-item-description="Extend your Home Hubs Wi-Fi with the Wave® Signal Booster. May be required for use with Energy Monitor/ Multi-Room Link if distance from Wi-Fi Hotspot exceeds 20 Meters." data-item-id="05" data-item-name="Wave® Free Wall" data-item-price="499.99" data-item-url="https://makeitwave.com/store/index.html#product-5" data-item-weight="20" style="margin-top:20px;"><b class="add-to-cart">Pre-Order</b></button></th>
+											<th class="add-to-cart-columb-title" scope="col" style="width: 49.9097%;">Price (£ GBP)</th>
+											<th class="add-to-cart-columb-title" rowspan="2" scope="col" style="width: 49.9097%;"><a class="snipcart-add-item btn add-to-cart-btn" href="https://paypal.me/makeitwave/200" target="_popup" style="margin-top:22px; "><b class="add-to-cart">Order Now</b></a></th>
 										</tr>
 										<tr>
 											<th scope="col" style="width: 50.0000%; padding:10px;">
@@ -167,23 +159,22 @@
 						</div>
 					</li>
 					<li class="col-lg-4">
-						<img class="navbar-brand" src="../img/wave_logo.png">
-						<h3 class="product-name" style="border-bottom:1px solid transparent!important;">Wi-Fi Hotspot <strong>Beta</strong></h3><br>
+						<h3 class="product-name" style="border-bottom:1px solid transparent!important;"><img class="navbar-brand" src="../img/wave_logo.png" style="margin-bottom:5px;"><strong style="text-transform:none!important;"><b style="color:#66CCFF;">4G/LTE+</b></strong> </br>Smart Home Hotspot™ </h3><br>
 						<img class="product-image" src="../img/products/product-98.png">
 						<div class="product-description" data-name="Home Hub">
-							<h3 class="product-name" style="border-bottom:1px solid transparent!important; margin-top:-10px; text-transform: none!important;">Speeds of <strong>50Mbps</strong></h3>
-							<p></p><a class="btn add-to-cart-btn add-to-cart2" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="../3G/index.html"><span class="glyphicon glyphicon-picture"></span> &nbsp; <b class="info-button-text2" style="margin-top:-1px;">&nbsp;Pictures</b></a> <a class="btn add-to-cart-btn add-to-cart2" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="product-detailed-info/3g.html"><span class="glyphicon glyphicon-info-sign"></span> &nbsp; <b class="info-button-text">Learn More</b></a>
-							<p class="product-paragraph">The 4G/LTE Wi-Fi Hotspot is our higher-speed <strong>FREE Internet</strong> solution. The solution combines a Single Board Computer (RPI3) with an built-in 4G HAT Board, 3 Cellular Antennas and 1 external Wi-Fi Antenna (802.11n). with a Single Board Computer (SBC), running the latest version of WaveOS™. The Wi-Fi Hotspot is also more than a free internet hotspot. The devices menu has a 2TB Storage with a built-in IPTV/ Media Library (Emby), Smart Appliance Control (OpenHAB) and IP Camera Monitor (MotionEye) - making the Wi-Fi Hotspot a cutting-edge Home Entertainment, Home Security and Home Control Solution. <b class="hideonmobile"></b></p>
+							<h3 class="product-name" style="border-bottom:1px solid transparent!important; margin-top:-10px; text-transform: none!important;"><b style="color:white; opacity:1;">Subscription-Free</b></br> 50Mbps Internet,</br> 2TB Storage & </br> FHD IPTV</h3>
+							<p></p>
+							<p class="product-paragraph">The 4G/LTE Smart Home Hotspot™ builds on our successes to provide a higher speed and more premium, <strong>FREE Internet & IPTV solution</strong>. This product combines a LTE Cat1 Modem HAT with a Raspberry Pi Zero Single Board Computer and the latest version of WaveOS™. Built to order for our community of Early Adopters and Beta Testers. <b class="hideonmobile"></b></p>
 							<div class="add-to-cart">
 								<table class="add-to-cart-table" style="left:0; right:0; width:70%; margin-left:15%; border-top:1px solid white;">
 									<tbody>
 										<tr>
-											<th class="add-to-cart-columb-title" scope="col" style="width: 49.9097%;">Price (£)</th>
-											<th class="add-to-cart-columb-title" rowspan="2" scope="col" style="width: 49.9097%;"><button class="snipcart-add-item btn add-to-cart-btn" data-item-description="Extend your Home Hubs Wi-Fi with the Wave® Signal Booster. May be required for use with Energy Monitor/ Multi-Room Link if distance from Wi-Fi Hotspot exceeds 20 Meters." data-item-id="05" data-item-name="Wave® Free Wall" data-item-price="499.99" data-item-url="https://makeitwave.com/store/index.html#product-5" data-item-weight="20" style="margin-top:20px;"><b class="add-to-cart">Pre-Order</b></button></th>
+											<th class="add-to-cart-columb-title" scope="col" style="width: 49.9097%;">Price (£ GBP)</th>
+											<th class="add-to-cart-columb-title" rowspan="2" scope="col" style="width: 49.9097%;"><a class="snipcart-add-item btn add-to-cart-btn" href="https://paypal.me/makeitwave/300" target="_popup" style="margin-top:22px; "><b class="add-to-cart">Order Now</b></a></th>
 										</tr>
 										<tr>
 											<th scope="col" style="width: 50.0000%; padding:10px;">
-												<p class="add-to-cart-price">499.99</p>
+												<p class="add-to-cart-price">299.99</p>
 											</th>
 										</tr>
 									</tbody>
@@ -193,23 +184,22 @@
 						</div>
 					</li>
 					<li class="col-lg-4">
-						<img class="navbar-brand" src="../img/wave_logo.png">
-						<h3 class="product-name" style="border-bottom:1px solid transparent!important;"><strong>5G Wi-Fi Hotspot</strong></h3><br>
+						<h3 class="product-name" style="border-bottom:1px solid transparent!important;"><img class="navbar-brand" src="../img/wave_logo.png" style="margin-bottom:5px;"><strong style="text-transform:none!important;"><b style="color:#66CCFF; margin-left:-5px!Important;">5G/mmWave</b></strong> </br>Smart Home Hotspot™ </h3><br>
 						<img class="product-image" src="../img/products/product-101.png">
 						<div class="product-description" data-name="Home Hub">
-							<h3 class="product-name" style="border-bottom:1px solid transparent!important; margin-top:-10px; text-transform: none!important;">Speeds of <strong>490Mbps+</strong></h3>
-							<p></p><a class="btn add-to-cart-btn add-to-cart2" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="../3G/index.html"><span class="glyphicon glyphicon-picture"></span> &nbsp; <b class="info-button-text2" style="margin-top:-1px;">&nbsp;Pictures</b></a> <a class="btn add-to-cart-btn add-to-cart2" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="product-detailed-info/3G.html"><span class="glyphicon glyphicon-info-sign"></span> &nbsp; <b class="info-button-text">Learn More</b></a>
-							<p class="product-paragraph">The 5G/mmWave Wi-Fi Hotspot is the worlds highest speed <strong>FREE Internet</strong> solution. The solution combines the latest 5G receiver with a Single Board Computer (RPI3) for built-in storage (3TB RAID) and the usual applications which include the IPTV/ Media Library (Emby), IoT Appliance Control (OpenHAB) and IP Camera Monitor (MotionEye). <b class="hideonmobile"></b></p>
+							<h3 class="product-name" style="border-bottom:1px solid transparent!important; margin-top:-10px; text-transform: none!important;"><b style="color:white; opacity:1;">Subscription-Free</b></br> 0.5Gbps Internet,</br> 4TB Storage & </br> UHD IPTV</h3>
+							<p></p>
+							<p class="product-paragraph">The 5G/mmWave Smart Home Hotspot™ is a concept <strong>FREE Internet & IPTV</strong> solution, still in the early stages of development. The solution combines the latest 5G receiver from Huawei with a Raspberry Pi 4 Single Board Computer and the latest version of WaveOS™. Our community of Early Adopters and Beta Testers can Pre-Order this product now to help support Wave. <b class="hideonmobile"></b></p>
 							<div class="add-to-cart">
 								<table class="add-to-cart-table" style="left:0; right:0; width:70%; margin-left:15%; border-top:1px solid white;">
 									<tbody>
 										<tr>
-											<th class="add-to-cart-columb-title" scope="col" style="width: 49.9097%;">Price (£)</th>
-											<th class="add-to-cart-columb-title" rowspan="2" scope="col" style="width: 49.9097%;"><button class="snipcart-add-item btn add-to-cart-btn" data-item-description="Extend your Home Hubs Wi-Fi with the Wave® Signal Booster. May be required for use with Energy Monitor/ Multi-Room Link if distance from Wi-Fi Hotspot exceeds 20 Meters." data-item-id="05" data-item-name="Wave® Free Wall" data-item-price="499.99" data-item-url="https://makeitwave.com/store/index.html#product-5" data-item-weight="20" style="margin-top:20px;"><b class="add-to-cart">Pre-Order</b></button></th>
+											<th class="add-to-cart-columb-title" scope="col" style="width: 49.9097%;">Price (£ GBP)</th>
+											<th class="add-to-cart-columb-title" rowspan="2" scope="col" style="width: 49.9097%;"><a class="snipcart-add-item btn add-to-cart-btn" href="https://paypal.me/makeitwave/500" target="_popup" style="margin-top:22px; "><b class="add-to-cart">Pre-Order</b></a></th>
 										</tr>
 										<tr>
 											<th scope="col" style="width: 50.0000%; padding:10px;">
-												<p class="add-to-cart-price">999.99</p>
+												<p class="add-to-cart-price">499.99</p>
 											</th>
 										</tr>
 									</tbody>

@@ -51,7 +51,7 @@
 /* 02:AI */ .demo-tvremote-div {height: 100vh; min-width: 100%!important; overflow: hidden; background-color:rgba(0,0,0,0.7);}
 /* 02:AJ */ .demo-keyboard-div {height: 100vh;  min-width: 100%!important; overflow: hidden; background-color:rgba(0,0,0,0.7);}
 /* 02:AK */ .demo-touchpad-div {height: 100vh; min-width: 100%!important; overflow: hidden; background-color:rgba(0,0,0,0.7);}
-
+/* 02:AL */ .demo-netstats-div {height: 100vh; min-width: 100%!important; overflow: hidden; background-color:rgba(0,0,0,0.7);}
 
 /* 02:>  */ @media all and (min-width:1024px) { 
 
@@ -64,6 +64,7 @@
 /* 02:AI */ .demo-tvremote-div { background-image: url(../img/demo-content/tvremote/Landscape-2280x1080-PR=1-content.png); }
 /* 02:AJ */ .demo-keyboard-div {background-image: url(../img/demo-content/keyboard/Landscape-2280x1080-PR=1-content.png);}
 /* 02:AK */ .demo-touchpad-div { background-image: url(../img/demo-content/touchpad/Landscape-2280x1080-PR=1-content.png); }
+/* 02:AK */ .demo-netstats-div { background-image: url(../img/demo-content/netstats/Landscape-2280x1080-PR=1-content.png); }
 /* 02:!! */ }
 
 
@@ -78,6 +79,7 @@
 /* 04:AI */ .demo-tvremote-div { background-image: url(../img/demo-content/tvremote/Landscape-480x320-PR=1-content.png);}
 /* 04:AJ */ .demo-keyboard-div { background-image: url(../img/demo-content/keyboard/Landscape-480x320-PR=2-content.png);}
 /* 04:AK */ .demo-touchpad-div { background-image: url(../img/demo-content/touchpad/Landscape-480x320-PR=1-content.png);}
+/* 04:AK */ .demo-netstats-div { background-image: url(../img/demo-content/netstats/Landscape-480x320-PR=1-content.png);}
 /* 04:!! */ }
 
 
@@ -92,6 +94,7 @@
 /* 05:AI */ .demo-tvremote-div { background-image: url(../img/demo-content/tvremote/Landscape-480x320-PR=1-content.png);}
 /* 05:AJ */ .demo-keyboard-div { background-image: url(../img/demo-content/keyboard/Landscape-480x320-PR=2-content.png);}
 /* 05:AK */ .demo-touchpad-div { background-image: url(../img/demo-content/touchpad/Landscape-480x320-PR=1-content.png);}
+/* 04:AL */ .demo-netstats-div { background-image: url(../img/demo-content/netstats/Landscape-480x320-PR=1-content.png);}
 /* 05:!! */ }
 
 /* 06:>  */ @media all and (min-width:480px) and (max-width:767px) and (orientation:landscape) {
@@ -105,6 +108,7 @@
 /* 06:AI */ .demo-tvremote-div { background-image: url(../img/demo-content/tvremote/Landscape-480x320-PR=1-content.png); }
 /* 06:AJ */ .demo-keyboard-div { background-image: url(../img/demo-content/keyboard/Landscape-480x320-PR=1-content.png); }
 /* 06:AK */ .demo-touchpad-div { background-image: url(../img/demo-content/touchpad/Landscape-480x320-PR=1-content.png); }
+/* 06:AK */ .demo-netstats-div { background-image: url(../img/demo-content/netstats/Landscape-480x320-PR=1-content.png); }
 /* 06:!! */ }
 
 /* 07:>  */  @media all and (max-width:479px) and (orientation:landscape) {
@@ -118,5 +122,6 @@
 /* 07:AI */ .demo-tvremote-div { background-image: url(../img/demo-content/tvremote/Landscape-480x320-PR=2-content.png);}
 /* 07:AJ */ .demo-keyboard-div { background-image: url(../img/demo-content/keyboard/Landscape-480x320-PR=2-content.png);}
 /* 07:AK */ .demo-touchpad-div { background-image: url(../img/demo-content/touchpad/Landscape-480x320-PR=2-content.png);}
+/* 07:AL */ .demo-netstats-div { background-image: url(../img/demo-content/netstats/Landscape-480x320-PR=2-content.png);}
 /* 07:!! */ } 
 

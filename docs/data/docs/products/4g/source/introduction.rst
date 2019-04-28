@@ -1,15 +1,15 @@
-The Wave® Smart Hotspot™
+The Wave® Smart Home Hotspot™
 =========================
 
-The Wave® Smart Hotspot™ is a Single Board Computer e.g. Raspberry Pi , operated by the Wave® operating system: WaveOS™. 
-To receive internet access the Smart Hotspot™ uses one of 3 cellular modules: HSPA+ USB Dongle, 4G/LTE HAT or 5G/mmWave Receiver. 
-This user guide is for the Smart Hotspot™ only. To understand the celluar modules please reference their user guides. 
+The Wave® Smart Home Hotspot™ is a Single Board Computer e.g. Raspberry Pi , operated by the Wave® operating system: WaveOS™. 
+To receive internet access the Smart Home Hotspot™ uses one of 3 cellular modules: HSPA+ USB Dongle, 4G/LTE HAT or 5G/mmWave Receiver. 
+This user guide is for the Smart Home Hotspot™ only. To understand the celluar modules please reference their user guides. 
 
-Image 1.0 - Wave® Smart Hotspot™
+Image 1.0 - Wave® Smart Home Hotspot™
 
 .. image::	images/config-1.png
 
-The Wave® Smart Hotspot™ is not only the worlds first free internet solution. This product is also a highly affordable, all-in-one, **Smart Home Solution**. It works right out of the box, making it today's easiest and fastest way to transform any house into a fully-intergrated digital smart home. Smart Home features of this product include; 
+The Wave® Smart Home Hotspot™ is not only the worlds first free internet solution. This product is also a highly affordable, all-in-one, **Smart Home Solution**. It works right out of the box, making it today's easiest and fastest way to transform any house into a fully-intergrated digital smart home. Smart Home features of this product include; 
 
 -  Media Center (DLNA - Music, Movies & IPTV Streaming etc)
 -  Wireless Home Control (IoT) e.g. Smart Plug Sockets, Lights etc
@@ -18,7 +18,7 @@ The Wave® Smart Hotspot™ is not only the worlds first free internet solution.
 -  Multi-User Support (access the Wave® Dashboard™ from multiple devices, simultaniously, through any web-browser)
 -  Remote Access - Access the Wave® Dashboard™ from Anywhere in the world using the Free Wave® Remote (Remote Access) Mobile App
 
- The Wave® Smart Hotspot™ is also the worlds first free internet solution. By using a cellular module to receive internet access the Smart Hotspot™ is able to convert advertising and cryptocurrency mining revenue into credits which autonomously pay the internet service provider. 
+ The Wave® Smart Home Hotspot™ is also the worlds first free internet solution. By using a cellular module to receive internet access the Smart Home Hotspot™ is able to convert advertising and cryptocurrency mining revenue into credits which autonomously pay the internet service provider. 
 
 
 Wave® Hardware
@@ -58,14 +58,14 @@ The operator can then connect their device to the Wi-Fi Hotspot and complete ini
 
 To complete initial set-up, the operator must simply select which Edition of WaveOS™ they'd like installed to the device. 
 The Edition of WaveOS™ installed will determine which product the device will become (or which function the device will serve within the  Smart Home™). 
-For example, if the operator selects the HSPA+ Smart Hotspot™ Edition of WaveOS™, it will transform the SBC a HSPA+ Smart Hotspot™. 
+For example, if the operator selects the HSPA+ Smart Home Hotspot™ Edition of WaveOS™, it will transform the SBC a HSPA+ Smart Home Hotspot™. 
 The initial installation is done via a web browser menu (no programming skills required). Initial installation is made one-click, fully autonomous and takes only a few minutes. 
 
 
 Wave® Enhacement Products
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-With the exclusion of the Smart Hotspot™, all products from Wave® are considered **Enhancement Products** since they are designed to enhance the experience and performance of the Smart Hotspot™. The quantity and configuration of these enhancement products will depend on the size of the users home, occupants and their personal preferences. Below is a list of the full range of Wave® Enhacement Products: 
+With the exclusion of the Smart Home Hotspot™, all products from Wave® are considered **Enhancement Products** since they are designed to enhance the experience and performance of the Smart Home Hotspot™. The quantity and configuration of these enhancement products will depend on the size of the users home, occupants and their personal preferences. Below is a list of the full range of Wave® Enhacement Products: 
 
 
 .. csv-table:: Table 1.0 - Wave's 'Enhacement' Products
@@ -75,18 +75,18 @@ With the exclusion of the Smart Hotspot™, all products from Wave® are conside
    
    
 **NOTES:**
-	• The products above are to enhance the Smart Hotspot™ Experience <https://makeitwave.com/data/docs/products/3g-homehub/build/html/index.html>`__, . They **DO NOT** function independantly of the Smart Hotspot™. Please ensure you have the Smart Hotspot™ in place before expecting full enjoyment and use of the above Enhacement Products. 
+	• The products above are to enhance the Smart Home Hotspot™ Experience <https://makeitwave.com/data/docs/products/3g-homehub/build/html/index.html>`__, . They **DO NOT** function independantly of the Smart Home Hotspot™. Please ensure you have the Smart Home Hotspot™ in place before expecting full enjoyment and use of the above Enhacement Products. 
 
 
-Wave® Smart Hotspot™
+Wave® Smart Home Hotspot™
 ~~~~~~~~~~~~~~~~~~~~
 
-A Wave® Smart Home™ describes, at the very least, a Wave® Smart Hotspot™ and/or at least one Wave® Enhacement Product connected to it. 
-The Smart Hotspot™ is effectively Wi-Fi Hotspot with a built in server, which hosts a number of smart home applications.
+A Wave® Smart Home™ describes, at the very least, a Wave® Smart Home Hotspot™ and/or at least one Wave® Enhacement Product connected to it. 
+The Smart Home Hotspot™ is effectively Wi-Fi Hotspot with a built in server, which hosts a number of smart home applications.
 Any device connected to the hotspot (locally and remotely) may access these applications via any modern web browser.  
-For convenience and ease of use, all of the applications hosted on the Smart Hotspot™ are embedded into one interface called The Dashboard™.
+For convenience and ease of use, all of the applications hosted on the Smart Home Hotspot™ are embedded into one interface called The Dashboard™.
 
-Image 1.1 - The Wave® Smart Hotspot™
+Image 1.1 - The Wave® Smart Home Hotspot™
 
 .. image::	images/homehub.png
 
@@ -103,7 +103,7 @@ Wave® Dashboard™
 	•  Tab 5 - Settings: Wi-Fi SSID & Password, Change Software Editions, Change Time & Date etc. 
 	
 	
-	Image 1.1 - Wave® Smart Hotspot™ - Dashboard™
+	Image 1.1 - Wave® Smart Home Hotspot™ - Dashboard™
 
 .. image::	images/dashboard.png
 
@@ -139,13 +139,13 @@ Wi-Fi SSID & Password, Change Software Editions, Change Time & Date etc.
 
 
 
-**Key Facts about the Wave® Smart Hotspot™**:
+**Key Facts about the Wave® Smart Home Hotspot™**:
 
 	• Primarily a Wi-Fi Hotspot with cellular module add-on (HSPA+, LTE or 5G). Features a built in Media Center (with IPTV), IoT Smart Device Controls and IP Camera Monitor (using WaveOS™)
 	• Connects to an existing DSL Router via Ethernet (Initial Setup Only)
 	• Works independantly as a  Wave® Smart Home™ solution or in conjunction with enhancement products and/or accessories
-	• Functions most effectively when all wireless devices in the home, connect **exclusively** to the Wave® Smart Hotspot™
-	• The cellular Smart Hotspot™ is designed to replace existing sole sources of internet access. 
+	• Functions most effectively when all wireless devices in the home, connect **exclusively** to the Wave® Smart Home Hotspot™
+	• The cellular Smart Home Hotspot™ is designed to replace existing sole sources of internet access. 
 	
 
 

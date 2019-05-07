@@ -55,9 +55,9 @@ unset CDPATH
 #sh  rebuild.sh
 #cd ../../
 
-cd products/4g/
-sh  rebuild.sh
-cd ../../
+#cd products/4g/
+#sh  rebuild.sh
+#cd ../../
 
 #cd products/warranty/
 #sh  rebuild.sh
@@ -67,9 +67,9 @@ cd ../../
 #sh  rebuild.sh
 #cd ../../
 
-#cd software/distributors/
-#sh  rebuild.sh 
-#cd ../../
+cd software/distributors/
+sh  rebuild.sh 
+cd ../../
 
 #cd software/wave_os/
 #sh  rebuild.sh 

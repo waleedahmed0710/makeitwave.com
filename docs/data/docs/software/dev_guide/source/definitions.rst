@@ -7,12 +7,12 @@ As used in this Agreement, and in addition to any other terms defined in this Ag
 Documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
-Means the documentation of the Software prepared by Company for use by End Users.
+Means the documentation of the Software prepared by Company for use by End-Users.
 
-End User
+End-User
 ~~~~~~~~~~~~~~~
 
-Means an entity permitted to use one or more Products under an End User Agreement, incorporating the terms and conditions required to be referenced as set forth in this Agreement, for the End User's internal use only and without the further right to sublicense, distribute, transfer or transmit the Products.
+Means an entity permitted to use one or more Products under an End-User Agreement, incorporating the terms and conditions required to be referenced as set forth in this Agreement, for the End-User's internal use only and without the further right to sublicense, distribute, transfer or transmit the Products.
 
 Executable Code
 ~~~~~~~~~~~~~~~~~~~
@@ -49,10 +49,10 @@ Proprietary Notices
 
 Means any and all proprietary rights notices designated by Company, including, but not limited to, copyright notices affixed or included by Company on or in Association  with the Products, including such notices as are set forth on the Master Copy
 
-Registered End Users
+Registered End-Users
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Means those prospective End Users who are accepted by Company as Registered End Users in accordance with Section 2.2.
+Means those prospective End-Users who are accepted by Company as Registered End-Users in accordance with Section 2.2.
 
 Seat
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

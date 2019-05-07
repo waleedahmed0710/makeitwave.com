@@ -1,8 +1,8 @@
 Term & Termination
 ======================================================
 
-Term
-~~~~~~~~~~~ 
+Term of Agreement
+~~~~~~~~~~~~~~~~~~ 
 
 Unless earlier terminated as provided in this Section 15, this Agreement shall be effective as of the Effective Date and shall remain in effect until the first anniversary of the Effective Date (the "Initial Term"). This Agreement shall be automatically renewed for successive one-year periods (each such renewal term is referred to as a "Renewal Term"), subject to earlier termination as set forth in this Section 15, unless either party notifies the other on or before 90 days before the beginning of any Renewal Term.
 
@@ -35,7 +35,7 @@ In addition to any other rights and remedies available under this Agreement, at 
 Obligations upon Termination
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Upon expiration or termination of this Agreement for any reason, Distributor shall immediately return to Company all Company property, including, but not limited to, the Master Copy, the Demonstration Copies and the Proprietary Information of Company. Upon return of such materials, Distributor shall provide Company with a signed written statement certifying that it has returned all Company property to Company. Upon termination of this Agreement for any reason, all rights and licenses granted by Company hereunder to Distributor shall immediately cease, provided such termination shall not result in termination of End User Agreements extended to End Users. Invoicing and payment terms with regard to any End User License Agreement, and for ongoing support thereof, as well as the terms for receipt and provision of such ongoing support, shall remain in full force and effect until such time as the End User License Agreement expires or terminates.  
+Upon expiration or termination of this Agreement for any reason, Distributor shall immediately return to Company all Company property, including, but not limited to, the Master Copy, the Demonstration Copies and the Proprietary Information of Company. Upon return of such materials, Distributor shall provide Company with a signed written statement certifying that it has returned all Company property to Company. Upon termination of this Agreement for any reason, all rights and licenses granted by Company hereunder to Distributor shall immediately cease, provided such termination shall not result in termination of End-User Agreements extended to End-Users. Invoicing and payment terms with regard to any End-User License Agreement, and for ongoing support thereof, as well as the terms for receipt and provision of such ongoing support, shall remain in full force and effect until such time as the End-User License Agreement expires or terminates.  
 
 Survival of Terms
 ~~~~~~~~~~~~~~~~~~~~~~~~

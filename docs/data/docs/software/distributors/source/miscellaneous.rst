@@ -23,7 +23,7 @@ Nothing in this Agreement shall constitute or be deemed to constitute a partners
 Assignment
 ~~~~~~~~~~~~~~~~~
 
-Neither this Agreement, nor the obligations of either party, may be transferred or assigned by either party without the prior written consent of the other party.  Notwithstanding the foregoing, Distributor may subcontract End User Support or other services related to the Products.
+Neither this Agreement, nor the obligations of either party, may be transferred or assigned by either party without the prior written consent of the other party.  Notwithstanding the foregoing, Distributor may subcontract End-User Support or other services related to the Products.
 
 Waiver
 ~~~~~~~~~~~~~~~~~
@@ -54,13 +54,11 @@ If any provision hereof is declared invalid by a court of competent jurisdiction
 Appendixes
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Appendix A, B, C, D, E, and F, described below and attached hereto, are incorporated into this Agreement wherever referenced.
+Appendix A, B, C described below and attached hereto, are incorporated into this Agreement wherever referenced.
 
-- Appendix A	Description of Software
-- Appendix B	Software Transaction Fee
-- Appendix C	Request For Quote
-- Appendix D	Sample Beta Release Schedule (illustrative only) 
-- Appendix E	Training Service
+- Appendix A	Distribution Licence Fee(s), Commission(s), Royalties
+- Appendix B	Description of Item(s) to be Distributed
+- Appendix C	Full Distribution Proceedure
 
 
 

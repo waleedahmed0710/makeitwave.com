@@ -19,7 +19,7 @@ Distributor shall keep complete and accurate records of Distribution, to allow C
 Expense
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Upon determination of investigation, liability of the costs will be reimbursed by the non-liable party to this Agreement e.g. if the investigation determines the Company's analytics of the Network of End Users are at fault, costs incurred by the Distributor will be reimbursed by the Company and vice versa will be expected. Such expenses shall include, without limitation, reasonable travel expenses (including transportation, lodging, and meals) and the cost of any courier services, photocopying, facsimile, transmisSiôns, communications charges, telephone calls (excluding Company’s costs for providing telephone support pursuant to Section 3), and other expenses.  Reimbursement for expenses shall be due sixty (60) days after receipt of valid invoice from the agreed 3rd Party Auditor.
+Upon determination of investigation, liability of the costs will be reimbursed by the non-liable party to this Agreement e.g. if the investigation determines the Company's analytics of the Network of End-Users are at fault, costs incurred by the Distributor will be reimbursed by the Company and vice versa will be expected. Such expenses shall include, without limitation, reasonable travel expenses (including transportation, lodging, and meals) and the cost of any courier services, photocopying, facsimile, transmisSiôns, communications charges, telephone calls (excluding Company’s costs for providing telephone support pursuant to Section 3), and other expenses.  Reimbursement for expenses shall be due sixty (60) days after receipt of valid invoice from the agreed 3rd Party Auditor.
 
 
 Delinquent Accounts

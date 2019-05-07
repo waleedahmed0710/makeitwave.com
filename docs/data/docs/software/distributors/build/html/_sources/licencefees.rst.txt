@@ -1,15 +1,28 @@
-Licence Fees & Payment
+Licence Fees, Commissions and Royalties
 ==============================================================
 
 Licence Fee
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
-Distributor shall pay to Company, through way of application and registration. Following this contract signing and payment, this agreement will be binding for a period of 3 years. After which point the prospective Distributor will become, in full effect, a Licenced Distributor of the Companies Software and/or Products and Services, with Permission, as set forth in this agreement, to distribute, with wholesale support of the developers, the Companies Software and/or Product(s), as set forth herein ("Transactional License Fee"). 
+Distributor shall pay to Company, an application and registration fee (as per Annex A). Said payment will constitute acceptance of these terms of service and "commencement" of this agreement between the two parties. This agreement will be binding for a period of 36 months from the "commencement" date, after expiration the application and registration will need to be re-submitted by the prospective distributor(s). After "commencement" of the terms of this agreement, the prospective Distributor will become, in full effect, a Licenced Distributor of the Companies Software and/or Products and Services, with Permission, as set forth in this agreement, to distribute, with wholesale support of the developers, the Companies Software and/or Product(s), as set forth herein ("Transactional License Fee"). 
+
+Licence Commission
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+Company shall pay to Distributor(s) (the sum/percentage disclosed in Annex A) per each new End-User obtained by the Distributor ("Commission"). Registration of new End-Users is conducted autonomously by the Companies Software upon the End-Users initial connection to the internet and each month thereafter, to confirm the End-User is still active on the network. 
+
+Licence Royaltee
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+5% (Five Percent) of all Gross Residual Income (GRI) from the network of End-Users, will be issued to the Distributor(s), as set forth herein ("Transactional License Royaltee").
+This royaltee is calculated from the network as a whole and divided equally between all distributors, regardless of the number or duration of End-Users introduced to the network. 
   
 Timing of Payments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Transactional License Fee shall be due and payable on or before the prospective Distributors application and registration
+The Transactional License Fee shall be due and payable during the prospective Distributors application and registration. The Licence Commission per each new End-User Registration will be paid within 14 days of the End-Users registration onto the network. Whereas the Licence Royaltee will be paid by the Company to the Distributor(s) every 90 days. 
+
+
 
 Audit
 ~~~~~~~~~~~~~~~
@@ -19,19 +32,13 @@ Distributor shall keep complete and accurate records of Distribution, to allow C
 Expense
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Upon determination of investigation, liability of the costs will be reimbursed by the non-liable party to this Agreement e.g. if the investigation determines the Company's analytics of the Network of End Users are at fault, costs incurred by the Distributor will be reimbursed by the Company and vice versa will be expected. Such expenses shall include, without limitation, reasonable travel expenses (including transportation, lodging, and meals) and the cost of any courier services, photocopying, facsimile, transmisSiôns, communications charges, telephone calls (excluding Company’s costs for providing telephone support pursuant to Section 3), and other expenses.  Reimbursement for expenses shall be due sixty (60) days after receipt of valid invoice from the agreed 3rd Party Auditor.
-
-
-Delinquent Accounts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Interest may be charged by Company on delinquent payments and any other fees not paid to Company as provided hereunder at the Bank of England Interest Base Rate at the time or the amount stipulated by UK statutes, whichever is less, commencing with the date payment was due.
+Upon determination of investigation, liability of the costs will be reimbursed by the non-liable party to this Agreement e.g. if the investigation determines the Company's analytics of the Network of End-Users are at fault, costs incurred by the Distributor will be reimbursed by the Company and vice versa will be expected. Such expenses shall include, without limitation, reasonable travel expenses (including transportation, lodging, and meals) and the cost of any courier services, photocopying, facsimile, transmisSiôns, communications charges, telephone calls (excluding Company’s costs for providing telephone support pursuant to Section 3), and other expenses.  Reimbursement for expenses shall be due sixty (60) days after receipt of valid invoice from the agreed 3rd Party Auditor.
 
 
 Payment in Great British Pound Sterling (GBP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-All payments from Distributor to Company hereunder shall be in British Pound Sterling and shall be made by means of a company check, bank cheque or wire transfer drawn on a British Crown Territory/ Realm bank to a British Crown Territory/ Realm bank account designated by Company.
+All payments from Distributor to Company hereunder shall be in British Pound Sterling and shall be made by means of a Paypal Transfer, a company cheque, bank cheque or wire transfer drawn on a British Crown Territory/ Realm bank to a British Crown Territory/ Realm bank account designated by Company.
 
 
 Taxes

@@ -16,9 +16,9 @@ Company shall, except as otherwise provided below, indemnify, defend and hold ha
 
 (iii) Distributor providing Company with all available information, assistance, authority, and cooperation to enable Company to defend, compromise, or settle the lawsuit as provided herein; and 
 
-(iv) if the use of the Software becomes, or in Company's opinion is likely to become, the subject of a claim of infringement, Distributor permitting Company, at Company's option and expense, either to procure the right for Distributor and End Users to continue to use the Software or to replace or modify the Software so that it becomes non-infringing. 
+(iv) if the use of the Software becomes, or in Company's opinion is likely to become, the subject of a claim of infringement, Distributor permitting Company, at Company's option and expense, either to procure the right for Distributor and End-Users to continue to use the Software or to replace or modify the Software so that it becomes non-infringing. 
 
-Company will have no liability for any infringement or misappropriation of any copyright, trade secrets, or other proprietary rights resulting from modification of the Software performed other than by Company, from use other than as specified under this Agreement and approved End User Agreement, and the related Documentation, or from the use of the Software with products not specifically approved in writing by Company for use with the Software. This Section 14 sets forth the exclusive remedy of Distributor against Company and the complete liability of Company with respect to any claim of infringement made against Distributor or any End User.
+Company will have no liability for any infringement or misappropriation of any copyright, trade secrets, or other proprietary rights resulting from modification of the Software performed other than by Company, from use other than as specified under this Agreement and approved End-User Agreement, and the related Documentation, or from the use of the Software with products not specifically approved in writing by Company for use with the Software. This Section 14 sets forth the exclusive remedy of Distributor against Company and the complete liability of Company with respect to any claim of infringement made against Distributor or any End-User.
 
 
  

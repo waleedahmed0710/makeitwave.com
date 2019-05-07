@@ -23,7 +23,7 @@ Nothing in this Agreement shall constitute or be deemed to constitute a partners
 Assignment
 ~~~~~~~~~~~~~~~~~
 
-Neither this Agreement, nor the obligations of either party, may be transferred or assigned by either party without the prior written consent of the other party.  Notwithstanding the foregoing, Distributor may subcontract End User Support or other services related to the Products.
+Neither this Agreement, nor the obligations of either party, may be transferred or assigned by either party without the prior written consent of the other party.  Notwithstanding the foregoing, Distributor may subcontract End-User Support or other services related to the Products.
 
 Waiver
 ~~~~~~~~~~~~~~~~~

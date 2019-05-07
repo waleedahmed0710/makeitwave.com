@@ -6,19 +6,19 @@ Company Indemnification
 
 Company shall, except as otherwise provided below, indemnify, defend and hold harmless Distributor and its officers, directors and agents against any damages, costs, and fees resulting from: 
 
-(a) any third party claims that the Software or any of its elements or the use thereof in accordance with its related Documentation has, will or does violate or infringe any copyright, trade secret, or other valid  proprietary right of any other person or entity and 
+1. Any third party claims that the Software or any of its elements or the use thereof in accordance with its related Documentation has, will or does violate or infringe any copyright, trade secret, or other valid  proprietary right of any other person or entity and 
 
-(b) any failure on the part of Company to pay any taxes, duties or assessments Company is obligated to pay hereunder or other amounts Company is obligated to pay as set forth in Section 5.7. The right of indemnification as set forth herein will be subject to all of the following: 
+2. Any failure on the part of Company to pay any taxes, duties or assessments Company is obligated to pay hereunder or other amounts Company is obligated to pay as set forth in Section 5.7. The right of indemnification as set forth herein will be subject to all of the following: 
 
-(i) Distributor providing Company with prompt written notice of the initial claim and filing of the lawsuit relating thereto; 
+	- Distributor providing Company with prompt written notice of the initial claim and filing of the lawsuit relating thereto; 
 
-(ii) Distributor permitting Company to select legal counsel and to defend, compromise, or settle the lawsuit in the sole discretion of Company, except that Company shall have no authority to require Distributor to pay any amounts or admit to any wrong-doing; 
+	- Distributor permitting Company to select legal counsel and to defend, compromise, or settle the lawsuit in the sole discretion of Company, except that Company shall have no authority to require Distributor to pay any amounts or admit to any wrong-doing; 
 
-(iii) Distributor providing Company with all available information, assistance, authority, and cooperation to enable Company to defend, compromise, or settle the lawsuit as provided herein; and 
+	- Distributor providing Company with all available information, assistance, authority, and cooperation to enable Company to defend, compromise, or settle the lawsuit as provided herein; and 
 
-(iv) if the use of the Software becomes, or in Company's opinion is likely to become, the subject of a claim of infringement, Distributor permitting Company, at Company's option and expense, either to procure the right for Distributor and End Users to continue to use the Software or to replace or modify the Software so that it becomes non-infringing. 
+	- if the use of the Software becomes, or in Company's opinion is likely to become, the subject of a claim of infringement, Distributor permitting Company, at Company's option and expense, either to procure the right for Distributor and End-Users to continue to use the Software or to replace or modify the Software so that it becomes non-infringing. 
 
-Company will have no liability for any infringement or misappropriation of any copyright, trade secrets, or other proprietary rights resulting from modification of the Software performed other than by Company, from use other than as specified under this Agreement and approved End User Agreement, and the related Documentation, or from the use of the Software with products not specifically approved in writing by Company for use with the Software. This Section 14 sets forth the exclusive remedy of Distributor against Company and the complete liability of Company with respect to any claim of infringement made against Distributor or any End User.
+Company will have no liability for any infringement or misappropriation of any copyright, trade secrets, or other proprietary rights resulting from modification of the Software performed other than by Company, from use other than as specified under this Agreement and approved End-User Agreement, and the related Documentation, or from the use of the Software with products not specifically approved in writing by Company for use with the Software. This Section 14 sets forth the exclusive remedy of Distributor against Company and the complete liability of Company with respect to any claim of infringement made against Distributor or any End-User.
 
 
  

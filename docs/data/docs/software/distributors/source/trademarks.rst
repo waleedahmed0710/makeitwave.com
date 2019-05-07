@@ -1,7 +1,7 @@
 Trademarks
 =======================
 
-Ownership
+Ownerships
 ~~~~~~~~~~~~~~~~
 
 Distributor acknowledges that Company and/or its licensors e.g. Google Inc awarded Patents, 3rd Party Applications and Source Code embedded within the Software, are the owners of all right, title and interest in and to the Marks, and Distributor will not adopt for use any of the Marks in any manner whatsoever except as expressly provided in this Agreement.

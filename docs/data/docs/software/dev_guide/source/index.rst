@@ -1,35 +1,15 @@
 WaveOS™ Developers Guide
-===============================================================
+============================
 
-Improve WaveOS™
-------------------
+*Wave® Smart Home Hotspot™ - HSPA+/LTE/5G/StarLink*
 
 
 .. toctree::
    :maxdepth: 2
    
    releasenotes
-   background
-   definitions
-   grantlicence
-   maintenanceservice
-   additionalresponsibilities
-   licencefees
-   distributionandpackaging
-   compliance
-   additionalresponsibilities2
-   ownership
-   trademarks
-   nondisclosure
-   remedyandperformance
-   warranties
-   indemnification
-   terminiation
-   arbitration
-   liability
-   miscellaneous
-   escrow
-   appendix-a
+   introduction
+   manual_build
    
    
 

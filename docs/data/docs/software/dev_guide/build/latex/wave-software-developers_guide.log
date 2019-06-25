@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  11 FEB 2019 06:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  18 JUN 2019 19:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1148,13 +1148,6 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (./wave-software-developers_guide.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-LaTeX Font Info:    Font shape `TS1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `TS1/ptm/b/n' tried instead on input line 2.
 )
 \tf@toc=\write6
 \openout6 = `wave-software-developers_guide.toc'.
@@ -1180,114 +1173,212 @@ less on input line 68.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 68.
 
-Chapter 1.
-LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 73.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 72.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <10> not available
+(Font)              Font shape `TS1/phv/b/n' tried instead on input line 75.
+ [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-[]|\T1/ptm/m/n/10 01-11-
+]
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--138
+[]|[][]\T1/ptm/m/n/10 2019-02-11_wave-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--138
+\T1/ptm/m/n/10 software-
  []
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 173.
+less on input line 160.
 
-[1
-
+[2
 
 ]
-LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <10> not available
-(Font)              Font shape `TS1/phv/b/n' tried instead on input line 220.
- [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-[18] [19] [20] [21] <wave-logo.png, id=379, 200.75pt x 100.375pt>
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 961.
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+[]|\T1/ptm/m/n/10 01-11-
+ []
 
+[3]
+Chapter 2.
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 210.
+
+[4
+
+]
+Chapter 3.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 247.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 269.
+
+[5
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 341--343
+[]\T1/pcr/m/n/10 # if you skip this step, you will probably get "out of memory"
+ errors
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+[]\T1/pcr/m/n/10 sudo apt-get install -y libboost-system-dev libboost-filesyste
+m-dev
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+\T1/pcr/m/n/10 libboost-date-time-dev libboost-locale-dev libfreeimage-dev
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+\T1/pcr/m/n/10 libfreetype6-dev libeigen3-dev libcurl4-openssl-dev libasound2-d
+ev
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+[]\T1/pcr/m/n/10 # On the RPi 2, you may need to add "-DFREETYPE_INCLUDE_DIRS=/
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+[]\T1/pcr/m/n/10 # you can add -j2 here to use 2 threads for compiling in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+\T1/pcr/m/n/10 parallel (depending on how many cores/how much memory your
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 1.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+[]\T1/pcr/m/n/10 #If you want to install emulationstation to /usr/local/bin/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+\T1/pcr/m/n/10 emulationstation, which will let you just type \TS1/pcr/m/n/10 '
+\T1/pcr/m/n/10 emulationstation\TS1/pcr/m/n/10 ' \T1/pcr/m/n/10 to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
+[]\T1/pcr/m/n/10 # change/add "gpu_mem = 32" to "gpu_mem = 128" or "gpu_mem = 2
+56",
+ []
+
+[7]
+Chapter 4.
+<wave-logo.png, id=153, 200.75pt x 100.375pt>
 File: wave-logo.png Graphic file (type png)
  <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 961.
+Package pdftex.def Info: wave-logo.png used on input line 448.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<ccu.png, id=381, 200.75pt x 100.375pt>
+<ccu.png, id=155, 200.75pt x 100.375pt>
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 961.
+Package pdftex.def Info: ccu.png used on input line 448.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<uarsociety1.png, id=382, 200.75pt x 100.375pt>
+<uarsociety1.png, id=156, 200.75pt x 100.375pt>
 File: uarsociety1.png Graphic file (type png)
  <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 961.
+Package pdftex.def Info: uarsociety1.png used on input line 448.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<scottishbay.png, id=383, 200.75pt x 100.375pt>
+<scottishbay.png, id=157, 200.75pt x 100.375pt>
 File: scottishbay.png Graphic file (type png)
  <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 961.
+Package pdftex.def Info: scottishbay.png used on input line 448.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 File: wave-logo.png Graphic file (type png)
 
 <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 961.
-(pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
+Package pdftex.def Info: wave-logo.png used on input line 448.
+(pdftex.def)             Requested size: 135.798pt x 67.90335pt.
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 961.
-(pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
+Package pdftex.def Info: ccu.png used on input line 448.
+(pdftex.def)             Requested size: 135.798pt x 67.90335pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--961
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
 []\T1/ptm/m/n/10 Head of
  []
 
 File: uarsociety1.png Graphic file (type png)
 <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 961.
-(pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
+Package pdftex.def Info: uarsociety1.png used on input line 448.
+(pdftex.def)             Requested size: 135.798pt x 67.90335pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--961
-[]\T1/ptm/m/n/10 Coun-cil
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
+[]\T1/ptm/m/n/10 Tech-ni-cal
  []
 
 File: scottishbay.png Graphic file (type png)
 <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 961.
-(pdftex.def)             Requested size: 135.41434pt x 67.7119pt.
+Package pdftex.def Info: scottishbay.png used on input line 448.
+(pdftex.def)             Requested size: 135.798pt x 67.90335pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--961
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
 []\T1/ptm/m/n/10 Mil-i-tary
  []
 
-[22] (./wave-software-developers_guide.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 971.
- [23 <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 971.
+(./wave-software-developers_guide.ind)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 458.
+
+[8
+
+ <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
+[9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
  (./wave-software-developers_guide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 971.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 971.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
 Package rerunfilecheck Info: File `wave-software-developers_guide.out' has not 
 changed.
-(rerunfilecheck)             Checksum: F22E2D1C8F57B19AB6F08FEA6D2A6C1E;4083.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 971.
+(rerunfilecheck)             Checksum: B1CC20EE404AF46E7E7073DF81312DC9;2103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
  ) 
 Here is how much of TeX's memory you used:
- 13927 strings out of 494945
- 194643 string characters out of 6181031
- 281800 words of memory out of 5000000
- 16725 multiletter control sequences out of 15000+600000
- 44453 words of font info for 64 fonts, out of 8000000 for 9000
+ 13676 strings out of 494945
+ 189409 string characters out of 6181031
+ 274179 words of memory out of 5000000
+ 16616 multiletter control sequences out of 15000+600000
+ 47603 words of font info for 67 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 37i,12n,49p,1795b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,45p,924b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-software-developers_guide.pdf (25 pages, 167950 bytes).
+e/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
+c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on wave-software-developers_guide.pdf (11 pages, 134857 bytes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
- 412 compressed objects within 5 object streams
- 196 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

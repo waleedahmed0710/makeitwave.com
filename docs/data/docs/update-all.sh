@@ -63,13 +63,13 @@ unset CDPATH
 #sh  rebuild.sh
 #cd ../../
 
-#cd software/dev_guide/
-#sh  rebuild.sh
-#cd ../../
-
-cd software/distributors/
-sh  rebuild.sh 
+cd software/dev_guide/
+sh  rebuild.sh
 cd ../../
+
+#cd software/distributors/
+#sh  rebuild.sh 
+#cd ../../
 
 #cd software/wave_os/
 #sh  rebuild.sh 

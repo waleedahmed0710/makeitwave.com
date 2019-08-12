@@ -55,6 +55,10 @@ unset CDPATH
 #sh  rebuild.sh
 #cd ../../
 
+cd organisation/balance-transfer-scheme/
+sh  rebuild.sh
+cd ../../
+
 #cd products/4g/
 #sh  rebuild.sh
 #cd ../../
@@ -63,9 +67,9 @@ unset CDPATH
 #sh  rebuild.sh
 #cd ../../
 
-cd software/dev_guide/
-sh  rebuild.sh
-cd ../../
+#cd software/dev_guide/
+#sh  rebuild.sh
+#cd ../../
 
 #cd software/distributors/
 #sh  rebuild.sh 

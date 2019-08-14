@@ -55,9 +55,9 @@ unset CDPATH
 #sh  rebuild.sh
 #cd ../../
 
-cd organisation/balance-transfer-scheme/
-sh  rebuild.sh
-cd ../../
+#cd organisation/balance-transfer-scheme/
+#sh  rebuild.sh
+#cd ../../
 
 #cd products/4g/
 #sh  rebuild.sh
@@ -79,9 +79,9 @@ cd ../../
 #sh  rebuild.sh 
 #cd ../../
 
-#cd tokens/wrt/
-#sh  rebuild.sh 
-#cd ../../
+cd tokens/wrt/
+sh  rebuild.sh 
+cd ../../
 
 #cd tokens/win/
 #sh  rebuild.sh 

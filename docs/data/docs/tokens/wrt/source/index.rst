@@ -26,6 +26,7 @@ To learn more about Wave® Roytalty Tokens ™, please proceed to the introducti
    releasenotes
    introduction
    wrt-summary
+   wrt-interest
    wrt-detail
  
    

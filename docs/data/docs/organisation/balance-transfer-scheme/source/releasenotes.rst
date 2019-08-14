@@ -1,19 +1,22 @@
 Release Notes and Notices
-#################################################
+================================================
 
 This section provides information about what is new or changed, including issues and documentation updates. 
 
 - 'Update' is the term used to describe significant changes to our public source code. These technical documents is contained within our public source code. 
 
-Version 0.0.1
-*************************************************
 
-This is the first release/ draft of this document.
-The content of the document can be navigated from the index. 
+Version 0.0.2
+~~~~~~~~~~~~~~~~ 
+
+	- Added the account balances to the document
+	- Removed ability to withdraw gratuity on Royalty Tokens. Initial investment + interest only!
+	- Closing date for submitting Revolut balances to Wave has changed from the 18th to the 18th August 2019
+
 
 
 Older Versions
-================================================
+~~~~~~~~~~~~~~~~ 
 
 There are no older versions of this document at this time, however a table has been made so that enteries can be recorded: 
 
@@ -23,14 +26,21 @@ There are no older versions of this document at this time, however a table has b
    :header-rows: 1
    
    
+Version 0.0.1
+##################
+
+	- This is the first release/ draft of this document.
+	- The content of the document can be navigated from the index. 
+
+   
 Version 0.0.0
-================================================
+#################
 
 N/A
    
 
 Known and Corrected Issues
-*************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Below is a table of pending issues which have been reported to our team. These issues will be cleared from this list as and when they are remedied. 
 

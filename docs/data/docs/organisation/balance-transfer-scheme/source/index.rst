@@ -2,13 +2,13 @@ Wave® Credit Balance Transfer Scheme (CBT)
 ###################################################
 
 
-The goal of the Balance Transfer Scheme is to initiate the immidiate return of all investments and loans to Wave® financiers. 
+The goal of the Balance Transfer Scheme is to initiate the immidiate return of all investments and loans to Wave® financiers by September 2019. 
 
-Since Wave's technology has existed in a state of research, development and trials for many years, funds from many investors and lenders have been tied into the project beyond the expected timescale. This scheme is the first of many to enable participants to access 100% of their origional investment or loan (including compounded interest and gratuity) before September 2019. 
+Since Wave's technology has existed in a state of research, development and trials for many years, funds from many investors and lenders have been tied into the project beyond the expected timescale. This scheme is the first of many to enable participants to access 100% of their origional investment or loan (including any accumulated interest) on or before September 2019. 
 
-The banking application: Revolut, recently announced a cryptocurrency wallet feature, which works in conjunction with Wave® to replace the existing solution (Trustwallet). These Ethereum wallets are able to store Wave's cryptocurrency Tokens and receive the corrsponding cryptocurrency royalties from Wave® - which instantly convert into almost any currency, transfer to almost any bank and/or withdraw from almost any ATM's using the mobile application and Revolut MasterCard. 
+The banking application: Revolut, recently announced a cryptocurrency wallet feature, which works in conjunction with Wave® to replace the existing solution: Trustwallet. These Ethereum wallets are able to store Wave's cryptocurrency Tokens and receive the corrsponding cryptocurrency royalties from Wave® - which instantly convert into almost any currency, transfer to almost any bank and/or withdraw from almost any ATM's using the mobile application and Revolut MasterCard. 
 
-To celebrate Revolut's aligned business interest with Wave®, the company is able and willing to release investors and lenders funds back to them. The amount is subject to some simple terms: The financier must create a Revolut account, deposit funds into it and present to Wave® for confirmation on or before the 16th of August 2019. Wave® will then release from their investment/loan account, 90% of the funds they deposited to their new Revolut account - even if the 90% equals 100% of the loan/investment including any interest/ gratuity. This document will explain in detail the entirity of this scheme and how it works. 
+To celebrate Revolut's aligned business interest with Wave®, the company is able and willing to release investors and lenders funds back to them. The amount is subject to some simple terms: The financier must create a Revolut account, deposit funds into it and present to Wave® for confirmation on or before the 18th of August 2019. Wave® will then release from their investment/loan account, 90% of the funds they deposited to their new Revolut account - even if this amount equals 100% of the loan/investment including any interest. This document will explain in detail the entirity of this scheme and how it works. 
 
 
 .. toctree::
@@ -17,7 +17,8 @@ To celebrate Revolut's aligned business interest with Wave®, the company is abl
    releasenotes
    introduction
    howitworks
-   casestudy
+   proofofconcept
+   accounts
    getstarted
    terms
 

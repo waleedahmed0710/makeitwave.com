@@ -4,21 +4,17 @@ Release Notes and Notices
 This section provides information about what is new or changed, including urgent issues, documentation updates, maintenance and new releases. 
 - 'Updates' are the term used to describe significant changes to our public source code and/or records. 
 
- 
-Version 0.1.1
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
+Version 0.1.4
+~~~~~~~~~~~~~~~~ 
 
-This document has the following updates since version 0.1.0 was published:
+	- Updated to include interest to date, a feature introduced in April 2019
+	- Calculated for the CBT Scheme and affiliation with banking application Revolut
 
-- some records were incorrect - see the issues table (bad link). Fixed it! 
-
-Some accounts have been reconsiled (D-Khan, P-Caines & F-Gill).
-More reconsiling to do. Responses from investors & lenders is too poor to remedy and there is little co-operation
 
 
 Older Versions
-####################
+~~~~~~~~~~~~~~~~ 
 
 
 .. csv-table:: Older Versions of this Document
@@ -27,10 +23,33 @@ Older Versions
    :header-rows: 1
    
    
+Version 0.1.3
+###############
+
+	- Updated to include newly reconsiled accounts
+
+Version 0.1.2
+################
+
+	- Updated to include newly reconsiled accounts
+ 
+Version 0.1.1
+###############
+
+	- Updated to include newly reconsiled accounts
+
 Version 0.1.0
-####################
+###############
 
 - First Release
+
+
+This document has the following updates since version 0.1.0 was published:
+
+- some records were incorrect - see the issues table (bad link). Fixed it! 
+
+Some accounts have been reconsiled (D-Khan, P-Caines & F-Gill).
+More reconsiling to do. Responses from investors & lenders is too poor to remedy and there is little co-operation
    
 
 Known and Corrected Issues

@@ -1,4 +1,4 @@
-Wave® Royalty Token's (WRT's)
+WRT Account Details
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 See below the activity of the WRT Coin Accounts:

@@ -24,6 +24,11 @@ cd source/_static/wrt-coin
 curl -f 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSfTard2Lcj4YBTwWDnVZmLSO_fNd___vP3_wQJm8vP6OzyXeE3cmi80A2Pxzt1eVO_B2J5KJKi4WDT/pub?gid=59761967&single=true&output=csv' -o wrt-master-register.csv
 cd ../../../
 
+printf "\n\n${RED}Wave®${NC} - Getting Latest Copy of - WRT Interest \n\n"
+cd source/_static/wrt-interest
+curl -f 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9TWo5a9_zrQVniyOOLHnXoZXyhsrXXx_AafYD_jgbpo9upFl6nhehVrYxGXmGeChV0gmwHm_bBIWC/pub?gid=59761967&single=true&output=csv' -o wrt-interest.csv
+cd ../../../
+
 printf "\n\n${RED}Wave®${NC} - Getting WRT Wallet - UID: 101 (B-Leonides):  \n\n"
 cd source/_static/wrt-coin
 curl -f 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSfTard2Lcj4YBTwWDnVZmLSO_fNd___vP3_wQJm8vP6OzyXeE3cmi80A2Pxzt1eVO_B2J5KJKi4WDT/pub?gid=526590878&single=true&output=csv' -o wrt-wallet-101.csv

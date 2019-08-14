@@ -8,8 +8,8 @@ UID,Wallet ID/ Alias,Deposited (GBP),WRT Coins,Est. Value (GBP)
 107,Seed-Round-P-Brown,0.00,200000,2660.00
 108,Seed-Round-M-Hough,0.00,230000,3059.00
 109,Seed-Round-A-Witcomb,0.00,590000,7847.00
-110,Seed-Round-D-Owen,0.00,590000,7847.00
-111,Seed-Round-J-Smith-Walker,6000.00,590000,7847.00
+110,Seed-Round-D-Owen,5000.00,590000,7847.00
+111,Seed-Round-J-Smith-Walker,5000.00,590000,7847.00
 112,Seed-Round-S-Gates,0.00,590000,7847.00
 113,Seed-Round-C-A-Doick,2000.00,760000,10108.00
 114,Seed-Round-C-Kell,4000.00,790000,10507.00
@@ -18,7 +18,7 @@ UID,Wallet ID/ Alias,Deposited (GBP),WRT Coins,Est. Value (GBP)
 117,Seed-Round-T-Marshall,1000.00,2980000,39634.00
 118,Seed-Round-C-Marshall,3000.00,3290000,43757.00
 119,Seed-Round-H-Davies,0.00,1190000,15827.00
-120,Seed-Round-M-Simpson,0.00,1190000,15827.00
+120,Seed-Round-M-Simpson,900.00,1190000,15827.00
 121,Seed-Round-S-Hume,1000.00,3300000,43890.00
 122,Seed-Round-B-Pullen,8000.00,1280000,17024.00
 123,Seed-Round-G-Caines,300.00,3850000,51205.00
@@ -55,4 +55,4 @@ UID,Wallet ID/ Alias,Deposited (GBP),WRT Coins,Est. Value (GBP)
 ,			,,,
 401,Series-A,,150375940,2000000.00
 ,			,,,
-,Total,254222.95,1000000000,13300000.00
+,Total,259122.95,1000000000,13300000.00

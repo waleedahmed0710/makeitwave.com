@@ -5,11 +5,12 @@ This section provides information about what is new or changed, including urgent
 - 'Updates' are the term used to describe significant changes to our public source code and/or records. 
 
 
-Version 0.1.4
+Version 0.1.5
 ~~~~~~~~~~~~~~~~ 
 
-	- Updated to include interest to date, a feature introduced in April 2019
-	- Calculated for the CBT Scheme and affiliation with banking application Revolut
+	- M. Simpsons account queried, it's showing nil tokens or investment.  Corrections made. 
+	- D. Owens account queried, it was showing nil investment. Corrections made. 
+	- J Smith-Walker's deposit showing £6k, when the deposit was supposedly £5k.  Corrections made. 
 
 
 
@@ -22,6 +23,12 @@ Older Versions
    :widths: 20, 20, 20, 40
    :header-rows: 1
    
+
+Version 0.1.4
+###############
+
+	- Updated to include interest to date, a feature introduced in April 2019
+	- Calculated for the CBT Scheme and affiliation with banking application Revolut
    
 Version 0.1.3
 ###############

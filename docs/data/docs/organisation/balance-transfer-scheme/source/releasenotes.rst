@@ -5,14 +5,13 @@ This section provides information about what is new or changed, including issues
 
 - 'Update' is the term used to describe significant changes to our public source code. These technical documents is contained within our public source code. 
 
-
-Version 0.0.2
+Version 0.0.3
 ~~~~~~~~~~~~~~~~ 
 
-	- Added the account balances to the document
-	- Removed ability to withdraw gratuity on Royalty Tokens. Initial investment + interest only!
-	- Closing date for submitting Revolut balances to Wave has changed from the 18th to the 18th August 2019
-
+	- M. Simpsons account queried, it's showing nil tokens or investment.  Corrections made. 
+	- D. Owens account queried, it's showing nil investment.  Corrections made. 
+	- J. Smith-Walker's deposit showing £6k, when the deposit was supposedly £5k.  Corrections made. 
+	- J. Davis reports the Revolut is asking for a premium upgrade or to share with 3 people to get the cryptocurrency wallet to work
 
 
 Older Versions
@@ -25,6 +24,15 @@ There are no older versions of this document at this time, however a table has b
    :widths: 25, 25, 25, 25
    :header-rows: 1
    
+   
+Version 0.0.2
+##################
+
+	- Added the account balances to the document
+	- Removed ability to withdraw gratuity on Royalty Tokens. Initial investment + interest only!
+	- Closing date for submitting Revolut balances to Wave has changed from the 16th to the 18th August 2019
+
+
    
 Version 0.0.1
 ##################

@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Wave Memorandum and Articles'
-copyright = u'2018, Make it Wave Ltd'
+copyright = u'2019, Make it Wave Ltd'
 author = u'Company Warehouse, Chelmsford (Essex)'
 
 # The short X.Y version

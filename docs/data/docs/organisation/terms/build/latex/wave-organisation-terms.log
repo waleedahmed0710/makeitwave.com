@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  11 FEB 2019 06:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  15 AUG 2019 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1194,7 +1194,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
 Here is how much of TeX's memory you used:
  13439 strings out of 494945
  185752 string characters out of 6181031
- 267929 words of memory out of 5000000
+ 267923 words of memory out of 5000000
  16459 multiletter control sequences out of 15000+600000
  37059 words of font info for 50 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
@@ -1204,7 +1204,7 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 r8a.pfb>
-Output written on wave-organisation-terms.pdf (3 pages, 39973 bytes).
+Output written on wave-organisation-terms.pdf (3 pages, 39677 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream

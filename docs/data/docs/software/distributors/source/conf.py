@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Wave Software Distribution Terms'
-copyright = u'2018, Make it Wave Ltd'
-author = u'Siôn H. Buckler, Founder & CEO of Make it Wave Ltd + Head of Defence @ Caribbean Communications Unit (CCU) / Life Member of the Royal Signals Association ID:55983 +  British Public Servant, 2002 - 2024 Oath ID: 25148537'
+copyright = u'2019, Make it Wave Ltd'
+author = u'Make it Wave Ltd'
 
 # The short X.Y version
 version = u'0.0.2'
@@ -112,7 +112,7 @@ latex_elements = { 'classoptions': ',openany,oneside', 'babel' : '\\usepackage[e
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'wave-software-distribution.tex', u'Wave Software Distribution Terms',
-     u'Author(s): Siôn H. Buckler, Wave', 'manual'),
+     u'Author(s): Make it Wave Ltd', 'manual'),
 ]
 
 

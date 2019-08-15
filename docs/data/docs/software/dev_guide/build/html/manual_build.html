@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Manual Build Process &mdash; WaveOS™ Developers Guide 0.6.0a documentation</title>
+  <title>Manual Build Process (All Devices) &mdash; WaveOS™ Developers Guide 0.6.0a documentation</title>
   
 
   
@@ -84,7 +84,7 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes and Notices</a></li>
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Manual Build Process</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Manual Build Process (All Devices)</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#step-1-preperation">Step 1: Preperation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#step-2-wi-fi-ssh-update-upgrade">Step 2: Wi-Fi, SSH &amp; Update/Upgrade</a></li>
@@ -147,7 +147,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Manual Build Process</li>
+      <li>Manual Build Process (All Devices)</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -166,26 +166,22 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="manual-build-process">
-<h1>Manual Build Process<a class="headerlink" href="#manual-build-process" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="manual-build-process-all-devices">
+<h1>Manual Build Process (All Devices)<a class="headerlink" href="#manual-build-process-all-devices" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
-<p>WaveOS (Version 0.6.x - branch a) is based on the Raspbian Stretch Lite OS. This will be the base OS for our Smart Home Hotspot.
-The recommended hardware is a Raspberry Pi 3B+ (Armv7+ Processor) with a 16GB+ MicroSD Card.
-By connecting a HSPA+/4G Cellular/Wi-Fi Dongle to your Raspberry Pi (and either installing WaveOS V0.6.x (branch a) or following these manual build guides),
-you will have successfully produced a Wave Smart Home Hotspot.</p>
-<p>This segment explains how to install Raspbian Stretch Lite.
-One of the first steps in manually building WaveOS (Version 0.6.x - branch a).</p>
+<p>WaveOS (Version 0.6.x - branch a) is based on the Raspbian Stretch Lite OS. This will be the base OS for all hardware variations of the Wave Smart Home Hotspot e.g. LTE, 5G etc</p>
 </div>
 <div class="section" id="step-1-preperation">
 <h2>Step 1: Preperation<a class="headerlink" href="#step-1-preperation" title="Permalink to this headline">¶</a></h2>
 <ol class="loweralpha simple">
 <li>Download the latest version of Raspbian Stretch Lite from [Raspberrypi.org](<a class="reference external" href="https://www.raspberrypi.org/downloads/raspbian/">https://www.raspberrypi.org/downloads/raspbian/</a>).</li>
 <li>Copy the latest copy of Raspbian Stretch Lite to the MicroSD Card using a program like [Etcher](<a class="reference external" href="https://www.balena.io/etcher">https://www.balena.io/etcher</a>) or [Win32 Disk Imager](<a class="reference external" href="https://sourceforge.net/projects/win32diskimager">https://sourceforge.net/projects/win32diskimager</a>).</li>
-<li>Insert the MicroSD Card into your Raspberry Pi and connect the keyboard. Then connect the Pi to a display via HDMI (making sure the display is turned on) then apply the power cord/ power to the Pi.</li>
+<li>Insert the MicroSD Card into your device and connect the keyboard. Connect the device to a display e.g. via HDMI (making sure the display is turned on before applying the power cord)</li>
 </ol>
-<p>There’s a strong likelyhood you’ll need heatsinks on your Raspberry Pi because it will be overclocked and running at maximum capacity a lot of the time.
-You’ll also need to make sure the power supply is correct e.g. 5 Volt and 2.5Amp. The quality of the MicroSD Card and the Power (and HDMI) cord will also make a difference.</p>
+<p># Ensure your device has a heatsink, since it will be overclocked and running at maximum capacity a lot of the time.
+# Ensure the power supply is the correct recommended voltage and current for the device.
+# Ensure the quality of the MicroSD Card (and the Power and HDMI cord) are the best quality possible.</p>
 </div>
 <div class="section" id="step-2-wi-fi-ssh-update-upgrade">
 <h2>Step 2: Wi-Fi, SSH &amp; Update/Upgrade<a class="headerlink" href="#step-2-wi-fi-ssh-update-upgrade" title="Permalink to this headline">¶</a></h2>
@@ -203,8 +199,8 @@ You’ll also need to make sure the power supply is correct e.g. 5 Volt and 2.5A
 </li>
 <li><p class="first">Via your connected display ( or a remote SSH terminal client over Wi-Fi e.g. [Putty](<a class="reference external" href="https://www.putty.org/">https://www.putty.org/</a>) ) you must update and upgrade the OS :</p>
 <blockquote>
-<div><p><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">update</span> <span class="pre">&amp;&amp;</span> <span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">upgrade</span> <span class="pre">-y</span></code>
-<code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">rpi-update</span></code></p>
+<div><p><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">update</span> <span class="pre">&amp;&amp;</span> <span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">upgrade</span> <span class="pre">-y</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">rpi-update</span></code></p>
 </div></blockquote>
 </li>
 <li><p class="first">Reboot the system :</p>
@@ -321,7 +317,7 @@ Otherwise, you can run the binary from the root of the EmulationStation folder:<
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Make it Wave Ltd
+        &copy; Copyright 2019, Make it Wave Ltd
 
     </p>
   </div>

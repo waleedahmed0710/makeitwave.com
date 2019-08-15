@@ -96,6 +96,8 @@ THE SOFTWARE.
                             .attr('class', 'github-avatar')
                             .attr('src', 'https://makeitwave.com/img/gravatar.png?f=y' + size);
                 }
+				
+
 
                 function author(login) {
                     return  $('<a>')

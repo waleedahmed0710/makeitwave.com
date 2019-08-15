@@ -39,7 +39,7 @@ Marking by the CE symbol indicates compliance of this system to the applicable C
 GNU General Public Licence ("GPL")
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
-Firmware incorporated into this product may include third party copyrighted software licensed under the GPL or Lesser General Public License (“LGPL”) (collectively, “GPL Software”) and not Wave’s End User License Agreement. In accordance with the GPL, if applicable: 
+Firmware incorporated into this product may include third party copyrighted software licensed under the GPL or Lesser General Public License (“LGPL”) (collectively, “GPL Software”) and not Wave’s End-User License Agreement. In accordance with the GPL, if applicable: 
 
 1) the source code for the GPL Software may be downloaded at no charge from https://makeitwave.com/download.html or by contacting Customer Support within three years of the date of purchase;
 2) you may re-use, re-distribute, and modify the GPL Software; 
@@ -306,7 +306,7 @@ You by any and all Contributors for the Covered Software under Section
 2.1 of this License shall terminate.
 
 5.3. In the event of termination under Sections 5.1 or 5.2 above, all
-end user license agreements (excluding distributors and resellers) which
+End-User license agreements (excluding distributors and resellers) which
 have been validly granted by You or Your distributors under this License
 prior to termination shall survive termination.
 

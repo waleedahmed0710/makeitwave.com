@@ -55,9 +55,9 @@
 
 
 \title{WaveOS™ Development Guide}
-\date{Jun 18, 2019}
+\date{Aug 15, 2019}
 \release{0.6.0a}
-\author{Author(s): Siôn H. Buckler, Wave}
+\author{Author(s): Make it Wave Ltd}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{Release}
 \makeindex
@@ -207,18 +207,12 @@ This document guides you through maintaining and developing the operating system
 For more information visit \sphinxurl{https://makeitwave.com}
 
 
-\chapter{Manual Build Process}
-\label{\detokenize{manual_build:manual-build-process}}\label{\detokenize{manual_build::doc}}
+\chapter{Manual Build Process (All Devices)}
+\label{\detokenize{manual_build:manual-build-process-all-devices}}\label{\detokenize{manual_build::doc}}
 
 \section{Introduction}
 \label{\detokenize{manual_build:introduction}}
-WaveOS (Version 0.6.x - branch a) is based on the Raspbian Stretch Lite OS. This will be the base OS for our Smart Home Hotspot.
-The recommended hardware is a Raspberry Pi 3B+ (Armv7+ Processor) with a 16GB+ MicroSD Card.
-By connecting a HSPA+/4G Cellular/Wi-Fi Dongle to your Raspberry Pi (and either installing WaveOS V0.6.x (branch a) or following these manual build guides),
-you will have successfully produced a Wave Smart Home Hotspot.
-
-This segment explains how to install Raspbian Stretch Lite.
-One of the first steps in manually building WaveOS (Version 0.6.x - branch a).
+WaveOS (Version 0.6.x - branch a) is based on the Raspbian Stretch Lite OS. This will be the base OS for all hardware variations of the Wave Smart Home Hotspot e.g. LTE, 5G etc
 
 
 \section{Step 1: Preperation}
@@ -230,12 +224,13 @@ Download the latest version of Raspbian Stretch Lite from {[}Raspberrypi.org{]}(
 Copy the latest copy of Raspbian Stretch Lite to the MicroSD Card using a program like {[}Etcher{]}(\sphinxurl{https://www.balena.io/etcher}) or {[}Win32 Disk Imager{]}(\sphinxurl{https://sourceforge.net/projects/win32diskimager}).
 
 \item {} 
-Insert the MicroSD Card into your Raspberry Pi and connect the keyboard. Then connect the Pi to a display via HDMI (making sure the display is turned on) then apply the power cord/ power to the Pi.
+Insert the MicroSD Card into your device and connect the keyboard. Connect the device to a display e.g. via HDMI (making sure the display is turned on before applying the power cord)
 
 \end{enumerate}
 
-There’s a strong likelyhood you’ll need heatsinks on your Raspberry Pi because it will be overclocked and running at maximum capacity a lot of the time.
-You’ll also need to make sure the power supply is correct e.g. 5 Volt and 2.5Amp. The quality of the MicroSD Card and the Power (and HDMI) cord will also make a difference.
+\# Ensure your device has a heatsink, since it will be overclocked and running at maximum capacity a lot of the time.
+\# Ensure the power supply is the correct recommended voltage and current for the device.
+\# Ensure the quality of the MicroSD Card (and the Power and HDMI cord) are the best quality possible.
 
 
 \section{Step 2: Wi-Fi, SSH \& Update/Upgrade}
@@ -261,6 +256,7 @@ Via your connected display ( or a remote SSH terminal client over Wi-Fi e.g. {[}
 \begin{quote}
 
 \sphinxcode{\sphinxupquote{sudo apt-get update \&\& sudo apt-get upgrade -y}}
+
 \sphinxcode{\sphinxupquote{sudo rpi-update}}
 \end{quote}
 

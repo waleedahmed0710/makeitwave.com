@@ -1,7 +1,7 @@
 Wave® Product User Guide
 =====================================================
 
-*Wave® Smart Home Hotspot™ - HSPA+/LTE/5G/StarLink*
+*LTE Smart Home Hotspot™*
 
 
 

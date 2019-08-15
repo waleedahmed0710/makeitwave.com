@@ -8,7 +8,7 @@
 \contentsline {chapter}{\numberline {2}Guidelines \& Safety}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Regulatory Information}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}\sphinxstylestrong {Safety Instruction}}{6}{section.2.2}
-\contentsline {chapter}{\numberline {3}The Wave\IeC {\textregistered } Smart Hotspot\IeC {\texttrademark }}{8}{chapter.3}
+\contentsline {chapter}{\numberline {3}LTE Hotspot\IeC {\texttrademark }}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}Wave\IeC {\textregistered } Hardware}{9}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Hardware Features}{9}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Powering Up}{9}{subsection.3.1.2}
@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {3.1.5}Handling Precaution}{9}{subsection.3.1.5}
 \contentsline {section}{\numberline {3.2}Wave\IeC {\textregistered } Operating System}{9}{section.3.2}
 \contentsline {section}{\numberline {3.3}Wave\IeC {\textregistered } Enhacement Products}{10}{section.3.3}
-\contentsline {section}{\numberline {3.4}Wave\IeC {\textregistered } Smart Hotspot\IeC {\texttrademark }}{10}{section.3.4}
+\contentsline {section}{\numberline {3.4}Wave\IeC {\textregistered } Smart Home Hotspot\IeC {\texttrademark }}{10}{section.3.4}
 \contentsline {section}{\numberline {3.5}Wave\IeC {\textregistered } Dashboard\IeC {\texttrademark }}{11}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Tab 1 - Media Library}{12}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Tab 2 - Home Control}{12}{subsection.3.5.2}

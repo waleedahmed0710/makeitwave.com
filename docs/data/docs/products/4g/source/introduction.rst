@@ -1,5 +1,5 @@
-The Wave® Smart Home Hotspot™
-=========================
+LTE Hotspot™
+======================================
 
 The Wave® Smart Home Hotspot™ is a Single Board Computer e.g. Raspberry Pi , operated by the Wave® operating system: WaveOS™. 
 To receive internet access the Smart Home Hotspot™ uses one of 3 cellular modules: HSPA+ USB Dongle, 4G/LTE HAT or 5G/mmWave Receiver. 
@@ -79,7 +79,7 @@ With the exclusion of the Smart Home Hotspot™, all products from Wave® are co
 
 
 Wave® Smart Home Hotspot™
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A Wave® Smart Home™ describes, at the very least, a Wave® Smart Home Hotspot™ and/or at least one Wave® Enhacement Product connected to it. 
 The Smart Home Hotspot™ is effectively Wi-Fi Hotspot with a built in server, which hosts a number of smart home applications.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  15 AUG 2019 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  16 AUG 2019 04:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1175,20 +1175,40 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ]
 Chapter 1.
 
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
+[]|\T1/ptm/b/n/10 `version-0.0.1.pdf <
+ []
+
+
+Overfull \hbox (134.78845pt too wide) in paragraph at lines 177--179
+\T1/ptm/b/n/10 https://makeitwave.com/data/docs/organisation/balance-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
+\T1/ptm/b/n/10 transfer-
+ []
+
+
+Overfull \hbox (81.04857pt too wide) in paragraph at lines 177--179
+\T1/ptm/b/n/10 scheme/build/html/_static/archived/version-
+ []
+
+
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 199.
+less on input line 185.
 
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 []|\T1/ptm/m/n/10 01-08-
  []
 
 [3]
 Chapter 2.
-<wave-screenshot.png, id=152, 1261.71375pt x 412.54124pt>
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 241.
+<wave-screenshot.png, id=160, 1261.71375pt x 412.54124pt>
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 290.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1196,26 +1216,26 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 File: wave-screenshot.png Graphic file (type png)
 
 <use wave-screenshot.png>
-Package pdftex.def Info: wave-screenshot.png used on input line 241.
+Package pdftex.def Info: wave-screenshot.png used on input line 290.
 (pdftex.def)             Requested size: 469.75502pt x 153.59468pt.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 253.
+less on input line 302.
 
 [4
 
- <./wave-screenshot.png>] <revolt.png, id=160, 707.64375pt x 353.82187pt>
+ <./wave-screenshot.png>] <revolt.png, id=167, 707.64375pt x 353.82187pt>
 File: revolt.png Graphic file (type png)
 
 <use revolt.png>
-Package pdftex.def Info: revolt.png used on input line 254.
+Package pdftex.def Info: revolt.png used on input line 303.
 (pdftex.def)             Requested size: 469.75502pt x 234.87827pt.
  [5 <./revolt.png>]
 Chapter 3.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 346.
+less on input line 395.
 
 [6
 
@@ -1223,35 +1243,35 @@ less on input line 346.
 Chapter 4.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 361.
+less on input line 410.
 
 [8
 
 ]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
 []|\T1/phv/m/n/10 Interest 10%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--533
+Underfull \hbox (badness 10000) in paragraph at lines 580--582
 []|\T1/phv/m/n/10 Interest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 548--550
+Underfull \hbox (badness 10000) in paragraph at lines 597--599
 []|\T1/phv/m/n/10 Interest
  []
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 1001.
+less on input line 1050.
 
 [9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
+Underfull \hbox (badness 10000) in paragraph at lines 1130--1131
 []|\T1/ptm/m/n/10 Seed-Round-J-Choudhury-
  []
 
@@ -1259,7 +1279,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
 Chapter 6.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 1203.
+less on input line 1252.
 
 [12
 
@@ -1267,106 +1287,107 @@ less on input line 1203.
 Chapter 7.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 1231.
+less on input line 1290.
 
 [13
 
 ]
 Chapter 8.
-<wave-logo.png, id=206, 200.75pt x 100.375pt>
+<wave-logo.png, id=213, 200.75pt x 100.375pt>
 File: wave-logo.png Graphic file (type png)
  <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 1277.
+Package pdftex.def Info: wave-logo.png used on input line 1336.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<ccu.png, id=207, 200.75pt x 100.375pt>
+<ccu.png, id=214, 200.75pt x 100.375pt>
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 1277.
+Package pdftex.def Info: ccu.png used on input line 1336.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<uarsociety1.png, id=208, 200.75pt x 100.375pt>
+<uarsociety1.png, id=215, 200.75pt x 100.375pt>
 File: uarsociety1.png Graphic file (type png)
  <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 1277.
+Package pdftex.def Info: uarsociety1.png used on input line 1336.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 
-<scottishbay.png, id=209, 200.75pt x 100.375pt>
+<scottishbay.png, id=216, 200.75pt x 100.375pt>
 File: scottishbay.png Graphic file (type png)
  <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 1277.
+Package pdftex.def Info: scottishbay.png used on input line 1336.
 (pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
 File: wave-logo.png Graphic file (type png)
 
 <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 1277.
+Package pdftex.def Info: wave-logo.png used on input line 1336.
 (pdftex.def)             Requested size: 135.798pt x 67.90335pt.
 File: ccu.png Graphic file (type png)
  <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 1277.
+Package pdftex.def Info: ccu.png used on input line 1336.
 (pdftex.def)             Requested size: 135.798pt x 67.90335pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1277--1277
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1336
 []\T1/ptm/m/n/10 Head of
  []
 
 File: uarsociety1.png Graphic file (type png)
 <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 1277.
+Package pdftex.def Info: uarsociety1.png used on input line 1336.
 (pdftex.def)             Requested size: 135.798pt x 67.90335pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1277--1277
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1336
 []\T1/ptm/m/n/10 Tech-ni-cal
  []
 
 File: scottishbay.png Graphic file (type png)
 <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 1277.
+Package pdftex.def Info: scottishbay.png used on input line 1336.
 (pdftex.def)             Requested size: 135.798pt x 67.90335pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1277--1277
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1336
 []\T1/ptm/m/n/10 Mil-i-tary
  []
 
 (./wave-organisation-balance_transfer_scheme.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1287.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1346.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 1287.
+less on input line 1346.
 
 [14
 
  <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
 [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1287.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1346.
  (./wave-organisation-balance_transfer_scheme.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1287.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1287.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1346.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1346.
 
 Package rerunfilecheck Info: File `wave-organisation-balance_transfer_scheme.ou
 t' has not changed.
-(rerunfilecheck)             Checksum: 29139770A2D1DD9219299A051A5DC721;3125.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1287.
+(rerunfilecheck)             Checksum: FE6BC8D9083CC0A940EF60B42198AE67;3125.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1346.
  ) 
 Here is how much of TeX's memory you used:
- 13652 strings out of 494945
- 189144 string characters out of 6181031
- 311584 words of memory out of 5000000
- 16596 multiletter control sequences out of 15000+600000
+ 13659 strings out of 494945
+ 189218 string characters out of 6181031
+ 311631 words of memory out of 5000000
+ 16597 multiletter control sequences out of 15000+600000
  43206 words of font info for 60 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  37i,12n,49p,935b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on wave-organisation-balance_transfer_scheme.pdf (17 pages, 7806
-33 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
+elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on wave-organisation-balance_transfer_scheme.pdf (17 pages, 7896
+57 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 212 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
  219 words of extra memory for PDF output out of 10000 (max. 10000000)
 

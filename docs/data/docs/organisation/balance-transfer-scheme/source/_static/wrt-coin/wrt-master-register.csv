@@ -11,7 +11,7 @@ UID,Wallet ID/ Alias,Deposited (GBP),Interest (GBP),Balance (GBP)
 110,Seed-Round-D-Owen,5000,309.26,5309.26
 111,Seed-Round-J-Smith-Walker,5000,309.26,5309.26
 112,Seed-Round-S-Gates,0,0.00,0.00
-113,Seed-Round-C-A-Doick,2000,123.70,2123.70
+113,Seed-Round-C-A-Doick,2600,160.82,2760.82
 114,Seed-Round-C-Kell,4000,247.41,4247.41
 115,Seed-Round-S-Purcell,4500,278.33,4778.33
 116,Seed-Round-C-Chapman,1000,61.85,1061.85
@@ -31,7 +31,7 @@ UID,Wallet ID/ Alias,Deposited (GBP),Interest (GBP),Balance (GBP)
 130,Seed-Round-S-Hargreaves,0,0.00,0.00
 131,Seed-Round-G-Stewart,0,0.00,0.00
 132,Seed-Round-S-Reynolds,0,0.00,0.00
-133,Seed-Round-D-Allen,0,0.00,0.00
+133,Seed-Round-D-Allen,5000,309.26,5309.26
 134,Seed-Round-J-Davis,7700,476.26,8176.26
 135,Seed-Round-N-Smith,0,0.00,0.00
 136,Seed-Round-D-Marshall,15000,927.78,15927.78
@@ -52,4 +52,4 @@ UID,Wallet ID/ Alias,Deposited (GBP),Interest (GBP),Balance (GBP)
 ,,,,
 ,,,,
 ,			,,,
-,Total (GBP),259122.95,16027.29,275150.24
+,Total (GBP),264722.95,16373.66,281096.61

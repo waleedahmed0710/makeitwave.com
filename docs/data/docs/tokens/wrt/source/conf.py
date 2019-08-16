@@ -24,9 +24,9 @@ copyright = u'2019, Make it Wave Ltd'
 author = u'Make it Wave Ltd'
 
 # The short X.Y version
-version = u'0.1.5'
+version = u'0.1.6'
 # The full version, including alpha/beta/rc tags
-release = u'0.1.5'
+release = u'0.1.6'
 
 
 # -- General configuration ---------------------------------------------------

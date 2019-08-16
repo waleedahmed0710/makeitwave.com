@@ -5,13 +5,17 @@ This section provides information about what is new or changed, including issues
 
 - 'Update' is the term used to describe significant changes to our public source code. These technical documents is contained within our public source code. 
 
-Version 0.0.3
+Version 0.0.4
 ~~~~~~~~~~~~~~~~ 
 
-	- M. Simpsons account queried, it's showing nil tokens or investment.  Corrections made. 
-	- D. Owens account queried, it's showing nil investment.  Corrections made. 
-	- J. Smith-Walker's deposit showing £6k, when the deposit was supposedly £5k.  Corrections made. 
-	- J. Davis reports the Revolut is asking for a premium upgrade or to share with 3 people to get the cryptocurrency wallet to work
+	- D. Allen made contact to query his account. A correction was made.
+	- C. & A. Doick made contact to query their account. A correction was made.
+	- Point 2 of version 2 wasn't executed correctly in the terms section. This has been rectified. 
+	- The timescales of the verification of funds and transfer of the funds to be released was added to the document.
+	- New entries to the terms section include: 
+		(a) some brief details of a banking feature which should provide additional insurance for concerned financier - entitled 'chargeback'.
+		(b) mention of a scenario where the funds deposited to Revolut is matched with 190% (as oppose to 90%) of the verified balance. In this scenario, subject to terms, Wave will permit the financier to keep the additional funds.  
+		(c) reference to the ICO which will follow this scheme, in order to issue any outstanding equity as Wave® TOKΞNS. 
 
 
 Older Versions
@@ -23,6 +27,14 @@ There are no older versions of this document at this time, however a table has b
    :file: _static/olderversions.csv
    :widths: 25, 25, 25, 25
    :header-rows: 1
+   
+Version 0.0.3
+################
+
+	- M. Simpsons account queried, it's showing nil tokens or investment.  Corrections made. 
+	- D. Owens account queried, it's showing nil investment.  Corrections made. 
+	- J. Smith-Walker's deposit showing £6k, when the deposit was supposedly £5k.  Corrections made. 
+	- J. Davis reports the Revolut is asking for a premium upgrade or to share with 3 people to get the cryptocurrency wallet to work
    
    
 Version 0.0.2

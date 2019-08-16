@@ -4,14 +4,11 @@ Release Notes and Notices
 This section provides information about what is new or changed, including urgent issues, documentation updates, maintenance and new releases. 
 - 'Updates' are the term used to describe significant changes to our public source code and/or records. 
 
-
-Version 0.1.5
+Version 0.1.6
 ~~~~~~~~~~~~~~~~ 
 
-	- M. Simpsons account queried, it's showing nil tokens or investment.  Corrections made. 
-	- D. Owens account queried, it was showing nil investment. Corrections made. 
-	- J Smith-Walker's deposit showing £6k, when the deposit was supposedly £5k.  Corrections made. 
-
+	- D. Allen made contact to query his account. A correction was made.
+	- C. & A. Doick made contact to query their account. A correction was made.
 
 
 Older Versions
@@ -23,6 +20,12 @@ Older Versions
    :widths: 20, 20, 20, 40
    :header-rows: 1
    
+Version 0.1.5
+#################
+
+	- M. Simpsons account queried, it's showing nil tokens or investment.  Corrections made. 
+	- D. Owens account queried, it was showing nil investment. Corrections made. 
+	- J Smith-Walker's account was queried and a corrections made. 
 
 Version 0.1.4
 ###############

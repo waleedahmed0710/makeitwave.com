@@ -8,12 +8,13 @@ This section provides information about what is new or changed, including issues
 Version 0.0.4
 ~~~~~~~~~~~~~~~~ 
 
+	- A the field in table 1.2 was corrected. Table 1.2 can be found in the 'How it Works' section, under the heading 'Example'
 	- D. Allen made contact to query his account. A correction was made.
 	- C. & A. Doick made contact to query their account. A correction was made.
 	- Point 2 of version 2 wasn't executed correctly in the terms section. This has been rectified. 
 	- The timescales of the verification of funds and transfer of the funds to be released was added to the document.
 	- New entries to the terms section include: 
-		(a) some brief details of a banking feature which should provide additional insurance for concerned financier - entitled 'chargeback'.
+		(a) some brief details about a banking feature was included to provide additional insurance for concerned financiers - the feature is called 'chargeback'.
 		(b) mention of a scenario where the funds deposited to Revolut is matched with 190% (as oppose to 90%) of the verified balance. In this scenario, subject to terms, Wave will permit the financier to keep the additional funds.  
 		(c) reference to the ICO which will follow this scheme, in order to issue any outstanding equity as Wave® TOKΞNS. 
 

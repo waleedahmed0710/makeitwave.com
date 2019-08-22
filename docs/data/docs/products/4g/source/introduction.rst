@@ -75,7 +75,7 @@ With the exclusion of the Smart Home Hotspot™, all products from Wave® are co
    
    
 **NOTES:**
-	• The products above are to enhance the Smart Home Hotspot™ Experience <https://makeitwave.com/data/docs/products/3g-homehub/build/html/index.html>`__, . They **DO NOT** function independantly of the Smart Home Hotspot™. Please ensure you have the Smart Home Hotspot™ in place before expecting full enjoyment and use of the above Enhacement Products. 
+	• The products above are to enhance the Smart Home Hotspot™ Experience <https://makeitwave.com/data/docs/products/4g/build/html/index.html>`__, . They **DO NOT** function independantly of the Smart Home Hotspot™. Please ensure you have the Smart Home Hotspot™ in place before expecting full enjoyment and use of the above Enhacement Products. 
 
 
 Wave® Smart Home Hotspot™

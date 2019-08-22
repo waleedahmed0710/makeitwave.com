@@ -11,8 +11,7 @@ Distributors will be sent the list of parts detailed in this package content onc
 The Distributor is expected to assemble the parts to produce a product and then post to the End-User. 
 The Distributor will also be required to quality check the product and print and enclose the documentation. 
 
-Here is a parts list for the HSPA+ Wave Home Hotspot:  https://makeitwave.com/store/product-detailed-info/3G.html
-The 4G/LTE and 5G/mmWave each have seperate parts lists. 
+The 4G/LTE, 5G/mmWave and LEO Satellite each have seperate parts lists. 
 
 
 

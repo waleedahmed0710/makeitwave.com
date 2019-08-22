@@ -1,7 +1,0 @@
-Details, Financier,  Merchant, Wave
-Investment/ Loan Tx, -10000, 0, 10000
-Balance Check Tx, -20000, 0, 20000
-Balance Check Rx, -10000, -10000, 20000
-CBT Payout Rx, -1000, -10000, 11000
-
- 

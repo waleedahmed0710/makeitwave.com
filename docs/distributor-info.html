@@ -63,12 +63,48 @@
 		</script>
 	
 	
- 
- 
-	 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style> <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>  </head> <body bgcolor="#333366" onload="pageLoad()">
+	<script>
+includeHTML();
+</script>
+		<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      } 
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+</script>
+		 
+	 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style> <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>  
+	 
+	 </head> 
+	 
+	 <body bgcolor="#333366" onload="pageLoad()">
 
 		<header>
-			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		
+	 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 				
 				<a href="index.html" >
 					<img class="navbar-brand" src="img/wave_logo.png">
@@ -79,54 +115,16 @@
 				<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				
-					<div class="collapse navbar-collapse" id="navbarCollapse">
-					<ul class="navbar-nav mr-auto">
-						
-						<li class="nav-item">
-						</li>
-
-
-						<li class="nav-item">
-							<a class="nav-link" href="demo.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" data-content="Wave® Interactive Demo of our Free Internet Solution. Experience Free Internet" Title="Wave® Interactive Demo of our Free Internet Solution. Experience Free Internet">Preview</a>
-						</li>
-						
-							
-						
-						<li class="nav-item">
-						</li>
-						
-
-						
-						<li class="nav-item">
-							<a class="nav-link" href="download.html">Software</a>
-						</li>
-						
-						<li class="nav-item">
-						</li>
-						
-						<li class="nav-item">
-							<a class="nav-link" href="documents.html">Documents</a>
-						</li>
-						
-						<li class="nav-item">
-						</li>
-						
-						<li class="nav-item">
-							<a class="nav-link" href="https://blog.makeitwave.com/journal/"  data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true">Blog</a>
-						</li>
 					
-						<li class="nav-item"></li>
-					<li class="nav-item">
-						<a class="nav-link" href="store/index.html"><b style="font-weight:bold;">Order Now</b></a>
-					</li>
-							
-								
-					</ul>
-				</div>
+					<div    class="collapse navbar-collapse" id="navbarCollapse">
+					
+					<ul class="navbar-nav mr-auto" w3-include-html="navbar.html" >	
+	</ul>		
+					
+		
+						</div>
 				
-				
-			
+	
 			</nav>
 		</header>
 		
@@ -151,7 +149,7 @@
 									
 								</br></br>
 								<h2>Terms & Conditions</h2>
-									<p style="text-align:justify;"> Study the agreement terms carefully and please make sure you understand them fully before registering your organisation. Also <u><a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="wavecontactus.html" > check</a></u> no other distributor exists in your region, that you have permission from your organisations bosses and that no conflicts of interest exist.</br></p>
+									<p style="text-align:justify;"> Study the agreement terms carefully and please make sure you understand them fully before registering your organisation. Also <u><a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="wavedistributors.html" > check</a></u> no other distributor exists in your region, that you have permission from your organisations bosses and that no conflicts of interest exist.</br></p>
 									<a style="margin-bottom:20px;" class="btn btn-secondary" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="data/docs/software/distributors/build/html/index.html" role="button">View Terms</a>
 									</br></br>
 								</div>
@@ -220,36 +218,50 @@
 											<div class="FooterNew-link-content">
 												<ul class="FooterNew-links">
 												
-													
+														<li>
+														<a class="FooterNew-link" data-content="Wave® Free Internet products. Free Internet device" data-qtsb-label="GoToDownloadCenter" data-qtsb-section="footer" data-qtsb-subsection="Network" data-uitest-target="GoToDownloadCenter" href="index.html" title="Wave® Free Internet device. Free Internet">Wave® Products</a>
+													</li>
 												
-													<li>
+														<li>
 														<a class="FooterNew-link" href="download.html#download-segment" data-uitest-target="GoToDownloadCenter" data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToDownloadCenter" title="Wave® Free Internet software & Free IPTV software. Free Internet Programs & Free IPTV Programs. Free Internet Source Code & Free IPTV Source Code" data-content="Wave® Free Internet software & Free IPTV software. Free Internet Programs & Free IPTV Programs. Free Internet Source Code & Free IPTV Source Code">
 																Wave® Software
 														</a>
+													</li>									
+															
+													<li>
+														<a class="FooterNew-link" href="invest.html"  data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToMiningNetwork" title="Wave® Exchange, Tokens & Mining" data-content="Wave® Exchange, Tokens"> 
+																 Wave® TOKΞNS™ 
+														</a>
 													</li>
-													
-														<li><a class="FooterNew-link" data-content="Wave® Free Internet products. Free Internet device" data-qtsb-label="GoToDownloadCenter" data-qtsb-section="footer" data-qtsb-subsection="Network" data-uitest-target="GoToDownloadCenter" href="store/index.html" title="Wave® Free Internet device. Free Internet">Wave® Products</a></li>
-													
-													
+																											
 													<li>
 															<h5 class="FooterNew-link-title" data-footerlink="footer-link"></br>Services</h5>
 														</a>
 													</li>
 													
 													<li>
-														<a class="FooterNew-link" href="distributor-info.html"  data-qtsb-section="footer" data-qtsb-subsection="Distribution" data-qtsb-label="GoToDistributionNetwork" title="Distribute, install and reseller Wave® Free Internet software, Wave® Free Internet Devices and Wave® Free Internet Solutions in your Region" data-content="Distribute, install and reseller Wave® Free Internet software, Wave® Free Internet Devices and Wave® Free Internet Solutions in your Region">
-																Wave® Distribution
+														<a class="FooterNew-link" href="#wavefooter"  data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToAdvertisingNetwork" title="Wave® Cryptocurrency Mining" data-content="Wave® cryptocurrency mining">
+																Wave® Cryptomining
 														</a>
 													</li>
-													
+															
+													<li>
+														<a class="FooterNew-link" href="distributor-info.html"  data-qtsb-section="footer" data-qtsb-subsection="Distribution" data-qtsb-label="GoToDistributionNetwork" title="Distribute, install and reseller Wave® Free Internet software, Wave® Free Internet Devices and Wave® Free Internet Solutions in your Region" data-content="Distribute, install and reseller Wave® Free Internet software, Wave® Free Internet Devices and Wave® Free Internet Solutions in your Region">
+																Wave® Redistribution
+														</a>
+													</li>		
+															
+													<li>
+														<a class="FooterNew-link" href="#wavefooter"  data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToAdvertisingNetwork" title="Wave® Advertising Platform, Ad Reinsersion and Advertising Solution - Best CPA. Best Display Advertising ROI. Best CPM and Best CPC with Wave®" data-content="Wave® Advertising Platform, Ad Reinsersion and Advertising Solution - Best CPA. Best Display Advertising ROI. Best CPM and Best CPC with Wave®">
+																Wave® ΞXCHANGE™
+														</a>
+													</li>
+															
+												
 													<li>
 														<a class="FooterNew-link" href="#wavefooter"  data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToAdvertisingNetwork" title="Wave® Advertising Platform, Ad Reinsersion and Advertising Solution - Best CPA. Best Display Advertising ROI. Best CPM and Best CPC with Wave®" data-content="Wave® Advertising Platform, Ad Reinsersion and Advertising Solution - Best CPA. Best Display Advertising ROI. Best CPM and Best CPC with Wave®">
 																Wave® Advertising
 														</a>
-													</li>
-													
-													<li>
-														<a class="FooterNew-link" href="invest.html"  data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToMiningNetwork" title="Wave® Exchange, Tokens & Mining" data-content="Wave® Exchange, Tokens"> Wave® Tokens </a>
 													</li>
 											
 													
@@ -338,7 +350,7 @@
 									<div class="Grid-col Grid-col--tablet-3  Grid-col--desktopSmall-2 FooterNew-link-section">
 											<h5 class="FooterNew-link-title FooterNew-link-title--hideMobile">WaveOS™ V0.5.0</h5>
 											<div class="FooterNew-appStoreIcons">
-										<a onclick="window.open('https://makeitwave.com/data/docs/software/wave_os/build/latex/wave-software-waveos.pdf')" style="filter:invert(10%); width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b data-content="WaveOS™ Operator Manual, Direct Download - Freer Internet Solution" data-qtsb-label="GoToWaveISO" data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" style="font-size:12.5px; color:white;" title="WaveOS™ Operator Manual, Direct Download - Freer Internet Solution"><i class="glyphicon glyphicon-arrow-down" style=" margin-left: 5px; margin-right: -7px; margin-top: 5px;">&nbsp;</i> <span>User Manual</span></b><span></span></a> <a onclick="window.open('https://mega.nz/#!ZCAziaQb!P4r2FrkY0-bQnDqThiQkY0Da0ORtguYO2tCnO3CO_Ec')" style="filter:invert(10%); width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b data-content="WaveOS™ 7-ZIP Latest Version, Direct Download - Freer Internet Solution" data-qtsb-label="GoToWaveZIP" data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" style="font-size:12.5px; color:white;" title="WaveOS™ 7-ZIP Latest Version, Direct Download - Freer Internet Solution"><i class="glyphicon glyphicon-compressed" style=" margin-left: 6px; margin-right: -6px; margin-top: 5px;">&nbsp;</i> <strong>7-ZIP</strong><span>&nbsp; (5.1GB)</span></b><span></span></a>
+										<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true"  href="data/docs/software/wave_os/build/html/index.html" style="filter:invert(10%); width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b data-content="WaveOS™ Operator Manual, Direct Download - Freer Internet Solution" data-qtsb-label="GoToWaveISO" data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" style="font-size:12.5px; color:white;" title="WaveOS™ Operator Manual, Direct Download - Freer Internet Solution"><i class="glyphicon glyphicon-book" style=" margin-left: 5px; margin-right: -7px; margin-top: 5px;">&nbsp;</i> <span>User Manual</span></b><span></span></a> <a onclick="window.open('https://mega.nz/#!ZCAziaQb!P4r2FrkY0-bQnDqThiQkY0Da0ORtguYO2tCnO3CO_Ec')" style="filter:invert(10%); width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b data-content="WaveOS™ 7-ZIP Latest Version, Direct Download - Freer Internet Solution" data-qtsb-label="GoToWaveZIP" data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" style="font-size:12.5px; color:white;" title="WaveOS™ 7-ZIP Latest Version, Direct Download - Freer Internet Solution"><i class="glyphicon glyphicon-compressed" style=" margin-left: 6px; margin-right: -6px; margin-top: 5px;">&nbsp;</i> <strong>7-ZIP</strong><span>&nbsp; (5.1GB)</span></b><span></span></a>
 									</div>
 
 											<div class="FooterNew-social">
@@ -486,6 +498,10 @@ document.getElementById('systemjs-config').addEventListener('load', function() {
 
 </script>
 
+
+
 <!--// SystemJS  -->
-	<script src="//code.tidio.co/rzr1zvrnvhf4zrxsqubbz40fkl5jhbyu.js"></script></body>
+	<script src="//code.tidio.co/rzr1zvrnvhf4zrxsqubbz40fkl5jhbyu.js"></script>
+
+</body>
 </html>

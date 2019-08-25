@@ -16,8 +16,8 @@
 		
 		<!-- SEO -->
 		<meta content="Wave® Free Internet Software & Applications" name="description">
-		<meta content="Make it Wave Ltd" name="author">
-		<title>Wave® Software & Applications</title>
+		<meta content="Make it Wave® Ltd" name="author">
+		<title>Wave® Team</title>
 		
 		
 		<link href="img/favicons/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
@@ -61,17 +61,18 @@
 
 	
 		<style amp-custom>
-		.appstore-img-button-play {
-			background-image: url(img/google-play-66442243.svg);
+		.appstore-img-button-facebook {
+			background-image: url(img/facebook.png);
 			background-repeat: no-repeat;
 			background-position: 0px 0px;
-
+			background-size: 100% 100%;
 			background-color: transparent;
 			padding-left: 0px;
 			margin-top: 0px;
-			height: 42px;
-			width: 110px;
-			
+			min-height: 24px;
+			width: auto;
+			border-radius: 5px;
+			border: 0.5px solid black;	
 			display: flex!important;
 			justify-content: center!Important;
 			object-position: center!important;
@@ -79,18 +80,19 @@
 			zoom:1.5;
 		}
 		
-		.appstore-img-button-apple {
-			background-image: url(img/app-store-1f36bbd8.svg);
+		.appstore-img-button-linkedin {
+			background-image: url(img/linkedin.png);
 			background-repeat: no-repeat;
 			background-position: 0px 0px;
-	
+			background-size: 100% 100%;
 			background-color: transparent;
 			padding-left: 0px;
 			margin-top: -1px;
 			margin-left: 0px;
-			height: 42px;
-			width: 110px;
-		
+			min-height: 24px;
+			width: auto;
+			border-radius: 5px;
+			border: 0.5px solid black;	
 			display: flex!important;
 			justify-content: center!Important;
 			object-position: center!important;
@@ -159,27 +161,20 @@
 	 
 
 	 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style> <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>  </head> <body bgcolor="#333366" onload="pageLoad()">		
-		<header id="mainWrapper">
+	<header>
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-				<a href="index.html" data-content="Wave® Logo - The Symbol of Free Internet" Title="Wave® Logo - The Symbol of Free Internet"><img class="navbar-brand" src="img/wave_logo.png" alt="Wave® Logo - The Symbol of Free Internet"></a> 
 				
-					<div class="checkout-visibility-mobile"> 
-							<a href="#" class="snipcart-checkout" style="text-decoration:none!Important;"> 
-								<p style="display:inline!important;">
-									<span class="glyphicon glyphicon-shopping-cart navbar-cart-icon" >
-										
-										
-										<div class="snipcart-summary navbar-cart-qnt" > 
-											<span class="snipcart-total-items"></span> 		
-										</div>
-									</span>
-								</p> 
-							</a>
-					</div>
+				<a href="index.html" >
+					<img class="navbar-brand" src="img/wave_logo.png">
+				</a>
+				
 					
-					
-
-			<div class="collapse navbar-collapse" id="navbarCollapse">
+				
+				<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+					<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav mr-auto">
 						
 						<li class="nav-item">
@@ -187,18 +182,19 @@
 
 
 						<li class="nav-item">
-							<a class="nav-link" href="demo.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" >Dashboard</a>
+							<a class="nav-link" href="demo.html" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" data-content="Wave® Interactive Demo of our Free Internet Solution. Experience Free Internet" Title="Wave® Interactive Demo of our Free Internet Solution. Experience Free Internet">Preview</a>
 						</li>
-	
+						
+							
 						
 						<li class="nav-item">
 						</li>
+						
 
-
+						
 						<li class="nav-item">
 							<a class="nav-link" href="download.html">Software</a>
 						</li>
-											
 						
 						<li class="nav-item">
 						</li>
@@ -207,12 +203,27 @@
 							<a class="nav-link" href="documents.html">Documents</a>
 						</li>
 						
+						<li class="nav-item">
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="https://blog.makeitwave.com/journal/"  data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true">Blog</a>
+						</li>
 					
+						<li class="nav-item"></li>
+					<li class="nav-item">
+						<a class="nav-link" href="store/index.html"><b style="font-weight:bold;">Order Now</b></a>
+					</li>
+							
 								
 					</ul>
-			</div>
+				</div>
+				
+				
 			
+			</nav>
 		</header>
+		
 		<div id="download"></div>
 		
 <div id="site" class="main">
@@ -225,11 +236,11 @@
 <ul class="row">
 	<li class="col-lg-4">
 		<a id="product-1" ></a>
-					<img src="img/apps.png" class="product-image">
+					<img src="img/team/sionbuckler.png" class="product-image">
 
 					<div class="product-description" data-name="Remote™" data-price="199.99">
-						<img class="navbar-brand" src="img/wave_logo.png">
-						<h3 class="product-name" style="margin-left:-12px;">Remote Access</br><b class="product-name-subtitle"></b></h3>
+						
+						<h3 class="product-name" style="margin-left:-12px;">Siôn Buckler</br><img class="navbar-brand" src="img/wave_logo.webp"></br><b class="product-name-subtitle"><strong>Founder & CEO</strong></b></h3>
 				
 						
 <div style="height:62px!important;">
@@ -237,92 +248,65 @@
 						
 								<tbody>
 									<tr>
-										<th scope="col" class="add-to-cart-columb-title" style="width: 49.9097%; height:inherit; padding:0px; margin:0px;">	</br><a href="//itunes.apple.com/us/app/dataplicity-terminal-for-pi/id921634512" target="_popup" class="appstore-img-button-apple" style="filter:invert(10%);  width:70px; display:block; margin:5px;  ">
+										<th scope="col" class="add-to-cart-columb-title" style="width: 49.9097%; height:inherit; padding:0px; margin:0px;">	</br><a href="https://web.facebook.com/Hywel.ApBuckler" target="_popup" class="appstore-img-button-facebook" style="filter:invert(10%);  width:70px; display:block; margin:5px;  ">
 										</a>
 										</th>
 
 										<th scope="col" class="add-to-cart-columb-title" rowspan="2" style="width: 49.9097%;height:inherit; padding:0px; margin:0px;">   
-											<b class="add-to-cart"></br> <a href="//play.google.com/store/apps/details?id=com.wildfoundry.dataplicity.management" target="_popup" class="appstore-img-button-play" style="filter:invert(10%); width:70px; display:block;  margin:5px;">
+											<b class="add-to-cart"></br> <a href="https://www.linkedin.com/in/sionbuckler/" target="_popup"  class="appstore-img-button-linkedin" style="filter:invert(10%); min-width:70px; display:block;  margin:5px;  max-height: 21px;">
 										</a></b>
 											</button>   
 										</th>
 									</tr>
+
 								</tbody>
-							</table>			
+								
+								
+							</table>	
+
+							
 						</div>
-						<p class="product-paragraph" style="margin-top:11px!important;">Multi-User, FREE Remote Access App to Monitor & Control your Wave® Smart Home™ from your mobile device wherever you are in the world. The mobile application connects using client-initiated HTTPS, so remote access to your Wave® Smart Home™ is always encrypted and safe without any need to configure firewalls.</b>
+						<p class="product-paragraph" style="margin-top:31px!important;">Siôn's citizenship and company are both British. And while his son and family remain in the UK, Siôn remains dedicated to fulfilling his Oath as a <strong>British Government Public Servant</strong> to the <u><a>Scottish Bay British Society</a></u> in the Caribbean. </br></br> As a former British Soldier Siôn earned life membership to the Royal Corps of Signals "Home of Cyber Professionals". Siôn is an accomplished <strong>Military Theorist</strong>, currently holding office as <strong>Head of Defence </strong> for <u><a>Caribbean Communications Unit (CCU)</a></u>, which specialises in Communications, Intelligence and Defence. In his first few months in this role Siôn secured a helicopter budget and an Air Traffic Control System (for CCU's first base of operation) from Google.</br></br> As <strong>Founder & CEO</strong> of Wave® Siôn is dedicated to making free internet a reality. He raised £1Million+ in Seed Funding then designed the hardware, wrote the operating system and secured 8 patents from Google in Britain, Germany, France, US and Japan. </br></br> Before Siôn's term as a British Public Servant expires in 2024 he plans to give investors a substantial return on their investment and invite Heads of Governments, NGO's and Major Telco's to the Scottish Bay to experience free, inherent and inalienable internet access and its extrodinary effects on a society. </b>
 						<p></p>
 
-						<a onclick="window.open('https://github.com/wildfoundry/dataplicity-agent')" class="btn add-to-cart-btn add-to-cart2" style="margin-left:-5px;margin-right:15px;" >
-						<span style="background-image: url(img/git-footer.png);
-    background-repeat: no-repeat;
-    background-position: 2px 0px;
-    display: inline-block;
-    zoom: 1.05;
-    width: 20px;
-    background-size: 16px;
-    margin-right: 3px;
-    margin-left: -2px;
-    float: left;" ></span> &nbsp; 
-						<b class="info-button-text2" style="margin-top:1px; margin-left:-1px;">The Code </b>
-						</a> 
+					
 
-						<a onclick="window.open('https://docs.dataplicity.com/')" class="btn add-to-cart-btn add-to-cart2" >
-						<span class="glyphicon glyphicon-book" ></span> &nbsp;
-						<b class="info-button-text" style="margin-left:5px;">The Docs</b>
-						</a>
+					
 						<a id="product-2"></a>
 					</div>	
 				</li>
 				
 			<li class="col-lg-4">
-					<img src="img/os.png" class="product-image">								
+					<img src="img/team/reneceulen.png" class="product-image">								
 					<div class="product-description" >
 
-						<img class="navbar-brand" src="img/wave_logo.png">
-						<h3 class="product-name">Operating System</br><b class="product-name-subtitle"></b></h3>
+						
+						<h3 class="product-name" style="margin-left:-12px;">Rene Ceulen</br><img class="navbar-brand" src="img/wave_logo.webp"></br><b class="product-name-subtitle"><strong>Legal Adviser</strong></b></h3>
 						
 <div style="height:62px!important;">
 							<table  style="left:0; right:0; width:70%; margin-left:auto; margin-right:auto;">
 						
-								<tbody>
+									<tbody>
 									<tr>
-										<th scope="col" class="add-to-cart-columb-title" style="width: 49.9097%; height:inherit; padding:0px; margin:0px;">	</br>
-											<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true"  href="data/docs/software/wave_os/build/html/index.html" style="filter:invert(10%);  width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b style="font-size:12.5px; color:white;">	<i class="glyphicon glyphicon-arrow-down" style=" margin-left: 1px; margin-right: -7px; margin-top: 5px;">&nbsp; </i> <strong>ISO</strong><span>&nbsp;  (500MB)</b></span>
-											</a>
+										<th scope="col" class="add-to-cart-columb-title" style="width: 49.9097%; height:inherit; padding:0px; margin:0px;">	</br><a href="https://web.facebook.com/rene.ceulen.9" target="_popup" class="appstore-img-button-facebook" style="filter:invert(10%);  width:70px; display:block; margin:5px;  ">
+										</a>
 										</th>
 
-										<th scope="col" class="add-to-cart-columb-title" style="width: 49.9097%; height:inherit; padding:0px; margin:0px;">	</br>
-											<a onclick="window.open('https://mega.nz/#!ZCAziaQb!P4r2FrkY0-bQnDqThiQkY0Da0ORtguYO2tCnO3CO_Ec')" style="filter:invert(10%);  width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b style="font-size:12.5px; color:white;">	<i class="glyphicon glyphicon-compressed" style="    margin-left: 1px;   margin-right: -7px;  margin-top: 5px;">&nbsp; </i>
-									<strong>ZIP</strong><span>&nbsp;  (150MB)</b></span>
-											</a>
+										<th scope="col" class="add-to-cart-columb-title" rowspan="2" style="width: 49.9097%;height:inherit; padding:0px; margin:0px;">   
+											<b class="add-to-cart"></br> <a href="https://www.linkedin.com/in/rene-ceulen-13501b8/" target="_popup"  class="appstore-img-button-linkedin" style="filter:invert(10%); min-width:70px; display:block;  margin:5px;  max-height: 21px;">
+										</a></b>
+											</button>   
 										</th>
 									</tr>
+
 								</tbody>
 							</table>			
 						</div>
+					
+					<p class="product-paragraph" style="margin-top:31px!important;">Rene is the Owner/director at RMCA Consulting at RMCA Consulting. A Dedicated pioneer and problem solver, working on wholesome and profitable projects. </br></br>Rene worked 5 years with ING Bank in WB and EU funded projects and emerging markets then a futher 23 years as senior legal counsel, a banking consultant, a pension fund trustee and a risk and project manager. Rene then spent 10 years with DSM Anti-Infectives in Corporate and commercial, working with SHE compliance and JVA before incorporating his own firm RMCA, which Rene has operated for the last 13 years. </b>
+						</p>
 						
-						<p class="product-paragraph" style="margin-top:11px!important;">The latest version of the FREE Wave® Operating System (WaveOS™). Including Source Code & Operation Manual. Transforms almost any Single Board Computer into a Wave® Smart Home Device. Copy WaveOS™ to your devices Micro SD Card using the 2 Minute QuickStart Guide <a href="#quickstart"><u>below</u></a>.</b>
-						<p></p>
 
-						<a onclick="window.open('https://github.com/unclehowell/WaveOS/blob/master/README.md')" class="btn add-to-cart-btn add-to-cart2" style="margin-left:-5px;margin-right:15px;" >
-												<span style="background-image: url(img/git-footer.png);
-							background-repeat: no-repeat;
-							background-position: 2px 0px;
-							display: inline-block;
-							zoom: 1.05;
-							width: 20px;
-							background-size: 16px;
-							margin-right: 3px;
-							margin-left: -2px;
-							float: left;" ></span> &nbsp; 
-							<b class="info-button-text2" style="margin-top:1px; margin-left:-1px;">The Code </b>
-						</a> 
-
-						<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true"  href="data\docs\software\wave_os\build\html\index.html" class="btn add-to-cart-btn add-to-cart2" >
-						<span class="glyphicon glyphicon-book" ></span> &nbsp;
-						<b class="info-button-text" style="margin-left:5px;">The Docs</b>
-						</a>
 
 						
 					</div>
@@ -330,51 +314,36 @@
 
 				<li class="col-lg-4">
 
-					<img src="img/wallet.png" class="product-image">
+					<img src="img/team/johningle.png" class="product-image">
 
 					<div class="product-description" >
-						<img class="navbar-brand" src="img/wave_logo.png">
-						<h3 class="product-name">Royalty Wallet</br><b class="product-name-subtitle"></b></h3>
+			
+						<h3 class="product-name">John Ingle</br><img class="navbar-brand" src="img/wave_logo.webp"></br><b class="product-name-subtitle"><strong>Financial Adviser</strong></b></h3>
 						
 <div style="height:62px!important;">
 							<table  style="left:0; right:0; width:70%; margin-left:auto; margin-right:auto;">
 						
-								<tbody>
+									<tbody>
 									<tr>
-										<th scope="col" class="add-to-cart-columb-title" style="width: 49.9097%; height:inherit; padding:0px; margin:0px;">	</br><a onclick="window.open('https://trustwalletapp.com/')" class="appstore-img-button-apple" style="filter:invert(10%);  width:70px; display:block; margin:5px;  ">
+										<th scope="col" class="add-to-cart-columb-title" style="width: 49.9097%; height:inherit; padding:0px; margin:0px;">	</br><a href="https://web.facebook.com/john.ingle.10485" target="_popup" class="appstore-img-button-facebook" style="filter:invert(10%);  width:70px; display:block; margin:5px;  ">
 										</a>
 										</th>
 
 										<th scope="col" class="add-to-cart-columb-title" rowspan="2" style="width: 49.9097%;height:inherit; padding:0px; margin:0px;">   
-											<b class="add-to-cart"></br> <a onclick="window.open('https://trustwalletapp.com/')"  class="appstore-img-button-play" style="filter:invert(10%); width:70px; display:block;  margin:5px;">
+											<b class="add-to-cart"></br> <a href="https://www.linkedin.com/in/john-ingle-b4948b1a" target="_popup"  class="appstore-img-button-linkedin" style="filter:invert(10%); min-width:70px; display:block;  margin:5px;  max-height: 21px;">
 										</a></b>
 											</button>   
 										</th>
 									</tr>
+
 								</tbody>
 							</table>			
 						</div>
-						<p class="product-paragraph" style="margin-top:11px!important;">The latest version of the FREE Cryptocurrency Wallet App, Source Code & User Guide. Used by <u><a href="invest.html">Financeers</a></u> to receive royalties from our Decentralised Autonomous Organisation (DAO). Store & Trade your Tokenized Shares and/or Promissary Notes and the re-occuring revenue these tokens generate.</b>
-						<p></p>
+					
+					<p class="product-paragraph" style="margin-top:31px!important;"> John is the Principal accountant of 20 years at his own firm J W Ingle & Co. </br></br> John has experience in Financial Reporting, Tax accounting, Wealth Management and Strategic Planning. </br></br>John's office is situated in Tooting in London.
+						</p>
 
-						<a onclick="window.open('https://github.com/')" class="btn add-to-cart-btn add-to-cart2" style="margin-left:-5px;margin-right:15px;" >
-						<span style="background-image: url(img/git-footer.png);
-    background-repeat: no-repeat;
-    background-position: 2px 0px;
-    display: inline-block;
-    zoom: 1.05;
-    width: 20px;
-    background-size: 16px;
-    margin-right: 3px;
-    margin-left: -2px;
-    float: left;" ></span> &nbsp; 
-						<b class="info-button-text2" style="margin-top:1px; margin-left:-1px;">The Code </b>
-						</a> 
-
-						<a onclick="window.open('https://docs.trustwalletapp.com/')" class="btn add-to-cart-btn add-to-cart2" >
-						<span class="glyphicon glyphicon-book" ></span> &nbsp;
-						<b class="info-button-text" style="margin-left:2px;">User Guide</b>
-						</a>
+						
 				</li>		
 			</ul>	
 			</div>
@@ -382,29 +351,10 @@
 		
 		
 
-		<div id="products" class="container" >
-			<h1 class="segment-title" style="margin:0rem 0 0rem 0;" >Development Intensity</h1>
-<img style="text-align:center; display: block; margin-left: auto; margin-right: auto; zoom:1.1;" src="http://ghchart.rshah.org/333366/unclehowell" alt="Unclehowell's Github chart" />
-	</br>
-				</br>
-			</div>
+	
 	
 
 		
-			<div id="products" class="container" >	
-
-		
-							<h1 class="segment-title" style="margin:0rem 0 0rem 0;" >Developer Languages</h1>			
-								<iframe width="100%" height="600" src="https://ionicabizau.github.io/github-profile-languages/api.html?unclehowell" frameborder="0"></iframe>
-									
-	</div>						
-			
-
-						<div id="products" class="container" >	
-				
-			 <h1 class="segment-title" style="margin:0rem 0 0rem 0;" >Development Projects</h1>
-				  <div class="github-widget" data-user="unclehowell" data-options='{"limit":3, "sortBy": "stargazers_count"}'></div>
-	</div>	
 		
 			<div class="segment-bottom"></div>
 		</main>	
@@ -453,34 +403,50 @@
 											<div class="FooterNew-link-content">
 												<ul class="FooterNew-links">
 												
-													
+														<li>
+														<a class="FooterNew-link" data-content="Wave® Free Internet products. Free Internet device" data-qtsb-label="GoToDownloadCenter" data-qtsb-section="footer" data-qtsb-subsection="Network" data-uitest-target="GoToDownloadCenter" href="index.html" title="Wave® Free Internet device. Free Internet">Wave® Products</a>
+													</li>
 												
-													<li>
+														<li>
 														<a class="FooterNew-link" href="download.html#download-segment" data-uitest-target="GoToDownloadCenter" data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToDownloadCenter" title="Wave® Free Internet software & Free IPTV software. Free Internet Programs & Free IPTV Programs. Free Internet Source Code & Free IPTV Source Code" data-content="Wave® Free Internet software & Free IPTV software. Free Internet Programs & Free IPTV Programs. Free Internet Source Code & Free IPTV Source Code">
 																Wave® Software
 														</a>
+													</li>									
+															
+													<li>
+														<a class="FooterNew-link" href="invest.html"  data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToMiningNetwork" title="Wave® Exchange, Tokens & Mining" data-content="Wave® Exchange, Tokens"> 
+																 Wave® TOKΞNS™ 
+														</a>
 													</li>
-													
-													
+																											
 													<li>
 															<h5 class="FooterNew-link-title" data-footerlink="footer-link"></br>Services</h5>
 														</a>
 													</li>
 													
 													<li>
-														<a class="FooterNew-link" href="distributor-info.html"  data-qtsb-section="footer" data-qtsb-subsection="Distribution" data-qtsb-label="GoToDistributionNetwork" title="Distribute, install and reseller Wave® Free Internet software, Wave® Free Internet Devices and Wave® Free Internet Solutions in your Region" data-content="Distribute, install and reseller Wave® Free Internet software, Wave® Free Internet Devices and Wave® Free Internet Solutions in your Region">
-																Wave® Distribution
+														<a class="FooterNew-link" href="workedon.html"  data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToAdvertisingNetwork" title="Wave® Cryptocurrency Mining" data-content="Wave® cryptocurrency mining">
+																Wave® Cryptomining
 														</a>
 													</li>
-													
+															
 													<li>
-														<a class="FooterNew-link" href="#wavefooter"  data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToAdvertisingNetwork" title="Wave® Advertising Platform, Ad Reinsersion and Advertising Solution - Best CPA. Best Display Advertising ROI. Best CPM and Best CPC with Wave®" data-content="Wave® Advertising Platform, Ad Reinsersion and Advertising Solution - Best CPA. Best Display Advertising ROI. Best CPM and Best CPC with Wave®">
+														<a class="FooterNew-link" href="distributor-info.html"  data-qtsb-section="footer" data-qtsb-subsection="Distribution" data-qtsb-label="GoToDistributionNetwork" title="Distribute, install and reseller Wave® Free Internet software, Wave® Free Internet Devices and Wave® Free Internet Solutions in your Region" data-content="Distribute, install and reseller Wave® Free Internet software, Wave® Free Internet Devices and Wave® Free Internet Solutions in your Region">
+																Wave® Redistribution
+														</a>
+													</li>		
+															
+													<li>
+														<a class="FooterNew-link" href="workedon.html"  data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToAdvertisingNetwork" title="Wave® Advertising Platform, Ad Reinsersion and Advertising Solution - Best CPA. Best Display Advertising ROI. Best CPM and Best CPC with Wave®" data-content="Wave® Advertising Platform, Ad Reinsersion and Advertising Solution - Best CPA. Best Display Advertising ROI. Best CPM and Best CPC with Wave®">
+																Wave® ΞXCHANGE™
+														</a>
+													</li>
+															
+												
+													<li>
+														<a class="FooterNew-link" href="workedon.html"  data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToAdvertisingNetwork" title="Wave® Advertising Platform, Ad Reinsersion and Advertising Solution - Best CPA. Best Display Advertising ROI. Best CPM and Best CPC with Wave®" data-content="Wave® Advertising Platform, Ad Reinsersion and Advertising Solution - Best CPA. Best Display Advertising ROI. Best CPM and Best CPC with Wave®">
 																Wave® Advertising
 														</a>
-													</li>
-													
-													<li>
-														<a class="FooterNew-link" href="invest.html"  data-qtsb-section="footer" data-qtsb-subsection="Network" data-qtsb-label="GoToMiningNetwork" title="Wave® Exchange, Tokens & Mining" data-content="Wave® Exchange, Tokens"> Wave® Tokens </a>
 													</li>
 											
 													
@@ -514,6 +480,9 @@
 														</a> 
 													</li>
 													
+														<li>
+												<a class="FooterNew-link" data-content="The Wave® Team are making IPTV & Internet Free - meet the team making free internet and free iptv a reality" data-qtsb-label="GoToTeam" data-qtsb-section="footer" data-qtsb-subsection="Network" data-uitest-target="GoToTeam" href="team.html" title="The Wave® Team are making IPTV & Internet Free - meet the team making free internet and free iptv a reality">Wave® Team</a>
+											</li>
 											
 
 													
@@ -569,8 +538,8 @@
 									<div class="Grid-col Grid-col--tablet-3  Grid-col--desktopSmall-2 FooterNew-link-section">
 											<h5 class="FooterNew-link-title FooterNew-link-title--hideMobile">WaveOS™ V0.5.0</h5>
 											<div class="FooterNew-appStoreIcons">
-											<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true"  href="data/docs/software/wave_os/build/html/index.html" style="filter:invert(10%); width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b style="font-size:12.5px; color:white;" data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" data-qtsb-label="GoToWaveISO" data-content="WaveOS™ Operator Manual, Direct Download - Freer Internet Solution" Title="WaveOS™ Operator Manual, Direct Download - Freer Internet Solution"> <i class="glyphicon glyphicon-arrow-down" style=" margin-left: 5px; margin-right: -7px; margin-top: 5px;">&nbsp; </i> <strong>ISO</strong><span>&nbsp; (500MB)</b></span> </a>
-												<a onclick="window.open('https://mega.nz/#!ZCAziaQb!P4r2FrkY0-bQnDqThiQkY0Da0ORtguYO2tCnO3CO_Ec')" style="filter:invert(10%); width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b style="font-size:12.5px; color:white;" data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" data-qtsb-label="GoToWaveZIP" data-content="WaveOS™ 7-ZIP Latest Version, Direct Download - Freer Internet Solution" Title="WaveOS™ 7-ZIP Latest Version, Direct Download - Freer Internet Solution"> <i class="glyphicon glyphicon-compressed" style=" margin-left: 6px; margin-right: -6px; margin-top: 5px;">&nbsp; </i> <strong>ZIP</strong><span>&nbsp; (150MB)</b></span> </a> </div>
+										<a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true"  href="data/docs/software/wave_os/build/html/index.html" style="filter:invert(10%); width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b data-content="WaveOS™ Operator Manual, Direct Download - Freer Internet Solution" data-qtsb-label="GoToWaveISO" data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" style="font-size:12.5px; color:white;" title="WaveOS™ Operator Manual, Direct Download - Freer Internet Solution"><i class="glyphicon glyphicon-book" style=" margin-left: 5px; margin-right: -7px; margin-top: 5px;">&nbsp;</i> <span>User Manual</span></b><span></span></a> <a onclick="window.open('https://mega.nz/#!ZCAziaQb!P4r2FrkY0-bQnDqThiQkY0Da0ORtguYO2tCnO3CO_Ec')" style="filter:invert(10%); width:120px; display:block; min-height: 32.5px; margin:5px; background-color:transparent; border:1px solid white; border-radius:5px; padding:2px;"><b data-content="WaveOS™ 7-ZIP Latest Version, Direct Download - Freer Internet Solution" data-qtsb-label="GoToWaveZIP" data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" style="font-size:12.5px; color:white;" title="WaveOS™ 7-ZIP Latest Version, Direct Download - Freer Internet Solution"><i class="glyphicon glyphicon-compressed" style=" margin-left: 16px; margin-right: -6px; margin-top: 5px;">&nbsp;</i> <strong>Download</strong></span></b><span></span></a>
+									</div>
 
 											<div class="FooterNew-social">
 										<a class="FooterNew-social-icon Icon Icon--light" rel="nofollow" href="https://www.facebook.com/makeitwave/" target="_blank"  data-qtsb-section="footer" data-qtsb-subsection="AppsAndSocial" data-qtsb-label="GoToFacebook" data-content="Like Wave® on Facebook and join our journey to make Free Internet and Free IPTV Devices, Services, Products and Solutions - Like Wave® on Facebook Today" Title="Wave® on Facebook - Like Wave® on Facebook and join our journey to make Free Internet and Free IPTV Devices, Services, Products and Solutions - Like Wave® on Facebook Today">
@@ -625,8 +594,8 @@
 							</div>
 									</div>
 									<div class="Grid-col Grid-col--desktopSmall-6">
-										<p class="FooterNew-siteStat-term">Copyright © 2019 Make it Wave Ltd. Wave® is a registered Trademark of Make it Wave Ltd.</p>
-<p class="FooterNew-siteStat-term">Makeitwave.com - Version 1.0  (MIT Licence) -  <a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="statistics/website.html" style="color: white; display: inline-block; border: 1px solid rgba(255,255,255,0.2); border-radius: 3px; padding: 5px;"  data-content="Wave® Free Internet Website - makeitwave.com" Title="Wave® Free Internet Website - makeitwave.com" ><span class="glyphicon glyphicon-stats" ></span> &nbsp; Stats</a>  <a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="data/docs/organisation/webmaster/build/html/releasenotes.html" style="color: white; display: inline-block; border: 1px solid rgba(255,255,255,0.2); border-radius: 3px; padding: 5px;" data-content="Wave® Free Internet Website - makeitwave.com" Title="Wave® Free Internet Website - makeitwave.com" ><span class="glyphicon glyphicon-book" ></span> &nbsp;Docs</a>  <a target="_popup" href="https://github.com/unclehowell/makeitwave.com" style="color: white; display: inline-block; border: 1px solid rgba(255,255,255,0.2); border-radius: 3px; max-height: 29px!important; padding: 5px!important;"  data-content="Wave® Free Internet Website - makeitwave.com" Title="Wave® Free Internet Website - makeitwave.com" ><img class="Icon-image" src="img/git-footer.png" width="24" height="24" alt="GitHub Badge" style="height: 18px; vertical-align: middle; width: 18px; zoom: 0.8; margin-right: 3px!important; margin-bottom: 4px!important;">Code</a>     <a target="_popup" href="https://github.com/unclehowell/makeitwave.com/blob/master/docs/" style="color: white; display: inline-block; border: 1px solid rgba(255,255,255,0.2); border-radius: 3px; padding: 5px;"  data-content="Wave® Free Internet Website - makeitwave.com" Title="Wave® Free Internet Website - makeitwave.com" ><span class="glyphicon glyphicon-edit" ></span> &nbsp; Edit</a> </p>
+										<p class="FooterNew-siteStat-term">Copyright © 2019 Make it Wave® Ltd. Wave® is a registered Trademark of Make it Wave® Ltd.</p>
+<p class="FooterNew-siteStat-term">Makeitwave.com - Version 1.0  (MIT Licence) - <a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="statistics/website.html" style="color: white; display: inline-block; border: 1px solid rgba(255,255,255,0.2); border-radius: 3px; padding: 5px;"  data-content="Wave® Free Internet Website - makeitwave.com" Title="Wave® Free Internet Website - makeitwave.com" ><span class="glyphicon glyphicon-stats" ></span> &nbsp; Stats</a>  <a data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" href="data/docs/organisation/webmaster/build/html/releasenotes.html" style="color: white; display: inline-block; border: 1px solid rgba(255,255,255,0.2); border-radius: 3px; padding: 5px;"  data-content="Wave® Free Internet Website - makeitwave.com" Title="Wave® Free Internet Website - makeitwave.com" ><span class="glyphicon glyphicon-book" ></span> &nbsp;Docs</a>  <a target="_popup" href="https://github.com/unclehowell/makeitwave.com" style="color: white; display: inline-block; border: 1px solid rgba(255,255,255,0.2); border-radius: 3px; max-height: 29px!important; padding: 5px!important;"  data-content="Wave® Free Internet Website - makeitwave.com" Title="Wave® Free Internet Website - makeitwave.com" ><img class="Icon-image" src="img/git-footer.png" width="24" height="24" alt="GitHub Badge" style="height: 18px; vertical-align: middle; width: 18px; zoom: 0.8; margin-right: 3px!important; margin-bottom: 4px!important;">Code</a>     <a target="_popup" href="https://github.com/unclehowell/makeitwave.com/blob/master/docs/" style="color: white; display: inline-block; border: 1px solid rgba(255,255,255,0.2); border-radius: 3px; padding: 5px;"  data-content="Wave® Free Internet Website - makeitwave.com" Title="Wave® Free Internet Website - makeitwave.com" ><span class="glyphicon glyphicon-edit" ></span> &nbsp; Edit</a></p>
 									</div>
 		
 								</div>
@@ -634,7 +603,7 @@
 						</div>						
 					</div>
 				</div>
-			</footer>	
+			</footer>		
 		</div>
           
 
@@ -736,6 +705,6 @@ document.getElementById('systemjs-config').addEventListener('load', function() {
 
 <!--// SystemJS  -->
 
-	<script src="//code.tidio.co/rzr1zvrnvhf4zrxsqubbz40fkl5jhbyu.js"></script></body>
+	</body>
 	
 </html>

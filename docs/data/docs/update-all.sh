@@ -43,9 +43,9 @@ unset CDPATH
 #sh rebuild.sh
 #cd ../../
 
-cd organisation/terms/
-sh  rebuild.sh
-cd ../../
+#cd organisation/terms/
+#sh  rebuild.sh
+#cd ../../
 
 #cd organisation/webmaster/
 #sh  rebuild.sh
@@ -63,13 +63,13 @@ cd ../../
 #sh  rebuild.sh
 #cd ../../
 
-cd software/dev_guide/
-sh  rebuild.sh
-cd ../../
+#cd software/dev_guide/
+#sh  rebuild.sh
+#cd ../../
 
-cd software/distributors/
-sh  rebuild.sh 
-cd ../../
+#cd software/distributors/
+#sh  rebuild.sh 
+#cd ../../
 
 #cd software/wave_os/
 #sh  rebuild.sh 

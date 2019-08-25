@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  22 AUG 2019 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  24 AUG 2019 21:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1357,13 +1357,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
 Package rerunfilecheck Info: File `wave-software-developers_guide.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 15A2FFDFF89208C5D3CB40F19BD597AD;2185.
+(rerunfilecheck)             Checksum: 525FC1A554B89E2016BA42D179AE68BF;2150.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 454.
  ) 
 Here is how much of TeX's memory you used:
  13676 strings out of 494945
- 189421 string characters out of 6181031
- 274201 words of memory out of 5000000
+ 189414 string characters out of 6181031
+ 274194 words of memory out of 5000000
  16616 multiletter control sequences out of 15000+600000
  47603 words of font info for 67 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
@@ -1375,7 +1375,7 @@ urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
 c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on wave-software-developers_guide.pdf (11 pages, 134326 bytes).
+Output written on wave-software-developers_guide.pdf (11 pages, 134320 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
  173 compressed objects within 2 object streams

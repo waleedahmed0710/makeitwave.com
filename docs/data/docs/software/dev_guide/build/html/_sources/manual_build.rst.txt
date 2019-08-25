@@ -1,8 +1,8 @@
 Manual Build Process (All Devices)
 =======================================
 
-Introduction 
-############################
+Intro
+###############
 
 WaveOS (Version 0.6.x - branch a) is based on the Raspbian Stretch Lite OS. This will be the base OS for all hardware variations of the Wave Smart Home Hotspot e.g. LTE, 5G etc 
 

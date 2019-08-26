@@ -14,7 +14,7 @@ IN WITNESS WHEREOF, intending to be legally bound, the Patent Purchase Agreement
    * - .. image:: images/kirks-sig.png
      - .. image:: images/Sions-sig.png
    * - Name: Kirk W. Dailey
-     - Name: Siôn H. Buckler
+     - Name: Make it Wave Ltd
    * - Title: Head of Patent Transactions
      - Title: Founder & CEO
    * - Date: 14/01/2016

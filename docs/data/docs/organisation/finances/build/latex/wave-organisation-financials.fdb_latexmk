@@ -1,9 +1,9 @@
 # Fdb version 3
-["makeindex wave-organisation-financials.idx"] 1565852252 "wave-organisation-financials.idx" "wave-organisation-financials.ind" "wave-organisation-financials" 1565852260
-  "wave-organisation-financials.idx" 1565852259 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex wave-organisation-financials.idx"] 1566791920 "wave-organisation-financials.idx" "wave-organisation-financials.ind" "wave-organisation-financials" 1566791929
+  "wave-organisation-financials.idx" 1566791926 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "wave-organisation-financials.ind"
-["pdflatex"] 1565852257 "wave-organisation-financials.tex" "wave-organisation-financials.pdf" "wave-organisation-financials" 1565852260
+["pdflatex"] 1566791925 "wave-organisation-financials.tex" "wave-organisation-financials.pdf" "wave-organisation-financials" 1566791929
   "/etc/texmf/web2c/texmf.cnf" 1542675378 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -141,25 +141,21 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1488610416 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1542675794 127853 b41f58aff49fe1af38af8d065f49d51c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1542675777 719477 f2d8b6486516c91eaebe063dd9f3e035 ""
-  "ccu.png" 1565852228 39929 6ecf4b7467557b7f1f66e103dfe09415 ""
   "fianancials.png" 1546365410 213360 97f3a8e052de56526cc2d454c3538dbe ""
   "footnotehyper-sphinx.sty" 1543295005 8886 0562fcad2b7e25f93331edc6fc422c87 ""
-  "scottishbay.png" 1565852228 64550 4ba2fa0df92eb03217725096cb264a23 ""
   "sphinx.sty" 1543295005 68662 158e7929147502e48ab2fdf26a101dfd ""
-  "sphinxhighlight.sty" 1565852247 8137 b8d4ef963833564f6e4eadc09cd757c4 ""
+  "sphinxhighlight.sty" 1566791914 8137 b8d4ef963833564f6e4eadc09cd757c4 ""
   "sphinxmanual.cls" 1543295005 3589 0b0aac49c6f36925cf5f9d524a75a978 ""
   "sphinxmulticell.sty" 1543295005 14618 0defbdc8536ad2e67f1eac6a1431bc55 ""
-  "uarsociety1.png" 1565852228 38759 837cc66f6a00e1ec00b7385ff0934c83 ""
-  "wave-logo.png" 1565852228 42732 e3b368f2bec4cf8ee2532f089e693e0a ""
-  "wave-organisation-financials.aux" 1565852260 24809 3469deca875b829f5df969bc6b35e0fc ""
-  "wave-organisation-financials.ind" 1565852252 0 d41d8cd98f00b204e9800998ecf8427e "makeindex wave-organisation-financials.idx"
-  "wave-organisation-financials.out" 1565852260 3155 626001b90fe7b73a1eb7fa4841ed5af9 ""
-  "wave-organisation-financials.tex" 1565852249 59347 7c3295fe0dad6db40557cb04708aac7d ""
-  "wave-organisation-financials.toc" 1565852260 7246 829483e152d7db34fd3858c766579123 ""
+  "wave-organisation-financials.aux" 1566791929 24803 601e1a7c60df72cbf91e347827dce306 ""
+  "wave-organisation-financials.ind" 1566791920 0 d41d8cd98f00b204e9800998ecf8427e "makeindex wave-organisation-financials.idx"
+  "wave-organisation-financials.out" 1566791929 3160 8ac2713dec2f6a1940d4832cc8e7aaa5 ""
+  "wave-organisation-financials.tex" 1566791916 57568 770cbb907382f468877d7fa5372ae173 ""
+  "wave-organisation-financials.toc" 1566791929 7238 8a842fe4ac2c353efe03a19503b308fb ""
   (generated)
   "wave-organisation-financials.idx"
-  "wave-organisation-financials.toc"
-  "wave-organisation-financials.out"
-  "wave-organisation-financials.aux"
   "wave-organisation-financials.log"
+  "wave-organisation-financials.toc"
   "wave-organisation-financials.pdf"
+  "wave-organisation-financials.aux"
+  "wave-organisation-financials.out"

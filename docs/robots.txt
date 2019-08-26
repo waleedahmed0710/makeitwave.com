@@ -1,6 +1,7 @@
 # robots.txt for https://makeitwave.com
 
 User-agent: * 
-Disallow: 
+Disallow: https://makeitwave.com/html/
+Noindex: https://makeitwave.com/html/
 
 Sitemap: https://makeitwave.com/sitemap.xml

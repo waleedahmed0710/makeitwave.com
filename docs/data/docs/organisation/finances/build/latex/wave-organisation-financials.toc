@@ -79,4 +79,4 @@
 \contentsline {section}{\numberline {5.4}2020 - 2022 (forecast)}{20}{section.5.4}
 \contentsline {section}{\numberline {5.5}2023 - 2025 (forecast)}{22}{section.5.5}
 \contentsline {chapter}{\numberline {6}\sphinxstylestrong {Document Author(s):}}{25}{chapter.6}
-\contentsline {section}{\numberline {6.1}Si\IeC {\^o}n H. Buckler}{25}{section.6.1}
+\contentsline {section}{\numberline {6.1}Make it Wave Ltd}{25}{section.6.1}

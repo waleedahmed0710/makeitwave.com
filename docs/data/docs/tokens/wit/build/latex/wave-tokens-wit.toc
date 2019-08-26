@@ -21,4 +21,4 @@
 \contentsline {section}{\numberline {4.9}Account 209 - (K-E-Amos)}{11}{section.4.9}
 \contentsline {section}{\numberline {4.10}Wallet 210 - (Anonymous-1)}{11}{section.4.10}
 \contentsline {chapter}{\numberline {5}\sphinxstylestrong {Document Author(s):}}{12}{chapter.5}
-\contentsline {section}{\numberline {5.1}Si\IeC {\^o}n H. Buckler}{12}{section.5.1}
+\contentsline {section}{\numberline {5.1}Make it Wave Ltd}{12}{section.5.1}

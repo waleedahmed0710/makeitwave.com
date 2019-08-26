@@ -6,4 +6,4 @@
 \contentsline {section}{\numberline {1.2}Known and Corrected Issues}{1}{section.1.2}
 \contentsline {section}{\numberline {1.3}Recently Updated Topics}{2}{section.1.3}
 \contentsline {chapter}{\numberline {2}\sphinxstylestrong {Document Author(s):}}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Si\IeC {\^o}n H. Buckler}{3}{section.2.1}
+\contentsline {section}{\numberline {2.1}Make it Wave Ltd}{3}{section.2.1}

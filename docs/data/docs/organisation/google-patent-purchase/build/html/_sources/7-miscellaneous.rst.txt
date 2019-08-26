@@ -53,7 +53,7 @@ All notices given hereunder will be given in writing (in English or with an Engl
    * - 1600 Amphitheatre Parkway, Mountain View, CA 94043
      - New Mill Farm Stables, Monknash, Cowbridge, Wales, CF71 7QQ
    * - Attention: Legal - Patents
-     - Attention: Siôn H. Buckler
+     - Attention: Make it Wave Ltd
    * - With a copy via electronic mail to: 
      - With a copy via electronic mail to: 
    * - patent-starter-program@google.com

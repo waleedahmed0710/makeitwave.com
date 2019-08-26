@@ -5,9 +5,8 @@
 		\ \  \ /   \ /  \/\ \_\ \ \  \ /\  __/ 
 	     \ \____/\ \____/\ \_\ \_\ \__/\ \____\
 		  \/___/  \/___/  \/_/\/_/\/_/  \/____/
-
 ........................................................................................
- WaveOS by Unclehowell -  Make it Wave Ltd 2018  - All Rights Reserved 
+ WaveOS by Unclehowell -  Make it Wave Ltd 2019  - All Rights Reserved 
 ........................................................................................ 
  GitHub:https://github.com/unclehowell/WaveOS -  Website:https://makeitwave.com
 ........................................................................................   */
@@ -60,10 +59,8 @@
 				EF. .news-block {}
 				EG. .news-subtitle {}
 				EH. .year {}
-
 				FA. .download-buttons-div {}
 				FB. .rounded-circle {}
-
 				---  FOOTER  ---
 				XA. .footer {}
 				XB. .footer>p {}
@@ -76,7 +73,6 @@
 				YA. .download-tweak0002 {}
 				YB. .sexyline-tweak0001 {}
 				YC. .segment-tweak0001 {}
-
     Structure:  01. .class-1 {}  .class-2 {} ... etc
 				02. @media all and (min-width:1024px) 							                       {.class-1 {}.class-2 {} ... etc}
 				03. @media all and (min-width:960px) 												   {.class-1 {}.class-2 {} ... etc}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  15 AUG 2019 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.19)  26 AUG 2019 08:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1322,86 +1322,30 @@ less on input line 686.
 
 ] [16] [17] [18] [19] [20] [21]
 Chapter 7.
-<wave-logo.png, id=343, 200.75pt x 100.375pt>
-File: wave-logo.png Graphic file (type png)
- <use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 1129.
-(pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
-
-<ccu.png, id=344, 200.75pt x 100.375pt>
-File: ccu.png Graphic file (type png)
- <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 1129.
-(pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
-
-<uarsociety1.png, id=345, 200.75pt x 100.375pt>
-File: uarsociety1.png Graphic file (type png)
- <use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 1129.
-(pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
-
-<scottishbay.png, id=346, 200.75pt x 100.375pt>
-File: scottishbay.png Graphic file (type png)
- <use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 1129.
-(pdftex.def)             Requested size: 200.7495pt x 100.37474pt.
-File: wave-logo.png Graphic file (type png)
-
-<use wave-logo.png>
-Package pdftex.def Info: wave-logo.png used on input line 1129.
-(pdftex.def)             Requested size: 135.798pt x 67.90335pt.
-File: ccu.png Graphic file (type png)
- <use ccu.png>
-Package pdftex.def Info: ccu.png used on input line 1129.
-(pdftex.def)             Requested size: 135.798pt x 67.90335pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1129
-[]\T1/ptm/m/n/10 Head of
- []
-
-File: uarsociety1.png Graphic file (type png)
-<use uarsociety1.png>
-Package pdftex.def Info: uarsociety1.png used on input line 1129.
-(pdftex.def)             Requested size: 135.798pt x 67.90335pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1129
-[]\T1/ptm/m/n/10 Tech-ni-cal
- []
-
-File: scottishbay.png Graphic file (type png)
-<use scottishbay.png>
-Package pdftex.def Info: scottishbay.png used on input line 1129.
-(pdftex.def)             Requested size: 135.798pt x 67.90335pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1129
-[]\T1/ptm/m/n/10 Mil-i-tary
- []
-
 (./wave-products-4g.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1139.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1092.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 1139.
+less on input line 1092.
 
 [22
 
- <./wave-logo.png> <./ccu.png> <./uarsociety1.png> <./scottishbay.png>]
-[23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1139.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1092.
  (./wave-products-4g.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1139.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1139.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1092.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1092.
 
 Package rerunfilecheck Info: File `wave-products-4g.out' has not changed.
-(rerunfilecheck)             Checksum: C85673091B9FDB14C9C3DE3A7187E081;5120.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1139.
+(rerunfilecheck)             Checksum: 3C6F8019D3B5FDA1A41EDCA7F105FB6A;5125.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1092.
  ) 
 Here is how much of TeX's memory you used:
- 13823 strings out of 494945
- 191893 string characters out of 6181031
+ 13795 strings out of 494945
+ 191529 string characters out of 6181031
  277526 words of memory out of 5000000
- 16699 multiletter control sequences out of 15000+600000
+ 16676 multiletter control sequences out of 15000+600000
  47634 words of font info for 67 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  37i,12n,49p,1562b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1411,10 +1355,10 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on wave-products-4g.pdf (25 pages, 299293 bytes).
+Output written on wave-products-4g.pdf (24 pages, 268392 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 341 compressed objects within 4 object streams
- 106 named destinations out of 1000 (max. 500000)
- 329 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 309 words of extra memory for PDF output out of 10000 (max. 10000000)
 

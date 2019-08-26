@@ -14,4 +14,4 @@
 \contentsline {chapter}{\numberline {4}Wave\IeC {\textregistered } Impact Note\IeC {\textquoteright }s (WIN\IeC {\textquoteright }s)}{7}{chapter.4}
 \contentsline {section}{\numberline {4.1}Account 327 - (Coldwell)}{7}{section.4.1}
 \contentsline {chapter}{\numberline {5}\sphinxstylestrong {Document Author(s):}}{8}{chapter.5}
-\contentsline {section}{\numberline {5.1}Si\IeC {\^o}n H. Buckler}{8}{section.5.1}
+\contentsline {section}{\numberline {5.1}Make it Wave Ltd}{8}{section.5.1}

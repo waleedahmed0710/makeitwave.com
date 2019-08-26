@@ -1,9 +1,9 @@
 # Fdb version 3
-["makeindex wave-tokens-wit.idx"] 1565853161 "wave-tokens-wit.idx" "wave-tokens-wit.ind" "wave-tokens-wit" 1565853166
-  "wave-tokens-wit.idx" 1565853164 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex wave-tokens-wit.idx"] 1566792370 "wave-tokens-wit.idx" "wave-tokens-wit.ind" "wave-tokens-wit" 1566792374
+  "wave-tokens-wit.idx" 1566792373 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "wave-tokens-wit.ind"
-["pdflatex"] 1565853163 "wave-tokens-wit.tex" "wave-tokens-wit.pdf" "wave-tokens-wit" 1565853166
+["pdflatex"] 1566792372 "wave-tokens-wit.tex" "wave-tokens-wit.pdf" "wave-tokens-wit" 1566792374
   "/etc/texmf/web2c/texmf.cnf" 1542675378 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -141,25 +141,21 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1488610416 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1542675794 127853 b41f58aff49fe1af38af8d065f49d51c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1542675777 719477 f2d8b6486516c91eaebe063dd9f3e035 ""
-  "ccu.png" 1565853138 39929 6ecf4b7467557b7f1f66e103dfe09415 ""
   "fianancials.png" 1547006943 312515 de57828e0de89a0c54ad61bbd86a3064 ""
   "footnotehyper-sphinx.sty" 1543295005 8886 0562fcad2b7e25f93331edc6fc422c87 ""
-  "scottishbay.png" 1565853138 64550 4ba2fa0df92eb03217725096cb264a23 ""
   "sphinx.sty" 1543295005 68662 158e7929147502e48ab2fdf26a101dfd ""
-  "sphinxhighlight.sty" 1565853157 8137 b8d4ef963833564f6e4eadc09cd757c4 ""
+  "sphinxhighlight.sty" 1566792367 8137 b8d4ef963833564f6e4eadc09cd757c4 ""
   "sphinxmanual.cls" 1543295005 3589 0b0aac49c6f36925cf5f9d524a75a978 ""
   "sphinxmulticell.sty" 1543295005 14618 0defbdc8536ad2e67f1eac6a1431bc55 ""
-  "uarsociety1.png" 1565853138 38759 837cc66f6a00e1ec00b7385ff0934c83 ""
-  "wave-logo.png" 1565853138 42732 e3b368f2bec4cf8ee2532f089e693e0a ""
-  "wave-tokens-wit.aux" 1565853165 9296 8d5d15c3090c07f1b8f33503062879e1 ""
-  "wave-tokens-wit.ind" 1565853161 0 d41d8cd98f00b204e9800998ecf8427e "makeindex wave-tokens-wit.idx"
-  "wave-tokens-wit.out" 1565853165 3607 3d8121afdf0d472a28b2b77fff518ed0 ""
-  "wave-tokens-wit.tex" 1565853158 28303 8ab4629760f358ee5554ac25b7a3cced ""
-  "wave-tokens-wit.toc" 1565853165 2026 da6d612cde820a839c05dbd33b24f780 ""
+  "wave-tokens-wit.aux" 1566792374 9290 6b9db089f4262f67d2e1076eca99fb77 ""
+  "wave-tokens-wit.ind" 1566792371 0 d41d8cd98f00b204e9800998ecf8427e "makeindex wave-tokens-wit.idx"
+  "wave-tokens-wit.out" 1566792374 3612 f77a8ddd41616f8b879c710c9670af0c ""
+  "wave-tokens-wit.tex" 1566792368 26524 23eaaf03f64413dc50585f889b631170 ""
+  "wave-tokens-wit.toc" 1566792374 2018 ea3ca16d4fa24c956174406f40e558ef ""
   (generated)
+  "wave-tokens-wit.toc"
+  "wave-tokens-wit.log"
   "wave-tokens-wit.pdf"
   "wave-tokens-wit.aux"
-  "wave-tokens-wit.log"
   "wave-tokens-wit.idx"
   "wave-tokens-wit.out"
-  "wave-tokens-wit.toc"

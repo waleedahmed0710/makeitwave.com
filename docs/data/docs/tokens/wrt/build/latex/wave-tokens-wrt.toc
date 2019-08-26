@@ -67,4 +67,4 @@
 \contentsline {section}{\numberline {5.50}Account 150 - (B-Naipaul)}{19}{section.5.50}
 \contentsline {section}{\numberline {5.51}Account 401 - Series-A}{19}{section.5.51}
 \contentsline {chapter}{\numberline {6}\sphinxstylestrong {Document Author(s):}}{20}{chapter.6}
-\contentsline {section}{\numberline {6.1}Si\IeC {\^o}n H. Buckler}{20}{section.6.1}
+\contentsline {section}{\numberline {6.1}Make it Wave Ltd}{20}{section.6.1}

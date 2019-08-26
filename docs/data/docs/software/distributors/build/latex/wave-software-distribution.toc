@@ -115,4 +115,4 @@
 \contentsline {section}{\numberline {23.4}Step-4: Ship/ Postage}{42}{section.23.4}
 \contentsline {section}{\numberline {23.5}Refunds}{42}{section.23.5}
 \contentsline {chapter}{\numberline {24}\sphinxstylestrong {Document Author(s):}}{43}{chapter.24}
-\contentsline {section}{\numberline {24.1}Si\IeC {\^o}n H. Buckler}{43}{section.24.1}
+\contentsline {section}{\numberline {24.1}Make it Wave Ltd}{43}{section.24.1}

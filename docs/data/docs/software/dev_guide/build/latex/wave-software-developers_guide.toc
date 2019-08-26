@@ -19,4 +19,4 @@
 \contentsline {subsection}{\numberline {3.5.3}3rd - Compile and Install}{7}{subsection.3.5.3}
 \contentsline {subsection}{\numberline {3.5.4}4th - Reset GPU RAM and Reboot}{7}{subsection.3.5.4}
 \contentsline {chapter}{\numberline {4}\sphinxstylestrong {Document Author(s):}}{8}{chapter.4}
-\contentsline {section}{\numberline {4.1}Si\IeC {\^o}n H. Buckler}{8}{section.4.1}
+\contentsline {section}{\numberline {4.1}Make it Wave Ltd}{8}{section.4.1}
